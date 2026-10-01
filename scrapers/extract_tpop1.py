@@ -21,7 +21,7 @@ from pathlib import Path
 from collections import defaultdict
 import pdfplumber
 
-BASE = Path("data_sources/facilities/CDCR/cdcr_population_pdfs")
+BASE = Path(__file__).resolve().parent.parent / "sources" / "cdcr_population_pdfs"
 
 MONTH_NAMES = {
     "January": 1, "February": 2, "March": 3, "April": 4,
@@ -487,7 +487,7 @@ def main():
             continue
 
     # Write outputs
-    out_dir = Path("data_sources/facilities/CDCR")
+    out_dir = Path(__file__).resolve().parent.parent / "data"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     summary_df = pd.DataFrame(summary_rows)

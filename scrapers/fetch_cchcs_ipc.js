@@ -18,7 +18,7 @@ const fs = require('fs');
 const path = require('path');
 
 const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiY2QyNzllZWItMmIxYi00NTk0LWI0OWQtNWEzMTkwYzA3NGE4IiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9';
-const OUT_PATH = path.join(__dirname, '..', 'data_sources', 'facilities', 'CDCR', 'cchcs_ipc.csv');
+const OUT_PATH = path.join(__dirname, '..', 'data', 'cchcs_ipc.csv');
 const CHECKPOINT_PATH = '/tmp/cchcs_ipc_checkpoint.json';
 
 // Month range to scrape. To advance a year at refresh time, bump LATEST_YEAR —

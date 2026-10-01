@@ -10,7 +10,7 @@
  *   - Felon Pending Revocations
  *   - 3N Population (with and without Prior Serious or Violent)
  *
- * Output: data_sources/facilities/CDCR/cdcr_avg_sentence_by_admission.csv
+ * Output: data/cdcr_avg_sentence_by_admission.csv
  *
  * Usage:
  *   node fetch_cdcr_avg_sentence.js
@@ -21,7 +21,7 @@ const fs = require('fs');
 const path = require('path');
 
 const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiN2RjZmFjNzItMzI0Ni00M2IwLWJmZjgtNDgyMjUyMjVhOWMwIiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9&pageName=6eb2cf1a956ed8b180cb';
-const OUT_PATH = path.join(__dirname, '..', 'data_sources', 'facilities', 'CDCR', 'cdcr_avg_sentence_by_admission.csv');
+const OUT_PATH = path.join(__dirname, '..', 'data', 'cdcr_avg_sentence_by_admission.csv');
 
 async function ss(page, name) {
   const p = `/tmp/cdcr_sentence_${name}.png`;

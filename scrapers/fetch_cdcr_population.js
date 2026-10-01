@@ -17,7 +17,7 @@
  *
  * Output (stable, un-dated LIVING file — the full monthly series grows each
  * refresh; annual averages are computed downstream in create_cdcr_facilities.ipynb):
- *   data_sources/facilities/CDCR/cdcr_population_by_location.csv
+ *   data/cdcr_population_by_location.csv
  *   columns: year, month, cdcr_code, in_custody
  *
  * Usage:
@@ -33,7 +33,7 @@ const fs = require('fs');
 const path = require('path');
 
 const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiN2RjZmFjNzItMzI0Ni00M2IwLWJmZjgtNDgyMjUyMjVhOWMwIiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9&pageName=6eb2cf1a956ed8b180cb';
-const OUT_PATH = path.join(__dirname, '..', 'data_sources', 'facilities', 'CDCR', 'cdcr_population_by_location.csv');
+const OUT_PATH = path.join(__dirname, '..', 'data', 'cdcr_population_by_location.csv');
 
 const MONTHS = { Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6,
                  Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12 };

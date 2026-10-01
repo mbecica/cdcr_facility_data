@@ -8,7 +8,7 @@
  *   Other Trends: ED/Hospital Stay*, Specialty Care Referrals*, Prescriptions Per Patient
  *
  * Output: long-format CSV — month, group, institution, measure, value
- * Saved to: data_sources/facilities/CDCR/cchcs_measures.csv
+ * Saved to: data/cchcs_measures.csv
  *
  * Checkpoint: /tmp/cchcs_measures_checkpoint.json  (delete to re-scrape)
  *
@@ -21,8 +21,8 @@ const fs = require('fs');
 const path = require('path');
 
 const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiY2QyNzllZWItMmIxYi00NTk0LWI0OWQtNWEzMTkwYzA3NGE4IiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9';
-const OUT_PATH = path.join(__dirname, '..', 'data_sources', 'facilities', 'CDCR', 'cchcs_measures.csv');
-const CHECKPOINT_PATH = path.join(__dirname, '..', 'data_sources', 'facilities', 'CDCR', 'cchcs_measures_checkpoint.json');
+const OUT_PATH = path.join(__dirname, '..', 'data', 'cchcs_measures.csv');
+const CHECKPOINT_PATH = path.join(__dirname, '..', '.cache', 'cchcs_measures_checkpoint.json');
 
 // Month range to scrape. To advance a year at refresh time, bump LATEST_YEAR —
 // nothing else (filename, downstream reads) changes. See REFRESH.md.
@@ -410,6 +410,7 @@ async function scrapeGroup(group, targetMonths, checkpoint) {
       }
 
       checkpoint.done.push(checkKey);
+      fs.mkdirSync(path.dirname(CHECKPOINT_PATH), { recursive: true });
       fs.writeFileSync(CHECKPOINT_PATH, JSON.stringify(checkpoint));
       console.log(`  Saved (${institutions.length} institutions, ${rowCount} data cells)`);
     }

@@ -1,0 +1,26 @@
+# Source PDFs (large; download links are in the README for each source)
+sources/cdcr_population_pdfs/
+sources/restricted_housing/
+sources/specialized_beds/*.pdf
+sources/cdcr_staffing/
+sources/cdcr_incidents/
+sources/cdcr_facilities_planning/
+
+# Scraper resume state and run logs (regenerable)
+.cache/
+data/cdcr_incidents_extraction_notes.txt
+
+# Local working notes, plans and runbooks (not published)
+notes/
+
+# Node
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

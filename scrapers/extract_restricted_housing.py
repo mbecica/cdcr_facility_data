@@ -3,7 +3,7 @@
 Extract CDCR Restricted Housing (STA429) monthly PDFs into a long-format CSV.
 
 Reads all STA429-MMDDYY-M.pdf files from:
-  data_sources/facilities/CDCR/restricted_housing/
+  sources/restricted_housing/
 
 Extracts Table 2 (page 2): institution-level RH population, total population,
 and % in RH for each month.
@@ -13,7 +13,7 @@ Filename convention: STA429-MMDDYY-M.pdf
   Data as-of date  = last day of the prior month
   (e.g. STA429-030525-M.pdf published Mar 5 2025 → data as of Feb 28 2025)
 
-Output: data_sources/facilities/CDCR/restricted_housing.csv
+Output: data/restricted_housing.csv
   Columns: data_month, cdcr_code, rhu_population, total_population, pct_in_rhu
   (living series — reprocesses every STA429 PDF in the input folder, all years)
 """
@@ -24,8 +24,8 @@ from pathlib import Path
 from datetime import date, timedelta
 import pdfplumber
 
-BASE = Path("data_sources/facilities/CDCR/restricted_housing")
-OUT  = Path("data_sources/facilities/CDCR/restricted_housing.csv")
+BASE = Path(__file__).resolve().parent.parent / "sources" / "restricted_housing"
+OUT  = Path(__file__).resolve().parent.parent / "data" / "restricted_housing.csv"
 
 # Rows to skip in Table 2 (not facility rows)
 SKIP_ROWS = {"Other In-Custody Populations", "Total"}

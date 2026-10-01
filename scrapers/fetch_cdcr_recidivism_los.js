@@ -10,7 +10,7 @@
  * Also captures the headline three-year return rate per fiscal year from the
  * main dashboard page (2008-09 through 2019-20).
  *
- * Output: data_sources/facilities/CDCR/cdcr_recidivism_los.csv
+ * Output: data/cdcr_recidivism_los.csv
  *
  * Usage:
  *   node fetch_cdcr_recidivism_los.js
@@ -21,7 +21,7 @@ const fs = require('fs');
 const path = require('path');
 
 const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiNmRjOTkwMWEtYmVkMy00MTA1LWIxZDYtYzg4OTIzYjkxNTRlIiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9';
-const OUT_PATH = path.join(__dirname, '..', 'data_sources', 'facilities', 'CDCR', 'cdcr_recidivism_los.csv');
+const OUT_PATH = path.join(__dirname, '..', 'data', 'cdcr_recidivism_los.csv');
 
 async function ss(page, name) {
   const p = `/tmp/recid_los_${name}.png`;

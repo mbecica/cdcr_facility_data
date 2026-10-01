@@ -19,7 +19,7 @@ Extract specialized mental health bed data from CDCR PDF reports into CSVs:
      Facility-level mental health program flags read from the map's icon
      letters in the PDF text layer.
 
-Sources: data_sources/facilities/CDCR/specialized_beds/*.pdf
+Sources: sources/specialized_beds/*.pdf
 
 Usage:
   python3 scrapers/extract_specialized_beds.py
@@ -30,8 +30,8 @@ import pandas as pd
 import pdfplumber
 from pathlib import Path
 
-SRC = Path("data_sources/facilities/CDCR/specialized_beds")
-OUT = Path("data_sources/facilities/CDCR")
+SRC = Path(__file__).resolve().parent.parent / "sources" / "specialized_beds"
+OUT = Path(__file__).resolve().parent.parent / "data"
 
 
 # ── Helpers ─────────────────────────────────────────────────────────────────

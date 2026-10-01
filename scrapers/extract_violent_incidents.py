@@ -29,8 +29,9 @@ import csv
 from collections import defaultdict
 import os
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-INCIDENTS_DIR = os.path.join(BASE_DIR, "cdcr_incidents")
+REPO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.join(REPO_DIR, "data")
+INCIDENTS_DIR = os.path.join(REPO_DIR, "sources", "cdcr_incidents")
 
 # PDF files in order from OLDEST to NEWEST so newer data overrides older for overlapping months
 PDFS = [

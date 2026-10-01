@@ -1,0 +1,10 @@
+{
+  "name": "cdcr_facility_data",
+  "private": true,
+  "description": "Scrapers for CDCR, CCHCS and SB 601 Power BI dashboards",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
