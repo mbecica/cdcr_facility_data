@@ -208,7 +208,7 @@ Source PDFs are not stored in the repository. Download new reports into the matc
 | SB 601 | SB 601 dashboard | — | `node scrapers/fetch_sb601_operations.js`, `node scrapers/fetch_sb601_programs.js` |
 | Staffing | SCO Active State Employees by Department | `sources/cdcr_staffing/` | `python3 scrapers/extract_sco_staffing.py`, then `build_sco_staffing_avg.py` |
 | Violent incidents | CDCR incident reports | `sources/cdcr_incidents/` | Add the filename to the list in `scrapers/extract_violent_incidents.py`, then run it |
-| Mental health beds | [CCHCS reports](https://cchcs.ca.gov/reports/) | `sources/specialized_beds/` (`YYYY-MM-DD_` prefix) | `python3 scrapers/extract_specialized_beds.py` |
+| Mental health beds | [CCHCS reports](https://cchcs.ca.gov/reports/): monthly PIP census, Coleman PIP waitlist, and MHCB census reports, and the Mental Health Bed Need Study | `sources/specialized_beds/`, keeping the `YYYY-MM-DD_` report-date prefix | `python3 scrapers/extract_specialized_beds.py` |
 | Sentences, returns | Population Data Points and Adult Recidivism dashboards | — | `node scrapers/fetch_cdcr_avg_sentence.js`, `node scrapers/fetch_cdcr_recidivism_los.js` |
 | Cooling, indoor heat, MPAR, facility metadata | CDCR reports | `sources/` | Transcribed by hand |
 
@@ -222,7 +222,9 @@ Code is MIT and data is CC BY 4.0; see [LICENSE.md](LICENSE.md). The data are pu
 
 California Correctional Health Care Services. (2025). *Health Care Services Dashboard* [Interactive dashboard]. https://cchcs.ca.gov/dashboard/
 
-California Correctional Health Care Services. (2025–2026). *Reports & Court Orders* [PIP census, Coleman waitlist, MHCB census, Mental Health Bed Need Study]. https://cchcs.ca.gov/reports/
+California Correctional Health Care Services. (2025–2026). *Reports & Court Orders* [PIP census, Coleman waitlist, MHCB census]. https://cchcs.ca.gov/reports/
+
+California Correctional Health Care Services. (2025). *Fall 2025 Mental Health Bed Need Study*. https://cchcs.ca.gov/wp-content/uploads/sites/60/Fall-2025-Mental-Health-Bed-Need-Study.pdf
 
 California Department of Corrections and Rehabilitation. (2015–2026). *Monthly Total Population Report (TPOP-1)*. Office of Research. https://www.cdcr.ca.gov/research/population-reports-2/
 
