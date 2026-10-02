@@ -5,11 +5,11 @@
 ## Usage
 
 ```bash
-# From repo root — requires the a running conda env with pandas and pdfplumber
-conda run -n [conda environment] python3 scrapers/extract_tpop1.py
+# Requires pandas and pdfplumber
+python3 scrapers/extract_tpop1.py
 ```
 
-Outputs written to `data_sources/facilities/CDCR/`:
+Outputs written to `data/`:
 - `tpop1_summary.csv` — Total CDCR Population table (page 1)
 - `tpop1_institutions.csv` — Institution Population Detail table (page 2)
 
@@ -20,12 +20,12 @@ https://www.cdcr.ca.gov/research/population-reports-2/ (TPOP-1 monthly and
 weekly reports). CDCR has removed some older archives from the site; historical
 reports can be requested from the Office of Research Data Concierge Service at
 data.requests@cdcr.ca.gov. The PDFs are not tracked in git — the extracted
-CSVs in `data_sources/facilities/CDCR/` are.
+CSVs in `data/` are.
 
 | Period | Format | Location | Naming |
 | :--- | :--- | :--- | :--- |
-| 2019–2026 | Monthly | `cdcr_population_pdfs/` | `Tpop1d{YYMM}.pdf` (standard); a few files use `Tpop1d{YYMMDD}.pdf` or `Tpop1d{YYMM}-1.pdf` |
-| 2015–2018 | Weekly | `cdcr_population_pdfs/tpop_weekly/{YYYY}/` | `Tpop1d{YYMMDD}.pdf` |
+| 2019–2026 | Monthly | `sources/cdcr_population_pdfs/` | `Tpop1d{YYMM}.pdf` (standard); a few files use `Tpop1d{YYMMDD}.pdf` or `Tpop1d{YYMM}-1.pdf` |
+| 2015–2018 | Weekly | `sources/cdcr_population_pdfs/tpop_weekly/{YYYY}/` | `Tpop1d{YYMMDD}.pdf` |
 
 **Weekly 2015–2018 selection:** Only the last weekly file of each calendar month is used, to match monthly reporting cadence. Files are grouped by `YYMM` from the filename and the lexicographically last file per group is selected (e.g., January 2018 → `Tpop1d180131.pdf`).
 

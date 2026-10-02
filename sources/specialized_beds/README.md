@@ -1,9 +1,6 @@
 # CDCR specialized mental health bed reports
 
-Source PDFs for `scrapers/extract_specialized_beds.py`, downloaded 2026-05-01.
-These files are kept out of git — download them from the sources below into
-this directory (keep the `YYYY-MM-DD_` filename prefix; it is parsed for the
-report date).
+Source PDFs for `scrapers/extract_specialized_beds.py`. The PDFs are not tracked in git; download them from the sources below into this directory and keep the `YYYY-MM-DD_` filename prefix, which is read as the report date.
 
 ## Sources
 
@@ -18,10 +15,7 @@ https://cchcs.ca.gov/reports/
 - section "CDCR Mental Health Crisis Bed Patient Census and Waitlist Report", e.g.
   `https://cchcs.ca.gov/wp-content/uploads/sites/60/2026-06-22_CDCR-Mental-Health-Crisis-Bed-Patient-Census-and-Waitlist.pdf`
 
-Reports held here: Oct 2025, Nov 2025, Dec 2025, Jan 2026 (+ Mar 2026 PIP
-census only). Earlier report dates used slightly different filenames
-(`PIP-Census-Rpt`, `CDCR-PIP-Waitlist`, `CDCR-MHCB-Court-Report`); the scraper
-globs all variants.
+Earlier reports use slightly different filenames (`PIP-Census-Rpt`, `CDCR-PIP-Waitlist`, `CDCR-MHCB-Court-Report`); the extractor reads all of them.
 
 **Fall 2025 Mental Health Bed Need Study**
 https://cchcs.ca.gov/wp-content/uploads/sites/60/Fall-2025-Mental-Health-Bed-Need-Study.pdf
