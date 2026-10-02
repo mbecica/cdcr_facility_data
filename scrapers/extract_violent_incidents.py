@@ -18,7 +18,7 @@ Output columns:
     assault_on_inmate, battery_on_inmate, fighting, riot,
     assault_on_officer, battery_on_officer, cell_extractions, source_file
 
-    violent_incidents  = inmate_on_inmate + staff_involved  (backwards-compat total)
+    violent_incidents  = inmate_on_inmate + staff_involved
     inmate_on_inmate   = assault_on_inmate + battery_on_inmate + fighting + riot
     staff_involved     = assault_on_officer + battery_on_officer + cell_extractions
 """

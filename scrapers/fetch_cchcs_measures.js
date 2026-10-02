@@ -10,7 +10,7 @@
  * Output: long-format CSV — month, group, institution, measure, value
  * Saved to: data/cchcs_measures.csv
  *
- * Checkpoint: /tmp/cchcs_measures_checkpoint.json  (delete to re-scrape)
+ * Checkpoint: .cache/cchcs_measures_checkpoint.json  (delete to re-scrape)
  *
  * Usage:
  *   node scrapers/fetch_cchcs_measures.js
@@ -24,8 +24,7 @@ const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiY2QyNzllZWItMmIxYi00NTk0LW
 const OUT_PATH = path.join(__dirname, '..', 'data', 'cchcs_measures.csv');
 const CHECKPOINT_PATH = path.join(__dirname, '..', '.cache', 'cchcs_measures_checkpoint.json');
 
-// Month range to scrape. To advance a year at refresh time, bump LATEST_YEAR —
-// nothing else (filename, downstream reads) changes. See REFRESH.md.
+// Month range to scrape. To add a year, change LATEST_YEAR.
 const FIRST_YEAR = 2017;
 const LATEST_YEAR = 2025;
 

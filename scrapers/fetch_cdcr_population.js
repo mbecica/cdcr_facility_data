@@ -3,11 +3,8 @@
  * Population Data Points dashboard:
  *   In-Custody > Crosstabs > Rows = "Location", Columns = "None"
  *
- * This is the per-facility population that feeds `average_YYYY_population` /
- * `capacity_percent_YYYY` in cdcr_facilities.csv. It replaces the hand-made
- * CDCR_YYYY_pop_averages.csv transcription and removes the need to download
- * TPOP-1 population PDFs (CDCR's dashboard now carries the same institution
- * counts). See REFRESH.md §2.
+ * This is the per-institution population behind `average_YYYY_population` in
+ * cdcr_facilities.csv.
  *
  * The "Location" dimension lists every CDCR institution code (ASP, CTF, SATF, …)
  * plus a few non-institution programs (Community Reentry, Department of State
@@ -15,8 +12,8 @@
  * the institution codes in cdcr_facilities.csv. Counts < 10 are suppressed by
  * CDCR (shown as "*") and are emitted as blank.
  *
- * Output (stable, un-dated LIVING file — the full monthly series grows each
- * refresh; annual averages are computed downstream in create_cdcr_facilities.ipynb):
+ * Output (the full monthly series; annual averages are computed in
+ * build_cdcr_facilities.py):
  *   data/cdcr_population_by_location.csv
  *   columns: year, month, cdcr_code, in_custody
  *

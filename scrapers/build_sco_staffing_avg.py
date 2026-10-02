@@ -6,8 +6,7 @@ CDCR institutional code, and writes:
 
     data/sco_staffing_avg.csv
 
-To advance a year at refresh time, bump LATEST_YEAR below — the filenames are
-stable. See REFRESH.md.
+To use a different year, change LATEST_YEAR below.
 
 Columns: cdcr_code, sco_facility_name, is_pia, is_cchcs,
          n_snapshots, full_time, part_time, intermittent, indeterminate, total

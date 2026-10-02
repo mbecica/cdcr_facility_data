@@ -21,8 +21,7 @@ const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiY2QyNzllZWItMmIxYi00NTk0LW
 const OUT_PATH = path.join(__dirname, '..', 'data', 'cchcs_ipc.csv');
 const CHECKPOINT_PATH = '/tmp/cchcs_ipc_checkpoint.json';
 
-// Month range to scrape. To advance a year at refresh time, bump LATEST_YEAR —
-// nothing else (filename, downstream reads) changes. See REFRESH.md.
+// Month range to scrape. To add a year, change LATEST_YEAR.
 const FIRST_YEAR = 2017;
 const LATEST_YEAR = 2025;
 

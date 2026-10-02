@@ -215,7 +215,7 @@ def parse_page1_format_b(page, report_date):
 
     The overprint underline technique makes section headers and aggregate total
     rows unreadable as plain text, but the raw PDF chars are intact.  We decode
-    every line — including the previously garbled totals — by extracting the
+    every line, including the overprinted totals, by extracting the
     content character from each overprinted pair.
 
     Column order (from the column header): FELON/OTHER, CIVIL ADDICT, TOTAL,
