@@ -37,7 +37,10 @@ Transcribed and downloaded source files in `sources/`:
 | `CDCR_indoor_78f_days_2025.csv` | Days with indoor temperatures above 78°F, May–Oct 2025 | Same report, Table 1 |
 | `cdcr_in-custody-{age,gender,race,countryofbirth}_2025.csv` | Monthly population by demographic group and institution | CDCR Population Data Set, 2025 |
 | `CDCR_2025_pop_averages.csv` | 2025 average population by institution | Transcribed from TPOP-1 reports |
-| `cdcr_manual_data.csv` | Year opened, planned closure, California Model and Air Cooling Pilot participation | LAO (2020) and online documentation |
+| `infrastructure_plan_profiles_2026.csv` | Building square footage, acres, design capacity split into cell and dorm beds, security levels, water and wastewater treatment plants, and deactivated facilities, per institution (as of April 2026) | CDCR Infrastructure Master Plan, May 2026, Appendix 1 |
+| `condition_assessment_2026.csv` | Condition rating (Plus, Good, Fair, Poor, Failing, N/A) of 45 utility and building systems at each institution, one row per institution and system | CDCR Infrastructure Master Plan, May 2026, Appendix 2, p. 2 |
+| `condition_assessment_rank_2026.csv` | Overall condition rank, 1 (worst) to 31 (best), weighted by each system's operational impact | Same, Appendix 2, p. 1 |
+| `cdcr_manual_data.csv` | Year opened, planned closure, California Model, Air Cooling Pilot, and Infrastructure Master Plan priority participation | LAO (2020) and online documentation |
 | `mpar_projects_completed.csv` | Completed capital projects | CDCR Master Plan Annual Reports, 2022–2025 |
 | `mpar_envelope_last_completed.csv` | Most recent roofing or building envelope project by institution | CDCR Master Plan Annual Reports, 2020–2025 |
 | `cchcs_mortality_2006-2024.csv` | Annual deaths and mortality rates, system-wide | CCHCS Health Care Services Dashboard |
@@ -86,6 +89,15 @@ Demographic shares are the mean monthly count in each group divided by `average_
 
 Housing units with more than one cooling type are counted under each, so the three shares can sum to slightly more than 1. CVSP and FWF are not in the report. CIM's mix is the least certain: the report shows no evaporative cooling, although its Facility A retrofit completed in February 2025 is evaporative (CEQA #2018128257).
 
+| Variable | Description | Source |
+| :--- | :--- | :--- |
+| `cond_cooling_mechanical_2026`, `cond_cooling_evaporative_2026` | Condition of the institution's mechanical (A/C) and evaporative cooling systems. | CDCR Infrastructure Master Plan, May 2026, Appendix 2 |
+| `cooling_types_outside_housing` | Cooling types (`mechanical`, `evaporative`) that have a condition rating at the institution but are in none of its housing units, so they serve only non-housing buildings. CIM's `evaporative` may be an exception: its Facility A evaporative retrofit (see above) is not in the Air Cooling report's housing counts. | Appendix 2 and Air Cooling Pilot Supplemental Report, Table 2 |
+| `cond_hydronic_loops_2026`, `cond_boilers_2026`, `cond_automated_controls_2026`, `cond_emergency_electrical_2026`, `cond_roofs_2026` | Condition of hydronic (chilled/hot water) loops, central boilers, automated building controls (SCADA, BMS, BAS), emergency electrical distribution, and roofs. | Same |
+| `condition_rank_2026` | Overall condition rank across all 45 systems, 1 (worst) to 31 (best). CDCR's Correctional Training Center, the officer academy, is ranked but not in this table. | Same, p. 1 |
+
+Ratings were assigned by each institution's plant operations staff, not through a formal facility condition assessment: **Plus** (expected to exceed 20 years of operation), **Good** (generally well maintained), **Fair** (needs repairs, typical wear and tear), **Poor** (significant disrepair), **Failing** (at risk of failure or unusable), and **N/A** (the system does not exist at the institution). Each rating covers the whole institution, including non-housing buildings, so a rated cooling system may not serve any housing unit (for example, ASP has a mechanical A/C rating but no housing units with mechanical cooling).
+
 ### Facility characteristics
 
 | Variable | Description | Source |
@@ -95,6 +107,10 @@ Housing units with more than one cooling type are counted under each, so the thr
 | `planned_closure` | `Yes` if the institution is marked for closure. | Online documentation |
 | `california_model_facility` | `Yes` if the institution is part of the California Model. | Online documentation |
 | `cdcr_air_cooling_pilot` | `Yes` if the institution is in the Air Cooling Pilot. | Online documentation |
+| `infrastructure_priority_2026` | `Yes` for the five institutions slated for major capital projects in the next five years (CMF, CCWF, SCC, COR, CIM). | CDCR Infrastructure Master Plan, May 2026, p. 20 |
+| `building_sqft` | Square feet of buildings at the institution, all uses. | CDCR Infrastructure Master Plan, May 2026, Appendix 1 |
+| `cell_beds`, `dorm_beds` | Design capacity split into cell beds and dormitory beds, as of April 2026. The two sum to design capacity. | Same |
+| `building_sqft_per_design_bed` | `building_sqft` ÷ design capacity. Blank for SCC, CIW, and CMC: their design capacity includes conservation camp beds (31, 2, and 1 camps), and no source separates camp beds from institution beds (TPOP-1 reports CIW and SCC camps only as one combined line). | Same |
 
 ### Programs
 
@@ -239,6 +255,8 @@ California Department of Corrections and Rehabilitation. (2021–2025). *CompSta
 California Department of Corrections and Rehabilitation. (2026, January). *Air Cooling Pilot Program Supplemental Report*. https://www.cdcr.ca.gov/fpcm/wp-content/uploads/sites/184/2026/02/Air_Cooling_Document_for_Legislature.pdf
 
 California Department of Corrections and Rehabilitation, Facilities Planning, Construction and Management. (2020–2025). *Master Plan Annual Report*.
+
+California Department of Corrections and Rehabilitation, Facility Planning, Construction and Management. (2026, May). *Infrastructure Master Plan* and Appendices 1–3. https://www.cdcr.ca.gov/fpcm/cdcr-infrastructure-master-plan/
 
 California Department of Corrections and Rehabilitation. (2021). *Mental Health Services Delivery System Map*. https://www.cdcr.ca.gov/bph/wp-content/uploads/sites/161/2021/10/MHSDS-Map-2021.07.02.pdf
 

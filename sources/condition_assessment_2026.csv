@@ -1,0 +1,1396 @@
+institution,system,rating
+ASP,Above Ground Storage Tanks,Fair
+CAL,Above Ground Storage Tanks,Fair
+CCI,Above Ground Storage Tanks,Fair
+CCWF,Above Ground Storage Tanks,Fair
+CEN,Above Ground Storage Tanks,N/A
+CHCF,Above Ground Storage Tanks,Fair
+CIM,Above Ground Storage Tanks,Fair
+CIW,Above Ground Storage Tanks,Poor
+CMC,Above Ground Storage Tanks,Fair
+CMF,Above Ground Storage Tanks,Good
+COR,Above Ground Storage Tanks,Fair
+CTC,Above Ground Storage Tanks,Fair
+CTF,Above Ground Storage Tanks,Fair
+FSP,Above Ground Storage Tanks,Good
+HDSP,Above Ground Storage Tanks,Good
+ISP,Above Ground Storage Tanks,Good
+KVSP,Above Ground Storage Tanks,Good
+LAC,Above Ground Storage Tanks,Good
+MCSP,Above Ground Storage Tanks,Fair
+NKSP,Above Ground Storage Tanks,Good
+PBSP,Above Ground Storage Tanks,Failing
+PVSP,Above Ground Storage Tanks,N/A
+RJD,Above Ground Storage Tanks,Good
+SAC,Above Ground Storage Tanks,Good
+SATF,Above Ground Storage Tanks,Good
+SCC,Above Ground Storage Tanks,Fair
+SOL,Above Ground Storage Tanks,Fair
+SQRC,Above Ground Storage Tanks,Good
+SVSP,Above Ground Storage Tanks,Good
+VSP,Above Ground Storage Tanks,Good
+WSP,Above Ground Storage Tanks,Fair
+ASP,Air Cooling (Evaporative System),Fair
+CAL,Air Cooling (Evaporative System),N/A
+CCI,Air Cooling (Evaporative System),N/A
+CCWF,Air Cooling (Evaporative System),Fair
+CEN,Air Cooling (Evaporative System),N/A
+CHCF,Air Cooling (Evaporative System),N/A
+CIM,Air Cooling (Evaporative System),Fair
+CIW,Air Cooling (Evaporative System),Fair
+CMC,Air Cooling (Evaporative System),Fair
+CMF,Air Cooling (Evaporative System),Poor
+COR,Air Cooling (Evaporative System),Poor
+CTC,Air Cooling (Evaporative System),Fair
+CTF,Air Cooling (Evaporative System),Fair
+FSP,Air Cooling (Evaporative System),Fair
+HDSP,Air Cooling (Evaporative System),Fair
+ISP,Air Cooling (Evaporative System),N/A
+KVSP,Air Cooling (Evaporative System),Fair
+LAC,Air Cooling (Evaporative System),Poor
+MCSP,Air Cooling (Evaporative System),Poor
+NKSP,Air Cooling (Evaporative System),Poor
+PBSP,Air Cooling (Evaporative System),Fair
+PVSP,Air Cooling (Evaporative System),Fair
+RJD,Air Cooling (Evaporative System),N/A
+SAC,Air Cooling (Evaporative System),Fair
+SATF,Air Cooling (Evaporative System),Fair
+SCC,Air Cooling (Evaporative System),Fair
+SOL,Air Cooling (Evaporative System),Fair
+SQRC,Air Cooling (Evaporative System),Poor
+SVSP,Air Cooling (Evaporative System),Fair
+VSP,Air Cooling (Evaporative System),Poor
+WSP,Air Cooling (Evaporative System),Poor
+ASP,Air Cooling (Mechanical- A/C),Poor
+CAL,Air Cooling (Mechanical- A/C),Plus
+CCI,Air Cooling (Mechanical- A/C),Fair
+CCWF,Air Cooling (Mechanical- A/C),Fair
+CEN,Air Cooling (Mechanical- A/C),Failing
+CHCF,Air Cooling (Mechanical- A/C),Good
+CIM,Air Cooling (Mechanical- A/C),Failing
+CIW,Air Cooling (Mechanical- A/C),Failing
+CMC,Air Cooling (Mechanical- A/C),Fair
+CMF,Air Cooling (Mechanical- A/C),Poor
+COR,Air Cooling (Mechanical- A/C),Fair
+CTC,Air Cooling (Mechanical- A/C),Fair
+CTF,Air Cooling (Mechanical- A/C),Fair
+FSP,Air Cooling (Mechanical- A/C),Fair
+HDSP,Air Cooling (Mechanical- A/C),Fair
+ISP,Air Cooling (Mechanical- A/C),Good
+KVSP,Air Cooling (Mechanical- A/C),Fair
+LAC,Air Cooling (Mechanical- A/C),Fair
+MCSP,Air Cooling (Mechanical- A/C),Poor
+NKSP,Air Cooling (Mechanical- A/C),Fair
+PBSP,Air Cooling (Mechanical- A/C),Good
+PVSP,Air Cooling (Mechanical- A/C),Fair
+RJD,Air Cooling (Mechanical- A/C),Poor
+SAC,Air Cooling (Mechanical- A/C),Fair
+SATF,Air Cooling (Mechanical- A/C),Fair
+SCC,Air Cooling (Mechanical- A/C),Fair
+SOL,Air Cooling (Mechanical- A/C),Fair
+SQRC,Air Cooling (Mechanical- A/C),Poor
+SVSP,Air Cooling (Mechanical- A/C),Fair
+VSP,Air Cooling (Mechanical- A/C),Poor
+WSP,Air Cooling (Mechanical- A/C),Fair
+ASP,Asphalt/Roads,Fair
+CAL,Asphalt/Roads,Failing
+CCI,Asphalt/Roads,Poor
+CCWF,Asphalt/Roads,Poor
+CEN,Asphalt/Roads,Poor
+CHCF,Asphalt/Roads,Fair
+CIM,Asphalt/Roads,Failing
+CIW,Asphalt/Roads,Poor
+CMC,Asphalt/Roads,Fair
+CMF,Asphalt/Roads,Poor
+COR,Asphalt/Roads,Poor
+CTC,Asphalt/Roads,Poor
+CTF,Asphalt/Roads,Poor
+FSP,Asphalt/Roads,Poor
+HDSP,Asphalt/Roads,Poor
+ISP,Asphalt/Roads,Poor
+KVSP,Asphalt/Roads,Fair
+LAC,Asphalt/Roads,Poor
+MCSP,Asphalt/Roads,Poor
+NKSP,Asphalt/Roads,Poor
+PBSP,Asphalt/Roads,Fair
+PVSP,Asphalt/Roads,Fair
+RJD,Asphalt/Roads,Fair
+SAC,Asphalt/Roads,Poor
+SATF,Asphalt/Roads,Fair
+SCC,Asphalt/Roads,Fair
+SOL,Asphalt/Roads,Poor
+SQRC,Asphalt/Roads,Fair
+SVSP,Asphalt/Roads,Poor
+VSP,Asphalt/Roads,Fair
+WSP,Asphalt/Roads,Poor
+ASP,"Automated Controls - SCADA, BMS, BAS",N/A
+CAL,"Automated Controls - SCADA, BMS, BAS",Good
+CCI,"Automated Controls - SCADA, BMS, BAS",Failing
+CCWF,"Automated Controls - SCADA, BMS, BAS",Poor
+CEN,"Automated Controls - SCADA, BMS, BAS",Poor
+CHCF,"Automated Controls - SCADA, BMS, BAS",Good
+CIM,"Automated Controls - SCADA, BMS, BAS",Poor
+CIW,"Automated Controls - SCADA, BMS, BAS",Poor
+CMC,"Automated Controls - SCADA, BMS, BAS",Poor
+CMF,"Automated Controls - SCADA, BMS, BAS",Poor
+COR,"Automated Controls - SCADA, BMS, BAS",Failing
+CTC,"Automated Controls - SCADA, BMS, BAS",Poor
+CTF,"Automated Controls - SCADA, BMS, BAS",N/A
+FSP,"Automated Controls - SCADA, BMS, BAS",Fair
+HDSP,"Automated Controls - SCADA, BMS, BAS",Fair
+ISP,"Automated Controls - SCADA, BMS, BAS",Good
+KVSP,"Automated Controls - SCADA, BMS, BAS",Failing
+LAC,"Automated Controls - SCADA, BMS, BAS",Fair
+MCSP,"Automated Controls - SCADA, BMS, BAS",Poor
+NKSP,"Automated Controls - SCADA, BMS, BAS",N/A
+PBSP,"Automated Controls - SCADA, BMS, BAS",Poor
+PVSP,"Automated Controls - SCADA, BMS, BAS",Poor
+RJD,"Automated Controls - SCADA, BMS, BAS",Failing
+SAC,"Automated Controls - SCADA, BMS, BAS",Poor
+SATF,"Automated Controls - SCADA, BMS, BAS",N/A
+SCC,"Automated Controls - SCADA, BMS, BAS",Poor
+SOL,"Automated Controls - SCADA, BMS, BAS",Poor
+SQRC,"Automated Controls - SCADA, BMS, BAS",Fair
+SVSP,"Automated Controls - SCADA, BMS, BAS",Fair
+VSP,"Automated Controls - SCADA, BMS, BAS",Poor
+WSP,"Automated Controls - SCADA, BMS, BAS",Failing
+ASP,Central Boiler Plant / Boilers,Failing
+CAL,Central Boiler Plant / Boilers,Poor
+CCI,Central Boiler Plant / Boilers,Fair
+CCWF,Central Boiler Plant / Boilers,Fair
+CEN,Central Boiler Plant / Boilers,Poor
+CHCF,Central Boiler Plant / Boilers,Fair
+CIM,Central Boiler Plant / Boilers,Good
+CIW,Central Boiler Plant / Boilers,N/A
+CMC,Central Boiler Plant / Boilers,Poor
+CMF,Central Boiler Plant / Boilers,Failing
+COR,Central Boiler Plant / Boilers,Plus
+CTC,Central Boiler Plant / Boilers,Fair
+CTF,Central Boiler Plant / Boilers,Fair
+FSP,Central Boiler Plant / Boilers,Poor
+HDSP,Central Boiler Plant / Boilers,Poor
+ISP,Central Boiler Plant / Boilers,Poor
+KVSP,Central Boiler Plant / Boilers,Fair
+LAC,Central Boiler Plant / Boilers,Fair
+MCSP,Central Boiler Plant / Boilers,Poor
+NKSP,Central Boiler Plant / Boilers,Plus
+PBSP,Central Boiler Plant / Boilers,Fair
+PVSP,Central Boiler Plant / Boilers,N/A
+RJD,Central Boiler Plant / Boilers,Failing
+SAC,Central Boiler Plant / Boilers,Fair
+SATF,Central Boiler Plant / Boilers,Good
+SCC,Central Boiler Plant / Boilers,Fair
+SOL,Central Boiler Plant / Boilers,N/A
+SQRC,Central Boiler Plant / Boilers,Plus
+SVSP,Central Boiler Plant / Boilers,N/A
+VSP,Central Boiler Plant / Boilers,Poor
+WSP,Central Boiler Plant / Boilers,Poor
+ASP,Cogeneration Plant,Failing
+CAL,Cogeneration Plant,N/A
+CCI,Cogeneration Plant,N/A
+CCWF,Cogeneration Plant,N/A
+CEN,Cogeneration Plant,N/A
+CHCF,Cogeneration Plant,N/A
+CIM,Cogeneration Plant,Good
+CIW,Cogeneration Plant,N/A
+CMC,Cogeneration Plant,N/A
+CMF,Cogeneration Plant,N/A
+COR,Cogeneration Plant,N/A
+CTC,Cogeneration Plant,N/A
+CTF,Cogeneration Plant,N/A
+FSP,Cogeneration Plant,N/A
+HDSP,Cogeneration Plant,N/A
+ISP,Cogeneration Plant,N/A
+KVSP,Cogeneration Plant,N/A
+LAC,Cogeneration Plant,N/A
+MCSP,Cogeneration Plant,N/A
+NKSP,Cogeneration Plant,N/A
+PBSP,Cogeneration Plant,N/A
+PVSP,Cogeneration Plant,N/A
+RJD,Cogeneration Plant,Failing
+SAC,Cogeneration Plant,N/A
+SATF,Cogeneration Plant,N/A
+SCC,Cogeneration Plant,N/A
+SOL,Cogeneration Plant,N/A
+SQRC,Cogeneration Plant,N/A
+SVSP,Cogeneration Plant,N/A
+VSP,Cogeneration Plant,N/A
+WSP,Cogeneration Plant,N/A
+ASP,Culinary Chillers/Refrigerated Rooms/Freezers,Fair
+CAL,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+CCI,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+CCWF,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+CEN,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+CHCF,Culinary Chillers/Refrigerated Rooms/Freezers,Fair
+CIM,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+CIW,Culinary Chillers/Refrigerated Rooms/Freezers,Fair
+CMC,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+CMF,Culinary Chillers/Refrigerated Rooms/Freezers,Failing
+COR,Culinary Chillers/Refrigerated Rooms/Freezers,Failing
+CTC,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+CTF,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+FSP,Culinary Chillers/Refrigerated Rooms/Freezers,Fair
+HDSP,Culinary Chillers/Refrigerated Rooms/Freezers,Fair
+ISP,Culinary Chillers/Refrigerated Rooms/Freezers,Failing
+KVSP,Culinary Chillers/Refrigerated Rooms/Freezers,Failing
+LAC,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+MCSP,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+NKSP,Culinary Chillers/Refrigerated Rooms/Freezers,Failing
+PBSP,Culinary Chillers/Refrigerated Rooms/Freezers,Fair
+PVSP,Culinary Chillers/Refrigerated Rooms/Freezers,Plus
+RJD,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+SAC,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+SATF,Culinary Chillers/Refrigerated Rooms/Freezers,Failing
+SCC,Culinary Chillers/Refrigerated Rooms/Freezers,Fair
+SOL,Culinary Chillers/Refrigerated Rooms/Freezers,Failing
+SQRC,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+SVSP,Culinary Chillers/Refrigerated Rooms/Freezers,Fair
+VSP,Culinary Chillers/Refrigerated Rooms/Freezers,Poor
+WSP,Culinary Chillers/Refrigerated Rooms/Freezers,Fair
+ASP,Data and Wifi,Good
+CAL,Data and Wifi,Fair
+CCI,Data and Wifi,Good
+CCWF,Data and Wifi,Poor
+CEN,Data and Wifi,N/A
+CHCF,Data and Wifi,Poor
+CIM,Data and Wifi,Good
+CIW,Data and Wifi,Fair
+CMC,Data and Wifi,Poor
+CMF,Data and Wifi,Fair
+COR,Data and Wifi,Fair
+CTC,Data and Wifi,Fair
+CTF,Data and Wifi,Fair
+FSP,Data and Wifi,Fair
+HDSP,Data and Wifi,Good
+ISP,Data and Wifi,Fair
+KVSP,Data and Wifi,Fair
+LAC,Data and Wifi,Fair
+MCSP,Data and Wifi,Poor
+NKSP,Data and Wifi,Fair
+PBSP,Data and Wifi,Fair
+PVSP,Data and Wifi,Good
+RJD,Data and Wifi,Fair
+SAC,Data and Wifi,Fair
+SATF,Data and Wifi,Poor
+SCC,Data and Wifi,Poor
+SOL,Data and Wifi,Fair
+SQRC,Data and Wifi,Fair
+SVSP,Data and Wifi,Poor
+VSP,Data and Wifi,Fair
+WSP,Data and Wifi,Fair
+ASP,Electrical Vehicle Charging Stations,Good
+CAL,Electrical Vehicle Charging Stations,N/A
+CCI,Electrical Vehicle Charging Stations,N/A
+CCWF,Electrical Vehicle Charging Stations,Good
+CEN,Electrical Vehicle Charging Stations,Good
+CHCF,Electrical Vehicle Charging Stations,Good
+CIM,Electrical Vehicle Charging Stations,Good
+CIW,Electrical Vehicle Charging Stations,Fair
+CMC,Electrical Vehicle Charging Stations,Good
+CMF,Electrical Vehicle Charging Stations,Good
+COR,Electrical Vehicle Charging Stations,Good
+CTC,Electrical Vehicle Charging Stations,Good
+CTF,Electrical Vehicle Charging Stations,Good
+FSP,Electrical Vehicle Charging Stations,Fair
+HDSP,Electrical Vehicle Charging Stations,Good
+ISP,Electrical Vehicle Charging Stations,Good
+KVSP,Electrical Vehicle Charging Stations,Fair
+LAC,Electrical Vehicle Charging Stations,Fair
+MCSP,Electrical Vehicle Charging Stations,Fair
+NKSP,Electrical Vehicle Charging Stations,Good
+PBSP,Electrical Vehicle Charging Stations,Fair
+PVSP,Electrical Vehicle Charging Stations,N/A
+RJD,Electrical Vehicle Charging Stations,Good
+SAC,Electrical Vehicle Charging Stations,Poor
+SATF,Electrical Vehicle Charging Stations,Good
+SCC,Electrical Vehicle Charging Stations,Good
+SOL,Electrical Vehicle Charging Stations,Good
+SQRC,Electrical Vehicle Charging Stations,Poor
+SVSP,Electrical Vehicle Charging Stations,N/A
+VSP,Electrical Vehicle Charging Stations,Good
+WSP,Electrical Vehicle Charging Stations,Good
+ASP,Elevators,N/A
+CAL,Elevators,N/A
+CCI,Elevators,Poor
+CCWF,Elevators,N/A
+CEN,Elevators,N/A
+CHCF,Elevators,Plus
+CIM,Elevators,Plus
+CIW,Elevators,Good
+CMC,Elevators,Fair
+CMF,Elevators,Poor
+COR,Elevators,Poor
+CTC,Elevators,N/A
+CTF,Elevators,Poor
+FSP,Elevators,Poor
+HDSP,Elevators,N/A
+ISP,Elevators,N/A
+KVSP,Elevators,N/A
+LAC,Elevators,Fair
+MCSP,Elevators,Fair
+NKSP,Elevators,N/A
+PBSP,Elevators,N/A
+PVSP,Elevators,N/A
+RJD,Elevators,N/A
+SAC,Elevators,Fair
+SATF,Elevators,N/A
+SCC,Elevators,Fair
+SOL,Elevators,Good
+SQRC,Elevators,Fair
+SVSP,Elevators,Poor
+VSP,Elevators,N/A
+WSP,Elevators,N/A
+ASP,Emergency Electrical Distribution,N/A
+CAL,Emergency Electrical Distribution,Fair
+CCI,Emergency Electrical Distribution,Poor
+CCWF,Emergency Electrical Distribution,Failing
+CEN,Emergency Electrical Distribution,Fair
+CHCF,Emergency Electrical Distribution,Plus
+CIM,Emergency Electrical Distribution,Failing
+CIW,Emergency Electrical Distribution,Fair
+CMC,Emergency Electrical Distribution,Fair
+CMF,Emergency Electrical Distribution,Fair
+COR,Emergency Electrical Distribution,Fair
+CTC,Emergency Electrical Distribution,Fair
+CTF,Emergency Electrical Distribution,Poor
+FSP,Emergency Electrical Distribution,Fair
+HDSP,Emergency Electrical Distribution,Good
+ISP,Emergency Electrical Distribution,Good
+KVSP,Emergency Electrical Distribution,Good
+LAC,Emergency Electrical Distribution,Poor
+MCSP,Emergency Electrical Distribution,Poor
+NKSP,Emergency Electrical Distribution,Fair
+PBSP,Emergency Electrical Distribution,Fair
+PVSP,Emergency Electrical Distribution,Fair
+RJD,Emergency Electrical Distribution,Fair
+SAC,Emergency Electrical Distribution,Poor
+SATF,Emergency Electrical Distribution,Good
+SCC,Emergency Electrical Distribution,Poor
+SOL,Emergency Electrical Distribution,Poor
+SQRC,Emergency Electrical Distribution,Good
+SVSP,Emergency Electrical Distribution,Good
+VSP,Emergency Electrical Distribution,Good
+WSP,Emergency Electrical Distribution,Fair
+ASP,Fire Alarm,Poor
+CAL,Fire Alarm,Plus
+CCI,Fire Alarm,Fair
+CCWF,Fire Alarm,Fair
+CEN,Fire Alarm,Failing
+CHCF,Fire Alarm,Fair
+CIM,Fire Alarm,Fair
+CIW,Fire Alarm,Poor
+CMC,Fire Alarm,Poor
+CMF,Fire Alarm,Poor
+COR,Fire Alarm,Poor
+CTC,Fire Alarm,Fair
+CTF,Fire Alarm,Fair
+FSP,Fire Alarm,Poor
+HDSP,Fire Alarm,Poor
+ISP,Fire Alarm,Good
+KVSP,Fire Alarm,Good
+LAC,Fire Alarm,Good
+MCSP,Fire Alarm,Plus
+NKSP,Fire Alarm,Fair
+PBSP,Fire Alarm,Good
+PVSP,Fire Alarm,Failing
+RJD,Fire Alarm,Plus
+SAC,Fire Alarm,Fair
+SATF,Fire Alarm,Poor
+SCC,Fire Alarm,Poor
+SOL,Fire Alarm,Poor
+SQRC,Fire Alarm,Plus
+SVSP,Fire Alarm,Poor
+VSP,Fire Alarm,Failing
+WSP,Fire Alarm,Poor
+ASP,Fire Pump,N/A
+CAL,Fire Pump,Fair
+CCI,Fire Pump,N/A
+CCWF,Fire Pump,Good
+CEN,Fire Pump,Poor
+CHCF,Fire Pump,Plus
+CIM,Fire Pump,Poor
+CIW,Fire Pump,Good
+CMC,Fire Pump,N/A
+CMF,Fire Pump,Good
+COR,Fire Pump,Fair
+CTC,Fire Pump,Good
+CTF,Fire Pump,N/A
+FSP,Fire Pump,N/A
+HDSP,Fire Pump,Good
+ISP,Fire Pump,Failing
+KVSP,Fire Pump,Fair
+LAC,Fire Pump,Poor
+MCSP,Fire Pump,Fair
+NKSP,Fire Pump,Poor
+PBSP,Fire Pump,N/A
+PVSP,Fire Pump,N/A
+RJD,Fire Pump,Poor
+SAC,Fire Pump,Good
+SATF,Fire Pump,Poor
+SCC,Fire Pump,N/A
+SOL,Fire Pump,Fair
+SQRC,Fire Pump,Fair
+SVSP,Fire Pump,Poor
+VSP,Fire Pump,Good
+WSP,Fire Pump,Good
+ASP,Fire Suppression,Poor
+CAL,Fire Suppression,Fair
+CCI,Fire Suppression,Fair
+CCWF,Fire Suppression,Fair
+CEN,Fire Suppression,Fair
+CHCF,Fire Suppression,Good
+CIM,Fire Suppression,Fair
+CIW,Fire Suppression,Poor
+CMC,Fire Suppression,Poor
+CMF,Fire Suppression,Fair
+COR,Fire Suppression,Fair
+CTC,Fire Suppression,Fair
+CTF,Fire Suppression,Fair
+FSP,Fire Suppression,Fair
+HDSP,Fire Suppression,Plus
+ISP,Fire Suppression,Good
+KVSP,Fire Suppression,Fair
+LAC,Fire Suppression,Poor
+MCSP,Fire Suppression,Plus
+NKSP,Fire Suppression,Fair
+PBSP,Fire Suppression,Fair
+PVSP,Fire Suppression,Poor
+RJD,Fire Suppression,Plus
+SAC,Fire Suppression,Fair
+SATF,Fire Suppression,Poor
+SCC,Fire Suppression,Fair
+SOL,Fire Suppression,Failing
+SQRC,Fire Suppression,Fair
+SVSP,Fire Suppression,Poor
+VSP,Fire Suppression,Fair
+WSP,Fire Suppression,Fair
+ASP,Fire Suppression - UL 300 Systems,Poor
+CAL,Fire Suppression - UL 300 Systems,Fair
+CCI,Fire Suppression - UL 300 Systems,Good
+CCWF,Fire Suppression - UL 300 Systems,Good
+CEN,Fire Suppression - UL 300 Systems,Good
+CHCF,Fire Suppression - UL 300 Systems,Good
+CIM,Fire Suppression - UL 300 Systems,Fair
+CIW,Fire Suppression - UL 300 Systems,Fair
+CMC,Fire Suppression - UL 300 Systems,Plus
+CMF,Fire Suppression - UL 300 Systems,Poor
+COR,Fire Suppression - UL 300 Systems,Failing
+CTC,Fire Suppression - UL 300 Systems,Good
+CTF,Fire Suppression - UL 300 Systems,Fair
+FSP,Fire Suppression - UL 300 Systems,Fair
+HDSP,Fire Suppression - UL 300 Systems,Good
+ISP,Fire Suppression - UL 300 Systems,Good
+KVSP,Fire Suppression - UL 300 Systems,Fair
+LAC,Fire Suppression - UL 300 Systems,Fair
+MCSP,Fire Suppression - UL 300 Systems,Fair
+NKSP,Fire Suppression - UL 300 Systems,Fair
+PBSP,Fire Suppression - UL 300 Systems,Plus
+PVSP,Fire Suppression - UL 300 Systems,Fair
+RJD,Fire Suppression - UL 300 Systems,Plus
+SAC,Fire Suppression - UL 300 Systems,Good
+SATF,Fire Suppression - UL 300 Systems,Fair
+SCC,Fire Suppression - UL 300 Systems,Fair
+SOL,Fire Suppression - UL 300 Systems,Plus
+SQRC,Fire Suppression - UL 300 Systems,Fair
+SVSP,Fire Suppression - UL 300 Systems,Failing
+VSP,Fire Suppression - UL 300 Systems,Good
+WSP,Fire Suppression - UL 300 Systems,Fair
+ASP,Fire Water Distribution System,Poor
+CAL,Fire Water Distribution System,Fair
+CCI,Fire Water Distribution System,Fair
+CCWF,Fire Water Distribution System,Fair
+CEN,Fire Water Distribution System,Poor
+CHCF,Fire Water Distribution System,Fair
+CIM,Fire Water Distribution System,Fair
+CIW,Fire Water Distribution System,Fair
+CMC,Fire Water Distribution System,Poor
+CMF,Fire Water Distribution System,Fair
+COR,Fire Water Distribution System,Fair
+CTC,Fire Water Distribution System,Fair
+CTF,Fire Water Distribution System,Fair
+FSP,Fire Water Distribution System,Poor
+HDSP,Fire Water Distribution System,Fair
+ISP,Fire Water Distribution System,Fair
+KVSP,Fire Water Distribution System,Good
+LAC,Fire Water Distribution System,Fair
+MCSP,Fire Water Distribution System,Fair
+NKSP,Fire Water Distribution System,Poor
+PBSP,Fire Water Distribution System,Plus
+PVSP,Fire Water Distribution System,Fair
+RJD,Fire Water Distribution System,Poor
+SAC,Fire Water Distribution System,Fair
+SATF,Fire Water Distribution System,Fair
+SCC,Fire Water Distribution System,Fair
+SOL,Fire Water Distribution System,Fair
+SQRC,Fire Water Distribution System,Failing
+SVSP,Fire Water Distribution System,Fair
+VSP,Fire Water Distribution System,Poor
+WSP,Fire Water Distribution System,Fair
+ASP,Hot Water Heaters,Fair
+CAL,Hot Water Heaters,Fair
+CCI,Hot Water Heaters,Fair
+CCWF,Hot Water Heaters,Good
+CEN,Hot Water Heaters,Poor
+CHCF,Hot Water Heaters,Good
+CIM,Hot Water Heaters,Fair
+CIW,Hot Water Heaters,Fair
+CMC,Hot Water Heaters,Fair
+CMF,Hot Water Heaters,Good
+COR,Hot Water Heaters,Plus
+CTC,Hot Water Heaters,Fair
+CTF,Hot Water Heaters,Fair
+FSP,Hot Water Heaters,Poor
+HDSP,Hot Water Heaters,Fair
+ISP,Hot Water Heaters,Good
+KVSP,Hot Water Heaters,Fair
+LAC,Hot Water Heaters,Fair
+MCSP,Hot Water Heaters,Fair
+NKSP,Hot Water Heaters,Fair
+PBSP,Hot Water Heaters,Fair
+PVSP,Hot Water Heaters,Fair
+RJD,Hot Water Heaters,Good
+SAC,Hot Water Heaters,Fair
+SATF,Hot Water Heaters,Fair
+SCC,Hot Water Heaters,Poor
+SOL,Hot Water Heaters,Plus
+SQRC,Hot Water Heaters,Poor
+SVSP,Hot Water Heaters,Fair
+VSP,Hot Water Heaters,Fair
+WSP,Hot Water Heaters,Fair
+ASP,Hydronic Loops,Plus
+CAL,Hydronic Loops,Poor
+CCI,Hydronic Loops,Fair
+CCWF,Hydronic Loops,N/A
+CEN,Hydronic Loops,Poor
+CHCF,Hydronic Loops,Failing
+CIM,Hydronic Loops,Failing
+CIW,Hydronic Loops,N/A
+CMC,Hydronic Loops,Poor
+CMF,Hydronic Loops,Failing
+COR,Hydronic Loops,Plus
+CTC,Hydronic Loops,Fair
+CTF,Hydronic Loops,Fair
+FSP,Hydronic Loops,Poor
+HDSP,Hydronic Loops,Fair
+ISP,Hydronic Loops,Poor
+KVSP,Hydronic Loops,N/A
+LAC,Hydronic Loops,N/A
+MCSP,Hydronic Loops,Poor
+NKSP,Hydronic Loops,N/A
+PBSP,Hydronic Loops,Good
+PVSP,Hydronic Loops,N/A
+RJD,Hydronic Loops,Failing
+SAC,Hydronic Loops,Good
+SATF,Hydronic Loops,N/A
+SCC,Hydronic Loops,Fair
+SOL,Hydronic Loops,Plus
+SQRC,Hydronic Loops,N/A
+SVSP,Hydronic Loops,Good
+VSP,Hydronic Loops,Poor
+WSP,Hydronic Loops,N/A
+ASP,Irrigation System,Good
+CAL,Irrigation System,Failing
+CCI,Irrigation System,Poor
+CCWF,Irrigation System,Fair
+CEN,Irrigation System,Good
+CHCF,Irrigation System,Good
+CIM,Irrigation System,Poor
+CIW,Irrigation System,Poor
+CMC,Irrigation System,Fair
+CMF,Irrigation System,Fair
+COR,Irrigation System,Good
+CTC,Irrigation System,Fair
+CTF,Irrigation System,Fair
+FSP,Irrigation System,Fair
+HDSP,Irrigation System,Fair
+ISP,Irrigation System,Good
+KVSP,Irrigation System,Poor
+LAC,Irrigation System,Poor
+MCSP,Irrigation System,Plus
+NKSP,Irrigation System,Poor
+PBSP,Irrigation System,N/A
+PVSP,Irrigation System,Fair
+RJD,Irrigation System,Failing
+SAC,Irrigation System,Poor
+SATF,Irrigation System,Fair
+SCC,Irrigation System,Fair
+SOL,Irrigation System,Fair
+SQRC,Irrigation System,Good
+SVSP,Irrigation System,Poor
+VSP,Irrigation System,Good
+WSP,Irrigation System,Fair
+ASP,Lethal Electrified Fencing,Good
+CAL,Lethal Electrified Fencing,Fair
+CCI,Lethal Electrified Fencing,Fair
+CCWF,Lethal Electrified Fencing,Fair
+CEN,Lethal Electrified Fencing,Poor
+CHCF,Lethal Electrified Fencing,Fair
+CIM,Lethal Electrified Fencing,Poor
+CIW,Lethal Electrified Fencing,N/A
+CMC,Lethal Electrified Fencing,Good
+CMF,Lethal Electrified Fencing,Fair
+COR,Lethal Electrified Fencing,Fair
+CTC,Lethal Electrified Fencing,N/A
+CTF,Lethal Electrified Fencing,N/A
+FSP,Lethal Electrified Fencing,N/A
+HDSP,Lethal Electrified Fencing,Good
+ISP,Lethal Electrified Fencing,Good
+KVSP,Lethal Electrified Fencing,Good
+LAC,Lethal Electrified Fencing,Fair
+MCSP,Lethal Electrified Fencing,Fair
+NKSP,Lethal Electrified Fencing,Fair
+PBSP,Lethal Electrified Fencing,Fair
+PVSP,Lethal Electrified Fencing,Fair
+RJD,Lethal Electrified Fencing,Good
+SAC,Lethal Electrified Fencing,Good
+SATF,Lethal Electrified Fencing,Fair
+SCC,Lethal Electrified Fencing,Good
+SOL,Lethal Electrified Fencing,Fair
+SQRC,Lethal Electrified Fencing,N/A
+SVSP,Lethal Electrified Fencing,Fair
+VSP,Lethal Electrified Fencing,Fair
+WSP,Lethal Electrified Fencing,Good
+ASP,Natural Gas,Fair
+CAL,Natural Gas,Fair
+CCI,Natural Gas,Fair
+CCWF,Natural Gas,Good
+CEN,Natural Gas,Fair
+CHCF,Natural Gas,Plus
+CIM,Natural Gas,Good
+CIW,Natural Gas,Fair
+CMC,Natural Gas,Poor
+CMF,Natural Gas,Good
+COR,Natural Gas,Fair
+CTC,Natural Gas,Fair
+CTF,Natural Gas,Fair
+FSP,Natural Gas,Fair
+HDSP,Natural Gas,Good
+ISP,Natural Gas,Good
+KVSP,Natural Gas,Good
+LAC,Natural Gas,Fair
+MCSP,Natural Gas,Fair
+NKSP,Natural Gas,Fair
+PBSP,Natural Gas,N/A
+PVSP,Natural Gas,Fair
+RJD,Natural Gas,Fair
+SAC,Natural Gas,Good
+SATF,Natural Gas,Good
+SCC,Natural Gas,N/A
+SOL,Natural Gas,Good
+SQRC,Natural Gas,Poor
+SVSP,Natural Gas,Fair
+VSP,Natural Gas,Poor
+WSP,Natural Gas,Fair
+ASP,Nurse Call Stations,N/A
+CAL,Nurse Call Stations,N/A
+CCI,Nurse Call Stations,N/A
+CCWF,Nurse Call Stations,Poor
+CEN,Nurse Call Stations,Failing
+CHCF,Nurse Call Stations,Poor
+CIM,Nurse Call Stations,Good
+CIW,Nurse Call Stations,Failing
+CMC,Nurse Call Stations,Poor
+CMF,Nurse Call Stations,Failing
+COR,Nurse Call Stations,Failing
+CTC,Nurse Call Stations,N/A
+CTF,Nurse Call Stations,N/A
+FSP,Nurse Call Stations,Fair
+HDSP,Nurse Call Stations,Failing
+ISP,Nurse Call Stations,N/A
+KVSP,Nurse Call Stations,Failing
+LAC,Nurse Call Stations,Good
+MCSP,Nurse Call Stations,Poor
+NKSP,Nurse Call Stations,Failing
+PBSP,Nurse Call Stations,Fair
+PVSP,Nurse Call Stations,N/A
+RJD,Nurse Call Stations,Failing
+SAC,Nurse Call Stations,Poor
+SATF,Nurse Call Stations,Failing
+SCC,Nurse Call Stations,N/A
+SOL,Nurse Call Stations,Fair
+SQRC,Nurse Call Stations,Fair
+SVSP,Nurse Call Stations,Fair
+VSP,Nurse Call Stations,N/A
+WSP,Nurse Call Stations,Poor
+ASP,Parking Lots,Fair
+CAL,Parking Lots,Failing
+CCI,Parking Lots,Poor
+CCWF,Parking Lots,Fair
+CEN,Parking Lots,Poor
+CHCF,Parking Lots,Fair
+CIM,Parking Lots,Failing
+CIW,Parking Lots,Fair
+CMC,Parking Lots,Fair
+CMF,Parking Lots,Poor
+COR,Parking Lots,Poor
+CTC,Parking Lots,Poor
+CTF,Parking Lots,Poor
+FSP,Parking Lots,Fair
+HDSP,Parking Lots,Poor
+ISP,Parking Lots,Poor
+KVSP,Parking Lots,Fair
+LAC,Parking Lots,Fair
+MCSP,Parking Lots,Poor
+NKSP,Parking Lots,Poor
+PBSP,Parking Lots,Fair
+PVSP,Parking Lots,Fair
+RJD,Parking Lots,Poor
+SAC,Parking Lots,Poor
+SATF,Parking Lots,Fair
+SCC,Parking Lots,Fair
+SOL,Parking Lots,Poor
+SQRC,Parking Lots,Fair
+SVSP,Parking Lots,Poor
+VSP,Parking Lots,Fair
+WSP,Parking Lots,Poor
+ASP,Pavement/Walkways,Poor
+CAL,Pavement/Walkways,Failing
+CCI,Pavement/Walkways,Poor
+CCWF,Pavement/Walkways,Fair
+CEN,Pavement/Walkways,Poor
+CHCF,Pavement/Walkways,Good
+CIM,Pavement/Walkways,Poor
+CIW,Pavement/Walkways,Poor
+CMC,Pavement/Walkways,Fair
+CMF,Pavement/Walkways,Fair
+COR,Pavement/Walkways,Fair
+CTC,Pavement/Walkways,Poor
+CTF,Pavement/Walkways,Fair
+FSP,Pavement/Walkways,Poor
+HDSP,Pavement/Walkways,Good
+ISP,Pavement/Walkways,Poor
+KVSP,Pavement/Walkways,Fair
+LAC,Pavement/Walkways,Poor
+MCSP,Pavement/Walkways,Fair
+NKSP,Pavement/Walkways,Fair
+PBSP,Pavement/Walkways,Fair
+PVSP,Pavement/Walkways,Fair
+RJD,Pavement/Walkways,Fair
+SAC,Pavement/Walkways,Fair
+SATF,Pavement/Walkways,Fair
+SCC,Pavement/Walkways,Fair
+SOL,Pavement/Walkways,Fair
+SQRC,Pavement/Walkways,Poor
+SVSP,Pavement/Walkways,Fair
+VSP,Pavement/Walkways,Poor
+WSP,Pavement/Walkways,Fair
+ASP,Personal Alarm Device System (PADS),Fair
+CAL,Personal Alarm Device System (PADS),Plus
+CCI,Personal Alarm Device System (PADS),Good
+CCWF,Personal Alarm Device System (PADS),Fair
+CEN,Personal Alarm Device System (PADS),Good
+CHCF,Personal Alarm Device System (PADS),Good
+CIM,Personal Alarm Device System (PADS),Poor
+CIW,Personal Alarm Device System (PADS),Fair
+CMC,Personal Alarm Device System (PADS),Fair
+CMF,Personal Alarm Device System (PADS),Poor
+COR,Personal Alarm Device System (PADS),Poor
+CTC,Personal Alarm Device System (PADS),N/A
+CTF,Personal Alarm Device System (PADS),Fair
+FSP,Personal Alarm Device System (PADS),Poor
+HDSP,Personal Alarm Device System (PADS),Fair
+ISP,Personal Alarm Device System (PADS),Good
+KVSP,Personal Alarm Device System (PADS),Good
+LAC,Personal Alarm Device System (PADS),Good
+MCSP,Personal Alarm Device System (PADS),Plus
+NKSP,Personal Alarm Device System (PADS),Good
+PBSP,Personal Alarm Device System (PADS),Fair
+PVSP,Personal Alarm Device System (PADS),Fair
+RJD,Personal Alarm Device System (PADS),Fair
+SAC,Personal Alarm Device System (PADS),Fair
+SATF,Personal Alarm Device System (PADS),Poor
+SCC,Personal Alarm Device System (PADS),Fair
+SOL,Personal Alarm Device System (PADS),Poor
+SQRC,Personal Alarm Device System (PADS),Fair
+SVSP,Personal Alarm Device System (PADS),Fair
+VSP,Personal Alarm Device System (PADS),Fair
+WSP,Personal Alarm Device System (PADS),Fair
+ASP,Potable Water Distribution/Loop,Poor
+CAL,Potable Water Distribution/Loop,Fair
+CCI,Potable Water Distribution/Loop,Fair
+CCWF,Potable Water Distribution/Loop,Fair
+CEN,Potable Water Distribution/Loop,Poor
+CHCF,Potable Water Distribution/Loop,Fair
+CIM,Potable Water Distribution/Loop,Poor
+CIW,Potable Water Distribution/Loop,Fair
+CMC,Potable Water Distribution/Loop,Poor
+CMF,Potable Water Distribution/Loop,Fair
+COR,Potable Water Distribution/Loop,Fair
+CTC,Potable Water Distribution/Loop,Fair
+CTF,Potable Water Distribution/Loop,Fair
+FSP,Potable Water Distribution/Loop,Poor
+HDSP,Potable Water Distribution/Loop,Good
+ISP,Potable Water Distribution/Loop,Good
+KVSP,Potable Water Distribution/Loop,Good
+LAC,Potable Water Distribution/Loop,Fair
+MCSP,Potable Water Distribution/Loop,Fair
+NKSP,Potable Water Distribution/Loop,Poor
+PBSP,Potable Water Distribution/Loop,Good
+PVSP,Potable Water Distribution/Loop,Fair
+RJD,Potable Water Distribution/Loop,Poor
+SAC,Potable Water Distribution/Loop,Fair
+SATF,Potable Water Distribution/Loop,Good
+SCC,Potable Water Distribution/Loop,Fair
+SOL,Potable Water Distribution/Loop,Fair
+SQRC,Potable Water Distribution/Loop,Failing
+SVSP,Potable Water Distribution/Loop,Good
+VSP,Potable Water Distribution/Loop,Good
+WSP,Potable Water Distribution/Loop,Fair
+ASP,Primary Electrical Distribution Loop - Above Ground,Fair
+CAL,Primary Electrical Distribution Loop - Above Ground,Fair
+CCI,Primary Electrical Distribution Loop - Above Ground,Fair
+CCWF,Primary Electrical Distribution Loop - Above Ground,Fair
+CEN,Primary Electrical Distribution Loop - Above Ground,Fair
+CHCF,Primary Electrical Distribution Loop - Above Ground,Good
+CIM,Primary Electrical Distribution Loop - Above Ground,Fair
+CIW,Primary Electrical Distribution Loop - Above Ground,Fair
+CMC,Primary Electrical Distribution Loop - Above Ground,Good
+CMF,Primary Electrical Distribution Loop - Above Ground,Fair
+COR,Primary Electrical Distribution Loop - Above Ground,Fair
+CTC,Primary Electrical Distribution Loop - Above Ground,Fair
+CTF,Primary Electrical Distribution Loop - Above Ground,Poor
+FSP,Primary Electrical Distribution Loop - Above Ground,Good
+HDSP,Primary Electrical Distribution Loop - Above Ground,Fair
+ISP,Primary Electrical Distribution Loop - Above Ground,N/A
+KVSP,Primary Electrical Distribution Loop - Above Ground,N/A
+LAC,Primary Electrical Distribution Loop - Above Ground,N/A
+MCSP,Primary Electrical Distribution Loop - Above Ground,Poor
+NKSP,Primary Electrical Distribution Loop - Above Ground,N/A
+PBSP,Primary Electrical Distribution Loop - Above Ground,Fair
+PVSP,Primary Electrical Distribution Loop - Above Ground,N/A
+RJD,Primary Electrical Distribution Loop - Above Ground,Fair
+SAC,Primary Electrical Distribution Loop - Above Ground,N/A
+SATF,Primary Electrical Distribution Loop - Above Ground,N/A
+SCC,Primary Electrical Distribution Loop - Above Ground,Fair
+SOL,Primary Electrical Distribution Loop - Above Ground,Fair
+SQRC,Primary Electrical Distribution Loop - Above Ground,Fair
+SVSP,Primary Electrical Distribution Loop - Above Ground,Fair
+VSP,Primary Electrical Distribution Loop - Above Ground,N/A
+WSP,Primary Electrical Distribution Loop - Above Ground,Good
+ASP,Primary Electrical Distribution Loop - Below Ground,Fair
+CAL,Primary Electrical Distribution Loop - Below Ground,Fair
+CCI,Primary Electrical Distribution Loop - Below Ground,Fair
+CCWF,Primary Electrical Distribution Loop - Below Ground,Fair
+CEN,Primary Electrical Distribution Loop - Below Ground,Fair
+CHCF,Primary Electrical Distribution Loop - Below Ground,Good
+CIM,Primary Electrical Distribution Loop - Below Ground,Fair
+CIW,Primary Electrical Distribution Loop - Below Ground,Poor
+CMC,Primary Electrical Distribution Loop - Below Ground,Fair
+CMF,Primary Electrical Distribution Loop - Below Ground,Fair
+COR,Primary Electrical Distribution Loop - Below Ground,N/A
+CTC,Primary Electrical Distribution Loop - Below Ground,Fair
+CTF,Primary Electrical Distribution Loop - Below Ground,Fair
+FSP,Primary Electrical Distribution Loop - Below Ground,Fair
+HDSP,Primary Electrical Distribution Loop - Below Ground,Fair
+ISP,Primary Electrical Distribution Loop - Below Ground,Good
+KVSP,Primary Electrical Distribution Loop - Below Ground,Good
+LAC,Primary Electrical Distribution Loop - Below Ground,Good
+MCSP,Primary Electrical Distribution Loop - Below Ground,Poor
+NKSP,Primary Electrical Distribution Loop - Below Ground,Fair
+PBSP,Primary Electrical Distribution Loop - Below Ground,Fair
+PVSP,Primary Electrical Distribution Loop - Below Ground,Fair
+RJD,Primary Electrical Distribution Loop - Below Ground,Poor
+SAC,Primary Electrical Distribution Loop - Below Ground,Fair
+SATF,Primary Electrical Distribution Loop - Below Ground,Fair
+SCC,Primary Electrical Distribution Loop - Below Ground,Fair
+SOL,Primary Electrical Distribution Loop - Below Ground,Fair
+SQRC,Primary Electrical Distribution Loop - Below Ground,Fair
+SVSP,Primary Electrical Distribution Loop - Below Ground,Good
+VSP,Primary Electrical Distribution Loop - Below Ground,Good
+WSP,Primary Electrical Distribution Loop - Below Ground,Fair
+ASP,Primary High Voltage Electrical Switchgear,Fair
+CAL,Primary High Voltage Electrical Switchgear,Fair
+CCI,Primary High Voltage Electrical Switchgear,Fair
+CCWF,Primary High Voltage Electrical Switchgear,Good
+CEN,Primary High Voltage Electrical Switchgear,Fair
+CHCF,Primary High Voltage Electrical Switchgear,Plus
+CIM,Primary High Voltage Electrical Switchgear,Fair
+CIW,Primary High Voltage Electrical Switchgear,Fair
+CMC,Primary High Voltage Electrical Switchgear,Good
+CMF,Primary High Voltage Electrical Switchgear,Fair
+COR,Primary High Voltage Electrical Switchgear,Fair
+CTC,Primary High Voltage Electrical Switchgear,Fair
+CTF,Primary High Voltage Electrical Switchgear,Poor
+FSP,Primary High Voltage Electrical Switchgear,Poor
+HDSP,Primary High Voltage Electrical Switchgear,Good
+ISP,Primary High Voltage Electrical Switchgear,Good
+KVSP,Primary High Voltage Electrical Switchgear,Good
+LAC,Primary High Voltage Electrical Switchgear,Good
+MCSP,Primary High Voltage Electrical Switchgear,Poor
+NKSP,Primary High Voltage Electrical Switchgear,Good
+PBSP,Primary High Voltage Electrical Switchgear,Good
+PVSP,Primary High Voltage Electrical Switchgear,Fair
+RJD,Primary High Voltage Electrical Switchgear,Fair
+SAC,Primary High Voltage Electrical Switchgear,Fair
+SATF,Primary High Voltage Electrical Switchgear,Fair
+SCC,Primary High Voltage Electrical Switchgear,Fair
+SOL,Primary High Voltage Electrical Switchgear,Fair
+SQRC,Primary High Voltage Electrical Switchgear,Good
+SVSP,Primary High Voltage Electrical Switchgear,Good
+VSP,Primary High Voltage Electrical Switchgear,Good
+WSP,Primary High Voltage Electrical Switchgear,Fair
+ASP,Propane Gas,Fair
+CAL,Propane Gas,Fair
+CCI,Propane Gas,Poor
+CCWF,Propane Gas,Poor
+CEN,Propane Gas,Failing
+CHCF,Propane Gas,N/A
+CIM,Propane Gas,Fair
+CIW,Propane Gas,N/A
+CMC,Propane Gas,N/A
+CMF,Propane Gas,N/A
+COR,Propane Gas,Fair
+CTC,Propane Gas,Fair
+CTF,Propane Gas,N/A
+FSP,Propane Gas,Fair
+HDSP,Propane Gas,Good
+ISP,Propane Gas,N/A
+KVSP,Propane Gas,Poor
+LAC,Propane Gas,Fair
+MCSP,Propane Gas,N/A
+NKSP,Propane Gas,Poor
+PBSP,Propane Gas,Fair
+PVSP,Propane Gas,N/A
+RJD,Propane Gas,Fair
+SAC,Propane Gas,Good
+SATF,Propane Gas,Fair
+SCC,Propane Gas,Good
+SOL,Propane Gas,N/A
+SQRC,Propane Gas,Good
+SVSP,Propane Gas,N/A
+VSP,Propane Gas,Fair
+WSP,Propane Gas,Fair
+ASP,Renewable Energy - Solar/Wind,N/A
+CAL,Renewable Energy - Solar/Wind,Good
+CCI,Renewable Energy - Solar/Wind,Good
+CCWF,Renewable Energy - Solar/Wind,Good
+CEN,Renewable Energy - Solar/Wind,Good
+CHCF,Renewable Energy - Solar/Wind,N/A
+CIM,Renewable Energy - Solar/Wind,N/A
+CIW,Renewable Energy - Solar/Wind,N/A
+CMC,Renewable Energy - Solar/Wind,Good
+CMF,Renewable Energy - Solar/Wind,N/A
+COR,Renewable Energy - Solar/Wind,Fair
+CTC,Renewable Energy - Solar/Wind,N/A
+CTF,Renewable Energy - Solar/Wind,Good
+FSP,Renewable Energy - Solar/Wind,N/A
+HDSP,Renewable Energy - Solar/Wind,N/A
+ISP,Renewable Energy - Solar/Wind,Good
+KVSP,Renewable Energy - Solar/Wind,N/A
+LAC,Renewable Energy - Solar/Wind,Good
+MCSP,Renewable Energy - Solar/Wind,N/A
+NKSP,Renewable Energy - Solar/Wind,Good
+PBSP,Renewable Energy - Solar/Wind,N/A
+PVSP,Renewable Energy - Solar/Wind,Good
+RJD,Renewable Energy - Solar/Wind,Good
+SAC,Renewable Energy - Solar/Wind,Good
+SATF,Renewable Energy - Solar/Wind,N/A
+SCC,Renewable Energy - Solar/Wind,N/A
+SOL,Renewable Energy - Solar/Wind,Good
+SQRC,Renewable Energy - Solar/Wind,N/A
+SVSP,Renewable Energy - Solar/Wind,Good
+VSP,Renewable Energy - Solar/Wind,Good
+WSP,Renewable Energy - Solar/Wind,Good
+ASP,Roofs,Poor
+CAL,Roofs,Poor
+CCI,Roofs,Fair
+CCWF,Roofs,Fair
+CEN,Roofs,Poor
+CHCF,Roofs,Good
+CIM,Roofs,Poor
+CIW,Roofs,Poor
+CMC,Roofs,Poor
+CMF,Roofs,Fair
+COR,Roofs,Poor
+CTC,Roofs,Fair
+CTF,Roofs,Poor
+FSP,Roofs,Poor
+HDSP,Roofs,Poor
+ISP,Roofs,Good
+KVSP,Roofs,Fair
+LAC,Roofs,Fair
+MCSP,Roofs,Poor
+NKSP,Roofs,Poor
+PBSP,Roofs,Failing
+PVSP,Roofs,Fair
+RJD,Roofs,Poor
+SAC,Roofs,Poor
+SATF,Roofs,Poor
+SCC,Roofs,Poor
+SOL,Roofs,Poor
+SQRC,Roofs,Poor
+SVSP,Roofs,Fair
+VSP,Roofs,Poor
+WSP,Roofs,Poor
+ASP,Sanitary Sewer System,Fair
+CAL,Sanitary Sewer System,Poor
+CCI,Sanitary Sewer System,Poor
+CCWF,Sanitary Sewer System,Fair
+CEN,Sanitary Sewer System,Fair
+CHCF,Sanitary Sewer System,Fair
+CIM,Sanitary Sewer System,Fair
+CIW,Sanitary Sewer System,Poor
+CMC,Sanitary Sewer System,Fair
+CMF,Sanitary Sewer System,Fair
+COR,Sanitary Sewer System,Fair
+CTC,Sanitary Sewer System,Fair
+CTF,Sanitary Sewer System,Poor
+FSP,Sanitary Sewer System,Fair
+HDSP,Sanitary Sewer System,Fair
+ISP,Sanitary Sewer System,Fair
+KVSP,Sanitary Sewer System,Good
+LAC,Sanitary Sewer System,Fair
+MCSP,Sanitary Sewer System,Fair
+NKSP,Sanitary Sewer System,Fair
+PBSP,Sanitary Sewer System,Fair
+PVSP,Sanitary Sewer System,Fair
+RJD,Sanitary Sewer System,Poor
+SAC,Sanitary Sewer System,Fair
+SATF,Sanitary Sewer System,Fair
+SCC,Sanitary Sewer System,Fair
+SOL,Sanitary Sewer System,Fair
+SQRC,Sanitary Sewer System,Fair
+SVSP,Sanitary Sewer System,Fair
+VSP,Sanitary Sewer System,Fair
+WSP,Sanitary Sewer System,Fair
+ASP,Secondary Electrical Distribution Loop - Above Ground,Fair
+CAL,Secondary Electrical Distribution Loop - Above Ground,Fair
+CCI,Secondary Electrical Distribution Loop - Above Ground,N/A
+CCWF,Secondary Electrical Distribution Loop - Above Ground,N/A
+CEN,Secondary Electrical Distribution Loop - Above Ground,Fair
+CHCF,Secondary Electrical Distribution Loop - Above Ground,Good
+CIM,Secondary Electrical Distribution Loop - Above Ground,Good
+CIW,Secondary Electrical Distribution Loop - Above Ground,Good
+CMC,Secondary Electrical Distribution Loop - Above Ground,Good
+CMF,Secondary Electrical Distribution Loop - Above Ground,Fair
+COR,Secondary Electrical Distribution Loop - Above Ground,N/A
+CTC,Secondary Electrical Distribution Loop - Above Ground,Fair
+CTF,Secondary Electrical Distribution Loop - Above Ground,Fair
+FSP,Secondary Electrical Distribution Loop - Above Ground,Fair
+HDSP,Secondary Electrical Distribution Loop - Above Ground,Fair
+ISP,Secondary Electrical Distribution Loop - Above Ground,N/A
+KVSP,Secondary Electrical Distribution Loop - Above Ground,N/A
+LAC,Secondary Electrical Distribution Loop - Above Ground,N/A
+MCSP,Secondary Electrical Distribution Loop - Above Ground,Poor
+NKSP,Secondary Electrical Distribution Loop - Above Ground,N/A
+PBSP,Secondary Electrical Distribution Loop - Above Ground,N/A
+PVSP,Secondary Electrical Distribution Loop - Above Ground,N/A
+RJD,Secondary Electrical Distribution Loop - Above Ground,Fair
+SAC,Secondary Electrical Distribution Loop - Above Ground,N/A
+SATF,Secondary Electrical Distribution Loop - Above Ground,N/A
+SCC,Secondary Electrical Distribution Loop - Above Ground,N/A
+SOL,Secondary Electrical Distribution Loop - Above Ground,Fair
+SQRC,Secondary Electrical Distribution Loop - Above Ground,Fair
+SVSP,Secondary Electrical Distribution Loop - Above Ground,N/A
+VSP,Secondary Electrical Distribution Loop - Above Ground,N/A
+WSP,Secondary Electrical Distribution Loop - Above Ground,N/A
+ASP,Secondary Electrical Distribution Loop - Below Ground,Fair
+CAL,Secondary Electrical Distribution Loop - Below Ground,Fair
+CCI,Secondary Electrical Distribution Loop - Below Ground,Fair
+CCWF,Secondary Electrical Distribution Loop - Below Ground,Fair
+CEN,Secondary Electrical Distribution Loop - Below Ground,Fair
+CHCF,Secondary Electrical Distribution Loop - Below Ground,Good
+CIM,Secondary Electrical Distribution Loop - Below Ground,Fair
+CIW,Secondary Electrical Distribution Loop - Below Ground,Poor
+CMC,Secondary Electrical Distribution Loop - Below Ground,Fair
+CMF,Secondary Electrical Distribution Loop - Below Ground,Fair
+COR,Secondary Electrical Distribution Loop - Below Ground,Fair
+CTC,Secondary Electrical Distribution Loop - Below Ground,Fair
+CTF,Secondary Electrical Distribution Loop - Below Ground,Fair
+FSP,Secondary Electrical Distribution Loop - Below Ground,Fair
+HDSP,Secondary Electrical Distribution Loop - Below Ground,Fair
+ISP,Secondary Electrical Distribution Loop - Below Ground,Good
+KVSP,Secondary Electrical Distribution Loop - Below Ground,Good
+LAC,Secondary Electrical Distribution Loop - Below Ground,Good
+MCSP,Secondary Electrical Distribution Loop - Below Ground,Poor
+NKSP,Secondary Electrical Distribution Loop - Below Ground,Fair
+PBSP,Secondary Electrical Distribution Loop - Below Ground,Good
+PVSP,Secondary Electrical Distribution Loop - Below Ground,N/A
+RJD,Secondary Electrical Distribution Loop - Below Ground,Fair
+SAC,Secondary Electrical Distribution Loop - Below Ground,N/A
+SATF,Secondary Electrical Distribution Loop - Below Ground,Good
+SCC,Secondary Electrical Distribution Loop - Below Ground,N/A
+SOL,Secondary Electrical Distribution Loop - Below Ground,Fair
+SQRC,Secondary Electrical Distribution Loop - Below Ground,Fair
+SVSP,Secondary Electrical Distribution Loop - Below Ground,N/A
+VSP,Secondary Electrical Distribution Loop - Below Ground,N/A
+WSP,Secondary Electrical Distribution Loop - Below Ground,Fair
+ASP,Security Fencing,Fair
+CAL,Security Fencing,Poor
+CCI,Security Fencing,Fair
+CCWF,Security Fencing,Poor
+CEN,Security Fencing,Good
+CHCF,Security Fencing,Good
+CIM,Security Fencing,Poor
+CIW,Security Fencing,Fair
+CMC,Security Fencing,Good
+CMF,Security Fencing,Good
+COR,Security Fencing,Good
+CTC,Security Fencing,N/A
+CTF,Security Fencing,Fair
+FSP,Security Fencing,Poor
+HDSP,Security Fencing,Good
+ISP,Security Fencing,Good
+KVSP,Security Fencing,Good
+LAC,Security Fencing,Fair
+MCSP,Security Fencing,Poor
+NKSP,Security Fencing,Good
+PBSP,Security Fencing,Failing
+PVSP,Security Fencing,Good
+RJD,Security Fencing,Good
+SAC,Security Fencing,Fair
+SATF,Security Fencing,Good
+SCC,Security Fencing,Good
+SOL,Security Fencing,Good
+SQRC,Security Fencing,Fair
+SVSP,Security Fencing,Good
+VSP,Security Fencing,Poor
+WSP,Security Fencing,Good
+ASP,Smoke/Exhaust System,Fair
+CAL,Smoke/Exhaust System,Poor
+CCI,Smoke/Exhaust System,Poor
+CCWF,Smoke/Exhaust System,Poor
+CEN,Smoke/Exhaust System,Failing
+CHCF,Smoke/Exhaust System,Good
+CIM,Smoke/Exhaust System,N/A
+CIW,Smoke/Exhaust System,Fair
+CMC,Smoke/Exhaust System,Poor
+CMF,Smoke/Exhaust System,Fair
+COR,Smoke/Exhaust System,Poor
+CTC,Smoke/Exhaust System,Fair
+CTF,Smoke/Exhaust System,Poor
+FSP,Smoke/Exhaust System,Fair
+HDSP,Smoke/Exhaust System,Fair
+ISP,Smoke/Exhaust System,Good
+KVSP,Smoke/Exhaust System,Good
+LAC,Smoke/Exhaust System,Poor
+MCSP,Smoke/Exhaust System,Fair
+NKSP,Smoke/Exhaust System,Fair
+PBSP,Smoke/Exhaust System,Fair
+PVSP,Smoke/Exhaust System,Failing
+RJD,Smoke/Exhaust System,Poor
+SAC,Smoke/Exhaust System,Poor
+SATF,Smoke/Exhaust System,Fair
+SCC,Smoke/Exhaust System,Poor
+SOL,Smoke/Exhaust System,Fair
+SQRC,Smoke/Exhaust System,Poor
+SVSP,Smoke/Exhaust System,Poor
+VSP,Smoke/Exhaust System,Poor
+WSP,Smoke/Exhaust System,Fair
+ASP,Steam Distribution,Good
+CAL,Steam Distribution,N/A
+CCI,Steam Distribution,Fair
+CCWF,Steam Distribution,Fair
+CEN,Steam Distribution,N/A
+CHCF,Steam Distribution,Fair
+CIM,Steam Distribution,Failing
+CIW,Steam Distribution,N/A
+CMC,Steam Distribution,Poor
+CMF,Steam Distribution,Poor
+COR,Steam Distribution,Poor
+CTC,Steam Distribution,Fair
+CTF,Steam Distribution,Fair
+FSP,Steam Distribution,Poor
+HDSP,Steam Distribution,Fair
+ISP,Steam Distribution,N/A
+KVSP,Steam Distribution,Fair
+LAC,Steam Distribution,Fair
+MCSP,Steam Distribution,N/A
+NKSP,Steam Distribution,Fair
+PBSP,Steam Distribution,Fair
+PVSP,Steam Distribution,N/A
+RJD,Steam Distribution,Failing
+SAC,Steam Distribution,Poor
+SATF,Steam Distribution,Good
+SCC,Steam Distribution,Poor
+SOL,Steam Distribution,Poor
+SQRC,Steam Distribution,Poor
+SVSP,Steam Distribution,Fair
+VSP,Steam Distribution,Poor
+WSP,Steam Distribution,Poor
+ASP,Storm Water Conveyance,Good
+CAL,Storm Water Conveyance,Fair
+CCI,Storm Water Conveyance,Fair
+CCWF,Storm Water Conveyance,Fair
+CEN,Storm Water Conveyance,Fair
+CHCF,Storm Water Conveyance,Plus
+CIM,Storm Water Conveyance,Failing
+CIW,Storm Water Conveyance,Fair
+CMC,Storm Water Conveyance,Good
+CMF,Storm Water Conveyance,Fair
+COR,Storm Water Conveyance,Plus
+CTC,Storm Water Conveyance,Fair
+CTF,Storm Water Conveyance,Fair
+FSP,Storm Water Conveyance,Fair
+HDSP,Storm Water Conveyance,Good
+ISP,Storm Water Conveyance,Good
+KVSP,Storm Water Conveyance,Plus
+LAC,Storm Water Conveyance,Fair
+MCSP,Storm Water Conveyance,Fair
+NKSP,Storm Water Conveyance,Plus
+PBSP,Storm Water Conveyance,Good
+PVSP,Storm Water Conveyance,Good
+RJD,Storm Water Conveyance,Good
+SAC,Storm Water Conveyance,Fair
+SATF,Storm Water Conveyance,Plus
+SCC,Storm Water Conveyance,Fair
+SOL,Storm Water Conveyance,Poor
+SQRC,Storm Water Conveyance,Fair
+SVSP,Storm Water Conveyance,Fair
+VSP,Storm Water Conveyance,Fair
+WSP,Storm Water Conveyance,Good
+ASP,Underground Storage Tanks,N/A
+CAL,Underground Storage Tanks,Failing
+CCI,Underground Storage Tanks,Failing
+CCWF,Underground Storage Tanks,N/A
+CEN,Underground Storage Tanks,Failing
+CHCF,Underground Storage Tanks,N/A
+CIM,Underground Storage Tanks,Failing
+CIW,Underground Storage Tanks,N/A
+CMC,Underground Storage Tanks,N/A
+CMF,Underground Storage Tanks,Failing
+COR,Underground Storage Tanks,N/A
+CTC,Underground Storage Tanks,N/A
+CTF,Underground Storage Tanks,N/A
+FSP,Underground Storage Tanks,N/A
+HDSP,Underground Storage Tanks,Failing
+ISP,Underground Storage Tanks,Failing
+KVSP,Underground Storage Tanks,Failing
+LAC,Underground Storage Tanks,N/A
+MCSP,Underground Storage Tanks,Failing
+NKSP,Underground Storage Tanks,N/A
+PBSP,Underground Storage Tanks,N/A
+PVSP,Underground Storage Tanks,Failing
+RJD,Underground Storage Tanks,N/A
+SAC,Underground Storage Tanks,N/A
+SATF,Underground Storage Tanks,Failing
+SCC,Underground Storage Tanks,Failing
+SOL,Underground Storage Tanks,N/A
+SQRC,Underground Storage Tanks,Failing
+SVSP,Underground Storage Tanks,Failing
+VSP,Underground Storage Tanks,Failing
+WSP,Underground Storage Tanks,N/A
+ASP,Waste Water Treatment Plant,N/A
+CAL,Waste Water Treatment Plant,N/A
+CCI,Waste Water Treatment Plant,Poor
+CCWF,Waste Water Treatment Plant,Good
+CEN,Waste Water Treatment Plant,Fair
+CHCF,Waste Water Treatment Plant,N/A
+CIM,Waste Water Treatment Plant,Poor
+CIW,Waste Water Treatment Plant,N/A
+CMC,Waste Water Treatment Plant,Poor
+CMF,Waste Water Treatment Plant,N/A
+COR,Waste Water Treatment Plant,Fair
+CTC,Waste Water Treatment Plant,N/A
+CTF,Waste Water Treatment Plant,N/A
+FSP,Waste Water Treatment Plant,N/A
+HDSP,Waste Water Treatment Plant,Fair
+ISP,Waste Water Treatment Plant,Fair
+KVSP,Waste Water Treatment Plant,Fair
+LAC,Waste Water Treatment Plant,N/A
+MCSP,Waste Water Treatment Plant,Fair
+NKSP,Waste Water Treatment Plant,N/A
+PBSP,Waste Water Treatment Plant,Good
+PVSP,Waste Water Treatment Plant,Poor
+RJD,Waste Water Treatment Plant,N/A
+SAC,Waste Water Treatment Plant,N/A
+SATF,Waste Water Treatment Plant,N/A
+SCC,Waste Water Treatment Plant,Fair
+SOL,Waste Water Treatment Plant,N/A
+SQRC,Waste Water Treatment Plant,N/A
+SVSP,Waste Water Treatment Plant,N/A
+VSP,Waste Water Treatment Plant,Poor
+WSP,Waste Water Treatment Plant,Fair
+ASP,Water Tanks,Good
+CAL,Water Tanks,Fair
+CCI,Water Tanks,Fair
+CCWF,Water Tanks,Fair
+CEN,Water Tanks,Poor
+CHCF,Water Tanks,Plus
+CIM,Water Tanks,Poor
+CIW,Water Tanks,Poor
+CMC,Water Tanks,Fair
+CMF,Water Tanks,Fair
+COR,Water Tanks,Fair
+CTC,Water Tanks,Fair
+CTF,Water Tanks,Fair
+FSP,Water Tanks,Plus
+HDSP,Water Tanks,Fair
+ISP,Water Tanks,Plus
+KVSP,Water Tanks,Fair
+LAC,Water Tanks,Fair
+MCSP,Water Tanks,Fair
+NKSP,Water Tanks,N/A
+PBSP,Water Tanks,Fair
+PVSP,Water Tanks,Fair
+RJD,Water Tanks,Fair
+SAC,Water Tanks,Good
+SATF,Water Tanks,Good
+SCC,Water Tanks,Fair
+SOL,Water Tanks,Fair
+SQRC,Water Tanks,Good
+SVSP,Water Tanks,Good
+VSP,Water Tanks,Fair
+WSP,Water Tanks,Good
+ASP,Water Treatment Plant,N/A
+CAL,Water Treatment Plant,Fair
+CCI,Water Treatment Plant,Fair
+CCWF,Water Treatment Plant,N/A
+CEN,Water Treatment Plant,Fair
+CHCF,Water Treatment Plant,N/A
+CIM,Water Treatment Plant,Poor
+CIW,Water Treatment Plant,Fair
+CMC,Water Treatment Plant,Poor
+CMF,Water Treatment Plant,N/A
+COR,Water Treatment Plant,N/A
+CTC,Water Treatment Plant,Fair
+CTF,Water Treatment Plant,Fair
+FSP,Water Treatment Plant,Good
+HDSP,Water Treatment Plant,Fair
+ISP,Water Treatment Plant,Poor
+KVSP,Water Treatment Plant,Fair
+LAC,Water Treatment Plant,N/A
+MCSP,Water Treatment Plant,N/A
+NKSP,Water Treatment Plant,N/A
+PBSP,Water Treatment Plant,Good
+PVSP,Water Treatment Plant,Fair
+RJD,Water Treatment Plant,N/A
+SAC,Water Treatment Plant,N/A
+SATF,Water Treatment Plant,N/A
+SCC,Water Treatment Plant,Failing
+SOL,Water Treatment Plant,Good
+SQRC,Water Treatment Plant,N/A
+SVSP,Water Treatment Plant,Fair
+VSP,Water Treatment Plant,Plus
+WSP,Water Treatment Plant,Fair
+ASP,Water Wells,N/A
+CAL,Water Wells,N/A
+CCI,Water Wells,Fair
+CCWF,Water Wells,N/A
+CEN,Water Wells,N/A
+CHCF,Water Wells,N/A
+CIM,Water Wells,Poor
+CIW,Water Wells,N/A
+CMC,Water Wells,Fair
+CMF,Water Wells,N/A
+COR,Water Wells,N/A
+CTC,Water Wells,Fair
+CTF,Water Wells,Fair
+FSP,Water Wells,N/A
+HDSP,Water Wells,Fair
+ISP,Water Wells,Fair
+KVSP,Water Wells,Fair
+LAC,Water Wells,N/A
+MCSP,Water Wells,N/A
+NKSP,Water Wells,N/A
+PBSP,Water Wells,N/A
+PVSP,Water Wells,N/A
+RJD,Water Wells,N/A
+SAC,Water Wells,N/A
+SATF,Water Wells,N/A
+SCC,Water Wells,N/A
+SOL,Water Wells,Poor
+SQRC,Water Wells,N/A
+SVSP,Water Wells,Fair
+VSP,Water Wells,Plus
+WSP,Water Wells,Poor

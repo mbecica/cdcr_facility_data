@@ -1,0 +1,31 @@
+institution,building_sqft,acres,design_capacity_apr2026,cell_beds,dorm_beds,security_levels,conservation_camps,has_wtp,has_wwtp,deactivations
+ASP,1670880,639,2424,100,2324,II,,,,
+CAL,1157873,1198,1808,1600,208,I and IV,,Yes,,CDCR deactivated Facility C in January 2025
+CCI,1558393,1680,1508,1500,8,"II, III, and IV",,Yes,Yes,The level I facility closed in September 2021; CDCR deactivated Facility D in June 2023
+CCWF,864468,662,1986,200,1786,,,Yes,Yes,
+CEN,1158274,1954,2308,2100,208,"I, III, and IV",,Yes,Yes,
+CHCF,1513000,248,2953,1845,1108,II,,,,
+CIM,1398611,1499,2200,954,1246,I and II,,,,CDCR deactivated Facility D in April 2023
+CIW,601596,115,1281,164,1117,,2,,,
+CMC,1421718,178,2613,2403,210,"I, II, and III",1,Yes,Yes,CDCR deactivated the West Facility in November 2023
+CMF,874378,371,2316,1505,811,II and III,,,,
+COR,1760224,515,3114,2622,492,"I, II, III, IV, and RHU",,,Yes,
+CTF,1458166,633,2800,2594,206,II,,,,The level I facility closed in September 2021
+FSP,1121481,1053,2065,1800,265,"I, II, and III",,Yes,,FWF was deactivated in January 2023
+HDSP,1230785,655,2081,1868,213,"I, II, III, and IV",,Yes,,CDCR deactivated Buildings C2 and C8 in Facility C and Buildings D3 and D4 in Facility D in January 2025
+ISP,1125271,640,2208,2000,208,I and II,,,,
+KVSP,1441786,670,2448,2248,200,I and IV,,Yes,Yes,
+LAC,1229337,262,2300,2100,200,"I, III, and IV",,,,
+MCSP,1640639,868,3284,1500,1784,"I, II, III, and IV",,,Yes,
+NKSP,922063,636,1910,1700,210,"I, III, and reception",,,,CDCR deactivated Facility C in January 2025
+PBSP,1219660,455,1804,1604,200,"I, II, IV, and RHU",,,Yes,CDCR deactivated Facility C in October 2023
+PVSP,1172052,333,2308,2100,208,"I, II, and III",,,Yes,
+RJD,1611310,774,2992,2000,992,"I, II, and III",,,,
+SAC,1337271,118,1828,1636,192,"I, II, IV, and RHU",,,,
+SATF,1693044,810,3424,1612,1812,"II, III, and IV",,,,
+SCC,697986,444,4592,500,4092,"I, II, and III",31,Yes,Yes,
+SOL,1271322,546,1904,1184,720,II and III,,Yes,,
+SQRC,1623250,488,3084,2569,515,II,,,,
+SVSP,1322596,337,2452,2252,200,"I, III, and IV",,Yes,,
+VSP,796490,662,1961,188,1773,II,,,,
+WSP,982547,774,2384,1100,1284,"I, III, and reception",,Yes,Yes,CDCR deactivated Facility B in January 2025

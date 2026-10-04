@@ -122,6 +122,59 @@ def cooling(aliases):
     }, index=infra['institution'])
 
 
+CONDITION_SYSTEMS = {
+    'Air Cooling (Mechanical- A/C)': 'cond_cooling_mechanical_2026',
+    'Air Cooling (Evaporative System)': 'cond_cooling_evaporative_2026',
+    'Hydronic Loops': 'cond_hydronic_loops_2026',
+    'Central Boiler Plant / Boilers': 'cond_boilers_2026',
+    'Automated Controls - SCADA, BMS, BAS': 'cond_automated_controls_2026',
+    'Emergency Electrical Distribution': 'cond_emergency_electrical_2026',
+    'Roofs': 'cond_roofs_2026',
+}
+
+# Cooling systems rated in the condition assessment, and the matching housing-unit count
+# in the Air Cooling report
+COOLING_TYPES = {
+    'mechanical': ('cond_cooling_mechanical_2026', 'hu_mechanical_cooling'),
+    'evaporative': ('cond_cooling_evaporative_2026', 'hu_evaporative_cooling'),
+}
+
+
+def infrastructure(aliases):
+    """Building size and bed types (Infrastructure Master Plan, May 2026, Appendix 1),
+    and condition ratings of heat-related systems (Appendix 2)."""
+    prof = pd.read_csv(SOURCES / 'infrastructure_plan_profiles_2026.csv')
+    prof['institution'] = prof['institution'].replace(aliases)
+    prof = prof.set_index('institution')
+    out = prof[['building_sqft', 'cell_beds', 'dorm_beds']].copy()
+    # Design capacity includes conservation camp beds at SCC, CIW and CMC, which no source
+    # separates out, so square feet per bed is left blank there
+    per_bed = (prof['building_sqft'] / prof['design_capacity_apr2026']).round(1)
+    out['building_sqft_per_design_bed'] = per_bed.where(prof['conservation_camps'].isna())
+
+    cond = pd.read_csv(SOURCES / 'condition_assessment_2026.csv', keep_default_na=False)
+    cond['institution'] = cond['institution'].replace(aliases)
+    cond = cond[cond['system'].isin(CONDITION_SYSTEMS)]
+    ratings = cond.pivot(index='institution', columns='system', values='rating')
+    ratings = ratings.rename(columns=CONDITION_SYSTEMS)[list(CONDITION_SYSTEMS.values())]
+
+    # Cooling types rated at the institution but found in none of its housing units
+    hu = pd.read_csv(SOURCES / 'air_cooling_infrastructure_dec2025.csv')
+    hu['institution'] = hu['institution'].replace(aliases)
+    hu = hu.set_index('institution').reindex(ratings.index)
+    outside = pd.DataFrame({
+        name: (ratings[rating_col] != 'N/A') & (hu[hu_col] == 0)
+        for name, (rating_col, hu_col) in COOLING_TYPES.items()
+    })
+    ratings['cooling_types_outside_housing'] = outside.apply(
+        lambda r: '; '.join(name for name in COOLING_TYPES if r[name]), axis=1).replace('', np.nan)
+
+    rank = pd.read_csv(SOURCES / 'condition_assessment_rank_2026.csv')
+    rank['institution'] = rank['institution'].replace(aliases)
+    rank = rank.set_index('institution')['condition_rank'].rename('condition_rank_2026')
+    return out.join(ratings, how='outer').join(rank)
+
+
 def metadata():
     """Hand-reviewed facility metadata: opening year, planned closure, program flags."""
     meta = pd.read_csv(SOURCES / 'cdcr_manual_data.csv')
@@ -203,6 +256,7 @@ def main():
     df = df.join(pop).join(occupancy(aliases))
     df = df.join(demographics(pop, aliases))
     df = df.join(cooling(aliases))
+    df = df.join(infrastructure(aliases))
     df = df.join(metadata())
     df = df.join(sb601_programs(aliases))
     df = df.join(cchcs(aliases))
