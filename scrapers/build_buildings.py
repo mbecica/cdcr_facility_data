@@ -6,16 +6,19 @@ Reads sources/building_mentions.csv (one row per place a source names a
 specific building or housing unit) and collapses it to one row per building.
 
 Output: crosswalk/buildings.csv
-  Columns: building_key, cdcr_code, building, building_name, facility, use,
-           program, conflicts, n_sources, sources
+  Columns: building_key, cdcr_code, building, building_name, placeholder,
+           facility, use, program, year_built, conflicts, n_sources, sources
 
 `building_key` is `{cdcr_code}-{building}`, or `{cdcr_code}-{name-slug}` for
-buildings the sources name but don't number. Mentions are only merged when
+buildings the sources name but don't number. A source that counts buildings
+without naming them (e.g. "all eight of Facility A's housing units") gets one
+placeholder per building, keyed `{cdcr_code}-ph-{placeholder_id}`; these are
+this project's identifiers, not CDCR's, and `placeholder` is `yes`. Mentions are only merged when
 they share a key; a numbered building and a named one are kept apart until a
 source gives both on the same row.
 
-`facility`, `use` and `program` list every distinct value the sources state,
-separated by semicolons. `conflicts` names the columns where sources disagree.
+`facility`, `use`, `program` and `year_built` list every distinct value the
+sources state, separated by semicolons. `conflicts` names the columns where sources disagree.
 """
 
 import re
@@ -32,6 +35,8 @@ def slug(name: str) -> str:
 
 
 def building_key(row) -> str:
+    if row["placeholder_id"]:
+        return f"{row['cdcr_code']}-ph-{row['placeholder_id']}"
     if row["building"]:
         return f"{row['cdcr_code']}-{row['building']}"
     return f"{row['cdcr_code']}-{slug(row['building_name'])}"
@@ -51,11 +56,13 @@ def main():
             "cdcr_code": g["cdcr_code"].iloc[0],
             "building": g["building"].iloc[0],
             "building_name": joined(g["building_name"]),
+            "placeholder": "yes" if g["placeholder_id"].iloc[0] else "",
             "facility": joined(g["facility"]),
             "use": joined(g["use"]),
             "program": joined(g["program"]),
+            "year_built": joined(g["year_built"]),
         }
-        row["conflicts"] = ";".join(c for c in ("facility", "use") if ";" in row[c])
+        row["conflicts"] = ";".join(c for c in ("facility", "use", "year_built") if ";" in row[c])
         row["n_sources"] = g["source"].nunique()
         row["sources"] = joined(g["source"])
         rows.append(row)

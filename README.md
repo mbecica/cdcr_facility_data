@@ -220,10 +220,12 @@ Average sentence length at admission, in months, by admission type and month; so
 
 | Variable | Description |
 | :--- | :--- |
-| `building_key` | `{cdcr_code}-{building}`, or `{cdcr_code}-{name}` for a building the sources name but don't number (for example `CIW-walker-unit`). |
+| `building_key` | `{cdcr_code}-{building}`, or `{cdcr_code}-{name}` for a building the sources name but don't number (for example `CIW-walker-unit`). Where a source counts buildings without naming them, each gets a placeholder key, `{cdcr_code}-ph-{facility}-{type}{n}` (for example `CIM-ph-A-HU1`). |
+| `placeholder` | `yes` if the key was created by this project rather than taken from a source. Replace a placeholder with the real building number once a source gives it. |
 | `building` | Building or housing unit number as printed (`3410`, `405A`, `A7`, `4A1R`). |
 | `building_name` | Names the sources give the building (`Laundry`, `Central Health Services`). |
 | `facility`, `use`, `program` | Every value the sources state, separated by semicolons. Blank where no source states it. Facility is never inferred from the building number. |
+| `year_built` | Year the building was built, where a source states it for that building, or for every building in a group it counts (placeholders). Ranges of years are not used. |
 | `conflicts` | Columns where sources disagree. |
 | `n_sources`, `sources` | Sources that name the building. MPAR sources are written `MPAR{year}:{project_id}`; others are the PDF filename in `sources/heat_cooling/` or `sources/cdcr_facilities_planning/`. |
 

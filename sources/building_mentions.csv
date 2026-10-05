@@ -1,630 +1,646 @@
-cdcr_code,facility,building,building_name,use,program,source,page,quote
-ASP,,695,Laundry,laundry,,MPAR2022:P-1617-00390,51,"Laundry, Building 695"
-CAL,,,Central Health Services,health_care,,MPAR2022:P-1415-00088,55,renovations to Central Health Services
-CAL,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,63,SP 3 (Central Health Services Renovation)
-CAL,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,60,SP 3 (Central Health Services Renovation)
-CAL,,,Central Health Services,health_care,,sen_sub5_agenda_2021-02-11,10,Phase I includes renovations to Central Health Services
-CAL,B,331,,housing,,MPAR2024:P-2324-00158,56,"Replace Roofs - Facility B, Buildings 331, 332, 333, and 334, Housing"
-CAL,B,331,,housing,,MPAR2025:P-2324-00156,50,"Replace Roofs - Facility B, Housing Units, Buildings 331, 332, 333, 334 and 335"
-CAL,B,332,,housing,,MPAR2024:P-2324-00158,56,"Replace Roofs - Facility B, Buildings 331, 332, 333, and 334, Housing"
-CAL,B,332,,housing,,MPAR2025:P-2324-00156,50,"Replace Roofs - Facility B, Housing Units, Buildings 331, 332, 333, 334 and 335"
-CAL,B,333,,housing,,MPAR2024:P-2324-00158,56,"Replace Roofs - Facility B, Buildings 331, 332, 333, and 334, Housing"
-CAL,B,333,,housing,,MPAR2025:P-2324-00156,50,"Replace Roofs - Facility B, Housing Units, Buildings 331, 332, 333, 334 and 335"
-CAL,B,334,,housing,,MPAR2024:P-2324-00158,56,"Replace Roofs - Facility B, Buildings 331, 332, 333, and 334, Housing"
-CAL,B,334,,housing,,MPAR2025:P-2324-00156,50,"Replace Roofs - Facility B, Housing Units, Buildings 331, 332, 333, 334 and 335"
-CAL,,335,,housing,,MPAR2024:P-2324-00150,57,"Replace Roofs - Facility B & C, Buildings 335, 341, 342 & 343, Housing"
-CAL,B,335,,housing,,MPAR2025:P-2324-00156,50,"Replace Roofs - Facility B, Housing Units, Buildings 331, 332, 333, 334 and 335"
-CAL,,341,,housing,,MPAR2024:P-2324-00150,57,"Replace Roofs - Facility B & C, Buildings 335, 341, 342 & 343, Housing"
-CAL,,342,,housing,,MPAR2024:P-2324-00150,57,"Replace Roofs - Facility B & C, Buildings 335, 341, 342 & 343, Housing"
-CAL,,343,,housing,,MPAR2024:P-2324-00150,57,"Replace Roofs - Facility B & C, Buildings 335, 341, 342 & 343, Housing"
-CAL,D,351,,housing,,MPAR2025:P-2324-00158,51,"Replace Roofs - Facility D Housing, Buildings 351, 354, and 355"
-CAL,D,354,,housing,,MPAR2025:P-2324-00158,51,"Replace Roofs - Facility D Housing, Buildings 351, 354, and 355"
-CAL,D,355,,housing,,MPAR2025:P-2324-00158,51,"Replace Roofs - Facility D Housing, Buildings 351, 354, and 355"
-CCI,,,Central Kitchen,kitchen,,MPAR2022:P-2122-00096,62,Renovate the central kitchen.
-CCI,C,,Facility C Kitchen,kitchen,,MPAR2024:P-2122-00096,63,Facility C Kitchen Addition
-CCI,,,Unit II Culinary,kitchen,,MPAR2022:P-1112-00212,61,Kitchen Oven Exhaust Hood Systems Unit II Culinary
-CCI,A,47,Vocation,program,,MPAR2022:P-1415-00110,59,"Replace Roof - Facility A, Building 47, Vocation"
-CCI,B,57,Vocation,program,,MPAR2022:P-1415-00114,60,"Replace Roof - Facility B, Building 57, Vocation"
-CCI,,A5,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,26,in two of its twenty-one housing units (A5 and B5) the thermometers were not working properly
-CCI,,B5,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,26,in two of its twenty-one housing units (A5 and B5) the thermometers were not working properly
-CCI,,C21,Laundry/Food Service Building,,,MPAR2022:P-2122-00132,63,Repair of Laundry/Food Service Building (C21)
-CCWF,,,Central Health Services,health_care,,MPAR2022:P-1213-00222,65,Central Health Services renovations
-CCWF,,,Correctional Treatment Center,health_care,MHCB,MPAR2022:P-1718-00216,68,Mental Health Crisis Beds Modifications - Correctional Treatment Center
-CCWF,A,503,,,,MPAR2024:P-1819-00098,66,"Roof replacements at Facility A, Buildings 503 and 504."
-CCWF,A,503,,housing,,MPAR2024:P-1920-00145,66,"Facility A, Housing Unit 503 & 504"
-CCWF,,504,,,STRH,MPAR2022:P-1718-00014,66,Short Term Restricted Housing Room Renovation Building 504
-CCWF,,504,,,ASU,MPAR2022:P-1718-00118,65,Medication Preparation Room in Building 504 to provide the appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation Unit
-CCWF,A,504,,,,MPAR2024:P-1819-00098,66,"Roof replacements at Facility A, Buildings 503 and 504."
-CCWF,A,504,,housing,,MPAR2024:P-1920-00145,66,"Facility A, Housing Unit 503 & 504"
-CCWF,B,506,,housing,,bcp_2025-26_air_cooling_pilot_8144,3,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)"
-CCWF,B,506,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)"
-CCWF,B,507,,housing,,bcp_2025-26_air_cooling_pilot_8144,3,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)"
-CCWF,B,507,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)"
-CCWF,B,508,,,,MPAR2025:P-2526-00144,61,"Install Exterior Insulation Finishing System at Facility B, Building 508."
-CCWF,B,508,,,,MPAR2025:P-2526-00156,64,"Install mechanical air cooling system at Facility B, Building 508."
-CCWF,B,508,,housing,,bcp_2025-26_air_cooling_pilot_8144,3,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)"
-CCWF,B,508,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)"
-CCWF,,513,,housing,,coleman_ecf8558_31st_round_heat_report_2025-02-28,53,Interviewed custody staff in unit 513
-CCWF,,514,,housing,,coleman_ecf8558_31st_round_heat_report_2025-02-28,54,interviewed patients in housing unit 514
-CCWF,,805,,health_care,MHCB,MPAR2023:P-2223-00102,62,Mental Health Crisis Beds Treatment Room - Bldg. 805
-CCWF,,805,Central Health Services Building,health_care,,MPAR2022:P-1213-00007,66,"Building 805, Central Health Services Building"
-CCWF,,805,Central Health Services Building,health_care,,MPAR2025:P-2324-00132,64,"Building 805, Central Health Services Building - Phase II"
-CEN,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,63,SP 3 (Central Health Services Renovation)
-CEN,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,60,SP 3 (Central Health Services Renovation)
-CEN,,524B,Vocational Building,program,,MPAR2022:P-1617-00105,71,Remodel existing Vocational Building 524B
-CHCF,,201,Facility Shared Services Building,,,MPAR2022:P-1718-00060,78,"Building 201, Facility Shared Services Building"
-CHCF,E,301B,,housing,,December2025QuarterlyReport-ADAFinal,49,Housing Unit 301B
-CHCF,E,301B,,housing,,June2026QuarterlyReport-ADA,26,Housing Unit 301B
-CHCF,E,301B,,housing,EOP,MPAR2022:P-1920-00107,76,Facility E housing unit 301B dayroom at the California Health Care Facility to provide restroom access for programming Enhanced Outpatient Program patients
-CHCF,E,301B,,housing,,March2026QuarterlyReport-ADA,27,Housing Unit 301B
-CHCF,E,301B,,housing,,September2021QuarterlyReport-ADA,156,Facility E Dayroom Restroom Housing Unit 301B
-CHCF,E,301B,,housing,,September_2025_Quarterly_Report-ADA,48,Housing Unit 301B
-CHCF,E,301B,,housing,,sen_sub5_agenda_2021-02-11,14,housing units 301B through 301F are not equipped with toilets
-CHCF,E,301C,,housing,,December2025QuarterlyReport-ADAFinal,49,Housing Unit 301C
-CHCF,E,301C,,housing,,June2026QuarterlyReport-ADA,26,Housing Unit 301C
-CHCF,E,301C,,housing,EOP,MPAR2022:P-1920-00108,76,Facility E housing unit 301C dayroom at the California Health Care Facility to provide restroom access for programming Enhanced Outpatient Program patients
-CHCF,E,301C,,housing,,March2026QuarterlyReport-ADA,27,Housing Unit 301C
-CHCF,E,301C,,housing,,September2021QuarterlyReport-ADA,156,Facility E Dayroom Restroom Housing Unit 301C
-CHCF,E,301C,,housing,,September_2025_Quarterly_Report-ADA,48,Housing Unit 301C
-CHCF,E,301C,,housing,,sen_sub5_agenda_2021-02-11,14,housing units 301B through 301F are not equipped with toilets
-CHCF,E,301D,,housing,,December2025QuarterlyReport-ADAFinal,49,Housing Unit 301D
-CHCF,E,301D,,housing,,June2026QuarterlyReport-ADA,26,Housing Unit 301D
-CHCF,E,301D,,housing,EOP,MPAR2022:P-1920-00109,77,Facility E housing unit 301D dayroom at the California Health Care Facility to provide restroom access for programming Enhanced Outpatient Program patients
-CHCF,E,301D,,housing,,March2026QuarterlyReport-ADA,27,Housing Unit 301D
-CHCF,E,301D,,housing,,September2021QuarterlyReport-ADA,156,Facility E Dayroom Restroom Housing Unit 301D
-CHCF,E,301D,,housing,,September_2025_Quarterly_Report-ADA,48,Housing Unit 301D
-CHCF,E,301D,,housing,,sen_sub5_agenda_2021-02-11,14,housing units 301B through 301F are not equipped with toilets
-CHCF,E,301E,,housing,,December2025QuarterlyReport-ADAFinal,49,Housing Unit 301E
-CHCF,E,301E,,housing,,June2026QuarterlyReport-ADA,26,Housing Unit 301E
-CHCF,E,301E,,housing,EOP,MPAR2022:P-1920-00110,77,Facility E housing unit 301E dayroom at the California Health Care Facility to provide restroom access for programming Enhanced Outpatient Program patients
-CHCF,E,301E,,housing,,March2026QuarterlyReport-ADA,27,Housing Unit 301E
-CHCF,E,301E,,housing,,September2021QuarterlyReport-ADA,156,Facility E Dayroom Restroom Housing Unit 301E
-CHCF,E,301E,,housing,,September_2025_Quarterly_Report-ADA,48,Housing Unit 301E
-CHCF,E,301E,,housing,,sen_sub5_agenda_2021-02-11,14,housing units 301B through 301F are not equipped with toilets
-CHCF,E,301F,,housing,,December2025QuarterlyReport-ADAFinal,49,Housing Unit 301F
-CHCF,E,301F,,housing,,June2026QuarterlyReport-ADA,26,Housing Unit installation. 301F
-CHCF,E,301F,,housing,EOP,MPAR2022:P-1920-00111,77,Facility E housing unit 301F dayroom at the California Health Care Facility to provide restroom access for programming Enhanced Outpatient Program patients
-CHCF,E,301F,,housing,,March2026QuarterlyReport-ADA,27,Housing Unit 301F
-CHCF,E,301F,,housing,,September2021QuarterlyReport-ADA,156,Facility E Dayroom Restroom Housing Unit 301F
-CHCF,E,301F,,housing,,September_2025_Quarterly_Report-ADA,48,Housing Unit 301F
-CHCF,E,301F,,housing,,sen_sub5_agenda_2021-02-11,14,housing units 301B through 301F are not equipped with toilets
-CIM,,,50-Bed Mental Health Crisis Facility,health_care,MHCB,December2025QuarterlyReport-ADAFinal,6,50-Bed Mental Health Crisis Facility at the California Institution for Men
-CIM,,,50-Bed Mental Health Crisis Facility,health_care,MHCB,June2026QuarterlyReport-ADA,4,50-Bed Mental Health Crisis Facility at the California Institution for Men
-CIM,,,50-Bed Mental Health Crisis Facility,health_care,MHCB,MPAR2022:P-1617-00113,81,50-Bed Mental Health Crisis Facility
-CIM,,,50-Bed Mental Health Crisis Facility,health_care,MHCB,March2026QuarterlyReport-ADA,4,50-Bed Mental Health Crisis Facility at the California Institution for Men
-CIM,,,50-Bed Mental Health Crisis Facility,health_care,MHCB,September_2025_Quarterly_Report-ADA,6,50-Bed Mental Health Crisis Facility at the California Institution for Men
-CIM,,,50-Bed Mental Health Crisis Facility,health_care,,plata_ecf3963_receiver_triannual_59_2025-06-02,11,the new 50-Bed Mental Health Crisis Facility (MHCF) project at CIM
-CIM,C,,Facility C East Culinary Building,kitchen,,MPAR2022:P-2122-00112,86,Renovate Facility C East Culinary Building
-CIM,B,204.5,,,,MPAR2024:P-2324-00143,79,"Replace Roof - Facility B, Building 204.5/Unit 2, Administration and Medical"
-CIM,B,204.7,,housing,,MPAR2025:P-2526-00130,77,"Replace Roof - Facility B, Building 204.7 and 204.8, Unit 4, Housing Unit"
-CIM,B,204.8,,housing,,MPAR2025:P-2526-00130,77,"Replace Roof - Facility B, Building 204.7 and 204.8, Unit 4, Housing Unit"
-CIM,,377,Medical and Dental,health_care,,MPAR2022:P-1718-00413,83,"Renovate and repair Medical and Dental, Building 377."
-CIW,,,45 Bed CTC,health_care,CTC,asm_sub5_agenda_2011-05-25,15,will add 45 licensed Correctional Treatment Center (CTC) beds to an existing 18 bed CTC
-CIW,,,Administrative Segregation Housing Unit,housing,ASU,MPAR2022:P-1718-00120,88,Medication Preparation Room in the Administrative Segregation Housing Unit
-CIW,,,Central Kitchen,kitchen,,MPAR2022:P-2122-00098,89,Central Kitchen Remodel
-CIW,,,Walker Unit,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,66,"the Walker Unit, and the auditorium were air-conditioned"
-CMC,East,,Central Health Services,health_care,,December2025QuarterlyReport-ADAFinal,14,east facility Central Health Services renovation
-CMC,East,,Central Health Services,health_care,,MPAR2022:P-1213-00224,91,the East Facility Central Health Services
-CMC,East,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,40,SP 7 (east facility Central Health Services renovation)
-CMC,East,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,36,SP 7 (east facility Central Health Services renovation)
-CMC,East,,Central Health Services,health_care,,September_2025_Quarterly_Report-ADA,13,east facility Central Health Services renovation
-CMC,West,,Central Kitchen,kitchen,,MPAR2022:P-1011-00346,91,Central Kitchen Replacement-West
-CMC,East,,Health Care Administration building,admin,,MPAR2022:P-1213-00224,91,the Health Care Administration building at the East Facility
-CMC,East,,Main Kitchen,kitchen,,MPAR2022:P-2122-00102,96,renovate East Facility Main Kitchen
-CMC,,,Pharmacy and Laboratory building,health_care,,MPAR2022:P-1213-00224,91,a new Pharmacy and Laboratory building
-CMC,East,,Receiving and Release,other,,December2025QuarterlyReport-ADAFinal,14,East Facility Receiving and Release
-CMC,East,,Receiving and Release,other,,September_2025_Quarterly_Report-ADA,13,East Facility Receiving and Release
-CMC,,,pharmacy and laboratory building,health_care,,December2025QuarterlyReport-ADAFinal,14,new pharmacy and laboratory building
-CMC,,,pharmacy and laboratory building,health_care,,Sep_2020_Quarterly-ADA_Final,40,SP 5 (new pharmacy and laboratory building)
-CMC,,,pharmacy and laboratory building,health_care,,September2021QuarterlyReport-ADA,36,SP 5 (new pharmacy and laboratory building)
-CMC,,,pharmacy and laboratory building,health_care,,September_2025_Quarterly_Report-ADA,13,new pharmacy and laboratory building
-CMC,East,,primary care clinic and health care administration building,,,December2025QuarterlyReport-ADAFinal,14,new east facility primary care clinic and health care administration building
-CMC,East,,primary care clinic and health care administration building,,,Sep_2020_Quarterly-ADA_Final,40,SP 4 (new east facility primary care clinic and health care administration building)
-CMC,East,,primary care clinic and health care administration building,,,September2021QuarterlyReport-ADA,36,SP 4 (new east facility primary care clinic and health care administration building)
-CMC,East,,primary care clinic and health care administration building,,,September_2025_Quarterly_Report-ADA,13,new east facility primary care clinic and health care administration building
-CMC,,330,,kitchen,,Sep_2020_Quarterly-ADA_Final,34,winterization at Kitchen 330
-CMC,,330,,kitchen,,September2021QuarterlyReport-ADA,31,winterization at Kitchen 330
-CMC,,352A,,kitchen,,Sep_2020_Quarterly-ADA_Final,34,Diner 352A and Diner 360
-CMC,,352A,,kitchen,,September2021QuarterlyReport-ADA,31,Diner 352A and Diner 360
-CMC,,360,,kitchen,,Sep_2020_Quarterly-ADA_Final,34,Diner 352A and Diner 360
-CMC,,360,,kitchen,,September2021QuarterlyReport-ADA,31,Diner 352A and Diner 360
-CMC,,4,,,ASU,MPAR2022:P-1718-00261,91,"Repair Cell Electrical and Cable TV Building 4, Administrative Segregation Unit"
-CMC,East,7,,housing,GP,MPAR2022:P-1718-00253,94,"Convert Cells to GP - East Facility, Building 7, Lower Tier Modifications"
-CMC,East,B,,,,December2025QuarterlyReport-ADAFinal,12,East Facility Building B Medical Records Renovation
-CMC,East,B,,,,Sep_2020_Quarterly-ADA_Final,38,SP 7.4 (East Facility Building B Medical Records Renovation)
-CMC,East,B,,,,September2021QuarterlyReport-ADA,35,SP 7.4 (East Facility Building B Medical Records Renovation)
-CMC,East,B,,,,September_2025_Quarterly_Report-ADA,11,East Facility Building B Medical Records Renovation
-CMC,East,C,,health_care,,December2025QuarterlyReport-ADAFinal,12,East Facility Building C – East Triage and Treatment Area Addition and Renovation
-CMC,East,C,,,,Sep_2020_Quarterly-ADA_Final,39,"SP 7.2 (East Facility Building C, West Central Health Services Specialty Clinic Renovation)"
-CMC,East,C,,,,September2021QuarterlyReport-ADA,35,SP 7.3 (East Facility Building C – East Triage and Treatment Area Addition and Renovation)
-CMC,East,C,,health_care,,September_2025_Quarterly_Report-ADA,11,East Facility Building C – East Triage and Treatment Area Addition and Renovation
-CMC,,F L3,,,,December2025QuarterlyReport-ADAFinal,12,restroom entry door installation at Building F L3
-CMC,,F L3,,,,Sep_2020_Quarterly-ADA_Final,38,restroom entry door installation at Building F L3
-CMC,,F L3,,,,September2021QuarterlyReport-ADA,35,restroom entry door installation at Building F L3
-CMC,,F L3,,,,September_2025_Quarterly_Report-ADA,11,restroom entry door installation at Building F L3
-CMF,,,A Wing,,,MPAR2022:P-1516-00487,99,install a 150 ton air cooled chiller alongside the West side of A Wing
-CMF,,,B-Wing,,,Sep_2020_Quarterly-ADA_Final,30,SP 5 (B-Wing renovation)
-CMF,,,B-Wing,,,September2021QuarterlyReport-ADA,27,SP 5 (B-Wing renovation)
-CMF,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,31,SP 1 (Central Health Services specialty clinic)
-CMF,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,27,SP 1 (Central Health Services specialty clinic)
-CMF,,,H-1 Wing,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1 wings."
-CMF,,,H-2 Wing,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1 wings."
-CMF,,,H-3 Wing,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1 wings."
-CMF,,,Hospice and Medical Records Building,health_care,,MPAR2025:P-2526-00163,93,"Replace Roof - Hospice and Medical Records Building, Section M59"
-CMF,,,I-1 Wing,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1 wings."
-CMF,,,J-1 Wing,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1 wings."
-CMF,,,Main Kitchen,kitchen,,MPAR2022:P-2122-00107,100,renovate the existing main kitchen
-CMF,,,U-Wing,,,Sep_2020_Quarterly-ADA_Final,30,commenced installation of conduit and telephone enclosure boxes at U-Wing
-CMF,,,U-Wing,,,September2021QuarterlyReport-ADA,27,commenced installation of conduit and telephone enclosure boxes at U-Wing
-CMF,,,V-Wing,,,September2021QuarterlyReport-ADA,26,IWL completed construction activities at V-Wing for SP 7
-CMF,A,H51,P-Wing,housing,,bcp_2025-26_air_cooling_pilot_8144,3,"CMF - Facility A, Wing H51/P-Wing (Mainline Housing Units)"
-CMF,A,H51,P-Wing,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"CMF - Facility A, Wing H51/P-Wing (Mainline Housing Units)"
-COR,,,Central Health Services,health_care,,December2025QuarterlyReport-ADAFinal,18,Central Health Services renovation and addition
-COR,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,12,SP 4 (Central Health Services renovation and addition)
-COR,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,9,SP 4 (Central Health Services renovation and addition)
-COR,,,Central Health Services,health_care,,September_2025_Quarterly_Report-ADA,17,Central Health Services renovation and addition
-COR,,,Central Health Services Building,health_care,,MPAR2022:P-1314-00199,102,Central Health Services Building renovations and addition
-COR,,,Correctional Treatment Center,health_care,,MPAR2022:P-2122-00061,103,two individual exercise yards adjacent to the Correctional Treatment Center
-COR,,,Correctional Treatment Center,health_care,,MPAR2022:P-2223-00048,105,two individual exercise yards adjacent to the Correctional Treatment Center. Construction phase funding.
-COR,,309A,Central Kitchen,kitchen,,MPAR2025:P-1718-00435,99,"Replace Roof - Bldg 309A, Central Kitchen"
-COR,,3A3,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,26,"in three of its thirty-three housing units (4A1, 4A3, and 3A3) the thermometers were not working properly"
-COR,,405A,Receiving and Release,other,,MPAR2024:P-2324-00139,99,"Replace Roof - Building 405A, Receiving and Release"
-COR,,4A1,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,26,"in three of its thirty-three housing units (4A1, 4A3, and 3A3) the thermometers were not working properly"
-COR,,4A1R,,housing,,coleman_ecf8558_31st_round_heat_report_2025-02-28,92,building 4A1R reported receiving a bag of ice for their cells every day
-COR,,4A3,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,26,"in three of its thirty-three housing units (4A1, 4A3, and 3A3) the thermometers were not working properly"
-COR,,4B3L,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,39,"in multiple housing units at CSP-Corcoran including 4B3L, 4B3R, and 4B4R"
-COR,,4B3R,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,39,"in multiple housing units at CSP-Corcoran including 4B3L, 4B3R, and 4B4R"
-COR,,4B4R,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,39,"in multiple housing units at CSP-Corcoran including 4B3L, 4B3R, and 4B4R"
-CRC,,,Central Health Services,health_care,,plata_ecf3963_receiver_triannual_59_2025-06-02,11,The CRC Central Health Services project was completed in March 2025.
-CRC,,107,,housing,,MPAR2022:P-2122-00219,108,"Replace Entrance Doors Building 107, 12 Dorms"
-CTC,,,C-Wing,,,MPAR2022:P-1718-00396,113,"Replace Roof C-Wing, F Dorm, North Corridor Classrooms"
-CTC,,,F Dorm,housing,,MPAR2022:P-1718-00396,113,"Replace Roof C-Wing, F Dorm, North Corridor Classrooms"
-CTC,,,North Corridor Classrooms,program,,MPAR2022:P-1718-00396,113,"Replace Roof C-Wing, F Dorm, North Corridor Classrooms"
-CTC,,B,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
-CTC,,D,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
-CTC,,E,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
-CTC,,F,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
-CTC,,G,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
-CTC,,L,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
-CTC,,N,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
-CTF,,,Central Culinary Building,kitchen,,MPAR2022:P-0910-00900,116,"Roof Replacement L-Wing, Central Culinary Building"
-CTF,,,L-Wing,,,MPAR2022:P-0910-00900,116,"Roof Replacement L-Wing, Central Culinary Building"
-CTF,,,O Wing,,ASU,MPAR2022:P-0910-01114,117,Administrative Segregation Cell Door Retrofit
-CTF,,,O Wing,,ASU,MPAR2022:P-1718-00122,116,Medication Preparation Room in O Wing to provide the appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation Unit
-CTF,,,O-Wing,,ASU,Sep_2020_Quarterly-ADA_Final,77,cell fronts/doors in the administrative segregation unit in O-Wing
-CTF,,,O-Wing,,ASU,September2021QuarterlyReport-ADA,78,cell fronts/doors in the administrative segregation unit in O-Wing
-CTF,,,O-Wing,,ASU,sen_sub5_agenda_vote_outcomes_2018-03-15,29,144 barred cell fronts with more secure cell fronts with vision panels in the O-Wing ASU
-CVSP,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,58,SP 2 (Central Health Services Renovation)
-CVSP,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,55,SP 2 (Central Health Services Renovation)
-CVSP,,,Central Health Services building,health_care,,MPAR2022:P-1415-00085,121,renovations to the Central Health Services building
-CVSP,,,Health Care Administration building,admin,,MPAR2022:P-1415-00085,121,a new Health Care Administration building
-CVSP,,,health care administration and health records building,admin,,Sep_2020_Quarterly-ADA_Final,75,SP 3 (new health care administration and health records building)
-CVSP,,,health care administration and health records building,admin,,September2021QuarterlyReport-ADA,76,SP 3 (new health care administration and health records building)
-FOL,,,Cell Block 1,housing,,MPAR2022:P-2122-00138,127,Cell Block 1 Heating/Cooling System
-FOL,,,Cell Block Five,housing,,Sep_2020_Quarterly-ADA_Final,3,Cell Block Five Fire/Life Safety Upgrade
-FOL,,,Cell Block Five,housing,,September2021QuarterlyReport-ADA,3,Cell Block Five Fire/Life Safety Upgrade
-FOL,,,Cell Block Five,housing,,sen_sub5_agenda_2021-02-11,12,Folsom State Prison’s Cell Block Five Fire Life & Safety
-FOL,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,89,fireproofing at the Central Health Services building for SP 3
-FOL,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,90,fireproofing at the Central Health Services building for SP 3
-FOL,,,Central Health Services building,health_care,,MPAR2022:P-1011-00015,126,a new Central Health Services building
-FOL,,,Education Annex,program,,Sep_2020_Quarterly-ADA_Final,89,received certificate of occupancy for education annex for SP 3
-FOL,,,Education Annex,program,,September2021QuarterlyReport-ADA,91,received certificate of occupancy for education annex for SP 3
-FOL,,1,,,,Sep_2020_Quarterly-ADA_Final,90,SP 2 (building 1 primary care clinic)
-FOL,,1,,,,September2021QuarterlyReport-ADA,91,SP 2 (building 1 primary care clinic)
-FOL,,2,,,,September2021QuarterlyReport-ADA,89,"drywall installation, ceiling framing, and painting at Building 2 for SP 4.1"
-FOL,,4,,,ASU,MPAR2022:P-1718-00123,125,Medication Preparation Room in Building 4 to provide the appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation Unit
-FOL,,5,,housing,,Sep_2020_Quarterly-ADA_Final,89,commenced CMU wall construction in Housing Unit 5 for SP 4
-FOL,,5,,housing,,September2021QuarterlyReport-ADA,90,commenced CMU wall construction in Housing Unit 5 for SP 4
-FOL,,5,Cell Block Five,housing,,MPAR2022:P-0809-01089,126,"complete fire, life and safety upgrades to Building 5 which will include the installation of fire sprinklers in each of the 328 cells"
-HDSP,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,95,SP 3 (Central Health Services renovation and addition)
-HDSP,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,98,SP 3 (Central Health Services renovation and addition)
-HDSP,,,Central Health Services building,health_care,,MPAR2022:P-1314-00344,130,renovations and additions to the Central Health Services building
-HDSP,,,Correctional Treatment Center,health_care,,MPAR2022:P-1617-00025,129,Replace Floor - Correctional Treatment Center
-HDSP,,351,,housing,,MPAR2024:P-2324-00144,116,"Replace Roofs - Housing Buildings 351, 352, and 455"
-HDSP,,351,,,,MPAR2025:P-2021-00058,110,Replace Roof - Buildings 351 and 455; Housing and Administrative Segregation Unit
-HDSP,,352,,housing,,MPAR2024:P-2324-00144,116,"Replace Roofs - Housing Buildings 351, 352, and 455"
-HDSP,,455,,housing,,MPAR2024:P-2324-00144,116,"Replace Roofs - Housing Buildings 351, 352, and 455"
-HDSP,,455,,,,MPAR2025:P-2021-00058,110,Replace Roof - Buildings 351 and 455; Housing and Administrative Segregation Unit
-HDSP,C,C2,,,,Appendix-1-CDCR-Adult-Institutions-ADA,6,CDCR deactivated Buildings C2 and C8 in Facility C
-HDSP,C,C8,,,,Appendix-1-CDCR-Adult-Institutions-ADA,6,CDCR deactivated Buildings C2 and C8 in Facility C
-HDSP,D,D3,,,,Appendix-1-CDCR-Adult-Institutions-ADA,6,Buildings D3 and D4 in Facility D
-HDSP,D,D4,,,,Appendix-1-CDCR-Adult-Institutions-ADA,6,Buildings D3 and D4 in Facility D
-ISP,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,58,SP 2 (Central Health Services renovation)
-ISP,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,55,SP 2 (Central Health Services renovation)
-ISP,,,Central Health Services building,health_care,,MPAR2022:P-1415-00084,133,renovations to the Central Health Services building
-ISP,,325/A5,,housing,,Sep_2020_Quarterly-ADA_Final,101,Housing Unit 325/A5
-ISP,,325/A5,,housing,,September2021QuarterlyReport-ADA,104,Housing Unit 325/A5
-ISP,,331/B1,,housing,,September2021QuarterlyReport-ADA,103,Commenced construction at Housing Unit 331/B1
-ISP,,335/B5,,housing,,Sep_2020_Quarterly-ADA_Final,101,Housing Unit 335/B5
-ISP,,335/B5,,housing,,September2021QuarterlyReport-ADA,104,Housing Unit 335/B5
-ISP,,342/C2,,housing,,September2021QuarterlyReport-ADA,103,"Housing Units 342/C2, 344/C4"
-ISP,,343/C3,,housing,,September2021QuarterlyReport-ADA,103,Completed construction for Housing Unit 343/C3
-ISP,,344/C4,,housing,,September2021QuarterlyReport-ADA,103,"Housing Units 342/C2, 344/C4"
-ISP,,353/D3,,housing,,Sep_2020_Quarterly-ADA_Final,101,"Housing Units 353/D3, 354/D4"
-ISP,,353/D3,,housing,,September2021QuarterlyReport-ADA,103,"Housing Units 353/D3, 354/D4"
-ISP,,354/D4,,housing,,Sep_2020_Quarterly-ADA_Final,101,"Housing Units 353/D3, 354/D4"
-ISP,,354/D4,,housing,,September2021QuarterlyReport-ADA,103,"Housing Units 353/D3, 354/D4"
-ISP,,355/D5,,housing,,Sep_2020_Quarterly-ADA_Final,101,Housing Unit 355/D5
-ISP,,355/D5,,housing,,September2021QuarterlyReport-ADA,104,Housing Unit 355/D5
-ISP,,420,,,,Sep_2020_Quarterly-ADA_Final,101,"roofing on Building 420, 421, 422, 440, 441, and 451"
-ISP,,420,,,,September2021QuarterlyReport-ADA,103,received certificate of occupancy for Building 420
-ISP,,421,,,,Sep_2020_Quarterly-ADA_Final,101,"roofing on Building 420, 421, 422, 440, 441, and 451"
-ISP,,421,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
-ISP,,421G,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
-ISP,,422,,,,Sep_2020_Quarterly-ADA_Final,101,"roofing on Building 420, 421, 422, 440, 441, and 451"
-ISP,,422,,,,September2021QuarterlyReport-ADA,103,"certificate of occupancy for Building 521, 422, 806, 902, 911"
-ISP,Vocational D Yard,430,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,Vocational D Yard,430,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,,431,,,,Sep_2020_Quarterly-ADA_Final,101,Completed roofing at Building 431
-ISP,,431,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
-ISP,,431G,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
-ISP,,432,Culinary,kitchen,,Sep_2020_Quarterly-ADA_Final,101,Building 432 Culinary
-ISP,,432,Culinary,kitchen,,September2021QuarterlyReport-ADA,104,Building 432 Culinary
-ISP,,440,Complex Control,other,,September2021QuarterlyReport-ADA,103,Building 440 Complex Control
-ISP,,441,C Programs,program,,September2021QuarterlyReport-ADA,103,Building 441 C Programs
-ISP,,441,C-Gym,recreation,,Sep_2020_Quarterly-ADA_Final,101,Building 441 C-Gym
-ISP,,441,C-Gym,recreation,,September2021QuarterlyReport-ADA,103,Building 441 C-Gym
-ISP,C,442,C-Yard Culinary,kitchen,,September2021QuarterlyReport-ADA,103,C-Yard Culinary at Building 442
-ISP,,451,,,,Sep_2020_Quarterly-ADA_Final,101,"roofing on Building 420, 421, 422, 440, 441, and 451"
-ISP,,451,,,,September2021QuarterlyReport-ADA,104,"roofing on Building 420, 421, 422, 440, 441, and 451"
-ISP,,460,,,,September2021QuarterlyReport-ADA,103,"Building 460, 562, 571, 572, 601, 802, 808, and 809"
-ISP,,521,,,,September2021QuarterlyReport-ADA,103,"certificate of occupancy for Building 521, 422, 806, 902, 911"
-ISP,,522,,,,Sep_2020_Quarterly-ADA_Final,101,fire alarm installation in Building 551 and 522
-ISP,,522,,,,September2021QuarterlyReport-ADA,104,fire alarm installation in Building 551 and 522
-ISP,Vocational A Yard,523,Greenhouse,,,September2021QuarterlyReport-ADA,103,Building 523 Greenhouse and 531 Cafeteria at the A Vocational Yard
-ISP,Vocational B Yard,524,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
-ISP,Vocational B Yard,524,,,,September2021QuarterlyReport-ADA,103,"Building 524, 525, and 552 at the B Vocational yard"
-ISP,Vocational B Yard,525,B Vocational,program,,September2021QuarterlyReport-ADA,103,fire alarm installation at Building 525 B Vocational
-ISP,,526,,,,Sep_2020_Quarterly-ADA_Final,101,Commenced construction at Buildings 526 and 527 at the Vocational C Yard
-ISP,,526,,,,September2021QuarterlyReport-ADA,103,Commenced construction at Buildings 526 and 527 at the Vocational C Yard
-ISP,,527,,,,Sep_2020_Quarterly-ADA_Final,101,Commenced construction at Buildings 526 and 527 at the Vocational C Yard
-ISP,,527,,,,September2021QuarterlyReport-ADA,103,Commenced construction at Buildings 526 and 527 at the Vocational C Yard
-ISP,Vocational D Yard,528,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,Vocational D Yard,528,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,Vocational D Yard,529,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,Vocational D Yard,529,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,Vocational B Yard,530,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
-ISP,Vocational B Yard,530,,,,September2021QuarterlyReport-ADA,103,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
-ISP,Vocational A Yard,531,Cafeteria,kitchen,,September2021QuarterlyReport-ADA,103,Building 523 Greenhouse and 531 Cafeteria at the A Vocational Yard
-ISP,Vocational B Yard,532,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
-ISP,Vocational B Yard,532,,,,September2021QuarterlyReport-ADA,103,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
-ISP,Vocational D Yard,534,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,Vocational D Yard,534,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,,551,,,,Sep_2020_Quarterly-ADA_Final,101,fire alarm installation in Building 551 and 522
-ISP,,551,,,,September2021QuarterlyReport-ADA,104,fire alarm installation in Building 551 and 522
-ISP,Vocational B Yard,552,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
-ISP,Vocational B Yard,552,,,,September2021QuarterlyReport-ADA,103,"Building 524, 525, and 552 at the B Vocational yard"
-ISP,Vocational D Yard,554,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,Vocational D Yard,554,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,,561,,,,September2021QuarterlyReport-ADA,103,"punch walk for Building 432, 532 and 561"
-ISP,Vocational B Yard,562,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
-ISP,Vocational B Yard,562,,,,September2021QuarterlyReport-ADA,103,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
-ISP,Vocational D Yard,563,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,Vocational D Yard,563,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,Vocational D Yard,564,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,Vocational D Yard,564,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,,571,,,,September2021QuarterlyReport-ADA,103,"Building 460, 562, 571, 572, 601, 802, 808, and 809"
-ISP,Vocational B Yard,572,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
-ISP,Vocational B Yard,572,,,,September2021QuarterlyReport-ADA,103,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
-ISP,Vocational D Yard,574,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,Vocational D Yard,574,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
-ISP,,601,,,,September2021QuarterlyReport-ADA,103,"Building 460, 562, 571, 572, 601, 802, 808, and 809"
-ISP,,700,,,,September2021QuarterlyReport-ADA,103,"punch walks at Building 700, 701, and 803"
-ISP,,701,,,,September2021QuarterlyReport-ADA,103,"punch walks at Building 700, 701, and 803"
-ISP,,800,Administration,admin,,Sep_2020_Quarterly-ADA_Final,101,building 800 - Administration
-ISP,,800,Administration,admin,,September2021QuarterlyReport-ADA,104,building 800 - Administration
-ISP,,801,Family Visiting,visiting,,September2021QuarterlyReport-ADA,103,801 Family Visiting
-ISP,,802,,,,September2021QuarterlyReport-ADA,103,"Building 460, 562, 571, 572, 601, 802, 808, and 809"
-ISP,,803,Staff Entrance,other,,September2021QuarterlyReport-ADA,103,Building 803 Staff Entrance
-ISP,,804,Guard Shack,other,,September2021QuarterlyReport-ADA,103,804 Guard Shack
-ISP,,805,Armory,other,,September2021QuarterlyReport-ADA,103,805 Armory
-ISP,,806,,,,September2021QuarterlyReport-ADA,103,"certificate of occupancy for Building 521, 422, 806, 902, 911"
-ISP,,808,,,,Sep_2020_Quarterly-ADA_Final,101,equipment pads at Building 808 and 809
-ISP,,808,,,,September2021QuarterlyReport-ADA,103,"Building 460, 562, 571, 572, 601, 802, 808, and 809"
-ISP,,809,,,,Sep_2020_Quarterly-ADA_Final,101,equipment pads at Building 808 and 809
-ISP,,809,,,,September2021QuarterlyReport-ADA,103,"Building 460, 562, 571, 572, 601, 802, 808, and 809"
-ISP,,901,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
-ISP,,902,,,,September2021QuarterlyReport-ADA,103,"certificate of occupancy for Building 521, 422, 806, 902, 911"
-ISP,E,903,E-Yard Programs,program,,September2021QuarterlyReport-ADA,103,E-Yard Programs at Building 903
-ISP,,904,Family Visiting,visiting,,September2021QuarterlyReport-ADA,103,Family Visiting Building 904 and 914 at the E and F Yards
-ISP,,905,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
-ISP,,911,,,,September2021QuarterlyReport-ADA,103,"certificate of occupancy for Building 521, 422, 806, 902, 911"
-ISP,,912,,,,September2021QuarterlyReport-ADA,103,punch walk at Building 912
-ISP,,913,,,,September2021QuarterlyReport-ADA,103,installation at Building 913
-ISP,,914,Family Visiting,visiting,,September2021QuarterlyReport-ADA,103,Family Visiting Building 904 and 914 at the E and F Yards
-ISP,,915,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
-ISP,,A-5,,housing,,Sep_2020_Quarterly-ADA_Final,101,installation at A-5 housing unit
-ISP,,A-5,,housing,,September2021QuarterlyReport-ADA,104,installation at A-5 housing unit
-ISP,,B-5,,housing,,Sep_2020_Quarterly-ADA_Final,101,punch walk at housing units B-5 and C-1
-ISP,,B-5,,housing,,September2021QuarterlyReport-ADA,104,punch walk at housing units B-5 and C-1
-ISP,,B1,,housing,,September2021QuarterlyReport-ADA,103,Completed roofing installation at Housing Unit B1
-ISP,,B2,,housing,,September2021QuarterlyReport-ADA,103,Continued roofing installation at Housing Units B2 and B3
-ISP,,B3,,housing,,September2021QuarterlyReport-ADA,103,Continued roofing installation at Housing Units B2 and B3
-ISP,,C-1,,housing,,Sep_2020_Quarterly-ADA_Final,101,punch walk at housing units B-5 and C-1
-ISP,,C-1,,housing,,September2021QuarterlyReport-ADA,104,punch walk at housing units B-5 and C-1
-ISP,,C2,,housing,,September2021QuarterlyReport-ADA,103,"roofing installation at Housing Unit B2, B3, and C2"
-ISP,,C3,,,,September2021QuarterlyReport-ADA,103,commenced interior work at Building C3 and C4
-ISP,,C4,,housing,,September2021QuarterlyReport-ADA,103,Completed roof work at Housing Unit C4
-ISP,,C5,,housing,,September2021QuarterlyReport-ADA,103,Completed roof installation at Housing Unit C5
-ISP,,D-5,,housing,,Sep_2020_Quarterly-ADA_Final,101,Commenced duct work in housing unit D-5
-ISP,,D-5,,housing,,September2021QuarterlyReport-ADA,104,Commenced duct work in housing unit D-5
-ISP,,D1,,housing,,September2021QuarterlyReport-ADA,103,Completed roof work and air handler installation at Housing Unit D1
-ISP,,D2,,housing,,September2021QuarterlyReport-ADA,103,Completed additional mechanical scope for Housing Unit D2
-ISP,,D3,,housing,,September2021QuarterlyReport-ADA,103,"Completed construction at Housing Unit D3, D4"
-ISP,,D4,,housing,,Sep_2020_Quarterly-ADA_Final,101,Completed construction at Housing Unit D4
-ISP,,D4,,housing,,September2021QuarterlyReport-ADA,103,Completed construction at Housing Unit D4
-KVSP,,,Correctional Treatment Center,health_care,CTC,Sep_2020_Quarterly-ADA_Final,105,clinician workroom renovation at the Correctional Treatment Center
-KVSP,,,Correctional Treatment Center,health_care,CTC,September2021QuarterlyReport-ADA,108,clinician workroom renovation at the Correctional Treatment Center
-KVSP,C,341,,,,MPAR2025:P-2526-00145,119,"Install Exterior Insulation Finishing System at Facility C, Building 341 and 344."
-KVSP,C,341,,,,MPAR2025:P-2526-00157,120,"Install mechanical air cooling system at Facility C, Building 341 and 344."
-KVSP,C,341,,housing,,bcp_2025-26_air_cooling_pilot_8144,3,"KVSP - Facility C, Buildings 341, 342, and 344 (180-style Housing Units)"
-KVSP,C,341,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"KVSP - Facility C, Buildings 341, 342, and 344 (180-style Housing Units)"
-KVSP,C,342,,housing,,bcp_2025-26_air_cooling_pilot_8144,3,"KVSP - Facility C, Buildings 341, 342, and 344 (180-style Housing Units)"
-KVSP,C,342,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"KVSP - Facility C, Buildings 341, 342, and 344 (180-style Housing Units)"
-KVSP,C,344,,,,MPAR2025:P-2526-00145,119,"Install Exterior Insulation Finishing System at Facility C, Building 341 and 344."
-KVSP,C,344,,,,MPAR2025:P-2526-00157,120,"Install mechanical air cooling system at Facility C, Building 341 and 344."
-KVSP,C,344,,housing,,bcp_2025-26_air_cooling_pilot_8144,3,"KVSP - Facility C, Buildings 341, 342, and 344 (180-style Housing Units)"
-KVSP,C,344,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"KVSP - Facility C, Buildings 341, 342, and 344 (180-style Housing Units)"
-KVSP,C,441,,,,September2021QuarterlyReport-ADA,108,certificate of occupancy for Building 441 at the Facility C renovation
-KVSP,,6,,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,39,the KVSP report from the Special Master team tour this week that ice machines were broken in Buildings 6 and 7
-KVSP,,6,,housing,,coleman_ecf8558_31st_round_heat_report_2025-02-28,109,The monitor reviewed indoor thermometers and temperature logs in Unit 6
-KVSP,,6B,,housing,,coleman_ecf8558_31st_round_heat_report_2025-02-28,109,there was no thermometer located in Unit 6B
-KVSP,,7,,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,39,the KVSP report from the Special Master team tour this week that ice machines were broken in Buildings 6 and 7
-KVSP,,7,,housing,,coleman_ecf8558_31st_round_heat_report_2025-02-28,109,Thermometers and temperature logs were also examined in Unit 7
-KVSP,,8,,housing,,coleman_ecf8558_31st_round_heat_report_2025-02-28,110,Unit 8's thermometers and temperature logs were also examined
-LAC,C,,Facility C visiting area,visiting,,coleman_ecf8558_31st_round_heat_report_2025-02-28,97,the Facility C visiting area
-LAC,,,New Pharmacy Building,health_care,,MPAR2022:P-2122-00110,141,New Pharmacy Building
-LAC,A,,satellite kitchen A,kitchen,,coleman_ecf8558_31st_round_heat_report_2025-02-28,97,Broken thermometers were noted in satellite kitchen A and unit C1
-LAC,,341,,,,MPAR2025:P-2324-00140,123,"Replace Roof - Kitchen & Housing Units, Buildings 421, 341, and 342"
-LAC,D,3410,,,,MPAR2024:P-2324-00140,126,"Replace Roofs - Facility D, Buildings 347, 348, 349, and 3410"
-LAC,D,3410,,housing,,MPAR2025:P-2324-00149,122,"Replace Roofs - Facility D, Housing Units, Buildings 346, 347, 348 and 3410"
-LAC,D,3410,,,,MPAR2025:P-2526-00146,122,"Design and install exterior Insulation in 2025-26 at Facility D, Buildings 348 and 3410"
-LAC,D,3410,,,,MPAR2025:P-2526-00158,123,"Install Exterior Insulation Finishing System at Facility D, Buildings 348 and 3410."
-LAC,D,3410,,housing,,bcp_2025-26_air_cooling_pilot_8144,3,"LAC - Facility D, Buildings 348, 349 and 3410 (270-style Housing Units)"
-LAC,D,3410,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"LAC - Facility D, Buildings 348, 349 and 3410 (270-style Housing Units)"
-LAC,,342,,,,MPAR2025:P-2324-00140,123,"Replace Roof - Kitchen & Housing Units, Buildings 421, 341, and 342"
-LAC,D,346,,housing,,MPAR2025:P-2324-00149,122,"Replace Roofs - Facility D, Housing Units, Buildings 346, 347, 348 and 3410"
-LAC,D,347,,,,MPAR2024:P-2324-00140,126,"Replace Roofs - Facility D, Buildings 347, 348, 349, and 3410"
-LAC,D,347,,housing,,MPAR2025:P-2324-00149,122,"Replace Roofs - Facility D, Housing Units, Buildings 346, 347, 348 and 3410"
-LAC,D,348,,,,MPAR2024:P-2324-00140,126,"Replace Roofs - Facility D, Buildings 347, 348, 349, and 3410"
-LAC,D,348,,housing,,MPAR2025:P-2324-00149,122,"Replace Roofs - Facility D, Housing Units, Buildings 346, 347, 348 and 3410"
-LAC,D,348,,,,MPAR2025:P-2526-00146,122,"Design and install exterior Insulation in 2025-26 at Facility D, Buildings 348 and 3410"
-LAC,D,348,,,,MPAR2025:P-2526-00158,123,"Install Exterior Insulation Finishing System at Facility D, Buildings 348 and 3410."
-LAC,D,348,,housing,,bcp_2025-26_air_cooling_pilot_8144,3,"LAC - Facility D, Buildings 348, 349 and 3410 (270-style Housing Units)"
-LAC,D,348,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"LAC - Facility D, Buildings 348, 349 and 3410 (270-style Housing Units)"
-LAC,D,349,,,,MPAR2024:P-2324-00140,126,"Replace Roofs - Facility D, Buildings 347, 348, 349, and 3410"
-LAC,D,349,,housing,,bcp_2025-26_air_cooling_pilot_8144,3,"LAC - Facility D, Buildings 348, 349 and 3410 (270-style Housing Units)"
-LAC,D,349,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"LAC - Facility D, Buildings 348, 349 and 3410 (270-style Housing Units)"
-LAC,,421,,,,MPAR2025:P-2324-00140,123,"Replace Roof - Kitchen & Housing Units, Buildings 421, 341, and 342"
-LAC,,A1,,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,97,"temperature logs were missing temperature recordings in units A1, A3, D5, the CTC"
-LAC,,A3,,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,97,"temperature logs were missing temperature recordings in units A1, A3, D5, the CTC"
-LAC,,C1,,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,97,Broken thermometers were noted in satellite kitchen A and unit C1
-LAC,,D3,,housing,EOP,MPAR2022:P-1718-00125,139,Medication Distribution Rooms in the Enhanced Outpatient Units at Housing Units D3 and D4
-LAC,,D4,,housing,EOP,MPAR2022:P-1718-00125,139,Medication Distribution Rooms in the Enhanced Outpatient Units at Housing Units D3 and D4
-LAC,,D5,,housing,,MPAR2022:P-2021-00197,139,Design and construct a Medication Preparation Room in Housing Unit D5.
-LAC,,D5,,housing,,Sep_2020_Quarterly-ADA_Final,49,medication preparation room at housing unit D5
-LAC,,D5,,housing,,September2021QuarterlyReport-ADA,46,medication preparation room at housing unit D5
-LAC,,D5,,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,97,"temperature logs were missing temperature recordings in units A1, A3, D5, the CTC"
-LAC,,D5,,housing,,sen_sub5_agenda_2021-02-11,11,MPR at LAC Housing Unit D5
-MCSP,,,Correctional Treatment Center,health_care,,MPAR2022:P-1718-00344,143,Replace Nurse Call System in the Correctional Treatment Center
-MCSP,,B6,,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,117,particularly high temperatures noted on Facility B6 and all of Facility C
-MCSP,,B7,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,27,two of its twenty-two housing units (C14 and B7) did not properly log temperatures
-MCSP,,B7,,housing,,coleman_ecf8558_31st_round_heat_report_2025-02-28,116,"housing unit B7, which was missing a temperature"
-MCSP,,C12,,housing,ASU,MPAR2022:P-1718-00126,143,Medication Preparation Room in Housing Unit C12 to provide the appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation Unit
-MCSP,,C14,,housing,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,27,two of its twenty-two housing units (C14 and B7) did not properly log temperatures
-MCSP,,C14,,housing,,coleman_ecf8558_31st_round_heat_report_2025-02-28,116,"except for housing unit C14, which had a pre-recorded temperature"
-NKSP,,,Central Health Services,health_care,,MPAR2022:P-1213-00220,150,Central Health Services renovation and addition
-NKSP,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,111,SP 6 (Central Health Services renovation and addition)
-NKSP,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,114,SP 6 (Central Health Services renovation and addition)
-NKSP,,,Receiving and Release,other,,Sep_2020_Quarterly-ADA_Final,110,SP 7.1 (Receiving and Release Administration Renovation)
-NKSP,,,Receiving and Release,other,,September2021QuarterlyReport-ADA,113,SP 7.1 (Receiving and Release Administration Renovation)
-NKSP,,,correctional case management building,,,Sep_2020_Quarterly-ADA_Final,111,SP 8 (new correctional case management building)
-NKSP,,,correctional case management building,,,September2021QuarterlyReport-ADA,114,SP 8 (new correctional case management building)
-NKSP,M Yard,901,,housing,,MPAR2022:P-1617-00021,151,"Replace Roofs - M Yard, Building 901 and 902 Dorms"
-NKSP,M Yard,902,,housing,,MPAR2022:P-1617-00021,151,"Replace Roofs - M Yard, Building 901 and 902 Dorms"
-PBSP,,,Central Kitchen,kitchen,,MPAR2022:P-1617-00109,155,Central Kitchen Walk-In Freezer Addition
-PBSP,,,Central Kitchen,kitchen,,Sep_2020_Quarterly-ADA_Final,150,PBSP Central Kitchen
-PBSP,,,Central Kitchen,kitchen,,September2021QuarterlyReport-ADA,155,PBSP Central Kitchen
-PBSP,,,Laundry,laundry,,MPAR2022:P-1920-00082,156,Thermal Pack Steam Line Replacement from Laundry to Main Kitchen
-PBSP,,,Main Kitchen,kitchen,,MPAR2022:P-1920-00082,156,Thermal Pack Steam Line Replacement from Laundry to Main Kitchen
-PBSP,,A1,,,,June2026QuarterlyReport-ADA,18,fire sprinkler installation at Building A1 and A2
-PBSP,,A2,,,,June2026QuarterlyReport-ADA,18,fire sprinkler installation at Building A1 and A2
-PBSP,,A3,,,,December2025QuarterlyReport-ADAFinal,30,commence construction activities at Building A3 and A4
-PBSP,,A3,,,,March2026QuarterlyReport-ADA,17,certificate of occupancy for Building A3 and A4
-PBSP,,A4,,,,December2025QuarterlyReport-ADAFinal,30,commence construction activities at Building A3 and A4
-PBSP,,A4,,,,March2026QuarterlyReport-ADA,17,certificate of occupancy for Building A3 and A4
-PBSP,,A5,,,,December2025QuarterlyReport-ADAFinal,30,fire sprinkler installation for Building A5 and A6
-PBSP,,A5,,,,September_2025_Quarterly_Report-ADA,29,fire sprinkler installation for Building A5 and A6
-PBSP,,A6,,,,December2025QuarterlyReport-ADAFinal,30,fire sprinkler installation for Building A5 and A6
-PBSP,,A6,,,,September_2025_Quarterly_Report-ADA,29,fire sprinkler installation for Building A5 and A6
-PBSP,,A7,,,,December2025QuarterlyReport-ADAFinal,31,punch list items for Building A7 and A8
-PBSP,,A7,,,,September_2025_Quarterly_Report-ADA,30,punch list items for Building A7 and A8
-PBSP,,A8,,,,December2025QuarterlyReport-ADAFinal,31,punch list items for Building A7 and A8
-PBSP,,A8,,,,September_2025_Quarterly_Report-ADA,30,punch list items for Building A7 and A8
-PVSP,,,Central Health Services,health_care,,December2025QuarterlyReport-ADAFinal,36,SP 3 (Central Health Services Renovation)
-PVSP,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,124,SP 3.1.1 (Central Health Services inmate holding cell renovation)
-PVSP,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,126,SP 3.1.1 (Central Health Services incarcerated individual holding cell renovation)
-PVSP,,,Central Health Services,health_care,,September_2025_Quarterly_Report-ADA,35,SP 3 (Central Health Services Renovation)
-PVSP,,,Central Health Services,health_care,,plata_ecf3963_receiver_triannual_59_2025-06-02,11,The PVSP Specialty Exam and Central Health Services renovations are ongoing
-PVSP,,,Central Health Services building,health_care,,MPAR2022:P-1314-00412,160,renovation to the Central Health Services building
-PVSP,,,Central Kitchen,kitchen,,MPAR2022:P-2122-00147,162,Replacement of the Central Kitchen refrigeration systems
-PVSP,,,Central Kitchen,kitchen,,MPAR2024:P-2324-00112,140,Central Kitchen Repairs
-PVSP,,,Pharmacy and Lab building,health_care,,MPAR2022:P-1314-00412,160,a new Pharmacy and Lab building
-PVSP,D,331,,housing,,MPAR2022:P-1617-00573,161,"Facility D, Building 331, 332, 333, 334, 335"
-PVSP,D,332,,housing,,MPAR2022:P-1617-00573,161,"Facility D, Building 331, 332, 333, 334, 335"
-PVSP,D,333,,housing,,MPAR2022:P-1617-00573,161,"Facility D, Building 331, 332, 333, 334, 335"
-PVSP,D,334,,housing,,MPAR2022:P-1617-00573,161,"Facility D, Building 331, 332, 333, 334, 335"
-PVSP,D,335,,housing,,MPAR2022:P-1617-00573,161,"Facility D, Building 331, 332, 333, 334, 335"
-PVSP,C,336,,housing,,MPAR2022:P-1617-00573,161,"Facility C, Building 336, 337, 338, 339, 340"
-PVSP,C,337,,housing,,MPAR2022:P-1617-00573,161,"Facility C, Building 336, 337, 338, 339, 340"
-PVSP,C,338,,housing,,MPAR2022:P-1617-00573,161,"Facility C, Building 336, 337, 338, 339, 340"
-PVSP,C,339,,housing,,MPAR2022:P-1617-00573,161,"Facility C, Building 336, 337, 338, 339, 340"
-PVSP,C,340,,housing,,MPAR2022:P-1617-00573,161,"Facility C, Building 336, 337, 338, 339, 340"
-PVSP,B,341,,housing,,MPAR2022:P-1617-00573,161,"Facility B, Building 341, 342, 343, 344, 345"
-PVSP,B,342,,housing,,MPAR2022:P-1617-00573,161,"Facility B, Building 341, 342, 343, 344, 345"
-PVSP,B,343,,housing,,MPAR2022:P-1617-00573,161,"Facility B, Building 341, 342, 343, 344, 345"
-PVSP,B,344,,housing,,MPAR2022:P-1617-00573,161,"Facility B, Building 341, 342, 343, 344, 345"
-PVSP,B,345,,housing,,MPAR2022:P-1617-00573,161,"Facility B, Building 341, 342, 343, 344, 345"
-PVSP,A,346,,housing,,MPAR2022:P-1617-00573,161,"Facility A, Building 346, 347, 348, 349, 350"
-PVSP,A,347,,housing,,MPAR2022:P-1617-00573,161,"Facility A, Building 346, 347, 348, 349, 350"
-PVSP,A,348,,housing,,MPAR2022:P-1617-00573,161,"Facility A, Building 346, 347, 348, 349, 350"
-PVSP,A,349,,housing,,MPAR2022:P-1617-00573,161,"Facility A, Building 346, 347, 348, 349, 350"
-PVSP,A,350,,housing,,MPAR2022:P-1617-00573,161,"Facility A, Building 346, 347, 348, 349, 350"
-RJD,Yard 4,16,,housing,,MPAR2022:P-1213-00089,167,"Housing Units Yard 4 Install Electrical and Television Outlets H.U.16, 17,18,19"
-RJD,Yard 4,17,,housing,,MPAR2022:P-1213-00089,167,"Housing Units Yard 4 Install Electrical and Television Outlets H.U.16, 17,18,19"
-RJD,Yard 4,18,,housing,,MPAR2022:P-1213-00089,167,"Housing Units Yard 4 Install Electrical and Television Outlets H.U.16, 17,18,19"
-RJD,Yard 4,19,,housing,,MPAR2022:P-1213-00089,167,"Housing Units Yard 4 Install Electrical and Television Outlets H.U.16, 17,18,19"
-RJD,,3.12,,,,MPAR2025:P-2526-00164,142,Replace Roof - Healthcare and Litigation Buildings 3.12 and 5.28
-RJD,,5.28,,,,MPAR2025:P-2526-00164,142,Replace Roof - Healthcare and Litigation Buildings 3.12 and 5.28
-RJD,,B6,,housing,ASU,MPAR2022:P-1718-00128,164,Medication Preparation Room in Housing Unit B6 and B7 to provide appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation
-RJD,B,B6,,housing,,MPAR2023:P-1213-00318,150,Install electrical & TV wiring in B Housing Units B6 and B7.
-RJD,,B7,,housing,ASU,MPAR2022:P-1718-00128,164,Medication Preparation Room in Housing Unit B6 and B7 to provide appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation
-RJD,B,B7,,housing,,MPAR2023:P-1213-00318,150,Install electrical & TV wiring in B Housing Units B6 and B7.
-RJD,,C14,,housing,EOP,MPAR2022:P-1718-00128,164,Medication Distribution Room in an Enhanced Outpatient unit at Housing Unit C14
-SAC,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,54,SP 3 (Central Health Services building)
-SAC,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,51,SP 3 (Central Health Services building)
-SAC,A,,Correctional Treatment Center,health_care,,MPAR2022:P-1415-00052,171,"Facility A, Correctional Treatment Center"
-SAC,,,New Pharmacy Building,health_care,,MPAR2022:P-2122-00111,172,New Pharmacy Building
-SAC,,A,Modular Building A,program,,December2025QuarterlyReport-ADAFinal,21,Completed placement of Modular Building A
-SAC,,A,Modular Building A,program,,March2026QuarterlyReport-ADA,11,Completed door installation at Modular Building A
-SAC,,A,Modular Building A,program,,September_2025_Quarterly_Report-ADA,20,Completed placement of Modular Building A
-SAC,,A1/A2,,housing,,MPAR2022:P-1718-00129,170,"Additional Medication Distribution Rooms in Housing Units A1/A2, A5/A6, and B7/B8"
-SAC,,A3/A4,,housing,EOP,MPAR2022:P-1718-00129,170,Medication Distribution Rooms in Enhanced Outpatient Units at Housing Units A3/A4 and B3/B4
-SAC,,A5/A6,,housing,,MPAR2022:P-1718-00129,170,"Additional Medication Distribution Rooms in Housing Units A1/A2, A5/A6, and B7/B8"
-SAC,,A7/A8,,housing,,MPAR2024:P-2324-00145,150,Replace Roof - Housing Building A7/A8
-SAC,,B,Modular Building B,program,,December2025QuarterlyReport-ADAFinal,21,fire sprinkler installation at Modular Building B
-SAC,,B,Modular Building B,program,,March2026QuarterlyReport-ADA,11,Completed punch list items at Modular Building B
-SAC,,B,Modular Building B,program,,September_2025_Quarterly_Report-ADA,19,fire sprinkler installation at Modular Building B
-SAC,,B3/B4,,housing,EOP,MPAR2022:P-1718-00129,170,Medication Distribution Rooms in Enhanced Outpatient Units at Housing Units A3/A4 and B3/B4
-SAC,,B7/B8,,housing,,MPAR2022:P-1718-00129,170,"Additional Medication Distribution Rooms in Housing Units A1/A2, A5/A6, and B7/B8"
-SAC,C,C,Modular Building C,program,,December2025QuarterlyReport-ADAFinal,21,exterior finishing at Modular Building C Facility C
-SAC,C,C,Modular Building C,program,,March2026QuarterlyReport-ADA,11,received certificate of occupancy for Modular Building C
-SAC,C,C,Modular Building C,program,,September_2025_Quarterly_Report-ADA,20,exterior finishing at Modular Building C Facility C
-SATF,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,63,SP 3 (Central Health Services renovation)
-SATF,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,60,SP 3 (Central Health Services renovation)
-SATF,,,Central Health Services building,health_care,,MPAR2022:P-1314-00201,174,the Central Health Services building renovations
-SATF,,371,,,,December2025QuarterlyReport-ADAFinal,45,Building 371 and 382
-SATF,,371,,,,September_2025_Quarterly_Report-ADA,43,certificate of occupancy for Buildings 371 and 382
-SATF,,372,,,,December2025QuarterlyReport-ADAFinal,45,Buildings 372 and 383
-SATF,,372,,,,September_2025_Quarterly_Report-ADA,44,Buildings 372 and 383
-SATF,,373,,,,December2025QuarterlyReport-ADAFinal,44,"Buildings 373, 383 B, and 383 C"
-SATF,,373,,,,September_2025_Quarterly_Report-ADA,43,"Buildings 373, 383 B, and 383 C"
-SATF,,381,,,,December2025QuarterlyReport-ADAFinal,44,certificate of occupancy for Building 381
-SATF,,381,,,,September_2025_Quarterly_Report-ADA,43,certificate of occupancy for Building 381
-SATF,,382,,,,December2025QuarterlyReport-ADAFinal,45,Building 371 and 382
-SATF,,382,,,,September_2025_Quarterly_Report-ADA,43,certificate of occupancy for Buildings 371 and 382
-SATF,,383,,,,December2025QuarterlyReport-ADAFinal,45,Buildings 372 and 383
-SATF,,383,,,,September_2025_Quarterly_Report-ADA,44,Buildings 372 and 383
-SATF,,383 B,,,,December2025QuarterlyReport-ADAFinal,44,"Buildings 373, 383 B, and 383 C"
-SATF,,383 B,,,,September_2025_Quarterly_Report-ADA,43,"Buildings 373, 383 B, and 383 C"
-SATF,,383 C,,,,December2025QuarterlyReport-ADAFinal,44,"Buildings 373, 383 B, and 383 C"
-SATF,,383 C,,,,September_2025_Quarterly_Report-ADA,43,"Buildings 373, 383 B, and 383 C"
-SATF,,440,,,,MPAR2025:P-2526-00165,151,"Replace Roof - Visiting and Gym, Buildings 440 and 442"
-SATF,,442,,,,MPAR2025:P-2526-00165,151,"Replace Roof - Visiting and Gym, Buildings 440 and 442"
-SATF,,460,Complex Control,other,,MPAR2025:P-2526-00161,149,Replace Roof - Complex Control; Building 460
-SATF,,C7,,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,25,"an indoor temperature log from unit C7 on May 13, 2024"
-SCC,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,2,Central Health Services Building Renovation
-SCC,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,3,Central Health Services Building Renovation
-SCC,,,Central Health Services Building,health_care,,MPAR2022:P-1819-00143,179,Central Health Services Building Renovation
-SCC,,,Clarifier Building,plant,,MPAR2022:P-2122-00156,183,Design and construct a new Clarifier Building
-SCC,,,Health Care Administration building,admin,,Sep_2020_Quarterly-ADA_Final,134,a new Health Care Administration building
-SCC,,,Health Care Administration building,admin,,September2021QuarterlyReport-ADA,136,a new Health Care Administration building
-SCC,,,Main Medical Building,health_care,,MPAR2024:P-2021-00249,158,Remove/Replace Air Handling Units - Main Medical Building
-SCC,Tuolumne,1,,housing,,MPAR2022:P-1617-00136,179,Repair the showers in Tuolumne Housing Buildings 1 through 5.
-SCC,Tuolumne,2,,housing,,MPAR2022:P-1617-00136,179,Repair the showers in Tuolumne Housing Buildings 1 through 5.
-SCC,,2,,housing,,MPAR2023:P-2324-00033,162,Install Electrical & Television Outlets - HU2
-SCC,Tuolumne,3,,housing,,MPAR2022:P-1617-00136,179,Repair the showers in Tuolumne Housing Buildings 1 through 5.
-SCC,Tuolumne,4,,housing,,MPAR2022:P-1617-00136,179,Repair the showers in Tuolumne Housing Buildings 1 through 5.
-SCC,Tuolumne,5,,housing,,MPAR2022:P-1617-00136,179,Repair the showers in Tuolumne Housing Buildings 1 through 5.
-SOL,,,Central Health Services,health_care,,MPAR2022:P-1213-00198,185,renovations to Central Health Services and Receiving and Release
-SOL,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,58,Commenced procurement for SP 2 (Central Health Services renovation)
-SOL,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,55,Commenced procurement for SP 2 (Central Health Services renovation)
-SOL,,,Receiving and Release,other,,MPAR2022:P-1213-00198,185,renovations to Central Health Services and Receiving and Release
-SOL,,10,,housing,ASU,MPAR2022:P-1718-00130,185,Medication Preparation Room in Housing Unit 10 to provide the appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation Unit
-SOL,,10,,housing,,Sep_2020_Quarterly-ADA_Final,58,cell modifications in Housing Units 7 and 10
-SOL,,10,,housing,,September2021QuarterlyReport-ADA,55,cell modifications in Housing Units 7 and 10
-SOL,,12,,housing,,Sep_2020_Quarterly-ADA_Final,57,ADA shower modifications at Housing Units 10 and 12
-SOL,,12,,housing,,September2021QuarterlyReport-ADA,55,ADA shower modifications at Housing Units 10 and 12
-SOL,,7,,housing,,Sep_2020_Quarterly-ADA_Final,58,cell modifications in Housing Units 7 and 10
-SOL,,7,,housing,,September2021QuarterlyReport-ADA,55,cell modifications in Housing Units 7 and 10
-SOL,,8,,housing,,Sep_2020_Quarterly-ADA_Final,57,Completed construction at Housing Unit 8
-SOL,,8,,housing,,September2021QuarterlyReport-ADA,55,Completed construction at Housing Unit 8
-SQ,,,Adjustment Center,,,FINAL-San-Quentin-Report_1.3.24,147,Adjustment Center 6’ 6” X 7’ (single cell)
-SQ,,,Boiler Plant Facility,plant,,sen_sub5_agenda_vote_outcomes_2018-03-15,27,unforeseen issues in the existing boiler plant facility
-SQ,,,East Block,,,December2025QuarterlyReport-ADAFinal,39,East Block path of travel
-SQ,,,East Block,,,FINAL-San-Quentin-Report_1.3.24,148,single-person cells vacant in East Block
-SQ,,,East Block,,,MPAR2024:P-2324-00163,167,Repair East Block roof at San Quentin Rehabilitation Center.
-SQ,,,East Block,housing,GP,MPAR2025:P-2223-00071,161,East Block Housing
-SQ,,,East Block,housing,,MPAR2025:P-2526-00166,164,Replace Roof - East Block Housing Units
-SQ,,,Educational and Vocational Center,program,,MPAR2023:P-2324-00002,171,construction of a new Educational and Vocational Center
-SQ,,,Gym,recreation,,sen_sub5_agenda_vote_outcomes_2018-03-15,26,There is only one gym at SQ and no other indoor recreational space available.
-SQ,,,Kitchen/Bakery,kitchen,,MPAR2022:P-2122-00115,193,renovations of existing Kitchen/Bakery
-SQ,,,Main Kitchen,kitchen,,MPAR2022:P-1011-00212,191,"Replace grease trap, dock and ramp at Main Kitchen"
-SQ,,,Main Kitchen,kitchen,,MPAR2022:P-1617-00140,192,Replace Main Kitchen Cooling Tower
-SQ,,,Main Kitchen,kitchen,,MPAR2024:P-1516-00130,167,Replace Main Kitchen Cooling Tower
-SQ,,,North Block,housing,,FINAL-San-Quentin-Report_1.3.24,18,San Quentin’s North Block housing
-SQ,,,North Block,,,June2026QuarterlyReport-ADA,21,flatwork at the North Block
-SQ,,,North Dining Hall,kitchen,,MPAR2022:P-2122-00115,193,"Renovation of Kitchen/Bakery/Refrigeration, North and South Dining Halls"
-SQ,,,South Block,,,FINAL-San-Quentin-Report_1.3.24,147,South Block 4’ 8” X 11’ (partial double cell)
-SQ,,,South Dining Hall,kitchen,,MPAR2022:P-2122-00115,193,"Renovation of Kitchen/Bakery/Refrigeration, North and South Dining Halls"
-SQ,,,West Block,,,FINAL-San-Quentin-Report_1.3.24,147,West Block 4’ 6” X 11’ 3” (double cell)
-SQ,,,boiler building,plant,,December2025QuarterlyReport-ADAFinal,42,slab removal at the boiler building site
-SQ,,,boiler building,plant,,MPAR2022:P-1314-00510,189,demolish the existing boiler building
-SQ,,,boiler building,plant,,September2021QuarterlyReport-ADA,134,commenced slab removal at the boiler building site
-SQ,,,boiler building,plant,,September_2025_Quarterly_Report-ADA,41,slab removal at the boiler building site
-SQ,,,boiler facility,plant,,Sep_2020_Quarterly-ADA_Final,132,construction of a new boiler facility at San Quentin State Prison
-SQ,,,boiler facility,plant,,September2021QuarterlyReport-ADA,134,construction of a new boiler facility at San Quentin State Prison
-SQ,,,pipe fitter's building,,,December2025QuarterlyReport-ADAFinal,42,demolition of the pipe fitter’s building
-SQ,,,pipe fitter's building,,,September2021QuarterlyReport-ADA,134,demolition of the pipe fitter’s building
-SQ,,,pipe fitter's building,,,September_2025_Quarterly_Report-ADA,41,demolition of the pipe fitter’s building
-SQ,,22,New Central Health Services Building,health_care,,MPAR2022:P-1718-00079,191,"the New Central Health Services Building, ID 22"
-SQ,,26,Dining Halls and Kitchen,kitchen,,MPAR2022:P-1718-00079,191,Dining Halls and Kitchen Building 26
-SQ,,32,,,,FINAL-San-Quentin-Report_1.3.24,27,dedicated space in Building 32 for ISUDT
-SQ,,32,,program,,Sep_2020_Quarterly-ADA_Final,130,"remodel approximately 8,000 square feet (sf) of vocational Building 32 for Cognitive Behavioral Treatment (CBT) Programs"
-SQ,,32,,program,,September2021QuarterlyReport-ADA,132,"remodel approximately 8,000 square feet (sf) of vocational Building 32 for Cognitive Behavioral Treatment (CBT) Programs"
-SQ,,32,,program,,sen_sub5_agenda_vote_outcomes_2018-03-15,25,"remodel of approximately 8,000 square feet of vocational Building 32 for CBT programs at San Quentin State Prison (SQ)"
-SQ,,32,Vocational Building,program,,MPAR2022:P-1718-00133,189,"remodel 8,000 sf of Vocational Building 32 into 12 treatment classrooms"
-SQ,,38,,,,December2025QuarterlyReport-ADAFinal,38,Completed demolition of building 38
-SQ,,38,,,,September_2025_Quarterly_Report-ADA,37,Completed demolition of building 38
-SQ,,38,former California Prison Industry Authority Warehouse,,,MPAR2023:P-2324-00002,171,demolition of Building 38
-SQ,,38,former California Prison Industry Authority Warehouse,,,sen_sub5_agenda_2025-03-06,20,demolition of the former California Prison Industry Authority Warehouse Building 38
-SQ,,38,old Prison Industry Building,,,FINAL-San-Quentin-Report_1.3.24,135,The old Prison Industry Building (PIA or Building 38)
-SQ,,A,,program,,December2025QuarterlyReport-ADAFinal,37,interior finishes for Building A
-SQ,,A,,program,,September_2025_Quarterly_Report-ADA,36,interior finishes for Building A
-SQ,,B,,program,,December2025QuarterlyReport-ADAFinal,37,punch walk for Building B
-SQ,,B,,program,,September_2025_Quarterly_Report-ADA,36,stud framing for Building B
-SQ,,C,,program,,December2025QuarterlyReport-ADAFinal,37,for Building C
-SQ,,C,,program,,September_2025_Quarterly_Report-ADA,36,for Building C
-SQ,,D,,program,,December2025QuarterlyReport-ADAFinal,37,for Building D
-SQ,,D,,program,,September_2025_Quarterly_Report-ADA,36,for Building D
-SVSP,,,Treatment Center 2,,,plata_ecf3963_receiver_triannual_59_2025-06-02,10,"C6, Facility C Clinic, the Triage and Treatment Area (TTA), and Treatment Center 2"
-SVSP,,325,,,,Sep_2020_Quarterly-ADA_Final,147,SVSP Building 325
-SVSP,,325,,,,September2021QuarterlyReport-ADA,152,SVSP Building 325
-SVSP,,420,,,,MPAR2025:P-2526-00167,168,"Replace Roof - Correctional Treatment Center and Central Control, Building 420 and 461"
-SVSP,,461,,,,MPAR2025:P-2526-00167,168,"Replace Roof - Correctional Treatment Center and Central Control, Building 420 and 461"
-SVSP,,462,,,,MPAR2024:P-2324-00137,172,Replace Roofs - Buildings 462 and 484 (Central Kitchen)
-SVSP,,462,,,,MPAR2025:P-2526-00162,167,Replace Roof - Kitchen; Buildings 462 and 484
-SVSP,,484,,,,MPAR2024:P-2324-00137,172,Replace Roofs - Buildings 462 and 484 (Central Kitchen)
-SVSP,,484,,,,MPAR2025:P-2526-00162,167,Replace Roof - Kitchen; Buildings 462 and 484
-VSP,,,Central Kitchen,kitchen,,MPAR2024:P-2223-00031,176,Central Kitchen
-VSP,,,Central Kitchen,kitchen,,MPAR2025:P-2526-00142,171,Central Kitchen AHU Replacement Assessment.
-VSP,,,water treatment building,plant,,December2025QuarterlyReport-ADAFinal,47,water treatment building pad
-VSP,,,water treatment building,plant,,June2026QuarterlyReport-ADA,25,metal framing at the water treatment building
-VSP,,,water treatment building,plant,,March2026QuarterlyReport-ADA,25,metal framing at the water treatment building
-VSP,,,water treatment building,plant,,September_2025_Quarterly_Report-ADA,46,water treatment building pad
-VSP,,315,Reception Center,,RC,MPAR2022:P-0809-00204,200,"Repair/Replace Roof Reception Center, Building 315"
-VSP,,406,,visiting,,MPAR2024:P-2324-00138,176,Replace Roof - Visiting Building 406
-VSP,,406,BPT/Visiting Center,visiting,,MPAR2022:P-1718-00294,199,"Replace Roof - BPT/Visiting Center, Building 406"
-VSP,,410,Central Kitchen,kitchen,,MPAR2025:P-2223-00081,172,"Replace Roof - Central Kitchen, Building 410"
-WSP,,,Central Health Services,health_care,,MPAR2022:P-1213-00221,204,"Central Health Services, and Reception Center Care Processing"
-WSP,,,Central Health Services,health_care,,Sep_2020_Quarterly-ADA_Final,111,SP 6 (Central Health Services renovation and addition)
-WSP,,,Central Health Services,health_care,,September2021QuarterlyReport-ADA,114,SP 6 (Central Health Services renovation and addition)
-WSP,,,Central Health Services Building,health_care,,MPAR2023:P-2324-00060,184,"the pharmacy, located in the Central Health Services Building"
-WSP,,,Correctional Case Management and Health Care Administration building,admin,,MPAR2022:P-1213-00221,204,a new Correctional Case Management and Health Care Administration building
-WSP,,,Correctional Treatment Center,health_care,,MPAR2022:P-1516-00295,204,"Board of Parole Hearings conference room, Correctional Treatment Center, Receiving and Release"
-WSP,,,New Pharmacy Building,health_care,,MPAR2023:P-2324-00060,184,New Pharmacy Building
-WSP,,,Receiving and Release,other,,MPAR2022:P-1516-00295,204,"Board of Parole Hearings conference room, Correctional Treatment Center, Receiving and Release"
-WSP,,,correctional case management and health care administration building,,,Sep_2020_Quarterly-ADA_Final,144,SP 8 (new correctional case management and health care administration building)
-WSP,,,correctional case management and health care administration building,,,September2021QuarterlyReport-ADA,150,SP 8 (new correctional case management and health care administration building)
-WSP,,427,,,,September2021QuarterlyReport-ADA,148,medical distribution windows at Buildings 427 and 429
-WSP,,429,,,,September2021QuarterlyReport-ADA,148,medical distribution windows at Buildings 427 and 429
+cdcr_code,facility,building,building_name,placeholder_id,use,program,year_built,source,page,quote
+ASP,,695,Laundry,,laundry,,,MPAR2022:P-1617-00390,51,"Laundry, Building 695"
+CAL,,,Central Health Services,,health_care,,,MPAR2022:P-1415-00088,55,renovations to Central Health Services
+CAL,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,63,SP 3 (Central Health Services Renovation)
+CAL,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,60,SP 3 (Central Health Services Renovation)
+CAL,,,Central Health Services,,health_care,,,sen_sub5_agenda_2021-02-11,10,Phase I includes renovations to Central Health Services
+CAL,B,331,,,housing,,,MPAR2024:P-2324-00158,56,"Replace Roofs - Facility B, Buildings 331, 332, 333, and 334, Housing"
+CAL,B,331,,,housing,,,MPAR2025:P-2324-00156,50,"Replace Roofs - Facility B, Housing Units, Buildings 331, 332, 333, 334 and 335"
+CAL,B,332,,,housing,,,MPAR2024:P-2324-00158,56,"Replace Roofs - Facility B, Buildings 331, 332, 333, and 334, Housing"
+CAL,B,332,,,housing,,,MPAR2025:P-2324-00156,50,"Replace Roofs - Facility B, Housing Units, Buildings 331, 332, 333, 334 and 335"
+CAL,B,333,,,housing,,,MPAR2024:P-2324-00158,56,"Replace Roofs - Facility B, Buildings 331, 332, 333, and 334, Housing"
+CAL,B,333,,,housing,,,MPAR2025:P-2324-00156,50,"Replace Roofs - Facility B, Housing Units, Buildings 331, 332, 333, 334 and 335"
+CAL,B,334,,,housing,,,MPAR2024:P-2324-00158,56,"Replace Roofs - Facility B, Buildings 331, 332, 333, and 334, Housing"
+CAL,B,334,,,housing,,,MPAR2025:P-2324-00156,50,"Replace Roofs - Facility B, Housing Units, Buildings 331, 332, 333, 334 and 335"
+CAL,,335,,,housing,,,MPAR2024:P-2324-00150,57,"Replace Roofs - Facility B & C, Buildings 335, 341, 342 & 343, Housing"
+CAL,B,335,,,housing,,,MPAR2025:P-2324-00156,50,"Replace Roofs - Facility B, Housing Units, Buildings 331, 332, 333, 334 and 335"
+CAL,,341,,,housing,,,MPAR2024:P-2324-00150,57,"Replace Roofs - Facility B & C, Buildings 335, 341, 342 & 343, Housing"
+CAL,,342,,,housing,,,MPAR2024:P-2324-00150,57,"Replace Roofs - Facility B & C, Buildings 335, 341, 342 & 343, Housing"
+CAL,,343,,,housing,,,MPAR2024:P-2324-00150,57,"Replace Roofs - Facility B & C, Buildings 335, 341, 342 & 343, Housing"
+CAL,D,351,,,housing,,,MPAR2025:P-2324-00158,51,"Replace Roofs - Facility D Housing, Buildings 351, 354, and 355"
+CAL,D,354,,,housing,,,MPAR2025:P-2324-00158,51,"Replace Roofs - Facility D Housing, Buildings 351, 354, and 355"
+CAL,D,355,,,housing,,,MPAR2025:P-2324-00158,51,"Replace Roofs - Facility D Housing, Buildings 351, 354, and 355"
+CCI,,,Central Kitchen,,kitchen,,,MPAR2022:P-2122-00096,62,Renovate the central kitchen.
+CCI,C,,Facility C Kitchen,,kitchen,,,MPAR2024:P-2122-00096,63,Facility C Kitchen Addition
+CCI,,,Unit II Culinary,,kitchen,,,MPAR2022:P-1112-00212,61,Kitchen Oven Exhaust Hood Systems Unit II Culinary
+CCI,A,47,Vocation,,program,,,MPAR2022:P-1415-00110,59,"Replace Roof - Facility A, Building 47, Vocation"
+CCI,B,57,Vocation,,program,,,MPAR2022:P-1415-00114,60,"Replace Roof - Facility B, Building 57, Vocation"
+CCI,,A5,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,26,in two of its twenty-one housing units (A5 and B5) the thermometers were not working properly
+CCI,,B5,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,26,in two of its twenty-one housing units (A5 and B5) the thermometers were not working properly
+CCI,,C21,Laundry/Food Service Building,,,,,MPAR2022:P-2122-00132,63,Repair of Laundry/Food Service Building (C21)
+CCWF,,,Central Health Services,,health_care,,,MPAR2022:P-1213-00222,65,Central Health Services renovations
+CCWF,,,Correctional Treatment Center,,health_care,MHCB,,MPAR2022:P-1718-00216,68,Mental Health Crisis Beds Modifications - Correctional Treatment Center
+CCWF,A,503,,,,,,MPAR2024:P-1819-00098,66,"Roof replacements at Facility A, Buildings 503 and 504."
+CCWF,A,503,,,housing,,,MPAR2024:P-1920-00145,66,"Facility A, Housing Unit 503 & 504"
+CCWF,,504,,,,STRH,,MPAR2022:P-1718-00014,66,Short Term Restricted Housing Room Renovation Building 504
+CCWF,,504,,,,ASU,,MPAR2022:P-1718-00118,65,Medication Preparation Room in Building 504 to provide the appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation Unit
+CCWF,A,504,,,,,,MPAR2024:P-1819-00098,66,"Roof replacements at Facility A, Buildings 503 and 504."
+CCWF,A,504,,,housing,,,MPAR2024:P-1920-00145,66,"Facility A, Housing Unit 503 & 504"
+CCWF,B,506,,,housing,,,bcp_2025-26_air_cooling_pilot_8144,3,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)"
+CCWF,B,506,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)"
+CCWF,B,507,,,housing,,,bcp_2025-26_air_cooling_pilot_8144,3,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)"
+CCWF,B,507,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)"
+CCWF,B,508,,,,,,MPAR2025:P-2526-00144,61,"Install Exterior Insulation Finishing System at Facility B, Building 508."
+CCWF,B,508,,,,,,MPAR2025:P-2526-00156,64,"Install mechanical air cooling system at Facility B, Building 508."
+CCWF,B,508,,,housing,,,bcp_2025-26_air_cooling_pilot_8144,3,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)"
+CCWF,B,508,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)"
+CCWF,,513,,,housing,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,53,Interviewed custody staff in unit 513
+CCWF,,514,,,housing,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,54,interviewed patients in housing unit 514
+CCWF,,805,,,health_care,MHCB,,MPAR2023:P-2223-00102,62,Mental Health Crisis Beds Treatment Room - Bldg. 805
+CCWF,,805,Central Health Services Building,,health_care,,,MPAR2022:P-1213-00007,66,"Building 805, Central Health Services Building"
+CCWF,,805,Central Health Services Building,,health_care,,,MPAR2025:P-2324-00132,64,"Building 805, Central Health Services Building - Phase II"
+CEN,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,63,SP 3 (Central Health Services Renovation)
+CEN,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,60,SP 3 (Central Health Services Renovation)
+CEN,,524B,Vocational Building,,program,,,MPAR2022:P-1617-00105,71,Remodel existing Vocational Building 524B
+CHCF,,201,Facility Shared Services Building,,,,,MPAR2022:P-1718-00060,78,"Building 201, Facility Shared Services Building"
+CHCF,E,301B,,,housing,,,December2025QuarterlyReport-ADAFinal,49,Housing Unit 301B
+CHCF,E,301B,,,housing,,,June2026QuarterlyReport-ADA,26,Housing Unit 301B
+CHCF,E,301B,,,housing,EOP,,MPAR2022:P-1920-00107,76,Facility E housing unit 301B dayroom at the California Health Care Facility to provide restroom access for programming Enhanced Outpatient Program patients
+CHCF,E,301B,,,housing,,,March2026QuarterlyReport-ADA,27,Housing Unit 301B
+CHCF,E,301B,,,housing,,,September2021QuarterlyReport-ADA,156,Facility E Dayroom Restroom Housing Unit 301B
+CHCF,E,301B,,,housing,,,September_2025_Quarterly_Report-ADA,48,Housing Unit 301B
+CHCF,E,301B,,,housing,,,sen_sub5_agenda_2021-02-11,14,housing units 301B through 301F are not equipped with toilets
+CHCF,E,301C,,,housing,,,December2025QuarterlyReport-ADAFinal,49,Housing Unit 301C
+CHCF,E,301C,,,housing,,,June2026QuarterlyReport-ADA,26,Housing Unit 301C
+CHCF,E,301C,,,housing,EOP,,MPAR2022:P-1920-00108,76,Facility E housing unit 301C dayroom at the California Health Care Facility to provide restroom access for programming Enhanced Outpatient Program patients
+CHCF,E,301C,,,housing,,,March2026QuarterlyReport-ADA,27,Housing Unit 301C
+CHCF,E,301C,,,housing,,,September2021QuarterlyReport-ADA,156,Facility E Dayroom Restroom Housing Unit 301C
+CHCF,E,301C,,,housing,,,September_2025_Quarterly_Report-ADA,48,Housing Unit 301C
+CHCF,E,301C,,,housing,,,sen_sub5_agenda_2021-02-11,14,housing units 301B through 301F are not equipped with toilets
+CHCF,E,301D,,,housing,,,December2025QuarterlyReport-ADAFinal,49,Housing Unit 301D
+CHCF,E,301D,,,housing,,,June2026QuarterlyReport-ADA,26,Housing Unit 301D
+CHCF,E,301D,,,housing,EOP,,MPAR2022:P-1920-00109,77,Facility E housing unit 301D dayroom at the California Health Care Facility to provide restroom access for programming Enhanced Outpatient Program patients
+CHCF,E,301D,,,housing,,,March2026QuarterlyReport-ADA,27,Housing Unit 301D
+CHCF,E,301D,,,housing,,,September2021QuarterlyReport-ADA,156,Facility E Dayroom Restroom Housing Unit 301D
+CHCF,E,301D,,,housing,,,September_2025_Quarterly_Report-ADA,48,Housing Unit 301D
+CHCF,E,301D,,,housing,,,sen_sub5_agenda_2021-02-11,14,housing units 301B through 301F are not equipped with toilets
+CHCF,E,301E,,,housing,,,December2025QuarterlyReport-ADAFinal,49,Housing Unit 301E
+CHCF,E,301E,,,housing,,,June2026QuarterlyReport-ADA,26,Housing Unit 301E
+CHCF,E,301E,,,housing,EOP,,MPAR2022:P-1920-00110,77,Facility E housing unit 301E dayroom at the California Health Care Facility to provide restroom access for programming Enhanced Outpatient Program patients
+CHCF,E,301E,,,housing,,,March2026QuarterlyReport-ADA,27,Housing Unit 301E
+CHCF,E,301E,,,housing,,,September2021QuarterlyReport-ADA,156,Facility E Dayroom Restroom Housing Unit 301E
+CHCF,E,301E,,,housing,,,September_2025_Quarterly_Report-ADA,48,Housing Unit 301E
+CHCF,E,301E,,,housing,,,sen_sub5_agenda_2021-02-11,14,housing units 301B through 301F are not equipped with toilets
+CHCF,E,301F,,,housing,,,December2025QuarterlyReport-ADAFinal,49,Housing Unit 301F
+CHCF,E,301F,,,housing,,,June2026QuarterlyReport-ADA,26,Housing Unit installation. 301F
+CHCF,E,301F,,,housing,EOP,,MPAR2022:P-1920-00111,77,Facility E housing unit 301F dayroom at the California Health Care Facility to provide restroom access for programming Enhanced Outpatient Program patients
+CHCF,E,301F,,,housing,,,March2026QuarterlyReport-ADA,27,Housing Unit 301F
+CHCF,E,301F,,,housing,,,September2021QuarterlyReport-ADA,156,Facility E Dayroom Restroom Housing Unit 301F
+CHCF,E,301F,,,housing,,,September_2025_Quarterly_Report-ADA,48,Housing Unit 301F
+CHCF,E,301F,,,housing,,,sen_sub5_agenda_2021-02-11,14,housing units 301B through 301F are not equipped with toilets
+CIM,A,,,A-HU1,housing,,1952,sen_sub5_agenda_2021-02-11,13,The Facility A housing units were built in 1952 when air cooling systems were not required by departmental standards
+CIM,A,,,A-HU1,housing,,1952,sen_sub5_agenda_vote_outcomes_2018-03-15,27,"Built in 1952, all eight of Facility A’s housing units are equipped with roof mounted HV units without cooling equipment"
+CIM,A,,,A-HU2,housing,,1952,sen_sub5_agenda_2021-02-11,13,The Facility A housing units were built in 1952 when air cooling systems were not required by departmental standards
+CIM,A,,,A-HU2,housing,,1952,sen_sub5_agenda_vote_outcomes_2018-03-15,27,"Built in 1952, all eight of Facility A’s housing units are equipped with roof mounted HV units without cooling equipment"
+CIM,A,,,A-HU3,housing,,1952,sen_sub5_agenda_2021-02-11,13,The Facility A housing units were built in 1952 when air cooling systems were not required by departmental standards
+CIM,A,,,A-HU3,housing,,1952,sen_sub5_agenda_vote_outcomes_2018-03-15,27,"Built in 1952, all eight of Facility A’s housing units are equipped with roof mounted HV units without cooling equipment"
+CIM,A,,,A-HU4,housing,,1952,sen_sub5_agenda_2021-02-11,13,The Facility A housing units were built in 1952 when air cooling systems were not required by departmental standards
+CIM,A,,,A-HU4,housing,,1952,sen_sub5_agenda_vote_outcomes_2018-03-15,27,"Built in 1952, all eight of Facility A’s housing units are equipped with roof mounted HV units without cooling equipment"
+CIM,A,,,A-HU5,housing,,1952,sen_sub5_agenda_2021-02-11,13,The Facility A housing units were built in 1952 when air cooling systems were not required by departmental standards
+CIM,A,,,A-HU5,housing,,1952,sen_sub5_agenda_vote_outcomes_2018-03-15,27,"Built in 1952, all eight of Facility A’s housing units are equipped with roof mounted HV units without cooling equipment"
+CIM,A,,,A-HU6,housing,,1952,sen_sub5_agenda_2021-02-11,13,The Facility A housing units were built in 1952 when air cooling systems were not required by departmental standards
+CIM,A,,,A-HU6,housing,,1952,sen_sub5_agenda_vote_outcomes_2018-03-15,27,"Built in 1952, all eight of Facility A’s housing units are equipped with roof mounted HV units without cooling equipment"
+CIM,A,,,A-HU7,housing,,1952,sen_sub5_agenda_2021-02-11,13,The Facility A housing units were built in 1952 when air cooling systems were not required by departmental standards
+CIM,A,,,A-HU7,housing,,1952,sen_sub5_agenda_vote_outcomes_2018-03-15,27,"Built in 1952, all eight of Facility A’s housing units are equipped with roof mounted HV units without cooling equipment"
+CIM,A,,,A-HU8,housing,,1952,sen_sub5_agenda_2021-02-11,13,The Facility A housing units were built in 1952 when air cooling systems were not required by departmental standards
+CIM,A,,,A-HU8,housing,,1952,sen_sub5_agenda_vote_outcomes_2018-03-15,27,"Built in 1952, all eight of Facility A’s housing units are equipped with roof mounted HV units without cooling equipment"
+CIM,,,50-Bed Mental Health Crisis Facility,,health_care,MHCB,,December2025QuarterlyReport-ADAFinal,6,50-Bed Mental Health Crisis Facility at the California Institution for Men
+CIM,,,50-Bed Mental Health Crisis Facility,,health_care,MHCB,,June2026QuarterlyReport-ADA,4,50-Bed Mental Health Crisis Facility at the California Institution for Men
+CIM,,,50-Bed Mental Health Crisis Facility,,health_care,MHCB,,MPAR2022:P-1617-00113,81,50-Bed Mental Health Crisis Facility
+CIM,,,50-Bed Mental Health Crisis Facility,,health_care,MHCB,,March2026QuarterlyReport-ADA,4,50-Bed Mental Health Crisis Facility at the California Institution for Men
+CIM,,,50-Bed Mental Health Crisis Facility,,health_care,MHCB,,September_2025_Quarterly_Report-ADA,6,50-Bed Mental Health Crisis Facility at the California Institution for Men
+CIM,,,50-Bed Mental Health Crisis Facility,,health_care,,,plata_ecf3963_receiver_triannual_59_2025-06-02,11,the new 50-Bed Mental Health Crisis Facility (MHCF) project at CIM
+CIM,C,,Facility C East Culinary Building,,kitchen,,,MPAR2022:P-2122-00112,86,Renovate Facility C East Culinary Building
+CIM,B,204.5,,,,,,MPAR2024:P-2324-00143,79,"Replace Roof - Facility B, Building 204.5/Unit 2, Administration and Medical"
+CIM,B,204.7,,,housing,,,MPAR2025:P-2526-00130,77,"Replace Roof - Facility B, Building 204.7 and 204.8, Unit 4, Housing Unit"
+CIM,B,204.8,,,housing,,,MPAR2025:P-2526-00130,77,"Replace Roof - Facility B, Building 204.7 and 204.8, Unit 4, Housing Unit"
+CIM,,377,Medical and Dental,,health_care,,,MPAR2022:P-1718-00413,83,"Renovate and repair Medical and Dental, Building 377."
+CIW,,,45 Bed CTC,,health_care,CTC,,asm_sub5_agenda_2011-05-25,15,will add 45 licensed Correctional Treatment Center (CTC) beds to an existing 18 bed CTC
+CIW,,,Administrative Segregation Housing Unit,,housing,ASU,,MPAR2022:P-1718-00120,88,Medication Preparation Room in the Administrative Segregation Housing Unit
+CIW,,,Central Kitchen,,kitchen,,1966,MPAR2022:P-2122-00098,89,The Central Kitchen building and its original systems date back to 1966
+CIW,,,Walker Unit,,,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,66,"the Walker Unit, and the auditorium were air-conditioned"
+CMC,East,,Central Health Services,,health_care,,,December2025QuarterlyReport-ADAFinal,14,east facility Central Health Services renovation
+CMC,East,,Central Health Services,,health_care,,,MPAR2022:P-1213-00224,91,the East Facility Central Health Services
+CMC,East,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,40,SP 7 (east facility Central Health Services renovation)
+CMC,East,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,36,SP 7 (east facility Central Health Services renovation)
+CMC,East,,Central Health Services,,health_care,,,September_2025_Quarterly_Report-ADA,13,east facility Central Health Services renovation
+CMC,West,,Central Kitchen,,kitchen,,,MPAR2022:P-1011-00346,91,Central Kitchen Replacement-West
+CMC,East,,Health Care Administration building,,admin,,,MPAR2022:P-1213-00224,91,the Health Care Administration building at the East Facility
+CMC,East,,Main Kitchen,,kitchen,,,MPAR2022:P-2122-00102,96,renovate East Facility Main Kitchen
+CMC,,,Pharmacy and Laboratory building,,health_care,,,MPAR2022:P-1213-00224,91,a new Pharmacy and Laboratory building
+CMC,East,,Receiving and Release,,other,,,December2025QuarterlyReport-ADAFinal,14,East Facility Receiving and Release
+CMC,East,,Receiving and Release,,other,,,September_2025_Quarterly_Report-ADA,13,East Facility Receiving and Release
+CMC,,,pharmacy and laboratory building,,health_care,,,December2025QuarterlyReport-ADAFinal,14,new pharmacy and laboratory building
+CMC,,,pharmacy and laboratory building,,health_care,,,Sep_2020_Quarterly-ADA_Final,40,SP 5 (new pharmacy and laboratory building)
+CMC,,,pharmacy and laboratory building,,health_care,,,September2021QuarterlyReport-ADA,36,SP 5 (new pharmacy and laboratory building)
+CMC,,,pharmacy and laboratory building,,health_care,,,September_2025_Quarterly_Report-ADA,13,new pharmacy and laboratory building
+CMC,East,,primary care clinic and health care administration building,,,,,December2025QuarterlyReport-ADAFinal,14,new east facility primary care clinic and health care administration building
+CMC,East,,primary care clinic and health care administration building,,,,,Sep_2020_Quarterly-ADA_Final,40,SP 4 (new east facility primary care clinic and health care administration building)
+CMC,East,,primary care clinic and health care administration building,,,,,September2021QuarterlyReport-ADA,36,SP 4 (new east facility primary care clinic and health care administration building)
+CMC,East,,primary care clinic and health care administration building,,,,,September_2025_Quarterly_Report-ADA,13,new east facility primary care clinic and health care administration building
+CMC,,330,,,kitchen,,,Sep_2020_Quarterly-ADA_Final,34,winterization at Kitchen 330
+CMC,,330,,,kitchen,,,September2021QuarterlyReport-ADA,31,winterization at Kitchen 330
+CMC,,352A,,,kitchen,,,Sep_2020_Quarterly-ADA_Final,34,Diner 352A and Diner 360
+CMC,,352A,,,kitchen,,,September2021QuarterlyReport-ADA,31,Diner 352A and Diner 360
+CMC,,360,,,kitchen,,,Sep_2020_Quarterly-ADA_Final,34,Diner 352A and Diner 360
+CMC,,360,,,kitchen,,,September2021QuarterlyReport-ADA,31,Diner 352A and Diner 360
+CMC,,4,,,,ASU,,MPAR2022:P-1718-00261,91,"Repair Cell Electrical and Cable TV Building 4, Administrative Segregation Unit"
+CMC,East,7,,,housing,GP,,MPAR2022:P-1718-00253,94,"Convert Cells to GP - East Facility, Building 7, Lower Tier Modifications"
+CMC,East,B,,,,,,December2025QuarterlyReport-ADAFinal,12,East Facility Building B Medical Records Renovation
+CMC,East,B,,,,,,Sep_2020_Quarterly-ADA_Final,38,SP 7.4 (East Facility Building B Medical Records Renovation)
+CMC,East,B,,,,,,September2021QuarterlyReport-ADA,35,SP 7.4 (East Facility Building B Medical Records Renovation)
+CMC,East,B,,,,,,September_2025_Quarterly_Report-ADA,11,East Facility Building B Medical Records Renovation
+CMC,East,C,,,health_care,,,December2025QuarterlyReport-ADAFinal,12,East Facility Building C – East Triage and Treatment Area Addition and Renovation
+CMC,East,C,,,,,,Sep_2020_Quarterly-ADA_Final,39,"SP 7.2 (East Facility Building C, West Central Health Services Specialty Clinic Renovation)"
+CMC,East,C,,,,,,September2021QuarterlyReport-ADA,35,SP 7.3 (East Facility Building C – East Triage and Treatment Area Addition and Renovation)
+CMC,East,C,,,health_care,,,September_2025_Quarterly_Report-ADA,11,East Facility Building C – East Triage and Treatment Area Addition and Renovation
+CMC,,F L3,,,,,,December2025QuarterlyReport-ADAFinal,12,restroom entry door installation at Building F L3
+CMC,,F L3,,,,,,Sep_2020_Quarterly-ADA_Final,38,restroom entry door installation at Building F L3
+CMC,,F L3,,,,,,September2021QuarterlyReport-ADA,35,restroom entry door installation at Building F L3
+CMC,,F L3,,,,,,September_2025_Quarterly_Report-ADA,11,restroom entry door installation at Building F L3
+CMF,,,A Wing,,,,,MPAR2022:P-1516-00487,99,install a 150 ton air cooled chiller alongside the West side of A Wing
+CMF,,,B-Wing,,,,,Sep_2020_Quarterly-ADA_Final,30,SP 5 (B-Wing renovation)
+CMF,,,B-Wing,,,,,September2021QuarterlyReport-ADA,27,SP 5 (B-Wing renovation)
+CMF,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,31,SP 1 (Central Health Services specialty clinic)
+CMF,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,27,SP 1 (Central Health Services specialty clinic)
+CMF,,,H-1 Wing,,,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1 wings."
+CMF,,,H-2 Wing,,,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1 wings."
+CMF,,,H-3 Wing,,,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1 wings."
+CMF,,,Hospice and Medical Records Building,,health_care,,,MPAR2025:P-2526-00163,93,"Replace Roof - Hospice and Medical Records Building, Section M59"
+CMF,,,I-1 Wing,,,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1 wings."
+CMF,,,J-1 Wing,,,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1 wings."
+CMF,,,Main Kitchen,,kitchen,,,MPAR2022:P-2122-00107,100,renovate the existing main kitchen
+CMF,,,U-Wing,,,,,Sep_2020_Quarterly-ADA_Final,30,commenced installation of conduit and telephone enclosure boxes at U-Wing
+CMF,,,U-Wing,,,,,September2021QuarterlyReport-ADA,27,commenced installation of conduit and telephone enclosure boxes at U-Wing
+CMF,,,V-Wing,,,,,September2021QuarterlyReport-ADA,26,IWL completed construction activities at V-Wing for SP 7
+CMF,A,H51,P-Wing,,housing,,,bcp_2025-26_air_cooling_pilot_8144,3,"CMF - Facility A, Wing H51/P-Wing (Mainline Housing Units)"
+CMF,A,H51,P-Wing,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"CMF - Facility A, Wing H51/P-Wing (Mainline Housing Units)"
+COR,,,Central Health Services,,health_care,,,December2025QuarterlyReport-ADAFinal,18,Central Health Services renovation and addition
+COR,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,12,SP 4 (Central Health Services renovation and addition)
+COR,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,9,SP 4 (Central Health Services renovation and addition)
+COR,,,Central Health Services,,health_care,,,September_2025_Quarterly_Report-ADA,17,Central Health Services renovation and addition
+COR,,,Central Health Services Building,,health_care,,,MPAR2022:P-1314-00199,102,Central Health Services Building renovations and addition
+COR,,,Correctional Treatment Center,,health_care,,,MPAR2022:P-2122-00061,103,two individual exercise yards adjacent to the Correctional Treatment Center
+COR,,,Correctional Treatment Center,,health_care,,,MPAR2022:P-2223-00048,105,two individual exercise yards adjacent to the Correctional Treatment Center. Construction phase funding.
+COR,,309A,Central Kitchen,,kitchen,,,MPAR2025:P-1718-00435,99,"Replace Roof - Bldg 309A, Central Kitchen"
+COR,,3A3,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,26,"in three of its thirty-three housing units (4A1, 4A3, and 3A3) the thermometers were not working properly"
+COR,,405A,Receiving and Release,,other,,,MPAR2024:P-2324-00139,99,"Replace Roof - Building 405A, Receiving and Release"
+COR,,4A1,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,26,"in three of its thirty-three housing units (4A1, 4A3, and 3A3) the thermometers were not working properly"
+COR,,4A1R,,,housing,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,92,building 4A1R reported receiving a bag of ice for their cells every day
+COR,,4A3,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,26,"in three of its thirty-three housing units (4A1, 4A3, and 3A3) the thermometers were not working properly"
+COR,,4B3L,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,39,"in multiple housing units at CSP-Corcoran including 4B3L, 4B3R, and 4B4R"
+COR,,4B3R,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,39,"in multiple housing units at CSP-Corcoran including 4B3L, 4B3R, and 4B4R"
+COR,,4B4R,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,39,"in multiple housing units at CSP-Corcoran including 4B3L, 4B3R, and 4B4R"
+CRC,,,Central Health Services,,health_care,,,plata_ecf3963_receiver_triannual_59_2025-06-02,11,The CRC Central Health Services project was completed in March 2025.
+CRC,,107,,,housing,,,MPAR2022:P-2122-00219,108,"Replace Entrance Doors Building 107, 12 Dorms"
+CTC,,,C-Wing,,,,,MPAR2022:P-1718-00396,113,"Replace Roof C-Wing, F Dorm, North Corridor Classrooms"
+CTC,,,F Dorm,,housing,,,MPAR2022:P-1718-00396,113,"Replace Roof C-Wing, F Dorm, North Corridor Classrooms"
+CTC,,,North Corridor Classrooms,,program,,,MPAR2022:P-1718-00396,113,"Replace Roof C-Wing, F Dorm, North Corridor Classrooms"
+CTC,,B,,,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
+CTC,,D,,,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
+CTC,,E,,,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
+CTC,,F,,,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
+CTC,,G,,,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
+CTC,,L,,,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
+CTC,,N,,,,,,MPAR2022:P-1819-00016,112,"Restroom Renovations - Building B, D, E, F, G, L, and N"
+CTF,,,Central Culinary Building,,kitchen,,,MPAR2022:P-0910-00900,116,"Roof Replacement L-Wing, Central Culinary Building"
+CTF,,,L-Wing,,,,,MPAR2022:P-0910-00900,116,"Roof Replacement L-Wing, Central Culinary Building"
+CTF,,,O Wing,,,ASU,,MPAR2022:P-0910-01114,117,Administrative Segregation Cell Door Retrofit
+CTF,,,O Wing,,,ASU,,MPAR2022:P-1718-00122,116,Medication Preparation Room in O Wing to provide the appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation Unit
+CTF,,,O-Wing,,,ASU,,Sep_2020_Quarterly-ADA_Final,77,cell fronts/doors in the administrative segregation unit in O-Wing
+CTF,,,O-Wing,,,ASU,,September2021QuarterlyReport-ADA,78,cell fronts/doors in the administrative segregation unit in O-Wing
+CTF,,,O-Wing,,,ASU,,sen_sub5_agenda_vote_outcomes_2018-03-15,29,144 barred cell fronts with more secure cell fronts with vision panels in the O-Wing ASU
+CVSP,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,58,SP 2 (Central Health Services Renovation)
+CVSP,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,55,SP 2 (Central Health Services Renovation)
+CVSP,,,Central Health Services building,,health_care,,,MPAR2022:P-1415-00085,121,renovations to the Central Health Services building
+CVSP,,,Health Care Administration building,,admin,,,MPAR2022:P-1415-00085,121,a new Health Care Administration building
+CVSP,,,health care administration and health records building,,admin,,,Sep_2020_Quarterly-ADA_Final,75,SP 3 (new health care administration and health records building)
+CVSP,,,health care administration and health records building,,admin,,,September2021QuarterlyReport-ADA,76,SP 3 (new health care administration and health records building)
+FOL,,,Cell Block 1,,housing,,,MPAR2022:P-2122-00138,127,Cell Block 1 Heating/Cooling System
+FOL,,,Cell Block Five,,housing,,,Sep_2020_Quarterly-ADA_Final,3,Cell Block Five Fire/Life Safety Upgrade
+FOL,,,Cell Block Five,,housing,,,September2021QuarterlyReport-ADA,3,Cell Block Five Fire/Life Safety Upgrade
+FOL,,,Cell Block Five,,housing,,,sen_sub5_agenda_2021-02-11,12,Folsom State Prison’s Cell Block Five Fire Life & Safety
+FOL,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,89,fireproofing at the Central Health Services building for SP 3
+FOL,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,90,fireproofing at the Central Health Services building for SP 3
+FOL,,,Central Health Services building,,health_care,,,MPAR2022:P-1011-00015,126,a new Central Health Services building
+FOL,,,Education Annex,,program,,,Sep_2020_Quarterly-ADA_Final,89,received certificate of occupancy for education annex for SP 3
+FOL,,,Education Annex,,program,,,September2021QuarterlyReport-ADA,91,received certificate of occupancy for education annex for SP 3
+FOL,,1,,,,,,Sep_2020_Quarterly-ADA_Final,90,SP 2 (building 1 primary care clinic)
+FOL,,1,,,,,,September2021QuarterlyReport-ADA,91,SP 2 (building 1 primary care clinic)
+FOL,,2,,,,,,September2021QuarterlyReport-ADA,89,"drywall installation, ceiling framing, and painting at Building 2 for SP 4.1"
+FOL,,4,,,,ASU,,MPAR2022:P-1718-00123,125,Medication Preparation Room in Building 4 to provide the appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation Unit
+FOL,,5,,,housing,,,Sep_2020_Quarterly-ADA_Final,89,commenced CMU wall construction in Housing Unit 5 for SP 4
+FOL,,5,,,housing,,,September2021QuarterlyReport-ADA,90,commenced CMU wall construction in Housing Unit 5 for SP 4
+FOL,,5,Cell Block Five,,housing,,,MPAR2022:P-0809-01089,126,"complete fire, life and safety upgrades to Building 5 which will include the installation of fire sprinklers in each of the 328 cells"
+HDSP,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,95,SP 3 (Central Health Services renovation and addition)
+HDSP,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,98,SP 3 (Central Health Services renovation and addition)
+HDSP,,,Central Health Services building,,health_care,,,MPAR2022:P-1314-00344,130,renovations and additions to the Central Health Services building
+HDSP,,,Correctional Treatment Center,,health_care,,,MPAR2022:P-1617-00025,129,Replace Floor - Correctional Treatment Center
+HDSP,,351,,,housing,,,MPAR2024:P-2324-00144,116,"Replace Roofs - Housing Buildings 351, 352, and 455"
+HDSP,,351,,,,,,MPAR2025:P-2021-00058,110,Replace Roof - Buildings 351 and 455; Housing and Administrative Segregation Unit
+HDSP,,352,,,housing,,,MPAR2024:P-2324-00144,116,"Replace Roofs - Housing Buildings 351, 352, and 455"
+HDSP,,455,,,housing,,,MPAR2024:P-2324-00144,116,"Replace Roofs - Housing Buildings 351, 352, and 455"
+HDSP,,455,,,,,,MPAR2025:P-2021-00058,110,Replace Roof - Buildings 351 and 455; Housing and Administrative Segregation Unit
+HDSP,C,C2,,,,,,Appendix-1-CDCR-Adult-Institutions-ADA,6,CDCR deactivated Buildings C2 and C8 in Facility C
+HDSP,C,C8,,,,,,Appendix-1-CDCR-Adult-Institutions-ADA,6,CDCR deactivated Buildings C2 and C8 in Facility C
+HDSP,D,D3,,,,,,Appendix-1-CDCR-Adult-Institutions-ADA,6,Buildings D3 and D4 in Facility D
+HDSP,D,D4,,,,,,Appendix-1-CDCR-Adult-Institutions-ADA,6,Buildings D3 and D4 in Facility D
+ISP,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,58,SP 2 (Central Health Services renovation)
+ISP,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,55,SP 2 (Central Health Services renovation)
+ISP,,,Central Health Services building,,health_care,,,MPAR2022:P-1415-00084,133,renovations to the Central Health Services building
+ISP,,325/A5,,,housing,,,Sep_2020_Quarterly-ADA_Final,101,Housing Unit 325/A5
+ISP,,325/A5,,,housing,,,September2021QuarterlyReport-ADA,104,Housing Unit 325/A5
+ISP,,331/B1,,,housing,,,September2021QuarterlyReport-ADA,103,Commenced construction at Housing Unit 331/B1
+ISP,,335/B5,,,housing,,,Sep_2020_Quarterly-ADA_Final,101,Housing Unit 335/B5
+ISP,,335/B5,,,housing,,,September2021QuarterlyReport-ADA,104,Housing Unit 335/B5
+ISP,,342/C2,,,housing,,,September2021QuarterlyReport-ADA,103,"Housing Units 342/C2, 344/C4"
+ISP,,343/C3,,,housing,,,September2021QuarterlyReport-ADA,103,Completed construction for Housing Unit 343/C3
+ISP,,344/C4,,,housing,,,September2021QuarterlyReport-ADA,103,"Housing Units 342/C2, 344/C4"
+ISP,,353/D3,,,housing,,,Sep_2020_Quarterly-ADA_Final,101,"Housing Units 353/D3, 354/D4"
+ISP,,353/D3,,,housing,,,September2021QuarterlyReport-ADA,103,"Housing Units 353/D3, 354/D4"
+ISP,,354/D4,,,housing,,,Sep_2020_Quarterly-ADA_Final,101,"Housing Units 353/D3, 354/D4"
+ISP,,354/D4,,,housing,,,September2021QuarterlyReport-ADA,103,"Housing Units 353/D3, 354/D4"
+ISP,,355/D5,,,housing,,,Sep_2020_Quarterly-ADA_Final,101,Housing Unit 355/D5
+ISP,,355/D5,,,housing,,,September2021QuarterlyReport-ADA,104,Housing Unit 355/D5
+ISP,,420,,,,,,Sep_2020_Quarterly-ADA_Final,101,"roofing on Building 420, 421, 422, 440, 441, and 451"
+ISP,,420,,,,,,September2021QuarterlyReport-ADA,103,received certificate of occupancy for Building 420
+ISP,,421,,,,,,Sep_2020_Quarterly-ADA_Final,101,"roofing on Building 420, 421, 422, 440, 441, and 451"
+ISP,,421,,,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
+ISP,,421G,,,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
+ISP,,422,,,,,,Sep_2020_Quarterly-ADA_Final,101,"roofing on Building 420, 421, 422, 440, 441, and 451"
+ISP,,422,,,,,,September2021QuarterlyReport-ADA,103,"certificate of occupancy for Building 521, 422, 806, 902, 911"
+ISP,Vocational D Yard,430,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,Vocational D Yard,430,,,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,,431,,,,,,Sep_2020_Quarterly-ADA_Final,101,Completed roofing at Building 431
+ISP,,431,,,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
+ISP,,431G,,,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
+ISP,,432,Culinary,,kitchen,,,Sep_2020_Quarterly-ADA_Final,101,Building 432 Culinary
+ISP,,432,Culinary,,kitchen,,,September2021QuarterlyReport-ADA,104,Building 432 Culinary
+ISP,,440,Complex Control,,other,,,September2021QuarterlyReport-ADA,103,Building 440 Complex Control
+ISP,,441,C Programs,,program,,,September2021QuarterlyReport-ADA,103,Building 441 C Programs
+ISP,,441,C-Gym,,recreation,,,Sep_2020_Quarterly-ADA_Final,101,Building 441 C-Gym
+ISP,,441,C-Gym,,recreation,,,September2021QuarterlyReport-ADA,103,Building 441 C-Gym
+ISP,C,442,C-Yard Culinary,,kitchen,,,September2021QuarterlyReport-ADA,103,C-Yard Culinary at Building 442
+ISP,,451,,,,,,Sep_2020_Quarterly-ADA_Final,101,"roofing on Building 420, 421, 422, 440, 441, and 451"
+ISP,,451,,,,,,September2021QuarterlyReport-ADA,104,"roofing on Building 420, 421, 422, 440, 441, and 451"
+ISP,,460,,,,,,September2021QuarterlyReport-ADA,103,"Building 460, 562, 571, 572, 601, 802, 808, and 809"
+ISP,,521,,,,,,September2021QuarterlyReport-ADA,103,"certificate of occupancy for Building 521, 422, 806, 902, 911"
+ISP,,522,,,,,,Sep_2020_Quarterly-ADA_Final,101,fire alarm installation in Building 551 and 522
+ISP,,522,,,,,,September2021QuarterlyReport-ADA,104,fire alarm installation in Building 551 and 522
+ISP,Vocational A Yard,523,Greenhouse,,,,,September2021QuarterlyReport-ADA,103,Building 523 Greenhouse and 531 Cafeteria at the A Vocational Yard
+ISP,Vocational B Yard,524,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
+ISP,Vocational B Yard,524,,,,,,September2021QuarterlyReport-ADA,103,"Building 524, 525, and 552 at the B Vocational yard"
+ISP,Vocational B Yard,525,B Vocational,,program,,,September2021QuarterlyReport-ADA,103,fire alarm installation at Building 525 B Vocational
+ISP,,526,,,,,,Sep_2020_Quarterly-ADA_Final,101,Commenced construction at Buildings 526 and 527 at the Vocational C Yard
+ISP,,526,,,,,,September2021QuarterlyReport-ADA,103,Commenced construction at Buildings 526 and 527 at the Vocational C Yard
+ISP,,527,,,,,,Sep_2020_Quarterly-ADA_Final,101,Commenced construction at Buildings 526 and 527 at the Vocational C Yard
+ISP,,527,,,,,,September2021QuarterlyReport-ADA,103,Commenced construction at Buildings 526 and 527 at the Vocational C Yard
+ISP,Vocational D Yard,528,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,Vocational D Yard,528,,,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,Vocational D Yard,529,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,Vocational D Yard,529,,,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,Vocational B Yard,530,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
+ISP,Vocational B Yard,530,,,,,,September2021QuarterlyReport-ADA,103,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
+ISP,Vocational A Yard,531,Cafeteria,,kitchen,,,September2021QuarterlyReport-ADA,103,Building 523 Greenhouse and 531 Cafeteria at the A Vocational Yard
+ISP,Vocational B Yard,532,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
+ISP,Vocational B Yard,532,,,,,,September2021QuarterlyReport-ADA,103,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
+ISP,Vocational D Yard,534,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,Vocational D Yard,534,,,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,,551,,,,,,Sep_2020_Quarterly-ADA_Final,101,fire alarm installation in Building 551 and 522
+ISP,,551,,,,,,September2021QuarterlyReport-ADA,104,fire alarm installation in Building 551 and 522
+ISP,Vocational B Yard,552,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
+ISP,Vocational B Yard,552,,,,,,September2021QuarterlyReport-ADA,103,"Building 524, 525, and 552 at the B Vocational yard"
+ISP,Vocational D Yard,554,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,Vocational D Yard,554,,,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,,561,,,,,,September2021QuarterlyReport-ADA,103,"punch walk for Building 432, 532 and 561"
+ISP,Vocational B Yard,562,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
+ISP,Vocational B Yard,562,,,,,,September2021QuarterlyReport-ADA,103,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
+ISP,Vocational D Yard,563,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,Vocational D Yard,563,,,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,Vocational D Yard,564,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,Vocational D Yard,564,,,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,,571,,,,,,September2021QuarterlyReport-ADA,103,"Building 460, 562, 571, 572, 601, 802, 808, and 809"
+ISP,Vocational B Yard,572,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
+ISP,Vocational B Yard,572,,,,,,September2021QuarterlyReport-ADA,103,"Buildings 524, 525, 552, 530, 532, 562, and 572 at the Vocational B Yard"
+ISP,Vocational D Yard,574,,,,,,Sep_2020_Quarterly-ADA_Final,101,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,Vocational D Yard,574,,,,,,September2021QuarterlyReport-ADA,103,"Buildings 430, 526, 527, 528, 529, 534, 554, 563, 564, and 574 at the Vocational D Yard"
+ISP,,601,,,,,,September2021QuarterlyReport-ADA,103,"Building 460, 562, 571, 572, 601, 802, 808, and 809"
+ISP,,700,,,,,,September2021QuarterlyReport-ADA,103,"punch walks at Building 700, 701, and 803"
+ISP,,701,,,,,,September2021QuarterlyReport-ADA,103,"punch walks at Building 700, 701, and 803"
+ISP,,800,Administration,,admin,,,Sep_2020_Quarterly-ADA_Final,101,building 800 - Administration
+ISP,,800,Administration,,admin,,,September2021QuarterlyReport-ADA,104,building 800 - Administration
+ISP,,801,Family Visiting,,visiting,,,September2021QuarterlyReport-ADA,103,801 Family Visiting
+ISP,,802,,,,,,September2021QuarterlyReport-ADA,103,"Building 460, 562, 571, 572, 601, 802, 808, and 809"
+ISP,,803,Staff Entrance,,other,,,September2021QuarterlyReport-ADA,103,Building 803 Staff Entrance
+ISP,,804,Guard Shack,,other,,,September2021QuarterlyReport-ADA,103,804 Guard Shack
+ISP,,805,Armory,,other,,,September2021QuarterlyReport-ADA,103,805 Armory
+ISP,,806,,,,,,September2021QuarterlyReport-ADA,103,"certificate of occupancy for Building 521, 422, 806, 902, 911"
+ISP,,808,,,,,,Sep_2020_Quarterly-ADA_Final,101,equipment pads at Building 808 and 809
+ISP,,808,,,,,,September2021QuarterlyReport-ADA,103,"Building 460, 562, 571, 572, 601, 802, 808, and 809"
+ISP,,809,,,,,,Sep_2020_Quarterly-ADA_Final,101,equipment pads at Building 808 and 809
+ISP,,809,,,,,,September2021QuarterlyReport-ADA,103,"Building 460, 562, 571, 572, 601, 802, 808, and 809"
+ISP,,901,,,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
+ISP,,902,,,,,,September2021QuarterlyReport-ADA,103,"certificate of occupancy for Building 521, 422, 806, 902, 911"
+ISP,E,903,E-Yard Programs,,program,,,September2021QuarterlyReport-ADA,103,E-Yard Programs at Building 903
+ISP,,904,Family Visiting,,visiting,,,September2021QuarterlyReport-ADA,103,Family Visiting Building 904 and 914 at the E and F Yards
+ISP,,905,,,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
+ISP,,911,,,,,,September2021QuarterlyReport-ADA,103,"certificate of occupancy for Building 521, 422, 806, 902, 911"
+ISP,,912,,,,,,September2021QuarterlyReport-ADA,103,punch walk at Building 912
+ISP,,913,,,,,,September2021QuarterlyReport-ADA,103,installation at Building 913
+ISP,,914,Family Visiting,,visiting,,,September2021QuarterlyReport-ADA,103,Family Visiting Building 904 and 914 at the E and F Yards
+ISP,,915,,,,,,September2021QuarterlyReport-ADA,103,"Building 421, 421G, 431, 431G, 901, 905 and 915"
+ISP,,A-5,,,housing,,,Sep_2020_Quarterly-ADA_Final,101,installation at A-5 housing unit
+ISP,,A-5,,,housing,,,September2021QuarterlyReport-ADA,104,installation at A-5 housing unit
+ISP,,B-5,,,housing,,,Sep_2020_Quarterly-ADA_Final,101,punch walk at housing units B-5 and C-1
+ISP,,B-5,,,housing,,,September2021QuarterlyReport-ADA,104,punch walk at housing units B-5 and C-1
+ISP,,B1,,,housing,,,September2021QuarterlyReport-ADA,103,Completed roofing installation at Housing Unit B1
+ISP,,B2,,,housing,,,September2021QuarterlyReport-ADA,103,Continued roofing installation at Housing Units B2 and B3
+ISP,,B3,,,housing,,,September2021QuarterlyReport-ADA,103,Continued roofing installation at Housing Units B2 and B3
+ISP,,C-1,,,housing,,,Sep_2020_Quarterly-ADA_Final,101,punch walk at housing units B-5 and C-1
+ISP,,C-1,,,housing,,,September2021QuarterlyReport-ADA,104,punch walk at housing units B-5 and C-1
+ISP,,C2,,,housing,,,September2021QuarterlyReport-ADA,103,"roofing installation at Housing Unit B2, B3, and C2"
+ISP,,C3,,,,,,September2021QuarterlyReport-ADA,103,commenced interior work at Building C3 and C4
+ISP,,C4,,,housing,,,September2021QuarterlyReport-ADA,103,Completed roof work at Housing Unit C4
+ISP,,C5,,,housing,,,September2021QuarterlyReport-ADA,103,Completed roof installation at Housing Unit C5
+ISP,,D-5,,,housing,,,Sep_2020_Quarterly-ADA_Final,101,Commenced duct work in housing unit D-5
+ISP,,D-5,,,housing,,,September2021QuarterlyReport-ADA,104,Commenced duct work in housing unit D-5
+ISP,,D1,,,housing,,,September2021QuarterlyReport-ADA,103,Completed roof work and air handler installation at Housing Unit D1
+ISP,,D2,,,housing,,,September2021QuarterlyReport-ADA,103,Completed additional mechanical scope for Housing Unit D2
+ISP,,D3,,,housing,,,September2021QuarterlyReport-ADA,103,"Completed construction at Housing Unit D3, D4"
+ISP,,D4,,,housing,,,Sep_2020_Quarterly-ADA_Final,101,Completed construction at Housing Unit D4
+ISP,,D4,,,housing,,,September2021QuarterlyReport-ADA,103,Completed construction at Housing Unit D4
+KVSP,,,Correctional Treatment Center,,health_care,CTC,,Sep_2020_Quarterly-ADA_Final,105,clinician workroom renovation at the Correctional Treatment Center
+KVSP,,,Correctional Treatment Center,,health_care,CTC,,September2021QuarterlyReport-ADA,108,clinician workroom renovation at the Correctional Treatment Center
+KVSP,C,341,,,,,,MPAR2025:P-2526-00145,119,"Install Exterior Insulation Finishing System at Facility C, Building 341 and 344."
+KVSP,C,341,,,,,,MPAR2025:P-2526-00157,120,"Install mechanical air cooling system at Facility C, Building 341 and 344."
+KVSP,C,341,,,housing,,,bcp_2025-26_air_cooling_pilot_8144,3,"KVSP - Facility C, Buildings 341, 342, and 344 (180-style Housing Units)"
+KVSP,C,341,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"KVSP - Facility C, Buildings 341, 342, and 344 (180-style Housing Units)"
+KVSP,C,342,,,housing,,,bcp_2025-26_air_cooling_pilot_8144,3,"KVSP - Facility C, Buildings 341, 342, and 344 (180-style Housing Units)"
+KVSP,C,342,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"KVSP - Facility C, Buildings 341, 342, and 344 (180-style Housing Units)"
+KVSP,C,344,,,,,,MPAR2025:P-2526-00145,119,"Install Exterior Insulation Finishing System at Facility C, Building 341 and 344."
+KVSP,C,344,,,,,,MPAR2025:P-2526-00157,120,"Install mechanical air cooling system at Facility C, Building 341 and 344."
+KVSP,C,344,,,housing,,,bcp_2025-26_air_cooling_pilot_8144,3,"KVSP - Facility C, Buildings 341, 342, and 344 (180-style Housing Units)"
+KVSP,C,344,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"KVSP - Facility C, Buildings 341, 342, and 344 (180-style Housing Units)"
+KVSP,C,441,,,,,,September2021QuarterlyReport-ADA,108,certificate of occupancy for Building 441 at the Facility C renovation
+KVSP,,6,,,,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,39,the KVSP report from the Special Master team tour this week that ice machines were broken in Buildings 6 and 7
+KVSP,,6,,,housing,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,109,The monitor reviewed indoor thermometers and temperature logs in Unit 6
+KVSP,,6B,,,housing,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,109,there was no thermometer located in Unit 6B
+KVSP,,7,,,,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,39,the KVSP report from the Special Master team tour this week that ice machines were broken in Buildings 6 and 7
+KVSP,,7,,,housing,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,109,Thermometers and temperature logs were also examined in Unit 7
+KVSP,,8,,,housing,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,110,Unit 8's thermometers and temperature logs were also examined
+LAC,C,,Facility C visiting area,,visiting,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,97,the Facility C visiting area
+LAC,,,New Pharmacy Building,,health_care,,,MPAR2022:P-2122-00110,141,New Pharmacy Building
+LAC,A,,satellite kitchen A,,kitchen,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,97,Broken thermometers were noted in satellite kitchen A and unit C1
+LAC,,341,,,,,,MPAR2025:P-2324-00140,123,"Replace Roof - Kitchen & Housing Units, Buildings 421, 341, and 342"
+LAC,D,3410,,,,,,MPAR2024:P-2324-00140,126,"Replace Roofs - Facility D, Buildings 347, 348, 349, and 3410"
+LAC,D,3410,,,housing,,,MPAR2025:P-2324-00149,122,"Replace Roofs - Facility D, Housing Units, Buildings 346, 347, 348 and 3410"
+LAC,D,3410,,,,,,MPAR2025:P-2526-00146,122,"Design and install exterior Insulation in 2025-26 at Facility D, Buildings 348 and 3410"
+LAC,D,3410,,,,,,MPAR2025:P-2526-00158,123,"Install Exterior Insulation Finishing System at Facility D, Buildings 348 and 3410."
+LAC,D,3410,,,housing,,,bcp_2025-26_air_cooling_pilot_8144,3,"LAC - Facility D, Buildings 348, 349 and 3410 (270-style Housing Units)"
+LAC,D,3410,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"LAC - Facility D, Buildings 348, 349 and 3410 (270-style Housing Units)"
+LAC,,342,,,,,,MPAR2025:P-2324-00140,123,"Replace Roof - Kitchen & Housing Units, Buildings 421, 341, and 342"
+LAC,D,346,,,housing,,,MPAR2025:P-2324-00149,122,"Replace Roofs - Facility D, Housing Units, Buildings 346, 347, 348 and 3410"
+LAC,D,347,,,,,,MPAR2024:P-2324-00140,126,"Replace Roofs - Facility D, Buildings 347, 348, 349, and 3410"
+LAC,D,347,,,housing,,,MPAR2025:P-2324-00149,122,"Replace Roofs - Facility D, Housing Units, Buildings 346, 347, 348 and 3410"
+LAC,D,348,,,,,,MPAR2024:P-2324-00140,126,"Replace Roofs - Facility D, Buildings 347, 348, 349, and 3410"
+LAC,D,348,,,housing,,,MPAR2025:P-2324-00149,122,"Replace Roofs - Facility D, Housing Units, Buildings 346, 347, 348 and 3410"
+LAC,D,348,,,,,,MPAR2025:P-2526-00146,122,"Design and install exterior Insulation in 2025-26 at Facility D, Buildings 348 and 3410"
+LAC,D,348,,,,,,MPAR2025:P-2526-00158,123,"Install Exterior Insulation Finishing System at Facility D, Buildings 348 and 3410."
+LAC,D,348,,,housing,,,bcp_2025-26_air_cooling_pilot_8144,3,"LAC - Facility D, Buildings 348, 349 and 3410 (270-style Housing Units)"
+LAC,D,348,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"LAC - Facility D, Buildings 348, 349 and 3410 (270-style Housing Units)"
+LAC,D,349,,,,,,MPAR2024:P-2324-00140,126,"Replace Roofs - Facility D, Buildings 347, 348, 349, and 3410"
+LAC,D,349,,,housing,,,bcp_2025-26_air_cooling_pilot_8144,3,"LAC - Facility D, Buildings 348, 349 and 3410 (270-style Housing Units)"
+LAC,D,349,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,77,"LAC - Facility D, Buildings 348, 349 and 3410 (270-style Housing Units)"
+LAC,,421,,,,,,MPAR2025:P-2324-00140,123,"Replace Roof - Kitchen & Housing Units, Buildings 421, 341, and 342"
+LAC,,A1,,,,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,97,"temperature logs were missing temperature recordings in units A1, A3, D5, the CTC"
+LAC,,A3,,,,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,97,"temperature logs were missing temperature recordings in units A1, A3, D5, the CTC"
+LAC,,C1,,,,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,97,Broken thermometers were noted in satellite kitchen A and unit C1
+LAC,,D3,,,housing,EOP,,MPAR2022:P-1718-00125,139,Medication Distribution Rooms in the Enhanced Outpatient Units at Housing Units D3 and D4
+LAC,,D4,,,housing,EOP,,MPAR2022:P-1718-00125,139,Medication Distribution Rooms in the Enhanced Outpatient Units at Housing Units D3 and D4
+LAC,,D5,,,housing,,,MPAR2022:P-2021-00197,139,Design and construct a Medication Preparation Room in Housing Unit D5.
+LAC,,D5,,,housing,,,Sep_2020_Quarterly-ADA_Final,49,medication preparation room at housing unit D5
+LAC,,D5,,,housing,,,September2021QuarterlyReport-ADA,46,medication preparation room at housing unit D5
+LAC,,D5,,,,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,97,"temperature logs were missing temperature recordings in units A1, A3, D5, the CTC"
+LAC,,D5,,,housing,,,sen_sub5_agenda_2021-02-11,11,MPR at LAC Housing Unit D5
+MCSP,,,Correctional Treatment Center,,health_care,,,MPAR2022:P-1718-00344,143,Replace Nurse Call System in the Correctional Treatment Center
+MCSP,,B6,,,,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,117,particularly high temperatures noted on Facility B6 and all of Facility C
+MCSP,,B7,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,27,two of its twenty-two housing units (C14 and B7) did not properly log temperatures
+MCSP,,B7,,,housing,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,116,"housing unit B7, which was missing a temperature"
+MCSP,,C12,,,housing,ASU,,MPAR2022:P-1718-00126,143,Medication Preparation Room in Housing Unit C12 to provide the appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation Unit
+MCSP,,C14,,,housing,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,27,two of its twenty-two housing units (C14 and B7) did not properly log temperatures
+MCSP,,C14,,,housing,,,coleman_ecf8558_31st_round_heat_report_2025-02-28,116,"except for housing unit C14, which had a pre-recorded temperature"
+NKSP,,,Central Health Services,,health_care,,,MPAR2022:P-1213-00220,150,Central Health Services renovation and addition
+NKSP,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,111,SP 6 (Central Health Services renovation and addition)
+NKSP,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,114,SP 6 (Central Health Services renovation and addition)
+NKSP,,,Receiving and Release,,other,,,Sep_2020_Quarterly-ADA_Final,110,SP 7.1 (Receiving and Release Administration Renovation)
+NKSP,,,Receiving and Release,,other,,,September2021QuarterlyReport-ADA,113,SP 7.1 (Receiving and Release Administration Renovation)
+NKSP,,,correctional case management building,,,,,Sep_2020_Quarterly-ADA_Final,111,SP 8 (new correctional case management building)
+NKSP,,,correctional case management building,,,,,September2021QuarterlyReport-ADA,114,SP 8 (new correctional case management building)
+NKSP,M Yard,901,,,housing,,,MPAR2022:P-1617-00021,151,"Replace Roofs - M Yard, Building 901 and 902 Dorms"
+NKSP,M Yard,902,,,housing,,,MPAR2022:P-1617-00021,151,"Replace Roofs - M Yard, Building 901 and 902 Dorms"
+PBSP,,,Central Kitchen,,kitchen,,,MPAR2022:P-1617-00109,155,Central Kitchen Walk-In Freezer Addition
+PBSP,,,Central Kitchen,,kitchen,,,Sep_2020_Quarterly-ADA_Final,150,PBSP Central Kitchen
+PBSP,,,Central Kitchen,,kitchen,,,September2021QuarterlyReport-ADA,155,PBSP Central Kitchen
+PBSP,,,Laundry,,laundry,,,MPAR2022:P-1920-00082,156,Thermal Pack Steam Line Replacement from Laundry to Main Kitchen
+PBSP,,,Main Kitchen,,kitchen,,,MPAR2022:P-1920-00082,156,Thermal Pack Steam Line Replacement from Laundry to Main Kitchen
+PBSP,,A1,,,,,,June2026QuarterlyReport-ADA,18,fire sprinkler installation at Building A1 and A2
+PBSP,,A2,,,,,,June2026QuarterlyReport-ADA,18,fire sprinkler installation at Building A1 and A2
+PBSP,,A3,,,,,,December2025QuarterlyReport-ADAFinal,30,commence construction activities at Building A3 and A4
+PBSP,,A3,,,,,,March2026QuarterlyReport-ADA,17,certificate of occupancy for Building A3 and A4
+PBSP,,A4,,,,,,December2025QuarterlyReport-ADAFinal,30,commence construction activities at Building A3 and A4
+PBSP,,A4,,,,,,March2026QuarterlyReport-ADA,17,certificate of occupancy for Building A3 and A4
+PBSP,,A5,,,,,,December2025QuarterlyReport-ADAFinal,30,fire sprinkler installation for Building A5 and A6
+PBSP,,A5,,,,,,September_2025_Quarterly_Report-ADA,29,fire sprinkler installation for Building A5 and A6
+PBSP,,A6,,,,,,December2025QuarterlyReport-ADAFinal,30,fire sprinkler installation for Building A5 and A6
+PBSP,,A6,,,,,,September_2025_Quarterly_Report-ADA,29,fire sprinkler installation for Building A5 and A6
+PBSP,,A7,,,,,,December2025QuarterlyReport-ADAFinal,31,punch list items for Building A7 and A8
+PBSP,,A7,,,,,,September_2025_Quarterly_Report-ADA,30,punch list items for Building A7 and A8
+PBSP,,A8,,,,,,December2025QuarterlyReport-ADAFinal,31,punch list items for Building A7 and A8
+PBSP,,A8,,,,,,September_2025_Quarterly_Report-ADA,30,punch list items for Building A7 and A8
+PVSP,,,Central Health Services,,health_care,,,December2025QuarterlyReport-ADAFinal,36,SP 3 (Central Health Services Renovation)
+PVSP,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,124,SP 3.1.1 (Central Health Services inmate holding cell renovation)
+PVSP,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,126,SP 3.1.1 (Central Health Services incarcerated individual holding cell renovation)
+PVSP,,,Central Health Services,,health_care,,,September_2025_Quarterly_Report-ADA,35,SP 3 (Central Health Services Renovation)
+PVSP,,,Central Health Services,,health_care,,,plata_ecf3963_receiver_triannual_59_2025-06-02,11,The PVSP Specialty Exam and Central Health Services renovations are ongoing
+PVSP,,,Central Health Services building,,health_care,,,MPAR2022:P-1314-00412,160,renovation to the Central Health Services building
+PVSP,,,Central Kitchen,,kitchen,,,MPAR2022:P-2122-00147,162,Replacement of the Central Kitchen refrigeration systems
+PVSP,,,Central Kitchen,,kitchen,,,MPAR2024:P-2324-00112,140,Central Kitchen Repairs
+PVSP,,,Pharmacy and Lab building,,health_care,,,MPAR2022:P-1314-00412,160,a new Pharmacy and Lab building
+PVSP,D,331,,,housing,,,MPAR2022:P-1617-00573,161,"Facility D, Building 331, 332, 333, 334, 335"
+PVSP,D,332,,,housing,,,MPAR2022:P-1617-00573,161,"Facility D, Building 331, 332, 333, 334, 335"
+PVSP,D,333,,,housing,,,MPAR2022:P-1617-00573,161,"Facility D, Building 331, 332, 333, 334, 335"
+PVSP,D,334,,,housing,,,MPAR2022:P-1617-00573,161,"Facility D, Building 331, 332, 333, 334, 335"
+PVSP,D,335,,,housing,,,MPAR2022:P-1617-00573,161,"Facility D, Building 331, 332, 333, 334, 335"
+PVSP,C,336,,,housing,,,MPAR2022:P-1617-00573,161,"Facility C, Building 336, 337, 338, 339, 340"
+PVSP,C,337,,,housing,,,MPAR2022:P-1617-00573,161,"Facility C, Building 336, 337, 338, 339, 340"
+PVSP,C,338,,,housing,,,MPAR2022:P-1617-00573,161,"Facility C, Building 336, 337, 338, 339, 340"
+PVSP,C,339,,,housing,,,MPAR2022:P-1617-00573,161,"Facility C, Building 336, 337, 338, 339, 340"
+PVSP,C,340,,,housing,,,MPAR2022:P-1617-00573,161,"Facility C, Building 336, 337, 338, 339, 340"
+PVSP,B,341,,,housing,,,MPAR2022:P-1617-00573,161,"Facility B, Building 341, 342, 343, 344, 345"
+PVSP,B,342,,,housing,,,MPAR2022:P-1617-00573,161,"Facility B, Building 341, 342, 343, 344, 345"
+PVSP,B,343,,,housing,,,MPAR2022:P-1617-00573,161,"Facility B, Building 341, 342, 343, 344, 345"
+PVSP,B,344,,,housing,,,MPAR2022:P-1617-00573,161,"Facility B, Building 341, 342, 343, 344, 345"
+PVSP,B,345,,,housing,,,MPAR2022:P-1617-00573,161,"Facility B, Building 341, 342, 343, 344, 345"
+PVSP,A,346,,,housing,,,MPAR2022:P-1617-00573,161,"Facility A, Building 346, 347, 348, 349, 350"
+PVSP,A,347,,,housing,,,MPAR2022:P-1617-00573,161,"Facility A, Building 346, 347, 348, 349, 350"
+PVSP,A,348,,,housing,,,MPAR2022:P-1617-00573,161,"Facility A, Building 346, 347, 348, 349, 350"
+PVSP,A,349,,,housing,,,MPAR2022:P-1617-00573,161,"Facility A, Building 346, 347, 348, 349, 350"
+PVSP,A,350,,,housing,,,MPAR2022:P-1617-00573,161,"Facility A, Building 346, 347, 348, 349, 350"
+RJD,Yard 4,16,,,housing,,,MPAR2022:P-1213-00089,167,"Housing Units Yard 4 Install Electrical and Television Outlets H.U.16, 17,18,19"
+RJD,Yard 4,17,,,housing,,,MPAR2022:P-1213-00089,167,"Housing Units Yard 4 Install Electrical and Television Outlets H.U.16, 17,18,19"
+RJD,Yard 4,18,,,housing,,,MPAR2022:P-1213-00089,167,"Housing Units Yard 4 Install Electrical and Television Outlets H.U.16, 17,18,19"
+RJD,Yard 4,19,,,housing,,,MPAR2022:P-1213-00089,167,"Housing Units Yard 4 Install Electrical and Television Outlets H.U.16, 17,18,19"
+RJD,,3.12,,,,,,MPAR2025:P-2526-00164,142,Replace Roof - Healthcare and Litigation Buildings 3.12 and 5.28
+RJD,,5.28,,,,,,MPAR2025:P-2526-00164,142,Replace Roof - Healthcare and Litigation Buildings 3.12 and 5.28
+RJD,,B6,,,housing,ASU,,MPAR2022:P-1718-00128,164,Medication Preparation Room in Housing Unit B6 and B7 to provide appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation
+RJD,B,B6,,,housing,,,MPAR2023:P-1213-00318,150,Install electrical & TV wiring in B Housing Units B6 and B7.
+RJD,,B7,,,housing,ASU,,MPAR2022:P-1718-00128,164,Medication Preparation Room in Housing Unit B6 and B7 to provide appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation
+RJD,B,B7,,,housing,,,MPAR2023:P-1213-00318,150,Install electrical & TV wiring in B Housing Units B6 and B7.
+RJD,,C14,,,housing,EOP,,MPAR2022:P-1718-00128,164,Medication Distribution Room in an Enhanced Outpatient unit at Housing Unit C14
+SAC,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,54,SP 3 (Central Health Services building)
+SAC,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,51,SP 3 (Central Health Services building)
+SAC,A,,Correctional Treatment Center,,health_care,,,MPAR2022:P-1415-00052,171,"Facility A, Correctional Treatment Center"
+SAC,,,New Pharmacy Building,,health_care,,,MPAR2022:P-2122-00111,172,New Pharmacy Building
+SAC,,A,Modular Building A,,program,,,December2025QuarterlyReport-ADAFinal,21,Completed placement of Modular Building A
+SAC,,A,Modular Building A,,program,,,March2026QuarterlyReport-ADA,11,Completed door installation at Modular Building A
+SAC,,A,Modular Building A,,program,,,September_2025_Quarterly_Report-ADA,20,Completed placement of Modular Building A
+SAC,,A1/A2,,,housing,,,MPAR2022:P-1718-00129,170,"Additional Medication Distribution Rooms in Housing Units A1/A2, A5/A6, and B7/B8"
+SAC,,A3/A4,,,housing,EOP,,MPAR2022:P-1718-00129,170,Medication Distribution Rooms in Enhanced Outpatient Units at Housing Units A3/A4 and B3/B4
+SAC,,A5/A6,,,housing,,,MPAR2022:P-1718-00129,170,"Additional Medication Distribution Rooms in Housing Units A1/A2, A5/A6, and B7/B8"
+SAC,,A7/A8,,,housing,,,MPAR2024:P-2324-00145,150,Replace Roof - Housing Building A7/A8
+SAC,,B,Modular Building B,,program,,,December2025QuarterlyReport-ADAFinal,21,fire sprinkler installation at Modular Building B
+SAC,,B,Modular Building B,,program,,,March2026QuarterlyReport-ADA,11,Completed punch list items at Modular Building B
+SAC,,B,Modular Building B,,program,,,September_2025_Quarterly_Report-ADA,19,fire sprinkler installation at Modular Building B
+SAC,,B3/B4,,,housing,EOP,,MPAR2022:P-1718-00129,170,Medication Distribution Rooms in Enhanced Outpatient Units at Housing Units A3/A4 and B3/B4
+SAC,,B7/B8,,,housing,,,MPAR2022:P-1718-00129,170,"Additional Medication Distribution Rooms in Housing Units A1/A2, A5/A6, and B7/B8"
+SAC,C,C,Modular Building C,,program,,,December2025QuarterlyReport-ADAFinal,21,exterior finishing at Modular Building C Facility C
+SAC,C,C,Modular Building C,,program,,,March2026QuarterlyReport-ADA,11,received certificate of occupancy for Modular Building C
+SAC,C,C,Modular Building C,,program,,,September_2025_Quarterly_Report-ADA,20,exterior finishing at Modular Building C Facility C
+SATF,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,63,SP 3 (Central Health Services renovation)
+SATF,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,60,SP 3 (Central Health Services renovation)
+SATF,,,Central Health Services building,,health_care,,,MPAR2022:P-1314-00201,174,the Central Health Services building renovations
+SATF,,371,,,,,,December2025QuarterlyReport-ADAFinal,45,Building 371 and 382
+SATF,,371,,,,,,September_2025_Quarterly_Report-ADA,43,certificate of occupancy for Buildings 371 and 382
+SATF,,372,,,,,,December2025QuarterlyReport-ADAFinal,45,Buildings 372 and 383
+SATF,,372,,,,,,September_2025_Quarterly_Report-ADA,44,Buildings 372 and 383
+SATF,,373,,,,,,December2025QuarterlyReport-ADAFinal,44,"Buildings 373, 383 B, and 383 C"
+SATF,,373,,,,,,September_2025_Quarterly_Report-ADA,43,"Buildings 373, 383 B, and 383 C"
+SATF,,381,,,,,,December2025QuarterlyReport-ADAFinal,44,certificate of occupancy for Building 381
+SATF,,381,,,,,,September_2025_Quarterly_Report-ADA,43,certificate of occupancy for Building 381
+SATF,,382,,,,,,December2025QuarterlyReport-ADAFinal,45,Building 371 and 382
+SATF,,382,,,,,,September_2025_Quarterly_Report-ADA,43,certificate of occupancy for Buildings 371 and 382
+SATF,,383,,,,,,December2025QuarterlyReport-ADAFinal,45,Buildings 372 and 383
+SATF,,383,,,,,,September_2025_Quarterly_Report-ADA,44,Buildings 372 and 383
+SATF,,383 B,,,,,,December2025QuarterlyReport-ADAFinal,44,"Buildings 373, 383 B, and 383 C"
+SATF,,383 B,,,,,,September_2025_Quarterly_Report-ADA,43,"Buildings 373, 383 B, and 383 C"
+SATF,,383 C,,,,,,December2025QuarterlyReport-ADAFinal,44,"Buildings 373, 383 B, and 383 C"
+SATF,,383 C,,,,,,September_2025_Quarterly_Report-ADA,43,"Buildings 373, 383 B, and 383 C"
+SATF,,440,,,,,,MPAR2025:P-2526-00165,151,"Replace Roof - Visiting and Gym, Buildings 440 and 442"
+SATF,,442,,,,,,MPAR2025:P-2526-00165,151,"Replace Roof - Visiting and Gym, Buildings 440 and 442"
+SATF,,460,Complex Control,,other,,,MPAR2025:P-2526-00161,149,Replace Roof - Complex Control; Building 460
+SATF,,C7,,,,,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,25,"an indoor temperature log from unit C7 on May 13, 2024"
+SCC,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,2,Central Health Services Building Renovation
+SCC,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,3,Central Health Services Building Renovation
+SCC,,,Central Health Services Building,,health_care,,,MPAR2022:P-1819-00143,179,Central Health Services Building Renovation
+SCC,,,Clarifier Building,,plant,,,MPAR2022:P-2122-00156,183,Design and construct a new Clarifier Building
+SCC,,,Health Care Administration building,,admin,,,Sep_2020_Quarterly-ADA_Final,134,a new Health Care Administration building
+SCC,,,Health Care Administration building,,admin,,,September2021QuarterlyReport-ADA,136,a new Health Care Administration building
+SCC,,,Main Medical Building,,health_care,,,MPAR2024:P-2021-00249,158,Remove/Replace Air Handling Units - Main Medical Building
+SCC,Tuolumne,1,,,housing,,,MPAR2022:P-1617-00136,179,Repair the showers in Tuolumne Housing Buildings 1 through 5.
+SCC,Tuolumne,2,,,housing,,,MPAR2022:P-1617-00136,179,Repair the showers in Tuolumne Housing Buildings 1 through 5.
+SCC,,2,,,housing,,,MPAR2023:P-2324-00033,162,Install Electrical & Television Outlets - HU2
+SCC,Tuolumne,3,,,housing,,,MPAR2022:P-1617-00136,179,Repair the showers in Tuolumne Housing Buildings 1 through 5.
+SCC,Tuolumne,4,,,housing,,,MPAR2022:P-1617-00136,179,Repair the showers in Tuolumne Housing Buildings 1 through 5.
+SCC,Tuolumne,5,,,housing,,,MPAR2022:P-1617-00136,179,Repair the showers in Tuolumne Housing Buildings 1 through 5.
+SOL,,,Central Health Services,,health_care,,,MPAR2022:P-1213-00198,185,renovations to Central Health Services and Receiving and Release
+SOL,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,58,Commenced procurement for SP 2 (Central Health Services renovation)
+SOL,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,55,Commenced procurement for SP 2 (Central Health Services renovation)
+SOL,,,Receiving and Release,,other,,,MPAR2022:P-1213-00198,185,renovations to Central Health Services and Receiving and Release
+SOL,,10,,,housing,ASU,,MPAR2022:P-1718-00130,185,Medication Preparation Room in Housing Unit 10 to provide the appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation Unit
+SOL,,10,,,housing,,,Sep_2020_Quarterly-ADA_Final,58,cell modifications in Housing Units 7 and 10
+SOL,,10,,,housing,,,September2021QuarterlyReport-ADA,55,cell modifications in Housing Units 7 and 10
+SOL,,12,,,housing,,,Sep_2020_Quarterly-ADA_Final,57,ADA shower modifications at Housing Units 10 and 12
+SOL,,12,,,housing,,,September2021QuarterlyReport-ADA,55,ADA shower modifications at Housing Units 10 and 12
+SOL,,7,,,housing,,,Sep_2020_Quarterly-ADA_Final,58,cell modifications in Housing Units 7 and 10
+SOL,,7,,,housing,,,September2021QuarterlyReport-ADA,55,cell modifications in Housing Units 7 and 10
+SOL,,8,,,housing,,,Sep_2020_Quarterly-ADA_Final,57,Completed construction at Housing Unit 8
+SOL,,8,,,housing,,,September2021QuarterlyReport-ADA,55,Completed construction at Housing Unit 8
+SQ,,,Adjustment Center,,,,,FINAL-San-Quentin-Report_1.3.24,147,Adjustment Center 6’ 6” X 7’ (single cell)
+SQ,,,Boiler Plant Facility,,plant,,,sen_sub5_agenda_vote_outcomes_2018-03-15,27,unforeseen issues in the existing boiler plant facility
+SQ,,,East Block,,,,,December2025QuarterlyReport-ADAFinal,39,East Block path of travel
+SQ,,,East Block,,,,,FINAL-San-Quentin-Report_1.3.24,148,single-person cells vacant in East Block
+SQ,,,East Block,,,,,MPAR2024:P-2324-00163,167,Repair East Block roof at San Quentin Rehabilitation Center.
+SQ,,,East Block,,housing,GP,,MPAR2025:P-2223-00071,161,East Block Housing
+SQ,,,East Block,,housing,,,MPAR2025:P-2526-00166,164,Replace Roof - East Block Housing Units
+SQ,,,Educational and Vocational Center,,program,,,MPAR2023:P-2324-00002,171,construction of a new Educational and Vocational Center
+SQ,,,Gym,,recreation,,,sen_sub5_agenda_vote_outcomes_2018-03-15,26,There is only one gym at SQ and no other indoor recreational space available.
+SQ,,,Kitchen/Bakery,,kitchen,,,MPAR2022:P-2122-00115,193,renovations of existing Kitchen/Bakery
+SQ,,,Main Kitchen,,kitchen,,,MPAR2022:P-1011-00212,191,"Replace grease trap, dock and ramp at Main Kitchen"
+SQ,,,Main Kitchen,,kitchen,,,MPAR2022:P-1617-00140,192,Replace Main Kitchen Cooling Tower
+SQ,,,Main Kitchen,,kitchen,,,MPAR2024:P-1516-00130,167,Replace Main Kitchen Cooling Tower
+SQ,,,North Block,,housing,,1932,FINAL-San-Quentin-Report_1.3.24,18,North Block was built in 1932
+SQ,,,North Block,,,,,June2026QuarterlyReport-ADA,21,flatwork at the North Block
+SQ,,,North Dining Hall,,kitchen,,,MPAR2022:P-2122-00115,193,"Renovation of Kitchen/Bakery/Refrigeration, North and South Dining Halls"
+SQ,,,South Block,,,,,FINAL-San-Quentin-Report_1.3.24,147,South Block 4’ 8” X 11’ (partial double cell)
+SQ,,,South Dining Hall,,kitchen,,,MPAR2022:P-2122-00115,193,"Renovation of Kitchen/Bakery/Refrigeration, North and South Dining Halls"
+SQ,,,West Block,,,,,FINAL-San-Quentin-Report_1.3.24,147,West Block 4’ 6” X 11’ 3” (double cell)
+SQ,,,boiler building,,plant,,,December2025QuarterlyReport-ADAFinal,42,slab removal at the boiler building site
+SQ,,,boiler building,,plant,,,MPAR2022:P-1314-00510,189,demolish the existing boiler building
+SQ,,,boiler building,,plant,,,September2021QuarterlyReport-ADA,134,commenced slab removal at the boiler building site
+SQ,,,boiler building,,plant,,,September_2025_Quarterly_Report-ADA,41,slab removal at the boiler building site
+SQ,,,boiler facility,,plant,,,Sep_2020_Quarterly-ADA_Final,132,construction of a new boiler facility at San Quentin State Prison
+SQ,,,boiler facility,,plant,,,September2021QuarterlyReport-ADA,134,construction of a new boiler facility at San Quentin State Prison
+SQ,,,pipe fitter's building,,,,,December2025QuarterlyReport-ADAFinal,42,demolition of the pipe fitter’s building
+SQ,,,pipe fitter's building,,,,,September2021QuarterlyReport-ADA,134,demolition of the pipe fitter’s building
+SQ,,,pipe fitter's building,,,,,September_2025_Quarterly_Report-ADA,41,demolition of the pipe fitter’s building
+SQ,,22,New Central Health Services Building,,health_care,,,MPAR2022:P-1718-00079,191,"the New Central Health Services Building, ID 22"
+SQ,,26,Dining Halls and Kitchen,,kitchen,,,MPAR2022:P-1718-00079,191,Dining Halls and Kitchen Building 26
+SQ,,32,,,,,,FINAL-San-Quentin-Report_1.3.24,27,dedicated space in Building 32 for ISUDT
+SQ,,32,,,program,,,Sep_2020_Quarterly-ADA_Final,130,"remodel approximately 8,000 square feet (sf) of vocational Building 32 for Cognitive Behavioral Treatment (CBT) Programs"
+SQ,,32,,,program,,,September2021QuarterlyReport-ADA,132,"remodel approximately 8,000 square feet (sf) of vocational Building 32 for Cognitive Behavioral Treatment (CBT) Programs"
+SQ,,32,,,program,,,sen_sub5_agenda_vote_outcomes_2018-03-15,25,"remodel of approximately 8,000 square feet of vocational Building 32 for CBT programs at San Quentin State Prison (SQ)"
+SQ,,32,Vocational Building,,program,,,MPAR2022:P-1718-00133,189,"remodel 8,000 sf of Vocational Building 32 into 12 treatment classrooms"
+SQ,,38,,,,,,December2025QuarterlyReport-ADAFinal,38,Completed demolition of building 38
+SQ,,38,,,,,,September_2025_Quarterly_Report-ADA,37,Completed demolition of building 38
+SQ,,38,former California Prison Industry Authority Warehouse,,,,,MPAR2023:P-2324-00002,171,demolition of Building 38
+SQ,,38,former California Prison Industry Authority Warehouse,,,,,sen_sub5_agenda_2025-03-06,20,demolition of the former California Prison Industry Authority Warehouse Building 38
+SQ,,38,old Prison Industry Building,,,,,FINAL-San-Quentin-Report_1.3.24,135,The old Prison Industry Building (PIA or Building 38)
+SQ,,A,,,program,,,December2025QuarterlyReport-ADAFinal,37,interior finishes for Building A
+SQ,,A,,,program,,,September_2025_Quarterly_Report-ADA,36,interior finishes for Building A
+SQ,,B,,,program,,,December2025QuarterlyReport-ADAFinal,37,punch walk for Building B
+SQ,,B,,,program,,,September_2025_Quarterly_Report-ADA,36,stud framing for Building B
+SQ,,C,,,program,,,December2025QuarterlyReport-ADAFinal,37,for Building C
+SQ,,C,,,program,,,September_2025_Quarterly_Report-ADA,36,for Building C
+SQ,,D,,,program,,,December2025QuarterlyReport-ADAFinal,37,for Building D
+SQ,,D,,,program,,,September_2025_Quarterly_Report-ADA,36,for Building D
+SVSP,,,Treatment Center 2,,,,,plata_ecf3963_receiver_triannual_59_2025-06-02,10,"C6, Facility C Clinic, the Triage and Treatment Area (TTA), and Treatment Center 2"
+SVSP,,325,,,,,,Sep_2020_Quarterly-ADA_Final,147,SVSP Building 325
+SVSP,,325,,,,,,September2021QuarterlyReport-ADA,152,SVSP Building 325
+SVSP,,420,,,,,,MPAR2025:P-2526-00167,168,"Replace Roof - Correctional Treatment Center and Central Control, Building 420 and 461"
+SVSP,,461,,,,,,MPAR2025:P-2526-00167,168,"Replace Roof - Correctional Treatment Center and Central Control, Building 420 and 461"
+SVSP,,462,,,,,,MPAR2024:P-2324-00137,172,Replace Roofs - Buildings 462 and 484 (Central Kitchen)
+SVSP,,462,,,,,,MPAR2025:P-2526-00162,167,Replace Roof - Kitchen; Buildings 462 and 484
+SVSP,,484,,,,,,MPAR2024:P-2324-00137,172,Replace Roofs - Buildings 462 and 484 (Central Kitchen)
+SVSP,,484,,,,,,MPAR2025:P-2526-00162,167,Replace Roof - Kitchen; Buildings 462 and 484
+VSP,,,Central Kitchen,,kitchen,,,MPAR2024:P-2223-00031,176,Central Kitchen
+VSP,,,Central Kitchen,,kitchen,,,MPAR2025:P-2526-00142,171,Central Kitchen AHU Replacement Assessment.
+VSP,,,water treatment building,,plant,,,December2025QuarterlyReport-ADAFinal,47,water treatment building pad
+VSP,,,water treatment building,,plant,,,June2026QuarterlyReport-ADA,25,metal framing at the water treatment building
+VSP,,,water treatment building,,plant,,,March2026QuarterlyReport-ADA,25,metal framing at the water treatment building
+VSP,,,water treatment building,,plant,,,September_2025_Quarterly_Report-ADA,46,water treatment building pad
+VSP,,315,Reception Center,,,RC,,MPAR2022:P-0809-00204,200,"Repair/Replace Roof Reception Center, Building 315"
+VSP,,406,,,visiting,,,MPAR2024:P-2324-00138,176,Replace Roof - Visiting Building 406
+VSP,,406,BPT/Visiting Center,,visiting,,,MPAR2022:P-1718-00294,199,"Replace Roof - BPT/Visiting Center, Building 406"
+VSP,,410,Central Kitchen,,kitchen,,,MPAR2025:P-2223-00081,172,"Replace Roof - Central Kitchen, Building 410"
+WSP,,,Central Health Services,,health_care,,,MPAR2022:P-1213-00221,204,"Central Health Services, and Reception Center Care Processing"
+WSP,,,Central Health Services,,health_care,,,Sep_2020_Quarterly-ADA_Final,111,SP 6 (Central Health Services renovation and addition)
+WSP,,,Central Health Services,,health_care,,,September2021QuarterlyReport-ADA,114,SP 6 (Central Health Services renovation and addition)
+WSP,,,Central Health Services Building,,health_care,,,MPAR2023:P-2324-00060,184,"the pharmacy, located in the Central Health Services Building"
+WSP,,,Correctional Case Management and Health Care Administration building,,admin,,,MPAR2022:P-1213-00221,204,a new Correctional Case Management and Health Care Administration building
+WSP,,,Correctional Treatment Center,,health_care,,,MPAR2022:P-1516-00295,204,"Board of Parole Hearings conference room, Correctional Treatment Center, Receiving and Release"
+WSP,,,New Pharmacy Building,,health_care,,,MPAR2023:P-2324-00060,184,New Pharmacy Building
+WSP,,,Receiving and Release,,other,,,MPAR2022:P-1516-00295,204,"Board of Parole Hearings conference room, Correctional Treatment Center, Receiving and Release"
+WSP,,,correctional case management and health care administration building,,,,,Sep_2020_Quarterly-ADA_Final,144,SP 8 (new correctional case management and health care administration building)
+WSP,,,correctional case management and health care administration building,,,,,September2021QuarterlyReport-ADA,150,SP 8 (new correctional case management and health care administration building)
+WSP,,427,,,,,,September2021QuarterlyReport-ADA,148,medical distribution windows at Buildings 427 and 429
+WSP,,429,,,,,,September2021QuarterlyReport-ADA,148,medical distribution windows at Buildings 427 and 429
