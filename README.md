@@ -44,6 +44,7 @@ Transcribed and downloaded source files in `sources/`:
 | `mpar_projects.csv` | Every capital project in each year's report, with status (complete, active, proposed, future within 5 years, future in 5–10 years), current phase, funding or estimated cost, scope, and justification. One row per project per report year. | CDCR Master Plan Annual Reports, 2022–2025 |
 | `cooling_observations.csv` | Cooling type (mechanical, evaporative, none) of specific housing units, health care units, and program spaces, as stated or observed, with condition notes | Coleman Special Master's 31st Round Heat Plan report (ECF 8558, Feb 2025), Plata joint case management statement (ECF 4013, May 2026) |
 | `building_mentions.csv` | Every place a source names a specific building or housing unit, with the facility, use, and program it states | MPARs 2022–2025, Capital Outlay Quarterly Reports, and the documents in `sources/heat_cooling/` |
+| `verification_flags.csv` | Values in these files that conflict with the source's own totals or with other sources, with the evidence on each side and what would resolve it. Values are left as transcribed until a source settles them. | Compiled from the sources above |
 | `mpar_envelope_last_completed.csv` | Most recent roofing or building envelope project by institution | CDCR Master Plan Annual Reports, 2020–2025 |
 | `cchcs_mortality_2006-2024.csv` | Annual deaths and mortality rates, system-wide | CCHCS Health Care Services Dashboard |
 
@@ -89,7 +90,7 @@ Demographic shares are the mean monthly count in each group divided by `average_
 | `pct_hu_evaporative` | Share of housing units with evaporative (swamp) cooling. | Same |
 | `pct_hu_air_handlers` | Share of housing units with air handlers only (ventilation, no cooling). | Same |
 
-Housing units with more than one cooling type are counted under each, so the three shares can sum to slightly more than 1. CVSP and FWF are not in the report. CIM's mix is the least certain: the report shows no evaporative cooling, although its Facility A retrofit completed in February 2025 is evaporative (CEQA #2018128257).
+Housing units with more than one cooling type are counted under each, so the three shares can sum to slightly more than 1. CVSP and FWF are not in the report. The report's tables don't always add up, and some counts conflict with other CDCR documents; `sources/verification_flags.csv` lists each case by institution. CIM's mix is the least certain: the report shows no evaporative cooling, although its Facility A retrofit completed in February 2025 is evaporative (CEQA #2018128257).
 
 | Variable | Description | Source |
 | :--- | :--- | :--- |
