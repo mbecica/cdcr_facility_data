@@ -5,6 +5,7 @@ sources/specialized_beds/*.pdf
 sources/cdcr_staffing/
 sources/cdcr_incidents/
 sources/cdcr_facilities_planning/
+sources/heat_cooling/
 
 # Scraper resume state and run logs (regenerable)
 .cache/

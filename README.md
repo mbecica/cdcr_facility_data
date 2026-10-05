@@ -41,7 +41,9 @@ Transcribed and downloaded source files in `sources/`:
 | `condition_assessment_2026.csv` | Condition rating (Plus, Good, Fair, Poor, Failing, N/A) of 45 utility and building systems at each institution, one row per institution and system | CDCR Infrastructure Master Plan, May 2026, Appendix 2, p. 2 |
 | `condition_assessment_rank_2026.csv` | Overall condition rank, 1 (worst) to 31 (best), weighted by each system's operational impact | Same, Appendix 2, p. 1 |
 | `cdcr_manual_data.csv` | Year opened, planned closure, California Model, Air Cooling Pilot, and Infrastructure Master Plan priority participation | LAO (2020) and online documentation |
-| `mpar_projects_completed.csv` | Completed capital projects | CDCR Master Plan Annual Reports, 2022–2025 |
+| `mpar_projects.csv` | Every capital project in each year's report, with status (complete, active, proposed, future within 5 years, future in 5–10 years), current phase, funding or estimated cost, scope, and justification. One row per project per report year. | CDCR Master Plan Annual Reports, 2022–2025 |
+| `cooling_observations.csv` | Cooling type (mechanical, evaporative, none) of specific housing units, health care units, and program spaces, as stated or observed, with condition notes | Coleman Special Master's 31st Round Heat Plan report (ECF 8558, Feb 2025), Plata joint case management statement (ECF 4013, May 2026) |
+| `building_mentions.csv` | Every place a source names a specific building or housing unit, with the facility, use, and program it states | MPARs 2022–2025, Capital Outlay Quarterly Reports, and the documents in `sources/heat_cooling/` |
 | `mpar_envelope_last_completed.csv` | Most recent roofing or building envelope project by institution | CDCR Master Plan Annual Reports, 2020–2025 |
 | `cchcs_mortality_2006-2024.csv` | Annual deaths and mortality rates, system-wide | CCHCS Health Care Services Dashboard |
 
@@ -51,7 +53,7 @@ Transcribed and downloaded source files in `sources/`:
 data/          cleaned tables (outputs of the scripts below)
 sources/       transcribed source files, plus downloaded PDFs (not tracked; see "Updating the data")
 scrapers/      dashboard scrapers and PDF extractors
-crosswalk/     institution codes, FEMA facility IDs, and alias codes
+crosswalk/     institution codes, FEMA facility IDs, alias codes, and the building inventory
 build_cdcr_facilities.py   builds data/cdcr_facilities.csv
 ```
 
@@ -211,6 +213,23 @@ Average sentence length at admission, in months, by admission type and month; so
 
 `crosswalk/institutions.csv` lists the 34 institutions with their CDCR code, name, FEMA facility ID, and any alias codes used in source documents. Sources use FSP for Folsom State Prison (FOL), SQRC for San Quentin Rehabilitation Center (SQ), and FEMA uses CCFW for Central California Women's Facility (CCWF). The build maps these to the CDCR code.
 
+## Buildings
+
+`crosswalk/buildings.csv` is a partial inventory of buildings and housing units, built from `sources/building_mentions.csv` by `python3 scrapers/build_buildings.py`. CDCR publishes no building list, so it holds only buildings that a public source names. Coverage varies widely between institutions.
+
+| Variable | Description |
+| :--- | :--- |
+| `building_key` | `{cdcr_code}-{building}`, or `{cdcr_code}-{name}` for a building the sources name but don't number (for example `CIW-walker-unit`). |
+| `building` | Building or housing unit number as printed (`3410`, `405A`, `A7`, `4A1R`). |
+| `building_name` | Names the sources give the building (`Laundry`, `Central Health Services`). |
+| `facility`, `use`, `program` | Every value the sources state, separated by semicolons. Blank where no source states it. Facility is never inferred from the building number. |
+| `conflicts` | Columns where sources disagree. |
+| `n_sources`, `sources` | Sources that name the building. MPAR sources are written `MPAR{year}:{project_id}`; others are the PDF filename in `sources/heat_cooling/` or `sources/cdcr_facilities_planning/`. |
+
+Mentions merge only when they use the same number or name, so one building can still appear under two keys.
+
+`cooling_observations.csv` records cooling for areas smaller than an institution. Join it to the inventory on `cdcr_code` and `building` where a building is given. Most rows name a program or facility instead (the MHCB, the CTC, Facility D). `cooling_as_stated` keeps the source's words, and `cooling_type` maps "air-conditioned" and "refrigeration" to `mechanical` and "swamp cooler" to `evaporative`. `basis` says whether the Special Master's monitors observed the cooling, staff or patients reported it, or the report states it without attribution. `space` is `health_care` for MHCB, PIP, and CTC units, which may also be counted as housing units in the Air Cooling report.
+
 ## Updating the data
 
 Source PDFs are not stored in the repository. Download new reports into the matching `sources/` folder, then run the extractor. Dashboard scrapers drive the live Power BI dashboards in a visible browser (`npm install`, then `npx playwright install chromium`) and can break when a dashboard's layout changes. After updating any source, rebuild the main table with `python3 build_cdcr_facilities.py`.
@@ -226,7 +245,9 @@ Source PDFs are not stored in the repository. Download new reports into the matc
 | Violent incidents | CDCR incident reports | `sources/cdcr_incidents/` | Add the filename to the list in `scrapers/extract_violent_incidents.py`, then run it |
 | Mental health beds | [CCHCS reports](https://cchcs.ca.gov/reports/): monthly PIP census, Coleman PIP waitlist, and MHCB census reports, and the Mental Health Bed Need Study | `sources/specialized_beds/`, keeping the `YYYY-MM-DD_` report-date prefix | `python3 scrapers/extract_specialized_beds.py` |
 | Sentences, returns | Population Data Points and Adult Recidivism dashboards | — | `node scrapers/fetch_cdcr_avg_sentence.js`, `node scrapers/fetch_cdcr_recidivism_los.js` |
-| Cooling, indoor heat, MPAR, facility metadata | CDCR reports | `sources/` | Transcribed by hand |
+| MPAR projects | [Master Plan Annual Reports](https://www.cdcr.ca.gov/fpcm/) | `sources/cdcr_facilities_planning/` (add the filename to `MPARS` in the script) | `python3 scrapers/extract_mpar_projects.py` |
+| Buildings | Any source naming a building | Add rows to `sources/building_mentions.csv` | `python3 scrapers/build_buildings.py` |
+| Cooling, indoor heat, cooling observations, facility metadata | CDCR reports and court filings | `sources/`, `sources/heat_cooling/` | Transcribed by hand |
 
 To add a year to the main table, change `YEAR` at the top of `build_cdcr_facilities.py`; the year is part of the column names (`average_2026_population`, `cchcs_dpp_pct_2026`). The dashboard scrapers have `LATEST_YEAR` or `FISCAL_YEAR` settings at the top of each script.
 
@@ -261,5 +282,9 @@ California Department of Corrections and Rehabilitation, Facility Planning, Cons
 California Department of Corrections and Rehabilitation. (2021). *Mental Health Services Delivery System Map*. https://www.cdcr.ca.gov/bph/wp-content/uploads/sites/161/2021/10/MHSDS-Map-2021.07.02.pdf
 
 California State Controller's Office. (2021–2026). *Active State Employees by Department*. Retrieved through the Internet Archive Wayback Machine.
+
+Coleman v. Newsom, No. 2:90-cv-0520 KJM SCR (E.D. Cal.). (2025, February 28). *Special Master's Thirty-First Round Focused Heat Plan Monitoring Report* (ECF No. 8558). https://storage.courtlistener.com/recap/gov.uscourts.caed.83056/gov.uscourts.caed.83056.8558.0.pdf
+
+Plata v. Newsom, No. 4:01-cv-01351-JST (N.D. Cal.). (2026, May 26). *Joint Case Management Conference Statement* (ECF No. 4013). https://storage.courtlistener.com/recap/gov.uscourts.cand.76/gov.uscourts.cand.76.4013.0.pdf
 
 Legislative Analyst's Office. (2020). *Effectively Managing State Prison Infrastructure* (Report 4186). https://lao.ca.gov/reports/2020/4186/prison-infrastructure-022820.pdf

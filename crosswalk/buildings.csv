@@ -1,0 +1,376 @@
+building_key,cdcr_code,building,building_name,facility,use,program,conflicts,n_sources,sources
+ASP-695,ASP,695,Laundry,,laundry,,,1,MPAR2022:P-1617-00390
+CAL-331,CAL,331,,B,housing,,,2,MPAR2024:P-2324-00158;MPAR2025:P-2324-00156
+CAL-332,CAL,332,,B,housing,,,2,MPAR2024:P-2324-00158;MPAR2025:P-2324-00156
+CAL-333,CAL,333,,B,housing,,,2,MPAR2024:P-2324-00158;MPAR2025:P-2324-00156
+CAL-334,CAL,334,,B,housing,,,2,MPAR2024:P-2324-00158;MPAR2025:P-2324-00156
+CAL-335,CAL,335,,B,housing,,,2,MPAR2024:P-2324-00150;MPAR2025:P-2324-00156
+CAL-341,CAL,341,,,housing,,,1,MPAR2024:P-2324-00150
+CAL-342,CAL,342,,,housing,,,1,MPAR2024:P-2324-00150
+CAL-343,CAL,343,,,housing,,,1,MPAR2024:P-2324-00150
+CAL-351,CAL,351,,D,housing,,,1,MPAR2025:P-2324-00158
+CAL-354,CAL,354,,D,housing,,,1,MPAR2025:P-2324-00158
+CAL-355,CAL,355,,D,housing,,,1,MPAR2025:P-2324-00158
+CAL-central-health-services,CAL,,Central Health Services,,health_care,,,4,MPAR2022:P-1415-00088;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;sen_sub5_agenda_2021-02-11
+CCI-47,CCI,47,Vocation,A,program,,,1,MPAR2022:P-1415-00110
+CCI-57,CCI,57,Vocation,B,program,,,1,MPAR2022:P-1415-00114
+CCI-A5,CCI,A5,,,housing,,,1,coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+CCI-B5,CCI,B5,,,housing,,,1,coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+CCI-C21,CCI,C21,Laundry/Food Service Building,,,,,1,MPAR2022:P-2122-00132
+CCI-central-kitchen,CCI,,Central Kitchen,,kitchen,,,1,MPAR2022:P-2122-00096
+CCI-facility-c-kitchen,CCI,,Facility C Kitchen,C,kitchen,,,1,MPAR2024:P-2122-00096
+CCI-unit-ii-culinary,CCI,,Unit II Culinary,,kitchen,,,1,MPAR2022:P-1112-00212
+CCWF-503,CCWF,503,,A,housing,,,2,MPAR2024:P-1819-00098;MPAR2024:P-1920-00145
+CCWF-504,CCWF,504,,A,housing,STRH;ASU,,4,MPAR2022:P-1718-00014;MPAR2022:P-1718-00118;MPAR2024:P-1819-00098;MPAR2024:P-1920-00145
+CCWF-506,CCWF,506,,B,housing,,,2,bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+CCWF-507,CCWF,507,,B,housing,,,2,bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+CCWF-508,CCWF,508,,B,housing,,,4,MPAR2025:P-2526-00144;MPAR2025:P-2526-00156;bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+CCWF-513,CCWF,513,,,housing,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
+CCWF-514,CCWF,514,,,housing,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
+CCWF-805,CCWF,805,Central Health Services Building,,health_care,MHCB,,3,MPAR2023:P-2223-00102;MPAR2022:P-1213-00007;MPAR2025:P-2324-00132
+CCWF-central-health-services,CCWF,,Central Health Services,,health_care,,,1,MPAR2022:P-1213-00222
+CCWF-correctional-treatment-center,CCWF,,Correctional Treatment Center,,health_care,MHCB,,1,MPAR2022:P-1718-00216
+CEN-524B,CEN,524B,Vocational Building,,program,,,1,MPAR2022:P-1617-00105
+CEN-central-health-services,CEN,,Central Health Services,,health_care,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+CHCF-201,CHCF,201,Facility Shared Services Building,,,,,1,MPAR2022:P-1718-00060
+CHCF-301B,CHCF,301B,,E,housing,EOP,,7,December2025QuarterlyReport-ADAFinal;June2026QuarterlyReport-ADA;MPAR2022:P-1920-00107;March2026QuarterlyReport-ADA;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA;sen_sub5_agenda_2021-02-11
+CHCF-301C,CHCF,301C,,E,housing,EOP,,7,December2025QuarterlyReport-ADAFinal;June2026QuarterlyReport-ADA;MPAR2022:P-1920-00108;March2026QuarterlyReport-ADA;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA;sen_sub5_agenda_2021-02-11
+CHCF-301D,CHCF,301D,,E,housing,EOP,,7,December2025QuarterlyReport-ADAFinal;June2026QuarterlyReport-ADA;MPAR2022:P-1920-00109;March2026QuarterlyReport-ADA;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA;sen_sub5_agenda_2021-02-11
+CHCF-301E,CHCF,301E,,E,housing,EOP,,7,December2025QuarterlyReport-ADAFinal;June2026QuarterlyReport-ADA;MPAR2022:P-1920-00110;March2026QuarterlyReport-ADA;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA;sen_sub5_agenda_2021-02-11
+CHCF-301F,CHCF,301F,,E,housing,EOP,,7,December2025QuarterlyReport-ADAFinal;June2026QuarterlyReport-ADA;MPAR2022:P-1920-00111;March2026QuarterlyReport-ADA;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA;sen_sub5_agenda_2021-02-11
+CIM-204.5,CIM,204.5,,B,,,,1,MPAR2024:P-2324-00143
+CIM-204.7,CIM,204.7,,B,housing,,,1,MPAR2025:P-2526-00130
+CIM-204.8,CIM,204.8,,B,housing,,,1,MPAR2025:P-2526-00130
+CIM-377,CIM,377,Medical and Dental,,health_care,,,1,MPAR2022:P-1718-00413
+CIM-50-bed-mental-health-crisis-facility,CIM,,50-Bed Mental Health Crisis Facility,,health_care,MHCB,,6,December2025QuarterlyReport-ADAFinal;June2026QuarterlyReport-ADA;MPAR2022:P-1617-00113;March2026QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA;plata_ecf3963_receiver_triannual_59_2025-06-02
+CIM-facility-c-east-culinary-building,CIM,,Facility C East Culinary Building,C,kitchen,,,1,MPAR2022:P-2122-00112
+CIW-45-bed-ctc,CIW,,45 Bed CTC,,health_care,CTC,,1,asm_sub5_agenda_2011-05-25
+CIW-administrative-segregation-housing-unit,CIW,,Administrative Segregation Housing Unit,,housing,ASU,,1,MPAR2022:P-1718-00120
+CIW-central-kitchen,CIW,,Central Kitchen,,kitchen,,,1,MPAR2022:P-2122-00098
+CIW-walker-unit,CIW,,Walker Unit,,,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
+CMC-330,CMC,330,,,kitchen,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+CMC-352A,CMC,352A,,,kitchen,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+CMC-360,CMC,360,,,kitchen,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+CMC-4,CMC,4,,,,ASU,,1,MPAR2022:P-1718-00261
+CMC-7,CMC,7,,East,housing,GP,,1,MPAR2022:P-1718-00253
+CMC-B,CMC,B,,East,,,,4,December2025QuarterlyReport-ADAFinal;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
+CMC-C,CMC,C,,East,health_care,,,4,December2025QuarterlyReport-ADAFinal;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
+CMC-F L3,CMC,F L3,,,,,,4,December2025QuarterlyReport-ADAFinal;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
+CMC-central-health-services,CMC,,Central Health Services,East,health_care,,,5,December2025QuarterlyReport-ADAFinal;MPAR2022:P-1213-00224;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
+CMC-central-kitchen,CMC,,Central Kitchen,West,kitchen,,,1,MPAR2022:P-1011-00346
+CMC-health-care-administration-building,CMC,,Health Care Administration building,East,admin,,,1,MPAR2022:P-1213-00224
+CMC-main-kitchen,CMC,,Main Kitchen,East,kitchen,,,1,MPAR2022:P-2122-00102
+CMC-pharmacy-and-laboratory-building,CMC,,Pharmacy and Laboratory building;pharmacy and laboratory building,,health_care,,,5,MPAR2022:P-1213-00224;December2025QuarterlyReport-ADAFinal;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
+CMC-primary-care-clinic-and-health-care-administration-building,CMC,,primary care clinic and health care administration building,East,,,,4,December2025QuarterlyReport-ADAFinal;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
+CMC-receiving-and-release,CMC,,Receiving and Release,East,other,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+CMF-H51,CMF,H51,P-Wing,A,housing,,,2,bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+CMF-a-wing,CMF,,A Wing,,,,,1,MPAR2022:P-1516-00487
+CMF-b-wing,CMF,,B-Wing,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+CMF-central-health-services,CMF,,Central Health Services,,health_care,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+CMF-h-1-wing,CMF,,H-1 Wing,,,,,1,MPAR2022:P-1516-00271
+CMF-h-2-wing,CMF,,H-2 Wing,,,,,1,MPAR2022:P-1516-00271
+CMF-h-3-wing,CMF,,H-3 Wing,,,,,1,MPAR2022:P-1516-00271
+CMF-hospice-and-medical-records-building,CMF,,Hospice and Medical Records Building,,health_care,,,1,MPAR2025:P-2526-00163
+CMF-i-1-wing,CMF,,I-1 Wing,,,,,1,MPAR2022:P-1516-00271
+CMF-j-1-wing,CMF,,J-1 Wing,,,,,1,MPAR2022:P-1516-00271
+CMF-main-kitchen,CMF,,Main Kitchen,,kitchen,,,1,MPAR2022:P-2122-00107
+CMF-u-wing,CMF,,U-Wing,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+CMF-v-wing,CMF,,V-Wing,,,,,1,September2021QuarterlyReport-ADA
+COR-309A,COR,309A,Central Kitchen,,kitchen,,,1,MPAR2025:P-1718-00435
+COR-3A3,COR,3A3,,,housing,,,1,coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+COR-405A,COR,405A,Receiving and Release,,other,,,1,MPAR2024:P-2324-00139
+COR-4A1,COR,4A1,,,housing,,,1,coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+COR-4A1R,COR,4A1R,,,housing,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
+COR-4A3,COR,4A3,,,housing,,,1,coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+COR-4B3L,COR,4B3L,,,housing,,,1,coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+COR-4B3R,COR,4B3R,,,housing,,,1,coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+COR-4B4R,COR,4B4R,,,housing,,,1,coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+COR-central-health-services,COR,,Central Health Services,,health_care,,,4,December2025QuarterlyReport-ADAFinal;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
+COR-central-health-services-building,COR,,Central Health Services Building,,health_care,,,1,MPAR2022:P-1314-00199
+COR-correctional-treatment-center,COR,,Correctional Treatment Center,,health_care,,,2,MPAR2022:P-2122-00061;MPAR2022:P-2223-00048
+CRC-107,CRC,107,,,housing,,,1,MPAR2022:P-2122-00219
+CRC-central-health-services,CRC,,Central Health Services,,health_care,,,1,plata_ecf3963_receiver_triannual_59_2025-06-02
+CTC-B,CTC,B,,,,,,1,MPAR2022:P-1819-00016
+CTC-D,CTC,D,,,,,,1,MPAR2022:P-1819-00016
+CTC-E,CTC,E,,,,,,1,MPAR2022:P-1819-00016
+CTC-F,CTC,F,,,,,,1,MPAR2022:P-1819-00016
+CTC-G,CTC,G,,,,,,1,MPAR2022:P-1819-00016
+CTC-L,CTC,L,,,,,,1,MPAR2022:P-1819-00016
+CTC-N,CTC,N,,,,,,1,MPAR2022:P-1819-00016
+CTC-c-wing,CTC,,C-Wing,,,,,1,MPAR2022:P-1718-00396
+CTC-f-dorm,CTC,,F Dorm,,housing,,,1,MPAR2022:P-1718-00396
+CTC-north-corridor-classrooms,CTC,,North Corridor Classrooms,,program,,,1,MPAR2022:P-1718-00396
+CTF-central-culinary-building,CTF,,Central Culinary Building,,kitchen,,,1,MPAR2022:P-0910-00900
+CTF-l-wing,CTF,,L-Wing,,,,,1,MPAR2022:P-0910-00900
+CTF-o-wing,CTF,,O Wing;O-Wing,,,ASU,,5,MPAR2022:P-0910-01114;MPAR2022:P-1718-00122;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;sen_sub5_agenda_vote_outcomes_2018-03-15
+CVSP-central-health-services,CVSP,,Central Health Services,,health_care,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+CVSP-central-health-services-building,CVSP,,Central Health Services building,,health_care,,,1,MPAR2022:P-1415-00085
+CVSP-health-care-administration-and-health-records-building,CVSP,,health care administration and health records building,,admin,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+CVSP-health-care-administration-building,CVSP,,Health Care Administration building,,admin,,,1,MPAR2022:P-1415-00085
+FOL-1,FOL,1,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+FOL-2,FOL,2,,,,,,1,September2021QuarterlyReport-ADA
+FOL-4,FOL,4,,,,ASU,,1,MPAR2022:P-1718-00123
+FOL-5,FOL,5,Cell Block Five,,housing,,,3,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;MPAR2022:P-0809-01089
+FOL-cell-block-1,FOL,,Cell Block 1,,housing,,,1,MPAR2022:P-2122-00138
+FOL-cell-block-five,FOL,,Cell Block Five,,housing,,,3,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;sen_sub5_agenda_2021-02-11
+FOL-central-health-services,FOL,,Central Health Services,,health_care,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+FOL-central-health-services-building,FOL,,Central Health Services building,,health_care,,,1,MPAR2022:P-1011-00015
+FOL-education-annex,FOL,,Education Annex,,program,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+HDSP-351,HDSP,351,,,housing,,,2,MPAR2024:P-2324-00144;MPAR2025:P-2021-00058
+HDSP-352,HDSP,352,,,housing,,,1,MPAR2024:P-2324-00144
+HDSP-455,HDSP,455,,,housing,,,2,MPAR2024:P-2324-00144;MPAR2025:P-2021-00058
+HDSP-C2,HDSP,C2,,C,,,,1,Appendix-1-CDCR-Adult-Institutions-ADA
+HDSP-C8,HDSP,C8,,C,,,,1,Appendix-1-CDCR-Adult-Institutions-ADA
+HDSP-D3,HDSP,D3,,D,,,,1,Appendix-1-CDCR-Adult-Institutions-ADA
+HDSP-D4,HDSP,D4,,D,,,,1,Appendix-1-CDCR-Adult-Institutions-ADA
+HDSP-central-health-services,HDSP,,Central Health Services,,health_care,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+HDSP-central-health-services-building,HDSP,,Central Health Services building,,health_care,,,1,MPAR2022:P-1314-00344
+HDSP-correctional-treatment-center,HDSP,,Correctional Treatment Center,,health_care,,,1,MPAR2022:P-1617-00025
+ISP-325/A5,ISP,325/A5,,,housing,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-331/B1,ISP,331/B1,,,housing,,,1,September2021QuarterlyReport-ADA
+ISP-335/B5,ISP,335/B5,,,housing,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-342/C2,ISP,342/C2,,,housing,,,1,September2021QuarterlyReport-ADA
+ISP-343/C3,ISP,343/C3,,,housing,,,1,September2021QuarterlyReport-ADA
+ISP-344/C4,ISP,344/C4,,,housing,,,1,September2021QuarterlyReport-ADA
+ISP-353/D3,ISP,353/D3,,,housing,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-354/D4,ISP,354/D4,,,housing,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-355/D5,ISP,355/D5,,,housing,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-420,ISP,420,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-421,ISP,421,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-421G,ISP,421G,,,,,,1,September2021QuarterlyReport-ADA
+ISP-422,ISP,422,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-430,ISP,430,,Vocational D Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-431,ISP,431,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-431G,ISP,431G,,,,,,1,September2021QuarterlyReport-ADA
+ISP-432,ISP,432,Culinary,,kitchen,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-440,ISP,440,Complex Control,,other,,,1,September2021QuarterlyReport-ADA
+ISP-441,ISP,441,C Programs;C-Gym,,program;recreation,,use,2,September2021QuarterlyReport-ADA;Sep_2020_Quarterly-ADA_Final
+ISP-442,ISP,442,C-Yard Culinary,C,kitchen,,,1,September2021QuarterlyReport-ADA
+ISP-451,ISP,451,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-460,ISP,460,,,,,,1,September2021QuarterlyReport-ADA
+ISP-521,ISP,521,,,,,,1,September2021QuarterlyReport-ADA
+ISP-522,ISP,522,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-523,ISP,523,Greenhouse,Vocational A Yard,,,,1,September2021QuarterlyReport-ADA
+ISP-524,ISP,524,,Vocational B Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-525,ISP,525,B Vocational,Vocational B Yard,program,,,1,September2021QuarterlyReport-ADA
+ISP-526,ISP,526,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-527,ISP,527,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-528,ISP,528,,Vocational D Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-529,ISP,529,,Vocational D Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-530,ISP,530,,Vocational B Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-531,ISP,531,Cafeteria,Vocational A Yard,kitchen,,,1,September2021QuarterlyReport-ADA
+ISP-532,ISP,532,,Vocational B Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-534,ISP,534,,Vocational D Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-551,ISP,551,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-552,ISP,552,,Vocational B Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-554,ISP,554,,Vocational D Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-561,ISP,561,,,,,,1,September2021QuarterlyReport-ADA
+ISP-562,ISP,562,,Vocational B Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-563,ISP,563,,Vocational D Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-564,ISP,564,,Vocational D Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-571,ISP,571,,,,,,1,September2021QuarterlyReport-ADA
+ISP-572,ISP,572,,Vocational B Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-574,ISP,574,,Vocational D Yard,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-601,ISP,601,,,,,,1,September2021QuarterlyReport-ADA
+ISP-700,ISP,700,,,,,,1,September2021QuarterlyReport-ADA
+ISP-701,ISP,701,,,,,,1,September2021QuarterlyReport-ADA
+ISP-800,ISP,800,Administration,,admin,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-801,ISP,801,Family Visiting,,visiting,,,1,September2021QuarterlyReport-ADA
+ISP-802,ISP,802,,,,,,1,September2021QuarterlyReport-ADA
+ISP-803,ISP,803,Staff Entrance,,other,,,1,September2021QuarterlyReport-ADA
+ISP-804,ISP,804,Guard Shack,,other,,,1,September2021QuarterlyReport-ADA
+ISP-805,ISP,805,Armory,,other,,,1,September2021QuarterlyReport-ADA
+ISP-806,ISP,806,,,,,,1,September2021QuarterlyReport-ADA
+ISP-808,ISP,808,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-809,ISP,809,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-901,ISP,901,,,,,,1,September2021QuarterlyReport-ADA
+ISP-902,ISP,902,,,,,,1,September2021QuarterlyReport-ADA
+ISP-903,ISP,903,E-Yard Programs,E,program,,,1,September2021QuarterlyReport-ADA
+ISP-904,ISP,904,Family Visiting,,visiting,,,1,September2021QuarterlyReport-ADA
+ISP-905,ISP,905,,,,,,1,September2021QuarterlyReport-ADA
+ISP-911,ISP,911,,,,,,1,September2021QuarterlyReport-ADA
+ISP-912,ISP,912,,,,,,1,September2021QuarterlyReport-ADA
+ISP-913,ISP,913,,,,,,1,September2021QuarterlyReport-ADA
+ISP-914,ISP,914,Family Visiting,,visiting,,,1,September2021QuarterlyReport-ADA
+ISP-915,ISP,915,,,,,,1,September2021QuarterlyReport-ADA
+ISP-A-5,ISP,A-5,,,housing,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-B-5,ISP,B-5,,,housing,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-B1,ISP,B1,,,housing,,,1,September2021QuarterlyReport-ADA
+ISP-B2,ISP,B2,,,housing,,,1,September2021QuarterlyReport-ADA
+ISP-B3,ISP,B3,,,housing,,,1,September2021QuarterlyReport-ADA
+ISP-C-1,ISP,C-1,,,housing,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-C2,ISP,C2,,,housing,,,1,September2021QuarterlyReport-ADA
+ISP-C3,ISP,C3,,,,,,1,September2021QuarterlyReport-ADA
+ISP-C4,ISP,C4,,,housing,,,1,September2021QuarterlyReport-ADA
+ISP-C5,ISP,C5,,,housing,,,1,September2021QuarterlyReport-ADA
+ISP-D-5,ISP,D-5,,,housing,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-D1,ISP,D1,,,housing,,,1,September2021QuarterlyReport-ADA
+ISP-D2,ISP,D2,,,housing,,,1,September2021QuarterlyReport-ADA
+ISP-D3,ISP,D3,,,housing,,,1,September2021QuarterlyReport-ADA
+ISP-D4,ISP,D4,,,housing,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-central-health-services,ISP,,Central Health Services,,health_care,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+ISP-central-health-services-building,ISP,,Central Health Services building,,health_care,,,1,MPAR2022:P-1415-00084
+KVSP-341,KVSP,341,,C,housing,,,4,MPAR2025:P-2526-00145;MPAR2025:P-2526-00157;bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+KVSP-342,KVSP,342,,C,housing,,,2,bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+KVSP-344,KVSP,344,,C,housing,,,4,MPAR2025:P-2526-00145;MPAR2025:P-2526-00157;bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+KVSP-441,KVSP,441,,C,,,,1,September2021QuarterlyReport-ADA
+KVSP-6,KVSP,6,,,housing,,,2,coleman_ecf8558-1_heat_report_exhibits_2025-02-28;coleman_ecf8558_31st_round_heat_report_2025-02-28
+KVSP-6B,KVSP,6B,,,housing,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
+KVSP-7,KVSP,7,,,housing,,,2,coleman_ecf8558-1_heat_report_exhibits_2025-02-28;coleman_ecf8558_31st_round_heat_report_2025-02-28
+KVSP-8,KVSP,8,,,housing,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
+KVSP-correctional-treatment-center,KVSP,,Correctional Treatment Center,,health_care,CTC,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+LAC-341,LAC,341,,,,,,1,MPAR2025:P-2324-00140
+LAC-3410,LAC,3410,,D,housing,,,6,MPAR2024:P-2324-00140;MPAR2025:P-2324-00149;MPAR2025:P-2526-00146;MPAR2025:P-2526-00158;bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+LAC-342,LAC,342,,,,,,1,MPAR2025:P-2324-00140
+LAC-346,LAC,346,,D,housing,,,1,MPAR2025:P-2324-00149
+LAC-347,LAC,347,,D,housing,,,2,MPAR2024:P-2324-00140;MPAR2025:P-2324-00149
+LAC-348,LAC,348,,D,housing,,,6,MPAR2024:P-2324-00140;MPAR2025:P-2324-00149;MPAR2025:P-2526-00146;MPAR2025:P-2526-00158;bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+LAC-349,LAC,349,,D,housing,,,3,MPAR2024:P-2324-00140;bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+LAC-421,LAC,421,,,,,,1,MPAR2025:P-2324-00140
+LAC-A1,LAC,A1,,,,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
+LAC-A3,LAC,A3,,,,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
+LAC-C1,LAC,C1,,,,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
+LAC-D3,LAC,D3,,,housing,EOP,,1,MPAR2022:P-1718-00125
+LAC-D4,LAC,D4,,,housing,EOP,,1,MPAR2022:P-1718-00125
+LAC-D5,LAC,D5,,,housing,,,5,MPAR2022:P-2021-00197;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;coleman_ecf8558_31st_round_heat_report_2025-02-28;sen_sub5_agenda_2021-02-11
+LAC-facility-c-visiting-area,LAC,,Facility C visiting area,C,visiting,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
+LAC-new-pharmacy-building,LAC,,New Pharmacy Building,,health_care,,,1,MPAR2022:P-2122-00110
+LAC-satellite-kitchen-a,LAC,,satellite kitchen A,A,kitchen,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
+MCSP-B6,MCSP,B6,,,,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
+MCSP-B7,MCSP,B7,,,housing,,,2,coleman_ecf8558-1_heat_report_exhibits_2025-02-28;coleman_ecf8558_31st_round_heat_report_2025-02-28
+MCSP-C12,MCSP,C12,,,housing,ASU,,1,MPAR2022:P-1718-00126
+MCSP-C14,MCSP,C14,,,housing,,,2,coleman_ecf8558-1_heat_report_exhibits_2025-02-28;coleman_ecf8558_31st_round_heat_report_2025-02-28
+MCSP-correctional-treatment-center,MCSP,,Correctional Treatment Center,,health_care,,,1,MPAR2022:P-1718-00344
+NKSP-901,NKSP,901,,M Yard,housing,,,1,MPAR2022:P-1617-00021
+NKSP-902,NKSP,902,,M Yard,housing,,,1,MPAR2022:P-1617-00021
+NKSP-central-health-services,NKSP,,Central Health Services,,health_care,,,3,MPAR2022:P-1213-00220;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+NKSP-correctional-case-management-building,NKSP,,correctional case management building,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+NKSP-receiving-and-release,NKSP,,Receiving and Release,,other,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+PBSP-A1,PBSP,A1,,,,,,1,June2026QuarterlyReport-ADA
+PBSP-A2,PBSP,A2,,,,,,1,June2026QuarterlyReport-ADA
+PBSP-A3,PBSP,A3,,,,,,2,December2025QuarterlyReport-ADAFinal;March2026QuarterlyReport-ADA
+PBSP-A4,PBSP,A4,,,,,,2,December2025QuarterlyReport-ADAFinal;March2026QuarterlyReport-ADA
+PBSP-A5,PBSP,A5,,,,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+PBSP-A6,PBSP,A6,,,,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+PBSP-A7,PBSP,A7,,,,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+PBSP-A8,PBSP,A8,,,,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+PBSP-central-kitchen,PBSP,,Central Kitchen,,kitchen,,,3,MPAR2022:P-1617-00109;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+PBSP-laundry,PBSP,,Laundry,,laundry,,,1,MPAR2022:P-1920-00082
+PBSP-main-kitchen,PBSP,,Main Kitchen,,kitchen,,,1,MPAR2022:P-1920-00082
+PVSP-331,PVSP,331,,D,housing,,,1,MPAR2022:P-1617-00573
+PVSP-332,PVSP,332,,D,housing,,,1,MPAR2022:P-1617-00573
+PVSP-333,PVSP,333,,D,housing,,,1,MPAR2022:P-1617-00573
+PVSP-334,PVSP,334,,D,housing,,,1,MPAR2022:P-1617-00573
+PVSP-335,PVSP,335,,D,housing,,,1,MPAR2022:P-1617-00573
+PVSP-336,PVSP,336,,C,housing,,,1,MPAR2022:P-1617-00573
+PVSP-337,PVSP,337,,C,housing,,,1,MPAR2022:P-1617-00573
+PVSP-338,PVSP,338,,C,housing,,,1,MPAR2022:P-1617-00573
+PVSP-339,PVSP,339,,C,housing,,,1,MPAR2022:P-1617-00573
+PVSP-340,PVSP,340,,C,housing,,,1,MPAR2022:P-1617-00573
+PVSP-341,PVSP,341,,B,housing,,,1,MPAR2022:P-1617-00573
+PVSP-342,PVSP,342,,B,housing,,,1,MPAR2022:P-1617-00573
+PVSP-343,PVSP,343,,B,housing,,,1,MPAR2022:P-1617-00573
+PVSP-344,PVSP,344,,B,housing,,,1,MPAR2022:P-1617-00573
+PVSP-345,PVSP,345,,B,housing,,,1,MPAR2022:P-1617-00573
+PVSP-346,PVSP,346,,A,housing,,,1,MPAR2022:P-1617-00573
+PVSP-347,PVSP,347,,A,housing,,,1,MPAR2022:P-1617-00573
+PVSP-348,PVSP,348,,A,housing,,,1,MPAR2022:P-1617-00573
+PVSP-349,PVSP,349,,A,housing,,,1,MPAR2022:P-1617-00573
+PVSP-350,PVSP,350,,A,housing,,,1,MPAR2022:P-1617-00573
+PVSP-central-health-services,PVSP,,Central Health Services,,health_care,,,5,December2025QuarterlyReport-ADAFinal;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA;plata_ecf3963_receiver_triannual_59_2025-06-02
+PVSP-central-health-services-building,PVSP,,Central Health Services building,,health_care,,,1,MPAR2022:P-1314-00412
+PVSP-central-kitchen,PVSP,,Central Kitchen,,kitchen,,,2,MPAR2022:P-2122-00147;MPAR2024:P-2324-00112
+PVSP-pharmacy-and-lab-building,PVSP,,Pharmacy and Lab building,,health_care,,,1,MPAR2022:P-1314-00412
+RJD-16,RJD,16,,Yard 4,housing,,,1,MPAR2022:P-1213-00089
+RJD-17,RJD,17,,Yard 4,housing,,,1,MPAR2022:P-1213-00089
+RJD-18,RJD,18,,Yard 4,housing,,,1,MPAR2022:P-1213-00089
+RJD-19,RJD,19,,Yard 4,housing,,,1,MPAR2022:P-1213-00089
+RJD-3.12,RJD,3.12,,,,,,1,MPAR2025:P-2526-00164
+RJD-5.28,RJD,5.28,,,,,,1,MPAR2025:P-2526-00164
+RJD-B6,RJD,B6,,B,housing,ASU,,2,MPAR2022:P-1718-00128;MPAR2023:P-1213-00318
+RJD-B7,RJD,B7,,B,housing,ASU,,2,MPAR2022:P-1718-00128;MPAR2023:P-1213-00318
+RJD-C14,RJD,C14,,,housing,EOP,,1,MPAR2022:P-1718-00128
+SAC-A,SAC,A,Modular Building A,,program,,,3,December2025QuarterlyReport-ADAFinal;March2026QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
+SAC-A1/A2,SAC,A1/A2,,,housing,,,1,MPAR2022:P-1718-00129
+SAC-A3/A4,SAC,A3/A4,,,housing,EOP,,1,MPAR2022:P-1718-00129
+SAC-A5/A6,SAC,A5/A6,,,housing,,,1,MPAR2022:P-1718-00129
+SAC-A7/A8,SAC,A7/A8,,,housing,,,1,MPAR2024:P-2324-00145
+SAC-B,SAC,B,Modular Building B,,program,,,3,December2025QuarterlyReport-ADAFinal;March2026QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
+SAC-B3/B4,SAC,B3/B4,,,housing,EOP,,1,MPAR2022:P-1718-00129
+SAC-B7/B8,SAC,B7/B8,,,housing,,,1,MPAR2022:P-1718-00129
+SAC-C,SAC,C,Modular Building C,C,program,,,3,December2025QuarterlyReport-ADAFinal;March2026QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
+SAC-central-health-services,SAC,,Central Health Services,,health_care,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+SAC-correctional-treatment-center,SAC,,Correctional Treatment Center,A,health_care,,,1,MPAR2022:P-1415-00052
+SAC-new-pharmacy-building,SAC,,New Pharmacy Building,,health_care,,,1,MPAR2022:P-2122-00111
+SATF-371,SATF,371,,,,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+SATF-372,SATF,372,,,,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+SATF-373,SATF,373,,,,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+SATF-381,SATF,381,,,,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+SATF-382,SATF,382,,,,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+SATF-383,SATF,383,,,,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+SATF-383 B,SATF,383 B,,,,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+SATF-383 C,SATF,383 C,,,,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+SATF-440,SATF,440,,,,,,1,MPAR2025:P-2526-00165
+SATF-442,SATF,442,,,,,,1,MPAR2025:P-2526-00165
+SATF-460,SATF,460,Complex Control,,other,,,1,MPAR2025:P-2526-00161
+SATF-C7,SATF,C7,,,,,,1,coleman_ecf8558-1_heat_report_exhibits_2025-02-28
+SATF-central-health-services,SATF,,Central Health Services,,health_care,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+SATF-central-health-services-building,SATF,,Central Health Services building,,health_care,,,1,MPAR2022:P-1314-00201
+SCC-1,SCC,1,,Tuolumne,housing,,,1,MPAR2022:P-1617-00136
+SCC-2,SCC,2,,Tuolumne,housing,,,2,MPAR2022:P-1617-00136;MPAR2023:P-2324-00033
+SCC-3,SCC,3,,Tuolumne,housing,,,1,MPAR2022:P-1617-00136
+SCC-4,SCC,4,,Tuolumne,housing,,,1,MPAR2022:P-1617-00136
+SCC-5,SCC,5,,Tuolumne,housing,,,1,MPAR2022:P-1617-00136
+SCC-central-health-services,SCC,,Central Health Services,,health_care,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+SCC-central-health-services-building,SCC,,Central Health Services Building,,health_care,,,1,MPAR2022:P-1819-00143
+SCC-clarifier-building,SCC,,Clarifier Building,,plant,,,1,MPAR2022:P-2122-00156
+SCC-health-care-administration-building,SCC,,Health Care Administration building,,admin,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+SCC-main-medical-building,SCC,,Main Medical Building,,health_care,,,1,MPAR2024:P-2021-00249
+SOL-10,SOL,10,,,housing,ASU,,3,MPAR2022:P-1718-00130;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+SOL-12,SOL,12,,,housing,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+SOL-7,SOL,7,,,housing,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+SOL-8,SOL,8,,,housing,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+SOL-central-health-services,SOL,,Central Health Services,,health_care,,,3,MPAR2022:P-1213-00198;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+SOL-receiving-and-release,SOL,,Receiving and Release,,other,,,1,MPAR2022:P-1213-00198
+SQ-22,SQ,22,New Central Health Services Building,,health_care,,,1,MPAR2022:P-1718-00079
+SQ-26,SQ,26,Dining Halls and Kitchen,,kitchen,,,1,MPAR2022:P-1718-00079
+SQ-32,SQ,32,Vocational Building,,program,,,5,FINAL-San-Quentin-Report_1.3.24;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;sen_sub5_agenda_vote_outcomes_2018-03-15;MPAR2022:P-1718-00133
+SQ-38,SQ,38,former California Prison Industry Authority Warehouse;old Prison Industry Building,,,,,5,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA;MPAR2023:P-2324-00002;sen_sub5_agenda_2025-03-06;FINAL-San-Quentin-Report_1.3.24
+SQ-A,SQ,A,,,program,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+SQ-B,SQ,B,,,program,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+SQ-C,SQ,C,,,program,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+SQ-D,SQ,D,,,program,,,2,December2025QuarterlyReport-ADAFinal;September_2025_Quarterly_Report-ADA
+SQ-adjustment-center,SQ,,Adjustment Center,,,,,1,FINAL-San-Quentin-Report_1.3.24
+SQ-boiler-building,SQ,,boiler building,,plant,,,4,December2025QuarterlyReport-ADAFinal;MPAR2022:P-1314-00510;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
+SQ-boiler-facility,SQ,,boiler facility,,plant,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+SQ-boiler-plant-facility,SQ,,Boiler Plant Facility,,plant,,,1,sen_sub5_agenda_vote_outcomes_2018-03-15
+SQ-east-block,SQ,,East Block,,housing,GP,,5,December2025QuarterlyReport-ADAFinal;FINAL-San-Quentin-Report_1.3.24;MPAR2024:P-2324-00163;MPAR2025:P-2223-00071;MPAR2025:P-2526-00166
+SQ-educational-and-vocational-center,SQ,,Educational and Vocational Center,,program,,,1,MPAR2023:P-2324-00002
+SQ-gym,SQ,,Gym,,recreation,,,1,sen_sub5_agenda_vote_outcomes_2018-03-15
+SQ-kitchen-bakery,SQ,,Kitchen/Bakery,,kitchen,,,1,MPAR2022:P-2122-00115
+SQ-main-kitchen,SQ,,Main Kitchen,,kitchen,,,3,MPAR2022:P-1011-00212;MPAR2022:P-1617-00140;MPAR2024:P-1516-00130
+SQ-north-block,SQ,,North Block,,housing,,,2,FINAL-San-Quentin-Report_1.3.24;June2026QuarterlyReport-ADA
+SQ-north-dining-hall,SQ,,North Dining Hall,,kitchen,,,1,MPAR2022:P-2122-00115
+SQ-pipe-fitter-s-building,SQ,,pipe fitter's building,,,,,3,December2025QuarterlyReport-ADAFinal;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
+SQ-south-block,SQ,,South Block,,,,,1,FINAL-San-Quentin-Report_1.3.24
+SQ-south-dining-hall,SQ,,South Dining Hall,,kitchen,,,1,MPAR2022:P-2122-00115
+SQ-west-block,SQ,,West Block,,,,,1,FINAL-San-Quentin-Report_1.3.24
+SVSP-325,SVSP,325,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+SVSP-420,SVSP,420,,,,,,1,MPAR2025:P-2526-00167
+SVSP-461,SVSP,461,,,,,,1,MPAR2025:P-2526-00167
+SVSP-462,SVSP,462,,,,,,2,MPAR2024:P-2324-00137;MPAR2025:P-2526-00162
+SVSP-484,SVSP,484,,,,,,2,MPAR2024:P-2324-00137;MPAR2025:P-2526-00162
+SVSP-treatment-center-2,SVSP,,Treatment Center 2,,,,,1,plata_ecf3963_receiver_triannual_59_2025-06-02
+VSP-315,VSP,315,Reception Center,,,RC,,1,MPAR2022:P-0809-00204
+VSP-406,VSP,406,BPT/Visiting Center,,visiting,,,2,MPAR2024:P-2324-00138;MPAR2022:P-1718-00294
+VSP-410,VSP,410,Central Kitchen,,kitchen,,,1,MPAR2025:P-2223-00081
+VSP-central-kitchen,VSP,,Central Kitchen,,kitchen,,,2,MPAR2024:P-2223-00031;MPAR2025:P-2526-00142
+VSP-water-treatment-building,VSP,,water treatment building,,plant,,,4,December2025QuarterlyReport-ADAFinal;June2026QuarterlyReport-ADA;March2026QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
+WSP-427,WSP,427,,,,,,1,September2021QuarterlyReport-ADA
+WSP-429,WSP,429,,,,,,1,September2021QuarterlyReport-ADA
+WSP-central-health-services,WSP,,Central Health Services,,health_care,,,3,MPAR2022:P-1213-00221;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+WSP-central-health-services-building,WSP,,Central Health Services Building,,health_care,,,1,MPAR2023:P-2324-00060
+WSP-correctional-case-management-and-health-care-administration-building,WSP,,Correctional Case Management and Health Care Administration building;correctional case management and health care administration building,,admin,,,3,MPAR2022:P-1213-00221;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+WSP-correctional-treatment-center,WSP,,Correctional Treatment Center,,health_care,,,1,MPAR2022:P-1516-00295
+WSP-new-pharmacy-building,WSP,,New Pharmacy Building,,health_care,,,1,MPAR2023:P-2324-00060
+WSP-receiving-and-release,WSP,,Receiving and Release,,other,,,1,MPAR2022:P-1516-00295
