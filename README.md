@@ -43,6 +43,7 @@ Transcribed and downloaded source files in `sources/`:
 | `cdcr_manual_data.csv` | Year opened, planned closure, California Model, Air Cooling Pilot, and Infrastructure Master Plan priority participation | LAO (2020) and online documentation |
 | `mpar_projects.csv` | Every capital project in each year's report, with status (complete, active, proposed, future within 5 years, future in 5–10 years), current phase, funding or estimated cost, scope, and justification. One row per project per report year. | CDCR Master Plan Annual Reports, 2022–2025 |
 | `cooling_observations.csv` | Cooling type (mechanical, evaporative, none) of specific housing units, health care units, and program spaces, as stated or observed, with condition notes | Coleman Special Master's 31st Round Heat Plan report (ECF 8558, Feb 2025), Plata joint case management statement (ECF 4013, May 2026) |
+| `spi_cdcr_structures.csv` | Every CDCR structure in the state property inventory, with all its identifiers as entered (property number, DGS structure number, agency building number), name, category, square footage, and year built | DGS Statewide Property Inventory, downloaded by `scrapers/fetch_spi_structures.py` |
 | `building_mentions.csv` | Every place a source names a specific building or housing unit, with the facility, use, and program it states | MPARs 2022–2025, Capital Outlay Quarterly Reports, and the documents in `sources/heat_cooling/` |
 | `verification_flags.csv` | Values in these files that conflict with the source's own totals or with other sources, with the evidence on each side and what would resolve it. Values are left as transcribed until a source settles them. | Compiled from the sources above |
 | `mpar_envelope_last_completed.csv` | Most recent roofing or building envelope project by institution | CDCR Master Plan Annual Reports, 2020–2025 |
@@ -216,22 +217,26 @@ Average sentence length at admission, in months, by admission type and month; so
 
 ## Buildings
 
-`crosswalk/buildings.csv` is a partial inventory of buildings and housing units, built from `sources/building_mentions.csv` by `python3 scrapers/build_buildings.py`. CDCR publishes no building list, so it holds only buildings that a public source names. Coverage varies widely between institutions.
+`crosswalk/buildings.csv` is an inventory of buildings and housing units, built by `python3 scrapers/build_buildings.py` from two sources: the Department of General Services' Statewide Property Inventory (SPI), which lists every state-owned structure with its square footage and year built, and `sources/building_mentions.csv`, which records each place another source names a building. SPI has no beds or capacity, codes every housing building (cells or dorms) as "DORMITORY", and at some institutions has no building numbers or lists several buildings as one record. Coverage of the other fields varies widely between institutions.
 
 | Variable | Description |
 | :--- | :--- |
-| `building_key` | `{cdcr_code}-{building}`, or `{cdcr_code}-{name}` for a building the sources name but don't number (for example `CIW-walker-unit`). Where a source counts buildings without naming them, each gets a placeholder key, `{cdcr_code}-ph-{facility}-{type}{n}` (for example `CIM-ph-A-HU1`). |
+| `building_key` | `{cdcr_code}-{building}` for a numbered building, `{cdcr_code}-spi{n}` for an SPI structure with no usable building number (`n` is DGS's structure number), or `{cdcr_code}-{name}` for a building other sources name but don't number (for example `CIW-walker-unit`). Where a source counts buildings without naming them, each gets a placeholder key, `{cdcr_code}-ph-{facility}-{type}{n}` (for example `CIM-ph-A-HU1`). |
 | `placeholder` | `yes` if the key was created by this project rather than taken from a source. Replace a placeholder with the real building number once a source gives it. |
-| `building` | Building or housing unit number as printed (`3410`, `405A`, `A7`, `4A1R`). |
+| `building` | Building or housing unit number (`3410`, `405A`, `3A03`, `4A1R`). SPI numbers have prefixes such as `BLDG.` or `SQ-B-` removed, and DGS's five-digit serial numbers aren't used as building numbers; the original values are kept in `spi_agency_structure_no`. A structure SPI describes as two housing units is written as a pair (`A1/A2`). Where SPI gives several structures the same number, the number goes to the one housing structure among them (CEN `325` is Housing Unit A-5; its exercise yards share the number), and the others are keyed by DGS structure number. |
+| `aliases` | Other IDs sources use for the building, including a housing unit SPI names on the same row (LAC `3410` is "Housing Unit D-5", so mentions of `D5` join it). |
 | `building_name` | Names the sources give the building (`Laundry`, `Central Health Services`). |
 | `facility`, `use`, `program` | Every value the sources state, separated by semicolons. Blank where no source states it. Facility is never inferred from the building number. |
-| `year_built` | Year the building was built, where a source states it for that building, or for every building in a group it counts (placeholders). Ranges of years are not used. |
+| `year_built` | Year the building was built, from SPI or from a source that states it for that building, or for every building in a group it counts (placeholders). Ranges of years are not used. |
+| `sqft` | Square footage, from SPI. |
+| `spi_structure_type` | SPI's category (`DORMITORY`, `CLASSROOM`, `LOOKOUT (GUARD STATION)`). `use` comes from the other sources only. |
+| `spi_structure_number`, `spi_agency_structure_no`, `spi_real_property_number` | SPI identifiers as entered: DGS's structure number, the agency's building number (`SQ-B-23`, `14929-E`, `507     BID PACAKAGE 5`), and DGS's number for the property. |
 | `conflicts` | Columns where sources disagree. |
-| `n_sources`, `sources` | Sources that name the building. MPAR sources are written `MPAR{year}:{project_id}`; others are the PDF filename in `sources/heat_cooling/` or `sources/cdcr_facilities_planning/`. |
+| `n_sources`, `sources` | Sources that name the building. `SPI` is the property inventory; MPAR sources are written `MPAR{year}:{project_id}`; others are the PDF filename in `sources/heat_cooling/` or `sources/cdcr_facilities_planning/`. |
 
-Mentions merge only when they use the same number or name, so one building can still appear under two keys.
+A mention joins an SPI structure when the building numbers match (ignoring hyphens, spaces and leading zeros), when it matches a housing unit SPI names on the same row, or when its name matches an SPI structure name that is unique at the institution. Otherwise mentions merge only when they use the same number or name, so one building can still appear under two keys. Wings and sides of a building (`4A1R`) are kept separate from the building.
 
-`cooling_observations.csv` records cooling for areas smaller than an institution. Join it to the inventory on `cdcr_code` and `building` where a building is given. Most rows name a program or facility instead (the MHCB, the CTC, Facility D). `cooling_as_stated` keeps the source's words, and `cooling_type` maps "air-conditioned" and "refrigeration" to `mechanical` and "swamp cooler" to `evaporative`. `basis` says whether the Special Master's monitors observed the cooling, staff or patients reported it, or the report states it without attribution. `space` is `health_care` for MHCB, PIP, and CTC units, which may also be counted as housing units in the Air Cooling report.
+`cooling_observations.csv` records cooling for areas smaller than an institution. Join it to the inventory on `cdcr_code` and `building` or `aliases` where a building is given. Most rows name a program or facility instead (the MHCB, the CTC, Facility D). `cooling_as_stated` keeps the source's words, and `cooling_type` maps "air-conditioned" and "refrigeration" to `mechanical` and "swamp cooler" to `evaporative`. `basis` says whether the Special Master's monitors observed the cooling, staff or patients reported it, or the report states it without attribution. `space` is `health_care` for MHCB, PIP, and CTC units, which may also be counted as housing units in the Air Cooling report.
 
 ## Updating the data
 
@@ -249,6 +254,7 @@ Source PDFs are not stored in the repository. Download new reports into the matc
 | Mental health beds | [CCHCS reports](https://cchcs.ca.gov/reports/): monthly PIP census, Coleman PIP waitlist, and MHCB census reports, and the Mental Health Bed Need Study | `sources/specialized_beds/`, keeping the `YYYY-MM-DD_` report-date prefix | `python3 scrapers/extract_specialized_beds.py` |
 | Sentences, returns | Population Data Points and Adult Recidivism dashboards | — | `node scrapers/fetch_cdcr_avg_sentence.js`, `node scrapers/fetch_cdcr_recidivism_los.js` |
 | MPAR projects | [Master Plan Annual Reports](https://www.cdcr.ca.gov/fpcm/) | `sources/cdcr_facilities_planning/` (add the filename to `MPARS` in the script) | `python3 scrapers/extract_mpar_projects.py` |
+| State property inventory | DGS Statewide Property Inventory (public map service) | — | `python3 scrapers/fetch_spi_structures.py`, then `build_buildings.py` |
 | Buildings | Any source naming a building | Add rows to `sources/building_mentions.csv` | `python3 scrapers/build_buildings.py` |
 | Cooling, indoor heat, cooling observations, facility metadata | CDCR reports and court filings | `sources/`, `sources/heat_cooling/` | Transcribed by hand |
 
@@ -289,5 +295,7 @@ California State Controller's Office. (2021–2026). *Active State Employees by 
 Coleman v. Newsom, No. 2:90-cv-0520 KJM SCR (E.D. Cal.). (2025, February 28). *Special Master's Thirty-First Round Focused Heat Plan Monitoring Report* (ECF No. 8558). https://storage.courtlistener.com/recap/gov.uscourts.caed.83056/gov.uscourts.caed.83056.8558.0.pdf
 
 Plata v. Newsom, No. 4:01-cv-01351-JST (N.D. Cal.). (2026, May 26). *Joint Case Management Conference Statement* (ECF No. 4013). https://storage.courtlistener.com/recap/gov.uscourts.cand.76/gov.uscourts.cand.76.4013.0.pdf
+
+Department of General Services, Real Estate Services Division. (2026). *Statewide Property Inventory* [Structure layer, SPI Public Map Viewer]. https://services8.arcgis.com/a4GMqC2tQHvYiVtK/arcgis/rest/services/SPIPublicMapViewer/FeatureServer/1
 
 Legislative Analyst's Office. (2020). *Effectively Managing State Prison Infrastructure* (Report 4186). https://lao.ca.gov/reports/2020/4186/prison-infrastructure-022820.pdf
