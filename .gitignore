@@ -6,6 +6,8 @@ sources/cdcr_staffing/
 sources/cdcr_incidents/
 sources/cdcr_facilities_planning/
 sources/heat_cooling/
+sources/prea/
+sources/cdcr_web/
 
 # Scraper resume state and run logs (regenerable)
 .cache/

@@ -44,7 +44,8 @@ Transcribed and downloaded source files in `sources/`:
 | `mpar_projects.csv` | Every capital project in each year's report, with status (complete, active, proposed, future within 5 years, future in 5–10 years), current phase, funding or estimated cost, scope, and justification. One row per project per report year. | CDCR Master Plan Annual Reports, 2022–2025 |
 | `cooling_observations.csv` | Cooling type (mechanical, evaporative, none) of specific housing units, health care units, and program spaces, as stated or observed, with condition notes | Coleman Special Master's 31st Round Heat Plan report (ECF 8558, Feb 2025), Plata joint case management statement (ECF 4013, May 2026) |
 | `spi_cdcr_structures.csv` | Every CDCR structure in the state property inventory, with all its identifiers as entered (property number, DGS structure number, agency building number), name, category, square footage, and year built | DGS Statewide Property Inventory, downloaded by `scrapers/fetch_spi_structures.py` |
-| `building_mentions.csv` | Every place a source names a specific building or housing unit, with the facility, use, and program it states | MPARs 2022–2025, Capital Outlay Quarterly Reports, and the documents in `sources/heat_cooling/` |
+| `iflex_inpatient_beds_2023.csv` | Every inpatient (PIP/ICF) bed at CHCF, CMF, CIW, and SVSP designated as an Inpatient Flex bed: facility, building ID, bed number, current and new primary use, and designation | Coleman v. Newsom, ECF 7833-1 (May 2023), Attachment B |
+| `building_mentions.csv` | Every place a source names a specific building or housing unit, with the facility, use, program, beds, and date it states | MPARs 2022–2025, Capital Outlay Quarterly Reports, PREA audit reports, CDCR institution web pages, Coleman ECF 7833-1, and the documents in `sources/heat_cooling/` |
 | `verification_flags.csv` | Values in these files that conflict with the source's own totals or with other sources, with the evidence on each side and what would resolve it. Values are left as transcribed until a source settles them. | Compiled from the sources above |
 | `mpar_envelope_last_completed.csv` | Most recent roofing or building envelope project by institution | CDCR Master Plan Annual Reports, 2020–2025 |
 | `cchcs_mortality_2006-2024.csv` | Annual deaths and mortality rates, system-wide | CCHCS Health Care Services Dashboard |
@@ -226,7 +227,8 @@ Average sentence length at admission, in months, by admission type and month; so
 | `building` | Building or housing unit number (`3410`, `405A`, `3A03`, `4A1R`). SPI numbers have prefixes such as `BLDG.` or `SQ-B-` removed, and DGS's five-digit serial numbers aren't used as building numbers; the original values are kept in `spi_agency_structure_no`. A structure SPI describes as two housing units is written as a pair (`A1/A2`). Where SPI gives several structures the same number, the number goes to the one housing structure among them (CEN `325` is Housing Unit A-5; its exercise yards share the number), and the others are keyed by DGS structure number. |
 | `aliases` | Other IDs sources use for the building, including a housing unit SPI names on the same row (LAC `3410` is "Housing Unit D-5", so mentions of `D5` join it). |
 | `building_name` | Names the sources give the building (`Laundry`, `Central Health Services`). |
-| `facility`, `use`, `program` | Every value the sources state, separated by semicolons. Blank where no source states it. Facility is never inferred from the building number. |
+| `facility`, `use`, `program` | Every value the sources state, separated by semicolons. Blank where no source states it. Facility is never inferred from the building number. Programs are followed by the date the source gives them (`ASU (2018-01);EOP (2019-07)`). |
+| `beds` | Bed capacity as stated by each source, with its date (`160 (2018-08);137 (2026-10)`). Inpatient units from Coleman ECF 7833-1 count the beds listed for the unit. |
 | `year_built` | Year the building was built, from SPI or from a source that states it for that building, or for every building in a group it counts (placeholders). Ranges of years are not used. |
 | `sqft` | Square footage, from SPI. |
 | `spi_structure_type` | SPI's category (`DORMITORY`, `CLASSROOM`, `LOOKOUT (GUARD STATION)`). `use` comes from the other sources only. |
@@ -255,7 +257,7 @@ Source PDFs are not stored in the repository. Download new reports into the matc
 | Sentences, returns | Population Data Points and Adult Recidivism dashboards | — | `node scrapers/fetch_cdcr_avg_sentence.js`, `node scrapers/fetch_cdcr_recidivism_los.js` |
 | MPAR projects | [Master Plan Annual Reports](https://www.cdcr.ca.gov/fpcm/) | `sources/cdcr_facilities_planning/` (add the filename to `MPARS` in the script) | `python3 scrapers/extract_mpar_projects.py` |
 | State property inventory | DGS Statewide Property Inventory (public map service) | — | `python3 scrapers/fetch_spi_structures.py`, then `build_buildings.py` |
-| Buildings | Any source naming a building | Add rows to `sources/building_mentions.csv` | `python3 scrapers/build_buildings.py` |
+| Buildings | Any source naming a building. PREA audit reports go in `sources/prea/`; saved CDCR web pages in `sources/cdcr_web/` | Add rows to `sources/building_mentions.csv` | `python3 scrapers/build_buildings.py` |
 | Cooling, indoor heat, cooling observations, facility metadata | CDCR reports and court filings | `sources/`, `sources/heat_cooling/` | Transcribed by hand |
 
 To add a year to the main table, change `YEAR` at the top of `build_cdcr_facilities.py`; the year is part of the column names (`average_2026_population`, `cchcs_dpp_pct_2026`). The dashboard scrapers have `LATEST_YEAR` or `FISCAL_YEAR` settings at the top of each script.
@@ -288,9 +290,15 @@ California Department of Corrections and Rehabilitation, Facilities Planning, Co
 
 California Department of Corrections and Rehabilitation, Facility Planning, Construction and Management. (2026, May). *Infrastructure Master Plan* and Appendices 1–3. https://www.cdcr.ca.gov/fpcm/cdcr-infrastructure-master-plan/
 
+California Department of Corrections and Rehabilitation. (2018–2025). *PREA Audit Reports*. https://www.cdcr.ca.gov/prea/prea/reports-audits/ (2016–2019 reports: https://www.cdcr.ca.gov/wp-content/uploads/sites/186/2019/06/{code}-{year}-prea-report.pdf)
+
+California Department of Corrections and Rehabilitation. (2026). *Facility Locator* [Institution web pages]. https://www.cdcr.ca.gov/facility-locator/
+
 California Department of Corrections and Rehabilitation. (2021). *Mental Health Services Delivery System Map*. https://www.cdcr.ca.gov/bph/wp-content/uploads/sites/161/2021/10/MHSDS-Map-2021.07.02.pdf
 
 California State Controller's Office. (2021–2026). *Active State Employees by Department*. Retrieved through the Internet Archive Wayback Machine.
+
+Coleman v. Newsom, No. 2:90-cv-0520 KJM SCR (E.D. Cal.). (2023, May 11). *Inpatient Flex Beds* (ECF No. 7833-1). https://storage.courtlistener.com/recap/gov.uscourts.caed.83056/gov.uscourts.caed.83056.7833.1.pdf
 
 Coleman v. Newsom, No. 2:90-cv-0520 KJM SCR (E.D. Cal.). (2025, February 28). *Special Master's Thirty-First Round Focused Heat Plan Monitoring Report* (ECF No. 8558). https://storage.courtlistener.com/recap/gov.uscourts.caed.83056/gov.uscourts.caed.83056.8558.0.pdf
 

@@ -11,7 +11,7 @@ Reads:
 
 Output: crosswalk/buildings.csv
   Columns: building_key, cdcr_code, building, building_name, aliases,
-           placeholder, facility, use, program, year_built, sqft,
+           placeholder, facility, use, program, beds, year_built, sqft,
            spi_structure_type, spi_structure_number, spi_agency_structure_no,
            spi_real_property_number, conflicts, n_sources, sources
 
@@ -38,8 +38,9 @@ its name matches an SPI structure name that is unique at the institution.
 Otherwise mentions merge only when they share a key. The IDs a building was
 mentioned under are kept in `aliases`.
 
-`facility`, `use`, `program` and `year_built` list every distinct value the
-sources state, separated by semicolons. `use` comes from mentions only; SPI's
+`facility`, `use`, `program`, `beds` and `year_built` list every distinct value
+the sources state, separated by semicolons. Programs and beds change over time,
+so each is followed by the date the source gives it, e.g. "ASU (2018-01)". `use` comes from mentions only; SPI's
 own category is in `spi_structure_type`. SPI identifiers are kept as entered:
 `spi_structure_number` (DGS's structure ID), `spi_agency_structure_no` (the
 agency's number, before prefixes are removed, including DGS serial numbers and
@@ -107,6 +108,12 @@ def spi_units(name: str, building: str) -> str:
 
 def joined(values) -> str:
     return ";".join(dict.fromkeys(str(v) for v in values if v not in ("", None)))
+
+
+def dated(g: pd.DataFrame, col: str) -> str:
+    """Values of `col` with the date each source gives them, e.g. "ASU (2018-01);EOP (2019-07)"."""
+    g = g[g[col] != ""].sort_values("as_of")
+    return joined(f"{v} ({d})" if d else v for v, d in zip(g[col], g["as_of"]))
 
 
 def load_spi() -> pd.DataFrame:
@@ -187,7 +194,8 @@ def main():
             "placeholder": "yes" if ment.placeholder_id.any() else "",
             "facility": joined(ment.facility),
             "use": joined(ment.use),
-            "program": joined(ment.program),
+            "program": dated(ment, "program"),
+            "beds": dated(ment, "beds"),
             "year_built": joined(g.year_built),
             "sqft": joined(spi.sqft),
             "spi_structure_type": joined(spi.spi_structure_type),
