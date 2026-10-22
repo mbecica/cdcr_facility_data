@@ -19,9 +19,6 @@ ASP,Contraband,Quantity of Synthetic Cannabinoid / Spice Seized (grams),,,,49.88
 ASP,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,12.00,6.00,12.00,10.00,6.00,10.00,4.00
 ASP,Fiscal,Actual Expenditures ($),"18,498,763.86","38,890,014.05","57,572,095.78","75,970,500.36","95,450,239.11","115,041,310.53","133,226,931.07","151,235,371.41","169,737,570.38","187,358,124.58"
 ASP,Fiscal,Institution Budget ($),"238,104,051.00","238,182,006.00","238,401,029.00","237,306,201.00","238,679,601.00","223,523,934.00","223,616,636.00","225,095,915.69","224,816,815.69","225,176,554.69"
-ASP,Incarcerated Persons Grievances and Appeals,Appeals Denied,36.00,33.00,20.00,17.00,21.00,24.00,17.00,22.00,17.00,
-ASP,Incarcerated Persons Grievances and Appeals,Appeals Granted,11.00,2.00,3.00,3.00,7.00,4.00,2.00,4.00,2.00,
-ASP,Incarcerated Persons Grievances and Appeals,Appeals Received,60.00,47.00,44.00,26.00,38.00,48.00,46.00,49.00,45.00,
 ASP,Number and Housing Level of Incarcerated Persons,Level I,8.00,9.00,8.00,7.00,6.00,5.00,6.00,5.00,6.00,5.00
 ASP,Number and Housing Level of Incarcerated Persons,Level II,"4,538.00","4,410.00","4,214.00","4,041.00","3,877.00","3,768.00","3,764.00","3,749.00","3,792.00","3,930.00"
 ASP,Number and Housing Level of Incarcerated Persons,Level III,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -45,16 +42,6 @@ ASP,Rehabilitative Programs,Cognitive Behavioral Intervention - Sex Offender - A
 ASP,Rehabilitative Programs,Cognitive Behavioral Intervention - Sex Offender - Operational Capacity,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 ASP,Rehabilitative Programs,Number of Associate Degrees,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 ASP,Rehabilitative Programs,Number of Bachelors Degrees,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-CAC,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,,,,,,,0.00,0.00,0.00,
-CAC,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-CAC,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-CAC,Incarcerated Persons Grievances and Appeals,Grievance Claims Pending,,,,,,,1.00,,,
-CAC,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,0.00,,,,,,1.00,,,
-CAC,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,1.00,,,,,,3.00,,,
-CAC,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-CAC,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,0.00,,,,,,1.00,,,
-CAC,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-CAC,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 CAC,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
 CAC,Positions - Authorized and Vacant,Authorized,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,
 CAC,Positions - Authorized and Vacant,Vacant,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,
@@ -87,11 +74,6 @@ CAL,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,,,,,,,
 CAL,Contraband,Tobacco Seizure Events,,,,,2.00,,,6.00,2.00,
 CAL,Fiscal,Actual Expenditures ($),"15,660,971.98","33,669,655.41","52,122,046.43","70,870,186.32","89,195,637.36","107,839,979.12","125,408,231.35","141,569,069.26","158,470,873.51","174,693,000.95"
 CAL,Fiscal,Institution Budget ($),"213,081,437.00","213,099,304.00","213,315,721.00","213,482,092.00","214,434,849.00","205,609,464.00","206,385,757.00","207,352,221.69","208,014,650.69","209,110,624.69"
-CAL,Incarcerated Persons Grievances and Appeals,Appeals Denied,24.00,24.00,20.00,42.00,26.00,30.00,20.00,27.00,12.00,
-CAL,Incarcerated Persons Grievances and Appeals,Appeals Granted,8.00,8.00,11.00,7.00,4.00,7.00,14.00,5.00,7.00,
-CAL,Incarcerated Persons Grievances and Appeals,Appeals Received,38.00,48.00,46.00,61.00,45.00,67.00,72.00,52.00,65.00,
-CAL,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,3.00,11.00,10.00,7.00,13.00,25.00,33.00,18.00,43.00,
-CAL,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,121.00,199.00,97.00,117.00,94.00,0.00,196.00,117.00,195.00,212.00
 CAL,Number and Housing Level of Incarcerated Persons,Level IV,"1,989.00","1,983.00","1,963.00","2,009.00","2,045.00","2,106.00","2,196.00","2,221.00","2,184.00","2,129.00"
 CAL,Number and Housing Level of Incarcerated Persons,Level VI,,,,,,,,,,
 CAL,Number and Housing Level of Incarcerated Persons,Non Level - Specific Beds,89.00,74.00,98.00,91.00,114.00,110.00,105.00,118.00,134.00,9.00
@@ -115,9 +97,6 @@ CAL,Rehabilitative Programs,Cognitive Behavioral Intervention - Sex Offender - O
 CAL,Rehabilitative Programs,Number of Associate Degrees,0.00,1.00,0.00,0.00,0.00,1.00,0.00,1.00,0.00,0.00
 CAL,Rehabilitative Programs,Number of Bachelors Degrees,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 CAL,Rehabilitative Programs,Number of GED Certificates,8.00,0.00,4.00,3.00,4.00,3.00,2.00,4.00,4.00,2.00
-CCC,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,,,,,,,,,,0.00
-CCC,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-CCC,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 CCC,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
 CCI,Cognitive Behavioral Intervention,Life Skills - Actual Enrollment,149.00,127.60,84.75,66.60,36.75,37.75,38.80,75.50,136.75,157.25
 CCI,Cognitive Behavioral Intervention,Life Skills - Operational Capacity,450.00,420.00,420.00,420.00,420.00,390.00,360.00,360.00,243.75,360.00
@@ -137,9 +116,6 @@ CCI,Contraband,Quantity of Suboxone Seized (number of strips),,,,,,,84.00,,,
 CCI,Contraband,Quantity of Synthetic Cannabinoid / Spice Seized (grams with packaging),,,,,4.20,,1.20,2.00,,8.82
 CCI,Contraband,Quantity of Synthetic Cannabinoid / Spice Seized (grams),,,,2.00,,,,,,
 CCI,Contraband,Suboxone Seizure Events,,,,,,,2.00,,,
-CCI,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,36.00,20.00,30.00,28.00,20.00,30.00,50.00,44.00,74.00,60.00
-CCI,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,11.00,15.00,15.00,30.00,15.00,30.00,18.00,21.00,21.00,21.00
-CCI,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00
 CCI,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,2.27,2.73,0.83,1.21,0.32,0.15,0.10,2.34,7.50,1.07
 CCI,Lockdowns and Modified Programs,Lockdowns,1.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00
 CCI,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -190,19 +166,6 @@ CCWF,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,,2.00,4.00,4.00,
 CCWF,Contraband,Tobacco Seizure Events,,,,2.00,,,2.00,2.00,,2.00
 CCWF,Fiscal,Actual Expenditures ($),"16,101,488.57","30,066,969.94","46,026,116.16","60,018,458.25","76,446,140.81","91,984,104.52","107,095,297.47","121,697,879.08","138,024,168.84","153,129,710.68"
 CCWF,Fiscal,Institution Budget ($),"183,856,159.00","183,871,031.00","184,321,828.00","184,983,160.00","185,770,383.00","179,187,621.00","179,737,395.00","180,559,583.00","180,686,292.00","185,272,121.00"
-CCWF,Incarcerated Persons Grievances and Appeals,Appeals Denied,44.00,24.00,20.00,29.00,16.00,21.00,20.00,15.00,25.00,
-CCWF,Incarcerated Persons Grievances and Appeals,Appeals Granted,12.00,8.00,7.00,7.00,2.00,4.00,4.00,2.00,2.00,
-CCWF,Incarcerated Persons Grievances and Appeals,Appeals Received,69.00,57.00,51.00,53.00,24.00,52.00,43.00,32.00,58.00,
-CCWF,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,5.00,19.00,20.00,13.00,5.00,24.00,17.00,14.00,27.00,
-CCWF,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,418.00,295.00,226.00,215.00,196.00,252.00,237.00,190.00,233.00,204.00
-CCWF,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,28.00,72.00,67.00,63.00,71.00,62.00,68.00,61.00,66.00,68.00
-CCWF,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,11.00,6.00,2.00,8.00,11.00,2.00,6.00,2.00,8.00,5.00
-CCWF,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,4.00,2.00,2.00,3.00,10.00,5.00,1.00,2.00,21.00,5.00
-CCWF,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,758.00,667.00,532.00,559.00,539.00,620.00,562.00,443.00,579.00,
-CCWF,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,109.00,92.00,104.00,100.00,118.00,124.00,112.00,117.00,134.00,126.00
-CCWF,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,73.00,63.00,80.00,100.00,98.00,124.00,103.00,55.00,101.00,76.00
-CCWF,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,62.00,136.00,51.00,53.00,35.00,51.00,34.00,15.00,13.00,20.00
-CCWF,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,3.00,1.00,0.00,1.00,0.00,0.00,1.00,1.00,3.00,7.00
 CCWF,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,0.00,0.37,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 CCWF,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
 CCWF,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -240,20 +203,6 @@ CEN,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,,2.00,,2.00,,,2.0
 CEN,Contraband,Tobacco Seizure Events,,,,4.00,,,,,,
 CEN,Fiscal,Actual Expenditures ($),"17,818,597.89","36,106,990.64","54,488,477.08","72,173,353.30","90,548,525.63","110,974,080.37","129,581,889.46","148,200,087.14","165,908,163.92","183,923,008.56"
 CEN,Fiscal,Institution Budget ($),"218,921,124.00","218,909,814.00","219,093,124.00","219,161,132.00","220,168,106.00","217,344,192.00","218,139,351.00","219,228,985.69","219,235,897.69","222,581,843.69"
-CEN,Incarcerated Persons Grievances and Appeals,Appeals Denied,21.00,19.00,25.00,23.00,26.00,18.00,23.00,14.00,11.00,
-CEN,Incarcerated Persons Grievances and Appeals,Appeals Granted,8.00,3.00,6.00,1.00,4.00,7.00,7.00,3.00,8.00,
-CEN,Incarcerated Persons Grievances and Appeals,Appeals Received,42.00,48.00,41.00,37.00,41.00,40.00,44.00,38.00,45.00,
-CEN,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,7.00,18.00,9.00,10.00,9.00,14.00,10.00,20.00,22.00,
-CEN,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,95.00,93.00,131.00,125.00,87.00,95.00,98.00,83.00,128.00,119.00
-CEN,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,54.00,54.00,40.00,18.00,29.00,31.00,29.00,15.00,11.00,18.00
-CEN,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,0.00,0.00,1.00,1.00,1.00,0.00,0.00,1.00,0.00,0.00
-CEN,Incarcerated Persons Grievances and Appeals,Grievance Claims Pending,1.00,,,1.00,,,,,,
-CEN,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,11.00,15.00,9.00,10.00,8.00,13.00,10.00,7.00,13.00,14.00
-CEN,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,215.00,220.00,224.00,213.00,169.00,189.00,181.00,143.00,204.00,
-CEN,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,15.00,18.00,9.00,20.00,13.00,24.00,15.00,17.00,23.00,18.00
-CEN,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,26.00,33.00,23.00,20.00,18.00,24.00,20.00,13.00,20.00,17.00
-CEN,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,13.00,6.00,11.00,27.00,13.00,3.00,9.00,7.00,9.00,5.00
-CEN,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,1.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00
 CEN,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,0.04,0.05,0.03,0.01,0.02,0.24,0.08,0.06,0.01,0.04
 CEN,Overtime Hours,Dental + Mental Health (Overtime),49.75,35.00,55.00,43.50,84.00,79.00,88.00,93.75,73.00,60.00
 CEN,Overtime Hours,Non-Custody (Overtime),"2,319.25","2,002.50","2,375.75","2,024.00","1,531.00","1,632.00","2,563.50","1,441.25","1,860.25","1,542.00"
@@ -286,19 +235,6 @@ CHCF,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,,2.00,,2.00,2.00
 CHCF,Contraband,Tobacco Seizure Events,,,,,,,2.00,,2.00,
 CHCF,Fiscal,Actual Expenditures ($),"37,459,007.47","69,134,941.32","97,244,882.93","126,587,795.11","156,156,810.24","186,461,452.95","215,691,944.09","244,082,704.46","272,482,443.80","301,349,352.06"
 CHCF,Fiscal,Institution Budget ($),"367,105,918.00","367,219,521.00","367,488,144.00","366,193,415.00","367,626,551.00","353,916,227.00","355,048,889.00","372,482,295.69","372,204,636.69","376,572,690.69"
-CHCF,Incarcerated Persons Grievances and Appeals,Appeals Denied,148.00,175.00,73.00,90.00,78.00,51.00,69.00,54.00,69.00,
-CHCF,Incarcerated Persons Grievances and Appeals,Appeals Granted,23.00,30.00,22.00,25.00,33.00,22.00,10.00,12.00,16.00,
-CHCF,Incarcerated Persons Grievances and Appeals,Appeals Received,231.00,278.00,147.00,162.00,155.00,178.00,177.00,174.00,177.00,
-CHCF,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,36.00,52.00,36.00,29.00,30.00,84.00,94.00,97.00,92.00,
-CHCF,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,536.00,493.00,345.00,331.00,303.00,366.00,399.00,312.00,388.00,428.00
-CHCF,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,140.00,106.00,131.00,139.00,85.00,129.00,113.00,118.00,119.00,170.00
-CHCF,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,9.00,7.00,4.00,3.00,1.00,0.00,1.00,1.00,6.00,3.00
-CHCF,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,89.00,81.00,59.00,57.00,53.00,82.00,82.00,89.00,99.00,84.00
-CHCF,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,"1,013.00",975.00,898.00,805.00,640.00,851.00,829.00,758.00,848.00,
-CHCF,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,90.00,117.00,155.00,63.00,101.00,48.00,148.00,121.00,134.00,220.00
-CHCF,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,56.00,87.00,124.00,63.00,40.00,48.00,43.00,68.00,61.00,49.00
-CHCF,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,81.00,84.00,79.00,76.00,56.00,85.00,43.00,49.00,41.00,35.00
-CHCF,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,12.00,0.00,1.00,3.00,1.00,0.00,0.00,0.00,0.00,0.00
 CHCF,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,0.00,2.04,0.09,0.04,0.00,0.00,0.45,0.61,0.10,3.45
 CHCF,Overtime Hours,Dental + Mental Health (Overtime),310.00,226.00,265.50,325.75,422.75,262.00,447.00,398.00,508.25,455.30
 CHCF,Overtime Hours,Non-Custody (Overtime),"3,818.25","3,451.03","4,615.50","3,832.25","3,559.25","3,698.75","2,725.25","3,080.75","3,535.00","3,239.80"
@@ -336,13 +272,6 @@ CIM,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,,2.00,2.00,,,,4.0
 CIM,Contraband,Tobacco Seizure Events,,,,4.00,,2.00,2.00,,,
 CIM,Fiscal,Actual Expenditures ($),"20,877,687.35","40,793,621.90","59,923,223.83","79,925,025.08","100,815,039.70","120,918,799.44","141,136,376.51","162,508,646.01","182,942,345.62","202,062,410.27"
 CIM,Fiscal,Institution Budget ($),"243,948,348.00","243,948,009.00","244,132,440.00","244,104,958.00","244,872,454.00","230,720,614.00","230,814,817.00","233,078,771.69","232,315,319.69","243,258,318.69"
-CIM,Incarcerated Persons Grievances and Appeals,Appeals Denied,50.00,46.00,21.00,38.00,29.00,19.00,16.00,15.00,10.00,
-CIM,Incarcerated Persons Grievances and Appeals,Appeals Granted,8.00,14.00,9.00,11.00,4.00,7.00,6.00,1.00,5.00,
-CIM,Incarcerated Persons Grievances and Appeals,Appeals Received,69.00,81.00,52.00,73.00,54.00,60.00,65.00,61.00,49.00,
-CIM,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,4.00,18.00,19.00,19.00,14.00,28.00,41.00,41.00,31.00,
-CIM,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,235.00,237.00,131.00,132.00,141.00,143.00,169.00,137.00,134.00,143.00
-CIM,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,20.00,28.00,69.00,68.00,73.00,71.00,59.00,38.00,60.00,44.00
-CIM,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,4.00,5.00,5.00,5.00,3.00,7.00,6.00,6.00,3.00,0.00
 CIM,Number and Housing Level of Incarcerated Persons,Level VI,,,,,,,,,,
 CIM,Number and Housing Level of Incarcerated Persons,Non Level - Specific Beds,141.00,140.00,174.00,134.00,142.00,145.00,139.00,139.00,160.00,69.00
 CIM,Number and Housing Level of Incarcerated Persons,Restricted Housing,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,83.00
@@ -379,14 +308,6 @@ CIW,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,,,,,,2.00,2.00
 CIW,Contraband,Tobacco Seizure Events,,,,,2.00,,,10.00,,
 CIW,Fiscal,Actual Expenditures ($),"12,472,785.40","26,170,471.86","39,205,840.58","52,610,706.11","66,440,185.99","80,287,973.33","93,360,874.35","106,733,376.11","120,622,130.84","134,371,450.41"
 CIW,Fiscal,Institution Budget ($),"169,573,472.00","169,577,189.00","169,834,491.00","169,502,897.00","170,122,101.00","157,633,009.00","158,152,234.00","158,711,829.32","159,126,190.32","166,752,043.32"
-CIW,Incarcerated Persons Grievances and Appeals,Appeals Denied,23.00,39.00,11.00,11.00,16.00,24.00,25.00,17.00,14.00,
-CIW,Incarcerated Persons Grievances and Appeals,Appeals Granted,7.00,8.00,2.00,3.00,7.00,3.00,7.00,8.00,5.00,
-CIW,Incarcerated Persons Grievances and Appeals,Appeals Received,37.00,58.00,25.00,22.00,33.00,68.00,64.00,57.00,51.00,
-CIW,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,3.00,7.00,10.00,5.00,6.00,28.00,28.00,22.00,32.00,
-CIW,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,166.00,141.00,103.00,134.00,121.00,137.00,241.00,208.00,175.00,233.00
-CIW,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,123.00,93.00,92.00,155.00,95.00,91.00,77.00,49.00,37.00,79.00
-CIW,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,1.00,4.00,2.00,5.00,0.00,1.00,2.00,2.00,2.00,0.00
-CIW,Incarcerated Persons Grievances and Appeals,Grievance Claims Pending,,2.00,,,,,,,,
 CIW,Number and Housing Level of Incarcerated Persons,Non Level - Specific Beds,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,"1,149.00"
 CIW,Number and Housing Level of Incarcerated Persons,Restricted Housing,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,20.00
 CIW,Number and Housing Level of Incarcerated Persons,Total Number of Incarcerated Persons,"1,258.00","1,286.00","1,249.00","1,208.00","1,204.00","1,270.00","1,281.00","1,241.00","1,228.00","1,217.00"
@@ -428,10 +349,6 @@ CMC,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,2.00,2.00,2.00,,,
 CMC,Contraband,Tobacco Seizure Events,,,,2.00,,,,,,
 CMC,Fiscal,Actual Expenditures ($),"16,313,294.69","35,150,160.89","51,932,746.68","70,067,934.36","89,265,836.91","106,601,789.15","124,844,967.02","142,820,088.68","160,068,396.80","176,184,404.19"
 CMC,Fiscal,Institution Budget ($),"222,624,626.00","222,607,223.00","222,799,308.00","224,850,995.00","225,700,355.00","213,827,868.00","213,964,576.00","214,790,634.00","215,207,161.00","214,867,933.00"
-CMC,Incarcerated Persons Grievances and Appeals,Appeals Denied,46.00,36.00,47.00,47.00,33.00,30.00,16.00,32.00,29.00,
-CMC,Incarcerated Persons Grievances and Appeals,Appeals Granted,9.00,8.00,6.00,10.00,7.00,7.00,6.00,12.00,11.00,
-CMC,Incarcerated Persons Grievances and Appeals,Appeals Received,69.00,63.00,88.00,116.00,72.00,71.00,68.00,91.00,95.00,
-CMC,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,8.00,12.00,19.00,30.00,24.00,28.00,38.00,44.00,49.00,
 CMC,Number and Housing Level of Incarcerated Persons,Level II,246.00,246.00,248.00,250.00,248.00,249.00,247.00,250.00,248.00,248.00
 CMC,Number and Housing Level of Incarcerated Persons,Level III,"1,519.00","1,487.00","1,439.00","1,565.00","1,640.00","1,619.00","1,590.00","1,604.00","1,584.00","1,623.00"
 CMC,Number and Housing Level of Incarcerated Persons,Level IV,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -477,14 +394,6 @@ CMF,Contraband,Quantity of Methamphetamine Seized (number of strips),,,,,,,,,,
 CMF,Contraband,Quantity of Suboxone Seized (grams),,,,0.86,0.56,2.06,1.76,2.50,2.66,
 CMF,Contraband,Quantity of Suboxone Seized (number of strips),,,,,,,,2.00,,16.00
 CMF,Contraband,Quantity of Synthetic Cannabinoid / Spice Seized (grams with packaging),,,,,,,25.62,,130.00,50.72
-CMF,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,24.00,18.00,22.00,4.00,4.00,6.00,8.00,4.00,5.00,5.00
-CMF,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,51.00,49.00,20.00,33.00,17.00,36.00,26.00,32.00,31.00,45.00
-CMF,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,720.00,653.00,450.00,455.00,382.00,442.00,475.00,521.00,418.00,
-CMF,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,118.00,122.00,111.00,47.00,88.00,62.00,97.00,123.00,75.00,133.00
-CMF,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,82.00,64.00,48.00,47.00,48.00,62.00,51.00,51.00,55.00,76.00
-CMF,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,74.00,62.00,34.00,33.00,26.00,29.00,33.00,41.00,29.00,29.00
-CMF,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-CMF,Incarcerated Persons Grievances and Appeals,Grievances Pending Legal Matter,,,1.00,,,,,,,2.00
 CMF,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 CMF,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
 CMF,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -529,20 +438,6 @@ COR,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,2.00,4.00,,10.00,
 COR,Contraband,Tobacco Seizure Events,,,,,,2.00,4.00,2.00,,2.00
 COR,Fiscal,Actual Expenditures ($),"26,119,595.22","49,760,888.60","74,040,237.51","97,818,913.71","124,387,202.21","149,275,876.34","173,203,847.89","195,564,558.25","220,145,933.35","245,134,991.48"
 COR,Fiscal,Institution Budget ($),"302,822,592.00","302,847,851.00","303,389,711.00","303,993,058.00","304,929,052.00","285,279,697.00","285,486,734.00","286,536,027.69","287,164,973.69","294,080,315.69"
-COR,Incarcerated Persons Grievances and Appeals,Appeals Denied,114.00,129.00,117.00,60.00,57.00,47.00,47.00,31.00,32.00,
-COR,Incarcerated Persons Grievances and Appeals,Appeals Granted,19.00,22.00,35.00,14.00,10.00,13.00,20.00,11.00,9.00,
-COR,Incarcerated Persons Grievances and Appeals,Appeals Received,185.00,230.00,207.00,124.00,121.00,133.00,194.00,126.00,127.00,
-COR,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,37.00,53.00,37.00,39.00,39.00,57.00,118.00,74.00,81.00,
-COR,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,376.00,395.00,301.00,284.00,302.00,326.00,424.00,313.00,281.00,341.00
-COR,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,104.00,86.00,98.00,68.00,85.00,87.00,61.00,55.00,35.00,56.00
-COR,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,7.00,15.00,10.00,10.00,5.00,3.00,4.00,2.00,8.00,6.00
-COR,Incarcerated Persons Grievances and Appeals,Grievance Claims Pending,,,,,,,2.00,,,
-COR,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,60.00,95.00,94.00,80.00,78.00,85.00,99.00,100.00,86.00,108.00
-COR,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,778.00,840.00,749.00,686.00,681.00,723.00,839.00,687.00,594.00,
-COR,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,116.00,127.00,114.00,52.00,111.00,64.00,135.00,121.00,107.00,112.00
-COR,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,66.00,59.00,91.00,52.00,47.00,64.00,78.00,55.00,52.00,69.00
-COR,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,49.00,63.00,41.00,32.00,51.00,49.00,36.00,41.00,25.00,50.00
-COR,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,0.00,0.00,0.00,2.00,0.00,0.00,0.00,0.00,1.00
 COR,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,3.38,0.00,0.00,0.00,0.00,0.00,3.45,0.00,1.23,2.45
 COR,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,2.00,
 COR,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -579,19 +474,6 @@ CRC,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,18.00,20.00,12.00
 CRC,Contraband,Tobacco Seizure Events,,,,,,,2.00,,,2.00
 CRC,Fiscal,Actual Expenditures ($),"15,936,087.42","32,940,868.87","49,644,591.50","66,377,522.07","84,556,193.55","102,055,569.55","119,154,029.85","136,275,876.60","153,290,976.10","171,111,124.51"
 CRC,Fiscal,Institution Budget ($),"215,958,518.00","215,981,898.00","216,147,760.00","216,132,094.00","217,131,738.00","207,686,771.00","207,750,944.00","208,816,345.69","209,357,016.69","207,936,475.69"
-CRC,Incarcerated Persons Grievances and Appeals,Appeals Denied,20.00,28.00,21.00,30.00,24.00,23.00,12.00,8.00,19.00,
-CRC,Incarcerated Persons Grievances and Appeals,Appeals Granted,7.00,1.00,5.00,5.00,6.00,5.00,2.00,3.00,1.00,
-CRC,Incarcerated Persons Grievances and Appeals,Appeals Received,35.00,38.00,50.00,46.00,34.00,44.00,31.00,32.00,40.00,
-CRC,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,3.00,9.00,21.00,7.00,4.00,13.00,15.00,18.00,19.00,
-CRC,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,127.00,113.00,152.00,162.00,124.00,119.00,159.00,131.00,131.00,150.00
-CRC,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,34.00,38.00,33.00,48.00,26.00,34.00,7.00,9.00,8.00,10.00
-CRC,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,4.00,3.00,0.00,3.00,7.00,10.00,3.00,3.00,1.00,0.00
-CRC,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,16.00,4.00,10.00,17.00,7.00,8.00,9.00,16.00,5.00,13.00
-CRC,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,249.00,200.00,242.00,314.00,232.00,213.00,224.00,207.00,186.00,
-CRC,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,17.00,12.00,21.00,30.00,29.00,14.00,16.00,12.00,6.00,25.00
-CRC,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,28.00,21.00,15.00,30.00,20.00,14.00,19.00,24.00,25.00,21.00
-CRC,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,22.00,9.00,11.00,23.00,19.00,15.00,11.00,12.00,10.00,8.00
-CRC,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 CRC,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,0.00,0.00,0.00,0.00,0.72,0.57,0.82,1.78,0.00,0.00
 CRC,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,1.00,0.00,3.00,1.00,0.00,
 CRC,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -630,16 +512,6 @@ CTF,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,10.00,10.00,4.00,
 CTF,Contraband,Tobacco Seizure Events,,,,,4.00,,4.00,,,
 CTF,Fiscal,Actual Expenditures ($),"16,590,300.56","33,565,457.75","51,338,734.54","68,394,825.04","86,283,150.47","104,492,254.19","121,897,960.70","138,965,915.57","157,172,206.15","175,041,090.71"
 CTF,Fiscal,Institution Budget ($),"214,208,789.00","214,313,174.00","214,658,201.00","215,119,038.00","216,725,008.00","205,168,249.00","205,396,124.00","207,089,499.38","207,694,108.38","211,315,203.38"
-CTF,Incarcerated Persons Grievances and Appeals,Appeals Denied,51.00,44.00,29.00,31.00,36.00,44.00,40.00,26.00,25.00,
-CTF,Incarcerated Persons Grievances and Appeals,Appeals Granted,12.00,5.00,7.00,3.00,8.00,4.00,7.00,10.00,7.00,
-CTF,Incarcerated Persons Grievances and Appeals,Appeals Received,76.00,69.00,72.00,50.00,60.00,72.00,86.00,63.00,66.00,
-CTF,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,10.00,15.00,33.00,14.00,14.00,20.00,36.00,25.00,34.00,
-CTF,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,156.00,121.00,123.00,128.00,136.00,135.00,150.00,119.00,105.00,117.00
-CTF,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,27.00,28.00,34.00,29.00,14.00,24.00,25.00,15.00,9.00,12.00
-CTF,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,2.00,2.00,5.00,5.00,1.00,3.00,1.00,4.00,0.00,3.00
-CTF,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,16.00,20.00,20.00,27.00,27.00,12.00,18.00,15.00,12.00,17.00
-CTF,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,263.00,233.00,244.00,248.00,233.00,235.00,278.00,232.00,210.00,
-CTF,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,14.00,12.00,16.00,27.00,15.00,35.00,27.00,30.00,40.00,44.00
 CTF,Number of Deaths,Expected,1.00,,,,,,,,2.00,1.00
 CTF,Number of Deaths,Suicide,,,,1.00,,,,,1.00,
 CTF,Number of Deaths,Unexpected,,,,,,,,,1.00,
@@ -662,11 +534,6 @@ CTF,Rehabilitative Programs,Number of High School Diplomas,0.00,0.00,0.00,0.00,0
 CTF,Rehabilitative Programs,Number of Masters Degrees,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 CTF,Rehabilitative Programs,Transitions - Actual Enrollment,150.50,137.80,146.75,149.80,153.25,151.75,148.80,143.75,154.25,148.80
 CTF,Rehabilitative Programs,Transitions - Operational Capacity,171.00,162.00,162.00,162.00,162.00,162.00,162.00,162.00,162.00,162.00
-CVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,4.00,1.00,,,,,,1.00,,
-CVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-CVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,0.00,0.00,,,,,,0.00,,
-CVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-CVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 CVSP,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
 CVSP,Overtime Hours,Custody (Overtime),"2,565.92",148.00,,0.00,,,,,,
 CVSP,Overtime Hours,Dental + Mental Health (Overtime),0.00,0.00,,0.00,,,,,,
@@ -676,11 +543,6 @@ CVSP,Positions - Authorized and Vacant,Authorized,9.90,9.90,9.90,9.90,9.90,9.90,
 CVSP,Positions - Authorized and Vacant,Vacant,-295.90,-108.10,-49.10,-41.10,8.90,9.90,9.90,9.90,9.90,0.00
 DVI,Fiscal,Actual Expenditures ($),"-102,624.25","119,716.58","339,002.57","550,270.69","787,149.70","1,137,700.91","1,375,462.04","1,582,447.26","1,818,700.87","2,061,185.99"
 DVI,Fiscal,Institution Budget ($),"3,180,795.00","3,180,795.00","3,180,795.00","3,180,795.00","3,180,795.00","3,180,795.00","3,180,795.00","3,180,795.00","3,180,795.00","2,717,735.00"
-DVI,Incarcerated Persons Grievances and Appeals,Appeals Denied,0.00,,,,,,0.00,,,
-DVI,Incarcerated Persons Grievances and Appeals,Appeals Received,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
-DVI,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-DVI,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-DVI,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 DVI,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
 FOL,Cognitive Behavioral Intervention,Life Skills - Actual Enrollment,282.75,296.60,299.50,256.00,226.75,232.25,201.60,147.75,163.00,184.75
 FOL,Cognitive Behavioral Intervention,Life Skills - Operational Capacity,333.00,342.00,342.00,342.00,260.50,265.00,234.60,191.00,197.00,234.60
@@ -703,9 +565,6 @@ FOL,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,10.00,,,22.00,16.
 FOL,Contraband,Tobacco Seizure Events,,,,,,,,2.00,,
 FOL,Fiscal,Actual Expenditures ($),"12,834,546.31","25,852,957.16","38,370,551.17","51,240,573.38","65,477,972.57","78,912,599.09","92,760,721.19","106,321,031.92","119,037,303.37","132,100,219.25"
 FOL,Fiscal,Institution Budget ($),"166,451,178.00","166,581,564.00","166,735,333.00","166,726,712.00","166,639,970.00","160,490,012.00","160,569,927.00","160,636,388.00","160,828,414.00","162,250,298.00"
-FOL,Incarcerated Persons Grievances and Appeals,Appeals Denied,13.00,21.00,16.00,16.00,16.00,22.00,20.00,19.00,7.00,
-FOL,Incarcerated Persons Grievances and Appeals,Appeals Granted,1.00,7.00,5.00,4.00,2.00,3.00,2.00,6.00,5.00,
-FOL,Incarcerated Persons Grievances and Appeals,Appeals Received,17.00,39.00,32.00,28.00,24.00,46.00,39.00,39.00,25.00,
 FOL,Number and Housing Level of Incarcerated Persons,Level II,"1,956.00","1,964.00","1,958.00","1,944.00","1,980.00","1,867.00","1,864.00","1,908.00","1,922.00","1,910.00"
 FOL,Number and Housing Level of Incarcerated Persons,Level III,394.00,394.00,385.00,395.00,402.00,480.00,496.00,497.00,495.00,489.00
 FOL,Number and Housing Level of Incarcerated Persons,Level IV,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -751,9 +610,6 @@ HDSP,Contraband,Quantity of Suboxone Seized (number of strips),,,,32.00,,2.00,,6
 HDSP,Contraband,Quantity of Synthetic Cannabinoid / Spice Seized (grams with packaging),,,,,,,4.00,,,
 HDSP,Contraband,Quantity of Synthetic Cannabinoid / Spice Seized (grams),,,,,,98.20,31.60,,,
 HDSP,Contraband,Quantity of Synthetic Cannabinoid / Spice Seized (number of strips),,,,,6.00,36.00,12.00,,,
-HDSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,105.00,93.00,144.00,251.00,146.00,213.00,180.00,117.00,94.00,96.00
-HDSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,19.00,63.00,75.00,134.00,105.00,175.00,86.00,50.00,55.00,39.00
-HDSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,1.00,1.00,0.00,0.00,2.00,2.00,1.00,0.00,0.00
 HDSP,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,0.00,0.00,0.24,0.00,6.51,3.83,0.00,0.90,10.13,0.02
 HDSP,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,1.00,0.00,0.00,0.00,0.00,2.00,3.00,
 HDSP,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -801,20 +657,6 @@ ISP,Contraband,Quantity of Heroin Seized (grams),,,,0.50,,,0.02,,,
 ISP,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,2.00,2.00,,4.00,8.00,16.00,14.00
 ISP,Fiscal,Actual Expenditures ($),"14,994,125.17","31,135,584.77","48,513,556.50","64,927,668.15","82,220,922.12","100,357,282.41","116,729,167.42","133,202,540.49","150,357,392.63","166,668,213.75"
 ISP,Fiscal,Institution Budget ($),"184,660,329.00","184,756,945.00","184,990,168.00","185,362,482.00","186,482,667.00","193,953,811.00","194,717,455.00","195,870,926.69","196,137,049.91","198,925,868.91"
-ISP,Incarcerated Persons Grievances and Appeals,Appeals Denied,16.00,48.00,28.00,27.00,24.00,16.00,20.00,17.00,11.00,
-ISP,Incarcerated Persons Grievances and Appeals,Appeals Granted,5.00,3.00,7.00,4.00,8.00,2.00,5.00,5.00,4.00,
-ISP,Incarcerated Persons Grievances and Appeals,Appeals Received,36.00,69.00,60.00,44.00,47.00,38.00,49.00,40.00,33.00,
-ISP,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,12.00,15.00,20.00,10.00,9.00,12.00,24.00,18.00,17.00,
-ISP,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,136.00,160.00,197.00,127.00,127.00,160.00,183.00,89.00,119.00,103.00
-ISP,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,31.00,25.00,54.00,17.00,22.00,17.00,14.00,12.00,13.00,13.00
-ISP,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,0.00,18.00,5.00,0.00,1.00,0.00,0.00,2.00,1.00,4.00
-ISP,Incarcerated Persons Grievances and Appeals,Grievance Claims Pending,,,,1.00,1.00,,,,,
-ISP,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,9.00,6.00,2.00,5.00,16.00,0.00,2.00,10.00,3.00,19.00
-ISP,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,207.00,266.00,309.00,173.00,207.00,160.00,240.00,144.00,171.00,
-ISP,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,17.00,12.00,20.00,7.00,16.00,23.00,13.00,10.00,11.00,19.00
-ISP,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,17.00,34.00,25.00,7.00,14.00,23.00,23.00,17.00,18.00,22.00
-ISP,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,7.00,11.00,6.00,3.00,10.00,18.00,5.00,4.00,6.00,4.00
-ISP,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 ISP,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 ISP,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
 ISP,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -847,19 +689,6 @@ KVSP,Contraband,Heroin Seizure Events,,,,4.00,,,8.00,6.00,10.00,
 KVSP,Contraband,Tobacco Seizure Events,,,,2.00,,,,,,
 KVSP,Fiscal,Actual Expenditures ($),"21,583,954.05","44,584,950.95","65,518,315.71","87,254,253.56","110,489,640.78","133,978,120.53","156,487,357.31","178,223,989.91","201,365,336.62","223,916,173.45"
 KVSP,Fiscal,Institution Budget ($),"268,942,238.00","268,932,834.00","269,345,201.00","269,307,850.00","270,450,718.00","253,431,184.00","254,406,352.00","255,631,032.69","256,571,495.69","266,764,821.69"
-KVSP,Incarcerated Persons Grievances and Appeals,Appeals Denied,121.00,114.00,68.00,76.00,77.00,67.00,40.00,49.00,35.00,
-KVSP,Incarcerated Persons Grievances and Appeals,Appeals Granted,21.00,25.00,17.00,29.00,28.00,21.00,20.00,19.00,9.00,
-KVSP,Incarcerated Persons Grievances and Appeals,Appeals Received,194.00,194.00,143.00,181.00,173.00,224.00,156.00,173.00,132.00,
-KVSP,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,32.00,38.00,42.00,59.00,51.00,96.00,86.00,84.00,77.00,
-KVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,431.00,403.00,309.00,353.00,320.00,344.00,338.00,292.00,358.00,288.00
-KVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,98.00,116.00,59.00,83.00,53.00,70.00,54.00,57.00,111.00,57.00
-KVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,8.00,11.00,6.00,9.00,6.00,10.00,18.00,16.00,13.00,7.00
-KVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,60.00,34.00,39.00,46.00,49.00,66.00,40.00,50.00,52.00,26.00
-KVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,934.00,799.00,619.00,776.00,674.00,913.00,748.00,816.00,909.00,
-KVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,136.00,54.00,92.00,135.00,110.00,105.00,164.00,223.00,214.00,203.00
-KVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,136.00,99.00,63.00,73.00,69.00,105.00,87.00,101.00,114.00,67.00
-KVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,111.00,82.00,51.00,77.00,67.00,116.00,47.00,67.00,47.00,42.00
-KVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,0.00,0.00,0.00,0.00,0.00,0.00,10.00,0.00,0.00
 KVSP,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,1.44,0.00,2.90,3.08,5.25,1.74,5.66,1.55,20.13,5.67
 KVSP,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,2.00,2.00,1.00,1.00,
 KVSP,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -906,11 +735,6 @@ LAC,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,2.00,4.00,2.00,,4
 LAC,Contraband,Tobacco Seizure Events,,,,8.00,10.00,18.00,20.00,28.00,6.00,12.00
 LAC,Fiscal,Actual Expenditures ($),"18,687,262.60","41,252,952.66","63,394,266.41","84,945,507.80","107,325,098.52","131,584,101.70","153,523,079.72","175,421,476.88","196,895,789.69","218,914,391.69"
 LAC,Fiscal,Institution Budget ($),"258,944,025.00","258,961,821.00","259,145,733.00","263,340,567.00","264,473,887.00","245,462,865.00","246,483,078.00","247,694,585.00","247,751,863.00","263,737,035.00"
-LAC,Incarcerated Persons Grievances and Appeals,Appeals Denied,135.00,129.00,103.00,101.00,62.00,64.00,54.00,46.00,65.00,
-LAC,Incarcerated Persons Grievances and Appeals,Appeals Granted,48.00,43.00,31.00,54.00,41.00,28.00,39.00,24.00,42.00,
-LAC,Incarcerated Persons Grievances and Appeals,Appeals Received,246.00,247.00,236.00,210.00,156.00,208.00,242.00,189.00,279.00,
-LAC,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,42.00,58.00,72.00,31.00,37.00,92.00,128.00,103.00,159.00,
-LAC,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,580.00,465.00,369.00,483.00,311.00,417.00,414.00,389.00,468.00,343.00
 LAC,Number and Housing Level of Incarcerated Persons,Level IV,"2,227.00","2,222.00","2,250.00","2,264.00","2,247.00","2,136.00","2,078.00","2,040.00","2,000.00","1,776.00"
 LAC,Number and Housing Level of Incarcerated Persons,Level VI,,,,,,,,,,
 LAC,Number and Housing Level of Incarcerated Persons,Non Level - Specific Beds,227.00,233.00,235.00,220.00,227.00,223.00,206.00,231.00,220.00,8.00
@@ -955,11 +779,6 @@ MCSP,Contraband,Quantity of PCP Seized (grams),,,,,,,,,,6.20
 MCSP,Contraband,Quantity of Suboxone Seized (number of strips),,,,,,,,,,
 MCSP,Contraband,Quantity of Synthetic Cannabinoid / Spice Seized (grams with packaging),,,,17.20,52.40,,,,,18.60
 MCSP,Contraband,Quantity of Synthetic Cannabinoid / Spice Seized (grams),,,,,,,2.40,1.20,,29.40
-MCSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,195.00,158.00,154.00,190.00,109.00,116.00,162.00,162.00,161.00,242.00
-MCSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,195.00,182.00,135.00,214.00,128.00,116.00,173.00,164.00,190.00,257.00
-MCSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,84.00,92.00,73.00,118.00,76.00,86.00,63.00,56.00,79.00,68.00
-MCSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,19.00,13.00
-MCSP,Incarcerated Persons Grievances and Appeals,Grievances Pending Legal Matter,,,,,,,,,1.00,
 MCSP,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,0.00,0.85,7.83,8.77,4.37,8.98,0.00,6.29,5.12,1.41
 MCSP,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,
 MCSP,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -1049,12 +868,6 @@ PBSP,Contraband,Quantity of Methamphetamine Seized (grams),,,,633.00,238.80,510.
 PBSP,Contraband,Quantity of Methamphetamine Seized (number of strips),,,,,,,,,,
 PBSP,Contraband,Quantity of Suboxone Seized (number of strips),,,,,,14.00,36.00,,,
 PBSP,Contraband,Quantity of Synthetic Cannabinoid / Spice Seized (grams with packaging),,,,105.00,,,6.00,,,
-PBSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,28.00,23.00,26.00,36.00,36.00,24.00,16.00,28.00,21.00,46.00
-PBSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,913.00,619.00,623.00,565.00,286.00,509.00,581.00,441.00,425.00,
-PBSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,109.00,150.00,98.00,86.00,46.00,84.00,96.00,73.00,53.00,44.00
-PBSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,109.00,111.00,81.00,67.00,54.00,84.00,80.00,75.00,66.00,99.00
-PBSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,50.00,15.00,24.00,33.00,30.00,43.00,18.00,15.00,24.00,19.00
-PBSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 PBSP,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,0.00,0.00,0.00,0.00,0.00,2.23,3.00,3.13,7.34,5.72
 PBSP,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,2.00,1.00,1.00,
 PBSP,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -1097,19 +910,6 @@ PVSP,Contraband,Quantity of Fentanyl Seized (grams with packaging),,,,,,28.00,,1
 PVSP,Contraband,Quantity of Fentanyl Seized (grams),,,,8.92,,,,,,
 PVSP,Contraband,Quantity of Heroin Seized (grams with packaging),,,,,,27.68,,6.00,179.46,15.30
 PVSP,Fiscal,Institution Budget ($),"230,003,999.00","230,024,692.00","230,287,856.00","230,509,293.00","231,583,808.00","218,970,159.00","219,034,785.00","220,147,402.69","220,852,497.69","225,717,175.69"
-PVSP,Incarcerated Persons Grievances and Appeals,Appeals Denied,15.00,17.00,12.00,14.00,21.00,9.00,5.00,17.00,16.00,
-PVSP,Incarcerated Persons Grievances and Appeals,Appeals Granted,,3.00,3.00,4.00,3.00,5.00,1.00,1.00,5.00,
-PVSP,Incarcerated Persons Grievances and Appeals,Appeals Received,25.00,35.00,18.00,28.00,35.00,36.00,15.00,31.00,40.00,
-PVSP,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,8.00,13.00,2.00,7.00,8.00,18.00,8.00,13.00,18.00,
-PVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,54.00,53.00,59.00,112.00,161.00,122.00,85.00,100.00,108.00,120.00
-PVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,61.00,40.00,59.00,72.00,59.00,52.00,31.00,34.00,32.00,37.00
-PVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,3.00,1.00,10.00,4.00,5.00,3.00,3.00,5.00,2.00,13.00
-PVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,12.00,27.00,28.00,18.00,27.00,18.00,25.00,22.00,15.00,26.00
-PVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,167.00,151.00,194.00,268.00,323.00,266.00,201.00,220.00,225.00,
-PVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,22.00,7.00,18.00,20.00,21.00,40.00,23.00,20.00,28.00,33.00
-PVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,22.00,15.00,17.00,30.00,40.00,40.00,31.00,32.00,35.00,47.00
-PVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,8.00,8.00,3.00,12.00,10.00,11.00,3.00,7.00,5.00,8.00
-PVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 PVSP,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,8.68,7.75,6.84,6.73,8.20,10.08,6.84,5.77,6.34,5.96
 PVSP,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
 PVSP,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -1152,18 +952,6 @@ RJD,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,2.00,,2.00,8.00,6
 RJD,Contraband,Tobacco Seizure Events,,,,4.00,2.00,,,,4.00,
 RJD,Fiscal,Actual Expenditures ($),"30,642,488.81","55,583,880.28","81,492,860.76","107,893,357.45","135,933,875.51","162,365,678.64","188,718,036.58","216,281,747.98","246,455,085.19","272,865,364.04"
 RJD,Fiscal,Institution Budget ($),"322,781,152.00","322,811,301.00","323,021,577.00","324,890,054.00","326,119,415.00","316,203,678.00","316,296,157.00","317,467,126.00","315,282,934.00","325,625,667.00"
-RJD,Incarcerated Persons Grievances and Appeals,Appeals Denied,165.00,114.00,116.00,137.00,121.00,114.00,104.00,89.00,79.00,
-RJD,Incarcerated Persons Grievances and Appeals,Appeals Granted,42.00,27.00,37.00,39.00,29.00,37.00,48.00,27.00,40.00,
-RJD,Incarcerated Persons Grievances and Appeals,Appeals Received,283.00,211.00,241.00,256.00,224.00,297.00,336.00,280.00,272.00,
-RJD,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,52.00,58.00,62.00,41.00,58.00,125.00,170.00,150.00,143.00,
-RJD,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,689.00,616.00,530.00,618.00,462.00,734.00,764.00,573.00,687.00,722.00
-RJD,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,269.00,238.00,200.00,247.00,223.00,253.00,194.00,131.00,147.00,195.00
-RJD,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,30.00,25.00,14.00,13.00,14.00,19.00,16.00,13.00,12.00,15.00
-RJD,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,54.00,36.00,31.00,58.00,91.00,105.00,81.00,57.00,57.00,62.00
-RJD,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,"1,425.00","1,206.00","1,097.00","1,293.00","1,064.00","1,505.00","1,438.00","1,198.00","1,252.00",
-RJD,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,124.00,79.00,94.00,109.00,76.00,121.00,157.00,189.00,163.00,233.00
-RJD,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,124.00,101.00,120.00,135.00,111.00,121.00,166.00,167.00,130.00,186.00
-RJD,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,138.00,108.00,97.00,102.00,80.00,122.00,60.00,68.00,56.00,68.00
 RJD,Number of Deaths,Suicide,,,,,,,1.00,,,
 RJD,Number of Deaths,Unexpected,,,,,,1.00,,,,
 RJD,Overtime Hours,Custody (Overtime),"24,488.41","27,386.85","29,751.88","24,276.39","14,686.85","25,090.51","18,299.65","20,092.55","30,714.24","18,154.50"
@@ -1200,14 +988,6 @@ SAC,Contraband,Suboxone Seizure Events,,,,4.00,,,,,2.00,2.00
 SAC,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,,,,,2.00,2.00,2.00
 SAC,Fiscal,Actual Expenditures ($),"24,760,174.43","45,189,614.16","66,882,877.48","88,369,771.35","112,272,957.96","133,331,171.52","154,498,420.37","174,639,127.85","196,165,466.37","217,131,685.11"
 SAC,Fiscal,Institution Budget ($),"266,001,575.00","265,972,475.00","266,617,181.00","266,532,485.00","268,613,856.00","261,393,866.00","261,676,195.00","263,491,942.38","263,788,001.38","266,141,197.38"
-SAC,Incarcerated Persons Grievances and Appeals,Appeals Denied,94.00,67.00,46.00,90.00,41.00,30.00,41.00,50.00,31.00,
-SAC,Incarcerated Persons Grievances and Appeals,Appeals Granted,25.00,21.00,22.00,29.00,9.00,9.00,13.00,17.00,12.00,
-SAC,Incarcerated Persons Grievances and Appeals,Appeals Received,161.00,131.00,103.00,157.00,98.00,191.00,193.00,209.00,157.00,
-SAC,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,33.00,36.00,19.00,30.00,30.00,73.00,87.00,98.00,102.00,
-SAC,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,498.00,391.00,305.00,322.00,320.00,558.00,560.00,432.00,450.00,427.00
-SAC,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,19.00,26.00,51.00,45.00,43.00,69.00,62.00,75.00,99.00,94.00
-SAC,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,3.00,5.00,3.00,1.00,3.00,9.00,7.00,15.00,15.00,17.00
-SAC,Incarcerated Persons Grievances and Appeals,Grievance Claims Pending,,,1.00,,,,,,,
 SAC,Number and Housing Level of Incarcerated Persons,Level IV,"1,162.00","1,191.00","1,234.00","1,237.00","1,231.00","1,234.00","1,218.00","1,205.00","1,206.00","1,376.00"
 SAC,Number and Housing Level of Incarcerated Persons,Level VI,,,,,,,,,,
 SAC,Number and Housing Level of Incarcerated Persons,Non Level - Specific Beds,287.00,325.00,319.00,302.00,311.00,299.00,303.00,266.00,276.00,11.00
@@ -1254,20 +1034,6 @@ SATF,Contraband,Quantity of Marijuana Seized (grams with packaging),,,,,14.80,,,
 SATF,Contraband,Quantity of Marijuana Seized (grams),,,,,,,,,,
 SATF,Contraband,Quantity of Methamphetamine Seized (grams with packaging),,,,496.60,985.80,573.00,293.20,676.00,129.80,690.60
 SATF,Contraband,Quantity of Methamphetamine Seized (grams),,,,50.20,,,,0.20,,0.80
-SATF,Incarcerated Persons Grievances and Appeals,Appeals Denied,218.00,172.00,132.00,127.00,110.00,113.00,73.00,99.00,87.00,
-SATF,Incarcerated Persons Grievances and Appeals,Appeals Granted,56.00,52.00,44.00,43.00,35.00,34.00,35.00,34.00,26.00,
-SATF,Incarcerated Persons Grievances and Appeals,Appeals Received,354.00,316.00,261.00,246.00,239.00,298.00,300.00,327.00,336.00,
-SATF,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,50.00,62.00,59.00,68.00,81.00,134.00,173.00,173.00,213.00,
-SATF,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,969.00,781.00,692.00,837.00,564.00,806.00,677.00,734.00,811.00,968.00
-SATF,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,175.00,166.00,211.00,237.00,162.00,219.00,166.00,152.00,152.00,166.00
-SATF,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,3.00,9.00,4.00,11.00,4.00,12.00,6.00,11.00,12.00,17.00
-SATF,Incarcerated Persons Grievances and Appeals,Grievance Claims Pending,,1.00,1.00,,,,,,,
-SATF,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,76.00,69.00,52.00,77.00,64.00,71.00,56.00,78.00,78.00,81.00
-SATF,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,"1,940.00","1,792.00","1,458.00","1,675.00","1,139.00","1,596.00","1,368.00","1,467.00","1,552.00",
-SATF,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,146.00,490.00,261.00,246.00,123.00,151.00,274.00,277.00,312.00,261.00
-SATF,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,146.00,142.00,136.00,191.00,167.00,151.00,141.00,152.00,142.00,150.00
-SATF,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,108.00,133.00,101.00,76.00,55.00,123.00,48.00,63.00,45.00,65.00
-SATF,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 SATF,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,0.00,1.50,1.86,3.92,0.98,2.42,0.32,3.27,4.86,0.08
 SATF,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,0.00,4.00,2.00,
 SATF,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -1320,9 +1086,6 @@ SCC,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,22.00,40.00,24.00
 SCC,Contraband,Tobacco Seizure Events,,,,40.00,18.00,10.00,16.00,12.00,26.00,14.00
 SCC,Fiscal,Actual Expenditures ($),"34,818,212.68","61,445,827.95","86,400,628.85","111,669,390.91","134,253,384.84","156,404,363.92","177,947,276.14","202,700,133.27","222,166,662.36","239,043,068.07"
 SCC,Fiscal,Institution Budget ($),"263,122,694.00","263,139,011.00","263,648,387.00","263,832,792.00","265,170,204.00","251,580,250.00","251,668,322.00","253,541,723.69","253,024,689.69","260,349,581.69"
-SCC,Incarcerated Persons Grievances and Appeals,Appeals Denied,25.00,21.00,21.00,34.00,24.00,34.00,15.00,23.00,22.00,
-SCC,Incarcerated Persons Grievances and Appeals,Appeals Granted,11.00,4.00,6.00,6.00,4.00,5.00,7.00,9.00,9.00,
-SCC,Incarcerated Persons Grievances and Appeals,Appeals Received,50.00,38.00,48.00,55.00,37.00,61.00,38.00,53.00,55.00,
 SCC,Number and Housing Level of Incarcerated Persons,Level II,826.00,757.00,772.00,746.00,846.00,842.00,878.00,836.00,776.00,702.00
 SCC,Number and Housing Level of Incarcerated Persons,Level III,720.00,690.00,662.00,635.00,629.00,644.00,667.00,669.00,657.00,631.00
 SCC,Number and Housing Level of Incarcerated Persons,Level IV,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -1365,8 +1128,6 @@ SOL,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,,,,,,,2.00
 SOL,Contraband,Tobacco Seizure Events,,,,2.00,,,,,,
 SOL,Fiscal,Actual Expenditures ($),"21,161,764.63","37,710,476.29","55,114,268.85","71,676,772.55","89,763,629.14","107,945,598.49","123,610,312.83","139,122,085.33","155,891,298.84","171,662,238.71"
 SOL,Fiscal,Institution Budget ($),"217,130,598.00","217,130,624.00","217,304,936.00","217,432,210.00","218,984,532.00","205,440,334.00","205,488,732.00","206,971,799.25","207,145,067.25","206,563,573.25"
-SOL,Incarcerated Persons Grievances and Appeals,Appeals Denied,50.00,35.00,59.00,35.00,29.00,31.00,21.00,24.00,17.00,
-SOL,Incarcerated Persons Grievances and Appeals,Appeals Granted,4.00,5.00,14.00,8.00,11.00,9.00,10.00,8.00,8.00,
 SOL,Number and Housing Level of Incarcerated Persons,Level I,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 SOL,Number and Housing Level of Incarcerated Persons,Level II,"2,463.00","2,390.00","2,319.00","2,239.00","2,184.00","2,245.00","2,214.00","2,193.00","2,198.00","2,160.00"
 SOL,Number and Housing Level of Incarcerated Persons,Level III,"1,513.00","1,520.00","1,550.00","1,553.00","1,566.00","1,545.00","1,547.00","1,556.00","1,548.00","1,518.00"
@@ -1410,8 +1171,6 @@ SQ,Contraband,Quantity of Synthetic Cannabinoid / Spice Seized (number of strips
 SQ,Contraband,Quantity of Tobacco Seized (grams with packaging),,,,,1.46,,,,,
 SQ,Contraband,Quantity of Tobacco Seized (grams),,,,,236.22,,,,,
 SQ,Contraband,Suboxone Seizure Events,,,,6.00,14.00,,4.00,,,6.00
-SQ,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,19.00,19.00,20.00,19.00,25.00,13.00,14.00,11.00,4.00,4.00
-SQ,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,3.00,0.00,0.00,2.00,4.00,0.00,3.00,0.00,1.00,0.00
 SQ,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,4.89,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 SQ,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
 SQ,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -1463,21 +1222,6 @@ SVSP,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,2.00,4.00,,6.00,
 SVSP,Contraband,Tobacco Seizure Events,,,,,2.00,2.00,6.00,18.00,16.00,
 SVSP,Fiscal,Actual Expenditures ($),"24,172,001.24","50,919,496.25","73,470,345.51","96,867,185.65","121,207,773.40","143,263,347.29","167,491,896.05","189,617,140.48","212,741,875.97","235,141,860.80"
 SVSP,Fiscal,Institution Budget ($),"266,908,688.00","266,893,351.00","267,300,073.00","283,319,184.00","284,251,754.00","269,463,495.00","268,922,920.00","269,856,610.69","270,595,389.69","282,806,984.69"
-SVSP,Incarcerated Persons Grievances and Appeals,Appeals Denied,153.00,120.00,93.00,131.00,118.00,103.00,99.00,75.00,74.00,
-SVSP,Incarcerated Persons Grievances and Appeals,Appeals Granted,26.00,14.00,27.00,33.00,35.00,24.00,35.00,24.00,14.00,
-SVSP,Incarcerated Persons Grievances and Appeals,Appeals Received,249.00,216.00,173.00,223.00,263.00,293.00,314.00,302.00,240.00,
-SVSP,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,33.00,55.00,33.00,41.00,86.00,136.00,160.00,184.00,135.00,
-SVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,631.00,559.00,480.00,496.00,528.00,621.00,704.00,611.00,598.00,585.00
-SVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,20.00,26.00,86.00,49.00,38.00,54.00,52.00,50.00,55.00,55.00
-SVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,22.00,19.00,18.00,11.00,4.00,12.00,15.00,18.00,10.00,24.00
-SVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Pending,,,1.00,,,,,2.00,,
-SVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,61.00,43.00,57.00,80.00,55.00,98.00,60.00,74.00,53.00,61.00
-SVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,"1,215.00","1,046.00","1,041.00","1,017.00","1,016.00","1,265.00","1,304.00","1,284.00","1,141.00",
-SVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,134.00,133.00,176.00,172.00,179.00,115.00,267.00,279.00,235.00,202.00
-SVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,134.00,121.00,102.00,97.00,81.00,115.00,128.00,172.00,126.00,124.00
-SVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,184.00,142.00,120.00,110.00,128.00,140.00,74.00,74.00,63.00,56.00
-SVSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,2.00,3.00,1.00,2.00,3.00,3.00,4.00,4.00,0.00,0.00
-SVSP,Incarcerated Persons Grievances and Appeals,Grievances Pending Legal Matter,,,,,,,,,1.00,
 SVSP,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,1.60,2.10,2.07,2.24,2.64,3.94,0.52,1.06,16.55,3.57
 SVSP,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,2.00,
 SVSP,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -1507,19 +1251,6 @@ VSP,Contraband,Quantity of Tobacco Seized (grams with packaging),,,,49.40,,,,,,
 VSP,Contraband,Tobacco Seizure Events,,,,2.00,,,,,,
 VSP,Fiscal,Actual Expenditures ($),"14,962,656.50","30,514,391.77","45,363,852.82","60,740,635.32","76,851,093.72","92,515,362.83","107,605,816.58","122,085,154.31","137,391,235.15","151,941,704.50"
 VSP,Fiscal,Institution Budget ($),"185,598,691.00","185,644,038.00","185,784,401.00","186,514,989.00","187,833,707.00","183,590,210.00","183,628,300.00","184,792,528.00","185,147,687.00","183,301,341.00"
-VSP,Incarcerated Persons Grievances and Appeals,Appeals Denied,59.00,55.00,36.00,65.00,48.00,45.00,35.00,17.00,14.00,
-VSP,Incarcerated Persons Grievances and Appeals,Appeals Granted,11.00,7.00,8.00,7.00,9.00,7.00,9.00,3.00,5.00,
-VSP,Incarcerated Persons Grievances and Appeals,Appeals Received,83.00,86.00,70.00,86.00,75.00,68.00,79.00,58.00,73.00,
-VSP,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,8.00,18.00,23.00,10.00,15.00,13.00,30.00,37.00,54.00,
-VSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,187.00,204.00,193.00,192.00,131.00,141.00,165.00,161.00,168.00,170.00
-VSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,124.00,109.00,74.00,78.00,40.00,57.00,61.00,61.00,58.00,64.00
-VSP,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,3.00,3.00,4.00,6.00,6.00,7.00,6.00,4.00,3.00,0.00
-VSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,58.00,42.00,36.00,58.00,41.00,39.00,33.00,37.00,40.00,46.00
-VSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,546.00,498.00,449.00,536.00,375.00,689.00,468.00,432.00,432.00,
-VSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,82.00,54.00,66.00,95.00,86.00,49.00,126.00,94.00,77.00,82.00
-VSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Rejected,82.00,67.00,51.00,74.00,54.00,49.00,69.00,63.00,75.00,91.00
-VSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,24.00,19.00,25.00,33.00,17.00,16.00,8.00,12.00,10.00,14.00
-VSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00
 VSP,Lockdowns and Modified Programs,Incarcerated Persons-Days on Modified Programs,0.00,0.00,0.00,11.01,0.00,0.28,0.00,0.00,0.00,0.00
 VSP,Lockdowns and Modified Programs,Lockdowns,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,
 VSP,Number and Housing Level of Incarcerated Persons,Camps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
@@ -1562,17 +1293,6 @@ WSP,Contraband,Synthetic Cannabinoid / Spice Seizure Events,,,,2.00,,,,,,
 WSP,Contraband,Tobacco Seizure Events,,,,2.00,,,,,,
 WSP,Fiscal,Actual Expenditures ($),"21,253,503.13","42,263,293.41","62,669,293.13","83,475,140.15","104,727,354.24","127,713,227.96","148,571,317.26","169,012,385.85","189,837,475.13","209,990,995.24"
 WSP,Fiscal,Institution Budget ($),"251,981,294.00","252,006,507.00","252,191,579.00","253,793,266.00","255,038,882.00","246,118,833.00","247,077,120.00","248,517,474.69","249,272,989.69","249,229,938.69"
-WSP,Incarcerated Persons Grievances and Appeals,Appeals Denied,67.00,63.00,49.00,35.00,50.00,45.00,46.00,43.00,28.00,
-WSP,Incarcerated Persons Grievances and Appeals,Appeals Granted,14.00,7.00,14.00,12.00,14.00,18.00,14.00,12.00,9.00,
-WSP,Incarcerated Persons Grievances and Appeals,Appeals Received,97.00,88.00,94.00,75.00,78.00,101.00,118.00,107.00,66.00,
-WSP,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,13.00,16.00,29.00,25.00,13.00,33.00,52.00,46.00,28.00,
-WSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,545.00,466.00,526.00,527.00,496.00,536.00,556.00,573.00,384.00,579.00
-WSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,333.00,227.00,177.00,149.00,95.00,113.00,148.00,96.00,62.00,73.00
-WSP,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,3.00,4.00,19.00,11.00,15.00,10.00,7.00,9.00,3.00,10.00
-WSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Pending,,,,,,,,,1.00,
-WSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Reassigned,10.00,15.00,20.00,16.00,15.00,16.00,13.00,28.00,12.00,14.00
-WSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Received,"1,110.00",871.00,"1,039.00",922.00,795.00,853.00,902.00,953.00,630.00,
-WSP,Incarcerated Persons Grievances and Appeals,Grievance Claims Redirected,111.00,54.00,90.00,68.00,60.00,68.00,67.00,93.00,59.00,115.00
 WSP,Number and Housing Level of Incarcerated Persons,Restricted Housing,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,75.00
 WSP,Number and Housing Level of Incarcerated Persons,Total Number of Incarcerated Persons,"3,457.00","3,314.00","3,444.00","3,461.00","3,228.00","3,385.00","3,834.00","3,819.00","3,644.00","3,603.00"
 WSP,Number of Deaths,Unexpected,,,,,,,,,1.00,

@@ -13,6 +13,8 @@ const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiYzlkM2RiNWEtZDRjMi00ODllLT
 const OUT_PATH = path.join(__dirname, '..', 'data', 'sb601_programs.csv');
 // To use a different year, change FISCAL_YEAR.
 const FISCAL_YEAR = '2024-2025';
+// Grievances come from fetch_sb601_grievances.py, which reads them without dropping rows
+const SKIP_CATEGORIES = new Set(['Incarcerated Persons Grievances and Appeals']);
 
 async function ss(page, name) {
   const p = `/tmp/sb601_${name}.png`;
@@ -339,7 +341,7 @@ function toCsv(rows) {
     await ss(page, '07_focused');
 
     console.log('\nExtracting table...');
-    const tableData = await extractTable(page);
+    const tableData = (await extractTable(page))?.filter(row => !SKIP_CATEGORIES.has(row[1]));
 
     if (!tableData || tableData.length === 0) {
       console.warn('No table found.');

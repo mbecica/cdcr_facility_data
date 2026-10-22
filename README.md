@@ -17,6 +17,7 @@ The main table, `data/cdcr_facilities.csv`, has one row for each of the 34 adult
 | `data/cchcs_measures.csv` | Monthly health care staff vacancies, labor and hospital costs, ED/hospital send-outs | Jan 2017 – Dec 2025 | CCHCS dashboard |
 | `data/sb601_operations.csv` | Monthly lockdowns and modified programs, deaths, overtime, use of force | FY 2021-22 – 2024-25 | CDCR SB 601 dashboard |
 | `data/sb601_programs.csv` | Monthly program enrollment and operational capacity | FY 2024-25 | CDCR SB 601 dashboard |
+| `data/sb601_grievances.csv` | Monthly grievance and appeal claims by institution and status (received, granted, denied, redirected, rejected, etc.) | Jan 2020 – Jun 2026 | CDCR SB 601 dashboard and SB 601 open data |
 | `data/sco_staffing.csv` | Active state employees by facility, one row per report | 8 reports, Apr 2021 – Feb 2026 | SCO reports |
 | `data/sco_staffing_avg.csv` | 2025 average staff headcount by institution | 2025 | SCO reports |
 | `data/cdcr_violent_incidents_by_facility.csv` | Monthly violent incidents by institution and category | Jan 2021 – Dec 2025 | CDCR incident reports |
@@ -49,6 +50,7 @@ Transcribed and downloaded source files in `sources/`:
 | `verification_flags.csv` | Values in these files that conflict with the source's own totals or with other sources, with the evidence on each side and what would resolve it. Values are left as transcribed until a source settles them. | Compiled from the sources above |
 | `mpar_envelope_last_completed.csv` | Most recent roofing or building envelope project by institution | CDCR Master Plan Annual Reports, 2020–2025 |
 | `cchcs_mortality_2006-2024.csv` | Annual deaths and mortality rates, system-wide | CCHCS Health Care Services Dashboard |
+| `sb601_open_data/` | SB 601 data download (all categories, Jan 2020 – Jun 2024), data dictionary, and counting rules, as published | [SB601 Reporting](https://data.ca.gov/dataset/sb601-reporting), data.ca.gov |
 
 ## Repository layout
 
@@ -188,6 +190,17 @@ Both files are long format: one row per month, institution, and measure. `cchcs_
 
 From the dashboard CDCR publishes under SB 601. `sb601_operations.csv` has monthly lockdowns and modified programs, deaths, overtime hours, and use of force by institution and fiscal year. `sb601_programs.csv` has monthly enrollment and operational capacity by program for FY 2024-25.
 
+### Grievances (`sb601_grievances.csv`)
+
+Monthly counts of incarcerated people's grievance and appeal claims by institution, one row per institution, report date, and metric. Counts are claims, not grievances: one grievance can contain several claims. The file has no grievance subject or category.
+
+`source` says where each row came from:
+
+- `dashboard`: the SB 601 dashboard, Jul 2021 – Jun 2026 (plus a few Jan 2021 values), with detailed statuses: Received, Denied, Granted, Redirected, Rejected, Reassigned, No Jurisdiction, Staff Misconduct, Time Expired, Pending, and Pending Legal Matter, plus appeals.
+- `open_data`: the SB 601 download on data.ca.gov, used for Jan 2020 – Jun 2021, with the older groupings Received, Upheld, Dismissed, Pending, and Time Expired. Jan – Jun 2020 has the 1st, 2nd, and 3rd level appeals that ended when the grievance process changed on June 1, 2020. The counting rules in `sources/sb601_open_data/` define each metric.
+
+The open data download runs through Jun 2024, but the dashboard is used for every month it covers. CDCR notes that counts are subject to restatement, and the two differed slightly in some overlapping months. The status groupings change between the sources, so compare Received, Pending, and Time Expired across the Jul 2021 boundary rather than Upheld or Dismissed. `institution` and `report_date` are as published. Some dashboard values have a report date other than the month's last day; `month` groups them with the rest of that month. `cdcr_code` maps both sources' institution names to the crosswalk codes.
+
 ### Staffing (`sco_staffing.csv`, `sco_staffing_avg.csv`)
 
 Active employee counts (full-time, part-time, intermittent, indeterminate, total) for CDCR facilities from SCO's Active State Employees by Department reports, retrieved through Wayback Machine snapshots. Regional offices, training academies, parole, and administrative units are excluded. PIA sub-entries are kept as separate rows ending in `- PIA`. `CDCR/CCHCS CA HEALTH CARE` is CCHCS staff at CHCF, separate from the CDCR operational staff row for the same facility. `sco_staffing_avg.csv` averages the 2025 reports and maps each row to a CDCR code.
@@ -251,6 +264,7 @@ Source PDFs are not stored in the repository. Download new reports into the matc
 | Restricted housing | CDCR Office of Research STA429 monthly reports | `sources/restricted_housing/` (`STA429-MMDDYY-M.pdf`) | `python3 scrapers/extract_restricted_housing.py` |
 | Health care | [CCHCS dashboard](https://cchcs.ca.gov/dashboard/) | — | `node scrapers/fetch_cchcs_ipc.js`, `node scrapers/fetch_cchcs_measures.js` |
 | SB 601 | SB 601 dashboard | — | `node scrapers/fetch_sb601_operations.js`, `node scrapers/fetch_sb601_programs.js` |
+| Grievances | SB 601 dashboard (queried directly, no browser) and [SB 601 open data](https://data.ca.gov/dataset/sb601-reporting) | `sources/sb601_open_data/` (if a newer download is published, update `OPEN_DATA` in the script) | `python3 scrapers/fetch_sb601_grievances.py` |
 | Staffing | SCO Active State Employees by Department | `sources/cdcr_staffing/` | `python3 scrapers/extract_sco_staffing.py`, then `build_sco_staffing_avg.py` |
 | Violent incidents | CDCR incident reports | `sources/cdcr_incidents/` | Add the filename to the list in `scrapers/extract_violent_incidents.py`, then run it |
 | Mental health beds | [CCHCS reports](https://cchcs.ca.gov/reports/): monthly PIP census, Coleman PIP waitlist, and MHCB census reports, and the Mental Health Bed Need Study | `sources/specialized_beds/`, keeping the `YYYY-MM-DD_` report-date prefix | `python3 scrapers/extract_specialized_beds.py` |
@@ -281,6 +295,8 @@ California Department of Corrections and Rehabilitation. (2025). *Population Dat
 California Department of Corrections and Rehabilitation. (2024–2026). *Restricted Housing Monthly Report (STA429)*. Office of Research.
 
 California Department of Corrections and Rehabilitation. (2025). *SB 601 Programs Dashboard* [Interactive dashboard]. https://app.powerbigov.us/view?r=eyJrIjoiYzlkM2RiNWEtZDRjMi00ODllLTg2YzEtZjYyM2MwMjA5NmQ0IiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9&pageName=5a926528bbf7e48d60c2
+
+California Department of Corrections and Rehabilitation. (2024). *SB601 Reporting* [Dataset, data through June 2024]. California Open Data Portal. https://data.ca.gov/dataset/sb601-reporting
 
 California Department of Corrections and Rehabilitation. (2021–2025). *CompStat Incident Report* and *Incident Report – Public*.
 

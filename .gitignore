@@ -9,6 +9,9 @@ sources/heat_cooling/
 sources/prea/
 sources/cdcr_web/
 
+# Public records act responses (password-protected, not ours to publish)
+sources/pwc_2026_pra/
+
 # Scraper resume state and run logs (regenerable)
 .cache/
 data/cdcr_incidents_extraction_notes.txt
