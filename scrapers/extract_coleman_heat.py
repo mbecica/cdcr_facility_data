@@ -35,6 +35,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PDF_DIR = ROOT / 'sources' / 'heat_cooling'
 
 R8558 = 'coleman_ecf8558_31st_round_heat_report_2025-02-28'
+R8838 = 'coleman_ecf8838-1_31st_round_part_b_appendix_a_2025-12-18'
 RKVSP = 'coleman_receiver_cqit_audit_kvsp_2026'
 R8359 = 'coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16'
 R8095 = 'coleman_ecf8095_30th_round_part_c_eop_report_2023-12-22'
@@ -64,6 +65,7 @@ def load_pages(report, header_re=None):
 PAGES = {
     R8558: load_pages(R8558, r'Case 2:90-cv-00520-KJM-SCR\s+Document 8558\s+Filed 02/28/25\s+Page \d+ of 128'),
     RKVSP: load_pages(RKVSP, r'Receiver’s Compliance Team \| \d+|KVSP CQI Report \| 2026'),
+    R8838: load_pages(R8838, r'Case 2:90-cv-00520-TLN-SCR\s+Document 8838-1\s+Filed 12/18/25\s+Page \d+ of 1417'),
     R8359: load_pages(R8359, r'Case 2:90-cv-00520-KJM-SCR\s+Document 8359\s+Filed 08/16/24\s+Page \d+ of 799'),
     R8095: load_pages(R8095, r'Case 2:90-cv-00520-KJM-SCR\s+Document 8095\s+Filed 12/22/23\s+Page \d+ of 1115'),
     R7833: load_pages(R7833, r'Case 2:90-cv-00520-KJM-\w+\s+Document 7833\s+Filed \S+\s+Page \d+ of \d+'),
@@ -73,13 +75,21 @@ PAGES = {
     R7074: load_pages(R7074, r'Case 2:90-cv-00520-KJM-\w+\s+Document 7074\s+Filed \S+\s+Page \d+ of \d+'),
     R5779: load_pages(R5779, r'Case 2:90-cv-00520-KJM-\w+\s+Document 5779\s+Filed \S+\s+Page \d+ of \d+'),
 }
-ROUND_REPORTS = (R8359, R8095, R7833, R7715, R7716, R7555, R7074, R5779)
+ROUND_REPORTS = (R8838, R8359, R8095, R7833, R7715, R7716, R7555, R7074, R5779)
+
+
+# ECF 8838-1 prints the CSP/Corcoran summary twice (pp. 385-432 and 433-480); a quote found in
+# both copies is cited at the first.
+DUPLICATE_PAGES = {R8838: (433, 480, -48)}
 
 
 def page_of(report, quote):
     q = norm(quote)
     pages = PAGES[report]
     hits = [i + 1 for i, p in enumerate(pages) if q in p]
+    if report in DUPLICATE_PAGES:
+        lo, hi, shift = DUPLICATE_PAGES[report]
+        hits = sorted({h + shift if lo <= h <= hi else h for h in hits})
     # round reports repeat stock phrases across institutions, so their quotes must be unique
     if len(hits) > 1 and report in ROUND_REPORTS:
         sys.exit(f'quote is on more than one page of {report} {hits}; lengthen it: {quote[:90]}')
@@ -1239,6 +1249,371 @@ add('CHCF', 'CHCF', '2016-05', '2016-05', 'heat_related_illnesses', 0, NS,
     'There were no reports of inmate heat-related illnesses during May 2016.', report=R)
 
 
+# ---------------------------------------------------------------- 31st round Part B (ECF 8838)
+# ECF 8838-1, Appendix A (institutional summaries) to the 31st round Part B report, filed Dec 2025.
+# Site visits Jan - Aug 2025; review periods run Jun 2024 - May 2025, so most cover part of the
+# 2024 heat season or May 2025. Counts use the months the heat plan was in effect where the text
+# names them, otherwise the review period. Review periods are as printed; four print an end date
+# before the start date, and their count rows carry the heat months only.
+R = R8838
+V = {
+    'ASP': '2025-07-10/2025-07-11', 'CCI': '2025-07-22/2025-07-24', 'CHCF': '2025-02-04/2025-02-07',
+    'CIM': '2025-06-10/2025-06-13', 'CIW': '2025-03-03/2025-03-06', 'CMF': '2025-01-28/2025-01-31',
+    'CMC': '2025-05-06/2025-05-08', 'CRC': '2025-08-18/2025-08-21', 'COR': '2025-03-11/2025-03-14',
+    'LAC': '2025-04-01/2025-04-04', 'SAC': '2025-04-22/2025-04-25', 'SOL': '2025-02-11/2025-02-13',
+    'SATF': '2025-05-20/2025-05-22', 'CTF': '2025-02-25/2025-02-27', 'CCWF': '2025-04-29/2025-05-02',
+    'FOL': '2025-03-25/2025-03-27', 'HDSP': '2025-08-26/2025-08-28', 'KVSP': '2025-06-03/2025-06-05',
+    'MCSP': '2025-02-18/2025-02-21', 'NKSP': '2025-07-29/2025-08-01', 'PBSP': '2025-05-12/2025-05-16',
+    'PVSP': '2025-07-08/2025-07-09', 'RJD': '2025-01-21/2025-01-25', 'SVSP': '2025-01-14/2025-01-17',
+    'SQ': '2025-04-15/2025-04-18', 'SCC': '2025-06-16/2025-06-18', 'VSP': '2025-03-18/2025-03-21',
+    'WSP': '2025-08-05/2025-08-07',
+}
+NAME = {'COR': 'CSP/Corcoran', 'LAC': 'CSP/LAC', 'SAC': 'CSP/Sac', 'SOL': 'CSP/Solano', 'SATF': 'CSATF',
+        'FOL': 'Folsom', 'SQ': 'SQRC'}
+nm = lambda c: NAME.get(c, c)
+f8838 = lambda code, area, f, q: finding(code, nm(code), R, V[code], area, f, q)
+def a8838(code, start, end, measure, value, recorded_in, q, **kw):
+    add(code, nm(code), start, end, measure, value, recorded_in, q, report=R, **kw)
+def m8838(code, start, end, s1, s2, s3, q, recorded_in=NS, note=''):
+    msr(code, nm(code), start, end, s1, s2, s3, q, recorded_in=recorded_in, note=note, report=R)
+t8838 = lambda code, groups: train(code, nm(code), R, groups)
+
+for code, q in (
+    ('CCI', 'CCI’s Heat Plan LOP, dated May 14 2025, complied with CDCR policy.'),
+    ('CIM', 'CIM’s heat plan LOP had a last revision date of May 2025, and was up to date with statewide policy'),
+    ('CIW', 'CIW’s heat plan LOP was updated in May 2024 and not only comported with headquarters’ directive'),
+    ('CMC', 'CMC’s heat plan LOP was last updated on April 25, 2024 and conformed to required policy.'),
+    ('CRC', 'CRC’s heat plan local operating procedure (LOP) was last revised on April 10, 2025 and complied with CDCR policy.'),
+    ('COR', 'CSP/Corcoran’s heat plan LOP was current and complied with CDCR policy, most recently revised in April 2024.'),
+    ('LAC', 'CSP/LAC’s heat plan LOP was current and complied with CDCR policy; it was last revised in January 2025.'),
+    ('SAC', 'CSP/Sac’s heat plan LOP was last updated on August 23, 2024 and conformed to required policy.'),
+    ('SOL', 'CSP/Solano’s heat plan LOP was up to date and followed headquarters’ directive.'),
+    ('SATF', 'CSATF provided the heat plan LOP dated April 28, 2024 which conformed to required policy.'),
+    ('CTF', 'CTF’s heat plan LOP was current and complied with CDCR policy.'),
+    ('CCWF', 'Review of CCWF’s heat plan LOP indicated compliance with April 8, 2024 headquarters’ directive.'),
+    ('FOL', 'The institution’s heat plan was current with a last revision date of April 2024.'),
+    ('HDSP', 'HDSP’s heat plan LOP was last revised in April 2024 and complied with CDCR policy.'),
+    ('KVSP', 'Review of KVSP’s heat plan LOP indicated compliance with headquarters’ directive.'),
+    ('NKSP', 'NKSP’s heat plan LOP was current and complied with CDCR policy; it was last revised in December 2024.'),
+    ('PBSP', 'PBSP’s heat plan LOP was revised in May 2024 and complied with CDCR policy.'),
+    ('PVSP', 'PVSP’s heat plan local operating procedure was revised in May 2025 and was compliant with the 2025 Heat Plan and Updated memorandum.'),
+    ('RJD', 'RJD’s heat plan LOP was revised in April 2024 and was compliant with the 2024 Heat Plan and Updates Memorandum.'),
+    ('SVSP', 'The SVSP Heat Plan LOP was current and consistent with CDCR headquarters policy memorandum requirements.'),
+    ('SQ', 'SQRC’s institution LOP was up-to-date and complied with headquarters directive.'),
+    ('SCC', 'The updated LOP followed the statewide LOP for heat plan.'),
+    ('VSP', 'The institution’s heat plan LOP was up-to-date and complied with headquarters’ directive.'),
+    ('WSP', 'The institution’s LOP was in line with the 2024 and 2025 Heat Plan and Updates memorandums.'),
+):
+    f8838(code, 'local_operating_procedure', C, q)
+f8838('CHCF', 'local_operating_procedure', N, 'was not compliant with the headquarters’ directive as the LOP incorporated an outdated heat plan memorandum from 2019')
+f8838('MCSP', 'local_operating_procedure', N, 'The Supplement did not include references to the current Heat Plan and Updates memorandum or Expectations Memorandum and was therefore not compliant.')
+
+# ASP (review period printed Dec 1, 2024 - May 30, 2024): no alert counts given
+t8838('ASP', (
+    ('correctional_officers', 594, 613, 'For correctional officers, 594 out of 613 or 97 percent attended the training.'),
+    ('psychologists', 6, 7, 'six of seven psychologists or 86 percent attended the training'),
+    ('social_workers', 8, 12, 'For social workers, eight out of 12 or 67 percent attended.'),
+))
+# CCI (review period Dec 2024 - May 2025; heat plan in effect May 2025)
+a8838('CCI', '2025-05', '2025-05', 'stage_i_alerts', 2, NS,
+      'During that time, CCI reported two stage I heat alerts, each occurring on May 30 and 31, 2025 respectively.',
+      note='Stage II and III counts not stated.')
+a8838('CCI', '2025-05', '2025-05', 'heat_related_illnesses', 1, NS,
+      'CCI also reported one heat-related illness during the review period which involved a 3CMS patient.')
+t8838('CCI', (
+    ('custody', 637, 639, 'CCI reported that 637 of 639 or 99 percent of custody staff attended the training.'),
+    ('non_custody', 101, 122, 'For non-custody staff, 101 of 122 or 83 percent attended the training.'),
+))
+f8838('CCI', 'heat_plan', N, 'CCI’s implementation of the 2025 Heat Plan and Updates memorandum was not compliant during the review period.')
+# CHCF (review period Jul - Dec 2024; heat plan in effect Jul - Oct 2024)
+m8838('CHCF', '2024-07', '2024-10', 81, 0, 0,
+      'The Summary Reports reflected there were 81 Stage I heat alerts and no Stage II or Stage III heat alerts during the four months.',
+      recorded_in=MSR)
+a8838('CHCF', '2024-07', '2024-10', 'stage_i_alerts', 80, DAR,
+      'indicated that there were only 80 Stage I heat alert activations during the four months')
+a8838('CHCF', '2024-07', '2024-10', 'heat_related_illnesses', 0, NS,
+      'There were no heat-related illnesses reported during the four months at CHCF.')
+t8838('CHCF', (
+    ('custody', 926, 1005, '926 of 1,005 or 92 percent of custody staff'),
+    ('non_custody', 1441, 1778, '1441 of 1778 or 81 percent of non-custody staff completed the training'),
+))
+f8838('CHCF', 'indoor_temperature_logs', C, 'CHCF’s indoor temperature recording procedures complied with the 2024 Heat Plan and Updates memorandum.')
+f8838('CHCF', 'heat_plan', C, 'Overall, CHCF’s implementation of the 2024 Heat Plan and Updates Memorandum was compliant during the review period.')
+# CIM (review period printed Nov 1, 2025 - Apr 30, 2024): heat plan not in effect, no counts
+t8838('CIM', (
+    ('lieutenants', 22, 23, '22 of 23 lieutenants, 68 of 75 sergeants, and 582 of 649 custody staff attended the training'),
+    ('sergeants', 68, 75, '22 of 23 lieutenants, 68 of 75 sergeants, and 582 of 649 custody staff attended the training'),
+    ('custody', 582, 649, '22 of 23 lieutenants, 68 of 75 sergeants, and 582 of 649 custody staff attended the training'),
+))
+# CIW (review period Aug 2024 - Jan 2025)
+m8838('CIW', '2024-08', '2025-01', 46, 9, 1,
+      'CIW produced Summary Reports for each month of the review period indicating 46 stage I, nine stage II, and one stage III heat alert during the review period.',
+      recorded_in=MSR, note='The same summary later refers to "the two stage III heat alerts".')
+a8838('CIW', '2024-09-30', '2024-09-30', 'heat_related_illnesses', 1, IL,
+      'CIW reported one heat-related illness during the review period on September 30, 2024 in the RHU.',
+      note='Heat Incident Log lacked the disposition and the clinician’s name and title.')
+t8838('CIW', (
+    ('custody', 457, 466, 'CIW reported that 457 of 466 or 98 percent of custody staff members'),
+    ('non_custody', 221, 249, '221 of 249 or 89 percent of the required non-custody staff attended the heat pathologies training'),
+))
+f8838('CIW', 'monthly_summary_reports', N, 'and the incomplete heat incident log form, the Summary Reports were not compliant with the 2024 Heat Plan and Updates memorandum.')
+f8838('CIW', 'staff_knowledge', C, 'Accordingly, CIW’s custody staff interviews and heat-risk patient lists complied with the requirements of the 2024 Heat Plan and Updates memorandum')
+f8838('CIW', 'outdoor_temperature_logs', C, 'The institution’s outdoor temperature recording procedures, therefore, complied with the 2024 Heat Plan and Updates memorandum.')
+f8838('CIW', 'indoor_temperature_logs', C, 'and reviewed temperature logs were completed appropriately, thus demonstrating compliance with the 2024 Heat Plan and Updates memorandum.')
+f8838('CIW', 'accommodations_cooling', N, 'CIW was not compliant with this aspect of 2024 Heat Plan and Updates memorandum.')
+f8838('CIW', 'heat_plan', 'adequate', 'Overall, CIW’s implementation of the 2024 Heat Plan and Updates memorandum was adequate.')
+# CMF (review period Jun - Nov 2024; heat plan in effect Jun - Oct 2024)
+m8838('CMF', '2024-06', '2024-10', 79, 19, 1,
+      'Summary reports from that time reflected that there were 79 Stage I, 19 Stage II, and one Stage III heat alert.',
+      recorded_in=MSR)
+a8838('CMF', '2024-06', '2024-10', 'heat_related_illnesses', 1, IL,
+      'One patient was reported to have experienced a heat related illness during that timeframe. Proper documentation for this incident was completed.')
+t8838('CMF', (
+    ('custody', 719, 795, 'CMF indicated that 719 of 795 or 90 percent of custody staff and 130 of 131 or'),
+    ('non_custody', 130, 131, 'CMF indicated that 719 of 795 or 90 percent of custody staff and 130 of 131 or'),
+))
+# CMC (review period Oct 2024 - Mar 2025; heat plan in effect Oct 2024)
+m8838('CMC', '2024-10', '2024-10', 2, 1, 0,
+      'The Summary Report for October, 2024 reflected that there were two Stage I heat alerts, one Stage II heat alert, and zero Stage III',
+      recorded_in=MSR)
+a8838('CMC', '2024-10', '2024-10', 'heat_related_illnesses', 0, NS, 'CMC reported no heat-related illnesses during the review period.')
+t8838('CMC', (
+    ('custody', 593, 597, 'Heat pathologies training was completed by 593 of 597 or 99 percent of custody staff members'),
+    ('clinical', 131, 139, 'Heat pathologies training was completed by 131 of 139 or 94 percent of clinical staff and nurses'),
+))
+f8838('CMC', 'daily_activity_reports', N, 'CMC was not compliant with the 2024 Heat Plan and Updates memorandum as the deactivation times were not noted on the DARs.')
+f8838('CMC', 'outdoor_temperature_logs', C, 'supported the activation of Stage I heat alerts. The institution’s outdoor temperature recording procedures complied with the 2024 Heat Plan and Updates memorandum.')
+f8838('CMC', 'indoor_temperature_logs', N, 'CMC was not compliant with indoor temperature recording procedures')
+f8838('CMC', 'accommodations_cooling', N, 'CMC’s offering of and documenting reasonable accommodations was not compliant')
+f8838('CMC', 'heat_pathologies_training', C, 'CMC was compliant with Heat Pathology training.')
+f8838('CMC', 'heat_plan', N, 'Overall, the institution’s implementation of the 2024 Heat Plan and Updates memorandum was not compliant during the review period. The DARs did not document the specific')
+# CRC (review period Dec 2024 - May 2025; heat plan in effect May 2025)
+m8838('CRC', '2025-05', '2025-05', 7, 7, 2,
+      'which reflected that there were seven Stage I heat alerts, seven Stage II heat alerts, and two Stage III heat alerts.',
+      recorded_in=MSR)
+a8838('CRC', '2025-05', '2025-05', 'heat_related_illnesses', 1, IL, 'CRC reported one heat-related illness.')
+t8838('CRC', (
+    ('custody', 496, 637, '496 of 637 or 78 percent of custody staff'),
+    ('medical_mental_health', 84, 115, '84 of 115 or 73 percent of medical and mental health staff'),
+))
+f8838('CRC', 'monthly_summary_reports', C, 'The institution’s Summary Report and heat incident log were compliant with the 2025 Heat Plan and Updates memorandum.')
+f8838('CRC', 'heat_pathologies_training', N, 'notwithstanding noncompliance with heat plan related training')
+f8838('CRC', 'heat_plan', C, 'CRC’s implementation of the 2025 Heat Plan was compliant during the review period.')
+# CSP/Corcoran (review period Aug 2024 - Jan 2025; heat plan in effect Aug - Oct 2024)
+m8838('COR', '2024-08', '2024-10', 67, 0, 0,
+      'There were 67 Stage I heat alerts and no Stage II or Stage III heat alerts during the review period.',
+      note='The monitor found the inside and outside temperature logs for Aug - Oct 2024 consistent with the monthly summary sent to headquarters.')
+a8838('COR', '2024-08', '2024-10', 'heat_related_illnesses', 0, NS,
+      'No patients experienced heat-related illnesses during the review period. A total of 14 custody officers')
+f8838('COR', 'heat_pathologies_training', U, 'The institution did not provide documentation regarding heat plan-related training.')
+f8838('COR', 'heat_plan', C, 'Overall, notwithstanding the lack of training compliance data noted above, the institution demonstrated compliance with heat plan requirements')
+# CSP/LAC (review period Sep 2024 - Feb 2025; heat plan in effect Sep - Oct 2024)
+m8838('LAC', '2024-09', '2024-10', 23, 0, 0,
+      'There were 23 Stage I heat alerts, and zero, Stage II or Stage III heat alerts during the review period.')
+a8838('LAC', '2024-09', '2024-10', 'heat_related_illnesses', 2, IL,
+      'Two patients experienced heat-related illnesses during the review period. The incidents were appropriately documented.')
+q = 'three of six of captains, nine of 35 lieutenants, 34 of 77 sergeants, and 300 of 705 correctional officers attended the required training'
+t8838('LAC', (
+    ('captains', 3, 6, q), ('lieutenants', 9, 35, q), ('sergeants', 34, 77, q), ('correctional_officers', 300, 705, q),
+    ('nurses', 121, 199, 'psychiatrists, no psychiatric nurse practitioners, and 121 of 199 nurses attended the required training.'),
+))
+# CSP/Sac (review period Sep 2024 - Feb 2025; heat plan in effect Sep - Oct 2024)
+m8838('SAC', '2024-09', '2024-10', 24, 9, 3,
+      'CSP/Sac produced Summary Reports for September and October, 2024 which reflected that there were 24 Stage I heat alerts, nine Stage II heat alerts, and three Stage III',
+      recorded_in=MSR,
+      note='All Stage II and III alerts were in non-housing areas (eight in the PIA laundry, one in the Facility B visiting room); no medical rounds were documented.')
+a8838('SAC', '2024-09', '2024-09', 'stage_ii_alerts', 3, DAR, 'Three of six Stage II heat alerts were noted in the DARs for September.',
+      note='Three of the six Stage II alerts in September were noted in the DARs.')
+a8838('SAC', '2024-10', '2024-10', 'stage_ii_alerts', 0, DAR, 'None of the stage II heat alerts were noted in the DARs for October.')
+a8838('SAC', '2024-09', '2024-09', 'stage_iii_alerts', 0, DAR, 'None of the three noted Stage III heat alerts were noted in the DARs in September.')
+a8838('SAC', '2024-09', '2024-10', 'heat_related_illnesses', 0, NS, 'CSP/Sac reported no heat-related illnesses during the review period.')
+t8838('SAC', (
+    ('custody', 604, 751, 'Heat pathologies training was completed by 604 of 751 or 80 percent of custody staff'),
+    ('clinical', 360, 517, '360 or 517 or 70 percent of clinical staff and nurses'),
+))
+counts[-1]['note'] = counts[-2]['note'] = 'Source reads "360 or 517 or 70 percent"; 360/517 = 70%.'
+# CSP/Solano (review period Jul - Dec 2024; heat plan in effect Jul - Oct 2024)
+m8838('SOL', '2024-07', '2024-10', 64, 40, 8,
+      'The heat plan was in effect from July through October of the review period and there were 64 stage I, 40 stage II, and eight stage III heat alerts.')
+a8838('SOL', '2024-07', '2024-10', 'heat_related_illnesses', 0, NS,
+      'No patients experienced heat-related illness during the review period. The 2024 Heat Plan')
+t8838('SOL', (
+    ('mental_health', 122, 138, '122 of 138 or 88 percent of required mental health'),
+    ('custody', 693, 716, '693 of 716 or 97 percent of required custody staff'),
+))
+# CSATF (review period Oct 2024 - Mar 2025; heat plan in effect Oct 2024)
+m8838('SATF', '2024-10', '2024-10', 9, 0, 0,
+      'CSATF produced an October of 2024 summary report which reflected that there were nine Stage I and zero Stage II or Stage III heat alerts',
+      recorded_in=MSR, note='The outside temperature logs were consistent with the summary report.')
+a8838('SATF', '2024-10', '2024-10', 'stage_i_alerts', 7, DAR, 'only seven Stage I heat alerts were noted in the October 2024 DARs')
+a8838('SATF', '2024-10', '2024-10', 'heat_related_illnesses', 0, NS, 'CSATF reported no heat-related illnesses during the review period.')
+t8838('SATF', (
+    ('custody', 946, 1014, 'Heat pathologies training was completed by 946 of 1014 or 93 percent of custody staff members'),
+    ('clinical', 205, 229, '205 of 229 or 90 percent of clinical staff and nurses'),
+))
+f8838('SATF', 'monthly_summary_reports', N, 'the monthly summary reports were inconsistent with the respective DARs, which compromised the reliability of the information presented to headquarters')
+f8838('SATF', 'accommodations_cooling', N, 'the DARs did not document the specific accommodations provided to heat risk patients during heat alerts in October of 2024 and May 2025')
+f8838('SATF', 'staff_knowledge', C, 'Of note, staff knowledge of heat plan requirements, indoor temperature monitoring, and training on heat plan was compliant.')
+f8838('SATF', 'indoor_temperature_logs', C, 'Of note, staff knowledge of heat plan requirements, indoor temperature monitoring, and training on heat plan was compliant.')
+f8838('SATF', 'heat_pathologies_training', C, 'Of note, staff knowledge of heat plan requirements, indoor temperature monitoring, and training on heat plan was compliant.')
+f8838('SATF', 'heat_plan', N, 'Overall, the institution’s implementation of the 2024 Heat Plan and Updates memorandum was not compliant during the review period. These')
+# CTF (review period Jul - Dec 2024; heat plan in effect four months, not named)
+m8838('CTF', '2024-07', '2024-12', 5, 2, 0,
+      'CTF reported five Stage I heat alerts, two Stage II heat alerts, and zero Stage III heat alerts.',
+      note='Heat plan in effect four months of the review period; months not named.')
+a8838('CTF', '2024-07', '2024-12', 'heat_related_illnesses', 0, NS,
+      'No patients experienced heat-related illnesses during the review period. The 2024 Heat Plan and Updates Memorandum required')
+t8838('CTF', (
+    ('psychiatrists', 1, 4, 'of four, or 25 percent, of psychiatrists attended training'),
+    ('social_workers', 2, 8, 'two of eight, or 25 percent, of social workers attended training'),
+    ('psychologists', 3, 9, 'three of nine, or 33 percent, of psychologists attended training'),
+    ('nurses', 36, 105, '36 of 105, or 34 percent, of nurses attended training'),
+))
+a8838('CTF', '', '', 'training_completed_pct', 100, TR, 'CTF reported that 100 percent of custody staff', group='custody')
+f8838('CTF', 'indoor_temperature_logs', C, 'CTF provided indoor temperature logs for all units, which reflected compliance with this requirement.')
+# CCWF (review period Sep 2024 - Feb 2025; heat plan in effect Sep - Oct 2024)
+m8838('CCWF', '2024-09', '2024-10', 24, 0, 0,
+      'corresponding Monthly Summary Reports reported 24 Stage I, but no Stage II or III heat alerts', recorded_in=MSR)
+a8838('CCWF', '2024-09', '2024-10', 'heat_related_illnesses', 0, NS,
+      'No patients were reported to have experienced heat-related illnesses during the review period.')
+q = 'CCWF reported annual mandatory heat-related pathologies training was attended by 178 or 88 percent of custody staff'
+a8838('CCWF', '', '', 'training_completed', 178, TR, q, group='custody', note='88 percent; number required not given.')
+t8838('CCWF', (('mental_health', 178, 234, '178 of 234 or 76 percent of mental health staff'),))
+# Folsom (review period Aug 2024 - Jan 2025)
+m8838('FOL', '2024-08', '2025-01', 47, 6, 0, 'During the review period, there were 47 Stage I, six Stage II, and no Stage III heat alerts.')
+a8838('FOL', '2024-08', '2025-01', 'heat_related_illnesses', 0, NS,
+      'There were no heat-related illnesses during the review period. The 2024 Heat Plan')
+t8838('FOL', (
+    ('custody', 584, 584, 'All 584 custody staff and 86 of 88 or 98 percent of mental health staff attended required heat plan training.'),
+    ('mental_health', 86, 88, 'All 584 custody staff and 86 of 88 or 98 percent of mental health staff attended required heat plan training.'),
+))
+# HDSP (review period Nov 2024 - Apr 2025): heat plan not in effect, no counts
+f8838('HDSP', 'staff_knowledge', C, 'were compliant with their knowledge of the heat plan')
+t8838('HDSP', (
+    ('correctional_officers', 613, 613, 'all 69 sergeants, and all 613 correctional officers'),
+    ('nurses', 92, 100, '92 of 100 nurses, also attended the training'),
+))
+# KVSP (review period Nov 2024 - Apr 2025): heat plan not in effect, no counts
+t8838('KVSP', (
+    ('mental_health', 147, 171, '147 of 171 or 86 percent of mental health staff completed heat pathologies training'),
+    ('custody', 779, 779, 'as well as all 779 of custody staff'),
+))
+# MCSP (review period Jul - Dec 2024; Summary Reports Jul - Oct 2024)
+m8838('MCSP', '2024-07', '2024-10', 81, 8, 2,
+      'The Summary Reports reflected there were 81 Stage I heat alerts, eight Stage II heat alerts, and two Stage III heat alerts during the four months.',
+      recorded_in=MSR)
+a8838('MCSP', '2024-07', '2024-07', 'stage_iii_alerts', 3, TL,
+      'temperatures in unit C11 reached over 95 degrees three times on July 6, July 7 and July 10, 2024, when Stage III heat alerts were only recorded in the summary reports as occurring twice',
+      note='Indoor temperature log for unit C11.')
+a8838('MCSP', '2024-08', '2024-08', 'stage_i_alerts', 27, MSR, 'Twenty-seven Stage I alerts were reported in August, however 26 were reported in the temperature log.')
+a8838('MCSP', '2024-08', '2024-08', 'stage_i_alerts', 26, TL, 'Twenty-seven Stage I alerts were reported in August, however 26 were reported in the temperature log.')
+a8838('MCSP', '2024-09', '2024-09', 'stage_i_alerts', 18, MSR, 'In September, 18 Stage I alerts were reported in the Summary Report, however 19 were recorded in the outdoor temperature log.')
+a8838('MCSP', '2024-09', '2024-09', 'stage_i_alerts', 19, TL, 'In September, 18 Stage I alerts were reported in the Summary Report, however 19 were recorded in the outdoor temperature log.', note='Outdoor temperature log.')
+a8838('MCSP', '2024-10', '2024-10', 'stage_i_alerts', 9, TL, 'Outdoor temperature logs indicated nine Stage I alerts in October of 2024 however, the Summary Report indicated eight.', note='Outdoor temperature log.')
+a8838('MCSP', '2024-10', '2024-10', 'stage_i_alerts', 8, MSR, 'Outdoor temperature logs indicated nine Stage I alerts in October of 2024 however, the Summary Report indicated eight.')
+q = 'Reviewed DARs for all four months indicated one Stage II alert and no Stage III alerts.'
+a8838('MCSP', '2024-07', '2024-10', 'stage_ii_alerts', 1, DAR, q)
+a8838('MCSP', '2024-07', '2024-10', 'stage_iii_alerts', 0, DAR, q)
+a8838('MCSP', '2024-07-05', '2024-07-05', 'heat_related_illnesses', 1, NS,
+      'MCSP reported one heat-related illnesses during the review period on July 5,')
+a8838('MCSP', '2024-07-08', '2024-07-08', 'heat_related_illnesses', 1, DAR,
+      'the DAR on July 8, 2024 noted a medical emergency activated at 1537 for heat exhaustion. This incident was not reported in the Heat Incident Log.')
+a8838('MCSP', '', '', 'training_completed', 368, TR, 'Heat-related pathologies training was completed by 368 or 44 percent of custody staff members.',
+      group='custody', note='44 percent; number required not given.')
+t8838('MCSP', (('clinical', 209, 317, '209 of 317 or 66 percent of clinical staff and nurses'),))
+f8838('MCSP', 'monthly_summary_reports', N, 'Given these inconsistencies, the institution was not compliant with providing accurate monthly summary reports during the review period.')
+f8838('MCSP', 'medical_rounds', N, 'Due to the failure to conduct medical rounds during two Stage III heat alerts, MCSP was not compliant')
+f8838('MCSP', 'outdoor_temperature_logs', C, 'Outside temperatures at MCSP were recorded by central control during the review period. The institution’s outdoor temperature recording procedures complied')
+f8838('MCSP', 'indoor_temperature_logs', N, 'The institution’s indoor temperature recording procedures were not compliant with the 2024 Heat Plan and Updates memorandum.')
+f8838('MCSP', 'heat_pathologies_training', N, 'Therefore, MCSP was not compliant with heat-related pathologies training requirements during the review period.')
+f8838('MCSP', 'heat_plan', N, 'Overall, MCSP’s implementation of the current Heat Plan and Updates memorandum and Expectations Relative to Institutional Oversight of Heat Plan Operations memorandum (Expectations Memorandum) were not compliant during the review period.')
+# NKSP (review period Dec 2024 - May 2025; heat plan in effect May 2025)
+m8838('NKSP', '2025-05', '2025-05', 7, 0, 0,
+      'There were seven Stage I heat alerts, and zero Stage II or Stage III heat alerts during the review period.')
+a8838('NKSP', '2025-05', '2025-05', 'heat_related_illnesses', 0, NS,
+      'No patients experienced heat-related illnesses during the review period. The 2024 Heat Plan and Updates memorandum required')
+q = 'three out of six captains, nine out of 35 lieutenants, 34 out of 77 sergeants, and 300 out of 705 or 43 percent of correctional officers attended the required training'
+t8838('NKSP', (
+    ('captains', 3, 6, q), ('lieutenants', 9, 35, q), ('sergeants', 34, 77, q), ('correctional_officers', 300, 705, q),
+    ('social_workers', 8, 13, '8 of 13 social workers, and 121 of 199 nurses attended the required training'),
+    ('nurses', 121, 199, '8 of 13 social workers, and 121 of 199 nurses attended the required training'),
+))
+for r in counts[-12:]:
+    r['note'] = 'Same figures as CSP/LAC’s training in this report.'
+# PBSP (review period Oct 2024 - Mar 2025; heat plan in effect one month, not named)
+m8838('PBSP', '2024-10', '2025-03', 0, 0, 0,
+      'The heat plan was in effect for one month of the reporting period. There were no Stage I, Stage II, or Stage III heat alerts.',
+      note='Heat plan in effect one month of the review period; month not named.')
+a8838('PBSP', '2024-10', '2025-03', 'heat_related_illnesses', 0, NS,
+      'No patients experienced heat-related illness during the review period. Interviewed officers from Facilities A, B, and D')
+# PVSP (review period Dec 2024 - May 2025; heat plan in effect May 2025)
+m8838('PVSP', '2025-05', '2025-05', 9, 0, 0,
+      'PVSP produced a Summary Report for May, which reflected that there were nine Stage I heat alerts, and no Stage II or Stage III heat alerts during the review period.',
+      recorded_in=MSR, note='DARs and daily heat logs for May were consistent with the Summary Report.')
+a8838('PVSP', '2025-05', '2025-05', 'heat_related_illnesses', 0, NS, 'PVSP reported no heat-related illnesses during the reporting period.')
+t8838('PVSP', (
+    ('custody', 814, 817, 'Of the 817-custody staff required to take the training, 814 or 99.6 percent attended.'),
+    ('psychologists', 5, 9, 'five of nine psychologists'),
+    ('nurses', 71, 80, 'For nurses, 71 of 80 or 89 percent attended the training.'),
+))
+f8838('PVSP', 'heat_plan', C, 'Overall, PVSP’s implementation of the 2025 Heat Plan and Updated memorandum was compliant during the review period.')
+# RJD (review period Jun - Nov 2024; heat plan in effect Jun - Oct 2024)
+m8838('RJD', '2024-06', '2024-10', 9, 0, 0,
+      'monthly summary reports indicated that there were nine Stage I heat alerts and no Stage II or Stage III heat alerts.', recorded_in=MSR)
+a8838('RJD', '2024-09-08', '2024-09-08', 'stage_ii_alerts', 1, DAR,
+      'reviewed daily activity reports (DARs) indicated that there was one Stage II heat alert on September 8, 2024.')
+a8838('RJD', '2024-09-09', '2024-09-09', 'heat_related_illnesses', 1, NS,
+      'There was one heat related incident reported during the review period on September 9, 2024, on an EOP patient housed in the MHCB.',
+      note='Reported as a "heat related incident".')
+t8838('RJD', (('custody', 374, 381, 'attended by 374 of 381 or 98 percent of custody staff and all mental health and nursing staff'),))
+f8838('RJD', 'heat_plan', N, 'RJD was not compliant with the 2024 Heat Plan and Updates Memorandum or CDCR’s Expectations')
+# SVSP (review period Jun - Nov 2024; heat plan in effect Jun - Oct 2024)
+q = 'There were zero stage II and stage III heat alerts and there were zero patients reported to be suffering from heat illness during the review period.'
+a8838('SVSP', '2024-06', '2024-10', 'stage_ii_alerts', 0, NS, q)
+a8838('SVSP', '2024-06', '2024-10', 'stage_iii_alerts', 0, NS, q,
+      note='No Stage I count given; the monthly reports and DARs differed in four of the five months.')
+a8838('SVSP', '2024-06', '2024-10', 'heat_related_illnesses', 0, NS, q)
+t8838('SVSP', (
+    ('correctional_officers', 418, 682, '418 out of 682 correctional officers attended or 61 percent'),
+    ('sergeants', 47, 75, '47 out of 75 sergeants attended or 67 percent'),
+    ('lieutenants', 19, 26, '19 out of 26 lieutenants or 73 percent'),
+    ('social_workers', 6, 11, 'six of 11 social workers or 55 percent attended'),
+))
+f8838('SVSP', 'monthly_summary_reports', N, 'and the inaccurate reporting to headquarters regarding the number of Stage I heat alerts')
+f8838('SVSP', 'heat_pathologies_training', N, 'Overall, the institution was not compliant with all required heat plan policies, specifically, the lack of annual heat risk training')
+f8838('SVSP', 'indoor_temperature_logs', N, 'the location of the inside temperature probe next to an air-conditioned space')
+f8838('SVSP', 'accommodations_cooling', N, 'lack of documentation of the offering of reasonable accommodations as a result of Stage I heat alerts')
+# SQRC (review period printed Sep 1, 2024 - Feb 28, 2024; no September report)
+m8838('SQ', '2024-10', '2024-10', 4, 3, 0,
+      'For October 2024, SQRC reported four Stage I heat alerts, three Stage II heat alerts and no Stage III heat alerts.',
+      recorded_in=MSR, note='SQRC did not provide a monthly heat report for September 2024.')
+a8838('SQ', '2024-09', '2024-10', 'heat_related_illnesses', 0, NS,
+      'No patients were reported to have experienced heat-related illness during the review period.')
+t8838('SQ', (
+    ('mental_health', 328, 404, 'SQRC reported that 328 of 404 or 81 percent of mental health staff'),
+    ('custody', 848, 895, '848 of 895 or 95 percent of custody staff were compliant with heat pathologies’ training'),
+))
+# SCC (review period printed Nov 1, 2024 - Apr 30, 2024): outside heat plan months, no counts
+t8838('SCC', (('correctional_officers', 620, 623, '620 of 623, or 99 percent, of correctional officers completed the annual heat pathologies training course'),))
+# VSP (review period Aug 2024 - Jan 2025; heat plan in effect three months, not named)
+m8838('VSP', '2024-08', '2025-01', 50, 0, 0, 'VSP reported 50 Stage I and no Stage II or III heat alerts.',
+      note='Heat plan in effect three months of the review period; months not named.')
+a8838('VSP', '2024-08', '2025-01', 'heat_related_illnesses', 0, NS,
+      'No patients were reported to have experienced heat-related illnesses. Interviewed officers were all familiar')
+# WSP (review period Dec 2024 - May 2025; heat plan in effect May 2025)
+m8838('WSP', '2025-05', '2025-05', 12, 0, 0,
+      'The May 2025 monthly summary report indicated that 12 Stage I and no Stage II or Stage III heat alerts occurred.', recorded_in=MSR)
+a8838('WSP', '2025-05', '2025-05', 'heat_related_illnesses', 0, NS, 'There were no heat related illnesses reported in May 2025.')
+t8838('WSP', (
+    ('correctional_officers', 671, 671, 'and all 671 correctional officers attended the training'),
+    ('sergeants', 58, 59, '58 of 59 sergeants'),
+    ('psychiatrists', 7, 9, 'seven of nine psychiatrists, 11 of 18 psychologists, and 17 out of 19 social workers attended the training'),
+    ('psychologists', 11, 18, 'seven of nine psychiatrists, 11 of 18 psychologists, and 17 out of 19 social workers attended the training'),
+    ('social_workers', 17, 19, 'seven of nine psychiatrists, 11 of 18 psychologists, and 17 out of 19 social workers attended the training'),
+    ('nurses', 99, 139, 'For nursing staff, 99 of 139 nurses attended the training'),
+))
+
+
 # ---------------------------------------------------------------- Receiver CQIT audits (2026)
 # The Receiver's Compliance Team audits report heat indicators in tables (recorded_in
 # `cqit_indicator`) and describe heat plan practice under Strengths and Concerns. Review
@@ -1398,6 +1773,20 @@ for code, name, v in (('CRC', 'California Rehabilitation Center', 17), ('FOL', '
                       ('SCC', 'Sierra Conservation Center', 15), ('CCWF', 'Central California Women’s Facility', 3)):
     add(code, name, '2025', '2025', 'stage_iii_alerts', v, 'not_stated', q,
         note="Days. Plaintiffs' position in the Plata joint statement, citing CCHCS data.", report=RP4013)
+# Statewide heat-related emergency room and hospital visits (CCHCS data, not filed)
+add('ALL', 'CDCR', '2024', '2024', 'heat_related_er_visits', 45, 'not_stated',
+    '45 emergency room send-outs in one year (2024), 7 of which occurred while incarcerated persons were fighting fires',
+    scope='statewide', note="Defendants' position in the Plata joint statement.", report=RP4013)
+add('ALL', 'CDCR', '2024', '2024', 'heat_related_er_visits_fire_camp', 7, 'not_stated',
+    '45 emergency room send-outs in one year (2024), 7 of which occurred while incarcerated persons were fighting fires',
+    scope='statewide', note="Defendants' position in the Plata joint statement: at fire camps, fighting fires or training.",
+    report=RP4013)
+RP4013X = 'plata_ecf4013-1_cms_exhibits_2026-05-26'
+PAGES[RP4013X] = load_pages(RP4013X, r'Case 4:01-cv-01351-JST\s+Document 4013-1\s+Filed \S+\s+Page \d+ of \d+')
+add('ALL', 'CDCR', '2016', '', 'heat_related_er_visits', 245, 'not_stated',
+    'Since 2016, there have been 245 such visits.', scope='statewide',
+    note='Heat-related hospital/ER visits, per plaintiffs\' letter of May 1, 2026 (Exhibit E) citing CCHCS data; '
+         'end year not stated. Excludes treatment inside the prisons.', report=RP4013X)
 
 # Training rows have no period when the report gives none
 for r in counts:
