@@ -1,0 +1,156 @@
+cdcr_code,unit_as_stated,report,reviewer,site_visit,area,finding,page,quote
+CCI,CCI,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-23/2024-07-24,local_operating_procedure,compliant,42,
+CCI,CCI,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-23/2024-07-24,monthly_summary_reports,unable_to_report,46,"The Special Master did not request this information during the site visit; therefore, compliance could not be ascertained."
+CCI,CCI,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-23/2024-07-24,staff_knowledge,compliant,42,
+CCI,CCI,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-23/2024-07-24,outdoor_temperature_logs,compliant,42,
+CCI,CCI,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-23/2024-07-24,indoor_temperature_logs,not_compliant,47,"Although indoor temperature logs were properly completed, temperature discrepancies and broken thermometers resulted in noncompliance."
+CCI,CCI,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-23/2024-07-24,accommodations_cooling,compliant,42,
+CCI,CCI,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-23/2024-07-24,heat_pathologies_training,unable_to_report,49,The monitor was unable to review this information during the site visit; therefore compliance could not be ascertained.
+CCI,CCI,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-23/2024-07-24,overall_opening,not_compliant,45,CCI’s implementation of the 2024 Heat Plan and Updates memorandum was noncompliant
+CCI,CCI,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-23/2024-07-24,overall_conclusion,not_compliant,49,CCI’s implementation of the 2024 Heat Plan and Updates memorandum was not compliant during the review period
+CCWF,CCWF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-22,local_operating_procedure,compliant,42,
+CCWF,CCWF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-22,monthly_summary_reports,not_compliant,52,"As a result of the inconsistent heat alert activation and heat-related illness data, CCWF’s Summary Reports were not compliant"
+CCWF,CCWF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-22,staff_knowledge,not_compliant,42,
+CCWF,CCWF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-22,outdoor_temperature_logs,unable_to_report,53,"Because the monitor was unable to examine the location of the outdoor thermometer, compliance"
+CCWF,CCWF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-22,indoor_temperature_logs,compliant,42,
+CCWF,CCWF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-22,accommodations_cooling,not_compliant,56,"Because the institution failed to offer or document reasonable accommodations or adequate cooling measures during Stage I heat alerts, it did not comply"
+CCWF,CCWF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-22,heat_pathologies_training,not_compliant,42,
+CCWF,CCWF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-22,overall_opening,not_compliant,50,CCWF’s implementation of the 2024 Heat Plan and Updates memorandum was noncompliant
+CCWF,CCWF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-22,overall_conclusion,not_compliant,57,CCWF’s implementation of the 2024 Heat Plan and Updates memorandum was not compliant during the review period
+CHCF,CHCF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-15/2024-10-17,local_operating_procedure,not_compliant,58,was not compliant with the headquarters’ directive as the LOP incorporated a heat plan memorandum from 2019
+CHCF,CHCF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-15/2024-10-17,monthly_summary_reports,compliant,42,
+CHCF,CHCF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-15/2024-10-17,staff_knowledge,compliant,42,
+CHCF,CHCF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-15/2024-10-17,outdoor_temperature_logs,compliant,42,
+CHCF,CHCF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-15/2024-10-17,indoor_temperature_logs,compliant,42,
+CHCF,CHCF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-15/2024-10-17,accommodations_cooling,compliant,42,
+CHCF,CHCF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-15/2024-10-17,heat_pathologies_training,not_compliant,42,
+CHCF,CHCF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-15/2024-10-17,overall_opening,not_compliant,58,CHCF-PIP’s implementation of the 2024 Heat Plan and Updates memorandum was noncompliant
+CHCF,CHCF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-15/2024-10-17,overall_conclusion,not_compliant,62,"Consequently, CHCF-PIP’s implementation of the 2024 Heat Plan and Updates Memo"
+CIW,CIW,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,local_operating_procedure,compliant,42,
+CIW,CIW,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,monthly_summary_reports,compliant,42,
+CIW,CIW,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,staff_knowledge,not_compliant,42,
+CIW,CIW,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,outdoor_temperature_logs,not_compliant,66,"Due to officers using a cell phone weather application and not using an on-site thermometer, the institution’s outdoor temperature recording procedures did not comply"
+CIW,CIW,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,indoor_temperature_logs,compliant,42,
+CIW,CIW,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,accommodations_cooling,not_compliant,68,"the institution did not document the offering of accommodations in the DARs during Stage I heat alerts, therefore the institution was not in compliance"
+CIW,CIW,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,heat_pathologies_training,not_compliant,42,
+CIW,CIW,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,overall_opening,not_compliant,63,CIW’s implementation of the 2024 Heat Plan and Updates memorandum was noncompliant
+CIW,CIW,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,overall_conclusion,not_compliant,69,CIW’s implementation of the 2024 Heat Plan and Updates Memorandum was not compliant
+CMF,CMF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,local_operating_procedure,compliant,42,
+CMF,CMF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,monthly_summary_reports,compliant,42,
+CMF,CMF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,staff_knowledge,compliant,42,
+CMF,CMF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,outdoor_temperature_logs,compliant,42,
+CMF,CMF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,indoor_temperature_logs,compliant,42,
+CMF,CMF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,accommodations_cooling,compliant,42,
+CMF,CMF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,heat_pathologies_training,unable_to_report,73,"CMF did not produce the number of custody and non-custody staff that were required to complete the training, and therefore, compliance could not be determined."
+CMF,CMF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,overall_opening,compliant,70,CMF-PIP’s implementation of the 2024 Heat Plan and Updates memorandum was compliant
+CMF,CMF-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,overall_conclusion,compliant,74,CMF-PIP’s implementation of the 2024 Heat Plan and Updates memorandum was compliant during the review period
+CRC,CRC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-22/2024-10-24,local_operating_procedure,compliant,42,
+CRC,CRC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-22/2024-10-24,monthly_summary_reports,compliant,42,
+CRC,CRC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-22/2024-10-24,staff_knowledge,compliant,42,
+CRC,CRC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-22/2024-10-24,outdoor_temperature_logs,compliant,42,
+CRC,CRC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-22/2024-10-24,indoor_temperature_logs,compliant,42,
+CRC,CRC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-22/2024-10-24,accommodations_cooling,compliant,42,
+CRC,CRC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-22/2024-10-24,heat_pathologies_training,not_compliant,42,
+CRC,CRC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-22/2024-10-24,overall_opening,compliant,75,CRC’s implementation of the 2024 Heat Plan and Updates memorandum was compliant
+CRC,CRC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-22/2024-10-24,overall_conclusion,compliant,79,"Therefore, CRC’s implementation of the 2024 Heat Plan and Updates memorandum was compliant"
+SATF,CSATF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-19/2024-08-20,local_operating_procedure,not_compliant,42,
+SATF,CSATF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-19/2024-08-20,monthly_summary_reports,not_compliant,81,"As a result of the inconsistent heat alert activation data, the institution’s Summary Reports were not compliant"
+SATF,CSATF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-19/2024-08-20,staff_knowledge,not_compliant,42,
+SATF,CSATF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-19/2024-08-20,outdoor_temperature_logs,not_compliant,82,"It was noted that CSATF did not activate a Stage I heat alert until 3:15 P.M., while the neighboring institution, CSP/Corcoran, activated a Stage I heat alert at approximately 11:00 A.M."
+SATF,CSATF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-19/2024-08-20,indoor_temperature_logs,compliant,42,
+SATF,CSATF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-19/2024-08-20,accommodations_cooling,not_compliant,85,because the institution did not document the offering of accommodations in the DARs during Stage I heat alerts or provide alternatives to yard activities
+SATF,CSATF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-19/2024-08-20,heat_pathologies_training,not_compliant,42,
+SATF,CSATF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-19/2024-08-20,overall_opening,not_compliant,80,CSATF’s implementation of the 2024 Heat Plan and Updates memorandum was noncompliant
+SATF,CSATF,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-19/2024-08-20,overall_conclusion,not_compliant,86,CSATF’s implementation of the 2024 Heat Plan and Updates memorandum was not compliant during the review period
+COR,CSP/Corcoran,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-20/2024-08-21,local_operating_procedure,compliant,42,
+COR,CSP/Corcoran,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-20/2024-08-21,monthly_summary_reports,compliant,89,"Notwithstanding one inconsistent heat alert activation datapoint in July, the institution’s Summary Reports were compliant"
+COR,CSP/Corcoran,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-20/2024-08-21,staff_knowledge,compliant,42,
+COR,CSP/Corcoran,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-20/2024-08-21,outdoor_temperature_logs,compliant,42,
+COR,CSP/Corcoran,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-20/2024-08-21,indoor_temperature_logs,not_compliant,42,
+COR,CSP/Corcoran,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-20/2024-08-21,accommodations_cooling,not_compliant,92,"the accommodations were not documented in the DAR as required, therefore the institution was not compliant"
+COR,CSP/Corcoran,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-20/2024-08-21,heat_pathologies_training,unable_to_report,93,compliance with the 2024 Heat Plan and Updates memorandum could not be ascertained as non-custody data was not produced
+COR,CSP/Corcoran,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-20/2024-08-21,overall_opening,not_compliant,87,CSP/Corcoran’s implementation of the 2024 Heat Plan and Updates memorandum was not compliant
+COR,CSP/Corcoran,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-20/2024-08-21,overall_conclusion,compliant,93,"Overall, CSP/Corcoran’s implementation of the 2024 Heat Plan and Updates memorandum was compliant during the review period"
+LAC,CSP/LAC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,local_operating_procedure,compliant,42,
+LAC,CSP/LAC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,monthly_summary_reports,compliant,42,
+LAC,CSP/LAC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,staff_knowledge,compliant,42,
+LAC,CSP/LAC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,outdoor_temperature_logs,not_compliant,42,
+LAC,CSP/LAC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,indoor_temperature_logs,not_compliant,42,
+LAC,CSP/LAC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,accommodations_cooling,not_compliant,98,The monitor reviewed DARs for May through July 2024; none included documentation of reasonable accommodations or alternative activities
+LAC,CSP/LAC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,heat_pathologies_training,unable_to_report,98,"Because the institution did not produce the number of staff who were required to complete the training, compliance could not be assessed."
+LAC,CSP/LAC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,overall_opening,not_compliant,94,CSP/LAC’s implementation of the 2024 Heat Plan and Updates memorandum was noncompliant
+LAC,CSP/LAC,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,overall_conclusion,not_compliant,99,CSP/LAC’s implementation of the 2024 Heat Plan and Updates memorandum was not compliant during the review period
+SAC,CSP/Sac,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,local_operating_procedure,compliant,42,
+SAC,CSP/Sac,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,monthly_summary_reports,compliant,42,
+SAC,CSP/Sac,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,staff_knowledge,compliant,42,
+SAC,CSP/Sac,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,outdoor_temperature_logs,compliant,42,
+SAC,CSP/Sac,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,indoor_temperature_logs,compliant,42,
+SAC,CSP/Sac,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,accommodations_cooling,compliant,42,
+SAC,CSP/Sac,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,heat_pathologies_training,not_compliant,104,"CSP/Sac did not provide the annual heat pathologies training data and was, therefore, noncompliant"
+SAC,CSP/Sac,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,overall_opening,compliant,100,CSP/Sac’s implementation of the 2024 Heat Plan and Updates memorandum was compliant
+SAC,CSP/Sac,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-26,overall_conclusion,compliant,105,the institution’s implementation of the 2024 Heat Plan and Updates memorandum was compliant during the review period
+KVSP,KVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-16/2024-07-17,local_operating_procedure,compliant,42,
+KVSP,KVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-16/2024-07-17,monthly_summary_reports,compliant,42,
+KVSP,KVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-16/2024-07-17,staff_knowledge,not_compliant,42,
+KVSP,KVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-16/2024-07-17,outdoor_temperature_logs,compliant,42,
+KVSP,KVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-16/2024-07-17,indoor_temperature_logs,not_compliant,110,"given the broken or non-existent thermometers in six of nine sections, incomplete temperature logs, and staff misrepresenting daily temperatures"
+KVSP,KVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-16/2024-07-17,accommodations_cooling,compliant,42,
+KVSP,KVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-16/2024-07-17,heat_pathologies_training,unable_to_report,111,KVSP did not produce the number of custody and non-custody staff required to complete the training and therefore compliance
+KVSP,KVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-16/2024-07-17,overall_opening,not_compliant,106,KVSP’s implementation of the 2024 Heat Plan and Updates memorandum was noncompliant
+KVSP,KVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-07-16/2024-07-17,overall_conclusion,not_compliant,112,the institution’s implementation of the 2024 Heat Plan and Updates memorandum was not compliant during the review period
+MCSP,MCSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,local_operating_procedure,compliant,42,
+MCSP,MCSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,monthly_summary_reports,compliant,42,
+MCSP,MCSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,staff_knowledge,not_compliant,42,
+MCSP,MCSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,outdoor_temperature_logs,compliant,42,
+MCSP,MCSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,indoor_temperature_logs,not_compliant,116,"Due to missing temperature recordings and pre-recorded logbooks, the institution’s indoor temperature recording procedures were not compliant"
+MCSP,MCSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,accommodations_cooling,not_compliant,42,
+MCSP,MCSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,heat_pathologies_training,unable_to_report,118,The institution did not provide non-custodial training data or the number of custody staff required to complete the training
+MCSP,MCSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,overall_opening,compliant,113,MCSP’s implementation of the 2024 Heat Plan and Updates memorandum was compliant
+MCSP,MCSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-08-27,overall_conclusion,not_compliant,118,MCSP’s implementation of the 2024 Heat Plan and Updates memorandum was not compliant during the review period
+PVSP,PVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-29/2024-10-30,local_operating_procedure,not_compliant,42,
+PVSP,PVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-29/2024-10-30,monthly_summary_reports,not_compliant,120,"As a result of the inconsistent heat alert activation data in each month of the review period, the institution’s Summary Reports were not compliant"
+PVSP,PVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-29/2024-10-30,staff_knowledge,not_compliant,42,
+PVSP,PVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-29/2024-10-30,outdoor_temperature_logs,compliant,42,
+PVSP,PVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-29/2024-10-30,indoor_temperature_logs,not_compliant,122,"Due to the missing temperature entries in many units, PVSP’s indoor temperature recording procedures did not comply"
+PVSP,PVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-29/2024-10-30,accommodations_cooling,compliant,42,
+PVSP,PVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-29/2024-10-30,heat_pathologies_training,not_compliant,42,
+PVSP,PVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-29/2024-10-30,overall_opening,not_compliant,119,PVSP’s implementation of the 2024 Heat Plan and Updates memorandum was noncompliant
+PVSP,PVSP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-10-29/2024-10-30,overall_conclusion,not_compliant,123,PVSP’s implementation of the 2024 Heat Plan and Updates memorandum was not compliant during the review period
+SVSP,SVSP-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,local_operating_procedure,compliant,42,
+SVSP,SVSP-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,monthly_summary_reports,compliant,42,
+SVSP,SVSP-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,staff_knowledge,not_compliant,42,
+SVSP,SVSP-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,outdoor_temperature_logs,compliant,42,
+SVSP,SVSP-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,indoor_temperature_logs,compliant,42,
+SVSP,SVSP-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,accommodations_cooling,not_compliant,127,Because the institution’s DARs did not reflect whether heat-risk incarcerated persons were offered accommodations during a Stage I heat alert activation
+SVSP,SVSP-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,heat_pathologies_training,not_compliant,42,
+SVSP,SVSP-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,overall_opening,not_compliant,124,SVSP-PIP’s implementation of the 2024 Heat Plan and Updates memorandum was noncompliant
+SVSP,SVSP-PIP,coleman_ecf8558_31st_round_heat_report_2025-02-28,special_master,2024-09-17/2024-09-20,overall_conclusion,not_compliant,128,SVSP-PIP’s implementation of the 2024 Heat Plan and Updates memorandum was not compliant during the review period
+KVSP,KVSP,coleman_receiver_cqit_audit_kvsp_2026,receiver,2026-03-16/2026-03-19,heat_plan,compliant,33,While the overall Heat Plan was assessed as compliant and has improved since the prior review
+KVSP,KVSP,coleman_receiver_cqit_audit_kvsp_2026,receiver,2026-03-16/2026-03-19,monthly_summary_reports,concern,33,Monthly Summary Reports reﬂected inconsistencies in outdoor temperature documentation during the two hottest months of the reporting period
+KVSP,KVSP,coleman_receiver_cqit_audit_kvsp_2026,receiver,2026-03-16/2026-03-19,indoor_temperature_logs,strength,32,Thermometer checks were completed and accurate in all housing units reviewed (100%). Heat logs were maintained with the highest temperature recorded.
+CIM,CIM,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2023-10-10/2023-10-12,local_operating_procedure,compliant,145,The LOP was up to date and comported with headquarters’ directive.
+HDSP,HDSP,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2023-10-17/2023-10-19,local_operating_procedure,compliant,173,HDSP’s heat plan LOP was last revised in April 2023 and followed headquarters’ directive.
+CCI,CCI,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2023-11-07/2023-11-09,local_operating_procedure,compliant,195,CCI’s heat plan LOP was last revised in May 2023 and was consistent with headquarters’ directive.
+SCC,SCC,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2023-11-07/2023-11-09,local_operating_procedure,compliant,216,SCC’s heat plan LOP was current and in compliance with statewide policy.
+PBSP,PBSP,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2023-11-14/2023-11-16,local_operating_procedure,compliant,243,PBSP’s heat plan LOP was revised in April 2023 and complied with CDCR policy.
+SOL,CSP/Solano,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2023-11-28/2023-11-29,local_operating_procedure,compliant,269,CSP/Solano’s heat plan LOP was last revised in May 2023 and followed headquarters’ directive.
+ASP,ASP,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2023-12-05/2023-12-07,local_operating_procedure,compliant,291,The institution’s heat plan LOP was last revised in May 2023 and was consistent with statewide policy.
+PVSP,PVSP,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2023-12-05/2023-12-06,local_operating_procedure,compliant,313,PVSP’s heat plan LOP was last updated in May 2023 and followed headquarters’ directive.
+CRC,CRC,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2024-01-23/2024-01-24,local_operating_procedure,compliant,334,CRC’s heat plan LOP was last revised in May 2023 and followed headquarters’ directive.
+CTF,CTF,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2023-01-23/2023-01-25,local_operating_procedure,compliant,362,CTF’s heat plan LOP was revised in April 2023 and complied with CDCR policy.
+FOL,FOLSOM,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2024-01-23/2024-01-25,local_operating_procedure,compliant,387,The institution’s heat plan was current with a last revision date of May 2023.
+WSP,WSP,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2024-02-05/2024-02-08,local_operating_procedure,compliant,424,WSP’s heat plan LOP was last revised in April 2023 and followed headquarters’ directive.
+NKSP,NKSP,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2024-03-11/2024-03-15,local_operating_procedure,compliant,458,NKSP’s heat plan LOP was revised in December 2023 and complied with CDCR policy.
+CCI,CCI,coleman_ecf8359_30th_round_part_d_cccms_report_2024-08-16,special_master,2023-11-07/2023-11-09,heat_pathologies_training,unable_to_report,196,"CCI did not report the number of staff who were required to complete the training, and therefore, compliance could not be assessed."
+RJD,RJD,coleman_ecf8095_30th_round_part_c_eop_report_2023-12-22,special_master,2023-04-11/2023-04-14,local_operating_procedure,compliant,180,RJD’s current heat plan LOP had been revised in June 2022 and was compliant with CDCR policy.
+MCSP,MCSP,coleman_ecf8095_30th_round_part_c_eop_report_2023-12-22,special_master,2023-04-11/2023-04-14,local_operating_procedure,compliant,222,MCSP’s heat plan LOP was updated in May 2022 and conformed with CDCR policy.
+SVSP,SVSP,coleman_ecf8095_30th_round_part_c_eop_report_2023-12-22,special_master,2023-04-18/2023-04-21,local_operating_procedure,compliant,264,Review of SVSP’s heat plan LOP indicated compliance with headquarters’ heat plan directive.
+SATF,CSATF,coleman_ecf8095_30th_round_part_c_eop_report_2023-12-22,special_master,2023-05-01/2023-05-05,local_operating_procedure,compliant,304,CSATF’s heat plan LOP was current and aligned with statewide policy.
+CMF,CMF,coleman_ecf8095_30th_round_part_c_eop_report_2023-12-22,special_master,2023-05-02/2023-05-05,local_operating_procedure,compliant,341,CMF’s LOP was current and complied with CDCR policy.
+CHCF,CHCF,coleman_ecf8095_30th_round_part_c_eop_report_2023-12-22,special_master,2023-06-05/2023-06-09,local_operating_procedure,compliant,468,Review of CHCF’s heat plan LOP revealed compliance with headquarters’ directive.
+KVSP,KVSP,coleman_ecf8095_30th_round_part_c_eop_report_2023-12-22,special_master,2023-06-12/2023-06-15,local_operating_procedure,compliant,541,Review of KVSP’s heat plan LOP indicated compliance with headquarters’ directive.
+COR,CSP/Corcoran,coleman_ecf8095_30th_round_part_c_eop_report_2023-12-22,special_master,2023-07-10/2023-07-14,local_operating_procedure,compliant,658,CSP/Corcoran’s heat plan LOP was compliant with headquarters’ directive.
+CCWF,CCWF,coleman_ecf8095_30th_round_part_c_eop_report_2023-12-22,special_master,2023-07-24/2023-07-28,local_operating_procedure,compliant,694,Review of CCWF’s heat plan LOP indicated compliance with headquarters’ directive.
+LAC,CSP/LAC,coleman_ecf8095_30th_round_part_c_eop_report_2023-12-22,special_master,2023-08-14/2023-08-18,local_operating_procedure,compliant,735,CSP/LAC’s heat plan LOP was current and complied with CDCR policy; it was last revised in May 2023.
+MCSP,MCSP,coleman_ecf8095_30th_round_part_c_eop_report_2023-12-22,special_master,2023-04-11/2023-04-14,heat_pathologies_training,unable_to_report,223,"MCSP did not provide the total number of custody staff required to attend; therefore, it was not possible to assess compliance."
+CHCF,CHCF,coleman_ecf8095_30th_round_part_c_eop_report_2023-12-22,special_master,2023-06-05/2023-06-09,accommodations_cooling,not_compliant,469,"However, in violation of the LOP, the DARs did not reflect reasonable"
