@@ -1239,6 +1239,166 @@ add('CHCF', 'CHCF', '2016-05', '2016-05', 'heat_related_illnesses', 0, NS,
     'There were no reports of inmate heat-related illnesses during May 2016.', report=R)
 
 
+# ---------------------------------------------------------------- Receiver CQIT audits (2026)
+# The Receiver's Compliance Team audits report heat indicators in tables (recorded_in
+# `cqit_indicator`) and describe heat plan practice under Strengths and Concerns. Review
+# periods and onsite dates are from each report's cover. A dagger (†) marks a small sample.
+CQIT = {  # code: (unit as stated, review period start, end, onsite dates)
+    'CCI': ('CCI', '2025-11', '2026-04', '2026-06-02/2026-06-04'),
+    'CCWF': ('CCWF', '2025-09', '2026-02', '2026-04-06/2026-04-09'),
+    'CHCF': ('CHCF', '2025-11', '2026-04', '2026-06-15/2026-06-19'),
+    'CIW': ('CIW', '2025-10', '2026-03', '2026-05-04/2026-05-07'),
+    'CTF': ('CTF', '2025-08', '2026-01', '2026-03-03/2026-03-05'),
+    'FOL': ('FSP', '2025-08', '2026-01', '2026-03-24/2026-03-26'),
+    'MCSP': ('MCSP', '2025-12', '2026-05', '2026-07-28/2026-07-31'),
+    'NKSP': ('NKSP', '2025-10', '2026-03', '2026-05-11/2026-05-15'),
+    'PBSP': ('PBSP', '2025-11', '2026-04', '2026-06-09/2026-06-11'),
+    'PVSP': ('PVSP', '2025-09', '2026-02', '2026-04-20/2026-04-24'),
+    'RJD': ('RJD', '2025-10', '2026-03', '2026-05-19/2026-05-22'),
+    'SCC': ('SCC', '2025-09', '2026-02', '2026-04-15/2026-04-16'),
+    'SOL': ('SOL', '2025-10', '2026-03', '2026-05-12/2026-05-14'),
+    'KVSP': ('KVSP', '2025-08', '2026-01', '2026-03-16/2026-03-19'),
+}
+CQIT_STEM = {c: f'coleman_receiver_cqit_audit_{u.lower()}_2026' for c, (u, *_) in CQIT.items()}
+CQIT_HEADER = r'Receiver’s Compliance Team \| \d+|[A-Z]+ CQI Report \| 2026|\d+ \| P a g e'
+for c, stem in CQIT_STEM.items():
+    if stem not in PAGES:
+        PAGES[stem] = load_pages(stem, CQIT_HEADER)
+CI = 'cqit_indicator'
+ILLNESS = 'heat_related_illnesses_heat_risk_meds'
+ALT = 'alt_activity_days_offered_pct'
+THERM = 'thermometer_checks_accurate_pct'
+
+def cq_add(code, measure, value, quote, recorded_in=CI, scope='', note='', start=None, end=None):
+    u, s0, e0, _ = CQIT[code]
+    add(code, u, s0 if start is None else start, e0 if end is None else end, measure, value, recorded_in,
+        quote, scope=scope, note=note, report=CQIT_STEM[code])
+
+def cq_find(code, area, f, quote):
+    u, _, _, visit = CQIT[code]
+    findings.append(dict(cdcr_code=code, unit_as_stated=u, report=CQIT_STEM[code], reviewer='receiver',
+                         site_visit=visit, area=area, finding=f, quote=quote, page=page_of(CQIT_STEM[code], quote)))
+
+HRI = 'Heat Related Illness Incidents for MHSDS Patients Prescribed Heat Alert Medications'
+AVG6 = 'Value in the 6-Month Avg column; the first month of the review period is also 0.'
+cq_add('CCI', ILLNESS, 0, f'{HRI} 0† 0†', scope='MHSDS', note=AVG6)
+cq_add('CCWF', ILLNESS, 0, 'no heat-related illness incidents occurred among patients prescribed heat-alert medications. No clinical seclusion', scope='MHSDS',
+       note='The indicator table prints 0 on a line of its own, which the text extraction drops; quote is from the summary.')
+cq_add('CHCF', ILLNESS, 0, f'{HRI} 0†', scope='MHSDS')
+cq_add('CIW', ILLNESS, 0, 'Heat Related Illness Incidents for MHSDS Patients 0† Prescribed Heat Alert Medications', scope='MHSDS')
+cq_add('FOL', ILLNESS, 0, f'{HRI} 0 Clinical Restraint', scope='MHSDS')
+cq_add('MCSP', ILLNESS, 0, f'{HRI} 0†', scope='MHSDS')
+cq_add('NKSP', ILLNESS, 0, f'{HRI} 00†', scope='MHSDS',
+       note='Printed "00†"; the text states no heat-related illnesses occurred among MHSDS patients prescribed heat-alert medications.')
+cq_add('PBSP', ILLNESS, 0, f'{HRI} 0†', scope='MHSDS')
+cq_add('PVSP', ILLNESS, 0, f'{HRI} 0†', scope='MHSDS')
+cq_add('RJD', ILLNESS, 0, f'{HRI} 0† 0†', scope='MHSDS', note=AVG6)
+cq_add('SCC', ILLNESS, 0, f'{HRI} 0†', scope='MHSDS')
+cq_add('SOL', ILLNESS, 0, f'{HRI} 0 Number Restraint', scope='MHSDS')
+cq_add('CTF', ILLNESS, 0, 'CTF experienced no heat-related illness incidents among MHSDS patients prescribed heat alert medications during the reporting period',
+       recorded_in='not_stated', scope='MHSDS', note='Stated in the text; no indicator table row.')
+
+DAYS_ALT = 'Days Alternative Out-of-Cell Activities were'
+cq_add('CCWF', ALT, 88, f'{DAYS_ALT} Offered to Patients on Heat Alert Medications when Indicated 88%')
+cq_add('CIW', ALT, 90, f'{DAYS_ALT} Oﬀered to Patients on Heat Alert Medications when Indicated 90%')
+cq_add('FOL', ALT, 97, f'{DAYS_ALT} Offered to Patients on Heat Alert Medications when 97% Indicated')
+cq_add('MCSP', ALT, 49, f'{DAYS_ALT} Oﬀered to Patients on Heat Alert Medications when Indicated 49%',
+       note='The text says two of the four heat alert days had DARs showing alternative activities were offered.')
+cq_add('PVSP', ALT, 100, f'{DAYS_ALT} Offered to Patients on Heat Alert Medications when 100% Indicated')
+cq_add('CTF', ALT, '', f'{DAYS_ALT} Offered to Patients on Heat Alert — Medications when Indicated',
+       note='Printed "—": not assessable because no heat alert days (outside temperature ≥ 90°F) occurred.')
+cq_add('SOL', ALT, '', f'{DAYS_ALT} Offered to Patients on Heat Alert Medications when N/A Indicated', note='Printed "N/A".')
+cq_add('KVSP', ALT, '', f'{DAYS_ALT} Offered to Patients on Heat Alert Medications when N/A Indicated', note='Printed "N/A".')
+cq_add('SCC', ALT, 0, 'Alternative out-of-cell activities were offered on 0 of 13 Stage I heat activation days during the audit period (0%).',
+       recorded_in='not_stated', note='Stated in the Concerns; no indicator table row.')
+
+THC = 'Thermometer Checks completed and accurate'
+for code, v in (('CCI', '100%†'), ('CCWF', '100%†'), ('CHCF', '100%†'), ('CIW', '100%†'), ('CTF', '100%†'),
+                ('FOL', '100%†'), ('MCSP', '100%†'), ('NKSP', '100%†'), ('PBSP', '100%'), ('PVSP', '100%†'),
+                ('RJD', '92%†'), ('SOL', '100%'), ('KVSP', '100%')):
+    cq_add(code, THERM, int(v.rstrip('%†')), f'{THC} {v}')
+
+# Heat alerts the audits report
+cq_add('FOL', 'stage_i_alerts', 38, 'During this period, 38 days triggered a Stage I heat alert, 31 days triggered a Stage II alert, and 4 days triggered a Stage III alert.',
+       recorded_in='not_stated', note='Days with an alert.')
+cq_add('FOL', 'stage_ii_alerts', 31, 'During this period, 38 days triggered a Stage I heat alert, 31 days triggered a Stage II alert, and 4 days triggered a Stage III alert.',
+       recorded_in='not_stated', note='Days with an alert.')
+cq_add('FOL', 'stage_iii_alerts', 4, 'During this period, 38 days triggered a Stage I heat alert, 31 days triggered a Stage II alert, and 4 days triggered a Stage III alert.',
+       recorded_in='not_stated', note='Days with an alert.')
+cq_add('MCSP', 'stage_i_alerts', 4, 'There were four recorded heat alert days within the reporting period where outside temperatures exceeded 90 degrees.',
+       recorded_in='not_stated', note='Days with outside temperatures over 90°F.')
+cq_add('CTF', 'stage_i_alerts', 0, 'no heat alert days (outside temperature ≥ 90°F) occurred during the reporting period',
+       recorded_in='not_stated', note='Days.')
+for code, q in (('CIW', 'No Stage II or Stage III heat events occurred that required precautionary activation.'),
+                ('CTF', 'No Stage II or Stage III heat events occurred that required precautionary activation.'),
+                ('SOL', 'No Stage II or Stage III heat events required precautionary activation.'),
+                ('KVSP', 'No Stage II or Stage III heat events required precautionary activation.'),
+                ('PBSP', 'The Heat Plan was not activated during the review period (no Stage II or III heat events)')):
+    for m in ('stage_ii_alerts', 'stage_iii_alerts'):
+        cq_add(code, m, 0, q, recorded_in='not_stated')
+cq_add('NKSP', 'stage_iii_alerts', 0, 'No Stage III heat alert days were recorded', recorded_in='not_stated', note='Days.')
+q = 'The institution reported 11 Stage I, 4 Stage II, and 3 Stage III heat activation events on their heat reports sent to headquarters throughout the audit period.'
+for m, v in (('stage_i_alerts', 11), ('stage_ii_alerts', 4), ('stage_iii_alerts', 3)):
+    cq_add('SCC', m, v, q, recorded_in=MSR, note='Described as heat reports sent to headquarters.')
+q = 'Onsite temperature logs show 13 Stage I, 7 Stage II, and 6 Stage III activations for September 2025 alone.'
+for m, v in (('stage_i_alerts', 13), ('stage_ii_alerts', 7), ('stage_iii_alerts', 6)):
+    cq_add('SCC', m, v, q, recorded_in=TL, start='2025-09', end='2025-09')
+cq_add('CCWF', 'heat_plan_activation_days', 8, 'Alternative out-of-cell activities were documented on 7 of 8 heat-alert days (88%) during the review period.',
+       recorded_in=DAR, note='Heat-alert days, stage not given; alternative activities documented on 7.')
+
+# Strengths and concerns about the heat plan
+S, K = 'strength', 'concern'
+for code, area, f, q in (
+    ('CCI', 'heat_plan', S, 'required supplies including cut down kits, suicide prevention posters, CPR mouth shields, and heat risk lists were available as required throughout the institution'),
+    ('CCWF', 'accommodations_cooling', S, 'Alternative out-of-cell activities were documented on 7 of 8 heat-alert days (88%) during the review period.'),
+    ('CHCF', 'staff_knowledge', S, 'The onsite audit veriﬁed that all custody officers interviewed could clearly explain their duties during a heat alert.'),
+    ('CHCF', 'local_operating_procedure', S, "The facility's heat plan is up-to-date, meets statewide requirements, and can be accessed at each post."),
+    ('CIW', 'staff_knowledge', S, 'The onsite audit conﬁrmed that all interviewed custody officers were able to articulate their responsibilities during a heat alert.'),
+    ('CIW', 'local_operating_procedure', S, 'The facility’s heat plan is current and compliant with statewide requirements, and available at each post.'),
+    ('CTF', 'local_operating_procedure', S, 'The onsite audit conﬁrmed that the facility’s heat plan is current and compliant with institutional requirements, including temperature monitoring and alert activation protocols.'),
+    ('CTF', 'indoor_temperature_logs', S, 'all thermometer inspections conﬁrmed that equipment was functional and providing accurate readings in appropriate locations with current logs (100%)'),
+    ('FOL', 'indoor_temperature_logs', S, 'All housing units audited had working thermometers mounted in locations consistent with policy for accurate temperature readings.'),
+    ('FOL', 'staff_knowledge', S, 'All custody staff interviewed across all units (RHU, MSF, A Yard Units 1–5) demonstrated knowledge of heat plan procedures'),
+    ('FOL', 'accommodations_cooling', K, 'Alternative out-of-cell activities were documented on Daily Activity Reports for 37 of 38 heat alert days (97%). The one day without documentation represents a minor gap.'),
+    ('MCSP', 'indoor_temperature_logs', S, 'Custody staff completed thermometer checks accurately in all housing units reviewed (100%).'),
+    ('MCSP', 'staff_knowledge', S, 'interviewed regarding their knowledge of the heat plan, including months in which it is in effect, and all were able to articulate adequate knowledge of their responsibilities during a heat alert.'),
+    ('NKSP', 'indoor_temperature_logs', S, 'Every building reviewed had functioning thermometers in appropriate locations, heat logs were current'),
+    ('NKSP', 'staff_knowledge', S, 'custody officers interviewed demonstrated knowledge of the Heat Plan.'),
+    ('PBSP', 'indoor_temperature_logs', S, 'Temperature logs were maintained electronically, and thermometers were visible on each post at the highest area where residents are housed.'),
+    ('PBSP', 'staff_knowledge', S, 'Thirty-four correctional officers were interviewed regarding their knowledge of the heat plan, and all were able to articulate adequate knowledge of their responsibilities during a heat alert.'),
+    ('PVSP', 'accommodations_cooling', S, 'days alternative out-of-cell activities were offered to patients on Heat Alert Medications when indicated, and thermometer checks completed and accurate.'),
+    ('RJD', 'heat_plan', S, 'staff were found to be knowledgeable about cut down kits, updated heat risk lists, MH referral processes'),
+    ('SCC', 'heat_plan', S, 'The heat plan was current, working thermometers were in place, heat logs were maintained'),
+    ('SCC', 'accommodations_cooling', K, 'Alternative out-of-cell activities were offered on 0 of 13 Stage I heat activation days during the audit period (0%).'),
+    ('SCC', 'monthly_summary_reports', K, 'The reported information to headquarters does not reconcile with the documentation reviewed onsite.'),
+    ('SOL', 'indoor_temperature_logs', S, 'Temperature logs were maintained and thermometers were visible on each post at the highest tier where residents are housed.'),
+    ('SOL', 'staff_knowledge', S, 'Correctional officers were able to articulate an adequate knowledge of the Heat Plan, as well as their responsibilities during a heat alert.'),
+):
+    cq_find(code, area, f, q)
+
+# ---------------------------------------------------------------- statewide and 2025 Stage III counts
+# CDCR's June 2025 "Climate and the Impact on CDCR" (also filed as Exhibit F to Plata ECF 3984-1, a scan).
+RCLIM = 'cdcr_climate_and_the_impact_on_cdcr_2025-06'
+PAGES[RCLIM] = load_pages(RCLIM)
+# The table "CDCR Heat Activations Statewide" has columns 2023, 2024, Total and rows Stage 1-3;
+# the two-column page layout splits it, so each row is quoted separately (checked against the page image).
+DAYS = ('Days in the year with a heat activation at any CDCR institution: "one day could represent '
+        '20 institutions on heat activation or only one institution on heat activation."')
+for m, row in (('stage_i_alerts', '166 182 348'), ('stage_ii_alerts', '59 86 145'), ('stage_iii_alerts', '20 46 66')):
+    for yr, v in zip(('2023', '2024'), row.split()[:2]):
+        add('ALL', 'CDCR heat activations statewide', yr, yr, m, int(v), 'not_stated', row, scope='statewide',
+            note=DAYS + ' Row "STAGE ' + {'stage_i_alerts': '1', 'stage_ii_alerts': '2', 'stage_iii_alerts': '3'}[m]
+                 + '" of the table; columns 2023, 2024, TOTAL.', report=RCLIM)
+# Plaintiffs' section of the Plata joint case management statement, citing CCHCS data
+RP4013 = 'plata_ecf4013_cms_2026-05-26'
+PAGES[RP4013] = load_pages(RP4013, r'(?m)Case 4:01-cv-01351-JST\s+Document 4013\s+Filed \S+\s+Page \d+ of \d+|^ ?\d{1,2}(?= {2,})')
+q = ('California Rehabilitation Center (17 days with Stage III heat alerts), Folsom State Prison (15 days), '
+     'Sierra Conservation Center (15 days), and Central California Women’s Facility (3 days)')
+for code, name, v in (('CRC', 'California Rehabilitation Center', 17), ('FOL', 'Folsom State Prison', 15),
+                      ('SCC', 'Sierra Conservation Center', 15), ('CCWF', 'Central California Women’s Facility', 3)):
+    add(code, name, '2025', '2025', 'stage_iii_alerts', v, 'not_stated', q,
+        note="Days. Plaintiffs' position in the Plata joint statement, citing CCHCS data.", report=RP4013)
+
 # Training rows have no period when the report gives none
 for r in counts:
     if r['measure'].startswith('training') and not r['period_start']:
