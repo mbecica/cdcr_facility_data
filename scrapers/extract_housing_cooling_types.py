@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-CDCR's "Housing Unit Cooling Types by Institution" table → sources/housing_cooling_equipment_2025.csv
+CDCR's "Housing Unit Cooling Types by Institution" table → sources/housing_cooling_equipment_2024.csv
 
-The table is Attachment B to CCHCS's February 20, 2025 memo "Heat Issues and
+The table is CDCR's report dated August 22, 2024 (the date in the copy Reuters
+published with "Scorching cells", July 2025), attached as Attachment B to CCHCS's February 20, 2025 memo "Heat Issues and
 Temperature Measurement Practices", filed as Exhibit E to the Plata joint case
 management statement (ECF 3952-1, pp. 38–79). It lists each piece of cooling or
 ventilation equipment serving a housing building: institution, building, primary
@@ -13,7 +14,8 @@ OCR runs twice. The first pass reads each column as a strip and assigns words
 to rows by the table's ruling lines; the second reads the institution and
 building cells one at a time with a character whitelist. Where the two passes
 disagree, the value was checked against the page image and the rule used is in
-`resolve_building()`. Each row's `ocr_check` says whether the passes agreed.
+`resolve_building()`. Each row's `ocr_check` says whether the passes agreed. The
+output matches the text layer of the Reuters copy on every row and column.
 
 Also writes one row per building to sources/building_mentions.csv (replacing
 earlier rows from this source), so `scrapers/build_buildings.py` joins the
@@ -41,10 +43,17 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parent.parent
 STEM = 'plata_ecf3952-1_cms_exhibits_2025-03-10'
 PDF = ROOT / 'sources' / 'heat_cooling' / f'{STEM}.pdf'
-OUT = ROOT / 'sources' / 'housing_cooling_equipment_2025.csv'
+OUT = ROOT / 'sources' / 'housing_cooling_equipment_2024.csv'
 MENTIONS = ROOT / 'sources' / 'building_mentions.csv'
 FIRST, LAST = 38, 79              # PDF pages of the table (its pages 1–42)
 COLS = ['site', 'building', 'primary_use', 'asset_description', 'equipment_sub_type', 'type_of_cooling']
+# Rows CDCR has since corrected: (institution, asset description as printed) → (cooling_type, note)
+CORRECTIONS = {
+    ('CTF', 'Ventilation Without Cooling'): (
+        'none', 'CDCR told Reuters (email, June 27, 2025) this was a misclassification in its maintenance system: '
+                'the units are not refrigerated; type of cooling should read Ventilation Without Cooling and '
+                'asset description AHU - Supply Blower.'),
+}
 COOLING = {'Refrigeration Cooling': 'mechanical', 'Evaporation Cooling': 'evaporative',
            'Ventilation Without Cooling': 'none'}
 
@@ -158,11 +167,13 @@ def main():
                 raise SystemExit(f'p{n}: unknown institution {site!r}')
             if r['type_of_cooling'] not in COOLING:
                 raise SystemExit(f'p{n}: unexpected type of cooling {r["type_of_cooling"]!r}')
+            cooling_type, note = CORRECTIONS.get((codes[site], r['asset_description']),
+                                                 (COOLING[r['type_of_cooling']], ''))
             out.append(dict(
                 cdcr_code=codes[site], site_as_stated=site, building=building,
                 primary_use=r['primary_use'], asset_description=r['asset_description'],
                 equipment_sub_type=re.sub(r'(AHU|RTU)HQ', r'\1 HQ', r['equipment_sub_type']),
-                type_of_cooling=r['type_of_cooling'], cooling_type=COOLING[r['type_of_cooling']],
+                type_of_cooling=r['type_of_cooling'], cooling_type=cooling_type, note=note,
                 source=STEM, page=n, table_page=n - FIRST + 1,
                 ocr_check='passes agree' if agreed else 'passes differed; checked against image'))
     with open(OUT, 'w', newline='') as f:
@@ -182,7 +193,7 @@ def main():
         if k in seen:
             continue
         seen.add(k)
-        new.append(dict(cdcr_code=r['cdcr_code'], building=r['building'], use='housing', as_of='2025-02',
+        new.append(dict(cdcr_code=r['cdcr_code'], building=r['building'], use='housing', as_of='2024-08',
                         source=STEM, page=r['page'],
                         quote=' | '.join([r['site_as_stated'], r['building'], r['primary_use'],
                                           r['asset_description'], r['equipment_sub_type'], r['type_of_cooling']])))
