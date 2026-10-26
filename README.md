@@ -335,7 +335,7 @@ Coleman v. Newsom, No. 2:90-cv-0520 KJM SCR (E.D. Cal.). (2023, May 11). *Inpati
 
 Coleman v. Newsom, No. 2:90-cv-0520 KJM SCR (E.D. Cal.). (2018–2024). *Special Master's 27th–30th Round Monitoring Reports* (ECF Nos. 5779, 7074, 7555, 7715, 7716, 7833, 8095, 8359). https://storage.courtlistener.com/recap/gov.uscourts.caed.83056/gov.uscourts.caed.83056.{ECF}.0.pdf
 
-Coleman v. Newsom, No. 2:90-cv-0520 KJM SCR (E.D. Cal.). (2025, December 18). *Special Master's Thirty-First Round Monitoring Report – Part B*, Appendix A: *Institutional Summaries* (ECF No. 8838-1). https://www.courtlistener.com/docket/4161512/8838/pc-coleman-v-newsom/
+Coleman v. Newsom, No. 2:90-cv-0520 KJM SCR (E.D. Cal.). (2025, December 18). *Special Master's Thirty-First Round Monitoring Report – Part B*, Appendix A: *Institutional Summaries* (ECF No. 8838-1). https://storage.courtlistener.com/recap/gov.uscourts.caed.83056/gov.uscourts.caed.83056.8838.1.pdf
 
 Coleman v. Newsom, No. 2:90-cv-0520 KJM SCR (E.D. Cal.). (2025, February 28). *Special Master's Thirty-First Round Focused Heat Plan Monitoring Report* (ECF No. 8558). https://storage.courtlistener.com/recap/gov.uscourts.caed.83056/gov.uscourts.caed.83056.8558.0.pdf
 
@@ -343,7 +343,11 @@ Coleman v. Newsom, No. 2:90-cv-0520 KJM SCR (E.D. Cal.). (2026). *Continuous Qua
 
 Plata v. Newsom, No. 4:01-cv-01351-JST (N.D. Cal.). (2025, March 10). *Joint Case Management Conference Statement, Exhibits* (ECF No. 3952-1), Exhibit E, Attachment B: *CDCR Housing Unit Cooling Types by Institution* (dated August 22, 2024). https://storage.courtlistener.com/recap/gov.uscourts.cand.76/gov.uscourts.cand.76.3952.1.pdf
 
+Plata v. Newsom, No. 4:01-cv-01351-JST (N.D. Cal.). (2025, June 10). *Joint Case Management Conference Statement [Corrected], Exhibits* (ECF No. 3968-1). https://storage.courtlistener.com/recap/gov.uscourts.cand.76/gov.uscourts.cand.76.3968.1.pdf
+
 Plata v. Newsom, No. 4:01-cv-01351-JST (N.D. Cal.). (2026, May 26). *Joint Case Management Conference Statement* (ECF No. 4013). https://storage.courtlistener.com/recap/gov.uscourts.cand.76/gov.uscourts.cand.76.4013.0.pdf
+
+Plata v. Newsom, No. 4:01-cv-01351-JST (N.D. Cal.). (2026, May 26). *Joint Case Management Conference Statement, Exhibits* (ECF No. 4013-1). https://storage.courtlistener.com/recap/gov.uscourts.cand.76/gov.uscourts.cand.76.4013.1.pdf
 
 Department of General Services, Real Estate Services Division. (2026). *Statewide Property Inventory* [Structure layer, SPI Public Map Viewer]. https://services8.arcgis.com/a4GMqC2tQHvYiVtK/arcgis/rest/services/SPIPublicMapViewer/FeatureServer/1
 
