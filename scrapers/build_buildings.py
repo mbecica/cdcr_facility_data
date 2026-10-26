@@ -21,7 +21,11 @@ Keys:
     or from the structure name ("BLDG 321 - 270 HOUSING"). Five-digit DGS serial
     numbers (e.g. 14598) are not CDCR numbers and are ignored. A structure SPI
     describes as two housing units ("FACILITY A HOUSING BUILDING #1 & 2",
-    "A1 AND A2 HOUSING UNITS") is building "A1/A2". A number shared by several
+    "A1 AND A2 HOUSING UNITS") is building "A1/A2"; so is a record listing several
+    buildings ("492.1, 492.2, 492.3", CTF "NORTH FACILITY SA, SB, SC, SD"). Notes and
+    prefixes in agency numbers ("Y1 SEE BLOCK 24", "MOD H1") are dropped, and CMC's
+    letter codes ("HOUSING UNIT BLDG. 1 (AA)") become units unless the agency
+    number's suffix disagrees. A number shared by several
     SPI structures stays with the one housing structure among them, if there
     is exactly one.
   - `{cdcr_code}-spi{structure_number}` for an SPI structure with no usable
@@ -82,8 +86,15 @@ def spi_number(asn: str, name: str) -> str:
         if m := pat.search(name.upper()):
             f, x, y = m.groups()
             return f"{f}{x}/{f}{y}"
-    a = re.sub(r"^KITCHELL-?\s*", "", asn.upper().strip())
-    a = re.sub(r"\s*BLDG\.?$", "", a)
+    a = re.sub(r"^(KITCHELL-?|MOD)\s*", "", asn.upper().strip())  # "MOD H1" -> H1
+    a = re.sub(r"\s*BLDG?\.?$", "", a)
+    a = re.sub(r"^(" + ID + r")\s+SEE\b.*$", r"\1", a)  # MCSP "Y1 SEE BLOCK 24" -> Y1
+    # Several buildings on one record: "492.1, 492.2, 492.3" -> 492.1/492.2/492.3
+    if re.fullmatch(r"(" + ID + r")(\s*,\s*(" + ID + r"))+", a):
+        return "/".join(x.strip() for x in a.split(","))
+    # ...or listed at the end of the name, CTF "NORTH FACILITY SA, SB, SC, SD"
+    if m := re.search(r"\b([A-Z]{2}(?:,\s*[A-Z]{2})+)$", name.upper().strip()):
+        return "/".join(x.strip() for x in m.group(1).split(","))
     a = re.sub(r"^(BLDG\.?|BUILDING\s*(NO\.?)?\s*#?|SQ-B-)\s*", "", a).strip()
     a = re.sub(r"^(\d+)\s+([A-Z])$", r"\1\2", a)  # "405 A" -> 405A
     if m := re.match(r"^(" + ID + r")\s{2,}\S", a):  # "507     BID PACKAGE 5" -> 507
@@ -91,14 +102,24 @@ def spi_number(asn: str, name: str) -> str:
     if a and not DGS_SERIAL.match(a) and re.fullmatch(ID, a):
         return a
     m = re.search(r"\b(?:BLDG\.?|BUILDING(?:\s+NO\.)?)\s*#?\s*(" + ID + r")\b", name.upper())
-    return m.group(1) if m else ""
+    if m:
+        return m.group(1)
+    m = re.match(r"^([A-Z]-?\d{1,2}) HOUSING UNIT$", name.upper().strip())  # CIW "H-12 HOUSING UNIT"
+    return m.group(1).replace("-", "") if m else ""
 
 
-def spi_units(name: str, building: str) -> str:
+def spi_units(name: str, building: str, asn: str = "") -> str:
     """Housing units an SPI structure holds: "HOUSING UNIT C-7, C-8" -> C7;C8,
     "HOUSING UNIT 16" -> 16, building "A1/A2" -> A1;A2."""
     if "/" in building:
-        return building.replace("/", ";")
+        return ";".join(canon(u) for u in building.split("/"))
+    # CMC "HOUSING UNIT BLDG. 1 (AA)": the letter code in parentheses, unless the
+    # agency number's suffix gives a different letter (CMC 14939-M is named "(N)")
+    if m := re.search(r"HOUSING UNIT.*\(([A-Z]{1,2})\)$", name.upper().strip()):
+        suffix = re.match(r"^\d{5}-([A-Z]{1,2})$", asn.upper().strip())
+        if not suffix or suffix.group(1) == m.group(1):
+            return m.group(1)
+        return ""
     m = re.search(r"HOUSING UNIT\s+([A-Z]-?\d{1,2}(?:\s*,\s*[A-Z]-?\d{1,2})*)\b", name.upper())
     if m:
         return ";".join(canon(u) for u in m.group(1).split(","))
@@ -119,7 +140,10 @@ def dated(g: pd.DataFrame, col: str) -> str:
 def load_spi() -> pd.DataFrame:
     s = pd.read_csv(SPI, dtype=str).fillna("")
     s["building"] = [spi_number(a, n) for a, n in zip(s.agency_structure_no, s.structure_name)]
-    s["unit"] = [spi_units(n, b) for n, b in zip(s.structure_name, s.building)]
+    # A housing structure whose agency number is just letters (CTF "SV" Fremont Dormitory)
+    letters = (s.building == "") & s.structure_type.str.contains("DORMITORY") & s.agency_structure_no.str.fullmatch(r"[A-Z]{1,2}")
+    s.loc[letters, "building"] = s.loc[letters, "agency_structure_no"]
+    s["unit"] = [spi_units(n, b, a) for n, b, a in zip(s.structure_name, s.building, s.agency_structure_no)]
     # A number shared by several structures stays with the one housing structure
     # among them (CEN 325 is Housing Unit A-5 and also its exercise yards); if
     # none or several are housing, no structure keeps it.

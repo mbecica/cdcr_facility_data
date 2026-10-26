@@ -849,10 +849,8 @@ CIM-489,CIM,489,Chapel Fac-C,,,,,,,1968,4725,CHAPEL,37041,489,50,,1,SPI
 CIM-490.1,CIM,490.1,Administration Bldg./Facility-C,,,,,,,1968,22500,OFFICE (INSTITUTIONAL),15078,490.1,50,,1,SPI
 CIM-491.1,CIM,491.1,Fac-C Maintenance/Vocational,,,,,,,,10000,SHOP,37046,491.1,50,,1,SPI
 CIM-491.3,CIM,491.3,Facility-C  Education-Canteen,,,,,,,,7500,CLASSROOM,37045,491.3,50,,1,SPI
-CIM-492.1,CIM,492.1,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CIM-492.3,CIM,492.3,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CIM-493.1,CIM,493.1,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CIM-493.3,CIM,493.3,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
+CIM-492.1/492.2/492.3,CIM,492.1/492.2/492.3,Facility-C - Del Norte And Colusa,492.1;492.3,,,housing,,,,55600,DORMITORY,37042,"492.1, 492.2, 492.3",50,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+CIM-493.1/493.2/493.3,CIM,493.1/493.2/493.3,"Fac-C - Alpine, Butte & W. Culinary",493.1;493.3,,,housing,,,,55600,DORMITORY,37043,"493.1, 493.2, 493.3",50,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 CIM-494.1,CIM,494.1,"Family Visiting Fac-C, No. 1",,,,,,,,600,RELOCATABLE RESIDENCE,15081,494.1,50,,1,SPI
 CIM-494.2,CIM,494.2,"Family Visiting Fac-C, No. 2",,,,,,,,600,RELOCATABLE RESIDENCE,39669,494.2,50,,1,SPI
 CIM-495,CIM,495,Visiting Restroom Fac-C,,,,,,,,825,COMFORT STATION/RESTROOMS/LAVATORIES,15080,495,50,,1,SPI
@@ -884,8 +882,6 @@ CIM-spi15045,CIM,,"Hay Shed No. 1, Pia",,,,,,,,1228,SHED,15045,044,50,,1,SPI
 CIM-spi15072,CIM,,Canteen Fac-A,,,,,,,,3276,CONCESSION,15072,378,50,,1,SPI
 CIM-spi15073,CIM,,"Clothing Room, Fac-A",,,,,,,,3936,STORAGE BUILDING,15073,378,50,,1,SPI
 CIM-spi15084,CIM,,Facility-B,,,,,,,,181545,DORMITORY,15084,(SEE COMMENTS),50,,1,SPI
-CIM-spi37042,CIM,,Facility-C - Del Norte And Colusa,,,,,,,,55600,DORMITORY,37042,"492.1, 492.2, 492.3",50,,1,SPI
-CIM-spi37043,CIM,,"Fac-C - Alpine, Butte & W. Culinary",,,,,,,,55600,DORMITORY,37043,"493.1, 493.2, 493.3",50,,1,SPI
 CIM-spi37044,CIM,,Facility-C - Gymnasium & Tower 5,,,,,,,,10150,GYMNASIUM,37044,491.2 AND 491.4,50,,1,SPI
 CIM-spi39639,CIM,,D-4 Spruce,,,,,,,1999,13244,DORMITORY,39639,"151, P/C #HO5",50,,1,SPI
 CIM-spi39657,CIM,,"Visiting Restrooms, Fac-B",,,,,,,1945,820,COMFORT STATION/RESTROOMS/LAVATORIES,39657,181,50,,1,SPI
@@ -909,7 +905,7 @@ CIW-H07,CIW,H07,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 CIW-H08,CIW,H08,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 CIW-H09,CIW,H09,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 CIW-H10,CIW,H10,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CIW-H12,CIW,H12,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
+CIW-H12,CIW,H12,H-12 Housing Unit,,,,housing,,,1962,28334,DORMITORY,14578,,41,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 CIW-H13,CIW,H13,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 CIW-M03,CIW,M03,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 CIW-S PIPA1,CIW,S PIPA1,,,,S,health_care,PIP (2023-05),21 (2023-05),,,,,,,,1,coleman_ecf7833-1_iflex_pip_beds_2023-05-11
@@ -935,7 +931,6 @@ CIW-spi14574,CIW,,Maintenance Gate (Custody),,,,,,,1975,640,LOOKOUT (GUARD STATI
 CIW-spi14575,CIW,,Guard Tower 1,,,,,,,1980,300,LOOKOUT (GUARD STATION),14575,,41,,1,SPI
 CIW-spi14576,CIW,,Culinary,,,,,,,1966,25313,KITCHEN,14576,,41,,1,SPI
 CIW-spi14577,CIW,,Rc Administration,,,,,,,1962,12150,OFFICE (INSTITUTIONAL),14577,,41,,1,SPI
-CIW-spi14578,CIW,,H-12 Housing Unit,,,,,,,1962,28334,DORMITORY,14578,,41,,1,SPI
 CIW-spi14579,CIW,,Support Care Unit (Scu),,,,,,,1962,16583,DORMITORY,14579,,41,,1,SPI
 CIW-spi14580,CIW,,Family Living Triplex-Transportation Ofc,,,,,,,1976,2000,RESIDENCE (MULTI-FAMILY),14580,,41,,1,SPI
 CIW-spi14582,CIW,,Special Housing Unit (Sphu),,,,,,,1987,25084,DORMITORY,14582,,41,,1,SPI
@@ -980,20 +975,20 @@ CIW-spi55229,CIW,,45 Bed Psychiatric In-Patient Facility,,,,,,,2012,52985,HOSPIT
 CIW-spi57611,CIW,,Ev Charging Stations (6-Level 2 Ports),,,,,,,2020,0,ELECTRIC VEHICLE CHARGING STATION,57611,,41,,1,SPI
 CIW-spi718,CIW,,Mental Health Modular - Rc,,,,,,,1995,2160,RELOCATABLE CLASSROOM,718,,41,,1,SPI
 CIW-walker-unit,CIW,,Walker Unit,,,,,,,,,,,,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
-CMC-1,CMC,1,Housing Unit Bldg. 1 (Aa),,,,,,,1961,32828,DORMITORY,14966,14966-AA,46,,1,SPI
+CMC-1,CMC,1,Housing Unit Bldg. 1 (Aa),AA,,,housing,,,1961,32828,DORMITORY,14966,14966-AA,46,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 CMC-149,CMC,149,Gymnasium - Bldg G,,,,,,,1961,24350,GYMNASIUM,14931,149  -,46,,1,SPI
-CMC-2,CMC,2,Housing Unit Bldg. 2 (Ab),,,,,,,1961,32828,DORMITORY,14967,14967-AB,46,,1,SPI
+CMC-2,CMC,2,Housing Unit Bldg. 2 (Ab),AB,,,housing,,,1961,32828,DORMITORY,14967,14967-AB,46,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 CMC-200,CMC,200,Water Filtration Plant Bldg 200,,,,,,,,9181,UTILITY,51141,200,46,,1,SPI
 CMC-202,CMC,202,Pump House Bldg 202,,,,,,,,600,PUMP/WELL HOUSE,51140,202,46,,1,SPI
 CMC-204,CMC,204,Water Filtration Plant Storage Bldg 204,,,,,,,,391,STORAGE BUILDING,51142,204,46,,1,SPI
 CMC-210,CMC,210,Clorine Station #1 Bldg 210,,,,,,,,600,STORAGE,51136,210,46,,1,SPI
 CMC-220,CMC,220,Clorine Station #2 Bldg 220,,,,,,,,468,STORAGE,51137,220,46,,1,SPI
-CMC-3,CMC,3,"Housing Unit, Bldg.3 (E)",,,,,,,1961,32828,DORMITORY,14929,14929-E,46,,1,SPI
+CMC-3,CMC,3,"Housing Unit, Bldg.3 (E)",E,,,housing,,,1961,32828,DORMITORY,14929,14929-E,46,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 CMC-304,CMC,304,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 CMC-330,CMC,330,,,,,kitchen,,,,,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
 CMC-352A,CMC,352A,,,,,kitchen,,,,,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
 CMC-360,CMC,360,,,,,kitchen,,,,,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
-CMC-4,CMC,4,"Housing Unit, Bldg.4 (F)",,,,,ASU,,1961,32828,DORMITORY,14930,14930-F,46,,2,SPI;MPAR2022:P-1718-00261
+CMC-4,CMC,4,"Housing Unit, Bldg.4 (F)",F,,,housing,ASU,,1961,32828,DORMITORY,14930,14930-F,46,,3,SPI;MPAR2022:P-1718-00261;plata_ecf3952-1_cms_exhibits_2025-03-10
 CMC-5,CMC,5,"Housing Unit, Bldg 5 (M)",,,,,,,1961,32828,DORMITORY,14940,14940-N,46,,1,SPI
 CMC-6,CMC,6,Housing Unit Bldg. 6 (N),,,,,,,1961,32828,DORMITORY,14939,14939-M,46,,1,SPI
 CMC-601,CMC,601,Headworks - Bldg 601,,,,,,,2007,2628,EQUIPMENT/MAINTENANCE BUILDING,50567,,46,,1,SPI
@@ -1001,17 +996,13 @@ CMC-607,CMC,607,Chlorination/Dechlorination - Bldg 607,,,,,,,2007,830,EQUIPMENT/
 CMC-611,CMC,611,Dewatering Building - Bldg 611,,,,,,,2007,2070,EQUIPMENT/MAINTENANCE BUILDING,50569,,46,,1,SPI
 CMC-612,CMC,612,Mcc And Generator - Bldg 612,,,,,,,2007,1472,EQUIPMENT/MAINTENANCE BUILDING,50570,,46,,1,SPI
 CMC-613,CMC,613,Maintenance Building - Bldg 613,,,,,,,2007,2250,EQUIPMENT/MAINTENANCE BUILDING,50571,,46,,1,SPI
-CMC-7,CMC,7,Housing Unit Bldg. 7 (S),,,East,housing,GP,,1961,32828,DORMITORY,14947,14947-S,46,,2,SPI;MPAR2022:P-1718-00253
-CMC-8,CMC,8,Housing Unit Bldg. 8 (T),,,,,,,1961,32828,DORMITORY,14948,14948-T,46,,1,SPI
+CMC-7,CMC,7,Housing Unit Bldg. 7 (S),S,,East,housing,GP,,1961,32828,DORMITORY,14947,14947-S,46,,3,SPI;MPAR2022:P-1718-00253;plata_ecf3952-1_cms_exhibits_2025-03-10
+CMC-8,CMC,8,Housing Unit Bldg. 8 (T),T,,,housing,,,1961,32828,DORMITORY,14948,14948-T,46,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 CMC-A1,CMC,A1,Receiving & Release Storage Bldg. A1,,,,,,,1961,199,STORAGE BUILDING,14923,14923-A1,46,,1,SPI
-CMC-AA,CMC,AA,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CMC-AB,CMC,AB,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 CMC-B,CMC,B,,,,East,,,,,,,,,,,4,December2025QuarterlyReport-ADAFinal;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
 CMC-C,CMC,C,,,,East,health_care,,,,,,,,,,4,December2025QuarterlyReport-ADAFinal;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
 CMC-C1,CMC,C1,Watch Office - Bldg C1,,,,,,,1961,1270,OFFICE (INSTITUTIONAL),14926,14926-C1,46,,1,SPI
 CMC-D1,CMC,D1,B-Quad Psychiatric Unit - Bldg D1,,,,,,,1961,986,HOSPITAL/CLINIC/TREATMENT CENTER,14928,14928-D1,46,,1,SPI
-CMC-E,CMC,E,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CMC-F,CMC,F,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 CMC-F L3,CMC,F L3,,,,,,,,,,,,,,,4,December2025QuarterlyReport-ADAFinal;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
 CMC-K1,CMC,K1,Interfaith Chape - Bldg K1,,,,,,,1961,1375,CHAPEL,14935,14935-K1,46,,1,SPI
 CMC-L1,CMC,L1,C-Quad Psychiatric Unit - Bldg L1,,,,,,,1961,370,HOSPITAL/CLINIC/TREATMENT CENTER,14937,14937-L1,46,,1,SPI
@@ -1021,8 +1012,6 @@ CMC-N,CMC,N,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 CMC-P1,CMC,P1,Guard Station - Bldg P1,,,,,,,1961,220,LOOKOUT (GUARD STATION),14942,14942-P1,46,,1,SPI
 CMC-Q1,CMC,Q1,D-Quad Psychiatric Unit - Bldg Q1,,,,,,,1961,15590,HOSPITAL/CLINIC/TREATMENT CENTER,14944,14944-Q1,46,,1,SPI
 CMC-Q2,CMC,Q2,D-Quad Dispensary Unit - Bldg Q2,,,,,,,1961,1387,HOSPITAL/CLINIC/TREATMENT CENTER,14945,14945-Q2,46,,1,SPI
-CMC-S,CMC,S,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CMC-T,CMC,T,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 CMC-X1,CMC,X1,Kitchen Storage - Bldg X1,,,,,,,1961,256,STORAGE BUILDING,14961,14961-X1,46,,1,SPI
 CMC-central-health-services,CMC,,Central Health Services,,,East,health_care,,,,,,,,,,5,December2025QuarterlyReport-ADAFinal;MPAR2022:P-1213-00224;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
 CMC-central-kitchen,CMC,,Central Kitchen,,,West,kitchen,,,,,,,,,,1,MPAR2022:P-1011-00346
@@ -1427,35 +1416,32 @@ CRC-626,CRC,626,Isudt,,,,,,,1999,6390,RELOCATABLE OFFICE,4805,626,48,,1,SPI
 CRC-627,CRC,627,M/U Offices (Self Help),,,,,,,1999,6390,RELOCATABLE OFFICE,4806,627,48,,1,SPI
 CRC-701,CRC,701,Isudt,,,,,,,1999,6390,RELOCATABLE OFFICE,4803,701,48,,1,SPI
 CRC-702,CRC,702,Healthcare Administration,,,,,,,1999,6390,RELOCATABLE OFFICE,4804,702,48,,1,SPI
-CRC-H1,CRC,H1,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CRC-H2,CRC,H2,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CRC-H3,CRC,H3,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
+CRC-B1,CRC,B1,Computer Services,,,,,,,2002,1152,RELOCATABLE OFFICE,50962,MOD B1,48,,1,SPI
+CRC-G1,CRC,G1,Mailroom,,,,,,,2002,320,RELOCATABLE OFFICE,50968,MOD G1,48,,1,SPI
+CRC-H1,CRC,H1,Male Housing,,,,housing,,,2002,5760,RELOCATABLE DORMITORY,50969,MOD H1,48,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+CRC-H2,CRC,H2,Male Housing,,,,housing,,,2002,5760,RELOCATABLE DORMITORY,50970,MOD H2,48,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+CRC-H3,CRC,H3,Male Housing,,,,housing,,,2002,5760,RELOCATABLE DORMITORY,50971,MOD H3,48,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 CRC-L1,CRC,L1,Conference Room,,,,,,,2002,2650,CONFERENCE ROOM,50976,L1,48,,1,SPI
 CRC-L2,CRC,L2,Education,,,,,,,2002,2650,CLASSROOM,50977,L2,48,,1,SPI
 CRC-L3,CRC,L3,Education,,,,,,,2002,2650,CLASSROOM,50978,L3,48,,1,SPI
+CRC-L4,CRC,L4,Parole / Fire / Education,,,,,,,2002,2880,RELOCATABLE OFFICE,50979,MOD L4,48,,1,SPI
+CRC-P1,CRC,P1,Family Visiting,,,,,,,2002,768,RELOCATABLE RESIDENCE,50981,MOD P1,48,,1,SPI
+CRC-P2,CRC,P2,Family Visiting,,,,,,,2002,768,RELOCATABLE RESIDENCE,50982,MOD P2,48,,1,SPI
+CRC-P3,CRC,P3,Family Visiting,,,,,,,2002,768,RELOCATABLE RESIDENCE,50983,MOD P3,48,,1,SPI
+CRC-P4,CRC,P4,Family Visiting,,,,,,,2002,768,RELOCATABLE RESIDENCE,50984,MOD P4,48,,1,SPI
 CRC-central-health-services,CRC,,Central Health Services,,,,health_care,,,,,,,,,,1,plata_ecf3963_receiver_triannual_59_2025-06-02
 CRC-spi29014,CRC,,Towers 1-8,,,,,,,1988,900,LOOKOUT (GUARD STATION),29014,T1-8,48,,1,SPI
 CRC-spi50960,CRC,,Personnel / 1St,,,,,,,2002,8640,RELOCATABLE OFFICE,50960,MOD A,48,,1,SPI
 CRC-spi50961,CRC,,Felon Records,,,,,,,2002,5760,RELOCATABLE OFFICE,50961,MOD B,48,,1,SPI
-CRC-spi50962,CRC,,Computer Services,,,,,,,2002,1152,RELOCATABLE OFFICE,50962,MOD B1,48,,1,SPI
 CRC-spi50963,CRC,,N# Records,,,,,,,2002,4320,RELOCATABLE OFFICE,50963,MOD C,48,,1,SPI
 CRC-spi50964,CRC,,Administration,,,,,,,2002,3600,RELOCATABLE OFFICE,50964,MOD D,48,,1,SPI
 CRC-spi50965,CRC,,Administration - Executive,,,,,,,2002,4320,RELOCATABLE OFFICE,50965,MOD E,48,,1,SPI
 CRC-spi50966,CRC,,Accounting/Procurement,,,,,,,2002,4320,RELOCATABLE OFFICE,50966,MOD F,48,,1,SPI
 CRC-spi50967,CRC,,Mailroom,,,,,,,2002,2880,RELOCATABLE OFFICE,50967,MOD G,48,,1,SPI
-CRC-spi50968,CRC,,Mailroom,,,,,,,2002,320,RELOCATABLE OFFICE,50968,MOD G1,48,,1,SPI
-CRC-spi50969,CRC,,Male Housing,,,,,,,2002,5760,RELOCATABLE DORMITORY,50969,MOD H1,48,,1,SPI
-CRC-spi50970,CRC,,Male Housing,,,,,,,2002,5760,RELOCATABLE DORMITORY,50970,MOD H2,48,,1,SPI
-CRC-spi50971,CRC,,Male Housing,,,,,,,2002,5760,RELOCATABLE DORMITORY,50971,MOD H3,48,,1,SPI
 CRC-spi50973,CRC,,Education F-4,,,,,,,2002,5040,RELOCATABLE CLASSROOM,50973,MOD J,48,,1,SPI
 CRC-spi50974,CRC,,Dental / X-Ray F-4,,,,,,,2002,2880,RELOCATABLE MEDICAL FACILITY,50974,MOD K,48,,1,SPI
 CRC-spi50975,CRC,,Health Care Offices / Supply,,,,,,,2002,5760,RELOCATABLE MEDICAL FACILITY,50975,MOD M,48,,1,SPI
-CRC-spi50979,CRC,,Parole / Fire / Education,,,,,,,2002,2880,RELOCATABLE OFFICE,50979,MOD L4,48,,1,SPI
 CRC-spi50980,CRC,,Board Of Parole Hearings,,,,,,,2002,4320,RELOCATABLE OFFICE,50980,MOD N,48,,1,SPI
-CRC-spi50981,CRC,,Family Visiting,,,,,,,2002,768,RELOCATABLE RESIDENCE,50981,MOD P1,48,,1,SPI
-CRC-spi50982,CRC,,Family Visiting,,,,,,,2002,768,RELOCATABLE RESIDENCE,50982,MOD P2,48,,1,SPI
-CRC-spi50983,CRC,,Family Visiting,,,,,,,2002,768,RELOCATABLE RESIDENCE,50983,MOD P3,48,,1,SPI
-CRC-spi50984,CRC,,Family Visiting,,,,,,,2002,768,RELOCATABLE RESIDENCE,50984,MOD P4,48,,1,SPI
 CRC-spi50985,CRC,,Education Offices / Classrooms,,,,,,,2002,2880,RELOCATABLE CLASSROOM,50985,MOD R,48,,1,SPI
 CRC-spi50986,CRC,,Education Classroom,,,,,,,2002,720,RELOCATABLE OFFICE,50986,MOD S,48,,1,SPI
 CTC-B,CTC,B,,,,,,,,,,,,,,,1,MPAR2022:P-1819-00016
@@ -1505,12 +1491,10 @@ CTC-spi5018,CTC,,Modular Building E,,,,,,,2001,1420,RELOCATABLE CLASSROOM,5018,,
 CTF-O,CTF,O,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 CTF-P2,CTF,P2,Building P2 - Boiler Addition,,,,,,,2012,713,UTILITY,54983,P2,51,,1,SPI
 CTF-S207,CTF,S207,S-207 Well No. 5,,,,,,,,64,PUMP/WELL HOUSE,28733,S207,51,,1,SPI
-CTF-SA,CTF,SA,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CTF-SB,CTF,SB,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CTF-SC,CTF,SC,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CTF-SD,CTF,SD,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CTF-SV,CTF,SV,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-CTF-SW,CTF,SW,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
+CTF-SA/SB/SC/SD,CTF,SA/SB/SC/SD,"North Facility Sa, Sb, Sc, Sd",SA;SB;SC;SD,,,housing,,,,145264,DORMITORY,15661,15661,51,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+CTF-SE,CTF,SE,"Se Culinary, Dining Halls And Gym",,,,,,,,33391,DORMITORY,15662,SE,51,,1,SPI
+CTF-SV,CTF,SV,Sv Fremont Dormitory,,,,housing,,,1996,13244,DORMITORY,38331,SV,51,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+CTF-SW,CTF,SW,Sw Toro Dormitory,,,,housing,,,1996,13244,DORMITORY,38330,SW,51,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 CTF-central-culinary-building,CTF,,Central Culinary Building,,,,kitchen,,,,,,,,,,1,MPAR2022:P-0910-00900
 CTF-l-wing,CTF,,L-Wing,,,,,,,,,,,,,,1,MPAR2022:P-0910-00900
 CTF-o-wing,CTF,,O Wing;O-Wing,,,,,ASU,,,,,,,,,5,MPAR2022:P-0910-01114;MPAR2022:P-1718-00122;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;sen_sub5_agenda_vote_outcomes_2018-03-15
@@ -1540,8 +1524,6 @@ CTF-spi15656,CTF,,Ddd Dog Kennels,,,,,,,,112,KENNEL,15656,DDD,51,,1,SPI
 CTF-spi15657,CTF,,Eee Ingrounds/Paint Storage,,,,,,,,1284,STORAGE BUILDING,15657,EEE,51,,1,SPI
 CTF-spi15658,CTF,,T-1 Shop Storage,,,,,,,,126,STORAGE BUILDING,15658,T-1,51,,1,SPI
 CTF-spi15659,CTF,,Fff 4-Plex Family Visit Four Plex,,,,,,,,2400,DORMITORY,15659,FFF,51,,1,SPI
-CTF-spi15661,CTF,,"North Facility Sa, Sb, Sc, Sd",,,,,,,,145264,DORMITORY,15661,15661,51,,1,SPI
-CTF-spi15662,CTF,,"Se Culinary, Dining Halls And Gym",,,,,,,,33391,DORMITORY,15662,SE,51,,1,SPI
 CTF-spi15663,CTF,,Sf North Facility,,,,,,,,19151,CLASSROOM,15663,SF,51,,1,SPI
 CTF-spi15664,CTF,,North Facility Sg/Sh,,,,,,,,13842,CLASSROOM,15664,15664,51,,1,SPI
 CTF-spi15665,CTF,,North Facility Sk/Sj,,,,,,,,5659,CLASSROOM,15665,15665,51,,1,SPI
@@ -1657,8 +1639,6 @@ CTF-spi37700,CTF,,S-58 Gymnasium - South Facility,,,,,,,1994,10318,GYMNASIUM,377
 CTF-spi37701,CTF,,Family Visiting Duplexes - Central,,,,,,,1992,5694,RESIDENCE (MULTI-FAMILY),37701,SEE COMMENTS FOR DETAIL,51,,1,SPI
 CTF-spi37702,CTF,,S-69 Admin./Support Bldg.-South Fac.,,,,,,,1995,24200,OFFICE (INSTITUTIONAL),37702,S-69,51,,1,SPI
 CTF-spi37703,CTF,,Freezer Storage #19 & #20 - Central Fac.,,,,,,,1995,1600,STORAGE BUILDING,37703,,51,,1,SPI
-CTF-spi38330,CTF,,Sw Toro Dormitory,,,,,,,1996,13244,DORMITORY,38330,SW,51,,1,SPI
-CTF-spi38331,CTF,,Sv Fremont Dormitory,,,,,,,1996,13244,DORMITORY,38331,SV,51,,1,SPI
 CTF-spi38332,CTF,,S-2 Dormitory No. 2 (South Facility),,,,,,,1996,13244,DORMITORY,38332,S-2,51,,1,SPI
 CTF-spi39036,CTF,,Dd-2 Firehouse Garage,,,,,,,1996,1560,GARAGE/PARKING STRUCTURE,39036,DD-2,51,,1,SPI
 CTF-spi39037,CTF,,Sz Classroom (E-Bed) North Fac. (Vacant),,,,,,,1997,4320,CLASSROOM,39037,SZ,51,,1,SPI
@@ -1768,8 +1748,7 @@ FOL-4,FOL,4,,,,,,ASU,,,,,,,,,1,MPAR2022:P-1718-00123
 FOL-5,FOL,5,Cell Block Five,,,,housing,,,,,,,,,,3,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;MPAR2022:P-0809-01089
 FOL-C02,FOL,C02,Main Kitchen And Minimum Kitchen,,,,,,,1894,34533,DINING/CAFETERIA,14662,C02,39,,1,SPI
 FOL-H01,FOL,H01,Cell Block#1;Cell Block 1,,,,housing,,,1908,83850,DORMITORY,14721,H01,39,,3,SPI;MPAR2022:P-2122-00138;plata_ecf3952-1_cms_exhibits_2025-03-10
-FOL-H02,FOL,H02,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-FOL-H03,FOL,H03,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
+FOL-H02/H03,FOL,H02/H03,Cell Blocks#2&#3 And Hospital Admin Bldg,H02;H03,,,housing,,,1931,194900,DORMITORY,14664,"H02, H03",39,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 FOL-H04,FOL,H04,Cell Block #4,,,,housing,,,1951,33309,DORMITORY,50532,H04,39,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 FOL-H05,FOL,H05,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 FOL-H100,FOL,H100,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
@@ -1810,12 +1789,15 @@ FOL-S33,FOL,S33,Armory - Locksmith,,,,,,,1992,1721,ARMORY,50544,S33,39,,1,SPI
 FOL-S36,FOL,S36,Crisis Response Team - Valley House #108,,,,,,,1938,1080,OFFICE (INSTITUTIONAL),14657,S36,39,,1,SPI
 FOL-S38,FOL,S38,West Gate Security Processing Building,,,,,,,2007,201,OFFICE (INSTITUTIONAL),50832,S38,39,,1,SPI
 FOL-U05,FOL,U05,Old Water Filtration Plant,,,,,,,1940,10943,UTILITY,50529,U05,39,,1,SPI
+FOL-W01/W02,FOL,W01/W02,Maintenance Hanger (Including Storage),,,,,,,1948,14100,WAREHOUSE,14663,"W01, W02",39,,1,SPI
 FOL-W04,FOL,W04,Industrial Warehouse,,,,,,,1967,30054,WAREHOUSE,14677,W04,39,,1,SPI
 FOL-W05,FOL,W05,Old Power House,,,,,,,1891,19483,CLASSROOM,50533,W05,39,,1,SPI
 FOL-W06,FOL,W06,Bus Repair Garage,,,,,,,1968,3600,GARAGE/PARKING STRUCTURE,14713,W06,39,,1,SPI
 FOL-W08,FOL,W08,Maintenance Garage Old Folsom,,,,,,,1935,8100,SHOP,14723,W08,39,,1,SPI
+FOL-W13/W14,FOL,W13/W14,Camp 12 Conservation Corp,,,,,,,1959,14465,DORMITORY,50534,"W13, W14",39,,1,SPI
 FOL-W14,FOL,W14,Vocational Bldg. Maint. - Valley,,,,,,,1975,2604,CLASSROOM,50542,W14,39,,1,SPI
 FOL-W16,FOL,W16,Valley Lawns,,,,,,,1950,1213,OFFICE (INSTITUTIONAL),50546,W16,39,,1,SPI
+FOL-W18/W19/W20/W21,FOL,W18/W19/W20/W21,Folsom Women'S Facility,,,,,,,1990,82447,HOSPITAL/CLINIC/TREATMENT CENTER,50531,"W18, W19 ,W20, W21",39,,1,SPI
 FOL-W21,FOL,W21,Hazordous Materials Shed,,,,,,,1990,1008,SHED,50547,W21,39,,1,SPI
 FOL-W26,FOL,W26,Lower Yard Crew #2 Quonsets,,,,,,,1970,1890,STORAGE BUILDING,50543,W26,39,,1,SPI
 FOL-W27,FOL,W27,Maintenance Storage Quonsets,,,,,,,1950,4312,STORAGE,50831,W27,39,,1,SPI
@@ -1843,8 +1825,6 @@ FOL-spi14658,FOL,,Valley Houses Resident#201,,,,,,,1938,1148,RESIDENCE (SINGLE F
 FOL-spi14659,FOL,,Valley Houses Resident#401,,,,,,,1938,1204,RESIDENCE (SINGLE FAMILY),14659,RES401,39,,1,SPI
 FOL-spi14660,FOL,,Valley Houses Resident Garages,,,,,,,1938,16074,GARAGE/PARKING STRUCTURE,14660,VALLEY HOUSES RES GARAGE,39,,1,SPI
 FOL-spi14661,FOL,,Gun Towers,,,,,,,,1620,LOOKOUT (GUARD STATION),14661,"S10 TO S28, S31, S34, S35",39,,1,SPI
-FOL-spi14663,FOL,,Maintenance Hanger (Including Storage),,,,,,,1948,14100,WAREHOUSE,14663,"W01, W02",39,,1,SPI
-FOL-spi14664,FOL,,Cell Blocks#2&#3 And Hospital Admin Bldg,,,,,,,1931,194900,DORMITORY,14664,"H02, H03",39,,1,SPI
 FOL-spi14667,FOL,,Vocational Education,,,,,,,1948,14320,CLASSROOM,14667,VOCATIONAL EDUCATION,39,,1,SPI
 FOL-spi14668,FOL,,Main Yard Buildings,,,,,,,1915,31826,OFFICE (INSTITUTIONAL),14668,S02 (SEE COMMENTS),39,,1,SPI
 FOL-spi14669,FOL,,Cell Block #5 And O & G Building,,,,,,,1880,92935,DORMITORY,14669,CELL BLOCK #5 & OG BLDG.,39,,1,SPI
@@ -1894,8 +1874,6 @@ FOL-spi45489,FOL,,Actiflow Pretreatment Unit,,,,,,,2004,0,UTILITY,45489,U02,39,,
 FOL-spi50524,FOL,,Old Cow And Calf Barn,,,,,,,1950,2702,STORAGE,50524,,39,,1,SPI
 FOL-spi50525,FOL,,Old Dairy Warehouse,,,,,,,1920,975,STORAGE,50525,,39,,1,SPI
 FOL-spi50530,FOL,,Larkin Hall,,,,,,,1937,0,CLASSROOM,50530,M09,39,,1,SPI
-FOL-spi50531,FOL,,Folsom Women'S Facility,,,,,,,1990,82447,HOSPITAL/CLINIC/TREATMENT CENTER,50531,"W18, W19 ,W20, W21",39,,1,SPI
-FOL-spi50534,FOL,,Camp 12 Conservation Corp,,,,,,,1959,14465,DORMITORY,50534,"W13, W14",39,,1,SPI
 FOL-spi50535,FOL,,Post 8 Warehouse,,,,,,,1945,358,STORAGE,50535,W17,39,,1,SPI
 FOL-spi50536,FOL,,Valley Trades,,,,,,,1960,5530,SHOP,50536,W17,39,,1,SPI
 FOL-spi50540,FOL,,Old Dairy Barn,,,,,,,1963,2702,STORAGE,50540,,39,,1,SPI
@@ -1998,7 +1976,7 @@ HDSP-804,HDSP,804,Vehicle/Sallyport Officer Bldg.,,,,,,,1995,120,LOOKOUT (GUARD 
 HDSP-805,HDSP,805,Armory/Locksmith,,,,,,,1995,1715,ARMORY,38151,KITCHELL- 805 BLDG.,9982,,1,SPI
 HDSP-807,HDSP,807,Gatehouse,,,,,,,1995,120,LOOKOUT (GUARD STATION),38153,KITCHELL- 807 BLDG.,9982,,1,SPI
 HDSP-808,HDSP,808,Multi-Purpose Bldg.,,,,,,,1995,2400,OFFICE (INSTITUTIONAL),38154,KITCHELL-808 BLDG.,9982,,1,SPI
-HDSP-901,HDSP,901,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-901,HDSP,901,Housing Unit-Level I,,,,housing,,,1995,13244,DORMITORY,38155,KITCHELL- 901 BLD,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 HDSP-902,HDSP,902,Housing Unit-Level I,,,,housing,,,1995,13244,DORMITORY,38156,KITCHELL- 902 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 HDSP-903,HDSP,903,Program And Support Services Level Iv,,,,,,,1995,12900,OFFICE (INSTITUTIONAL),38157,KITCHELL- 903 BLDG.,9982,,1,SPI
 HDSP-904,HDSP,904,Support Services Level I,,,,,,,1995,6075,OFFICE (INSTITUTIONAL),38158,KITCHELL- 904 BLDG.,9982,,1,SPI
@@ -2012,7 +1990,6 @@ HDSP-correctional-treatment-center,HDSP,,Correctional Treatment Center,,,,health
 HDSP-spi38062,HDSP,,Guard Tower 3,,,,,,,1995,150,LOOKOUT (GUARD STATION),38062,KITCHELL -303 BLDG.,9982,,1,SPI
 HDSP-spi38065,HDSP,,Guard Tower 6,,,,,,,1995,150,LOOKOUT (GUARD STATION),38065,KITCHELL - 306 BLDG.,9982,,1,SPI
 HDSP-spi38120,HDSP,,"Vocational Education, A Yard",,,,,,,1995,17080,CLASSROOM,38120,KITHCHELL- 527 BLDG.,9982,,1,SPI
-HDSP-spi38155,HDSP,,Housing Unit-Level I,,,,,,,1995,13244,DORMITORY,38155,KITCHELL- 901 BLD,9982,,1,SPI
 HDSP-spi38264,HDSP,,Weapons Training And Firing Ranges,,,,,,,1995,3732,TRAINING FACILITY,38264,"KITCHELL- 216, 217A&B BLD",9982,,1,SPI
 HDSP-spi39540,HDSP,,Well A,,,,,,,1995,480,PUMP/WELL HOUSE,39540,,9982,,1,SPI
 HDSP-spi39541,HDSP,,Well B,,,,,,,1995,480,PUMP/WELL HOUSE,39541,,9982,,1,SPI
@@ -2381,6 +2358,9 @@ MCSP-D1,MCSP,D1,General Visiting,,,,,,,,29300,VISITATION FACILITY,28918,D1,43,,1
 MCSP-D16,MCSP,D16,Level Ii Dormitory - D16,,,,housing,,,2018,47906,DORMITORY,57364,D16,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 MCSP-D17,MCSP,D17,Level Ii Dormitory - D17,,,,housing,,,2018,47906,DORMITORY,57365,D17,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 MCSP-D18,MCSP,D18,Level Ii Eop Dormitory - D18,,,,housing,,,2018,47906,DORMITORY,57366,D18,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-D2,MCSP,D2,Healthcare Administration,,,,,,,,1560,OFFICE (INSTITUTIONAL),28902,D2 SEE BLOCK 24,43,,1,SPI
+MCSP-D4,MCSP,D4,Conjugal Visiting,,,,,,,,1560,RESIDENCE (MULTI-FAMILY),28903,D4 SEE BLOCK 24,43,,1,SPI
+MCSP-D6,MCSP,D6,Conjugal Visiting,,,,,,,,1560,RESIDENCE (MULTI-FAMILY),28904,D6 SEE BLOCK 24,43,,1,SPI
 MCSP-E01,MCSP,E01,Family Visiting - E01,,,,,,,2018,3019,VISITATION FACILITY,57367,E01,43,,1,SPI
 MCSP-E02,MCSP,E02,Program Support Services - E02,,,,,,,2018,45310,OFFICE (INSTITUTIONAL),57368,E02,43,,1,SPI
 MCSP-E03,MCSP,E03,Facility Support Services - E03,,,,,,,2018,23950,OFFICE (INSTITUTIONAL),57369,E03,43,,1,SPI
@@ -2417,42 +2397,24 @@ MCSP-U05,MCSP,U05,Filter Belt Press,,,,,,,1995,1530,UTILITY,37938,U05,43,,1,SPI
 MCSP-W02,MCSP,W02,Volatile Storage,,,,,,,1987,323,SHED,37937,W02,43,,1,SPI
 MCSP-W08,MCSP,W08,Hazardous Storage - 90 Days,,,,,,,1995,1652,SHED,37939,W08,43,,1,SPI
 MCSP-W09,MCSP,W09,Nursery,,,,,,,1988,754,NURSERY/GREENHOUSE,37936,W09,43,,1,SPI
-MCSP-Y1,MCSP,Y1,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y10,MCSP,Y10,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y11,MCSP,Y11,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y12,MCSP,Y12,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y13,MCSP,Y13,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y14,MCSP,Y14,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y15,MCSP,Y15,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y2,MCSP,Y2,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y3,MCSP,Y3,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y4,MCSP,Y4,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y5,MCSP,Y5,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y6,MCSP,Y6,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y7,MCSP,Y7,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y8,MCSP,Y8,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
-MCSP-Y9,MCSP,Y9,,,,,housing,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y1,MCSP,Y1,Level 4 Inmate Housing Unit,,,,housing,,,,24808,DORMITORY,28922,Y1 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y10,MCSP,Y10,Level 3 Inmate Housing Unit,,,,housing,,,,24986,DORMITORY,29113,Y10 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y11,MCSP,Y11,Level 3 Inmate Housing Unit,,,,housing,,,,24986,DORMITORY,29114,Y11 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y12,MCSP,Y12,Administrative Segregation Housing Unit,,,,housing,,,,25789,DORMITORY,29115,Y12 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y13,MCSP,Y13,Level 3 Inmate Housing Unit,,,,housing,,,,24986,DORMITORY,29116,Y13 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y14,MCSP,Y14,Level 3 Inmate Housing Unit,,,,housing,,,,24986,DORMITORY,29117,Y14 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y15,MCSP,Y15,Level 3 Inmate Housing Unit,,,,housing,,,,24986,DORMITORY,29118,Y15 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y2,MCSP,Y2,Level 4 Inmate Housing Unit,,,,housing,,,,24808,DORMITORY,28923,Y2 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y3,MCSP,Y3,Level 4 Inmate Housing Unit,,,,housing,,,,24808,DORMITORY,28924,Y3 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y4,MCSP,Y4,Level 4 Inmate Housing Unit,,,,housing,,,,24808,DORMITORY,28925,Y4 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y5,MCSP,Y5,Level 4 Inmate Housing Unit,,,,housing,,,,24808,DORMITORY,28926,Y5 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y6,MCSP,Y6,Level 3 Inmate Housing Unit,,,,housing,,,,24986,DORMITORY,28927,Y6 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y7,MCSP,Y7,Level 3 Inmate Housing Unit,,,,housing,,,,24986,DORMITORY,28928,Y7 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y8,MCSP,Y8,Level 3 Inmate Housing Unit,,,,housing,,,,24986,DORMITORY,28929,Y8 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+MCSP-Y9,MCSP,Y9,Level 3 Inmate Housing Unit,,,,housing,,,,24986,DORMITORY,28930,Y9 SEE BLOCK 24,43,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 MCSP-correctional-treatment-center,MCSP,,Correctional Treatment Center,,,,health_care,,,,,,,,,,1,MPAR2022:P-1718-00344
-MCSP-spi28902,MCSP,,Healthcare Administration,,,,,,,,1560,OFFICE (INSTITUTIONAL),28902,D2 SEE BLOCK 24,43,,1,SPI
-MCSP-spi28903,MCSP,,Conjugal Visiting,,,,,,,,1560,RESIDENCE (MULTI-FAMILY),28903,D4 SEE BLOCK 24,43,,1,SPI
-MCSP-spi28904,MCSP,,Conjugal Visiting,,,,,,,,1560,RESIDENCE (MULTI-FAMILY),28904,D6 SEE BLOCK 24,43,,1,SPI
 MCSP-spi28905,MCSP,,Office G4,,,,,,,,748,OFFICE (INSTITUTIONAL),28905,G4-SEE BLOCK 24,43,,1,SPI
 MCSP-spi28919,MCSP,,Gun Towers,,,,,,,,890,LOOKOUT (GUARD STATION),28919,GT.1,43,,1,SPI
-MCSP-spi28922,MCSP,,Level 4 Inmate Housing Unit,,,,,,,,24808,DORMITORY,28922,Y1 SEE BLOCK 24,43,,1,SPI
-MCSP-spi28923,MCSP,,Level 4 Inmate Housing Unit,,,,,,,,24808,DORMITORY,28923,Y2 SEE BLOCK 24,43,,1,SPI
-MCSP-spi28924,MCSP,,Level 4 Inmate Housing Unit,,,,,,,,24808,DORMITORY,28924,Y3 SEE BLOCK 24,43,,1,SPI
-MCSP-spi28925,MCSP,,Level 4 Inmate Housing Unit,,,,,,,,24808,DORMITORY,28925,Y4 SEE BLOCK 24,43,,1,SPI
-MCSP-spi28926,MCSP,,Level 4 Inmate Housing Unit,,,,,,,,24808,DORMITORY,28926,Y5 SEE BLOCK 24,43,,1,SPI
-MCSP-spi28927,MCSP,,Level 3 Inmate Housing Unit,,,,,,,,24986,DORMITORY,28927,Y6 SEE BLOCK 24,43,,1,SPI
-MCSP-spi28928,MCSP,,Level 3 Inmate Housing Unit,,,,,,,,24986,DORMITORY,28928,Y7 SEE BLOCK 24,43,,1,SPI
-MCSP-spi28929,MCSP,,Level 3 Inmate Housing Unit,,,,,,,,24986,DORMITORY,28929,Y8 SEE BLOCK 24,43,,1,SPI
-MCSP-spi28930,MCSP,,Level 3 Inmate Housing Unit,,,,,,,,24986,DORMITORY,28930,Y9 SEE BLOCK 24,43,,1,SPI
-MCSP-spi29113,MCSP,,Level 3 Inmate Housing Unit,,,,,,,,24986,DORMITORY,29113,Y10 SEE BLOCK 24,43,,1,SPI
-MCSP-spi29114,MCSP,,Level 3 Inmate Housing Unit,,,,,,,,24986,DORMITORY,29114,Y11 SEE BLOCK 24,43,,1,SPI
-MCSP-spi29115,MCSP,,Administrative Segregation Housing Unit,,,,,,,,25789,DORMITORY,29115,Y12 SEE BLOCK 24,43,,1,SPI
-MCSP-spi29116,MCSP,,Level 3 Inmate Housing Unit,,,,,,,,24986,DORMITORY,29116,Y13 SEE BLOCK 24,43,,1,SPI
-MCSP-spi29117,MCSP,,Level 3 Inmate Housing Unit,,,,,,,,24986,DORMITORY,29117,Y14 SEE BLOCK 24,43,,1,SPI
-MCSP-spi29118,MCSP,,Level 3 Inmate Housing Unit,,,,,,,,24986,DORMITORY,29118,Y15 SEE BLOCK 24,43,,1,SPI
 MCSP-spi36808,MCSP,,C1 & C2 / Receiving And Release,,,,,,,1994,129048,OFFICE (INSTITUTIONAL),36808,C1 & C2,43,,1,SPI
 MCSP-spi43438,MCSP,,Inmate Day Labor Modular,,,,,,,,720,RELOCATABLE OFFICE,43438,,43,,1,SPI
 MCSP-spi4617,MCSP,,In-Service Training Modular B,,,,,,,1996,2160,RELOCATABLE CLASSROOM,4617,A02 - MODULAR B,43,,1,SPI
