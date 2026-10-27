@@ -8,6 +8,7 @@ sources/cdcr_facilities_planning/
 sources/heat_cooling/
 sources/prea/
 sources/cdcr_web/
+sources/reuters_heat_records/
 
 # Public records act responses (password-protected, not ours to publish)
 sources/pwc_2026_pra/
