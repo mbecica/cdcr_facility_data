@@ -192,7 +192,7 @@ Both files are long format: one row per month, institution, and measure. `cchcs_
 
 ### Operations and programs (`sb601_operations.csv`, `sb601_programs.csv`)
 
-From the dashboard CDCR publishes under SB 601. `sb601_operations.csv` has monthly lockdowns and modified programs, deaths, overtime hours, and use of force by institution and fiscal year. `sb601_programs.csv` has monthly enrollment and operational capacity by program for FY 2024-25.
+From the dashboard CDCR publishes under SB 601. `sb601_operations.csv` has monthly lockdowns and modified programs, deaths, overtime hours, and use of force, one row per institution, month and metric. `sb601_programs.csv` has monthly enrollment and operational capacity by program for FY 2024-25.
 
 ### Grievances (`sb601_grievances.csv`)
 

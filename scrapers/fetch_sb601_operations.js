@@ -6,7 +6,8 @@
  *   - Overtime Hours
  *   - Use of Force
  *
- * Output columns: institution, fiscal_year, category, metric, Jul, Aug, Sep, Oct, Nov, Dec, Jan, Feb, Mar, Apr, May, Jun
+ * Output columns: cdcr_code, institution_as_stated, month (YYYY-MM), category, metric, value
+ * One row per institution, month and metric. Blank cells stay blank.
  *
  * Two-pass horizontal extraction:
  *   Pass 1 (left):  captures Jul–Apr (columns visible at default scroll position)
@@ -470,6 +471,38 @@ function toCsv(rows) {
   ).join('\n');
 }
 
+// Alias code -> cdcr_code, from crosswalk/institutions.csv (alias_codes is the last column).
+function loadAliases() {
+  const lines = fs.readFileSync(path.join(__dirname, '..', 'crosswalk', 'institutions.csv'), 'utf8').trim().split('\n');
+  const aliases = {};
+  for (const line of lines.slice(1)) {
+    const fields = line.trim().split(',');
+    for (const a of fields[fields.length - 1].split(';')) {
+      if (a.trim()) aliases[a.trim()] = fields[0];
+    }
+  }
+  return aliases;
+}
+
+const LONG_HEADER = ['cdcr_code', 'institution_as_stated', 'month', 'category', 'metric', 'value'];
+
+// Wide rows (one per institution, fiscal year and metric) -> long rows (one per month).
+// The dashboard's Quarter and Metric header rows are dropped; Jul-Dec fall in the fiscal year's first calendar year.
+function toLongRows(wideRows, aliases) {
+  const out = [];
+  for (const r of wideRows) {
+    if (r.metric === 'Quarter' || r.metric === 'Metric') continue;
+    const [startYear, endYear] = r.fiscal_year.split('-');
+    MONTH_NAMES.forEach((m, i) => {
+      const year = i < 6 ? startYear : endYear;
+      const month = `${year}-${String(((i + 6) % 12) + 1).padStart(2, '0')}`;
+      out.push([aliases[r.institution] ?? r.institution, r.institution, month, r.category, r.metric,
+        String(r[m] ?? '').replace(/,/g, '')]);
+    });
+  }
+  return out;
+}
+
 (async () => {
   const browser = await chromium.launch({ headless: false });
   const page = await browser.newPage({ viewport: { width: 1400, height: 900 } });
@@ -528,11 +561,10 @@ function toCsv(rows) {
     if (allData.length === 0) {
       console.warn('\nNo data collected.');
     } else {
-      const csvHeader = ['institution', 'fiscal_year', 'category', 'metric', ...MONTH_NAMES];
-      const csvRows = [csvHeader, ...allData.map(r => csvHeader.map(k => r[k] ?? ''))];
-      fs.writeFileSync(OUT_PATH, toCsv(csvRows), 'utf8');
-      console.log(`\nSaved ${allData.length} rows to: ${OUT_PATH}`);
-      allData.slice(0, 3).forEach(r => console.log(' ', JSON.stringify(r)));
+      const longRows = toLongRows(allData, loadAliases());
+      fs.writeFileSync(OUT_PATH, toCsv([LONG_HEADER, ...longRows]), 'utf8');
+      console.log(`\nSaved ${longRows.length} rows to: ${OUT_PATH}`);
+      longRows.slice(0, 3).forEach(r => console.log(' ', JSON.stringify(r)));
     }
 
   } catch (err) {
