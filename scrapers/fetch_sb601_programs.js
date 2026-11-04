@@ -10,7 +10,7 @@ const fs = require('fs');
 const path = require('path');
 
 const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiYzlkM2RiNWEtZDRjMi00ODllLTg2YzEtZjYyM2MwMjA5NmQ0IiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9&pageName=5a926528bbf7e48d60c2';
-const OUT_PATH = path.join(__dirname, '..', 'data', 'sb601_programs.csv');
+const OUT_PATH = path.join(__dirname, '..', 'data', 'operations', 'sb601_programs.csv');
 // To use a different year, change FISCAL_YEAR.
 const FISCAL_YEAR = '2024-2025';
 // Grievances come from fetch_sb601_grievances.py, which reads them without dropping rows

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CDCR Heat Plan Monthly Summary Reports, May–October 2024 → sources/heat_plan_monthly_summaries_2024.csv
+CDCR Heat Plan Monthly Summary Reports, May–October 2024 → data/heat/logs_2024/heat_plan_monthly_summaries_2024.csv
 
 Each month, every prison sends CDCR headquarters a Heat Plan Monthly Summary Report
 (form CDCR MH-7711-1): whether outside temperatures reached 90°F, the number of days
@@ -38,7 +38,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PDF_DIR = ROOT / 'sources' / 'reuters_heat_records' / 'california' / 'responses'
-OUT = ROOT / 'sources' / 'heat_plan_monthly_summaries_2024.csv'
+OUT = ROOT / 'data' / 'heat' / 'logs_2024' / 'heat_plan_monthly_summaries_2024.csv'
 
 # MH-7711-1 page when it isn't page 1 (found by scanning every page; checked on the image)
 PAGES = {

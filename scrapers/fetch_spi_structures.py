@@ -8,7 +8,7 @@ keeps the structures at the adult institutions in crosswalk/institutions.csv
 facilities not in the crosswalk (CCC, DVI, NCRF), and statewide offices are
 dropped.
 
-Output: sources/spi_cdcr_structures.csv, one row per structure.
+Output: data/buildings/spi_cdcr_structures.csv, one row per structure.
   Columns: cdcr_code, real_property_number, real_property_name,
   structure_number (DGS's ID), agency_structure_no (the agency's building
   number, as entered), structure_name, structure_type_code, structure_type,
@@ -27,7 +27,7 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "sources" / "spi_cdcr_structures.csv"
+OUT = ROOT / 'data' / 'buildings' / 'spi_cdcr_structures.csv'
 URL = ("https://services8.arcgis.com/a4GMqC2tQHvYiVtK/arcgis/rest/services/"
        "SPIPublicMapViewer/FeatureServer/1/query")
 PAGE = 2000

@@ -31,7 +31,7 @@ import pdfplumber
 from pathlib import Path
 
 SRC = Path(__file__).resolve().parent.parent / "sources" / "specialized_beds"
-OUT = Path(__file__).resolve().parent.parent / "data"
+OUT = Path(__file__).resolve().parent.parent / "data" / "mental_health_beds"
 
 
 # ── Helpers ─────────────────────────────────────────────────────────────────

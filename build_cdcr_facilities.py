@@ -1,5 +1,5 @@
 """
-Build data/cdcr_facilities.csv: one row per CDCR adult institution, joining
+Build data/facilities/cdcr_facilities.csv: one row per CDCR adult institution, joining
 population, demographics, housing cooling, facility metadata, programs, health
 care population, staffing, restricted housing and violent incidents.
 
@@ -17,10 +17,9 @@ import numpy as np
 import pandas as pd
 
 REPO = Path(__file__).resolve().parent
-SOURCES = REPO / 'sources'
 DATA = REPO / 'data'
 CROSSWALK = REPO / 'crosswalk' / 'institutions.csv'
-OUT = DATA / 'cdcr_facilities.csv'
+OUT = DATA / 'facilities' / 'cdcr_facilities.csv'
 
 YEAR = 2025
 
@@ -36,7 +35,7 @@ def load_crosswalk():
 
 def population(aliases):
     """Mean monthly in-custody population for YEAR (CDCR Population Data Points dashboard)."""
-    pop = pd.read_csv(DATA / 'cdcr_population_by_location.csv')
+    pop = pd.read_csv(DATA / 'population' / 'cdcr_population_by_location.csv')
     pop['cdcr_code'] = pop['cdcr_code'].replace(aliases)
     return (
         pop[pop['year'] == YEAR]
@@ -47,7 +46,7 @@ def population(aliases):
 
 def occupancy(aliases):
     """Mean monthly TPOP-1 "Percent Occupied" (population / design capacity) for YEAR."""
-    tpop = pd.read_csv(DATA / 'tpop1_institutions.csv')
+    tpop = pd.read_csv(DATA / 'population' / 'tpop1_institutions.csv')
     tpop['cdcr_code'] = tpop['cdcr_code'].replace(aliases)
     tpop = tpop[tpop['report_date'].str.startswith(str(YEAR))]
     return (
@@ -76,7 +75,7 @@ def demographics(pop, aliases):
     out = pd.DataFrame(index=pop.index)
     safe_pop = pop.where(pop > 0)
 
-    age = average_counts(SOURCES / f'cdcr_in-custody-age_{YEAR}.csv', 'Age Group', aliases)
+    age = average_counts(DATA / 'population' / f'cdcr_in-custody-age_{YEAR}.csv', 'Age Group', aliases)
     b80 = ['80-84 Years', '85-89 Years', '90-94 Years', '95 and Older']
     b70 = ['70-74 Years', '75-79 Years']
     b60 = ['60-64 Years', '65-69 Years']
@@ -93,13 +92,13 @@ def demographics(pop, aliases):
         counts = age[age.columns.intersection(groups)].sum(axis=1)
         out[col] = (counts.reindex(pop.index) / safe_pop).fillna(0)
 
-    gender = average_counts(SOURCES / f'cdcr_in-custody-gender_{YEAR}.csv', 'Gender', aliases)
+    gender = average_counts(DATA / 'population' / f'cdcr_in-custody-gender_{YEAR}.csv', 'Gender', aliases)
     for cat in gender.columns:
         name = f"gender_{str(cat).lower().replace(' ', '_').replace('/', '_').replace('-', '_')}_pct"
         share = (gender[cat].reindex(pop.index) / safe_pop).fillna(0).clip(0, 1)
         out[name] = share.where(share >= 0.001, 0)
 
-    race = average_counts(SOURCES / f'cdcr_in-custody-race_{YEAR}.csv', 'Race', aliases)
+    race = average_counts(DATA / 'population' / f'cdcr_in-custody-race_{YEAR}.csv', 'Race', aliases)
     white = race['White'] if 'White' in race.columns else 0
     poc = race.drop(columns=['White'], errors='ignore').sum(axis=1)
     out['race_white_pct'] = (white.reindex(pop.index) / safe_pop).fillna(0)
@@ -111,7 +110,7 @@ def demographics(pop, aliases):
 
 def cooling(aliases):
     """Housing-unit cooling mix (CDCR Air Cooling Pilot Supplemental Report, Jan 2026)."""
-    infra = pd.read_csv(SOURCES / 'air_cooling_infrastructure_dec2025.csv')
+    infra = pd.read_csv(DATA / 'heat' / 'cooling' / 'air_cooling_infrastructure_dec2025.csv')
     infra['institution'] = infra['institution'].replace(aliases)
     n_hu = infra['n_housing_units']
     return pd.DataFrame({
@@ -143,7 +142,7 @@ COOLING_TYPES = {
 def infrastructure(aliases):
     """Building size and bed types (Infrastructure Master Plan, May 2026, Appendix 1),
     and condition ratings of heat-related systems (Appendix 2)."""
-    prof = pd.read_csv(SOURCES / 'infrastructure_plan_profiles_2026.csv')
+    prof = pd.read_csv(DATA / 'buildings' / 'infrastructure_plan_profiles_2026.csv')
     prof['institution'] = prof['institution'].replace(aliases)
     prof = prof.set_index('institution')
     out = prof[['building_sqft', 'cell_beds', 'dorm_beds']].copy()
@@ -152,14 +151,14 @@ def infrastructure(aliases):
     per_bed = (prof['building_sqft'] / prof['design_capacity_apr2026']).round(1)
     out['building_sqft_per_design_bed'] = per_bed.where(prof['conservation_camps'].isna())
 
-    cond = pd.read_csv(SOURCES / 'condition_assessment_2026.csv', keep_default_na=False)
+    cond = pd.read_csv(DATA / 'buildings' / 'condition_assessment_2026.csv', keep_default_na=False)
     cond['institution'] = cond['institution'].replace(aliases)
     cond = cond[cond['system'].isin(CONDITION_SYSTEMS)]
     ratings = cond.pivot(index='institution', columns='system', values='rating')
     ratings = ratings.rename(columns=CONDITION_SYSTEMS)[list(CONDITION_SYSTEMS.values())]
 
     # Cooling types rated at the institution but found in none of its housing units
-    hu = pd.read_csv(SOURCES / 'air_cooling_infrastructure_dec2025.csv')
+    hu = pd.read_csv(DATA / 'heat' / 'cooling' / 'air_cooling_infrastructure_dec2025.csv')
     hu['institution'] = hu['institution'].replace(aliases)
     hu = hu.set_index('institution').reindex(ratings.index)
     outside = pd.DataFrame({
@@ -169,7 +168,7 @@ def infrastructure(aliases):
     ratings['cooling_types_outside_housing'] = outside.apply(
         lambda r: '; '.join(name for name in COOLING_TYPES if r[name]), axis=1).replace('', np.nan)
 
-    rank = pd.read_csv(SOURCES / 'condition_assessment_rank_2026.csv')
+    rank = pd.read_csv(DATA / 'buildings' / 'condition_assessment_rank_2026.csv')
     rank['institution'] = rank['institution'].replace(aliases)
     rank = rank.set_index('institution')['condition_rank'].rename('condition_rank_2026')
     return out.join(ratings, how='outer').join(rank)
@@ -177,7 +176,7 @@ def infrastructure(aliases):
 
 def metadata():
     """Hand-reviewed facility metadata: opening year, planned closure, program flags."""
-    meta = pd.read_csv(SOURCES / 'cdcr_manual_data.csv')
+    meta = pd.read_csv(DATA / 'facilities' / 'cdcr_manual_data.csv')
     meta['Acronym'] = meta['Acronym'].astype(str).str.strip()
     meta.columns = [c.lower() for c in meta.columns]
     return meta.set_index('acronym')
@@ -185,7 +184,7 @@ def metadata():
 
 def sb601_programs(aliases):
     """Programs with operational capacity > 0 in any month of FY 2024-25 (SB 601 dashboard)."""
-    sb = pd.read_csv(DATA / 'sb601_programs.csv', skiprows=1)
+    sb = pd.read_csv(DATA / 'operations' / 'sb601_programs.csv', skiprows=1)
     sb.columns = ['institution', 'category', 'metric'] + list(sb.columns[3:])
     sb['institution'] = sb['institution'].replace(aliases)
     cap = sb[sb['metric'].str.endswith('- Operational Capacity')].copy()
@@ -204,7 +203,7 @@ def sb601_programs(aliases):
 
 def cchcs(aliases):
     """YEAR averages of CCHCS Institution & Population Characteristics measures."""
-    ipc = pd.read_csv(DATA / 'cchcs_ipc.csv')
+    ipc = pd.read_csv(DATA / 'health_care' / 'cchcs_ipc.csv')
     ipc['val'] = pd.to_numeric(ipc['value'].astype(str).str.replace('%', '').str.strip(), errors='coerce')
     ipc['institution'] = ipc['institution'].replace(aliases)
     measures = {
@@ -224,7 +223,7 @@ def cchcs(aliases):
 
 def staffing(aliases):
     """YEAR average SCO headcount: state staff (CDCR + CCHCS) and PIA incarcerated workers."""
-    sco = pd.read_csv(DATA / 'sco_staffing_avg.csv')
+    sco = pd.read_csv(DATA / 'staffing' / 'sco_staffing_avg.csv')
     sco['cdcr_code'] = sco['cdcr_code'].replace(aliases)
     state = sco[~sco['is_pia']].groupby('cdcr_code')['total'].sum().round(1)
     pia = sco[sco['is_pia']].groupby('cdcr_code')['total'].sum().round(1)
@@ -233,7 +232,7 @@ def staffing(aliases):
 
 def restricted_housing(aliases):
     """Mean of the twelve monthly % in restricted housing for YEAR (STA429 reports)."""
-    rh = pd.read_csv(DATA / 'restricted_housing.csv')
+    rh = pd.read_csv(DATA / 'operations' / 'restricted_housing.csv')
     rh['cdcr_code'] = rh['cdcr_code'].replace(aliases)
     rh = rh[rh['data_month'].str.startswith(str(YEAR))]
     return rh.groupby('cdcr_code')['pct_in_rhu'].mean().round(4).rename(f'rhu_pct_{YEAR}')
@@ -241,7 +240,7 @@ def restricted_housing(aliases):
 
 def violent_incidents(aliases):
     """Total violent incidents / calendar years with reported months (2021-2025)."""
-    vi = pd.read_csv(DATA / 'cdcr_violent_incidents_by_facility.csv')
+    vi = pd.read_csv(DATA / 'operations' / 'cdcr_violent_incidents_by_facility.csv')
     vi['facility'] = vi['facility'].replace(aliases)
     g = vi.groupby('facility').agg(total=('violent_incidents', 'sum'), n_years=('year', 'nunique'))
     return (g['total'] / g['n_years']).round(1).rename('avg_annual_violent_incidents')

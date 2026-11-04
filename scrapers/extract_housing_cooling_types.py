@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CDCR's "Housing Unit Cooling Types by Institution" table → sources/housing_cooling_equipment_2024.csv
+CDCR's "Housing Unit Cooling Types by Institution" table → data/heat/cooling/housing_cooling_equipment_2024.csv
 
 The table is CDCR's report dated August 22, 2024 (the date in the copy Reuters
 published with "Scorching cells", July 2025), attached as Attachment B to CCHCS's February 20, 2025 memo "Heat Issues and
@@ -17,7 +17,7 @@ disagree, the value was checked against the page image and the rule used is in
 `resolve_building()`. Each row's `ocr_check` says whether the passes agreed. The
 output matches the text layer of the Reuters copy on every row and column.
 
-Also writes one row per building to sources/building_mentions.csv (replacing
+Also writes one row per building to data/buildings/building_mentions.csv (replacing
 earlier rows from this source), so `scrapers/build_buildings.py` joins the
 buildings to the inventory.
 
@@ -43,8 +43,8 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parent.parent
 STEM = 'plata_ecf3952-1_cms_exhibits_2025-03-10'
 PDF = ROOT / 'sources' / 'heat_cooling' / f'{STEM}.pdf'
-OUT = ROOT / 'sources' / 'housing_cooling_equipment_2024.csv'
-MENTIONS = ROOT / 'sources' / 'building_mentions.csv'
+OUT = ROOT / 'data' / 'heat' / 'cooling' / 'housing_cooling_equipment_2024.csv'
+MENTIONS = ROOT / 'data' / 'buildings' / 'building_mentions.csv'
 FIRST, LAST = 38, 79              # PDF pages of the table (its pages 1–42)
 COLS = ['site', 'building', 'primary_use', 'asset_description', 'equipment_sub_type', 'type_of_cooling']
 # Rows CDCR has since corrected: (institution, asset description as printed) → (cooling_type, note)

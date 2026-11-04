@@ -13,7 +13,7 @@ Filename convention: STA429-MMDDYY-M.pdf
   Data as-of date  = last day of the prior month
   (e.g. STA429-030525-M.pdf published Mar 5 2025 → data as of Feb 28 2025)
 
-Output: data/restricted_housing.csv
+Output: data/operations/restricted_housing.csv
   Columns: data_month, cdcr_code, rhu_population, total_population, pct_in_rhu
   (living series — reprocesses every STA429 PDF in the input folder, all years)
 """
@@ -25,7 +25,7 @@ from datetime import date, timedelta
 import pdfplumber
 
 BASE = Path(__file__).resolve().parent.parent / "sources" / "restricted_housing"
-OUT  = Path(__file__).resolve().parent.parent / "data" / "restricted_housing.csv"
+OUT  = Path(__file__).resolve().parent.parent / 'data' / 'operations' / 'restricted_housing.csv'
 
 # Rows to skip in Table 2 (not facility rows)
 SKIP_ROWS = {"Other In-Custody Populations", "Total"}

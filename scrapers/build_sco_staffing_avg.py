@@ -4,7 +4,7 @@ Build a single-year cross-section from sco_staffing.csv.
 Reads that year's snapshots, averages the staff counts, maps each row to a
 CDCR institutional code, and writes:
 
-    data/sco_staffing_avg.csv
+    data/staffing/sco_staffing_avg.csv
 
 To use a different year, change LATEST_YEAR below.
 
@@ -142,8 +142,8 @@ def get_cdcr_code(name: str) -> str:
 # ---------------------------------------------------------------------------
 def main():
     repo_root = Path(__file__).parent.parent
-    src = repo_root / 'data' / 'sco_staffing.csv'
-    out = repo_root / 'data' / 'sco_staffing_avg.csv'
+    src = repo_root / 'data' / 'staffing' / 'sco_staffing.csv'
+    out = repo_root / 'data' / 'staffing' / 'sco_staffing_avg.csv'
 
     numeric_cols = ['full_time', 'part_time', 'intermittent', 'indeterminate', 'total']
 

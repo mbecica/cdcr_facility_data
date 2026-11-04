@@ -18,7 +18,7 @@ open data rows for those months are dropped. Where the two overlapped they
 mostly agreed, but CDCR notes counts are "subject to future restatement or
 correction" and the dashboard is the more recent publication.
 
-Output: data/sb601_grievances.csv, one row per institution, report date and
+Output: data/operations/sb601_grievances.csv, one row per institution, report date and
 metric.
   Columns: source, institution (as published), cdcr_code, report_date (as
   published), month (YYYY-MM), fiscal_year, category, metric, value
@@ -41,7 +41,7 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "data" / "sb601_grievances.csv"
+OUT = ROOT / 'data' / 'operations' / 'sb601_grievances.csv'
 OPEN_DATA = ROOT / "sources" / "sb601_open_data" / "sb601_data_2024_06.xlsx"
 CROSSWALK = ROOT / "crosswalk" / "institutions.csv"
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Coleman heat plan monitoring data → two CSVs in sources/:
+Coleman heat plan monitoring data → two CSVs in data/heat/monitoring/:
 
   1. coleman_heat_plan_findings.csv
      Compliance finding for each institution and heat plan area, from the
@@ -1800,7 +1800,7 @@ def write(path, rows, cols):
         for r in rows:
             w.writerow({c: r.get(c, '') for c in cols})
 
-out = ROOT / 'sources'
+out = ROOT / 'data' / 'heat' / 'monitoring'
 write(f'{out}/coleman_heat_plan_findings.csv', findings,
       ['cdcr_code', 'unit_as_stated', 'report', 'reviewer', 'site_visit', 'area', 'finding', 'page', 'quote'])
 write(f'{out}/coleman_heat_plan_counts.csv', counts,

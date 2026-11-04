@@ -30,7 +30,7 @@ from collections import defaultdict
 import os
 
 REPO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE_DIR = os.path.join(REPO_DIR, "data")
+BASE_DIR = os.path.join(REPO_DIR, "data", "operations")
 INCIDENTS_DIR = os.path.join(REPO_DIR, "sources", "cdcr_incidents")
 
 # PDF files in order from OLDEST to NEWEST so newer data overrides older for overlapping months

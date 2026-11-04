@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CDCR 2024 Heat Plan packages (Reuters CPRA production) → sources/heat_plan_log_pages_2024.csv
+CDCR 2024 Heat Plan packages (Reuters CPRA production) → data/heat/logs_2024/heat_plan_log_pages_2024.csv
 
 Reuters obtained each institution's monthly Heat Plan package for May–October 2024
 from CDCR under the California Public Records Act and posted them as 189 scanned
@@ -30,7 +30,7 @@ hold a different month's logs (DUPLICATES).
 Header fields on inside records are often handwritten, and OCR reads handwriting
 poorly. So the housing unit on every inside record was read from the page images
 instead, from sheets of each page's field line, and transcribed into
-sources/heat_plan_log_pages_2024_units.csv; `header_check` is 'unit read from
+data/heat/logs_2024/heat_plan_log_pages_2024_units.csv; `header_check` is 'unit read from
 image' for those pages. Where the OCR reading was clean and repeated (typed
 units), the group of identical readings was confirmed on example pages and its
 pages are marked 'unit checked by group'. The reading location and institution stay as OCR'd and
@@ -60,12 +60,12 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / 'sources' / 'reuters_heat_records' / 'california' / 'responses'
 CACHE = ROOT / '.cache' / 'reuters_pages'
-OUT = ROOT / 'sources' / 'heat_plan_log_pages_2024.csv'
+OUT = ROOT / 'data' / 'heat' / 'logs_2024' / 'heat_plan_log_pages_2024.csv'
 # Housing unit on each inside record, read from the page images (hand transcription):
 # source_file, page, housing_unit_as_written ('-' = left blank on the page, '?' = illegible),
 # check ('read' = read on that page; 'group' = the page's OCR reading belongs to a group of
 # identical readings that was confirmed on example pages)
-READINGS = ROOT / 'sources' / 'heat_plan_log_pages_2024_units.csv'
+READINGS = ROOT / 'data' / 'heat' / 'logs_2024' / 'heat_plan_log_pages_2024_units.csv'
 DPI, HEAD_H = 150, 400        # top ~24% of a letter page at 150 dpi; OCR runs on a 2/3-size copy
 
 

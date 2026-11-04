@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Heat Plan stage days counted from CDCR's own 2024 temperature logs → two CSVs in sources/:
+Heat Plan stage days counted from CDCR's own 2024 temperature logs → two CSVs in data/heat/logs_2024/:
 
   1. heat_plan_log_stage_days_2024.csv
      Stage I/II/III days per prison and month, in the same units as
@@ -46,6 +46,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / 'sources'
+OUT_DIR = ROOT / 'data' / 'heat' / 'logs_2024'
 JSON = SRC / 'reuters_heat_records' / 'california' / 'processed_temp_logs.json'
 
 # ---------------------------------------------------------------- Stage I, from CDCR 2030 outside logs
@@ -205,8 +206,8 @@ def main():
             w = csv.DictWriter(f, fieldnames=list(data[0]), lineterminator='\n')
             w.writeheader()
             w.writerows(data)
-    write(SRC / 'heat_plan_log_stage_days_2024.csv', rows)
-    write(SRC / 'heat_plan_log_stage_days_2024_evidence.csv', evidence)
+    write(OUT_DIR / 'heat_plan_log_stage_days_2024.csv', rows)
+    write(OUT_DIR / 'heat_plan_log_stage_days_2024_evidence.csv', evidence)
     print(f'{len(rows)} prison-months, {len(evidence)} evidence rows')
 
 

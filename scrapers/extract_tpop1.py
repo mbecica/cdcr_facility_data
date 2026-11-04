@@ -487,7 +487,7 @@ def main():
             continue
 
     # Write outputs
-    out_dir = Path(__file__).resolve().parent.parent / "data"
+    out_dir = Path(__file__).resolve().parent.parent / "data" / "population"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     summary_df = pd.DataFrame(summary_rows)

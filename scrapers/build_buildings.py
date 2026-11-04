@@ -4,9 +4,9 @@ Build the building inventory from the state property inventory and building
 mentions.
 
 Reads:
-  sources/spi_cdcr_structures.csv  every CDCR structure in the DGS Statewide
+  data/buildings/spi_cdcr_structures.csv  every CDCR structure in the DGS Statewide
                                    Property Inventory (scrapers/fetch_spi_structures.py)
-  sources/building_mentions.csv    one row per place another source names a
+  data/buildings/building_mentions.csv    one row per place another source names a
                                    specific building or housing unit
 
 Output: crosswalk/buildings.csv
@@ -57,8 +57,8 @@ import pandas as pd
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SPI = ROOT / "sources" / "spi_cdcr_structures.csv"
-MENTIONS = ROOT / "sources" / "building_mentions.csv"
+SPI = ROOT / 'data' / 'buildings' / 'spi_cdcr_structures.csv'
+MENTIONS = ROOT / 'data' / 'buildings' / 'building_mentions.csv'
 OUT = ROOT / "crosswalk" / "buildings.csv"
 
 DGS_SERIAL = re.compile(r"^\d{5}(-[A-Z])?$")

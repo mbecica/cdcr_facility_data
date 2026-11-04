@@ -2,69 +2,68 @@
 
 Facility-level data on California's adult state prisons, collected from public reports and dashboards published by the California Department of Corrections and Rehabilitation (CDCR), California Correctional Health Care Services (CCHCS), and the State Controller's Office (SCO).
 
-The main table, `data/cdcr_facilities.csv`, has one row for each of the 34 adult institutions with population, demographics, housing cooling, health care population, programs, staffing, restricted housing, and violent incidents for 2025.
+The main table, `data/facilities/cdcr_facilities.csv`, has one row for each of the 34 adult institutions with population, demographics, housing cooling, health care population, programs, staffing, restricted housing, and violent incidents for 2025.
 
 ## Datasets
 
 | File | Contents | Coverage | Source |
 | :--- | :--- | :--- | :--- |
-| `data/cdcr_facilities.csv` | One row per institution, 2025 annual figures | 34 institutions | Built from the files below |
-| `data/cdcr_population_by_location.csv` | Monthly in-custody population by institution | Jan 2023 – Jun 2026 | CDCR Population Data Points dashboard |
-| `data/tpop1_institutions.csv` | Monthly population, design capacity, % occupied, staffed capacity by institution | Jan 2015 – Mar 2026 | CDCR TPOP-1 reports |
-| `data/tpop1_summary.csv` | Monthly system-wide population totals | Jan 2015 – Mar 2026 | CDCR TPOP-1 reports |
-| `data/restricted_housing.csv` | Monthly restricted housing population and share by institution | Dec 2024 – Feb 2026 | CDCR STA429 reports |
-| `data/cchcs_ipc.csv` | Monthly health risk tiers, mental health, disability, age, and specialized beds by institution | Jan 2017 – Dec 2025 | CCHCS dashboard |
-| `data/cchcs_measures.csv` | Monthly health care staff vacancies, labor and hospital costs, ED/hospital send-outs | Jan 2017 – Dec 2025 | CCHCS dashboard |
-| `data/sb601_operations.csv` | Monthly lockdowns and modified programs, deaths, overtime, use of force | FY 2021-22 – 2024-25 | CDCR SB 601 dashboard |
-| `data/sb601_programs.csv` | Monthly program enrollment and operational capacity | FY 2024-25 | CDCR SB 601 dashboard |
-| `data/sb601_grievances.csv` | Monthly grievance and appeal claims by institution and status (received, granted, denied, redirected, rejected, etc.) | Jan 2020 – Jun 2026 | CDCR SB 601 dashboard and SB 601 open data |
-| `data/sco_staffing.csv` | Active state employees by facility, one row per report | 8 reports, Apr 2021 – Feb 2026 | SCO reports |
-| `data/sco_staffing_avg.csv` | 2025 average staff headcount by institution | 2025 | SCO reports |
-| `data/cdcr_violent_incidents_by_facility.csv` | Monthly violent incidents by institution and category | Jan 2021 – Dec 2025 | CDCR incident reports |
-| `data/pip_census.csv` | Psychiatric Inpatient Program census by facility, program, and custody level | 5 reports, Oct 2025 – Mar 2026 | CCHCS court reports |
-| `data/pip_coleman_waitlist.csv` | PIP capacity, census, and waitlist | 4 reports, Oct 2025 – Jan 2026 | CCHCS court reports |
-| `data/mhcb_census.csv` | System-wide Mental Health Crisis Bed capacity and census | 4 reports, Oct 2025 – Jan 2026 | CCHCS court reports |
-| `data/bed_need_study_actuals.csv` | Mental health bed actuals and forecasts by program | FY 2014 – 2030 | CCHCS Bed Need Study, Fall 2025 |
-| `data/mhsds_programs_by_facility.csv` | Mental health programs offered at each facility | 2021 | CDCR MHSDS map |
-| `data/cdcr_avg_sentence_by_admission.csv` | Monthly average sentence by admission type | Jan 2023 – Mar 2026 | CDCR Population Data Points dashboard |
-| `data/cdcr_recidivism_los.csv` | Three-year return rate by length of stay | Release cohorts FY 2008-09 – 2019-20 | CDCR Adult Recidivism dashboard |
+| `data/facilities/cdcr_facilities.csv` | One row per institution, 2025 annual figures | 34 institutions | Built from the files below |
+| `data/population/cdcr_population_by_location.csv` | Monthly in-custody population by institution | Jan 2023 – Jun 2026 | CDCR Population Data Points dashboard |
+| `data/population/tpop1_institutions.csv` | Monthly population, design capacity, % occupied, staffed capacity by institution | Jan 2015 – Mar 2026 | CDCR TPOP-1 reports |
+| `data/population/tpop1_summary.csv` | Monthly system-wide population totals | Jan 2015 – Mar 2026 | CDCR TPOP-1 reports |
+| `data/operations/restricted_housing.csv` | Monthly restricted housing population and share by institution | Dec 2024 – Feb 2026 | CDCR STA429 reports |
+| `data/health_care/cchcs_ipc.csv` | Monthly health risk tiers, mental health, disability, age, and specialized beds by institution | Jan 2017 – Dec 2025 | CCHCS dashboard |
+| `data/health_care/cchcs_measures.csv` | Monthly health care staff vacancies, labor and hospital costs, ED/hospital send-outs | Jan 2017 – Dec 2025 | CCHCS dashboard |
+| `data/operations/sb601_operations.csv` | Monthly lockdowns and modified programs, deaths, overtime, use of force | FY 2021-22 – 2024-25 | CDCR SB 601 dashboard |
+| `data/operations/sb601_programs.csv` | Monthly program enrollment and operational capacity | FY 2024-25 | CDCR SB 601 dashboard |
+| `data/operations/sb601_grievances.csv` | Monthly grievance and appeal claims by institution and status (received, granted, denied, redirected, rejected, etc.) | Jan 2020 – Jun 2026 | CDCR SB 601 dashboard and SB 601 open data |
+| `data/staffing/sco_staffing.csv` | Active state employees by facility, one row per report | 8 reports, Apr 2021 – Feb 2026 | SCO reports |
+| `data/staffing/sco_staffing_avg.csv` | 2025 average staff headcount by institution | 2025 | SCO reports |
+| `data/operations/cdcr_violent_incidents_by_facility.csv` | Monthly violent incidents by institution and category | Jan 2021 – Dec 2025 | CDCR incident reports |
+| `data/mental_health_beds/pip_census.csv` | Psychiatric Inpatient Program census by facility, program, and custody level | 5 reports, Oct 2025 – Mar 2026 | CCHCS court reports |
+| `data/mental_health_beds/pip_coleman_waitlist.csv` | PIP capacity, census, and waitlist | 4 reports, Oct 2025 – Jan 2026 | CCHCS court reports |
+| `data/mental_health_beds/mhcb_census.csv` | System-wide Mental Health Crisis Bed capacity and census | 4 reports, Oct 2025 – Jan 2026 | CCHCS court reports |
+| `data/mental_health_beds/bed_need_study_actuals.csv` | Mental health bed actuals and forecasts by program | FY 2014 – 2030 | CCHCS Bed Need Study, Fall 2025 |
+| `data/mental_health_beds/mhsds_programs_by_facility.csv` | Mental health programs offered at each facility | 2021 | CDCR MHSDS map |
+| `data/population/cdcr_avg_sentence_by_admission.csv` | Monthly average sentence by admission type | Jan 2023 – Mar 2026 | CDCR Population Data Points dashboard |
+| `data/population/cdcr_recidivism_los.csv` | Three-year return rate by length of stay | Release cohorts FY 2008-09 – 2019-20 | CDCR Adult Recidivism dashboard |
 
-Transcribed and downloaded source files in `sources/`:
+Transcribed and downloaded tables:
 
 | File | Contents | Source |
 | :--- | :--- | :--- |
-| `air_cooling_infrastructure_dec2025.csv` | Housing units by cooling type, per institution | CDCR Air Cooling Pilot Supplemental Report, Jan 2026, Table 2 |
-| `air_cooling_housing_units_dec2025.csv` | Housing units by design type, per institution | Same report, Table 1 |
-| `CDCR_indoor_78f_days_2025.csv` | Days with indoor temperatures above 78°F, May–Oct 2025 | Same report, Table 1 |
+| `data/heat/cooling/air_cooling_infrastructure_dec2025.csv` | Housing units by cooling type, per institution | CDCR Air Cooling Pilot Supplemental Report, Jan 2026, Table 2 |
+| `data/heat/cooling/air_cooling_housing_units_dec2025.csv` | Housing units by design type, per institution | Same report, Table 1 |
+| `data/heat/cooling/CDCR_indoor_78f_days_2025.csv` | Days with indoor temperatures above 78°F, May–Oct 2025 | Same report, Table 1 |
 | `cdcr_in-custody-{age,gender,race,countryofbirth}_2025.csv` | Monthly population by demographic group and institution | CDCR Population Data Set, 2025 |
-| `CDCR_2025_pop_averages.csv` | 2025 average population by institution | Transcribed from TPOP-1 reports |
-| `infrastructure_plan_profiles_2026.csv` | Building square footage, acres, design capacity split into cell and dorm beds, security levels, water and wastewater treatment plants, and deactivated facilities, per institution (as of April 2026) | CDCR Infrastructure Master Plan, May 2026, Appendix 1 |
-| `condition_assessment_2026.csv` | Condition rating (Plus, Good, Fair, Poor, Failing, N/A) of 45 utility and building systems at each institution, one row per institution and system | CDCR Infrastructure Master Plan, May 2026, Appendix 2, p. 2 |
-| `condition_assessment_rank_2026.csv` | Overall condition rank, 1 (worst) to 31 (best), weighted by each system's operational impact | Same, Appendix 2, p. 1 |
-| `cdcr_manual_data.csv` | Year opened, planned closure, California Model, Air Cooling Pilot, and Infrastructure Master Plan priority participation | LAO (2020) and online documentation |
-| `mpar_projects.csv` | Every capital project in each year's report, with status (complete, active, proposed, future within 5 years, future in 5–10 years), current phase, funding or estimated cost, scope, and justification. One row per project per report year. | CDCR Master Plan Annual Reports, 2022–2025 |
-| `cooling_observations.csv` | Cooling type (mechanical, evaporative, none) of specific housing units, health care units, and program spaces, as stated or observed, with condition notes | Coleman Special Master's 31st Round Heat Plan report (ECF 8558, Feb 2025), Plata joint case management statement (ECF 4013, May 2026) |
-| `spi_cdcr_structures.csv` | Every CDCR structure in the state property inventory, with all its identifiers as entered (property number, DGS structure number, agency building number), name, category, square footage, and year built | DGS Statewide Property Inventory, downloaded by `scrapers/fetch_spi_structures.py` |
-| `iflex_inpatient_beds_2023.csv` | Every inpatient (PIP/ICF) bed at CHCF, CMF, CIW, and SVSP designated as an Inpatient Flex bed: facility, building ID, bed number, current and new primary use, and designation | Coleman v. Newsom, ECF 7833-1 (May 2023), Attachment B |
-| `housing_cooling_equipment_2024.csv` | Each piece of cooling or ventilation equipment serving a housing building: institution, building, asset description, equipment sub-type, and type of cooling (refrigeration, evaporative, or ventilation without cooling), as of August 2024 | CDCR "Housing Unit Cooling Types by Institution" (Aug 22, 2024), filed as Exhibit E to the Plata joint case management statement (ECF 3952-1, Mar 2025); OCR'd by `scrapers/extract_housing_cooling_types.py` |
-| `building_mentions.csv` | Every place a source names a specific building or housing unit, with the facility, use, program, beds, and date it states | MPARs 2022–2025, Capital Outlay Quarterly Reports, PREA audit reports, CDCR institution web pages, Coleman ECF 7833-1, and the documents in `sources/heat_cooling/` |
-| `coleman_heat_plan_findings.csv` | Compliance finding for each institution and heat plan area (local procedures, monthly summary reports, staff knowledge, outdoor and indoor temperature logs, accommodations and cooling, training), plus the overall verdict | Coleman Special Master's 31st Round Heat Plan report (ECF 8558, Feb 2025), 14 institutions toured Jul–Oct 2024; heat plan sections of the Special Master's 27th–31st Round reports (ECF 5779, 7074, 7555, 7715, 7716, 7833, 8095, 8359, 8838; Feb 2018 – Dec 2025), covering heat seasons 2015–2025 (ECF 8838's review periods cover parts of the 2024 season and May 2025); Coleman Receiver's CQIT audit reports for 14 institutions (2026, review periods Aug 2025 – May 2026); statewide heat activation days for 2023–2024 (CDCR, June 2025) and 2025 Stage III days at four prisons (Plata ECF 4013) |
-| `coleman_heat_plan_counts.csv` | Heat alerts by stage, heat-related illnesses, and heat training completion as CDCR recorded them, with the figures monitors found in the underlying logs where they differ | Same |
-| `heat_plan_monthly_summaries_2024.csv` | Each prison's Heat Plan Monthly Summary Report (CDCR MH-7711-1) for May–October 2024: days Stage I, II and III heat alerts were initiated, whether cooling measures and Stage III medical rounds were done, and the number of patients with heat-related illness, as CDCR's own staff reported them | CDCR records released under the Public Records Act to Reuters and published with "Scorching cells" (July 2025); OCR'd by `scrapers/extract_reuters_msr.py` |
-| `heat_plan_log_pages_2024.csv` | Every page of the same 2024 Heat Plan packages, with the form it holds (monthly summary, heat incident log, Stage III rounds log, outside or inside temperature record, other) and the header fields as printed; `heat_plan_log_pages_2024_units.csv` gives the housing unit read from the image of each inside record | Same; indexed by `scrapers/index_reuters_heat_pages.py` |
-| `verification_flags.csv` | Values in these files that conflict with the source's own totals or with other sources, with the evidence on each side and what would resolve it. Values are left as transcribed until a source settles them. | Compiled from the sources above |
-| `mpar_envelope_last_completed.csv` | Most recent roofing or building envelope project by institution | CDCR Master Plan Annual Reports, 2020–2025 |
-| `cchcs_mortality_2006-2024.csv` | Annual deaths and mortality rates, system-wide | CCHCS Health Care Services Dashboard |
+| `data/buildings/infrastructure_plan_profiles_2026.csv` | Building square footage, acres, design capacity split into cell and dorm beds, security levels, water and wastewater treatment plants, and deactivated facilities, per institution (as of April 2026) | CDCR Infrastructure Master Plan, May 2026, Appendix 1 |
+| `data/buildings/condition_assessment_2026.csv` | Condition rating (Plus, Good, Fair, Poor, Failing, N/A) of 45 utility and building systems at each institution, one row per institution and system | CDCR Infrastructure Master Plan, May 2026, Appendix 2, p. 2 |
+| `data/buildings/condition_assessment_rank_2026.csv` | Overall condition rank, 1 (worst) to 31 (best), weighted by each system's operational impact | Same, Appendix 2, p. 1 |
+| `data/facilities/cdcr_manual_data.csv` | Year opened, planned closure, California Model, Air Cooling Pilot, and Infrastructure Master Plan priority participation | LAO (2020) and online documentation |
+| `data/buildings/mpar_projects.csv` | Every capital project in each year's report, with status (complete, active, proposed, future within 5 years, future in 5–10 years), current phase, funding or estimated cost, scope, and justification. One row per project per report year. | CDCR Master Plan Annual Reports, 2022–2025 |
+| `data/heat/cooling/cooling_observations.csv` | Cooling type (mechanical, evaporative, none) of specific housing units, health care units, and program spaces, as stated or observed, with condition notes | Coleman Special Master's 31st Round Heat Plan report (ECF 8558, Feb 2025), Plata joint case management statement (ECF 4013, May 2026) |
+| `data/buildings/spi_cdcr_structures.csv` | Every CDCR structure in the state property inventory, with all its identifiers as entered (property number, DGS structure number, agency building number), name, category, square footage, and year built | DGS Statewide Property Inventory, downloaded by `scrapers/fetch_spi_structures.py` |
+| `data/mental_health_beds/iflex_inpatient_beds_2023.csv` | Every inpatient (PIP/ICF) bed at CHCF, CMF, CIW, and SVSP designated as an Inpatient Flex bed: facility, building ID, bed number, current and new primary use, and designation | Coleman v. Newsom, ECF 7833-1 (May 2023), Attachment B |
+| `data/heat/cooling/housing_cooling_equipment_2024.csv` | Each piece of cooling or ventilation equipment serving a housing building: institution, building, asset description, equipment sub-type, and type of cooling (refrigeration, evaporative, or ventilation without cooling), as of August 2024 | CDCR "Housing Unit Cooling Types by Institution" (Aug 22, 2024), filed as Exhibit E to the Plata joint case management statement (ECF 3952-1, Mar 2025); OCR'd by `scrapers/extract_housing_cooling_types.py` |
+| `data/buildings/building_mentions.csv` | Every place a source names a specific building or housing unit, with the facility, use, program, beds, and date it states | MPARs 2022–2025, Capital Outlay Quarterly Reports, PREA audit reports, CDCR institution web pages, Coleman ECF 7833-1, and the documents in `sources/heat_cooling/` |
+| `data/heat/monitoring/coleman_heat_plan_findings.csv` | Compliance finding for each institution and heat plan area (local procedures, monthly summary reports, staff knowledge, outdoor and indoor temperature logs, accommodations and cooling, training), plus the overall verdict | Coleman Special Master's 31st Round Heat Plan report (ECF 8558, Feb 2025), 14 institutions toured Jul–Oct 2024; heat plan sections of the Special Master's 27th–31st Round reports (ECF 5779, 7074, 7555, 7715, 7716, 7833, 8095, 8359, 8838; Feb 2018 – Dec 2025), covering heat seasons 2015–2025 (ECF 8838's review periods cover parts of the 2024 season and May 2025); Coleman Receiver's CQIT audit reports for 14 institutions (2026, review periods Aug 2025 – May 2026); statewide heat activation days for 2023–2024 (CDCR, June 2025) and 2025 Stage III days at four prisons (Plata ECF 4013) |
+| `data/heat/monitoring/coleman_heat_plan_counts.csv` | Heat alerts by stage, heat-related illnesses, and heat training completion as CDCR recorded them, with the figures monitors found in the underlying logs where they differ | Same |
+| `data/heat/logs_2024/heat_plan_monthly_summaries_2024.csv` | Each prison's Heat Plan Monthly Summary Report (CDCR MH-7711-1) for May–October 2024: days Stage I, II and III heat alerts were initiated, whether cooling measures and Stage III medical rounds were done, and the number of patients with heat-related illness, as CDCR's own staff reported them | CDCR records released under the Public Records Act to Reuters and published with "Scorching cells" (July 2025); OCR'd by `scrapers/extract_reuters_msr.py` |
+| `data/heat/logs_2024/heat_plan_log_pages_2024.csv` | Every page of the same 2024 Heat Plan packages, with the form it holds (monthly summary, heat incident log, Stage III rounds log, outside or inside temperature record, other) and the header fields as printed; `heat_plan_log_pages_2024_units.csv` gives the housing unit read from the image of each inside record | Same; indexed by `scrapers/index_reuters_heat_pages.py` |
+| `data/verification_flags.csv` | Values in these files that conflict with the source's own totals or with other sources, with the evidence on each side and what would resolve it. Values are left as transcribed until a source settles them. | Compiled from the sources above |
+| `data/buildings/mpar_envelope_last_completed.csv` | Most recent roofing or building envelope project by institution | CDCR Master Plan Annual Reports, 2020–2025 |
+| `data/health_care/cchcs_mortality_2006-2024.csv` | Annual deaths and mortality rates, system-wide | CCHCS Health Care Services Dashboard |
 | `sb601_open_data/` | SB 601 data download (all categories, Jan 2020 – Jun 2024), data dictionary, and counting rules, as published | [SB601 Reporting](https://data.ca.gov/dataset/sb601-reporting), data.ca.gov |
 
 ## Repository layout
 
 ```
-data/          cleaned tables (outputs of the scripts below)
-sources/       transcribed source files, plus downloaded PDFs (not tracked; see "Updating the data")
+data/          all tables, in topic folders
+sources/       raw downloads (PDFs not tracked; see "Updating the data")
 scrapers/      dashboard scrapers and PDF extractors
 crosswalk/     institution codes, FEMA facility IDs, alias codes, and the building inventory
-build_cdcr_facilities.py   builds data/cdcr_facilities.csv
+build_cdcr_facilities.py   builds data/facilities/cdcr_facilities.csv
 ```
 
 ## `cdcr_facilities.csv` fields
@@ -99,7 +98,7 @@ Demographic shares are the mean monthly count in each group divided by `average_
 | `pct_hu_evaporative` | Share of housing units with evaporative (swamp) cooling. | Same |
 | `pct_hu_air_handlers` | Share of housing units with air handlers only (ventilation, no cooling). | Same |
 
-Housing units with more than one cooling type are counted under each, so the three shares can sum to slightly more than 1. CVSP and FWF are not in the report. The report's tables don't always add up, and some counts conflict with other CDCR documents; `sources/verification_flags.csv` lists each case by institution. CIM's mix is the least certain: the report shows no evaporative cooling, although its Facility A retrofit completed in February 2025 is evaporative (CEQA #2018128257).
+Housing units with more than one cooling type are counted under each, so the three shares can sum to slightly more than 1. CVSP and FWF are not in the report. The report's tables don't always add up, and some counts conflict with other CDCR documents; `data/verification_flags.csv` lists each case by institution. CIM's mix is the least certain: the report shows no evaporative cooling, although its Facility A retrofit completed in February 2025 is evaporative (CEQA #2018128257).
 
 | Variable | Description | Source |
 | :--- | :--- | :--- |
@@ -226,7 +225,7 @@ Monthly counts by institution from CDCR's CompStat and public incident reports. 
 
 From the monthly reports CCHCS files in the *Coleman* case, the Fall 2025 Mental Health Bed Need Study, and CDCR's Mental Health Services Delivery System map. In `pip_census.csv`, the `Out of LRH`, `PC 1370`, and `WIC 7301` rows are subsets of the census, not additional patients. In `pip_coleman_waitlist.csv`, referral and waitlist columns are reported only on section total rows. In `bed_need_study_actuals.csv`, `Total ADC` is average census plus average pending list, and `is_forecast` marks FY 2026 onward.
 
-### Coleman heat plan monitoring (`sources/coleman_heat_plan_findings.csv`, `sources/coleman_heat_plan_counts.csv`)
+### Coleman heat plan monitoring (`data/heat/monitoring/coleman_heat_plan_findings.csv`, `data/heat/monitoring/coleman_heat_plan_counts.csv`)
 
 From the monitoring reports in *Coleman v. Newsom*, the case that requires CDCR's Heat Plan. Each heat season, institutions send headquarters a Heat Plan Monthly Summary Report (CDCR MH-7711-1) with the month's Stage I, II, and III heat alerts and the number of heat-related illnesses, which are documented on a Heat Incident Log (MH-7711-2). CDCR doesn't publish these reports; the Special Master's and Receiver's monitors review them on site and report what they found. Both files are extracted by `scrapers/extract_coleman_heat.py`, which keeps a verbatim `quote` for every value and checks it against the PDF. `page` is the PDF page.
 
@@ -234,13 +233,13 @@ In `coleman_heat_plan_findings.csv`, findings from the focused heat report cover
 
 In `coleman_heat_plan_counts.csv`, `recorded_in` names the CDCR record a figure comes from: `monthly_summary_report`, `temperature_logs`, `daily_activity_reports`, `heat_incident_log`, `training_records`, or `staff_report`; `not_stated` where the report gives a count without naming its record. When monitors compared a Summary Report with the logs and found a different count, both values are rows for the same month. Most periods cover only the months reviewed before the tour (often May–July), not the full May–October season. `scope` is `institution` where the report says the counts cover the whole institution even though only its psychiatric inpatient program or mental health units were monitored; blank means the report doesn't say. Training rows give completions and, where reported, the number required, by staff group. Blank `value` means the report describes the event without giving a count. Statewide rows (`cdcr_code` `ALL`) include heat-related emergency room and hospital visits as the parties report them from CCHCS data, which hasn't been filed. Older reports sometimes give alerts as days above a stage's temperature threshold, call heat-related illnesses "heat-related incidents", or give `heat_plan_activation_days` without a stage; `note` says so. Where only some months of a review period were in the heat season and the report doesn't name them, the period is the full review period. Inpatient program (PIP) reports often give the host institution's figures; `scope` is `PIP` where the text attributes a figure to the program.
 
-### Heat Plan monthly summaries (`sources/heat_plan_monthly_summaries_2024.csv`)
+### Heat Plan monthly summaries (`data/heat/logs_2024/heat_plan_monthly_summaries_2024.csv`)
 
 One row per Heat Plan Monthly Summary Report (CDCR MH-7711-1), the form each prison sends headquarters every month of the heat season. These are CDCR's self-reported figures, not independent counts; the Coleman monitoring reports sometimes find different numbers in the underlying logs (see `coleman_heat_plan_counts.csv`). The form asks for the **number of days** each stage was initiated, not the number of alerts, so a day with alerts in several housing units counts once. Each answer is kept as printed (`*_as_stated`), with a parsed integer where the answer is a number (`10 (Ten)` → 10, `Zero (0) days` → 0); `N/A`, `NA`, `None` and a slashed zero mean no days or patients and are 0. A blank integer is a gap: the form left the answer blank, or there is no form. `month` is the month the form reports; where the form gives no year, the year comes from the file name. A few forms cover part of a month or are dated before the month ends; `note` says so.
 
 The packages are scans. `ocr_check` is `ocr` where the OCR read every answer the same as the page image, and `corrected from image` where at least one answer was taken from the image instead. `source_file` and `page` locate the form in the Reuters files. Where a month has no form (PBSP, July 2024, whose package holds only the June form), the row has blank values and `note` says why. Days counted from the temperature logs themselves are not in this file.
 
-### Heat Plan package page index (`sources/heat_plan_log_pages_2024.csv`, `sources/heat_plan_log_pages_2024_units.csv`)
+### Heat Plan package page index (`data/heat/logs_2024/heat_plan_log_pages_2024.csv`, `data/heat/logs_2024/heat_plan_log_pages_2024_units.csv`)
 
 One row per page of the 189 Reuters packages (28,651 pages), saying what each page is so the logs can be read. `form` is `mh_7711_1` (monthly summary), `mh_7711_2` (heat incident log), `mh_7711_3` (Stage III rounds log), `cdcr_2030` (outside temperature record), `cdcr_2031` (inside temperature record), `other_form` (checklists, activation reports, memos, meeting notes and the like) or `blank_or_unreadable`. Forms were classified from OCR of each page's printed title, so the classification is a guide, not a verified count: `cdcr_2031` also includes institutions' own inside-temperature forms (CCI's weekly and hourly records, LAC's ASU-1 sheets, Stage II/III hourly records) and a few pages that aren't inside readings, and some inside records scanned upside down, mirrored or too dark to OCR are filed under `other_form`. The `*_as_stated` header fields are OCR text and weren't checked.
 
@@ -256,7 +255,7 @@ Average sentence length at admission, in months, by admission type and month; so
 
 ## Buildings
 
-`crosswalk/buildings.csv` is an inventory of buildings and housing units, built by `python3 scrapers/build_buildings.py` from two sources: the Department of General Services' Statewide Property Inventory (SPI), which lists every state-owned structure with its square footage and year built, and `sources/building_mentions.csv`, which records each place another source names a building. SPI has no beds or capacity, codes every housing building (cells or dorms) as "DORMITORY", and at some institutions has no building numbers or lists several buildings as one record. Coverage of the other fields varies widely between institutions.
+`crosswalk/buildings.csv` is an inventory of buildings and housing units, built by `python3 scrapers/build_buildings.py` from two sources: the Department of General Services' Statewide Property Inventory (SPI), which lists every state-owned structure with its square footage and year built, and `data/buildings/building_mentions.csv`, which records each place another source names a building. SPI has no beds or capacity, codes every housing building (cells or dorms) as "DORMITORY", and at some institutions has no building numbers or lists several buildings as one record. Coverage of the other fields varies widely between institutions.
 
 | Variable | Description |
 | :--- | :--- |
@@ -298,12 +297,12 @@ Source PDFs are not stored in the repository. Download new reports into the matc
 | Sentences, returns | Population Data Points and Adult Recidivism dashboards | — | `node scrapers/fetch_cdcr_avg_sentence.js`, `node scrapers/fetch_cdcr_recidivism_los.js` |
 | MPAR projects | [Master Plan Annual Reports](https://www.cdcr.ca.gov/fpcm/) | `sources/cdcr_facilities_planning/` (add the filename to `MPARS` in the script) | `python3 scrapers/extract_mpar_projects.py` |
 | State property inventory | DGS Statewide Property Inventory (public map service) | — | `python3 scrapers/fetch_spi_structures.py`, then `build_buildings.py` |
-| Buildings | Any source naming a building. PREA audit reports go in `sources/prea/`; saved CDCR web pages in `sources/cdcr_web/` | Add rows to `sources/building_mentions.csv` | `python3 scrapers/build_buildings.py` |
+| Buildings | Any source naming a building. PREA audit reports go in `sources/prea/`; saved CDCR web pages in `sources/cdcr_web/` | Add rows to `data/buildings/building_mentions.csv` | `python3 scrapers/build_buildings.py` |
 | Coleman heat plan monitoring | Special Master heat plan reports ([CourtListener RECAP](https://www.courtlistener.com/docket/4161512/pc-coleman-v-newsom/)) and Receiver CQIT audit reports ([CCHCS reports](https://cchcs.ca.gov/reports/), under Mental Health Receiver Reports) | `sources/heat_cooling/` | Add the rows to `scrapers/extract_coleman_heat.py`, then run it |
 | Housing cooling equipment | Plata ECF 3952-1 ([CourtListener RECAP](https://storage.courtlistener.com/recap/gov.uscourts.cand.76/gov.uscourts.cand.76.3952.1.pdf)) | `sources/heat_cooling/plata_ecf3952-1_cms_exhibits_2025-03-10.pdf` | `python3 scrapers/extract_housing_cooling_types.py` (needs `tesseract`), then `build_buildings.py` |
 | Heat Plan package page index | Same Reuters files | `sources/reuters_heat_records/california/responses/` | `python3 scrapers/index_reuters_heat_pages.py` (needs `tesseract`; `--csv` rebuilds the CSV from the cached OCR) |
 | Heat Plan monthly summaries | Reuters' CPRA records, [github.com/reuters-graphics/prison-heat-records](https://github.com/reuters-graphics/prison-heat-records) (`indoor-temperatures/california/responses`) | `sources/reuters_heat_records/california/responses/` (download command in the script's docstring) | `python3 scrapers/extract_reuters_msr.py` (needs `tesseract`) |
-| Cooling, indoor heat, cooling observations, facility metadata | CDCR reports and court filings | `sources/`, `sources/heat_cooling/` | Transcribed by hand |
+| Cooling, indoor heat, cooling observations, facility metadata | CDCR reports and court filings | `data/heat/cooling/`, `data/facilities/`; PDFs in `sources/heat_cooling/` | Transcribed by hand |
 
 To add a year to the main table, change `YEAR` at the top of `build_cdcr_facilities.py`; the year is part of the column names (`average_2026_population`, `cchcs_dpp_pct_2026`). The dashboard scrapers have `LATEST_YEAR` or `FISCAL_YEAR` settings at the top of each script.
 

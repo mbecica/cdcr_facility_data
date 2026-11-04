@@ -16,7 +16,7 @@ sources/pwc_2026_pra/
 
 # Scraper resume state and run logs (regenerable)
 .cache/
-data/cdcr_incidents_extraction_notes.txt
+data/operations/cdcr_incidents_extraction_notes.txt
 
 # Local working notes, plans and runbooks (not published)
 notes/

@@ -8,7 +8,7 @@
  *   Other Trends: ED/Hospital Stay*, Specialty Care Referrals*, Prescriptions Per Patient
  *
  * Output: long-format CSV — month, group, institution, measure, value
- * Saved to: data/cchcs_measures.csv
+ * Saved to: data/health_care/cchcs_measures.csv
  *
  * Checkpoint: .cache/cchcs_measures_checkpoint.json  (delete to re-scrape)
  *
@@ -21,7 +21,7 @@ const fs = require('fs');
 const path = require('path');
 
 const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiY2QyNzllZWItMmIxYi00NTk0LWI0OWQtNWEzMTkwYzA3NGE4IiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9';
-const OUT_PATH = path.join(__dirname, '..', 'data', 'cchcs_measures.csv');
+const OUT_PATH = path.join(__dirname, '..', 'data', 'health_care', 'cchcs_measures.csv');
 const CHECKPOINT_PATH = path.join(__dirname, '..', '.cache', 'cchcs_measures_checkpoint.json');
 
 // Month range to scrape. To add a year, change LATEST_YEAR.

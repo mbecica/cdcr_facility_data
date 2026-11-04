@@ -7,7 +7,7 @@ below) and parses each institution's project status report. Each report groups
 projects under five headings: Active, Complete, Proposed, Future (within 5
 years), and Future (between 5 and 10 years).
 
-Output: sources/mpar_projects.csv, one row per project per MPAR year. A project
+Output: data/buildings/mpar_projects.csv, one row per project per MPAR year. A project
 listed in several reports appears once for each, so status, phase, and funding
 can be compared across years.
 
@@ -29,7 +29,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PDF_DIR = ROOT / "sources" / "cdcr_facilities_planning"
-OUT = ROOT / "sources" / "mpar_projects.csv"
+OUT = ROOT / 'data' / 'buildings' / 'mpar_projects.csv'
 
 MPARS = {
     2022: "2022-MPAR-Narrative-Final.pdf",

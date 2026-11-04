@@ -9,7 +9,7 @@
 python3 scrapers/extract_tpop1.py
 ```
 
-Outputs written to `data/`:
+Outputs written to `data/population/`:
 - `tpop1_summary.csv` — Total CDCR Population table (page 1)
 - `tpop1_institutions.csv` — Institution Population Detail table (page 2)
 
@@ -20,7 +20,7 @@ https://www.cdcr.ca.gov/research/population-reports-2/ (TPOP-1 monthly and
 weekly reports). CDCR has removed some older archives from the site; historical
 reports can be requested from the Office of Research Data Concierge Service at
 data.requests@cdcr.ca.gov. The PDFs are not tracked in git — the extracted
-CSVs in `data/` are.
+CSVs in `data/population/` are.
 
 | Period | Format | Location | Naming |
 | :--- | :--- | :--- | :--- |
