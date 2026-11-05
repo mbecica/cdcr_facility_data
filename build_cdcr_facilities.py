@@ -1,5 +1,5 @@
 """
-Build data/facilities/cdcr_facilities.csv: one row per CDCR adult institution for the
+Build data/facilities_summary/facilities_summary.csv: one row per CDCR adult institution for the
 latest complete year (data_year), joining population, demographics, housing cooling,
 facility metadata, programs, health care population, staffing, restricted housing and
 violent incidents. Column names carry no years. Condition ratings come from a single
@@ -21,7 +21,7 @@ import pandas as pd
 REPO = Path(__file__).resolve().parent
 DATA = REPO / 'data'
 CROSSWALK = REPO / 'crosswalk' / 'institutions.csv'
-OUT = DATA / 'facilities' / 'cdcr_facilities.csv'
+OUT = DATA / 'facilities_summary' / 'facilities_summary.csv'
 
 # Latest calendar year with all twelve months published. Bump at refresh time.
 YEAR = 2025
@@ -180,7 +180,7 @@ def infrastructure(aliases):
 
 def metadata():
     """Hand-reviewed facility metadata: opening year, planned closure, program flags."""
-    meta = pd.read_csv(DATA / 'facilities' / 'cdcr_manual_data.csv')
+    meta = pd.read_csv(DATA / 'facilities_summary' / 'cdcr_manual_data.csv')
     meta['Acronym'] = meta['Acronym'].astype(str).str.strip()
     meta.columns = [c.lower() for c in meta.columns]
     meta = meta.rename(columns={'infrastructure_priority_2026': 'infrastructure_priority'})

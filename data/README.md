@@ -12,7 +12,7 @@ Each folder holds one topic and has its own README with file coverage, field def
 
 ## How the topics connect
 
-- [`facilities/`](facilities/) summarizes the other folders, one row per institution, and is built by `build_cdcr_facilities.py`.
+- [`facilities_summary/`](facilities_summary/) summarizes the other folders, one row per institution, and is built by `build_cdcr_facilities.py`.
 - Tables with a `cdcr_code` or `institution` column join on institution code.
 - [`crosswalk/buildings.csv`](../crosswalk/buildings.csv), described in [`buildings/`](buildings/), links building-level tables in `buildings/` and `heat/cooling/`.
 

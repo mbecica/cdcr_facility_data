@@ -4,12 +4,12 @@
  *   In-Custody > Crosstabs > Rows = "Location", Columns = "None"
  *
  * This is the per-institution population behind `average_population` in
- * cdcr_facilities.csv.
+ * facilities_summary.csv.
  *
  * The "Location" dimension lists every CDCR institution code (ASP, CTF, SATF, …)
  * plus a few non-institution programs (Community Reentry, Department of State
  * Hospitals, Alternative Custody, Medical Reprieve); downstream code filters to
- * the institution codes in cdcr_facilities.csv. Counts < 10 are suppressed by
+ * the institution codes in facilities_summary.csv. Counts < 10 are suppressed by
  * CDCR (shown as "*") and are emitted as blank.
  *
  * Output (the full monthly series; annual averages are computed in

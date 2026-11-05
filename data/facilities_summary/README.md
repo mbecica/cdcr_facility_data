@@ -1,4 +1,4 @@
-# Facilities
+# Facilities summary
 
 One row for each of the 34 adult institutions, summarizing the other topic folders for the latest calendar year with all twelve months published.
 
@@ -6,7 +6,7 @@ One row for each of the 34 adult institutions, summarizing the other topic folde
 
 | File | One row is | Coverage | Source |
 | :--- | :--- | :--- | :--- |
-| `cdcr_facilities.csv` | An institution | `data_year` 2025 | Built from the tables below by `build_cdcr_facilities.py` |
+| `facilities_summary.csv` | An institution | `data_year` 2025 | Built from the tables below by `build_cdcr_facilities.py` |
 | `cdcr_manual_data.csv` | An institution: year opened, planned closure, program participation | As of 2026 | LAO (2020) and online documentation, transcribed by hand |
 
 ## Caveats
@@ -55,7 +55,7 @@ One row for each of the 34 adult institutions, summarizing the other topic folde
 | Population, demographics, capacity | `population/cdcr_population_by_location.csv`, `cdcr_in-custody-{age,gender,race}.csv`, `tpop1_institutions.csv` | Data year |
 | Cooling | `heat/cooling/air_cooling_infrastructure_dec2025.csv` | Dec 2025 |
 | Buildings and condition | `buildings/infrastructure_plan_profiles_2026.csv`, `condition_assessment_2026.csv`, `condition_assessment_rank_2026.csv` | 2026 |
-| Facility characteristics | `facilities/cdcr_manual_data.csv` | 2026 |
+| Facility characteristics | `cdcr_manual_data.csv` | 2026 |
 | Programs | `operations/sb601_programs.csv` | Apr 2025 |
 | Health care | `health_care/cchcs_ipc.csv` | Data year |
 | Staffing | `staffing/sco_staffing_avg.csv` | Data year |
