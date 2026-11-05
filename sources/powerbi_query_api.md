@@ -2,7 +2,7 @@
 
 CDCR and CCHCS publish their dashboards as public Power BI reports. Each page loads its numbers from a query endpoint that needs no login, and the same requests work from a script. This returns the values directly, with no scrolling and no dependence on the page's layout.
 
-Microsoft doesn't document this endpoint for outside use. It can change without notice, so check results against the dashboard on screen.
+CDCR doesn't document this endpoint or offer it as a data service. It can change without notice, so check results against the dashboard on screen. Microsoft's [Publish to web](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-publish-to-web) page describes the public report feature, including that viewing requires no authentication and that results are cached for up to an hour, but not these requests.
 
 ## Reports
 
@@ -81,6 +81,6 @@ To select a report measure rather than a column:
 
 ## Use
 
-Query the aggregate values and measures a dashboard shows. A model's schema can list more detailed fields than its pages display, including individual-level ones, and CDCR suppresses small counts on its dashboards to prevent re-identification. Those limits still apply here.
+Query the aggregate values and measures a dashboard shows. A model's schema can list more detailed fields than its pages display, including individual-level ones, and CDCR suppresses small counts on its dashboards to prevent re-identification. Those limits still apply here, even though Microsoft's page warns that a published model's underlying data can be reached.
 
 Cite the dashboard as the source, and state when values came from outside the range its slicers offer.
