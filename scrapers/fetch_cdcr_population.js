@@ -3,7 +3,7 @@
  * Population Data Points dashboard:
  *   In-Custody > Crosstabs > Rows = "Location", Columns = "None"
  *
- * This is the per-institution population behind `average_YYYY_population` in
+ * This is the per-institution population behind `average_population` in
  * cdcr_facilities.csv.
  *
  * The "Location" dimension lists every CDCR institution code (ASP, CTF, SATF, …)

@@ -99,7 +99,25 @@ const CCHCS_MEASURES_HEADER = ['month', 'cdcr_code', 'institution_as_stated', 'g
 const cchcsMeasuresRow = ([month, group, inst, measure, value], code) =>
   [monthFromLabel(month), code(inst), inst, group, measure, ...splitValue(value)];
 
+const DEMOGRAPHICS_HEADER = group => ['month', 'cdcr_code', 'location_as_stated', group, 'population'];
+
+// Crosstab rows as [year, month, location, ...one cell per group] -> long rows, oldest month
+// first, locations and groups in published order. '*' and '**' stay as published and blanks
+// stay blank; '(Blank)' is how the dashboard's export writes a blank.
+function demographicsToLong(groups, tableRows, code) {
+  const out = [];
+  for (const [year, month, location, ...cells] of tableRows) {
+    groups.forEach((group, i) => {
+      const value = stripCommas(cells[i]).trim();
+      out.push([`${year}-${monthNumber(month)}`, code(location), location, group,
+        value === '(Blank)' ? '' : value]);
+    });
+  }
+  return out.sort((a, b) => a[0].localeCompare(b[0]));
+}
+
 module.exports = {
+  DEMOGRAPHICS_HEADER, demographicsToLong,
   MONTHS, monthFromLabel, monthFromShortLabel, loadCodeLookup, stripCommas, toCsv,
   LONG_HEADER, programsToLong, sentenceRows, recidivismRows, splitValue,
   CCHCS_IPC_HEADER, cchcsIpcRow, CCHCS_MEASURES_HEADER, cchcsMeasuresRow,

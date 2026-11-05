@@ -8,8 +8,9 @@ The main table, `data/facilities/cdcr_facilities.csv`, has one row for each of t
 
 | File | Contents | Coverage | Source |
 | :--- | :--- | :--- | :--- |
-| `data/facilities/cdcr_facilities.csv` | One row per institution, 2025 annual figures | 34 institutions | Built from the files below |
+| `data/facilities/cdcr_facilities.csv` | One row per institution, for the latest complete year (`data_year`) | 34 institutions, 2025 | Built from the files below |
 | `data/population/cdcr_population_by_location.csv` | Monthly in-custody population by institution | Jan 2023 – Jun 2026 | CDCR Population Data Points dashboard |
+| `data/population/cdcr_in-custody-{age,gender,race,countryofbirth,ethnicity,controllingcounty}.csv` | Monthly in-custody population by demographic group and location, one row per month, location and group | Jan 2023 – Oct 2026 | CDCR Population Data Points dashboard |
 | `data/population/tpop1_institutions.csv` | Monthly population, design capacity, % occupied, staffed capacity by institution | Jan 2015 – Mar 2026 | CDCR TPOP-1 reports |
 | `data/population/tpop1_summary.csv` | Monthly system-wide population totals | Jan 2015 – Mar 2026 | CDCR TPOP-1 reports |
 | `data/operations/restricted_housing.csv` | Monthly restricted housing population and share by institution | Dec 2024 – Feb 2026 | CDCR STA429 reports |
@@ -36,7 +37,6 @@ Transcribed and downloaded tables:
 | `data/heat/cooling/air_cooling_infrastructure_dec2025.csv` | Housing units by cooling type, per institution | CDCR Air Cooling Pilot Supplemental Report, Jan 2026, Table 2 |
 | `data/heat/cooling/air_cooling_housing_units_dec2025.csv` | Housing units by design type, per institution | Same report, Table 1 |
 | `data/heat/cooling/CDCR_indoor_78f_days_2025.csv` | Days with indoor temperatures above 78°F, May–Oct 2025 | Same report, Table 1 |
-| `cdcr_in-custody-{age,gender,race,countryofbirth}_2025.csv` | Monthly population by demographic group and institution | CDCR Population Data Set, 2025 |
 | `data/buildings/infrastructure_plan_profiles_2026.csv` | Building square footage, acres, design capacity split into cell and dorm beds, security levels, water and wastewater treatment plants, and deactivated facilities, per institution (as of April 2026) | CDCR Infrastructure Master Plan, May 2026, Appendix 1 |
 | `data/buildings/condition_assessment_2026.csv` | Condition rating (Plus, Good, Fair, Poor, Failing, N/A) of 45 utility and building systems at each institution, one row per institution and system | CDCR Infrastructure Master Plan, May 2026, Appendix 2, p. 2 |
 | `data/buildings/condition_assessment_rank_2026.csv` | Overall condition rank, 1 (worst) to 31 (best), weighted by each system's operational impact | Same, Appendix 2, p. 1 |
@@ -75,19 +75,20 @@ build_cdcr_facilities.py   builds data/facilities/cdcr_facilities.csv
 | `facilityid` | FEMA facility ID. Joins to the facility list in [ca_prison_climate_justice](https://github.com/mbecica/ca_prison_climate_justice) for address, coordinates, security level, and boundaries. | `crosswalk/institutions.csv` |
 | `cdcr_code` | CDCR institution code. | `crosswalk/institutions.csv` |
 | `name` | CDCR institution name. | `crosswalk/institutions.csv` |
+| `data_year` | Calendar year of the annual figures: the latest year with all twelve months published. |  |
 
 ### Population and demographics
 
 | Variable | Description | Source |
 | :--- | :--- | :--- |
-| `average_2025_population` | Mean of the twelve monthly in-custody counts for 2025. | CDCR Population Data Points dashboard |
-| `capacity_percent_2025` | Mean of the twelve monthly "Percent Occupied" values for 2025 (population ÷ design capacity), as a 0–1 value. Values over 1 mean the institution is above design capacity. | CDCR TPOP-1 reports |
-| `age_over_50_pct`, `age_over_55_pct` | Share of the population aged 50+ and 55+. | CDCR Population Data Set, 2025 |
-| `age_50_59_pct`, `age_60_69_pct`, `age_70_79_pct`, `age_80plus_pct` | Share of the population in each age bracket. | CDCR Population Data Set, 2025 |
-| `gender_female_pct`, `gender_male_pct` | Share of the population by gender. | CDCR Population Data Set, 2025 |
-| `race_white_pct`, `race_peopleofcolor_pct` | Share of the population identifying as White, and as any other race. | CDCR Population Data Set, 2025 |
+| `average_population` | Mean of the twelve monthly in-custody counts for the data year. | CDCR Population Data Points dashboard |
+| `capacity_percent` | Mean of the twelve monthly "Percent Occupied" values for the data year (population ÷ design capacity), as a 0–1 value. Values over 1 mean the institution is above design capacity. | CDCR TPOP-1 reports |
+| `age_over_50_pct`, `age_over_55_pct` | Share of the population aged 50+ and 55+. | CDCR Population Data Points dashboard |
+| `age_50_59_pct`, `age_60_69_pct`, `age_70_79_pct`, `age_80plus_pct` | Share of the population in each age bracket. | CDCR Population Data Points dashboard |
+| `gender_female_pct`, `gender_male_pct` | Share of the population by gender. | CDCR Population Data Points dashboard |
+| `race_white_pct`, `race_peopleofcolor_pct` | Share of the population identifying as White, and as any other race. | CDCR Population Data Points dashboard |
 
-Demographic shares are the mean monthly count in each group divided by `average_2025_population`. CDCR suppresses counts under 10 (shown as `*`) and under 50 (`**`); these are counted as 5 and 25. Institutions without a 2025 population (CAC and CVSP, closed; FWF, not reported separately) have blank population and demographic fields.
+Demographic shares are the mean monthly count in each group divided by `average_population`. CDCR suppresses counts under 10 (shown as `*`) and under 50 (`**`); these are counted as 5 and 25. Institutions without a population in the data year (CAC and CVSP, closed; FWF, not reported separately) have blank population and demographic fields.
 
 ### Housing and cooling
 
@@ -102,10 +103,11 @@ Housing units with more than one cooling type are counted under each, so the thr
 
 | Variable | Description | Source |
 | :--- | :--- | :--- |
-| `cond_cooling_mechanical_2026`, `cond_cooling_evaporative_2026` | Condition of the institution's mechanical (A/C) and evaporative cooling systems. | CDCR Infrastructure Master Plan, May 2026, Appendix 2 |
+| `condition_source_year` | Year of the condition assessment behind the `cond_` columns and `condition_rank`. | CDCR Infrastructure Master Plan, May 2026, Appendix 2 |
+| `cond_cooling_mechanical`, `cond_cooling_evaporative` | Condition of the institution's mechanical (A/C) and evaporative cooling systems. | CDCR Infrastructure Master Plan, May 2026, Appendix 2 |
 | `cooling_types_outside_housing` | Cooling types (`mechanical`, `evaporative`) that have a condition rating at the institution but are in none of its housing units, so they serve only non-housing buildings. CIM's `evaporative` may be an exception: its Facility A evaporative retrofit (see above) is not in the Air Cooling report's housing counts. | Appendix 2 and Air Cooling Pilot Supplemental Report, Table 2 |
-| `cond_hydronic_loops_2026`, `cond_boilers_2026`, `cond_automated_controls_2026`, `cond_emergency_electrical_2026`, `cond_roofs_2026` | Condition of hydronic (chilled/hot water) loops, central boilers, automated building controls (SCADA, BMS, BAS), emergency electrical distribution, and roofs. | Same |
-| `condition_rank_2026` | Overall condition rank across all 45 systems, 1 (worst) to 31 (best). CDCR's Correctional Training Center, the officer academy, is ranked but not in this table. | Same, p. 1 |
+| `cond_hydronic_loops`, `cond_boilers`, `cond_automated_controls`, `cond_emergency_electrical`, `cond_roofs` | Condition of hydronic (chilled/hot water) loops, central boilers, automated building controls (SCADA, BMS, BAS), emergency electrical distribution, and roofs. | Same |
+| `condition_rank` | Overall condition rank across all 45 systems, 1 (worst) to 31 (best). CDCR's Correctional Training Center, the officer academy, is ranked but not in this table. | Same, p. 1 |
 
 Ratings were assigned by each institution's plant operations staff, not through a formal facility condition assessment: **Plus** (expected to exceed 20 years of operation), **Good** (generally well maintained), **Fair** (needs repairs, typical wear and tear), **Poor** (significant disrepair), **Failing** (at risk of failure or unusable), and **N/A** (the system does not exist at the institution). Each rating covers the whole institution, including non-housing buildings, so a rated cooling system may not serve any housing unit (for example, ASP has a mechanical A/C rating but no housing units with mechanical cooling).
 
@@ -118,7 +120,7 @@ Ratings were assigned by each institution's plant operations staff, not through 
 | `planned_closure` | `Yes` if the institution is marked for closure. | Online documentation |
 | `california_model_facility` | `Yes` if the institution is part of the California Model. | Online documentation |
 | `cdcr_air_cooling_pilot` | `Yes` if the institution is in the Air Cooling Pilot. | Online documentation |
-| `infrastructure_priority_2026` | `Yes` for the five institutions slated for major capital projects in the next five years (CMF, CCWF, SCC, COR, CIM). | CDCR Infrastructure Master Plan, May 2026, p. 20 |
+| `infrastructure_priority` | `Yes` for the five institutions slated for major capital projects in the next five years (CMF, CCWF, SCC, COR, CIM). | CDCR Infrastructure Master Plan, May 2026, p. 20 |
 | `building_sqft` | Square feet of buildings at the institution, all uses. | CDCR Infrastructure Master Plan, May 2026, Appendix 1 |
 | `cell_beds`, `dorm_beds` | Design capacity split into cell beds and dormitory beds, as of April 2026. The two sum to design capacity. | Same |
 | `building_sqft_per_design_bed` | `building_sqft` ÷ design capacity. Blank for SCC, CIW, and CMC: their design capacity includes conservation camp beds (31, 2, and 1 camps), and no source separates camp beds from institution beds (TPOP-1 reports CIW and SCC camps only as one combined line). | Same |
@@ -134,14 +136,14 @@ Ratings were assigned by each institution's plant operations staff, not through 
 
 | Variable | Description | Source |
 | :--- | :--- | :--- |
-| `cchcs_high_risk_p1_pct_2025` | % of the population classified High Risk Priority 1. | CCHCS dashboard |
-| `cchcs_high_risk_p2_pct_2025` | % classified High Risk Priority 2. | CCHCS dashboard |
-| `cchcs_medium_risk_pct_2025` | % classified Medium Risk. | CCHCS dashboard |
-| `cchcs_low_risk_pct_2025` | % classified Low Risk. | CCHCS dashboard |
-| `cchcs_mental_health_eop_pct_2025` | % in the Mental Health Enhanced Outpatient Program. | CCHCS dashboard |
-| `cchcs_dpp_pct_2025` | % in the Disability Placement Program. | CCHCS dashboard |
-| `cchcs_age_over_50_pct_2025` | % aged 50 or older. | CCHCS dashboard |
-| `cchcs_specialized_beds_2025` | Specialized health care beds (count). | CCHCS dashboard |
+| `cchcs_high_risk_p1_pct` | % of the population classified High Risk Priority 1. | CCHCS dashboard |
+| `cchcs_high_risk_p2_pct` | % classified High Risk Priority 2. | CCHCS dashboard |
+| `cchcs_medium_risk_pct` | % classified Medium Risk. | CCHCS dashboard |
+| `cchcs_low_risk_pct` | % classified Low Risk. | CCHCS dashboard |
+| `cchcs_mental_health_eop_pct` | % in the Mental Health Enhanced Outpatient Program. | CCHCS dashboard |
+| `cchcs_dpp_pct` | % in the Disability Placement Program. | CCHCS dashboard |
+| `cchcs_age_over_50_pct` | % aged 50 or older. | CCHCS dashboard |
+| `cchcs_specialized_beds` | Specialized health care beds (count). | CCHCS dashboard |
 
 All values are 2025 monthly averages, and percentages use the total institution population as the denominator. The four risk tiers sum to 100%. FWF has no separate CCHCS entry.
 
@@ -156,14 +158,14 @@ Risk tiers, as defined by CCHCS:
 
 | Variable | Description | Source |
 | :--- | :--- | :--- |
-| `sco_state_staff_2025` | Mean active state employees across the February, May, and June 2025 reports. For CHCF, includes both CDCR and CCHCS staff, which SCO reports separately. | SCO Active State Employees by Department |
-| `sco_incarcerated_staff_2025` | Mean Prison Industry Authority (PIA) workers across the same reports. PIA workers are incarcerated people. Blank if the institution has no PIA operation. | Same |
+| `sco_state_staff` | Mean active state employees across the February, May, and June 2025 reports. For CHCF, includes both CDCR and CCHCS staff, which SCO reports separately. | SCO Active State Employees by Department |
+| `sco_incarcerated_staff` | Mean Prison Industry Authority (PIA) workers across the same reports. PIA workers are incarcerated people. Blank if the institution has no PIA operation. | Same |
 
 ### Restricted housing and incidents
 
 | Variable | Description | Source |
 | :--- | :--- | :--- |
-| `rhu_pct_2025` | Mean of the twelve monthly shares of the population in restricted housing, 2025. CRC and ASP report no restricted housing units. | CDCR STA429 reports |
+| `rhu_pct` | Mean of the twelve monthly shares of the population in restricted housing in the data year. CRC and ASP report no restricted housing units. | CDCR STA429 reports |
 | `avg_annual_violent_incidents` | Total violent incidents, 2021–2025, divided by the number of years with reported data. CAC and CVSP are averaged over the years before they closed. | CDCR incident reports |
 
 ## Other datasets
@@ -286,6 +288,7 @@ Source PDFs are not stored in the repository. Download new reports into the matc
 | Data | Where to get it | Put it in | Run |
 | :--- | :--- | :--- | :--- |
 | Population | Population Data Points dashboard | — | `node scrapers/fetch_cdcr_population.js` |
+| Demographics | Population Data Points dashboard | — | `node scrapers/fetch_cdcr_demographics.js` |
 | TPOP-1 | [Population reports](https://www.cdcr.ca.gov/research/population-reports-2/) | `sources/cdcr_population_pdfs/` (`Tpop1d{YYMM}.pdf`) | `python3 scrapers/extract_tpop1.py` |
 | Restricted housing | CDCR Office of Research STA429 monthly reports | `sources/restricted_housing/` (`STA429-MMDDYY-M.pdf`) | `python3 scrapers/extract_restricted_housing.py` |
 | Health care | [CCHCS dashboard](https://cchcs.ca.gov/dashboard/) | — | `node scrapers/fetch_cchcs_ipc.js`, `node scrapers/fetch_cchcs_measures.js` |
@@ -320,7 +323,7 @@ California Correctional Health Care Services. (2025). *Fall 2025 Mental Health B
 
 California Department of Corrections and Rehabilitation. (2015–2026). *Monthly Total Population Report (TPOP-1)*. Office of Research. https://www.cdcr.ca.gov/research/population-reports-2/
 
-California Department of Corrections and Rehabilitation. (2025). *Population Data Set* and *Population Data Points* [Dataset and dashboard]. Office of Research.
+California Department of Corrections and Rehabilitation. (2025). *Population Data Points* [Dashboard]. Office of Research.
 
 California Department of Corrections and Rehabilitation. (2024–2026). *Restricted Housing Monthly Report (STA429)*. Office of Research.
 

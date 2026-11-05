@@ -1,7 +1,9 @@
 """
-Build data/facilities/cdcr_facilities.csv: one row per CDCR adult institution, joining
-population, demographics, housing cooling, facility metadata, programs, health
-care population, staffing, restricted housing and violent incidents.
+Build data/facilities/cdcr_facilities.csv: one row per CDCR adult institution for the
+latest complete year (data_year), joining population, demographics, housing cooling,
+facility metadata, programs, health care population, staffing, restricted housing and
+violent incidents. Column names carry no years. Condition ratings come from a single
+assessment, whose year is in condition_source_year.
 
 The institution list and FEMA facility IDs come from crosswalk/institutions.csv.
 Source files that use a different code for an institution (FSP for FOL, SQRC for
@@ -21,7 +23,9 @@ DATA = REPO / 'data'
 CROSSWALK = REPO / 'crosswalk' / 'institutions.csv'
 OUT = DATA / 'facilities' / 'cdcr_facilities.csv'
 
+# Latest calendar year with all twelve months published. Bump at refresh time.
 YEAR = 2025
+CONDITION_SOURCE_YEAR = 2026
 
 
 def load_crosswalk():
@@ -39,7 +43,7 @@ def population(aliases):
     return (
         pop[pop['month'].str.startswith(str(YEAR))]
         .groupby('cdcr_code')['in_custody'].mean().round(0)
-        .rename(f'average_{YEAR}_population')
+        .rename('average_population')
     )
 
 
@@ -50,31 +54,31 @@ def occupancy(aliases):
     tpop = tpop[tpop['report_date'].str.startswith(str(YEAR))]
     return (
         (tpop['pct_occupied'] / 100).groupby(tpop['cdcr_code']).mean().round(4)
-        .rename(f'capacity_percent_{YEAR}')
+        .rename('capacity_percent')
     )
 
 
 def clean_counts(df):
-    """CDCR suppression rules: ** (<50) -> 25, * (<10) -> 5, (Blank) -> 0."""
-    s = df['Population'].astype(str).str.replace(',', '').str.strip()
-    s = s.replace('**', '25').replace('*', '5').replace(['(Blank)', 'nan', 'NaN', ''], '0')
-    return df.assign(Population=pd.to_numeric(s, errors='coerce').fillna(0))
+    """CDCR suppression rules: ** (<50) -> 25, * (<10) -> 5, blank (zero observations) -> 0."""
+    s = df['population'].astype(str).str.strip()
+    s = s.replace('**', '25').replace('*', '5').replace(['nan', 'NaN', ''], '0')
+    return df.assign(population=pd.to_numeric(s, errors='coerce').fillna(0))
 
 
-def average_counts(path, category, aliases):
-    """Mean monthly count per institution and category, wide."""
-    df = clean_counts(pd.read_csv(path))
-    df['Location'] = df['Location'].astype(str).str.strip().replace(aliases)
-    avg = df.groupby(['Location', category])['Population'].mean().reset_index()
-    return avg.pivot(index='Location', columns=category, values='Population').fillna(0)
+def average_counts(table, category):
+    """Mean monthly count in YEAR per institution and category, wide."""
+    df = pd.read_csv(DATA / 'population' / f'cdcr_in-custody-{table}.csv')
+    df = clean_counts(df[df['month'].str.startswith(str(YEAR)) & df['cdcr_code'].notna()])
+    avg = df.groupby(['cdcr_code', category])['population'].mean().reset_index()
+    return avg.pivot(index='cdcr_code', columns=category, values='population').fillna(0)
 
 
-def demographics(pop, aliases):
-    """Age, gender and race shares of the average population (CDCR Population Data Set)."""
+def demographics(pop):
+    """Age, gender and race shares of the average population (CDCR Population Data Points)."""
     out = pd.DataFrame(index=pop.index)
     safe_pop = pop.where(pop > 0)
 
-    age = average_counts(DATA / 'population' / f'cdcr_in-custody-age_{YEAR}.csv', 'Age Group', aliases)
+    age = average_counts('age', 'age_group')
     b80 = ['80-84 Years', '85-89 Years', '90-94 Years', '95 and Older']
     b70 = ['70-74 Years', '75-79 Years']
     b60 = ['60-64 Years', '65-69 Years']
@@ -91,13 +95,13 @@ def demographics(pop, aliases):
         counts = age[age.columns.intersection(groups)].sum(axis=1)
         out[col] = (counts.reindex(pop.index) / safe_pop).fillna(0)
 
-    gender = average_counts(DATA / 'population' / f'cdcr_in-custody-gender_{YEAR}.csv', 'Gender', aliases)
+    gender = average_counts('gender', 'gender')
     for cat in gender.columns:
         name = f"gender_{str(cat).lower().replace(' ', '_').replace('/', '_').replace('-', '_')}_pct"
         share = (gender[cat].reindex(pop.index) / safe_pop).fillna(0).clip(0, 1)
         out[name] = share.where(share >= 0.001, 0)
 
-    race = average_counts(DATA / 'population' / f'cdcr_in-custody-race_{YEAR}.csv', 'Race', aliases)
+    race = average_counts('race', 'race')
     white = race['White'] if 'White' in race.columns else 0
     poc = race.drop(columns=['White'], errors='ignore').sum(axis=1)
     out['race_white_pct'] = (white.reindex(pop.index) / safe_pop).fillna(0)
@@ -121,20 +125,20 @@ def cooling(aliases):
 
 
 CONDITION_SYSTEMS = {
-    'Air Cooling (Mechanical- A/C)': 'cond_cooling_mechanical_2026',
-    'Air Cooling (Evaporative System)': 'cond_cooling_evaporative_2026',
-    'Hydronic Loops': 'cond_hydronic_loops_2026',
-    'Central Boiler Plant / Boilers': 'cond_boilers_2026',
-    'Automated Controls - SCADA, BMS, BAS': 'cond_automated_controls_2026',
-    'Emergency Electrical Distribution': 'cond_emergency_electrical_2026',
-    'Roofs': 'cond_roofs_2026',
+    'Air Cooling (Mechanical- A/C)': 'cond_cooling_mechanical',
+    'Air Cooling (Evaporative System)': 'cond_cooling_evaporative',
+    'Hydronic Loops': 'cond_hydronic_loops',
+    'Central Boiler Plant / Boilers': 'cond_boilers',
+    'Automated Controls - SCADA, BMS, BAS': 'cond_automated_controls',
+    'Emergency Electrical Distribution': 'cond_emergency_electrical',
+    'Roofs': 'cond_roofs',
 }
 
 # Cooling systems rated in the condition assessment, and the matching housing-unit count
 # in the Air Cooling report
 COOLING_TYPES = {
-    'mechanical': ('cond_cooling_mechanical_2026', 'hu_mechanical_cooling'),
-    'evaporative': ('cond_cooling_evaporative_2026', 'hu_evaporative_cooling'),
+    'mechanical': ('cond_cooling_mechanical', 'hu_mechanical_cooling'),
+    'evaporative': ('cond_cooling_evaporative', 'hu_evaporative_cooling'),
 }
 
 
@@ -169,7 +173,8 @@ def infrastructure(aliases):
 
     rank = pd.read_csv(DATA / 'buildings' / 'condition_assessment_rank_2026.csv')
     rank['institution'] = rank['institution'].replace(aliases)
-    rank = rank.set_index('institution')['condition_rank'].rename('condition_rank_2026')
+    rank = rank.set_index('institution')['condition_rank'].rename('condition_rank')
+    ratings.insert(0, 'condition_source_year', CONDITION_SOURCE_YEAR)
     return out.join(ratings, how='outer').join(rank)
 
 
@@ -178,6 +183,7 @@ def metadata():
     meta = pd.read_csv(DATA / 'facilities' / 'cdcr_manual_data.csv')
     meta['Acronym'] = meta['Acronym'].astype(str).str.strip()
     meta.columns = [c.lower() for c in meta.columns]
+    meta = meta.rename(columns={'infrastructure_priority_2026': 'infrastructure_priority'})
     return meta.set_index('acronym')
 
 
@@ -199,14 +205,14 @@ def cchcs(aliases):
     """YEAR averages of CCHCS Institution & Population Characteristics measures."""
     ipc = pd.read_csv(DATA / 'health_care' / 'cchcs_ipc.csv')
     measures = {
-        'High Risk Priority 1': f'cchcs_high_risk_p1_pct_{YEAR}',
-        'High Risk Priority 2': f'cchcs_high_risk_p2_pct_{YEAR}',
-        'Medium Risk': f'cchcs_medium_risk_pct_{YEAR}',
-        'Low Risk': f'cchcs_low_risk_pct_{YEAR}',
-        'Mental Health EOP': f'cchcs_mental_health_eop_pct_{YEAR}',
-        'Disability Placement Program (DPP) Patients': f'cchcs_dpp_pct_{YEAR}',
-        'Patients 50 Years or Older': f'cchcs_age_over_50_pct_{YEAR}',
-        'Specialized Health Care Beds': f'cchcs_specialized_beds_{YEAR}',
+        'High Risk Priority 1': 'cchcs_high_risk_p1_pct',
+        'High Risk Priority 2': 'cchcs_high_risk_p2_pct',
+        'Medium Risk': 'cchcs_medium_risk_pct',
+        'Low Risk': 'cchcs_low_risk_pct',
+        'Mental Health EOP': 'cchcs_mental_health_eop_pct',
+        'Disability Placement Program (DPP) Patients': 'cchcs_dpp_pct',
+        'Patients 50 Years or Older': 'cchcs_age_over_50_pct',
+        'Specialized Health Care Beds': 'cchcs_specialized_beds',
     }
     sel = ipc[ipc['month'].str.startswith(str(YEAR)) & ipc['measure'].isin(measures)]
     wide = sel.groupby(['cdcr_code', 'measure'])['value'].mean().round(1).unstack()
@@ -219,7 +225,7 @@ def staffing(aliases):
     sco['cdcr_code'] = sco['cdcr_code'].replace(aliases)
     state = sco[~sco['is_pia']].groupby('cdcr_code')['total'].sum().round(1)
     pia = sco[sco['is_pia']].groupby('cdcr_code')['total'].sum().round(1)
-    return pd.DataFrame({f'sco_state_staff_{YEAR}': state, f'sco_incarcerated_staff_{YEAR}': pia})
+    return pd.DataFrame({'sco_state_staff': state, 'sco_incarcerated_staff': pia})
 
 
 def restricted_housing(aliases):
@@ -227,7 +233,7 @@ def restricted_housing(aliases):
     rh = pd.read_csv(DATA / 'operations' / 'restricted_housing.csv')
     rh['cdcr_code'] = rh['cdcr_code'].replace(aliases)
     rh = rh[rh['month'].str.startswith(str(YEAR))]
-    return rh.groupby('cdcr_code')['pct_in_rhu'].mean().round(4).rename(f'rhu_pct_{YEAR}')
+    return rh.groupby('cdcr_code')['pct_in_rhu'].mean().round(4).rename('rhu_pct')
 
 
 def violent_incidents(aliases):
@@ -246,7 +252,7 @@ def main():
 
     pop = population(aliases).reindex(df.index)
     df = df.join(pop).join(occupancy(aliases))
-    df = df.join(demographics(pop, aliases))
+    df = df.join(demographics(pop))
     df = df.join(cooling(aliases))
     df = df.join(infrastructure(aliases))
     df = df.join(metadata())
@@ -256,8 +262,10 @@ def main():
     df = df.join(violent_incidents(aliases))
     df = df.join(restricted_housing(aliases))
 
+    df['condition_source_year'] = df['condition_source_year'].astype('Int64')
+    df['data_year'] = YEAR
     df = df.reset_index()
-    first = ['facilityid', 'cdcr_code', 'name']
+    first = ['facilityid', 'cdcr_code', 'name', 'data_year']
     df = df[first + [c for c in df.columns if c not in first]]
     df.to_csv(OUT, index=False)
     print(f'Wrote {len(df)} institutions to {OUT.relative_to(REPO)}')
