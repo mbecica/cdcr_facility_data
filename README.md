@@ -1,6 +1,6 @@
 # CDCR Facility Data
 
-The California Department of Corrections and Rehabilitation (CDCR) releases most of its data as PDFs, as Power BI dashboards without exports, or scattered across Public Records Act responses. This repository makes that data available as CSVs, along with related data from California Correctional Health Care Services (CCHCS), the State Controller's Office, the Department of General Services, and federal court filings.
+The California Department of Corrections and Rehabilitation (CDCR) releases most of its data within PDFs, as Power BI dashboards without export options, or scattered across Public Records Act responses. This repository makes that data available as CSVs, along with related data from California Correctional Health Care Services (CCHCS), the State Controller's Office, the Department of General Services, and federal court filings.
 
 ## Data
 
@@ -15,9 +15,9 @@ The California Department of Corrections and Rehabilitation (CDCR) releases most
 | [`data/buildings/`](data/buildings/) | Capital projects, condition ratings, property inventory, and building mentions | 2020–2026 |
 | [`data/heat/`](data/heat/) | Cooling infrastructure, court monitoring of the Heat Plan, and 2024 heat records | 2015–2026 |
 
-Coverage varies by table within each folder; each folder's README lists it. [`data/README.md`](data/README.md) describes the conventions the tables share.
+Coverage varies by table within each folder; each folder's README provides specifics of the fields and sources. [`data/README.md`](data/README.md) describes the conventions the tables share.
 
-`sources/` holds raw inputs, `scrapers/` holds the code that produces the tables, and `crosswalk/` links institutions and buildings across sources.
+`sources/` holds raw inputs; most pdfs are too large to maintain on github so they are not in this repo, but they are described and available as public data sources. `scrapers/` is the code that scrapes pdfs or online dashboards and produces the tables in `data/`, and `crosswalk/` links institutions and buildings across sources.
 
 ## Identifiers
 
