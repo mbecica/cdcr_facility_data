@@ -20,12 +20,6 @@ function monthNumber(abbrev) {
   return String(i + 1).padStart(2, '0');
 }
 
-// 'Dec 2025' -> '2025-12'
-const monthFromLabel = label => {
-  const [m, y] = label.trim().split(/\s+/);
-  return `${y}-${monthNumber(m)}`;
-};
-
 // Returns a function from a published code to cdcr_code, using crosswalk/institutions.csv.
 function loadCodeLookup() {
   const file = path.join(__dirname, '..', 'crosswalk', 'institutions.csv');
@@ -64,21 +58,6 @@ function recidivismRows(rawRows) {
     ...rawRows.slice(1).map(([fy, los, v]) => [fy, los, String(v ?? '').replace('%', '').trim()])];
 }
 
-// '9%' -> ['9', '%'], '$77' -> ['77', '$'], '1,204' -> ['1204', ''], '' -> ['', ''].
-function splitValue(v) {
-  const s = String(v ?? '').trim();
-  const unit = s.includes('%') ? '%' : s.includes('$') ? '$' : '';
-  return [s.replace(/[%$,]/g, ''), unit];
-}
-
-const CCHCS_IPC_HEADER = ['month', 'cdcr_code', 'institution_as_stated', 'measure', 'value', 'unit'];
-const cchcsIpcRow = ([month, inst, measure, value], code) =>
-  [monthFromLabel(month), code(inst), inst, measure, ...splitValue(value)];
-
-const CCHCS_MEASURES_HEADER = ['month', 'cdcr_code', 'institution_as_stated', 'group', 'measure', 'value', 'unit'];
-const cchcsMeasuresRow = ([month, group, inst, measure, value], code) =>
-  [monthFromLabel(month), code(inst), inst, group, measure, ...splitValue(value)];
-
 const DEMOGRAPHICS_HEADER = group => ['month', 'cdcr_code', 'location_as_stated', group, 'population'];
 
 // Crosstab rows as [year, month, location, ...one cell per group] -> long rows, oldest month
@@ -98,7 +77,6 @@ function demographicsToLong(groups, tableRows, code) {
 
 module.exports = {
   DEMOGRAPHICS_HEADER, demographicsToLong,
-  MONTHS, monthFromLabel, loadCodeLookup, stripCommas, toCsv,
-  sentenceRows, recidivismRows, splitValue,
-  CCHCS_IPC_HEADER, cchcsIpcRow, CCHCS_MEASURES_HEADER, cchcsMeasuresRow,
+  MONTHS, loadCodeLookup, stripCommas, toCsv,
+  sentenceRows, recidivismRows,
 };
