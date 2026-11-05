@@ -20,6 +20,7 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
+const { loadCodeLookup, LONG_HEADER, stripCommas } = require('./tidy');
 
 const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiYzlkM2RiNWEtZDRjMi00ODllLTg2YzEtZjYyM2MwMjA5NmQ0IiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9&pageName=5a926528bbf7e48d60c2';
 const OUT_PATH = path.join(__dirname, '..', 'data', 'operations', 'sb601_operations.csv');
@@ -471,24 +472,9 @@ function toCsv(rows) {
   ).join('\n');
 }
 
-// Alias code -> cdcr_code, from crosswalk/institutions.csv (alias_codes is the last column).
-function loadAliases() {
-  const lines = fs.readFileSync(path.join(__dirname, '..', 'crosswalk', 'institutions.csv'), 'utf8').trim().split('\n');
-  const aliases = {};
-  for (const line of lines.slice(1)) {
-    const fields = line.trim().split(',');
-    for (const a of fields[fields.length - 1].split(';')) {
-      if (a.trim()) aliases[a.trim()] = fields[0];
-    }
-  }
-  return aliases;
-}
-
-const LONG_HEADER = ['cdcr_code', 'institution_as_stated', 'month', 'category', 'metric', 'value'];
-
 // Wide rows (one per institution, fiscal year and metric) -> long rows (one per month).
 // The dashboard's Quarter and Metric header rows are dropped; Jul-Dec fall in the fiscal year's first calendar year.
-function toLongRows(wideRows, aliases) {
+function toLongRows(wideRows, code) {
   const out = [];
   for (const r of wideRows) {
     if (r.metric === 'Quarter' || r.metric === 'Metric') continue;
@@ -496,8 +482,7 @@ function toLongRows(wideRows, aliases) {
     MONTH_NAMES.forEach((m, i) => {
       const year = i < 6 ? startYear : endYear;
       const month = `${year}-${String(((i + 6) % 12) + 1).padStart(2, '0')}`;
-      out.push([aliases[r.institution] ?? r.institution, r.institution, month, r.category, r.metric,
-        String(r[m] ?? '').replace(/,/g, '')]);
+      out.push([code(r.institution), r.institution, month, r.category, r.metric, stripCommas(r[m])]);
     });
   }
   return out;
@@ -561,7 +546,7 @@ function toLongRows(wideRows, aliases) {
     if (allData.length === 0) {
       console.warn('\nNo data collected.');
     } else {
-      const longRows = toLongRows(allData, loadAliases());
+      const longRows = toLongRows(allData, loadCodeLookup());
       fs.writeFileSync(OUT_PATH, toCsv([LONG_HEADER, ...longRows]), 'utf8');
       console.log(`\nSaved ${longRows.length} rows to: ${OUT_PATH}`);
       longRows.slice(0, 3).forEach(r => console.log(' ', JSON.stringify(r)));

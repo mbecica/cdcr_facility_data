@@ -30,8 +30,38 @@ import pandas as pd
 import pdfplumber
 from pathlib import Path
 
+from institution_codes import load_codes
+
 SRC = Path(__file__).resolve().parent.parent / "sources" / "specialized_beds"
 OUT = Path(__file__).resolve().parent.parent / "data" / "mental_health_beds"
+
+CODES = load_codes()
+# Facility names the waitlist reports spell out without a code.
+FACILITY_NAMES = {"California Institution for Women": "CIW", "California Men's Colony": "CMC"}
+
+
+def facility_code(name):
+    """cdcr_code for a facility label; blank for totals and state hospitals."""
+    if name in FACILITY_NAMES:
+        return FACILITY_NAMES[name]
+    in_parens = re.search(r"\(([A-Z]+)\)", name)
+    if in_parens and in_parens.group(1) in CODES:
+        return CODES[in_parens.group(1)]
+    return CODES.get(name.split()[0], "")
+
+
+def with_code(df):
+    """Add cdcr_code as the first column, beside the facility label as published."""
+    df = df.copy()
+    df.insert(0, "cdcr_code", df["facility"].map(facility_code))
+    return df
+
+
+def with_month(df):
+    """Name the report's date report_date and add month (YYYY-MM) after it."""
+    df = df.rename(columns={"date": "report_date"})
+    df.insert(df.columns.get_loc("report_date") + 1, "month", df["report_date"].str[:7])
+    return df
 
 
 # ── Helpers ─────────────────────────────────────────────────────────────────
@@ -253,7 +283,7 @@ def build_pip_census_csv():
     df = pd.DataFrame(all_rows)
     df["facility"] = df["facility"].apply(normalize_facility_name)
     out_path = OUT / "pip_census.csv"
-    df.to_csv(out_path, index=False)
+    with_month(with_code(df)).to_csv(out_path, index=False)
     print(f"  → {out_path} ({len(df)} rows, {df['date'].nunique()} dates)")
     return df
 
@@ -344,7 +374,7 @@ def build_coleman_waitlist_csv():
 
     df = pd.DataFrame(all_rows)
     out_path = OUT / "pip_coleman_waitlist.csv"
-    df.to_csv(out_path, index=False)
+    with_month(with_code(df)).to_csv(out_path, index=False)
     print(f"  → {out_path} ({len(df)} rows, {df['date'].nunique()} dates)")
     return df
 
@@ -401,7 +431,7 @@ def build_mhcb_csv():
 
     df = pd.DataFrame(all_rows)
     out_path = OUT / "mhcb_census.csv"
-    df.to_csv(out_path, index=False)
+    with_month(df).to_csv(out_path, index=False)
     print(f"  → {out_path} ({len(df)} rows, {df['date'].nunique()} dates)")
     return df
 
@@ -658,7 +688,7 @@ def build_mhsds_csv():
     print(f"  MHSDS Map: {f.name}")
     df = pd.DataFrame(extract_mhsds_map(f))
     out_path = OUT / "mhsds_programs_by_facility.csv"
-    df.to_csv(out_path, index=False)
+    with_code(df).to_csv(out_path, index=False)
     n_flags = df[list(MHSDS_LETTER_COLS.values())].to_numpy().sum()
     print(f"  → {out_path} ({len(df)} facilities, {n_flags} program flags)")
     return df

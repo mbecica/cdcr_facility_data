@@ -1,4 +1,4 @@
-data_month,cdcr_code,rhu_population,total_population,pct_in_rhu
+month,cdcr_code,rhu_population,total_population,pct_in_rhu
 2024-12,ASP,0,3783,0.0
 2024-12,CAL,97,2390,4.1
 2024-12,CCI,83,2044,4.1

@@ -41,6 +41,12 @@ def normalize(s: str) -> str:
 # after stripping the PIA suffix.
 SCO_TO_CDCR = {
     normalize('AVENAL STATE PRISON'):               'ASP',
+    # Spellings in reports before 2025
+    normalize('CENTRAL CA. WOMENS FACILITY-PI'):    'CCWF',
+    normalize('CHUCKAWALLA VALLEY STATE PRISO'):    'CVSP',
+    normalize('CHUCKAWALLA VALY ST PRISON'):        'CVSP',
+    normalize('DEUEL VOCATIONAL INST'):             'DVI',
+    normalize('DEUEL VOCATIONAL INSTITUTION'):      'DVI',
     normalize('CA. CORRECTIONAL CENTER'):           'CCC',   # closed 2013 (Susanville)
     normalize('CA CORRECTIONAL CENTER'):            'CCC',
     normalize('CA. CORRECTIONAL INSTITUTION'):      'CCI',
@@ -151,7 +157,7 @@ def main():
     accum: dict[str, list[dict]] = defaultdict(list)
     with open(src) as f:
         for row in csv.DictReader(f):
-            if str(LATEST_YEAR) not in row['date']:
+            if not row['month'].startswith(str(LATEST_YEAR)):
                 continue
             name = NAME_CORRECTIONS.get(row['sco_facility_name'], row['sco_facility_name'])
             accum[name].append(row)

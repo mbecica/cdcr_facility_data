@@ -87,8 +87,55 @@ P1_SKIP_PATTERNS = re.compile(
     r"Monthly Report|Weekly Report|As of Midnight|"
     r"Felon/|Population Other|Report #|RReport|RReeppoorrtt|Note |This report|"
     r"beds at|"
+    r"(?:January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4}\s*$|"  # report date
     r"Total CDCR Population\s*$)"    # bare header, not the data row
 )
+
+# The same report row under the wording of earlier reports -> its current wording.
+# Each pair was checked for continuous values across the change. Rows left out either
+# have no later equivalent or can't be shown to be the same row.
+ROW_LABELS = {
+    "I. IN-STATE": "I. In-State",
+    "(MEN, Subtotal)": "(Men, Subtotal)",
+    "(WOMEN, Subtotal)": "(Women, Subtotal)",
+    "1. INSTITUTIONS/CAMPS": "1. Institution/Camps",
+    "INSTITUTIONS": "Institutions",
+    "CAMPS(CCC, CIW & SCC)": "Camps",
+    "Camps(CCC, CIW, and SCC)": "Camps",
+    "Camps(CIW and SCC)": "Camps",
+    "2. IN-STATE CONTRACT BEDS": "2. In-State Contract Beds",
+    "CCF PRIVATE": "Private Community Correctional Facilities",
+    "CCF PUBLIC": "Public Community Correctional Facilities",
+    "CALIFORNIA CITY CF": "California City Correctional Facility",
+    "PRISONER MOTHER PGM": "Community Participant Mother Program",
+    "Community Prisoner Mother Program": "Community Participant Mother Program",
+    "FCRF(MCFARLAND)": "Female Community ReEntry Facility, McFarland",
+    "3. DSH STATE HOSPITALS*": "3. Department of State Hospitals",
+    "3. DSH STATE HOSPITALS": "3. Department of State Hospitals",
+    "4. CRPP SUPERVISION": "4. CRPP Supervision",
+    "ACP": "Alternative Custody Program",
+    "CCTRP": "Custody to Community Treatment Reentry Program",
+    "MCRP": "Male Community Reentry Program",
+    "MEDICAL PAROLE": "Medical Parole",
+    "II. OUT OF STATE(COCF)": "II. California Out-of-State Correctional Facility",
+    "ARIZONA": "Arizona",
+    "MISSISSIPPI": "Mississippi",
+    "B. PAROLE": "B. Parole",
+    "COMMUNITY SUP(Active)": "Community Supervision",
+    "COOP CASES (Active) #3": "Interstate Cooperative Case",
+    "C. NON-CDC JURISDICTION #4": "C. Non-CDCR Jurisdiction",
+    "OUT OF STATE PAROLE": "Out of State Parole",
+    "OUT OF STATE PAL": "Out of State Parolee at Large",
+    "CYA-W&IC 1731.5(c)": "DJJ-W&IC 1731.5(c) Institutions",
+    "D. OTHER POPULATIONS #6": "D. Other Populations",
+    "OUT-TO-COURT, etc.": "Temporary Release to Court and Hospital",
+    "ESCAPED": "Escaped",
+    "PAROLEES (PAL/RAL)": "Parolee at Large",
+    "TOTAL CDCR POPULATION": "Total CDCR Population",
+    "A. TOTAL IN-CUSTODY/CRPP SUP": "A. Total In-Custody/CRPP Supervision",
+    "A. TOTAL IN-CUSTODY": "A. Total In-Custody",
+    "OKLAHOMA": "Oklahoma",
+}
 
 # Page 1 data row:
 #   label  pop  change_period  change_year  [design  pct  staffed]
@@ -303,6 +350,7 @@ def _join_wrapped_lines(lines):
     while i < len(lines):
         cur = lines[i].strip()
         if (cur
+                and not P1_SKIP_PATTERNS.match(cur)     # a header line isn't a wrapped label
                 and i + 1 < len(lines)
                 and not re.search(r"\d", cur)           # current line has no numbers
                 and re.search(r"[\d,]+ +[+\-]?[\d,]+", lines[i + 1])):  # next has data
@@ -321,7 +369,7 @@ def is_format_b(text):
     return text.lstrip().startswith("_")
 
 
-# Format A: "Full Institution Name (ACRONYM)  felon_other  design  pct  staffed"
+# Format A: "Full Institution Name (ACRONYM)  population  design  pct  staffed"
 P2A_ROW_RE = re.compile(
     r"^(.+?)\s+\(([A-Z][A-Z0-9]{1,4})\)\s+"
     r"([\d,]+)\s+([\d,]+)\s+([\d.]+)\s+([\d,]+)\s*$"
@@ -363,7 +411,7 @@ def parse_page2_format_a(text, report_date):
             "cdcr_code":        m.group(2),
             "institution_name": name,
             "gender":           gender,
-            "felon_other":      _int(m.group(3)),
+            "population":       _int(m.group(3)),
             "design_capacity":  _int(m.group(4)),
             "pct_occupied":     float(m.group(5)),
             "staffed_capacity": _int(m.group(6)),
@@ -410,7 +458,7 @@ def parse_page2_format_b(text, report_date):
             "cdcr_code":        code,
             "institution_name": name,
             "gender":           gender,
-            "felon_other":      _int(felon),
+            "population":       _int(felon),
             "design_capacity":  _int(design),
             "pct_occupied":     float(pct),
             "staffed_capacity": _int(staffed),
@@ -491,9 +539,16 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
 
     summary_df = pd.DataFrame(summary_rows)
+    summary_df.insert(1, "month", summary_df["report_date"].str[:7])
+    summary_df.insert(2, "row_label_as_stated", summary_df["row_label"])
+    summary_df["row_label"] = summary_df["row_label_as_stated"].map(lambda s: ROW_LABELS.get(s, s))
+    summary_df = summary_df[["report_date", "month", "row_label", "row_label_as_stated"]
+                            + [c for c in summary_df.columns
+                               if c not in ("report_date", "month", "row_label", "row_label_as_stated")]]
     summary_df.to_csv(out_dir / "tpop1_summary.csv", index=False)
 
     inst_df = pd.DataFrame(institution_rows)
+    inst_df.insert(1, "month", inst_df["report_date"].str[:7])
     inst_df.to_csv(out_dir / "tpop1_institutions.csv", index=False)
 
     print(f"\nWrote {len(summary_df):,} rows  → {out_dir / 'tpop1_summary.csv'}")

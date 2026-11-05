@@ -19,6 +19,7 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
+const { sentenceRows } = require('./tidy');
 
 const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiN2RjZmFjNzItMzI0Ni00M2IwLWJmZjgtNDgyMjUyMjVhOWMwIiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9&pageName=6eb2cf1a956ed8b180cb';
 const OUT_PATH = path.join(__dirname, '..', 'data', 'population', 'cdcr_avg_sentence_by_admission.csv');
@@ -309,7 +310,7 @@ function toCsv(rows) {
       rawRows.slice(0, 15).forEach((r, i) => console.log(`  [${i}]`, r));
 
       // Write raw extraction as CSV
-      fs.writeFileSync(OUT_PATH, toCsv(rawRows), 'utf8');
+      fs.writeFileSync(OUT_PATH, toCsv(sentenceRows(rawRows)), 'utf8');
       console.log(`\nSaved ${rawRows.length} rows to: ${OUT_PATH}`);
     }
 

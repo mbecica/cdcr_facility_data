@@ -19,6 +19,7 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
+const { recidivismRows } = require('./tidy');
 
 const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiNmRjOTkwMWEtYmVkMy00MTA1LWIxZDYtYzg4OTIzYjkxNTRlIiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9';
 const OUT_PATH = path.join(__dirname, '..', 'data', 'population', 'cdcr_recidivism_los.csv');
@@ -284,7 +285,7 @@ function toCsv(rows) {
     } else {
       console.log(`\nRaw rows (first 15):`);
       rawRows.slice(0, 15).forEach((r, i) => console.log(`  [${i}]`, r));
-      fs.writeFileSync(OUT_PATH, toCsv(rawRows), 'utf8');
+      fs.writeFileSync(OUT_PATH, toCsv(recidivismRows(rawRows)), 'utf8');
       console.log(`\nSaved ${rawRows.length} rows to: ${OUT_PATH}`);
     }
 

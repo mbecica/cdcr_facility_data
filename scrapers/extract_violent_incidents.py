@@ -79,7 +79,7 @@ CAT_COLS = [
 
 # CSV output columns (full order)
 CSV_COLS = [
-    "facility", "year", "month",
+    "cdcr_code", "month",
     "violent_incidents", "inmate_on_inmate", "staff_involved",
     "assault_on_inmate", "battery_on_inmate", "fighting", "riot",
     "assault_on_officer", "battery_on_officer", "cell_extractions",
@@ -328,7 +328,7 @@ def main():
             cats, source_tag = all_data[key]
             violent_incidents, inmate_on_inmate, staff_involved = compute_derived(cats)
             writer.writerow([
-                facility, year, month,
+                facility, f"{int(year)}-{int(month):02d}",
                 violent_incidents, inmate_on_inmate, staff_involved,
                 cats["assault_on_inmate"],
                 cats["battery_on_inmate"],

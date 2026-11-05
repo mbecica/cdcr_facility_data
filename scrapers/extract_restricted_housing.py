@@ -14,7 +14,7 @@ Filename convention: STA429-MMDDYY-M.pdf
   (e.g. STA429-030525-M.pdf published Mar 5 2025 → data as of Feb 28 2025)
 
 Output: data/operations/restricted_housing.csv
-  Columns: data_month, cdcr_code, rhu_population, total_population, pct_in_rhu
+  Columns: month, cdcr_code, rhu_population, total_population, pct_in_rhu
   (living series — reprocesses every STA429 PDF in the input folder, all years)
 """
 
@@ -165,7 +165,7 @@ def main():
         }])], ignore_index=True)
     df = df.sort_values(["data_month", "cdcr_code"]).reset_index(drop=True)
 
-    df.to_csv(OUT, index=False)
+    df.rename(columns={"data_month": "month"}).to_csv(OUT, index=False)
     print(f"\nWrote {len(df)} rows → {OUT}")
 
     # Summary for the most recent year present in the data.

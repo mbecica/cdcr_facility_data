@@ -8,6 +8,7 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
+const { loadCodeLookup, LONG_HEADER, programsToLong } = require('./tidy');
 
 const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiYzlkM2RiNWEtZDRjMi00ODllLTg2YzEtZjYyM2MwMjA5NmQ0IiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9&pageName=5a926528bbf7e48d60c2';
 const OUT_PATH = path.join(__dirname, '..', 'data', 'operations', 'sb601_programs.csv');
@@ -350,7 +351,7 @@ function toCsv(rows) {
     } else {
       console.log(`Extracted ${tableData.length} rows x ${tableData[0].length} columns`);
       tableData.slice(0, 5).forEach(r => console.log(' ', r.join(' | ')));
-      fs.writeFileSync(OUT_PATH, toCsv(tableData), 'utf8');
+      fs.writeFileSync(OUT_PATH, toCsv([LONG_HEADER, ...programsToLong(tableData, loadCodeLookup())]), 'utf8');
       console.log(`\nSaved: ${OUT_PATH}`);
     }
 

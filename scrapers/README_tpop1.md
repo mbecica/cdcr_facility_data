@@ -85,7 +85,9 @@ Institution names differ by format: short names in 2015–2017 (e.g., "Avenal SP
 | Field | Description |
 | :--- | :--- |
 | `report_date` | Report as-of date (YYYY-MM-DD) |
-| `row_label` | Row label from the table (e.g., `A. Total In-Custody/CRPP Supervision`, `1. Institution/Camps`, `Total CDCR Population`) |
+| `month` | Report month (YYYY-MM) |
+| `row_label` | The row under one label across years (e.g., `A. Total In-Custody/CRPP Supervision`, `1. Institution/Camps`, `Total CDCR Population`) |
+| `row_label_as_stated` | The label as printed in that report |
 | `population` | Population count for that row (felon/other in Format A; total including civil addict in Format B) |
 | `change_last_period` | Change since last month (Format A monthly), last week (Format A weekly 2018), or last year absolute (Format B 2015–2017) |
 | `change_last_year` | Change since same month prior year; null for 2015–2017 Format B rows |
@@ -100,12 +102,13 @@ Rows per month: 20–33.
 | Field | Description |
 | :--- | :--- |
 | `report_date` | Report as-of date (YYYY-MM-DD) |
+| `month` | Report month (YYYY-MM) |
 | `cdcr_code` | CDCR institution acronym (e.g., `ASP`, `SQ`) |
 | `institution_name` | Institution name. Short names (e.g., "Avenal SP") in 2015–2017; full names (e.g., "Avenal State Prison") in 2018+. |
 | `gender` | `Male` or `Female` if the PDF has gendered sections; null for 2021-12-31+ when CDCR switched to alphabetical listing |
-| `felon_other` | Felon/other population count |
+| `population` | Population count (the report's Felon/Other column) |
 | `design_capacity` | Design capacity |
-| `pct_occupied` | Percent occupied (felon_other / design_capacity × 100) |
+| `pct_occupied` | Percent occupied (population / design_capacity × 100) |
 | `staffed_capacity` | Staffed capacity |
 
 Institutions per month: 31–40 (varies as facilities opened, closed, or temporarily split populations). 35 unique institution codes across all months: ASP, CAL, CCC, CCI, CCWF, CEN, CHCF, CIM, CIW, CMC, CMF, COR, CRC, CTF, CVSP, DVI, FOL, FWF, HDSP, ISP, KVSP, LAC, MCSP, NKSP, PBSP, PVSP, RJD, SAC, SATF, SCC, SOL, SQ, SVSP, VSP, WSP.

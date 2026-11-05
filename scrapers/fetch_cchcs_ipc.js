@@ -16,6 +16,7 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
+const { loadCodeLookup, CCHCS_IPC_HEADER, cchcsIpcRow } = require('./tidy');
 
 const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiY2QyNzllZWItMmIxYi00NTk0LWI0OWQtNWEzMTkwYzA3NGE4IiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9';
 const OUT_PATH = path.join(__dirname, '..', 'data', 'health_care', 'cchcs_ipc.csv');
@@ -361,8 +362,8 @@ function toCsvRow(cols) {
     }
 
     // ── Write final CSV ────────────────────────────────────────────────────────
-    const header = ['month', 'institution', 'measure', 'value'];
-    const csvLines = [toCsvRow(header), ...checkpoint.rows.map(toCsvRow)];
+    const code = loadCodeLookup();
+    const csvLines = [toCsvRow(CCHCS_IPC_HEADER), ...checkpoint.rows.map(r => toCsvRow(cchcsIpcRow(r, code)))];
     fs.writeFileSync(OUT_PATH, csvLines.join('\n'), 'utf8');
     console.log(`\nSaved ${checkpoint.rows.length} rows to: ${OUT_PATH}`);
 

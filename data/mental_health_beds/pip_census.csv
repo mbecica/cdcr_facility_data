@@ -1,704 +1,704 @@
-date,facility,section,bed_capacity,program,measure,value
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,APP,No Score,0
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,APP,Level I,2
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,APP,Level II,17
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,APP,Level III,9
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,APP,Level IV,44
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,APP,Total Census,72
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,ICF,No Score,1
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level I,0
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level II,5
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level III,3
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level IV,23
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,ICF,Total Census,32
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,ICF,Out of LRH,16
-2025-10-27,CMF (Flex),Male Flex (APP/ICF),250,Total,Total Census,104
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,APP,No Score,2
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level I,7
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level II,29
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level III,18
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level IV,52
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,APP,Total Census,108
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,ICF,No Score,0
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level I,0
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level II,0
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level III,0
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level IV,0
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Total Census,0
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Out of LRH,0
-2025-10-27,CHCF (Flex),Male Flex (APP/ICF),217,Total,Total Census,108
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,APP,No Score,0
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,APP,Level I,1
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,APP,Level II,3
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,APP,Level III,0
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,APP,Level IV,2
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,APP,Total Census,6
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,ICF,No Score,0
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level I,4
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level II,8
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level III,2
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level IV,3
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,ICF,Total Census,17
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,ICF,Out of LRH,10
-2025-10-27,SQ (Flex),Male Flex (APP/ICF),28,Total,Total Census,23
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,APP,No Score,0
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,APP,Level I,0
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,APP,Level II,0
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,APP,Level III,0
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,APP,Level IV,0
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,APP,Total Census,0
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,ICF,No Score,0
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level I,0
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level II,0
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level III,0
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level IV,0
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,ICF,Total Census,0
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,ICF,Out of LRH,0
-2025-10-27,CMC (Flex),Male Flex (APP/ICF),0,Total,Total Census,0
-2025-10-27,CHCF - Single Cell,Male ICF High Custody,330,ICF,No Score,11
-2025-10-27,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level I,6
-2025-10-27,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level II,51
-2025-10-27,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level III,33
-2025-10-27,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level IV,148
-2025-10-27,CHCF - Single Cell,Male ICF High Custody,330,Total,Total Census,249
-2025-10-27,CHCF - Single Cell,Male ICF High Custody,330,ICF,Out of LRH,111
-2025-10-27,CMF - Single Cell,Male ICF High Custody,62,ICF,No Score,2
-2025-10-27,CMF - Single Cell,Male ICF High Custody,62,ICF,Level I,1
-2025-10-27,CMF - Single Cell,Male ICF High Custody,62,ICF,Level II,12
-2025-10-27,CMF - Single Cell,Male ICF High Custody,62,ICF,Level III,5
-2025-10-27,CMF - Single Cell,Male ICF High Custody,62,ICF,Level IV,37
-2025-10-27,CMF - Single Cell,Male ICF High Custody,62,Total,Total Census,57
-2025-10-27,CMF - Single Cell,Male ICF High Custody,62,ICF,Out of LRH,20
-2025-10-27,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,No Score,0
-2025-10-27,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level I,0
-2025-10-27,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level II,1
-2025-10-27,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level III,4
-2025-10-27,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level IV,6
-2025-10-27,CMF - Multi Person Cells,Male ICF High Custody,20,Total,Total Census,11
-2025-10-27,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Out of LRH,4
-2025-10-27,SVSP - Single Cell,Male ICF High Custody,82,ICF,No Score,2
-2025-10-27,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level I,1
-2025-10-27,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level II,14
-2025-10-27,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level III,8
-2025-10-27,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level IV,57
-2025-10-27,SVSP - Single Cell,Male ICF High Custody,82,Total,Total Census,82
-2025-10-27,SVSP - Single Cell,Male ICF High Custody,82,ICF,PC 1370,19
-2025-10-27,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,No Score,1
-2025-10-27,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level I,1
-2025-10-27,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level II,11
-2025-10-27,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level III,5
-2025-10-27,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level IV,21
-2025-10-27,SVSP - Multi-person Cells,Male ICF High Custody,44,Total,Total Census,39
-2025-10-27,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,PC 1370,0
-2025-10-27,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,WIC 7301,0
-2025-10-27,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Out of LRH,25
-2025-10-27,CMF - Dorms,Male ICF Low Custody,64,ICF,No Score,0
-2025-10-27,CMF - Dorms,Male ICF Low Custody,64,ICF,Level I,0
-2025-10-27,CMF - Dorms,Male ICF Low Custody,64,ICF,Level II,3
-2025-10-27,CMF - Dorms,Male ICF Low Custody,64,ICF,Level III,2
-2025-10-27,CMF - Dorms,Male ICF Low Custody,64,ICF,Level IV,10
-2025-10-27,CMF - Dorms,Male ICF Low Custody,64,Total,Total Census,15
-2025-10-27,CMF - Dorms,Male ICF Low Custody,64,ICF,Out of LRH,9
-2025-10-27,DSH-Atascadero,Male ICF Low Custody,256,ICF,No Score,0
-2025-10-27,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level I,9
-2025-10-27,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level II,71
-2025-10-27,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level III,25
-2025-10-27,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level IV,30
-2025-10-27,DSH-Atascadero,Male ICF Low Custody,256,Total,Total Census,135
-2025-10-27,DSH-Coalinga,Male ICF Low Custody,50,ICF,No Score,0
-2025-10-27,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level I,7
-2025-10-27,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level II,23
-2025-10-27,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level III,3
-2025-10-27,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level IV,15
-2025-10-27,DSH-Coalinga,Male ICF Low Custody,50,Total,Total Census,48
-2025-10-27,DSH-Patton,Female (APP/ICF),30,APP,No Score,0
-2025-10-27,DSH-Patton,Female (APP/ICF),30,APP,Level I,0
-2025-10-27,DSH-Patton,Female (APP/ICF),30,APP,Level II,0
-2025-10-27,DSH-Patton,Female (APP/ICF),30,APP,Level III,0
-2025-10-27,DSH-Patton,Female (APP/ICF),30,APP,Level IV,0
-2025-10-27,DSH-Patton,Female (APP/ICF),30,APP,Total Census,0
-2025-10-27,DSH-Patton,Female (APP/ICF),30,ICF,No Score,0
-2025-10-27,DSH-Patton,Female (APP/ICF),30,ICF,Level I,2
-2025-10-27,DSH-Patton,Female (APP/ICF),30,ICF,Level II,3
-2025-10-27,DSH-Patton,Female (APP/ICF),30,ICF,Level III,2
-2025-10-27,DSH-Patton,Female (APP/ICF),30,ICF,Level IV,2
-2025-10-27,DSH-Patton,Female (APP/ICF),30,ICF,Total Census,9
-2025-10-27,DSH-Patton,Female (APP/ICF),30,Total,Total Census,9
-2025-10-27,CIW (Flex),Female (APP/ICF),45,APP,No Score,0
-2025-10-27,CIW (Flex),Female (APP/ICF),45,APP,Level I,0
-2025-10-27,CIW (Flex),Female (APP/ICF),45,APP,Level II,2
-2025-10-27,CIW (Flex),Female (APP/ICF),45,APP,Level III,0
-2025-10-27,CIW (Flex),Female (APP/ICF),45,APP,Level IV,1
-2025-10-27,CIW (Flex),Female (APP/ICF),45,APP,Total Census,3
-2025-10-27,CIW (Flex),Female (APP/ICF),45,ICF,No Score,5
-2025-10-27,CIW (Flex),Female (APP/ICF),45,ICF,Level I,3
-2025-10-27,CIW (Flex),Female (APP/ICF),45,ICF,Level II,7
-2025-10-27,CIW (Flex),Female (APP/ICF),45,ICF,Level III,2
-2025-10-27,CIW (Flex),Female (APP/ICF),45,ICF,Level IV,8
-2025-10-27,CIW (Flex),Female (APP/ICF),45,ICF,Total Census,25
-2025-10-27,CIW (Flex),Female (APP/ICF),45,ICF,Out of LRH,7
-2025-10-27,CIW (Flex),Female (APP/ICF),45,Total,Total Census,28
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,APP,No Score,1
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,APP,Level I,3
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,APP,Level II,11
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,APP,Level III,7
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,APP,Level IV,42
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,APP,Total Census,64
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,ICF,No Score,1
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level I,0
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level II,7
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level III,1
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level IV,19
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,ICF,Total Census,28
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,ICF,Out of LRH,14
-2025-11-24,CMF (Flex),Male Flex (APP/ICF),250,Total,Total Census,92
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,APP,No Score,3
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level I,7
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level II,29
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level III,13
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level IV,66
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,APP,Total Census,118
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,ICF,No Score,0
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level I,0
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level II,0
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level III,0
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level IV,0
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Total Census,0
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Out of LRH,0
-2025-11-24,CHCF (Flex),Male Flex (APP/ICF),217,Total,Total Census,118
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,APP,No Score,0
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,APP,Level I,1
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,APP,Level II,1
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,APP,Level III,0
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,APP,Level IV,3
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,APP,Total Census,5
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,ICF,No Score,0
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level I,4
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level II,9
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level III,0
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level IV,3
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,ICF,Total Census,16
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,ICF,Out of LRH,11
-2025-11-24,SQ (Flex),Male Flex (APP/ICF),28,Total,Total Census,21
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,APP,No Score,0
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,APP,Level I,0
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,APP,Level II,0
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,APP,Level III,0
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,APP,Level IV,0
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,APP,Total Census,0
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,ICF,No Score,0
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level I,0
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level II,0
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level III,0
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level IV,0
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,ICF,Total Census,0
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,ICF,Out of LRH,0
-2025-11-24,CMC (Flex),Male Flex (APP/ICF),0,Total,Total Census,0
-2025-11-24,CHCF - Single Cell,Male ICF High Custody,330,ICF,No Score,13
-2025-11-24,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level I,6
-2025-11-24,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level II,46
-2025-11-24,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level III,35
-2025-11-24,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level IV,149
-2025-11-24,CHCF - Single Cell,Male ICF High Custody,330,Total,Total Census,249
-2025-11-24,CHCF - Single Cell,Male ICF High Custody,330,ICF,Out of LRH,113
-2025-11-24,CMF - Single Cell,Male ICF High Custody,62,ICF,No Score,2
-2025-11-24,CMF - Single Cell,Male ICF High Custody,62,ICF,Level I,1
-2025-11-24,CMF - Single Cell,Male ICF High Custody,62,ICF,Level II,7
-2025-11-24,CMF - Single Cell,Male ICF High Custody,62,ICF,Level III,7
-2025-11-24,CMF - Single Cell,Male ICF High Custody,62,ICF,Level IV,31
-2025-11-24,CMF - Single Cell,Male ICF High Custody,62,Total,Total Census,48
-2025-11-24,CMF - Single Cell,Male ICF High Custody,62,ICF,Out of LRH,21
-2025-11-24,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,No Score,0
-2025-11-24,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level I,0
-2025-11-24,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level II,0
-2025-11-24,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level III,3
-2025-11-24,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level IV,7
-2025-11-24,CMF - Multi Person Cells,Male ICF High Custody,20,Total,Total Census,10
-2025-11-24,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Out of LRH,2
-2025-11-24,SVSP - Single Cell,Male ICF High Custody,82,ICF,No Score,1
-2025-11-24,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level I,1
-2025-11-24,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level II,11
-2025-11-24,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level III,6
-2025-11-24,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level IV,53
-2025-11-24,SVSP - Single Cell,Male ICF High Custody,82,Total,Total Census,72
-2025-11-24,SVSP - Single Cell,Male ICF High Custody,82,ICF,PC 1370,19
-2025-11-24,SVSP - Single Cell,Male ICF High Custody,82,ICF,WIC 7301,0
-2025-11-24,SVSP - Single Cell,Male ICF High Custody,82,ICF,Out of LRH,26
-2025-11-24,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,No Score,1
-2025-11-24,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level I,0
-2025-11-24,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level II,13
-2025-11-24,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level III,3
-2025-11-24,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level IV,24
-2025-11-24,SVSP - Multi-person Cells,Male ICF High Custody,44,Total,Total Census,41
-2025-11-24,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,PC 1370,0
-2025-11-24,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,WIC 7301,0
-2025-11-24,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Out of LRH,26
-2025-11-24,CMF - Dorms,Male ICF Low Custody,64,ICF,No Score,0
-2025-11-24,CMF - Dorms,Male ICF Low Custody,64,ICF,Level I,0
-2025-11-24,CMF - Dorms,Male ICF Low Custody,64,ICF,Level II,10
-2025-11-24,CMF - Dorms,Male ICF Low Custody,64,ICF,Level III,3
-2025-11-24,CMF - Dorms,Male ICF Low Custody,64,ICF,Level IV,9
-2025-11-24,CMF - Dorms,Male ICF Low Custody,64,Total,Total Census,22
-2025-11-24,CMF - Dorms,Male ICF Low Custody,64,ICF,Out of LRH,11
-2025-11-24,DSH-Atascadero,Male ICF Low Custody,256,ICF,No Score,0
-2025-11-24,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level I,12
-2025-11-24,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level II,71
-2025-11-24,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level III,26
-2025-11-24,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level IV,28
-2025-11-24,DSH-Atascadero,Male ICF Low Custody,256,Total,Total Census,137
-2025-11-24,DSH-Coalinga,Male ICF Low Custody,50,ICF,No Score,0
-2025-11-24,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level I,6
-2025-11-24,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level II,22
-2025-11-24,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level III,3
-2025-11-24,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level IV,13
-2025-11-24,DSH-Coalinga,Male ICF Low Custody,50,Total,Total Census,44
-2025-11-24,DSH-Patton,Female (APP/ICF),30,APP,No Score,0
-2025-11-24,DSH-Patton,Female (APP/ICF),30,APP,Level I,0
-2025-11-24,DSH-Patton,Female (APP/ICF),30,APP,Level II,0
-2025-11-24,DSH-Patton,Female (APP/ICF),30,APP,Level III,0
-2025-11-24,DSH-Patton,Female (APP/ICF),30,APP,Level IV,0
-2025-11-24,DSH-Patton,Female (APP/ICF),30,APP,Total Census,0
-2025-11-24,DSH-Patton,Female (APP/ICF),30,ICF,No Score,0
-2025-11-24,DSH-Patton,Female (APP/ICF),30,ICF,Level I,0
-2025-11-24,DSH-Patton,Female (APP/ICF),30,ICF,Level II,2
-2025-11-24,DSH-Patton,Female (APP/ICF),30,ICF,Level III,2
-2025-11-24,DSH-Patton,Female (APP/ICF),30,ICF,Level IV,1
-2025-11-24,DSH-Patton,Female (APP/ICF),30,ICF,Total Census,5
-2025-11-24,DSH-Patton,Female (APP/ICF),30,Total,Total Census,5
-2025-11-24,CIW (Flex),Female (APP/ICF),45,APP,No Score,0
-2025-11-24,CIW (Flex),Female (APP/ICF),45,APP,Level I,1
-2025-11-24,CIW (Flex),Female (APP/ICF),45,APP,Level II,1
-2025-11-24,CIW (Flex),Female (APP/ICF),45,APP,Level III,0
-2025-11-24,CIW (Flex),Female (APP/ICF),45,APP,Level IV,0
-2025-11-24,CIW (Flex),Female (APP/ICF),45,APP,Total Census,2
-2025-11-24,CIW (Flex),Female (APP/ICF),45,ICF,No Score,5
-2025-11-24,CIW (Flex),Female (APP/ICF),45,ICF,Level I,4
-2025-11-24,CIW (Flex),Female (APP/ICF),45,ICF,Level II,9
-2025-11-24,CIW (Flex),Female (APP/ICF),45,ICF,Level III,2
-2025-11-24,CIW (Flex),Female (APP/ICF),45,ICF,Level IV,8
-2025-11-24,CIW (Flex),Female (APP/ICF),45,ICF,Total Census,28
-2025-11-24,CIW (Flex),Female (APP/ICF),45,ICF,Out of LRH,9
-2025-11-24,CIW (Flex),Female (APP/ICF),45,Total,Total Census,30
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,APP,No Score,2
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,APP,Level I,2
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,APP,Level II,10
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,APP,Level III,5
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,APP,Level IV,50
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,APP,Total Census,69
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,ICF,No Score,2
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level I,0
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level II,8
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level III,3
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level IV,18
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,ICF,Total Census,31
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,ICF,Out of LRH,19
-2025-12-29,CMF (Flex),Male Flex (APP/ICF),250,Total,Total Census,100
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,APP,No Score,6
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level I,7
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level II,26
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level III,17
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level IV,68
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,APP,Total Census,124
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,ICF,No Score,0
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level I,0
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level II,0
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level III,0
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level IV,0
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Total Census,0
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Out of LRH,0
-2025-12-29,CHCF (Flex),Male Flex (APP/ICF),217,Total,Total Census,124
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,APP,No Score,0
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,APP,Level I,0
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,APP,Level II,1
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,APP,Level III,0
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,APP,Level IV,3
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,APP,Total Census,4
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,ICF,No Score,0
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level I,6
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level II,11
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level III,0
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level IV,3
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,ICF,Total Census,20
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,ICF,Out of LRH,13
-2025-12-29,SQ (Flex),Male Flex (APP/ICF),28,Total,Total Census,24
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,APP,No Score,0
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,APP,Level I,0
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,APP,Level II,0
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,APP,Level III,0
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,APP,Level IV,0
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,APP,Total Census,0
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,ICF,No Score,0
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level I,0
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level II,0
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level III,0
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level IV,0
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,ICF,Total Census,0
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,ICF,Out of LRH,0
-2025-12-29,CMC (Flex),Male Flex (APP/ICF),0,Total,Total Census,0
-2025-12-29,CHCF - Single Cell,Male ICF High Custody,330,ICF,No Score,15
-2025-12-29,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level I,6
-2025-12-29,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level II,47
-2025-12-29,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level III,29
-2025-12-29,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level IV,138
-2025-12-29,CHCF - Single Cell,Male ICF High Custody,330,Total,Total Census,235
-2025-12-29,CHCF - Single Cell,Male ICF High Custody,330,ICF,Out of LRH,107
-2025-12-29,CMF - Single Cell,Male ICF High Custody,62,ICF,No Score,1
-2025-12-29,CMF - Single Cell,Male ICF High Custody,62,ICF,Level I,1
-2025-12-29,CMF - Single Cell,Male ICF High Custody,62,ICF,Level II,9
-2025-12-29,CMF - Single Cell,Male ICF High Custody,62,ICF,Level III,5
-2025-12-29,CMF - Single Cell,Male ICF High Custody,62,ICF,Level IV,42
-2025-12-29,CMF - Single Cell,Male ICF High Custody,62,Total,Total Census,58
-2025-12-29,CMF - Single Cell,Male ICF High Custody,62,ICF,Out of LRH,30
-2025-12-29,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,No Score,0
-2025-12-29,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level I,0
-2025-12-29,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level II,0
-2025-12-29,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level III,3
-2025-12-29,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level IV,9
-2025-12-29,CMF - Multi Person Cells,Male ICF High Custody,20,Total,Total Census,12
-2025-12-29,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Out of LRH,4
-2025-12-29,SVSP - Single Cell,Male ICF High Custody,82,ICF,No Score,2
-2025-12-29,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level I,1
-2025-12-29,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level II,10
-2025-12-29,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level III,8
-2025-12-29,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level IV,52
-2025-12-29,SVSP - Single Cell,Male ICF High Custody,82,Total,Total Census,73
-2025-12-29,SVSP - Single Cell,Male ICF High Custody,82,ICF,PC 1370,19
-2025-12-29,SVSP - Single Cell,Male ICF High Custody,82,ICF,WIC 7301,1
-2025-12-29,SVSP - Single Cell,Male ICF High Custody,82,ICF,Out of LRH,26
-2025-12-29,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,No Score,1
-2025-12-29,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level I,0
-2025-12-29,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level II,12
-2025-12-29,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level III,3
-2025-12-29,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level IV,26
-2025-12-29,SVSP - Multi-person Cells,Male ICF High Custody,44,Total,Total Census,42
-2025-12-29,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,PC 1370,0
-2025-12-29,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,WIC 7301,0
-2025-12-29,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Out of LRH,25
-2025-12-29,CMF - Dorms,Male ICF Low Custody,64,ICF,No Score,1
-2025-12-29,CMF - Dorms,Male ICF Low Custody,64,ICF,Level I,1
-2025-12-29,CMF - Dorms,Male ICF Low Custody,64,ICF,Level II,11
-2025-12-29,CMF - Dorms,Male ICF Low Custody,64,ICF,Level III,4
-2025-12-29,CMF - Dorms,Male ICF Low Custody,64,ICF,Level IV,6
-2025-12-29,CMF - Dorms,Male ICF Low Custody,64,Total,Total Census,23
-2025-12-29,CMF - Dorms,Male ICF Low Custody,64,ICF,Out of LRH,13
-2025-12-29,DSH-Atascadero,Male ICF Low Custody,256,ICF,No Score,0
-2025-12-29,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level I,12
-2025-12-29,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level II,71
-2025-12-29,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level III,24
-2025-12-29,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level IV,26
-2025-12-29,DSH-Atascadero,Male ICF Low Custody,256,Total,Total Census,133
-2025-12-29,DSH-Coalinga,Male ICF Low Custody,50,ICF,No Score,0
-2025-12-29,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level I,5
-2025-12-29,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level II,23
-2025-12-29,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level III,3
-2025-12-29,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level IV,13
-2025-12-29,DSH-Coalinga,Male ICF Low Custody,50,Total,Total Census,44
-2025-12-29,DSH-Patton,Female (APP/ICF),30,APP,No Score,0
-2025-12-29,DSH-Patton,Female (APP/ICF),30,APP,Level I,0
-2025-12-29,DSH-Patton,Female (APP/ICF),30,APP,Level II,0
-2025-12-29,DSH-Patton,Female (APP/ICF),30,APP,Level III,0
-2025-12-29,DSH-Patton,Female (APP/ICF),30,APP,Level IV,0
-2025-12-29,DSH-Patton,Female (APP/ICF),30,APP,Total Census,0
-2025-12-29,DSH-Patton,Female (APP/ICF),30,ICF,No Score,0
-2025-12-29,DSH-Patton,Female (APP/ICF),30,ICF,Level I,0
-2025-12-29,DSH-Patton,Female (APP/ICF),30,ICF,Level II,3
-2025-12-29,DSH-Patton,Female (APP/ICF),30,ICF,Level III,1
-2025-12-29,DSH-Patton,Female (APP/ICF),30,ICF,Level IV,1
-2025-12-29,DSH-Patton,Female (APP/ICF),30,ICF,Total Census,5
-2025-12-29,DSH-Patton,Female (APP/ICF),30,Total,Total Census,5
-2025-12-29,CIW (Flex),Female (APP/ICF),45,APP,No Score,1
-2025-12-29,CIW (Flex),Female (APP/ICF),45,APP,Level I,0
-2025-12-29,CIW (Flex),Female (APP/ICF),45,APP,Level II,1
-2025-12-29,CIW (Flex),Female (APP/ICF),45,APP,Level III,0
-2025-12-29,CIW (Flex),Female (APP/ICF),45,APP,Level IV,1
-2025-12-29,CIW (Flex),Female (APP/ICF),45,APP,Total Census,3
-2025-12-29,CIW (Flex),Female (APP/ICF),45,ICF,No Score,4
-2025-12-29,CIW (Flex),Female (APP/ICF),45,ICF,Level I,4
-2025-12-29,CIW (Flex),Female (APP/ICF),45,ICF,Level II,10
-2025-12-29,CIW (Flex),Female (APP/ICF),45,ICF,Level III,3
-2025-12-29,CIW (Flex),Female (APP/ICF),45,ICF,Level IV,11
-2025-12-29,CIW (Flex),Female (APP/ICF),45,ICF,Total Census,32
-2025-12-29,CIW (Flex),Female (APP/ICF),45,ICF,Out of LRH,11
-2025-12-29,CIW (Flex),Female (APP/ICF),45,Total,Total Census,35
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,APP,No Score,1
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,APP,Level I,1
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,APP,Level II,9
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,APP,Level III,4
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,APP,Level IV,51
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,APP,Total Census,66
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,ICF,No Score,2
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level I,0
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level II,8
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level III,2
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level IV,15
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,ICF,Total Census,27
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,ICF,Out of LRH,18
-2026-01-26,CMF (Flex),Male Flex (APP/ICF),219,Total,Total Census,93
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,APP,No Score,8
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level I,8
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level II,28
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level III,14
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level IV,56
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,APP,Total Census,114
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,ICF,No Score,0
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level I,0
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level II,0
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level III,0
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level IV,0
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Total Census,0
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Out of LRH,0
-2026-01-26,CHCF (Flex),Male Flex (APP/ICF),217,Total,Total Census,114
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,APP,No Score,0
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,APP,Level I,1
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,APP,Level II,2
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,APP,Level III,0
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,APP,Level IV,3
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,APP,Total Census,6
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,ICF,No Score,0
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level I,4
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level II,10
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level III,0
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level IV,3
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,ICF,Total Census,17
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,ICF,Out of LRH,10
-2026-01-26,SQ (Flex),Male Flex (APP/ICF),28,Total,Total Census,23
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,APP,No Score,0
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,APP,Level I,0
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,APP,Level II,0
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,APP,Level III,0
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,APP,Level IV,0
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,APP,Total Census,0
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,ICF,No Score,0
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level I,0
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level II,0
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level III,0
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level IV,0
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,ICF,Total Census,0
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,ICF,Out of LRH,0
-2026-01-26,CMC (Flex),Male Flex (APP/ICF),0,Total,Total Census,0
-2026-01-26,CHCF - Single Cell,Male ICF High Custody,330,ICF,No Score,16
-2026-01-26,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level I,9
-2026-01-26,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level II,42
-2026-01-26,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level III,28
-2026-01-26,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level IV,144
-2026-01-26,CHCF - Single Cell,Male ICF High Custody,330,Total,Total Census,239
-2026-01-26,CHCF - Single Cell,Male ICF High Custody,330,ICF,Out of LRH,113
-2026-01-26,CMF - Single Cell,Male ICF High Custody,93,ICF,No Score,1
-2026-01-26,CMF - Single Cell,Male ICF High Custody,93,ICF,Level I,1
-2026-01-26,CMF - Single Cell,Male ICF High Custody,93,ICF,Level II,5
-2026-01-26,CMF - Single Cell,Male ICF High Custody,93,ICF,Level III,5
-2026-01-26,CMF - Single Cell,Male ICF High Custody,93,ICF,Level IV,40
-2026-01-26,CMF - Single Cell,Male ICF High Custody,93,Total,Total Census,52
-2026-01-26,CMF - Single Cell,Male ICF High Custody,93,ICF,Out of LRH,24
-2026-01-26,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,No Score,0
-2026-01-26,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level I,0
-2026-01-26,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level II,1
-2026-01-26,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level III,2
-2026-01-26,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level IV,8
-2026-01-26,CMF - Multi Person Cells,Male ICF High Custody,20,Total,Total Census,11
-2026-01-26,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Out of LRH,4
-2026-01-26,SVSP - Single Cell,Male ICF High Custody,82,ICF,No Score,2
-2026-01-26,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level I,0
-2026-01-26,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level II,10
-2026-01-26,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level III,10
-2026-01-26,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level IV,56
-2026-01-26,SVSP - Single Cell,Male ICF High Custody,82,Total,Total Census,78
-2026-01-26,SVSP - Single Cell,Male ICF High Custody,82,ICF,PC 1370,21
-2026-01-26,SVSP - Single Cell,Male ICF High Custody,82,ICF,WIC 7301,1
-2026-01-26,SVSP - Single Cell,Male ICF High Custody,82,ICF,Out of LRH,27
-2026-01-26,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,No Score,1
-2026-01-26,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level I,0
-2026-01-26,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level II,14
-2026-01-26,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level III,3
-2026-01-26,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level IV,25
-2026-01-26,SVSP - Multi-person Cells,Male ICF High Custody,44,Total,Total Census,43
-2026-01-26,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,PC 1370,0
-2026-01-26,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,WIC 7301,0
-2026-01-26,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Out of LRH,25
-2026-01-26,CMF - Dorms,Male ICF Low Custody,64,ICF,No Score,2
-2026-01-26,CMF - Dorms,Male ICF Low Custody,64,ICF,Level I,0
-2026-01-26,CMF - Dorms,Male ICF Low Custody,64,ICF,Level II,13
-2026-01-26,CMF - Dorms,Male ICF Low Custody,64,ICF,Level III,5
-2026-01-26,CMF - Dorms,Male ICF Low Custody,64,ICF,Level IV,9
-2026-01-26,CMF - Dorms,Male ICF Low Custody,64,Total,Total Census,29
-2026-01-26,CMF - Dorms,Male ICF Low Custody,64,ICF,Out of LRH,16
-2026-01-26,DSH-Atascadero,Male ICF Low Custody,256,ICF,No Score,0
-2026-01-26,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level I,10
-2026-01-26,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level II,70
-2026-01-26,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level III,19
-2026-01-26,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level IV,25
-2026-01-26,DSH-Atascadero,Male ICF Low Custody,256,Total,Total Census,124
-2026-01-26,DSH-Coalinga,Male ICF Low Custody,50,ICF,No Score,0
-2026-01-26,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level I,4
-2026-01-26,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level II,25
-2026-01-26,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level III,5
-2026-01-26,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level IV,13
-2026-01-26,DSH-Coalinga,Male ICF Low Custody,50,Total,Total Census,47
-2026-01-26,DSH-Patton,Female (APP/ICF),30,APP,No Score,0
-2026-01-26,DSH-Patton,Female (APP/ICF),30,APP,Level I,0
-2026-01-26,DSH-Patton,Female (APP/ICF),30,APP,Level II,0
-2026-01-26,DSH-Patton,Female (APP/ICF),30,APP,Level III,0
-2026-01-26,DSH-Patton,Female (APP/ICF),30,APP,Level IV,0
-2026-01-26,DSH-Patton,Female (APP/ICF),30,APP,Total Census,0
-2026-01-26,DSH-Patton,Female (APP/ICF),30,ICF,No Score,0
-2026-01-26,DSH-Patton,Female (APP/ICF),30,ICF,Level I,0
-2026-01-26,DSH-Patton,Female (APP/ICF),30,ICF,Level II,3
-2026-01-26,DSH-Patton,Female (APP/ICF),30,ICF,Level III,1
-2026-01-26,DSH-Patton,Female (APP/ICF),30,ICF,Level IV,0
-2026-01-26,DSH-Patton,Female (APP/ICF),30,ICF,Total Census,4
-2026-01-26,DSH-Patton,Female (APP/ICF),30,Total,Total Census,4
-2026-01-26,CIW (Flex),Female (APP/ICF),45,APP,No Score,1
-2026-01-26,CIW (Flex),Female (APP/ICF),45,APP,Level I,0
-2026-01-26,CIW (Flex),Female (APP/ICF),45,APP,Level II,2
-2026-01-26,CIW (Flex),Female (APP/ICF),45,APP,Level III,0
-2026-01-26,CIW (Flex),Female (APP/ICF),45,APP,Level IV,0
-2026-01-26,CIW (Flex),Female (APP/ICF),45,APP,Total Census,3
-2026-01-26,CIW (Flex),Female (APP/ICF),45,ICF,No Score,5
-2026-01-26,CIW (Flex),Female (APP/ICF),45,ICF,Level I,1
-2026-01-26,CIW (Flex),Female (APP/ICF),45,ICF,Level II,8
-2026-01-26,CIW (Flex),Female (APP/ICF),45,ICF,Level III,4
-2026-01-26,CIW (Flex),Female (APP/ICF),45,ICF,Level IV,14
-2026-01-26,CIW (Flex),Female (APP/ICF),45,ICF,Total Census,32
-2026-01-26,CIW (Flex),Female (APP/ICF),45,ICF,Out of LRH,10
-2026-01-26,CIW (Flex),Female (APP/ICF),45,Total,Total Census,35
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,APP,No Score,1
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,APP,Level I,3
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,APP,Level II,18
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,APP,Level III,4
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,APP,Level IV,43
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,APP,Total Census,69
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,ICF,No Score,1
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level I,1
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level II,3
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level III,3
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level IV,24
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,ICF,Total Census,32
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,ICF,Out of LRH,15
-2026-03-23,CMF (Flex),Male Flex (APP/ICF),219,Total,Total Census,101
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,APP,No Score,7
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level I,7
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level II,27
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level III,17
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level IV,67
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,APP,Total Census,125
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,ICF,No Score,0
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level I,0
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level II,0
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level III,0
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level IV,0
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Total Census,0
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Out of LRH,0
-2026-03-23,CHCF (Flex),Male Flex (APP/ICF),217,Total,Total Census,125
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,APP,No Score,0
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,APP,Level I,2
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,APP,Level II,2
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,APP,Level III,0
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,APP,Level IV,1
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,APP,Total Census,5
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,ICF,No Score,0
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level I,3
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level II,14
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level III,1
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level IV,3
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,ICF,Total Census,21
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,ICF,Out of LRH,15
-2026-03-23,SQ (Flex),Male Flex (APP/ICF),28,Total,Total Census,26
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,APP,No Score,0
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,APP,Level I,0
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,APP,Level II,0
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,APP,Level III,0
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,APP,Level IV,0
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,APP,Total Census,0
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,ICF,No Score,0
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level I,0
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level II,0
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level III,0
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level IV,0
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,ICF,Total Census,0
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,ICF,Out of LRH,0
-2026-03-23,CMC (Flex),Male Flex (APP/ICF),0,Total,Total Census,0
-2026-03-23,CHCF - Single Cell,Male ICF High Custody,330,ICF,No Score,11
-2026-03-23,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level I,9
-2026-03-23,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level II,48
-2026-03-23,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level III,26
-2026-03-23,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level IV,145
-2026-03-23,CHCF - Single Cell,Male ICF High Custody,330,Total,Total Census,239
-2026-03-23,CHCF - Single Cell,Male ICF High Custody,330,ICF,Out of LRH,103
-2026-03-23,CMF - Single Cell,Male ICF High Custody,93,ICF,No Score,1
-2026-03-23,CMF - Single Cell,Male ICF High Custody,93,ICF,Level I,2
-2026-03-23,CMF - Single Cell,Male ICF High Custody,93,ICF,Level II,7
-2026-03-23,CMF - Single Cell,Male ICF High Custody,93,ICF,Level III,8
-2026-03-23,CMF - Single Cell,Male ICF High Custody,93,ICF,Level IV,37
-2026-03-23,CMF - Single Cell,Male ICF High Custody,93,Total,Total Census,55
-2026-03-23,CMF - Single Cell,Male ICF High Custody,93,ICF,Out of LRH,25
-2026-03-23,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,No Score,0
-2026-03-23,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level I,0
-2026-03-23,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level II,1
-2026-03-23,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level III,3
-2026-03-23,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level IV,7
-2026-03-23,CMF - Multi Person Cells,Male ICF High Custody,20,Total,Total Census,11
-2026-03-23,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Out of LRH,8
-2026-03-23,SVSP - Single Cell,Male ICF High Custody,82,ICF,No Score,2
-2026-03-23,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level I,1
-2026-03-23,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level II,9
-2026-03-23,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level III,10
-2026-03-23,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level IV,58
-2026-03-23,SVSP - Single Cell,Male ICF High Custody,82,Total,Total Census,80
-2026-03-23,SVSP - Single Cell,Male ICF High Custody,82,ICF,PC 1370,21
-2026-03-23,SVSP - Single Cell,Male ICF High Custody,82,ICF,WIC 7301,1
-2026-03-23,SVSP - Single Cell,Male ICF High Custody,82,ICF,Out of LRH,33
-2026-03-23,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,No Score,0
-2026-03-23,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level I,1
-2026-03-23,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level II,10
-2026-03-23,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level III,6
-2026-03-23,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level IV,19
-2026-03-23,SVSP - Multi-person Cells,Male ICF High Custody,44,Total,Total Census,36
-2026-03-23,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,PC 1370,0
-2026-03-23,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,WIC 7301,0
-2026-03-23,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Out of LRH,19
-2026-03-23,CMF - Dorms,Male ICF Low Custody,64,ICF,No Score,1
-2026-03-23,CMF - Dorms,Male ICF Low Custody,64,ICF,Level I,1
-2026-03-23,CMF - Dorms,Male ICF Low Custody,64,ICF,Level II,13
-2026-03-23,CMF - Dorms,Male ICF Low Custody,64,ICF,Level III,4
-2026-03-23,CMF - Dorms,Male ICF Low Custody,64,ICF,Level IV,7
-2026-03-23,CMF - Dorms,Male ICF Low Custody,64,Total,Total Census,26
-2026-03-23,CMF - Dorms,Male ICF Low Custody,64,ICF,Out of LRH,12
-2026-03-23,DSH-Atascadero,Male ICF Low Custody,256,ICF,No Score,0
-2026-03-23,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level I,9
-2026-03-23,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level II,73
-2026-03-23,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level III,17
-2026-03-23,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level IV,30
-2026-03-23,DSH-Atascadero,Male ICF Low Custody,256,Total,Total Census,129
-2026-03-23,DSH-Coalinga,Male ICF Low Custody,50,ICF,No Score,0
-2026-03-23,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level I,3
-2026-03-23,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level II,23
-2026-03-23,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level III,6
-2026-03-23,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level IV,12
-2026-03-23,DSH-Coalinga,Male ICF Low Custody,50,Total,Total Census,44
-2026-03-23,DSH-Patton,Female (APP/ICF),30,APP,No Score,0
-2026-03-23,DSH-Patton,Female (APP/ICF),30,APP,Level I,0
-2026-03-23,DSH-Patton,Female (APP/ICF),30,APP,Level II,0
-2026-03-23,DSH-Patton,Female (APP/ICF),30,APP,Level III,0
-2026-03-23,DSH-Patton,Female (APP/ICF),30,APP,Level IV,0
-2026-03-23,DSH-Patton,Female (APP/ICF),30,APP,Total Census,0
-2026-03-23,DSH-Patton,Female (APP/ICF),30,ICF,No Score,0
-2026-03-23,DSH-Patton,Female (APP/ICF),30,ICF,Level I,1
-2026-03-23,DSH-Patton,Female (APP/ICF),30,ICF,Level II,0
-2026-03-23,DSH-Patton,Female (APP/ICF),30,ICF,Level III,0
-2026-03-23,DSH-Patton,Female (APP/ICF),30,ICF,Level IV,1
-2026-03-23,DSH-Patton,Female (APP/ICF),30,ICF,Total Census,2
-2026-03-23,DSH-Patton,Female (APP/ICF),30,Total,Total Census,2
-2026-03-23,CIW (Flex),Female (APP/ICF),45,APP,No Score,0
-2026-03-23,CIW (Flex),Female (APP/ICF),45,APP,Level I,1
-2026-03-23,CIW (Flex),Female (APP/ICF),45,APP,Level II,3
-2026-03-23,CIW (Flex),Female (APP/ICF),45,APP,Level III,0
-2026-03-23,CIW (Flex),Female (APP/ICF),45,APP,Level IV,2
-2026-03-23,CIW (Flex),Female (APP/ICF),45,APP,Total Census,6
-2026-03-23,CIW (Flex),Female (APP/ICF),45,ICF,No Score,3
-2026-03-23,CIW (Flex),Female (APP/ICF),45,ICF,Level I,1
-2026-03-23,CIW (Flex),Female (APP/ICF),45,ICF,Level II,8
-2026-03-23,CIW (Flex),Female (APP/ICF),45,ICF,Level III,2
-2026-03-23,CIW (Flex),Female (APP/ICF),45,ICF,Level IV,7
-2026-03-23,CIW (Flex),Female (APP/ICF),45,ICF,Total Census,21
-2026-03-23,CIW (Flex),Female (APP/ICF),45,ICF,Out of LRH,5
-2026-03-23,CIW (Flex),Female (APP/ICF),45,Total,Total Census,27
+cdcr_code,report_date,month,facility,section,bed_capacity,program,measure,value
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,APP,No Score,0
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,APP,Level I,2
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,APP,Level II,17
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,APP,Level III,9
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,APP,Level IV,44
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,APP,Total Census,72
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,ICF,No Score,1
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level I,0
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level II,5
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level III,3
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level IV,23
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,ICF,Total Census,32
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,ICF,Out of LRH,16
+CMF,2025-10-27,2025-10,CMF (Flex),Male Flex (APP/ICF),250,Total,Total Census,104
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,APP,No Score,2
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level I,7
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level II,29
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level III,18
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level IV,52
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,APP,Total Census,108
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,ICF,No Score,0
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level I,0
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level II,0
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level III,0
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level IV,0
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Total Census,0
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Out of LRH,0
+CHCF,2025-10-27,2025-10,CHCF (Flex),Male Flex (APP/ICF),217,Total,Total Census,108
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,APP,No Score,0
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,APP,Level I,1
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,APP,Level II,3
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,APP,Level III,0
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,APP,Level IV,2
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,APP,Total Census,6
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,ICF,No Score,0
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level I,4
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level II,8
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level III,2
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level IV,3
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,ICF,Total Census,17
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,ICF,Out of LRH,10
+SQ,2025-10-27,2025-10,SQ (Flex),Male Flex (APP/ICF),28,Total,Total Census,23
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,APP,No Score,0
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,APP,Level I,0
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,APP,Level II,0
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,APP,Level III,0
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,APP,Level IV,0
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,APP,Total Census,0
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,ICF,No Score,0
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level I,0
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level II,0
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level III,0
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level IV,0
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,ICF,Total Census,0
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,ICF,Out of LRH,0
+CMC,2025-10-27,2025-10,CMC (Flex),Male Flex (APP/ICF),0,Total,Total Census,0
+CHCF,2025-10-27,2025-10,CHCF - Single Cell,Male ICF High Custody,330,ICF,No Score,11
+CHCF,2025-10-27,2025-10,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level I,6
+CHCF,2025-10-27,2025-10,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level II,51
+CHCF,2025-10-27,2025-10,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level III,33
+CHCF,2025-10-27,2025-10,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level IV,148
+CHCF,2025-10-27,2025-10,CHCF - Single Cell,Male ICF High Custody,330,Total,Total Census,249
+CHCF,2025-10-27,2025-10,CHCF - Single Cell,Male ICF High Custody,330,ICF,Out of LRH,111
+CMF,2025-10-27,2025-10,CMF - Single Cell,Male ICF High Custody,62,ICF,No Score,2
+CMF,2025-10-27,2025-10,CMF - Single Cell,Male ICF High Custody,62,ICF,Level I,1
+CMF,2025-10-27,2025-10,CMF - Single Cell,Male ICF High Custody,62,ICF,Level II,12
+CMF,2025-10-27,2025-10,CMF - Single Cell,Male ICF High Custody,62,ICF,Level III,5
+CMF,2025-10-27,2025-10,CMF - Single Cell,Male ICF High Custody,62,ICF,Level IV,37
+CMF,2025-10-27,2025-10,CMF - Single Cell,Male ICF High Custody,62,Total,Total Census,57
+CMF,2025-10-27,2025-10,CMF - Single Cell,Male ICF High Custody,62,ICF,Out of LRH,20
+CMF,2025-10-27,2025-10,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,No Score,0
+CMF,2025-10-27,2025-10,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level I,0
+CMF,2025-10-27,2025-10,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level II,1
+CMF,2025-10-27,2025-10,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level III,4
+CMF,2025-10-27,2025-10,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level IV,6
+CMF,2025-10-27,2025-10,CMF - Multi Person Cells,Male ICF High Custody,20,Total,Total Census,11
+CMF,2025-10-27,2025-10,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Out of LRH,4
+SVSP,2025-10-27,2025-10,SVSP - Single Cell,Male ICF High Custody,82,ICF,No Score,2
+SVSP,2025-10-27,2025-10,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level I,1
+SVSP,2025-10-27,2025-10,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level II,14
+SVSP,2025-10-27,2025-10,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level III,8
+SVSP,2025-10-27,2025-10,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level IV,57
+SVSP,2025-10-27,2025-10,SVSP - Single Cell,Male ICF High Custody,82,Total,Total Census,82
+SVSP,2025-10-27,2025-10,SVSP - Single Cell,Male ICF High Custody,82,ICF,PC 1370,19
+SVSP,2025-10-27,2025-10,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,No Score,1
+SVSP,2025-10-27,2025-10,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level I,1
+SVSP,2025-10-27,2025-10,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level II,11
+SVSP,2025-10-27,2025-10,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level III,5
+SVSP,2025-10-27,2025-10,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level IV,21
+SVSP,2025-10-27,2025-10,SVSP - Multi-person Cells,Male ICF High Custody,44,Total,Total Census,39
+SVSP,2025-10-27,2025-10,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,PC 1370,0
+SVSP,2025-10-27,2025-10,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,WIC 7301,0
+SVSP,2025-10-27,2025-10,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Out of LRH,25
+CMF,2025-10-27,2025-10,CMF - Dorms,Male ICF Low Custody,64,ICF,No Score,0
+CMF,2025-10-27,2025-10,CMF - Dorms,Male ICF Low Custody,64,ICF,Level I,0
+CMF,2025-10-27,2025-10,CMF - Dorms,Male ICF Low Custody,64,ICF,Level II,3
+CMF,2025-10-27,2025-10,CMF - Dorms,Male ICF Low Custody,64,ICF,Level III,2
+CMF,2025-10-27,2025-10,CMF - Dorms,Male ICF Low Custody,64,ICF,Level IV,10
+CMF,2025-10-27,2025-10,CMF - Dorms,Male ICF Low Custody,64,Total,Total Census,15
+CMF,2025-10-27,2025-10,CMF - Dorms,Male ICF Low Custody,64,ICF,Out of LRH,9
+,2025-10-27,2025-10,DSH-Atascadero,Male ICF Low Custody,256,ICF,No Score,0
+,2025-10-27,2025-10,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level I,9
+,2025-10-27,2025-10,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level II,71
+,2025-10-27,2025-10,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level III,25
+,2025-10-27,2025-10,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level IV,30
+,2025-10-27,2025-10,DSH-Atascadero,Male ICF Low Custody,256,Total,Total Census,135
+,2025-10-27,2025-10,DSH-Coalinga,Male ICF Low Custody,50,ICF,No Score,0
+,2025-10-27,2025-10,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level I,7
+,2025-10-27,2025-10,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level II,23
+,2025-10-27,2025-10,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level III,3
+,2025-10-27,2025-10,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level IV,15
+,2025-10-27,2025-10,DSH-Coalinga,Male ICF Low Custody,50,Total,Total Census,48
+,2025-10-27,2025-10,DSH-Patton,Female (APP/ICF),30,APP,No Score,0
+,2025-10-27,2025-10,DSH-Patton,Female (APP/ICF),30,APP,Level I,0
+,2025-10-27,2025-10,DSH-Patton,Female (APP/ICF),30,APP,Level II,0
+,2025-10-27,2025-10,DSH-Patton,Female (APP/ICF),30,APP,Level III,0
+,2025-10-27,2025-10,DSH-Patton,Female (APP/ICF),30,APP,Level IV,0
+,2025-10-27,2025-10,DSH-Patton,Female (APP/ICF),30,APP,Total Census,0
+,2025-10-27,2025-10,DSH-Patton,Female (APP/ICF),30,ICF,No Score,0
+,2025-10-27,2025-10,DSH-Patton,Female (APP/ICF),30,ICF,Level I,2
+,2025-10-27,2025-10,DSH-Patton,Female (APP/ICF),30,ICF,Level II,3
+,2025-10-27,2025-10,DSH-Patton,Female (APP/ICF),30,ICF,Level III,2
+,2025-10-27,2025-10,DSH-Patton,Female (APP/ICF),30,ICF,Level IV,2
+,2025-10-27,2025-10,DSH-Patton,Female (APP/ICF),30,ICF,Total Census,9
+,2025-10-27,2025-10,DSH-Patton,Female (APP/ICF),30,Total,Total Census,9
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,APP,No Score,0
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,APP,Level I,0
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,APP,Level II,2
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,APP,Level III,0
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,APP,Level IV,1
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,APP,Total Census,3
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,ICF,No Score,5
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,ICF,Level I,3
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,ICF,Level II,7
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,ICF,Level III,2
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,ICF,Level IV,8
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,ICF,Total Census,25
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,ICF,Out of LRH,7
+CIW,2025-10-27,2025-10,CIW (Flex),Female (APP/ICF),45,Total,Total Census,28
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,APP,No Score,1
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,APP,Level I,3
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,APP,Level II,11
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,APP,Level III,7
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,APP,Level IV,42
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,APP,Total Census,64
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,ICF,No Score,1
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level I,0
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level II,7
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level III,1
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level IV,19
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,ICF,Total Census,28
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,ICF,Out of LRH,14
+CMF,2025-11-24,2025-11,CMF (Flex),Male Flex (APP/ICF),250,Total,Total Census,92
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,APP,No Score,3
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level I,7
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level II,29
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level III,13
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level IV,66
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,APP,Total Census,118
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,ICF,No Score,0
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level I,0
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level II,0
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level III,0
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level IV,0
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Total Census,0
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Out of LRH,0
+CHCF,2025-11-24,2025-11,CHCF (Flex),Male Flex (APP/ICF),217,Total,Total Census,118
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,APP,No Score,0
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,APP,Level I,1
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,APP,Level II,1
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,APP,Level III,0
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,APP,Level IV,3
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,APP,Total Census,5
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,ICF,No Score,0
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level I,4
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level II,9
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level III,0
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level IV,3
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,ICF,Total Census,16
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,ICF,Out of LRH,11
+SQ,2025-11-24,2025-11,SQ (Flex),Male Flex (APP/ICF),28,Total,Total Census,21
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,APP,No Score,0
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,APP,Level I,0
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,APP,Level II,0
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,APP,Level III,0
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,APP,Level IV,0
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,APP,Total Census,0
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,ICF,No Score,0
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level I,0
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level II,0
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level III,0
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level IV,0
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,ICF,Total Census,0
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,ICF,Out of LRH,0
+CMC,2025-11-24,2025-11,CMC (Flex),Male Flex (APP/ICF),0,Total,Total Census,0
+CHCF,2025-11-24,2025-11,CHCF - Single Cell,Male ICF High Custody,330,ICF,No Score,13
+CHCF,2025-11-24,2025-11,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level I,6
+CHCF,2025-11-24,2025-11,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level II,46
+CHCF,2025-11-24,2025-11,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level III,35
+CHCF,2025-11-24,2025-11,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level IV,149
+CHCF,2025-11-24,2025-11,CHCF - Single Cell,Male ICF High Custody,330,Total,Total Census,249
+CHCF,2025-11-24,2025-11,CHCF - Single Cell,Male ICF High Custody,330,ICF,Out of LRH,113
+CMF,2025-11-24,2025-11,CMF - Single Cell,Male ICF High Custody,62,ICF,No Score,2
+CMF,2025-11-24,2025-11,CMF - Single Cell,Male ICF High Custody,62,ICF,Level I,1
+CMF,2025-11-24,2025-11,CMF - Single Cell,Male ICF High Custody,62,ICF,Level II,7
+CMF,2025-11-24,2025-11,CMF - Single Cell,Male ICF High Custody,62,ICF,Level III,7
+CMF,2025-11-24,2025-11,CMF - Single Cell,Male ICF High Custody,62,ICF,Level IV,31
+CMF,2025-11-24,2025-11,CMF - Single Cell,Male ICF High Custody,62,Total,Total Census,48
+CMF,2025-11-24,2025-11,CMF - Single Cell,Male ICF High Custody,62,ICF,Out of LRH,21
+CMF,2025-11-24,2025-11,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,No Score,0
+CMF,2025-11-24,2025-11,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level I,0
+CMF,2025-11-24,2025-11,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level II,0
+CMF,2025-11-24,2025-11,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level III,3
+CMF,2025-11-24,2025-11,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level IV,7
+CMF,2025-11-24,2025-11,CMF - Multi Person Cells,Male ICF High Custody,20,Total,Total Census,10
+CMF,2025-11-24,2025-11,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Out of LRH,2
+SVSP,2025-11-24,2025-11,SVSP - Single Cell,Male ICF High Custody,82,ICF,No Score,1
+SVSP,2025-11-24,2025-11,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level I,1
+SVSP,2025-11-24,2025-11,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level II,11
+SVSP,2025-11-24,2025-11,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level III,6
+SVSP,2025-11-24,2025-11,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level IV,53
+SVSP,2025-11-24,2025-11,SVSP - Single Cell,Male ICF High Custody,82,Total,Total Census,72
+SVSP,2025-11-24,2025-11,SVSP - Single Cell,Male ICF High Custody,82,ICF,PC 1370,19
+SVSP,2025-11-24,2025-11,SVSP - Single Cell,Male ICF High Custody,82,ICF,WIC 7301,0
+SVSP,2025-11-24,2025-11,SVSP - Single Cell,Male ICF High Custody,82,ICF,Out of LRH,26
+SVSP,2025-11-24,2025-11,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,No Score,1
+SVSP,2025-11-24,2025-11,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level I,0
+SVSP,2025-11-24,2025-11,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level II,13
+SVSP,2025-11-24,2025-11,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level III,3
+SVSP,2025-11-24,2025-11,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level IV,24
+SVSP,2025-11-24,2025-11,SVSP - Multi-person Cells,Male ICF High Custody,44,Total,Total Census,41
+SVSP,2025-11-24,2025-11,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,PC 1370,0
+SVSP,2025-11-24,2025-11,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,WIC 7301,0
+SVSP,2025-11-24,2025-11,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Out of LRH,26
+CMF,2025-11-24,2025-11,CMF - Dorms,Male ICF Low Custody,64,ICF,No Score,0
+CMF,2025-11-24,2025-11,CMF - Dorms,Male ICF Low Custody,64,ICF,Level I,0
+CMF,2025-11-24,2025-11,CMF - Dorms,Male ICF Low Custody,64,ICF,Level II,10
+CMF,2025-11-24,2025-11,CMF - Dorms,Male ICF Low Custody,64,ICF,Level III,3
+CMF,2025-11-24,2025-11,CMF - Dorms,Male ICF Low Custody,64,ICF,Level IV,9
+CMF,2025-11-24,2025-11,CMF - Dorms,Male ICF Low Custody,64,Total,Total Census,22
+CMF,2025-11-24,2025-11,CMF - Dorms,Male ICF Low Custody,64,ICF,Out of LRH,11
+,2025-11-24,2025-11,DSH-Atascadero,Male ICF Low Custody,256,ICF,No Score,0
+,2025-11-24,2025-11,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level I,12
+,2025-11-24,2025-11,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level II,71
+,2025-11-24,2025-11,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level III,26
+,2025-11-24,2025-11,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level IV,28
+,2025-11-24,2025-11,DSH-Atascadero,Male ICF Low Custody,256,Total,Total Census,137
+,2025-11-24,2025-11,DSH-Coalinga,Male ICF Low Custody,50,ICF,No Score,0
+,2025-11-24,2025-11,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level I,6
+,2025-11-24,2025-11,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level II,22
+,2025-11-24,2025-11,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level III,3
+,2025-11-24,2025-11,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level IV,13
+,2025-11-24,2025-11,DSH-Coalinga,Male ICF Low Custody,50,Total,Total Census,44
+,2025-11-24,2025-11,DSH-Patton,Female (APP/ICF),30,APP,No Score,0
+,2025-11-24,2025-11,DSH-Patton,Female (APP/ICF),30,APP,Level I,0
+,2025-11-24,2025-11,DSH-Patton,Female (APP/ICF),30,APP,Level II,0
+,2025-11-24,2025-11,DSH-Patton,Female (APP/ICF),30,APP,Level III,0
+,2025-11-24,2025-11,DSH-Patton,Female (APP/ICF),30,APP,Level IV,0
+,2025-11-24,2025-11,DSH-Patton,Female (APP/ICF),30,APP,Total Census,0
+,2025-11-24,2025-11,DSH-Patton,Female (APP/ICF),30,ICF,No Score,0
+,2025-11-24,2025-11,DSH-Patton,Female (APP/ICF),30,ICF,Level I,0
+,2025-11-24,2025-11,DSH-Patton,Female (APP/ICF),30,ICF,Level II,2
+,2025-11-24,2025-11,DSH-Patton,Female (APP/ICF),30,ICF,Level III,2
+,2025-11-24,2025-11,DSH-Patton,Female (APP/ICF),30,ICF,Level IV,1
+,2025-11-24,2025-11,DSH-Patton,Female (APP/ICF),30,ICF,Total Census,5
+,2025-11-24,2025-11,DSH-Patton,Female (APP/ICF),30,Total,Total Census,5
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,APP,No Score,0
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,APP,Level I,1
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,APP,Level II,1
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,APP,Level III,0
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,APP,Level IV,0
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,APP,Total Census,2
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,ICF,No Score,5
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,ICF,Level I,4
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,ICF,Level II,9
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,ICF,Level III,2
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,ICF,Level IV,8
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,ICF,Total Census,28
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,ICF,Out of LRH,9
+CIW,2025-11-24,2025-11,CIW (Flex),Female (APP/ICF),45,Total,Total Census,30
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,APP,No Score,2
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,APP,Level I,2
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,APP,Level II,10
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,APP,Level III,5
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,APP,Level IV,50
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,APP,Total Census,69
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,ICF,No Score,2
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level I,0
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level II,8
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level III,3
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,ICF,Level IV,18
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,ICF,Total Census,31
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,ICF,Out of LRH,19
+CMF,2025-12-29,2025-12,CMF (Flex),Male Flex (APP/ICF),250,Total,Total Census,100
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,APP,No Score,6
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level I,7
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level II,26
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level III,17
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level IV,68
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,APP,Total Census,124
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,ICF,No Score,0
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level I,0
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level II,0
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level III,0
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level IV,0
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Total Census,0
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Out of LRH,0
+CHCF,2025-12-29,2025-12,CHCF (Flex),Male Flex (APP/ICF),217,Total,Total Census,124
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,APP,No Score,0
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,APP,Level I,0
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,APP,Level II,1
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,APP,Level III,0
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,APP,Level IV,3
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,APP,Total Census,4
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,ICF,No Score,0
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level I,6
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level II,11
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level III,0
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level IV,3
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,ICF,Total Census,20
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,ICF,Out of LRH,13
+SQ,2025-12-29,2025-12,SQ (Flex),Male Flex (APP/ICF),28,Total,Total Census,24
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,APP,No Score,0
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,APP,Level I,0
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,APP,Level II,0
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,APP,Level III,0
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,APP,Level IV,0
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,APP,Total Census,0
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,ICF,No Score,0
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level I,0
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level II,0
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level III,0
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level IV,0
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,ICF,Total Census,0
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,ICF,Out of LRH,0
+CMC,2025-12-29,2025-12,CMC (Flex),Male Flex (APP/ICF),0,Total,Total Census,0
+CHCF,2025-12-29,2025-12,CHCF - Single Cell,Male ICF High Custody,330,ICF,No Score,15
+CHCF,2025-12-29,2025-12,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level I,6
+CHCF,2025-12-29,2025-12,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level II,47
+CHCF,2025-12-29,2025-12,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level III,29
+CHCF,2025-12-29,2025-12,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level IV,138
+CHCF,2025-12-29,2025-12,CHCF - Single Cell,Male ICF High Custody,330,Total,Total Census,235
+CHCF,2025-12-29,2025-12,CHCF - Single Cell,Male ICF High Custody,330,ICF,Out of LRH,107
+CMF,2025-12-29,2025-12,CMF - Single Cell,Male ICF High Custody,62,ICF,No Score,1
+CMF,2025-12-29,2025-12,CMF - Single Cell,Male ICF High Custody,62,ICF,Level I,1
+CMF,2025-12-29,2025-12,CMF - Single Cell,Male ICF High Custody,62,ICF,Level II,9
+CMF,2025-12-29,2025-12,CMF - Single Cell,Male ICF High Custody,62,ICF,Level III,5
+CMF,2025-12-29,2025-12,CMF - Single Cell,Male ICF High Custody,62,ICF,Level IV,42
+CMF,2025-12-29,2025-12,CMF - Single Cell,Male ICF High Custody,62,Total,Total Census,58
+CMF,2025-12-29,2025-12,CMF - Single Cell,Male ICF High Custody,62,ICF,Out of LRH,30
+CMF,2025-12-29,2025-12,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,No Score,0
+CMF,2025-12-29,2025-12,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level I,0
+CMF,2025-12-29,2025-12,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level II,0
+CMF,2025-12-29,2025-12,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level III,3
+CMF,2025-12-29,2025-12,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level IV,9
+CMF,2025-12-29,2025-12,CMF - Multi Person Cells,Male ICF High Custody,20,Total,Total Census,12
+CMF,2025-12-29,2025-12,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Out of LRH,4
+SVSP,2025-12-29,2025-12,SVSP - Single Cell,Male ICF High Custody,82,ICF,No Score,2
+SVSP,2025-12-29,2025-12,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level I,1
+SVSP,2025-12-29,2025-12,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level II,10
+SVSP,2025-12-29,2025-12,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level III,8
+SVSP,2025-12-29,2025-12,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level IV,52
+SVSP,2025-12-29,2025-12,SVSP - Single Cell,Male ICF High Custody,82,Total,Total Census,73
+SVSP,2025-12-29,2025-12,SVSP - Single Cell,Male ICF High Custody,82,ICF,PC 1370,19
+SVSP,2025-12-29,2025-12,SVSP - Single Cell,Male ICF High Custody,82,ICF,WIC 7301,1
+SVSP,2025-12-29,2025-12,SVSP - Single Cell,Male ICF High Custody,82,ICF,Out of LRH,26
+SVSP,2025-12-29,2025-12,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,No Score,1
+SVSP,2025-12-29,2025-12,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level I,0
+SVSP,2025-12-29,2025-12,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level II,12
+SVSP,2025-12-29,2025-12,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level III,3
+SVSP,2025-12-29,2025-12,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level IV,26
+SVSP,2025-12-29,2025-12,SVSP - Multi-person Cells,Male ICF High Custody,44,Total,Total Census,42
+SVSP,2025-12-29,2025-12,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,PC 1370,0
+SVSP,2025-12-29,2025-12,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,WIC 7301,0
+SVSP,2025-12-29,2025-12,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Out of LRH,25
+CMF,2025-12-29,2025-12,CMF - Dorms,Male ICF Low Custody,64,ICF,No Score,1
+CMF,2025-12-29,2025-12,CMF - Dorms,Male ICF Low Custody,64,ICF,Level I,1
+CMF,2025-12-29,2025-12,CMF - Dorms,Male ICF Low Custody,64,ICF,Level II,11
+CMF,2025-12-29,2025-12,CMF - Dorms,Male ICF Low Custody,64,ICF,Level III,4
+CMF,2025-12-29,2025-12,CMF - Dorms,Male ICF Low Custody,64,ICF,Level IV,6
+CMF,2025-12-29,2025-12,CMF - Dorms,Male ICF Low Custody,64,Total,Total Census,23
+CMF,2025-12-29,2025-12,CMF - Dorms,Male ICF Low Custody,64,ICF,Out of LRH,13
+,2025-12-29,2025-12,DSH-Atascadero,Male ICF Low Custody,256,ICF,No Score,0
+,2025-12-29,2025-12,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level I,12
+,2025-12-29,2025-12,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level II,71
+,2025-12-29,2025-12,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level III,24
+,2025-12-29,2025-12,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level IV,26
+,2025-12-29,2025-12,DSH-Atascadero,Male ICF Low Custody,256,Total,Total Census,133
+,2025-12-29,2025-12,DSH-Coalinga,Male ICF Low Custody,50,ICF,No Score,0
+,2025-12-29,2025-12,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level I,5
+,2025-12-29,2025-12,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level II,23
+,2025-12-29,2025-12,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level III,3
+,2025-12-29,2025-12,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level IV,13
+,2025-12-29,2025-12,DSH-Coalinga,Male ICF Low Custody,50,Total,Total Census,44
+,2025-12-29,2025-12,DSH-Patton,Female (APP/ICF),30,APP,No Score,0
+,2025-12-29,2025-12,DSH-Patton,Female (APP/ICF),30,APP,Level I,0
+,2025-12-29,2025-12,DSH-Patton,Female (APP/ICF),30,APP,Level II,0
+,2025-12-29,2025-12,DSH-Patton,Female (APP/ICF),30,APP,Level III,0
+,2025-12-29,2025-12,DSH-Patton,Female (APP/ICF),30,APP,Level IV,0
+,2025-12-29,2025-12,DSH-Patton,Female (APP/ICF),30,APP,Total Census,0
+,2025-12-29,2025-12,DSH-Patton,Female (APP/ICF),30,ICF,No Score,0
+,2025-12-29,2025-12,DSH-Patton,Female (APP/ICF),30,ICF,Level I,0
+,2025-12-29,2025-12,DSH-Patton,Female (APP/ICF),30,ICF,Level II,3
+,2025-12-29,2025-12,DSH-Patton,Female (APP/ICF),30,ICF,Level III,1
+,2025-12-29,2025-12,DSH-Patton,Female (APP/ICF),30,ICF,Level IV,1
+,2025-12-29,2025-12,DSH-Patton,Female (APP/ICF),30,ICF,Total Census,5
+,2025-12-29,2025-12,DSH-Patton,Female (APP/ICF),30,Total,Total Census,5
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,APP,No Score,1
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,APP,Level I,0
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,APP,Level II,1
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,APP,Level III,0
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,APP,Level IV,1
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,APP,Total Census,3
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,ICF,No Score,4
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,ICF,Level I,4
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,ICF,Level II,10
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,ICF,Level III,3
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,ICF,Level IV,11
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,ICF,Total Census,32
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,ICF,Out of LRH,11
+CIW,2025-12-29,2025-12,CIW (Flex),Female (APP/ICF),45,Total,Total Census,35
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,APP,No Score,1
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,APP,Level I,1
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,APP,Level II,9
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,APP,Level III,4
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,APP,Level IV,51
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,APP,Total Census,66
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,ICF,No Score,2
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level I,0
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level II,8
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level III,2
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level IV,15
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,ICF,Total Census,27
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,ICF,Out of LRH,18
+CMF,2026-01-26,2026-01,CMF (Flex),Male Flex (APP/ICF),219,Total,Total Census,93
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,APP,No Score,8
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level I,8
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level II,28
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level III,14
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level IV,56
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,APP,Total Census,114
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,ICF,No Score,0
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level I,0
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level II,0
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level III,0
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level IV,0
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Total Census,0
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Out of LRH,0
+CHCF,2026-01-26,2026-01,CHCF (Flex),Male Flex (APP/ICF),217,Total,Total Census,114
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,APP,No Score,0
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,APP,Level I,1
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,APP,Level II,2
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,APP,Level III,0
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,APP,Level IV,3
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,APP,Total Census,6
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,ICF,No Score,0
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level I,4
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level II,10
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level III,0
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level IV,3
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,ICF,Total Census,17
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,ICF,Out of LRH,10
+SQ,2026-01-26,2026-01,SQ (Flex),Male Flex (APP/ICF),28,Total,Total Census,23
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,APP,No Score,0
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,APP,Level I,0
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,APP,Level II,0
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,APP,Level III,0
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,APP,Level IV,0
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,APP,Total Census,0
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,ICF,No Score,0
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level I,0
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level II,0
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level III,0
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level IV,0
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,ICF,Total Census,0
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,ICF,Out of LRH,0
+CMC,2026-01-26,2026-01,CMC (Flex),Male Flex (APP/ICF),0,Total,Total Census,0
+CHCF,2026-01-26,2026-01,CHCF - Single Cell,Male ICF High Custody,330,ICF,No Score,16
+CHCF,2026-01-26,2026-01,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level I,9
+CHCF,2026-01-26,2026-01,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level II,42
+CHCF,2026-01-26,2026-01,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level III,28
+CHCF,2026-01-26,2026-01,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level IV,144
+CHCF,2026-01-26,2026-01,CHCF - Single Cell,Male ICF High Custody,330,Total,Total Census,239
+CHCF,2026-01-26,2026-01,CHCF - Single Cell,Male ICF High Custody,330,ICF,Out of LRH,113
+CMF,2026-01-26,2026-01,CMF - Single Cell,Male ICF High Custody,93,ICF,No Score,1
+CMF,2026-01-26,2026-01,CMF - Single Cell,Male ICF High Custody,93,ICF,Level I,1
+CMF,2026-01-26,2026-01,CMF - Single Cell,Male ICF High Custody,93,ICF,Level II,5
+CMF,2026-01-26,2026-01,CMF - Single Cell,Male ICF High Custody,93,ICF,Level III,5
+CMF,2026-01-26,2026-01,CMF - Single Cell,Male ICF High Custody,93,ICF,Level IV,40
+CMF,2026-01-26,2026-01,CMF - Single Cell,Male ICF High Custody,93,Total,Total Census,52
+CMF,2026-01-26,2026-01,CMF - Single Cell,Male ICF High Custody,93,ICF,Out of LRH,24
+CMF,2026-01-26,2026-01,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,No Score,0
+CMF,2026-01-26,2026-01,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level I,0
+CMF,2026-01-26,2026-01,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level II,1
+CMF,2026-01-26,2026-01,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level III,2
+CMF,2026-01-26,2026-01,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level IV,8
+CMF,2026-01-26,2026-01,CMF - Multi Person Cells,Male ICF High Custody,20,Total,Total Census,11
+CMF,2026-01-26,2026-01,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Out of LRH,4
+SVSP,2026-01-26,2026-01,SVSP - Single Cell,Male ICF High Custody,82,ICF,No Score,2
+SVSP,2026-01-26,2026-01,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level I,0
+SVSP,2026-01-26,2026-01,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level II,10
+SVSP,2026-01-26,2026-01,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level III,10
+SVSP,2026-01-26,2026-01,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level IV,56
+SVSP,2026-01-26,2026-01,SVSP - Single Cell,Male ICF High Custody,82,Total,Total Census,78
+SVSP,2026-01-26,2026-01,SVSP - Single Cell,Male ICF High Custody,82,ICF,PC 1370,21
+SVSP,2026-01-26,2026-01,SVSP - Single Cell,Male ICF High Custody,82,ICF,WIC 7301,1
+SVSP,2026-01-26,2026-01,SVSP - Single Cell,Male ICF High Custody,82,ICF,Out of LRH,27
+SVSP,2026-01-26,2026-01,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,No Score,1
+SVSP,2026-01-26,2026-01,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level I,0
+SVSP,2026-01-26,2026-01,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level II,14
+SVSP,2026-01-26,2026-01,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level III,3
+SVSP,2026-01-26,2026-01,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level IV,25
+SVSP,2026-01-26,2026-01,SVSP - Multi-person Cells,Male ICF High Custody,44,Total,Total Census,43
+SVSP,2026-01-26,2026-01,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,PC 1370,0
+SVSP,2026-01-26,2026-01,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,WIC 7301,0
+SVSP,2026-01-26,2026-01,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Out of LRH,25
+CMF,2026-01-26,2026-01,CMF - Dorms,Male ICF Low Custody,64,ICF,No Score,2
+CMF,2026-01-26,2026-01,CMF - Dorms,Male ICF Low Custody,64,ICF,Level I,0
+CMF,2026-01-26,2026-01,CMF - Dorms,Male ICF Low Custody,64,ICF,Level II,13
+CMF,2026-01-26,2026-01,CMF - Dorms,Male ICF Low Custody,64,ICF,Level III,5
+CMF,2026-01-26,2026-01,CMF - Dorms,Male ICF Low Custody,64,ICF,Level IV,9
+CMF,2026-01-26,2026-01,CMF - Dorms,Male ICF Low Custody,64,Total,Total Census,29
+CMF,2026-01-26,2026-01,CMF - Dorms,Male ICF Low Custody,64,ICF,Out of LRH,16
+,2026-01-26,2026-01,DSH-Atascadero,Male ICF Low Custody,256,ICF,No Score,0
+,2026-01-26,2026-01,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level I,10
+,2026-01-26,2026-01,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level II,70
+,2026-01-26,2026-01,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level III,19
+,2026-01-26,2026-01,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level IV,25
+,2026-01-26,2026-01,DSH-Atascadero,Male ICF Low Custody,256,Total,Total Census,124
+,2026-01-26,2026-01,DSH-Coalinga,Male ICF Low Custody,50,ICF,No Score,0
+,2026-01-26,2026-01,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level I,4
+,2026-01-26,2026-01,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level II,25
+,2026-01-26,2026-01,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level III,5
+,2026-01-26,2026-01,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level IV,13
+,2026-01-26,2026-01,DSH-Coalinga,Male ICF Low Custody,50,Total,Total Census,47
+,2026-01-26,2026-01,DSH-Patton,Female (APP/ICF),30,APP,No Score,0
+,2026-01-26,2026-01,DSH-Patton,Female (APP/ICF),30,APP,Level I,0
+,2026-01-26,2026-01,DSH-Patton,Female (APP/ICF),30,APP,Level II,0
+,2026-01-26,2026-01,DSH-Patton,Female (APP/ICF),30,APP,Level III,0
+,2026-01-26,2026-01,DSH-Patton,Female (APP/ICF),30,APP,Level IV,0
+,2026-01-26,2026-01,DSH-Patton,Female (APP/ICF),30,APP,Total Census,0
+,2026-01-26,2026-01,DSH-Patton,Female (APP/ICF),30,ICF,No Score,0
+,2026-01-26,2026-01,DSH-Patton,Female (APP/ICF),30,ICF,Level I,0
+,2026-01-26,2026-01,DSH-Patton,Female (APP/ICF),30,ICF,Level II,3
+,2026-01-26,2026-01,DSH-Patton,Female (APP/ICF),30,ICF,Level III,1
+,2026-01-26,2026-01,DSH-Patton,Female (APP/ICF),30,ICF,Level IV,0
+,2026-01-26,2026-01,DSH-Patton,Female (APP/ICF),30,ICF,Total Census,4
+,2026-01-26,2026-01,DSH-Patton,Female (APP/ICF),30,Total,Total Census,4
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,APP,No Score,1
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,APP,Level I,0
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,APP,Level II,2
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,APP,Level III,0
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,APP,Level IV,0
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,APP,Total Census,3
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,ICF,No Score,5
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,ICF,Level I,1
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,ICF,Level II,8
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,ICF,Level III,4
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,ICF,Level IV,14
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,ICF,Total Census,32
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,ICF,Out of LRH,10
+CIW,2026-01-26,2026-01,CIW (Flex),Female (APP/ICF),45,Total,Total Census,35
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,APP,No Score,1
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,APP,Level I,3
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,APP,Level II,18
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,APP,Level III,4
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,APP,Level IV,43
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,APP,Total Census,69
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,ICF,No Score,1
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level I,1
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level II,3
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level III,3
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,ICF,Level IV,24
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,ICF,Total Census,32
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,ICF,Out of LRH,15
+CMF,2026-03-23,2026-03,CMF (Flex),Male Flex (APP/ICF),219,Total,Total Census,101
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,APP,No Score,7
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level I,7
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level II,27
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level III,17
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,APP,Level IV,67
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,APP,Total Census,125
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,ICF,No Score,0
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level I,0
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level II,0
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level III,0
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Level IV,0
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Total Census,0
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,ICF,Out of LRH,0
+CHCF,2026-03-23,2026-03,CHCF (Flex),Male Flex (APP/ICF),217,Total,Total Census,125
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,APP,No Score,0
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,APP,Level I,2
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,APP,Level II,2
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,APP,Level III,0
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,APP,Level IV,1
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,APP,Total Census,5
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,ICF,No Score,0
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level I,3
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level II,14
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level III,1
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,ICF,Level IV,3
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,ICF,Total Census,21
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,ICF,Out of LRH,15
+SQ,2026-03-23,2026-03,SQ (Flex),Male Flex (APP/ICF),28,Total,Total Census,26
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,APP,No Score,0
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,APP,Level I,0
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,APP,Level II,0
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,APP,Level III,0
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,APP,Level IV,0
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,APP,Total Census,0
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,ICF,No Score,0
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level I,0
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level II,0
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level III,0
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,ICF,Level IV,0
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,ICF,Total Census,0
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,ICF,Out of LRH,0
+CMC,2026-03-23,2026-03,CMC (Flex),Male Flex (APP/ICF),0,Total,Total Census,0
+CHCF,2026-03-23,2026-03,CHCF - Single Cell,Male ICF High Custody,330,ICF,No Score,11
+CHCF,2026-03-23,2026-03,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level I,9
+CHCF,2026-03-23,2026-03,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level II,48
+CHCF,2026-03-23,2026-03,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level III,26
+CHCF,2026-03-23,2026-03,CHCF - Single Cell,Male ICF High Custody,330,ICF,Level IV,145
+CHCF,2026-03-23,2026-03,CHCF - Single Cell,Male ICF High Custody,330,Total,Total Census,239
+CHCF,2026-03-23,2026-03,CHCF - Single Cell,Male ICF High Custody,330,ICF,Out of LRH,103
+CMF,2026-03-23,2026-03,CMF - Single Cell,Male ICF High Custody,93,ICF,No Score,1
+CMF,2026-03-23,2026-03,CMF - Single Cell,Male ICF High Custody,93,ICF,Level I,2
+CMF,2026-03-23,2026-03,CMF - Single Cell,Male ICF High Custody,93,ICF,Level II,7
+CMF,2026-03-23,2026-03,CMF - Single Cell,Male ICF High Custody,93,ICF,Level III,8
+CMF,2026-03-23,2026-03,CMF - Single Cell,Male ICF High Custody,93,ICF,Level IV,37
+CMF,2026-03-23,2026-03,CMF - Single Cell,Male ICF High Custody,93,Total,Total Census,55
+CMF,2026-03-23,2026-03,CMF - Single Cell,Male ICF High Custody,93,ICF,Out of LRH,25
+CMF,2026-03-23,2026-03,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,No Score,0
+CMF,2026-03-23,2026-03,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level I,0
+CMF,2026-03-23,2026-03,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level II,1
+CMF,2026-03-23,2026-03,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level III,3
+CMF,2026-03-23,2026-03,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Level IV,7
+CMF,2026-03-23,2026-03,CMF - Multi Person Cells,Male ICF High Custody,20,Total,Total Census,11
+CMF,2026-03-23,2026-03,CMF - Multi Person Cells,Male ICF High Custody,20,ICF,Out of LRH,8
+SVSP,2026-03-23,2026-03,SVSP - Single Cell,Male ICF High Custody,82,ICF,No Score,2
+SVSP,2026-03-23,2026-03,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level I,1
+SVSP,2026-03-23,2026-03,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level II,9
+SVSP,2026-03-23,2026-03,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level III,10
+SVSP,2026-03-23,2026-03,SVSP - Single Cell,Male ICF High Custody,82,ICF,Level IV,58
+SVSP,2026-03-23,2026-03,SVSP - Single Cell,Male ICF High Custody,82,Total,Total Census,80
+SVSP,2026-03-23,2026-03,SVSP - Single Cell,Male ICF High Custody,82,ICF,PC 1370,21
+SVSP,2026-03-23,2026-03,SVSP - Single Cell,Male ICF High Custody,82,ICF,WIC 7301,1
+SVSP,2026-03-23,2026-03,SVSP - Single Cell,Male ICF High Custody,82,ICF,Out of LRH,33
+SVSP,2026-03-23,2026-03,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,No Score,0
+SVSP,2026-03-23,2026-03,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level I,1
+SVSP,2026-03-23,2026-03,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level II,10
+SVSP,2026-03-23,2026-03,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level III,6
+SVSP,2026-03-23,2026-03,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Level IV,19
+SVSP,2026-03-23,2026-03,SVSP - Multi-person Cells,Male ICF High Custody,44,Total,Total Census,36
+SVSP,2026-03-23,2026-03,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,PC 1370,0
+SVSP,2026-03-23,2026-03,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,WIC 7301,0
+SVSP,2026-03-23,2026-03,SVSP - Multi-person Cells,Male ICF High Custody,44,ICF,Out of LRH,19
+CMF,2026-03-23,2026-03,CMF - Dorms,Male ICF Low Custody,64,ICF,No Score,1
+CMF,2026-03-23,2026-03,CMF - Dorms,Male ICF Low Custody,64,ICF,Level I,1
+CMF,2026-03-23,2026-03,CMF - Dorms,Male ICF Low Custody,64,ICF,Level II,13
+CMF,2026-03-23,2026-03,CMF - Dorms,Male ICF Low Custody,64,ICF,Level III,4
+CMF,2026-03-23,2026-03,CMF - Dorms,Male ICF Low Custody,64,ICF,Level IV,7
+CMF,2026-03-23,2026-03,CMF - Dorms,Male ICF Low Custody,64,Total,Total Census,26
+CMF,2026-03-23,2026-03,CMF - Dorms,Male ICF Low Custody,64,ICF,Out of LRH,12
+,2026-03-23,2026-03,DSH-Atascadero,Male ICF Low Custody,256,ICF,No Score,0
+,2026-03-23,2026-03,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level I,9
+,2026-03-23,2026-03,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level II,73
+,2026-03-23,2026-03,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level III,17
+,2026-03-23,2026-03,DSH-Atascadero,Male ICF Low Custody,256,ICF,Level IV,30
+,2026-03-23,2026-03,DSH-Atascadero,Male ICF Low Custody,256,Total,Total Census,129
+,2026-03-23,2026-03,DSH-Coalinga,Male ICF Low Custody,50,ICF,No Score,0
+,2026-03-23,2026-03,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level I,3
+,2026-03-23,2026-03,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level II,23
+,2026-03-23,2026-03,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level III,6
+,2026-03-23,2026-03,DSH-Coalinga,Male ICF Low Custody,50,ICF,Level IV,12
+,2026-03-23,2026-03,DSH-Coalinga,Male ICF Low Custody,50,Total,Total Census,44
+,2026-03-23,2026-03,DSH-Patton,Female (APP/ICF),30,APP,No Score,0
+,2026-03-23,2026-03,DSH-Patton,Female (APP/ICF),30,APP,Level I,0
+,2026-03-23,2026-03,DSH-Patton,Female (APP/ICF),30,APP,Level II,0
+,2026-03-23,2026-03,DSH-Patton,Female (APP/ICF),30,APP,Level III,0
+,2026-03-23,2026-03,DSH-Patton,Female (APP/ICF),30,APP,Level IV,0
+,2026-03-23,2026-03,DSH-Patton,Female (APP/ICF),30,APP,Total Census,0
+,2026-03-23,2026-03,DSH-Patton,Female (APP/ICF),30,ICF,No Score,0
+,2026-03-23,2026-03,DSH-Patton,Female (APP/ICF),30,ICF,Level I,1
+,2026-03-23,2026-03,DSH-Patton,Female (APP/ICF),30,ICF,Level II,0
+,2026-03-23,2026-03,DSH-Patton,Female (APP/ICF),30,ICF,Level III,0
+,2026-03-23,2026-03,DSH-Patton,Female (APP/ICF),30,ICF,Level IV,1
+,2026-03-23,2026-03,DSH-Patton,Female (APP/ICF),30,ICF,Total Census,2
+,2026-03-23,2026-03,DSH-Patton,Female (APP/ICF),30,Total,Total Census,2
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,APP,No Score,0
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,APP,Level I,1
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,APP,Level II,3
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,APP,Level III,0
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,APP,Level IV,2
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,APP,Total Census,6
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,ICF,No Score,3
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,ICF,Level I,1
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,ICF,Level II,8
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,ICF,Level III,2
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,ICF,Level IV,7
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,ICF,Total Census,21
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,ICF,Out of LRH,5
+CIW,2026-03-23,2026-03,CIW (Flex),Female (APP/ICF),45,Total,Total Census,27

@@ -27,6 +27,8 @@ import csv
 import re
 import sys
 from pathlib import Path
+
+from build_sco_staffing_avg import NAME_CORRECTIONS, get_cdcr_code
 from datetime import datetime
 
 import pdfplumber
@@ -335,7 +337,12 @@ def main():
 
     all_rows.sort(key=sort_key)
 
-    fieldnames = ['date', 'sco_facility_name', 'full_time', 'part_time',
+    for r in all_rows:
+        r['month'] = datetime.strptime(r.pop('date'), '%B %Y').strftime('%Y-%m')
+        name = r['sco_facility_name']
+        r['cdcr_code'] = get_cdcr_code(NAME_CORRECTIONS.get(name, name))
+
+    fieldnames = ['month', 'cdcr_code', 'sco_facility_name', 'full_time', 'part_time',
                   'intermittent', 'indeterminate', 'total']
 
     with open(output_file, 'w', newline='') as f:

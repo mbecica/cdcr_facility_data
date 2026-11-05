@@ -28,6 +28,7 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
+const { loadCodeLookup } = require('./tidy');
 
 const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiN2RjZmFjNzItMzI0Ni00M2IwLWJmZjgtNDgyMjUyMjVhOWMwIiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9&pageName=6eb2cf1a956ed8b180cb';
 const OUT_PATH = path.join(__dirname, '..', 'data', 'population', 'cdcr_population_by_location.csv');
@@ -165,16 +166,17 @@ function normalize(rows) {
     if (year === null || month === null) continue;
     const inCustody = (val === '*' || val === '') ? '' : val.replace(/,/g, '');
     if (inCustody !== '' && !/^\d+$/.test(inCustody)) continue;   // skip stray rows
-    out.push({ year, month, cdcr_code: loc, in_custody: inCustody });
+    out.push({ month: `${year}-${String(month).padStart(2, '0')}`, location_as_stated: loc, in_custody: inCustody });
   }
   return out;
 }
 
 function toCsv(records) {
-  const header = 'year,month,cdcr_code,in_custody';
+  const header = 'month,cdcr_code,location_as_stated,in_custody';
+  const code = loadCodeLookup();
   const lines = records.map(r => {
-    const code = /[",\n]/.test(r.cdcr_code) ? `"${r.cdcr_code.replace(/"/g, '""')}"` : r.cdcr_code;
-    return `${r.year},${r.month},${code},${r.in_custody}`;
+    const loc = /[",\n]/.test(r.location_as_stated) ? `"${r.location_as_stated.replace(/"/g, '""')}"` : r.location_as_stated;
+    return `${r.month},${code(r.location_as_stated)},${loc},${r.in_custody}`;
   });
   return [header, ...lines].join('\n') + '\n';
 }

@@ -36,9 +36,8 @@ def load_crosswalk():
 def population(aliases):
     """Mean monthly in-custody population for YEAR (CDCR Population Data Points dashboard)."""
     pop = pd.read_csv(DATA / 'population' / 'cdcr_population_by_location.csv')
-    pop['cdcr_code'] = pop['cdcr_code'].replace(aliases)
     return (
-        pop[pop['year'] == YEAR]
+        pop[pop['month'].str.startswith(str(YEAR))]
         .groupby('cdcr_code')['in_custody'].mean().round(0)
         .rename(f'average_{YEAR}_population')
     )
@@ -184,16 +183,11 @@ def metadata():
 
 def sb601_programs(aliases):
     """Programs with operational capacity > 0 in any month of FY 2024-25 (SB 601 dashboard)."""
-    sb = pd.read_csv(DATA / 'operations' / 'sb601_programs.csv', skiprows=1)
-    sb.columns = ['institution', 'category', 'metric'] + list(sb.columns[3:])
-    sb['institution'] = sb['institution'].replace(aliases)
+    sb = pd.read_csv(DATA / 'operations' / 'sb601_programs.csv')
     cap = sb[sb['metric'].str.endswith('- Operational Capacity')].copy()
-    months = cap.columns[3:]
-    for m in months:
-        cap[m] = pd.to_numeric(cap[m].astype(str).str.replace(',', ''), errors='coerce').fillna(0)
     cap['program'] = cap['metric'].str.replace(r'\s*-\s*Operational Capacity$', '', regex=True).str.strip()
-    cap = cap[cap[months].max(axis=1) > 0]
-    lists = cap.groupby(['institution', 'category'])['program'].apply(lambda p: '; '.join(sorted(p)))
+    cap = cap[cap['value'] > 0].drop_duplicates(['cdcr_code', 'category', 'metric'])
+    lists = cap.groupby(['cdcr_code', 'category'])['program'].apply(lambda p: '; '.join(sorted(p)))
     out = pd.DataFrame(index=lists.index.get_level_values(0).unique())
     for label, col in [('Cognitive Behavioral Intervention', 'cognitive_behavioral_interventions'),
                        ('Rehabilitative Programs', 'rehabilitative_programs')]:
@@ -204,8 +198,6 @@ def sb601_programs(aliases):
 def cchcs(aliases):
     """YEAR averages of CCHCS Institution & Population Characteristics measures."""
     ipc = pd.read_csv(DATA / 'health_care' / 'cchcs_ipc.csv')
-    ipc['val'] = pd.to_numeric(ipc['value'].astype(str).str.replace('%', '').str.strip(), errors='coerce')
-    ipc['institution'] = ipc['institution'].replace(aliases)
     measures = {
         'High Risk Priority 1': f'cchcs_high_risk_p1_pct_{YEAR}',
         'High Risk Priority 2': f'cchcs_high_risk_p2_pct_{YEAR}',
@@ -216,8 +208,8 @@ def cchcs(aliases):
         'Patients 50 Years or Older': f'cchcs_age_over_50_pct_{YEAR}',
         'Specialized Health Care Beds': f'cchcs_specialized_beds_{YEAR}',
     }
-    sel = ipc[ipc['month'].str.endswith(str(YEAR)) & ipc['measure'].isin(measures)]
-    wide = sel.groupby(['institution', 'measure'])['val'].mean().round(1).unstack()
+    sel = ipc[ipc['month'].str.startswith(str(YEAR)) & ipc['measure'].isin(measures)]
+    wide = sel.groupby(['cdcr_code', 'measure'])['value'].mean().round(1).unstack()
     return wide.rename(columns=measures)[list(measures.values())]
 
 
@@ -234,15 +226,16 @@ def restricted_housing(aliases):
     """Mean of the twelve monthly % in restricted housing for YEAR (STA429 reports)."""
     rh = pd.read_csv(DATA / 'operations' / 'restricted_housing.csv')
     rh['cdcr_code'] = rh['cdcr_code'].replace(aliases)
-    rh = rh[rh['data_month'].str.startswith(str(YEAR))]
+    rh = rh[rh['month'].str.startswith(str(YEAR))]
     return rh.groupby('cdcr_code')['pct_in_rhu'].mean().round(4).rename(f'rhu_pct_{YEAR}')
 
 
 def violent_incidents(aliases):
     """Total violent incidents / calendar years with reported months (2021-2025)."""
     vi = pd.read_csv(DATA / 'operations' / 'cdcr_violent_incidents_by_facility.csv')
-    vi['facility'] = vi['facility'].replace(aliases)
-    g = vi.groupby('facility').agg(total=('violent_incidents', 'sum'), n_years=('year', 'nunique'))
+    vi['cdcr_code'] = vi['cdcr_code'].replace(aliases)
+    vi['year'] = vi['month'].str[:4]
+    g = vi.groupby('cdcr_code').agg(total=('violent_incidents', 'sum'), n_years=('year', 'nunique'))
     return (g['total'] / g['n_years']).round(1).rename('avg_annual_violent_incidents')
 
 
