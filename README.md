@@ -7,10 +7,10 @@ The California Department of Corrections and Rehabilitation (CDCR) releases most
 | Folder | Contents | Years covered |
 | :--- | :--- | :--- |
 | [`data/facilities_summary/`](data/facilities_summary/) | One row per adult institution, summarizing the other tables for the latest complete year | 2025 |
-| [`data/population/`](data/population/) | Population, capacity, demographics, sentences, and returns to prison | 2015–2026; return cohorts FY 2008-09 to 2019-20 |
-| [`data/health_care/`](data/health_care/) | Health risk, staffing vacancies, costs, and hospital send-outs by institution; system-wide mortality | 2017–2025; mortality 2006–2024 |
+| [`data/population/`](data/population/) | Population, capacity, demographics, sentences, and returns to prison | 2015–2026; return cohorts FY 2008-09 to 2020-21 |
+| [`data/health_care/`](data/health_care/) | Health risk, staffing vacancies, costs, and hospital send-outs by institution; system-wide mortality | 2017–2026; mortality 2006–2024 |
 | [`data/mental_health_beds/`](data/mental_health_beds/) | Inpatient and crisis bed census, waitlists, bed need, and programs by facility | 2014–2026; forecasts to 2030 |
-| [`data/operations/`](data/operations/) | SB 601 reporting, grievances, violent incidents, and restricted housing | 2020–2026 |
+| [`data/operations/`](data/operations/) | SB 601 reporting, grievances, violent incidents, and restricted housing | 2019–2026 |
 | [`data/staffing/`](data/staffing/) | Active state employees by facility | 2021–2026 |
 | [`data/buildings/`](data/buildings/) | Capital projects, condition ratings, property inventory, and building mentions | 2020–2026 |
 | [`data/heat/`](data/heat/) | Cooling infrastructure, court monitoring of the Heat Plan, and 2024 heat records | 2015–2026 |

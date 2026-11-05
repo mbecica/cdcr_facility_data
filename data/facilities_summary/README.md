@@ -40,7 +40,7 @@ One row for each of the 34 adult institutions, summarizing the other topic folde
 | `year_opened`, `year_opened_notes` | Year the institution opened as a state facility, with notes on prior site uses or source differences. |
 | `planned_closure`, `california_model_facility`, `cdcr_air_cooling_pilot` | `Yes` if the institution is marked for closure, is part of the California Model, or is in the Air Cooling Pilot. |
 | `infrastructure_priority` | `Yes` if the May 2026 Infrastructure Master Plan slates the institution for major capital projects in the next five years. |
-| `cognitive_behavioral_interventions`, `rehabilitative_programs` | Semicolon-separated programs with operational capacity in any month of Jul 2024 – Apr 2025. |
+| `cognitive_behavioral_interventions`, `rehabilitative_programs` | Semicolon-separated programs with operational capacity in any month of Jul 2025 – Jun 2026. |
 | `cchcs_high_risk_p1_pct`, `cchcs_high_risk_p2_pct`, `cchcs_medium_risk_pct`, `cchcs_low_risk_pct`, `cchcs_mental_health_eop_pct`, `cchcs_dpp_pct`, `cchcs_age_over_50_pct` | Monthly means of CCHCS's percentages, on 0–100, using total institution population as the denominator. Risk tiers are defined in [`health_care/`](../health_care/). |
 | `cchcs_specialized_beds` | Monthly mean of specialized health care beds. |
 | `sco_state_staff` | Mean active state employees across the data year's SCO reports, including CCHCS staff where SCO reports them separately. |
@@ -56,7 +56,7 @@ One row for each of the 34 adult institutions, summarizing the other topic folde
 | Cooling | `heat/cooling/air_cooling_infrastructure_dec2025.csv` | Dec 2025 |
 | Buildings and condition | `buildings/infrastructure_plan_profiles_2026.csv`, `condition_assessment_2026.csv`, `condition_assessment_rank_2026.csv` | 2026 |
 | Facility characteristics | `cdcr_manual_data.csv` | 2026 |
-| Programs | `operations/sb601_programs.csv` | Apr 2025 |
+| Programs | `operations/sb601_programs.csv` | Jun 2026 |
 | Health care | `health_care/cchcs_ipc.csv` | Data year |
 | Staffing | `staffing/sco_staffing_avg.csv` | Data year |
 | Violent incidents, restricted housing | `operations/cdcr_violent_incidents_by_facility.csv`, `restricted_housing.csv` | Data year |

@@ -52,12 +52,6 @@ function sentenceRows(tableRows) {
     ...rows.sort((a, b) => a[0].localeCompare(b[0]))];
 }
 
-// [Fiscal Year, Length of Stay, '55.7%'] rows with a header -> snake_case columns, number without %.
-function recidivismRows(rawRows) {
-  return [['fiscal_year', 'length_of_stay', 'three_year_return_rate_pct'],
-    ...rawRows.slice(1).map(([fy, los, v]) => [fy, los, String(v ?? '').replace('%', '').trim()])];
-}
-
 const DEMOGRAPHICS_HEADER = group => ['month', 'cdcr_code', 'location_as_stated', group, 'population'];
 
 // Crosstab rows as [year, month, location, ...one cell per group] -> long rows, oldest month
@@ -78,5 +72,5 @@ function demographicsToLong(groups, tableRows, code) {
 module.exports = {
   DEMOGRAPHICS_HEADER, demographicsToLong,
   MONTHS, loadCodeLookup, stripCommas, toCsv,
-  sentenceRows, recidivismRows,
+  sentenceRows,
 };

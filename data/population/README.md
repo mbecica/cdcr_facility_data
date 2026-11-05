@@ -8,10 +8,10 @@ Population counts, capacity, demographics, sentences, and returns to prison.
 | :--- | :--- | :--- | :--- |
 | `tpop1_institutions.csv` | An institution section in a monthly report: population, design capacity, percent occupied, staffed capacity | Jan 2015 – Mar 2026 | TPOP-1 reports |
 | `tpop1_summary.csv` | A line in a report's system-wide table | Jan 2015 – Mar 2026 | TPOP-1 reports |
-| `cdcr_population_by_location.csv` | A location and month: in-custody count | Jan 2023 – Jun 2026 | Population Data Points dashboard |
+| `cdcr_population_by_location.csv` | A location and month: in-custody count | Jan 2023 – Oct 2026 | Population Data Points dashboard |
 | `cdcr_in-custody-age.csv`, `-gender`, `-race`, `-ethnicity`, `-countryofbirth`, `-controllingcounty` | A month, location, and demographic group: in-custody count | Jan 2023 – Oct 2026 | Population Data Points dashboard |
-| `cdcr_avg_sentence_by_admission.csv` | A month and admission type: average sentence in months | Jan 2023 – Mar 2026, some months absent | Population Data Points dashboard |
-| `cdcr_recidivism_los.csv` | A release cohort and length of stay: three-year return rate | FY 2008-09 – 2019-20 | Adult Recidivism dashboard |
+| `cdcr_avg_sentence_by_admission.csv` | A month and admission type: average sentence in months | Jan 2023 – Oct 2026 | Population Data Points dashboard |
+| `cdcr_recidivism_los.csv` | A release cohort and length of stay: three-year return rate | FY 2008-09 – 2020-21 | Adult Recidivism dashboard |
 
 ## Caveats
 
@@ -27,10 +27,10 @@ Population counts, capacity, demographics, sentences, and returns to prison.
 | Table | Source | Script and inputs | Covered through |
 | :--- | :--- | :--- | :--- |
 | `tpop1_*` | [Population reports](https://www.cdcr.ca.gov/research/population-reports-2/) | `extract_tpop1.py`; monthly PDFs in `sources/cdcr_population_pdfs/`, 2015–2018 weekly in `tpop_weekly/` | Mar 2026 |
-| `cdcr_population_by_location` | [Population Data Points](https://app.powerbigov.us/view?r=eyJrIjoiN2RjZmFjNzItMzI0Ni00M2IwLWJmZjgtNDgyMjUyMjVhOWMwIiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9&pageName=6eb2cf1a956ed8b180cb) | `fetch_cdcr_population.js` | Jun 2026 |
+| `cdcr_population_by_location` | [Population Data Points](https://app.powerbigov.us/view?r=eyJrIjoiN2RjZmFjNzItMzI0Ni00M2IwLWJmZjgtNDgyMjUyMjVhOWMwIiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9&pageName=6eb2cf1a956ed8b180cb) | `fetch_cdcr_population.js` | Oct 2026 |
 | `cdcr_in-custody-*` | Same | `fetch_cdcr_demographics.js` | Oct 2026 |
-| `cdcr_avg_sentence_by_admission` | Same | `fetch_cdcr_avg_sentence.js` | Mar 2026 |
-| `cdcr_recidivism_los` | Adult Recidivism dashboard | `fetch_cdcr_recidivism_los.js` | FY 2019-20 cohort |
+| `cdcr_avg_sentence_by_admission` | Same | `fetch_cdcr_avg_sentence.js` | Oct 2026 |
+| `cdcr_recidivism_los` | [Adult Recidivism dashboard](https://app.powerbigov.us/view?r=eyJrIjoiNmRjOTkwMWEtYmVkMy00MTA1LWIxZDYtYzg4OTIzYjkxNTRlIiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9) | `fetch_cdcr_recidivism_los.py` | FY 2020-21 cohort |
 
 ## References
 

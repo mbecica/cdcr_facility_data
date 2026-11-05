@@ -16,6 +16,18 @@ Each folder holds one topic and has its own README with file coverage, field def
 - Tables with a `cdcr_code` or `institution` column join on institution code.
 - [`crosswalk/buildings.csv`](../crosswalk/buildings.csv), described in [`buildings/`](buildings/), links building-level tables in `buildings/` and `heat/cooling/`.
 
+## Revisions
+
+CDCR changes some published values later. A refresh replaces the old value with the current one, and keeps a value the source no longer gives.
+
+| Series | Refreshes compared | What changed |
+| :--- | :--- | :--- |
+| Average sentence | Apr and Nov 2026 | 16 of 86 values, most by 1–2 months, for months back to Jul 2023 |
+| SB 601 contraband | Mar and Nov 2026 | 516 quantities for Oct 2024 – Apr 2025 fell, most by half; 778 FY 2024-25 values no longer appear by month |
+| CCHCS measures | Mar and Nov 2026 | None in the staffing, cost, or population measures here, though the dashboard's Version History records recalculations of other measures |
+
+No values changed between refreshes in SB 601 operations, population by location, or return rates.
+
 ## Verification flags
 
 `verification_flags.csv` lists values in these tables that conflict with the source's own totals or with other sources, with the evidence on each side and what would resolve it. Values are left as transcribed if conflicts are found.
