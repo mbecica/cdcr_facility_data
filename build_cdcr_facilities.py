@@ -188,8 +188,11 @@ def metadata():
 
 
 def sb601_programs(aliases):
-    """Programs with operational capacity > 0 in any month of FY 2024-25 (SB 601 dashboard)."""
+    """Programs with operational capacity > 0 in any month of the latest fiscal year (SB 601 dashboard)."""
     sb = pd.read_csv(DATA / 'operations' / 'sb601_programs.csv')
+    latest = sb['month'].max()
+    start_year = int(latest[:4]) if int(latest[5:]) >= 7 else int(latest[:4]) - 1
+    sb = sb[sb['month'] >= f'{start_year}-07']
     cap = sb[sb['metric'].str.endswith('- Operational Capacity')].copy()
     cap['program'] = cap['metric'].str.replace(r'\s*-\s*Operational Capacity$', '', regex=True).str.strip()
     cap = cap[cap['value'] > 0].drop_duplicates(['cdcr_code', 'category', 'metric'])

@@ -1260,7 +1260,6 @@ dashboard,CAC,CAC,2023-10-31,2023-10,2023-2024,Incarcerated Persons Grievances a
 dashboard,CAC,CAC,2023-10-31,2023-10,2023-2024,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,0
 dashboard,CAC,CAC,2023-10-31,2023-10,2023-2024,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0
 dashboard,CAC,CAC,2023-10-31,2023-10,2023-2024,Incarcerated Persons Grievances and Appeals,Grievances Pending Legal Matter,0
-dashboard,CAC,CAC,2023-11-30,2023-11,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Denied,
 dashboard,CAC,CAC,2023-11-30,2023-11,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Granted,0
 dashboard,CAC,CAC,2023-11-30,2023-11,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Received,0
 dashboard,CAC,CAC,2023-11-30,2023-11,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,0
@@ -1288,7 +1287,6 @@ dashboard,CAC,CAC,2023-12-31,2023-12,2023-2024,Incarcerated Persons Grievances a
 dashboard,CAC,CAC,2023-12-31,2023-12,2023-2024,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0
 dashboard,CAC,CAC,2023-12-31,2023-12,2023-2024,Incarcerated Persons Grievances and Appeals,Grievances Pending Legal Matter,0
 dashboard,CAC,CAC,2024-01-01,2024-01,2023-2024,Incarcerated Persons Grievances and Appeals,Grievance Claims Pending,0
-dashboard,CAC,CAC,2024-01-31,2024-01,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Denied,
 dashboard,CAC,CAC,2024-01-31,2024-01,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Granted,0
 dashboard,CAC,CAC,2024-01-31,2024-01,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Received,0
 dashboard,CAC,CAC,2024-01-31,2024-01,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,0
@@ -2737,7 +2735,6 @@ dashboard,CCC,CCC,2023-12-31,2023-12,2023-2024,Incarcerated Persons Grievances a
 dashboard,CCC,CCC,2023-12-31,2023-12,2023-2024,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0
 dashboard,CCC,CCC,2023-12-31,2023-12,2023-2024,Incarcerated Persons Grievances and Appeals,Grievances Pending Legal Matter,0
 dashboard,CCC,CCC,2024-01-01,2024-01,2023-2024,Incarcerated Persons Grievances and Appeals,Grievance Claims Pending,0
-dashboard,CCC,CCC,2024-01-31,2024-01,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Denied,
 dashboard,CCC,CCC,2024-01-31,2024-01,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Granted,0
 dashboard,CCC,CCC,2024-01-31,2024-01,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Received,0
 dashboard,CCC,CCC,2024-01-31,2024-01,2023-2024,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,0
@@ -7044,7 +7041,7 @@ dashboard,CIM,CIM,2025-08-31,2025-08,2025-2026,Incarcerated Persons Grievances a
 dashboard,CIM,CIM,2025-08-31,2025-08,2025-2026,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,13
 dashboard,CIM,CIM,2025-08-31,2025-08,2025-2026,Incarcerated Persons Grievances and Appeals,Grievances Pending Legal Matter,0
 dashboard,CIM,CIM,2025-09-01,2025-09,2025-2026,Incarcerated Persons Grievances and Appeals,Appeals Denied,20
-dashboard,CIM,CIM,2025-09-30,2025-09,2025-2026,Incarcerated Persons Grievances and Appeals,Appeals Granted,3
+dashboard,CIM,CIM,2025-09-30,2025-09,2025-2026,Incarcerated Persons Grievances and Appeals,Appeals Granted,6
 dashboard,CIM,CIM,2025-09-30,2025-09,2025-2026,Incarcerated Persons Grievances and Appeals,Appeals Received,53
 dashboard,CIM,CIM,2025-09-30,2025-09,2025-2026,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,28
 dashboard,CIM,CIM,2025-09-30,2025-09,2025-2026,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,193
@@ -12930,7 +12927,6 @@ dashboard,CVSP,CVSP,2025-01-31,2025-01,2024-2025,Incarcerated Persons Grievances
 dashboard,CVSP,CVSP,2025-01-31,2025-01,2024-2025,Incarcerated Persons Grievances and Appeals,Grievance Claims Staff Misconduct,0
 dashboard,CVSP,CVSP,2025-01-31,2025-01,2024-2025,Incarcerated Persons Grievances and Appeals,Grievance Claims Time Expired,0
 dashboard,CVSP,CVSP,2025-01-31,2025-01,2024-2025,Incarcerated Persons Grievances and Appeals,Grievances Pending Legal Matter,0
-dashboard,CVSP,CVSP,2025-02-28,2025-02,2024-2025,Incarcerated Persons Grievances and Appeals,Appeals Denied,
 dashboard,CVSP,CVSP,2025-02-28,2025-02,2024-2025,Incarcerated Persons Grievances and Appeals,Appeals Granted,0
 dashboard,CVSP,CVSP,2025-02-28,2025-02,2024-2025,Incarcerated Persons Grievances and Appeals,Appeals Received,0
 dashboard,CVSP,CVSP,2025-02-28,2025-02,2024-2025,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,0
@@ -27665,7 +27661,6 @@ dashboard,VSP,VSP,2024-03-31,2024-03,2023-2024,Incarcerated Persons Grievances a
 dashboard,VSP,VSP,2024-04-30,2024-04,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Denied,67
 dashboard,VSP,VSP,2024-04-30,2024-04,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Granted,10
 dashboard,VSP,VSP,2024-04-30,2024-04,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Received,82
-dashboard,VSP,VSP,2024-04-30,2024-04,2023-2024,Incarcerated Persons Grievances and Appeals,Appeals Time Expired,
 dashboard,VSP,VSP,2024-04-30,2024-04,2023-2024,Incarcerated Persons Grievances and Appeals,Grievance Claims Denied,170
 dashboard,VSP,VSP,2024-04-30,2024-04,2023-2024,Incarcerated Persons Grievances and Appeals,Grievance Claims Granted,116
 dashboard,VSP,VSP,2024-04-30,2024-04,2023-2024,Incarcerated Persons Grievances and Appeals,Grievance Claims No Jurisdiction,2

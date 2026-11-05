@@ -26,12 +26,6 @@ const monthFromLabel = label => {
   return `${y}-${monthNumber(m)}`;
 };
 
-// 'Jul-24' -> '2024-07'
-const monthFromShortLabel = label => {
-  const [m, y] = label.trim().split('-');
-  return `20${y}-${monthNumber(m)}`;
-};
-
 // Returns a function from a published code to cdcr_code, using crosswalk/institutions.csv.
 function loadCodeLookup() {
   const file = path.join(__dirname, '..', 'crosswalk', 'institutions.csv');
@@ -54,22 +48,6 @@ function toCsv(rows) {
     row.map(v => (/[,"\n]/.test(String(v ?? ''))
       ? `"${String(v).replace(/"/g, '""')}"` : String(v ?? ''))).join(',')
   ).join('\n');
-}
-
-const LONG_HEADER = ['cdcr_code', 'institution_as_stated', 'month', 'category', 'metric', 'value'];
-
-// SB 601 programs table as scraped (two header rows, one column per month) -> long rows.
-function programsToLong(tableRows, code) {
-  const header = tableRows.find(r => r[2] === 'Metric');
-  const months = header.slice(3).map(monthFromShortLabel);
-  const out = [];
-  for (const r of tableRows) {
-    if (r[2] === 'Metric' || r[2] === 'Quarter') continue;
-    months.forEach((month, i) => {
-      out.push([code(r[0]), r[0], month, r[1], r[2], stripCommas(r[3 + i])]);
-    });
-  }
-  return out;
 }
 
 // [Year, Month, Admission Type, value] rows -> month, admission_type, avg_sentence_months,
@@ -120,7 +98,7 @@ function demographicsToLong(groups, tableRows, code) {
 
 module.exports = {
   DEMOGRAPHICS_HEADER, demographicsToLong,
-  MONTHS, monthFromLabel, monthFromShortLabel, loadCodeLookup, stripCommas, toCsv,
-  LONG_HEADER, programsToLong, sentenceRows, recidivismRows, splitValue,
+  MONTHS, monthFromLabel, loadCodeLookup, stripCommas, toCsv,
+  sentenceRows, recidivismRows, splitValue,
   CCHCS_IPC_HEADER, cchcsIpcRow, CCHCS_MEASURES_HEADER, cchcsMeasuresRow,
 };

@@ -31,23 +31,22 @@ Usage:
   python3 scrapers/fetch_sb601_grievances.py
 """
 
-import base64
-import gzip
-import json
-import urllib.request
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 import pandas as pd
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from powerbi_query import Report, column, equals, total
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'data' / 'operations' / 'sb601_grievances.csv'
 OPEN_DATA = ROOT / "sources" / "sb601_open_data" / "sb601_data_2024_06.xlsx"
 CROSSWALK = ROOT / "crosswalk" / "institutions.csv"
 
-# Resource key from the dashboard URL (same report as fetch_sb601_operations.js)
+# Resource key from the dashboard URL (same report as fetch_sb601_tables.py)
 REPORT_R = "eyJrIjoiYzlkM2RiNWEtZDRjMi00ODllLTg2YzEtZjYyM2MwMjA5NmQ0IiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9"
-API = "https://wabi-us-gov-iowa-api.analysis.usgovcloudapi.net/public/reports/"
 DASHBOARD_CATEGORY = "Incarcerated Persons Grievances and Appeals"
 OPEN_DATA_CATEGORIES = {
     "Inmate Grievances and Appeals",
@@ -101,78 +100,18 @@ def fiscal_year(d):
     return f"{start}-{start + 1}"
 
 
-def post(url, key, body=None):
-    req = urllib.request.Request(
-        url, data=json.dumps(body).encode() if body else None,
-        headers={"X-PowerBI-ResourceKey": key, "Content-Type": "application/json",
-                 "Accept-Encoding": "gzip"})
-    raw = urllib.request.urlopen(req, timeout=300).read()
-    try:
-        raw = gzip.decompress(raw)
-    except OSError:
-        pass
-    return json.loads(raw)
-
-
-def decode(res):
-    """Rows from a Power BI DSR response (value dictionaries, repeat and null bitmasks)."""
-    ds = res["results"][0]["result"]["data"]["dsr"]["DS"][0]
-    if not ds.get("IC", True):
-        raise RuntimeError("Power BI returned a truncated result")
-    dicts = ds.get("ValueDicts", {})
-    rows, prev, schema = [], None, None
-    for ph in ds["PH"]:
-        for dms in ph.values():
-            for dm in dms:
-                schema = dm.get("S", schema)
-                if not any(k in dm for k in ("C", "R", "Ø")):
-                    row = [dm.get(s["N"]) for s in schema]
-                else:
-                    vals, repeat, null, row = iter(dm.get("C", [])), dm.get("R", 0), dm.get("Ø", 0), []
-                    for i, s in enumerate(schema):
-                        if repeat >> i & 1:
-                            row.append(prev[i])
-                        elif null >> i & 1:
-                            row.append(None)
-                        else:
-                            v = next(vals)
-                            row.append(dicts[s["DN"]][v] if "DN" in s and isinstance(v, int) else v)
-                prev = row
-                rows.append(row)
-    return rows
-
-
 def fetch_dashboard():
-    key = json.loads(base64.b64decode(REPORT_R + "=="))["k"]
-    model = post(API + key + "/modelsAndExploration?preferReadOnlySession=true", key)
-    model_id, dataset = model["models"][0]["id"], model["models"][0]["dbName"]
-    report = model["exploration"]["report"]["objectId"]
-
-    def query(columns, where):
-        col = lambda p: {"Column": {"Expression": {"SourceRef": {"Source": "s"}}, "Property": p}, "Name": f"s.{p}"}
-        q = {"Version": 2, "From": [{"Name": "s", "Entity": "SB601", "Type": 0}],
-             "Select": [col(c) for c in columns], "Where": where}
-        body = {"version": "1.0.0", "modelId": model_id, "cancelQueries": [], "queries": [{
-            "Query": {"Commands": [{"SemanticQueryDataShapeCommand": {"Query": q, "Binding": {
-                "Primary": {"Groupings": [{"Projections": list(range(len(columns)))}]},
-                "DataReduction": {"DataVolume": 4, "Primary": {"Window": {"Count": 30000}}},
-                "Version": 1}}}]},
-            "QueryId": "", "ApplicationContext": {"DatasetId": dataset, "Sources": [{"ReportId": report}]}}]}
-        return decode(post(API + "querydata?synchronous=true", key, body))
-
-    def equals(prop, literal):
-        return {"Condition": {"In": {
-            "Expressions": [{"Column": {"Expression": {"SourceRef": {"Source": "s"}}, "Property": prop}}],
-            "Values": [[{"Literal": {"Value": literal}}]]}}}
-
-    category = equals("Category", f"'{DASHBOARD_CATEGORY}'")
-    dates = sorted(r[0] for r in query(["Date"], [category]))
+    report = Report(REPORT_R)
+    sources = {"s": "SB601"}
+    category = equals("s", "Category", f"'{DASHBOARD_CATEGORY}'")
+    dates = sorted(r[0] for r in report.query(sources, [column("s", "Date")], [category]))
+    select = [column("s", "Institution"), column("s", "Metric"), total("s", "Value")]
     rows = []
     # One query per report date keeps each result well under the 30,000-row cap
     for ms in dates:
         d = datetime.fromtimestamp(ms / 1000, timezone.utc)
-        where = [category, equals("Date", f"datetime'{d:%Y-%m-%dT00:00:00}'")]
-        for _, inst, metric, value in query(["Date", "Institution", "Metric", "Value"], where):
+        where = [category, equals("s", "Date", f"datetime'{d:%Y-%m-%dT00:00:00}'")]
+        for inst, metric, value in report.query(sources, select, where):
             rows.append({"source": "dashboard", "institution": inst, "report_date": d.date(),
                          "category": DASHBOARD_CATEGORY, "metric": metric, "value": value})
         print(f"  {d:%Y-%m-%d}: {len(rows)} rows so far")
