@@ -8,7 +8,7 @@ reads every report date instead of the slicer's years.
 
 Output, one row per institution, month and metric with a published value:
   data/operations/sb601_operations.csv   lockdowns and modified programs, deaths, overtime, use of force, fiscal
-  data/operations/sb601_programs.csv     every category but grievances, which fetch_sb601_grievances.py reads
+  data/operations/sb601_programs.csv     the other categories, except grievances, which fetch_sb601_grievances.py reads
 
 Refreshes add to the files. A new value replaces the old one, and a value the report no longer
 gives stays, so nothing is lost when CDCR removes a year or a date.
@@ -71,6 +71,7 @@ def fetch():
 def merge(new, path, aliases):
     """New values replace old ones, and old values the report no longer gives stay."""
     old = pd.read_csv(path).dropna(subset=["value"])
+    old = old[old["category"].isin(new["category"])]
     both = old.merge(new, on=KEY, how="left", suffixes=("_old", ""))
     kept = old[both["value"].isna().values]
     changed = both[both["value"].notna() & ((both["value"] - both["value_old"]).abs() > 0.0051)]
@@ -88,7 +89,7 @@ def main():
     new = fetch()
     aliases = load_codes()
     merge(new[new["category"].isin(OPERATIONS_CATEGORIES)], OPERATIONS, aliases)
-    merge(new[new["category"] != GRIEVANCES], PROGRAMS, aliases)
+    merge(new[~new["category"].isin(OPERATIONS_CATEGORIES | {GRIEVANCES})], PROGRAMS, aliases)
 
 
 if __name__ == "__main__":

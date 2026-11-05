@@ -7,7 +7,7 @@ SB 601 reporting, grievances, violent incidents, and restricted housing.
 | File | One row is | Coverage | Source |
 | :--- | :--- | :--- | :--- |
 | `sb601_operations.csv` | An institution, month, and metric: lockdowns and modified programs, deaths, overtime, use of force, budget and expenditures | Jan 2019 – Jun 2026 | SB 601 dashboard |
-| `sb601_programs.csv` | An institution, month, and metric: every SB 601 category except grievances, including program enrollment and capacity, contraband, housing, positions, and sick leave | Jan 2019 – Jun 2026 | SB 601 dashboard |
+| `sb601_programs.csv` | An institution, month, and metric: program enrollment and capacity, contraband, housing, positions, and sick leave | Jan 2020 – Jun 2026 | SB 601 dashboard |
 | `sb601_grievances.csv` | An institution, report date, and metric: grievance and appeal claims | Jan 2020 – Jun 2026 | SB 601 dashboard and open data |
 | `cdcr_violent_incidents_by_facility.csv` | An institution and month: violent incidents by category | Jan 2021 – Dec 2025 | CompStat and public incident reports |
 | `restricted_housing.csv` | An institution and month: restricted housing population and share | Dec 2024 – Feb 2026 | STA429 monthly reports |
