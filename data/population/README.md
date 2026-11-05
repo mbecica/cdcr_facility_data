@@ -8,6 +8,8 @@ Population counts, capacity, demographics, sentences, and returns to prison.
 | :--- | :--- | :--- | :--- |
 | `tpop1_institutions.csv` | An institution section in a monthly report: population, design capacity, percent occupied, staffed capacity | Jan 2015 – Mar 2026 | TPOP-1 reports |
 | `tpop1_summary.csv` | A line in a report's system-wide table | Jan 2015 – Mar 2026 | TPOP-1 reports |
+| `tpop1_weekly_institutions.csv` | An institution section in a weekly report: population, design capacity, percent occupied, staffed capacity | Jan 2015 – Dec 2018, 208 weeks | TPOP-1 reports |
+| `tpop1_weekly_summary.csv` | A line in a weekly report's system-wide table | Jan 2015 – Dec 2018, 208 weeks | TPOP-1 reports |
 | `cdcr_population_by_location.csv` | A location and month: in-custody count | Jan 2023 – Oct 2026 | Population Data Points dashboard |
 | `cdcr_in-custody-age.csv`, `-gender`, `-race`, `-ethnicity`, `-countryofbirth`, `-controllingcounty` | A month, location, and demographic group: in-custody count | Jan 2023 – Oct 2026 | Population Data Points dashboard |
 | `cdcr_avg_sentence_by_admission.csv` | A month and admission type: average sentence in months | Jan 2023 – Oct 2026 | Population Data Points dashboard |
@@ -15,7 +17,8 @@ Population counts, capacity, demographics, sentences, and returns to prison.
 
 ## Caveats
 
-- For 2015–2018, when only weekly TPOP-1 reports are available, the last report of each month is used.
+- For 2015–2018, when only weekly TPOP-1 reports are available, the monthly tables use the last report of each month. The weekly tables have every report.
+- Institution counts in monthly TPOP-1 reports equal the Population Data Points dashboard for every month both cover, Jan 2023 – Mar 2026. TPOP-1 also has capacity and the system-wide lines.
 - TPOP-1 changed format. Reports from 2018 on list full institution names; 2015–2017 use short names and aren't normalized. `change_last_period` is the change since last month in monthly reports, since last week in 2018 weekly reports, and the year-over-year change in 2015–2017 reports, where `change_last_year` is blank. `row_label` puts each line under one label across years, and `row_label_as_stated` keeps the printed label.
 - An institution with both male and female sections has two rows in a month; `gender` tells them apart. `gender` is blank from Nov 2021, when reports stopped having gendered sections.
 - In the `cdcr_in-custody-` tables, `population` keeps `*` (under 10) and `**` (under 50) as published, and a blank means zero observations, as the dashboard states. Sums can't always be rebuilt because of suppression. Locations vary by month as facilities open and close, and `cdcr_code` is blank for locations that aren't CDCR institutions.
@@ -26,7 +29,7 @@ Population counts, capacity, demographics, sentences, and returns to prison.
 
 | Table | Source | Script and inputs | Covered through |
 | :--- | :--- | :--- | :--- |
-| `tpop1_*` | [Population reports](https://www.cdcr.ca.gov/research/population-reports-2/) | `extract_tpop1.py`; monthly PDFs in `sources/cdcr_population_pdfs/`, 2015–2018 weekly in `tpop_weekly/` | Mar 2026 |
+| `tpop1_*` | [Population reports](https://www.cdcr.ca.gov/research/population-reports-2/) | `extract_tpop1.py`; monthly PDFs in `sources/cdcr_population_pdfs/`, 2015–2018 weekly in `tpop_weekly/` | Mar 2026; weekly Dec 2018 |
 | `cdcr_population_by_location` | [Population Data Points](https://app.powerbigov.us/view?r=eyJrIjoiN2RjZmFjNzItMzI0Ni00M2IwLWJmZjgtNDgyMjUyMjVhOWMwIiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9&pageName=6eb2cf1a956ed8b180cb) | `fetch_cdcr_population.js` | Oct 2026 |
 | `cdcr_in-custody-*` | Same | `fetch_cdcr_demographics.js` | Oct 2026 |
 | `cdcr_avg_sentence_by_admission` | Same | `fetch_cdcr_avg_sentence.js` | Oct 2026 |

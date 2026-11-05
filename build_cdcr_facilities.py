@@ -47,15 +47,14 @@ def population(aliases):
     )
 
 
-def occupancy(aliases):
-    """Mean monthly TPOP-1 "Percent Occupied" (population / design capacity) for YEAR."""
+def design_capacity(aliases):
+    """Design capacity for YEAR, from its latest TPOP-1 report. Some reports split an institution
+    into male and female sections, so those are added together."""
     tpop = pd.read_csv(DATA / 'population' / 'tpop1_institutions.csv')
     tpop['cdcr_code'] = tpop['cdcr_code'].replace(aliases)
     tpop = tpop[tpop['report_date'].str.startswith(str(YEAR))]
-    return (
-        (tpop['pct_occupied'] / 100).groupby(tpop['cdcr_code']).mean().round(4)
-        .rename('capacity_percent')
-    )
+    tpop = tpop[tpop['report_date'] == tpop['report_date'].max()]
+    return tpop.groupby('cdcr_code')['design_capacity'].sum().rename('design_capacity')
 
 
 def clean_counts(df):
@@ -254,7 +253,8 @@ def main():
     df = df[['facilityid', 'cdcr_code', 'name']].set_index('cdcr_code')
 
     pop = population(aliases).reindex(df.index)
-    df = df.join(pop).join(occupancy(aliases))
+    df = df.join(pop).join(design_capacity(aliases))
+    df['capacity_percent'] = (df['average_population'] / df['design_capacity']).round(4)
     df = df.join(demographics(pop))
     df = df.join(cooling(aliases))
     df = df.join(infrastructure(aliases))

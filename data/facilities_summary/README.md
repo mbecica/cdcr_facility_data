@@ -24,7 +24,8 @@ One row for each of the 34 adult institutions, summarizing the other topic folde
 | `facilityid` | FEMA facility ID. Joins to the facility list in [ca_prison_climate_justice](https://github.com/mbecica/ca_prison_climate_justice) for address, coordinates, security level, and boundaries. |
 | `data_year` | Calendar year of the annual figures. |
 | `average_population` | Mean of the monthly in-custody counts. |
-| `capacity_percent` | Mean of the monthly TPOP-1 "Percent Occupied" values (population ÷ design capacity), as a 0–1 value. |
+| `design_capacity` | Design capacity in the last TPOP-1 report of `data_year`. |
+| `capacity_percent` | `average_population` ÷ `design_capacity`, as a 0–1 value. |
 | `age_over_50_pct`, `age_over_55_pct`, `age_50_59_pct`, `age_60_69_pct`, `age_70_79_pct`, `age_80plus_pct` | Share of the population in each age group. |
 | `gender_female_pct`, `gender_male_pct` | Share of the population by gender. |
 | `race_white_pct`, `race_peopleofcolor_pct` | Share of the population recorded as White, and as any other race. |

@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 """
-Extract CDCR TPOP-1 PDFs into two CSVs:
-  tpop1_summary.csv      — Total CDCR Population (page 1, one row per report row)
-  tpop1_institutions.csv — Institution Population Detail (page 2, one row per institution)
+Extract CDCR TPOP-1 PDFs into four CSVs:
+  tpop1_summary.csv             — Total CDCR Population (page 1, one row per report row)
+  tpop1_institutions.csv        — Institution Population Detail (page 2, one row per institution)
+  tpop1_weekly_summary.csv      — page 1 of every weekly report, 2015–2018
+  tpop1_weekly_institutions.csv — page 2 of every weekly report, 2015–2018
 
 Sources:
   Monthly 2019–2026: cdcr_population_pdfs/Tpop1d{YYMM}.pdf
   Weekly  2015–2018: cdcr_population_pdfs/tpop_weekly/{YYYY}/Tpop1d{YYMMDD}.pdf
-                     → only last week of each month retained (mirrors monthly cadence)
+                     (a few are named Tpop1Ad{YYMMDD}.pdf)
+                     → the monthly tables use the last week of each month
 
 Two page-2 formats:
   Format A (monthly 2019+, weekly 2018): "Full Name (ACRONYM)  pop  design  pct  staffed"
@@ -46,19 +49,14 @@ def get_all_files():
                 seen_monthly.add(f)
                 files.append((f, "monthly"))
 
-    # Weekly 2015–2018: keep only the last file per calendar month
+    # Weekly 2015–2018
     weekly_base = BASE / "tpop_weekly"
-    by_ym = defaultdict(list)
     for year in ("2015", "2016", "2017", "2018"):
         year_dir = weekly_base / year
         if not year_dir.exists():
             continue
-        for f in year_dir.glob("Tpop1d??????.pdf"):
-            ym = f.stem[6:10]   # "Tpop1d{YY}{MM}{DD}" → YYMM
-            by_ym[ym].append(f)
-    for ym in sorted(by_ym):
-        last_file = sorted(by_ym[ym])[-1]
-        files.append((last_file, "weekly"))
+        for pattern in ("Tpop1d??????.pdf", "Tpop1Ad??????.pdf"):
+            files.extend((f, "weekly") for f in year_dir.glob(pattern))
 
     return sorted(files, key=lambda x: x[0].name)
 
@@ -483,6 +481,20 @@ def _signed_int(s):
 
 # ── Main ───────────────────────────────────────────────────────────────────
 
+def write_tables(df, out_dir, name):
+    """Monthly table: monthly reports plus each month's last weekly report. Weekly table: every
+    weekly report. One 2015 PDF repeats its page 2 rows, so exact repeats are dropped."""
+    df = df.drop_duplicates()
+    weekly = df[df["weekly"]]
+    last = weekly.groupby("month")["report_date"].transform("max") == weekly["report_date"]
+    monthly = pd.concat([df[~df["weekly"]], weekly[last]]).sort_values("report_date", kind="stable")
+    weekly = weekly.sort_values("report_date", kind="stable")
+    for table, path in [(monthly, out_dir / f"tpop1_{name}.csv"),
+                        (weekly, out_dir / f"tpop1_weekly_{name}.csv")]:
+        table.drop(columns="weekly").to_csv(path, index=False)
+        print(f"Wrote {len(table):,} rows  → {path}")
+
+
 def main():
     files = get_all_files()
     print(f"Processing {len(files)} PDFs…")
@@ -509,7 +521,7 @@ def main():
                         p1_rows = parse_page1_format_b(p1_page, report_date)
                     else:
                         p1_rows = parse_page1(p1_text, report_date)
-                    summary_rows.extend(p1_rows)
+                    summary_rows.extend({**r, "weekly": fmt == "weekly"} for r in p1_rows)
                 except Exception as e:
                     errors.append(f"  P1 ERROR {pdf_path.name}: {e}")
                     p1_rows = []
@@ -520,7 +532,7 @@ def main():
                         inst_rows = parse_page2_format_b(p2_text, report_date)
                     else:
                         inst_rows = parse_page2_format_a(p2_text, report_date)
-                    institution_rows.extend(inst_rows)
+                    institution_rows.extend({**r, "weekly": fmt == "weekly"} for r in inst_rows)
                 except Exception as e:
                     errors.append(f"  P2 ERROR {pdf_path.name}: {e}")
                     inst_rows = []
@@ -545,14 +557,11 @@ def main():
     summary_df = summary_df[["report_date", "month", "row_label", "row_label_as_stated"]
                             + [c for c in summary_df.columns
                                if c not in ("report_date", "month", "row_label", "row_label_as_stated")]]
-    summary_df.to_csv(out_dir / "tpop1_summary.csv", index=False)
+    write_tables(summary_df, out_dir, "summary")
 
     inst_df = pd.DataFrame(institution_rows)
     inst_df.insert(1, "month", inst_df["report_date"].str[:7])
-    inst_df.to_csv(out_dir / "tpop1_institutions.csv", index=False)
-
-    print(f"\nWrote {len(summary_df):,} rows  → {out_dir / 'tpop1_summary.csv'}")
-    print(f"Wrote {len(inst_df):,} rows  → {out_dir / 'tpop1_institutions.csv'}")
+    write_tables(inst_df, out_dir, "institutions")
 
     if errors:
         print(f"\n{len(errors)} errors:")
