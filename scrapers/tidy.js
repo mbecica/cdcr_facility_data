@@ -72,10 +72,12 @@ function programsToLong(tableRows, code) {
   return out;
 }
 
-// [Year, Month, Admission Type, value] rows with a header -> month, admission_type, avg_sentence_months.
-function sentenceRows(rawRows) {
+// [Year, Month, Admission Type, value] rows -> month, admission_type, avg_sentence_months,
+// oldest month first, admission types in published order.
+function sentenceRows(tableRows) {
+  const rows = tableRows.map(([y, m, type, v]) => [`${y}-${monthNumber(m)}`, type, stripCommas(v)]);
   return [['month', 'admission_type', 'avg_sentence_months'],
-    ...rawRows.slice(1).map(([y, m, type, v]) => [`${y}-${monthNumber(m)}`, type, stripCommas(v)])];
+    ...rows.sort((a, b) => a[0].localeCompare(b[0]))];
 }
 
 // [Fiscal Year, Length of Stay, '55.7%'] rows with a header -> snake_case columns, number without %.
