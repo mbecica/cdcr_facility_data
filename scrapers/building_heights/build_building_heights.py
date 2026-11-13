@@ -1,30 +1,30 @@
 #!/usr/bin/env python3
 """
-Step 2E: Export clean CDCR building heights & footprints deliverables into data/buildings/.
+Build and export final CDCR building heights & footprints deliverables into data/buildings/.
 
-Reads Step 2D per-institution classifications and reconciled GeoJSON polygons from
-notes/building_heights_pilot/all_34/, keeps strictly standing buildings and shade canopies
-inside CDCR institution boundaries (omitting non-building source polygons and excluded
-utility aprons), strips internal LiDAR/QA/crosswalk clutter, and writes:
+By default, runs the fast local classification pass (classify_stories.run_classify) using
+cached intermediate tables in notes/building_heights_pilot/all_34/ and exports:
   - data/buildings/building_heights.csv
   - data/buildings/building_footprints.geojson
+
+Pass --fetch, --reconcile, or --triage to re-run upstream imagery/LiDAR/footprint stages
+before classifying and exporting.
 """
 from __future__ import annotations
 
+import argparse
 import collections
 import csv
 import json
-from pathlib import Path
 from typing import Any
 
-SCRIPTS_DIR = Path(__file__).resolve().parent
-ROOT = SCRIPTS_DIR.parents[1]
-WORK_DIR = ROOT / "notes" / "building_heights_pilot" / "all_34"
-HEIGHTS_DIR = WORK_DIR / "heights"
-FP_DIR = WORK_DIR / "footprints"
+from classify_stories import run_classify
+from common import ALL34_DIR, DATA_BUILDINGS, FP_DIR, HT_DIR, ROOT
+from fetch_sources import run_fetch
+from reconcile_footprints import reconcile_overture, scan_lidar_residuals, triage_zero_roof
 
-OUT_CSV = ROOT / "data" / "buildings" / "building_heights.csv"
-OUT_GEOJSON = ROOT / "data" / "buildings" / "building_footprints.geojson"
+OUT_CSV = DATA_BUILDINGS / "building_heights.csv"
+OUT_GEOJSON = DATA_BUILDINGS / "building_footprints.geojson"
 
 OUTPUT_COLUMNS = [
     "cdcr_code",
@@ -76,7 +76,7 @@ FLOAT_FIELDS = {
 
 
 def typed_geojson_props(row: dict[str, str]) -> dict[str, Any]:
-    """Convert CSV string row fields to clean JSON scalar types."""
+    """Convert CSV string row fields into typed JSON scalar values."""
     props: dict[str, Any] = {}
     for col in OUTPUT_COLUMNS:
         val = row.get(col, "")
@@ -91,20 +91,23 @@ def typed_geojson_props(row: dict[str, str]) -> dict[str, Any]:
     return props
 
 
-def main() -> None:
+def export_deliverables() -> None:
+    """Export final standing buildings and shade canopies into data/buildings/."""
     with open(ROOT / "crosswalk" / "institutions.csv") as f:
         codes = sorted(r["cdcr_code"] for r in csv.DictReader(f))
-    with open(WORK_DIR / "all_34_summary.csv") as f:
+    with open(ALL34_DIR / "all_34_summary.csv") as f:
         lidar_year_by_code = {r["cdcr_code"]: r["lidar_year"] for r in csv.DictReader(f)}
 
     out_rows: list[dict[str, str]] = []
     geojson_features: list[dict[str, Any]] = []
 
     for code in codes:
-        step2d_csv = HEIGHTS_DIR / f"{code}_step2d.csv"
+        classified_csv = HT_DIR / f"{code}_classified.csv"
+        if not classified_csv.exists():
+            classified_csv = HT_DIR / f"{code}_step2d.csv"
         reconciled_gj = FP_DIR / f"{code}_reconciled.geojson"
 
-        with open(step2d_csv) as f:
+        with open(classified_csv) as f:
             standing_rows = [
                 r
                 for r in csv.DictReader(f)
@@ -124,7 +127,6 @@ def main() -> None:
                 raise KeyError(f"Missing reconciled GeoJSON geometry for {fid}")
             merged = dict(r)
             merged["lidar_year"] = lidar_yr
-            # Clear height_source="none" if no LiDAR roof heights exist -> keep explicit "none"
             clean_row = {col: merged.get(col, "") for col in OUTPUT_COLUMNS}
             out_rows.append(clean_row)
             geojson_features.append({
@@ -139,20 +141,39 @@ def main() -> None:
         w.writeheader()
         w.writerows(out_rows)
 
-    OUT_GEOJSON.write_text(
-        json.dumps({"type": "FeatureCollection", "features": geojson_features})
-    )
+    OUT_GEOJSON.write_text(json.dumps({"type": "FeatureCollection", "features": geojson_features}))
 
     cats = collections.Counter(r["building_category"] for r in out_rows)
     h_rows = [r for r in out_rows if r["is_housing"] == "yes"]
     conf = collections.Counter(r["story_confidence"] for r in out_rows)
-    print(f"Institutions exported : {len({r['cdcr_code'] for r in out_rows})} / {len(codes)}")
+    print(f"\nInstitutions exported : {len({r['cdcr_code'] for r in out_rows})} / {len(codes)}")
     print(f"Total buildings/canopies: {len(out_rows)}")
     print(f"Categories            : {dict(sorted(cats.items()))}")
     print(f"Housing units         : {len(h_rows)} (stories filled={sum(1 for r in h_rows if r['stories'])})")
     print(f"Story confidence      : {dict(sorted(conf.items()))}")
     print(f"Wrote {OUT_CSV.relative_to(ROOT)}")
     print(f"Wrote {OUT_GEOJSON.relative_to(ROOT)}")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Build CDCR building heights CSV and footprints GeoJSON.")
+    parser.add_argument("--fetch", action="store_true", help="Re-run source fetching & raw EPT extraction")
+    parser.add_argument("--reconcile", action="store_true", help="Re-run Overture reconciliation & residual LiDAR scan")
+    parser.add_argument("--triage", action="store_true", help="Re-run zero-roof triage before classification")
+    parser.add_argument("--qa-png", action="store_true", help="Render housing QA overlay PNGs during classification")
+    parser.add_argument("--only", nargs="*", help="Limit upstream --fetch/--reconcile/--qa-png stages to specific codes")
+    args = parser.parse_args()
+
+    if args.fetch:
+        run_fetch(only=args.only)
+    if args.reconcile:
+        reconcile_overture(only=args.only)
+        scan_lidar_residuals(only=args.only)
+    if args.triage:
+        triage_zero_roof(render_sheets=args.qa_png)
+
+    run_classify(qa_png=args.qa_png, codes=args.only)
+    export_deliverables()
 
 
 if __name__ == "__main__":

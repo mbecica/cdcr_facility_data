@@ -1,21 +1,25 @@
 # Building Heights & Footprints Pipeline
 
-Builds `data/buildings/building_heights.csv` and `data/buildings/building_footprints.geojson` across all 34 adult CDCR institutions (`2,033` standing structures and canopies; LiDAR collections 2014–2023, visually verified against 2024 NAIP imagery).
+Builds `data/buildings/building_heights.csv` and `data/buildings/building_footprints.geojson` across all 34 adult CDCR institutions (`2,033` standing structures and shade canopies; LiDAR collections 2014–2023, visually verified against 2024 NAIP imagery).
 
-## Scripts (Run Order)
+## Modules
 
-1. `step1_extract_lidar_heights.py` — Fetches FEMA USA Structures polygons within CDCR RAPT boundaries, downloads/caches 2024 NAIP GeoTIFFs to `sources/imagery/naip_2024/` and USGS 3DEP EPT `.laz` point clouds to `notes/building_heights_pilot/tmp_ept/`, and computes ground-ring-calibrated building roof percentiles (`p10`–`p98`).
-2. `step2a_reconcile_overture.py` — Links Overture Maps building IDs and patches missing footprints (`*_ovt-*`).
-3. `step2b_scan_lidar_residuals.py` — Scans cached LiDAR + NAIP NDVI residuals for uncaptured buildings (`*_lid-*`).
-4. `step2c_triage_zero_roof.py` — Cross-checks zero-roof polygons against 2024 NAIP imagery using `triage_overrides.json`.
-5. `step2d_classify_housing_stories.py` — Classifies building categories, housing prototypes, sub-tier height modes, and story counts using `housing_overrides.json` and read-only SPI structure cross-checks.
-6. `step2e_export_building_heights.py` — Filters to standing structures and shade canopies inside RAPT boundaries (excluding `80` non-building source polygons and excluded non-occupied utility aprons), strips internal QA columns, and exports `data/buildings/building_heights.csv` and `data/buildings/building_footprints.geojson`.
+- `common.py` — Shared workspace paths, HTTP/EPT/LAZ point-cloud loaders, NAIP canvas renderer, and ground-ring-calibrated USGS 3DEP LiDAR roof percentile extraction (`p10`–`p98`).
+- `fetch_sources.py` — Queries FEMA USA Structures polygons within CDCR RAPT boundaries (+300 m buffer), downloads/mosaics 2024 NAIP 4-band GeoTIFFs to `sources/imagery/naip_2024/`, extracts raw EPT LiDAR roof heights, and renders facility boundary QA overlays.
+- `reconcile_footprints.py` — Reconciles missing standing footprints from Overture Maps (`*_ovt-*`) and LiDAR+NAIP NDVI residuals (`*_lid-*`), and triages zero-roof polygons against 2024 NAIP signatures and `triage_overrides.json`.
+- `classify_stories.py` — Classifies building categories, housing prototypes, sub-tier height modes, and story counts using `housing_overrides.json` and read-only SPI structure cross-checks.
+- `build_building_heights.py` — Main entry point and exporter. Filters inside RAPT boundaries to standing structures and shade canopies, strips internal QA columns, and writes `data/buildings/building_heights.csv` and `data/buildings/building_footprints.geojson`.
 
 ## Dependencies & Running
 
 Requires `laspy[lazrs]`, `rasterio`, `shapely`, `pyproj`, `numpy`, `pillow`, and `overturemaps`. With cached intermediates in `notes/building_heights_pilot/all_34/`:
 
 ```bash
-python3 scrapers/building_heights/step2d_classify_housing_stories.py
-python3 scrapers/building_heights/step2e_export_building_heights.py
+python3 scrapers/building_heights/build_building_heights.py
 ```
+
+Pass `--fetch`, `--reconcile`, `--triage`, or `--qa-png` to `build_building_heights.py` to re-run upstream source downloads, footprint reconciliation, zero-roof triage, or QA overlay rendering before exporting.
+
+## Imagery & Visual QA Overlays
+
+Raw 4-band NAIP 2024 GeoTIFFs downloaded by `fetch_sources.py` live under `sources/imagery/naip_2024/` (currently gitignored at `~250 MB` lossless Deflate; ~21 MB as RGB JPEG-compressed tiles if tracked later). Annotated QA overlay PNGs are written under `notes/building_heights_pilot/all_34/` (gitignored).
