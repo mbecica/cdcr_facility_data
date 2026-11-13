@@ -1,0 +1,112 @@
+unit_key,cdcr_code,unit,names,facility_key,facility_status,facility_source,facility_page,facility_quote,program,source,page,quote,from_building_key,note
+CCWF-501,CCWF,501,501,,,,,,,SPI,43400,501 | Reception Center Housing Unit,,
+CCWF-502,CCWF,502,502,,,,,,,SPI,43401,502 | Reception Center Housing Unit,,
+CCWF-503,CCWF,503,503,CCWF-A,stated,MPAR2024:P-1920-00145,66,"Facility A, Housing Unit 503 & 504",,SPI,43402,503 | Reception Center Housing Unit,,
+CCWF-504,CCWF,504,504,CCWF-A,stated,MPAR2024:P-1920-00145,66,"Facility A, Housing Unit 503 & 504",STRH;ASU,SPI,43403,504 | Specialized Population Housing Unit,,
+CCWF-505,CCWF,505,505,,,,,,,SPI,43404,505 | Medical Population Housing Unit,,
+CCWF-506,CCWF,506,506,CCWF-B,stated,bcp_2025-26_air_cooling_pilot_8144,3,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)",,SPI,43405,506 | General Population Housing Unit,,
+CCWF-507,CCWF,507,507,CCWF-B,stated,bcp_2025-26_air_cooling_pilot_8144,3,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)",,SPI,43406,507     BID PACAKAGE 5 | General Population Housing Unit,,
+CCWF-508,CCWF,508,508,CCWF-B,stated,bcp_2025-26_air_cooling_pilot_8144,3,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)",,SPI,43407,508 | General Population Housing Unit,,
+CCWF-509,CCWF,509,509,,,,,,,SPI,43408,509 | General Population Housing Unit,,
+CCWF-510,CCWF,510,510,,,,,,,SPI,43409,510 | General Population Housing Unit,,
+CCWF-511,CCWF,511,511,,,,,,,SPI,43410,511 | General Population Housing Unit,,
+CCWF-512,CCWF,512,512,,,,,,,SPI,43411,512 | General Population Housing Unit,,
+CCWF-513,CCWF,513,513,,,,,,,SPI,43412,513 | General Population Housing Unit,,
+CCWF-514,CCWF,514,514,,,,,,,SPI,43413,514 | General Population Housing Unit,,
+CCWF-515,CCWF,515,515,,,,,,,SPI,43414,515 | General Population Housing Unit,,
+CCWF-516,CCWF,516,516,,,,,,,SPI,43415,516 | General Population Housing Unit,,
+NKSP-A1,NKSP,A1,A-1,NKSP-A,candidate,unit name,,A-1,,SPI,43444,"301 | Level Iii Housing, A-1 (Celled)",,
+NKSP-A2,NKSP,A2,A-2,NKSP-A,stated,NKSP_MSR_0924_Redacted.pdf,214,FAC A-2,,SPI,43445,"302 | Level Iii Housing, A-2 (Celled)",,
+NKSP-A3,NKSP,A3,A-3,NKSP-A,candidate,unit name,,A-3,,SPI,43446,"303 | Level Iii Housing, A-3 (Celled)",,
+NKSP-A4,NKSP,A4,A-4,NKSP-A,candidate,unit name,,A-4,,SPI,43447,"304 | Level Iii Housing, A-4 (Ad-Seg Celled)",,
+NKSP-A5,NKSP,A5,A-5,NKSP-A,stated,NKSP_MSR_0924_Redacted.pdf,219,FAC A-5 2ND TIER A-SECTION,,SPI,43448,"305 | Level Iii Housing, A-5 (Celled)",,
+NKSP-D1,NKSP,D1,D-1,NKSP-D,stated,NKSP_MSR_0524_Redacted.pdf,86,FAC D-1 B,,SPI,43453,"401 | Rc Housing, D-1 (Celled)",,
+NKSP-D2,NKSP,D2,D-2,NKSP-D,stated,NKSP_MSR_0924_Redacted.pdf,160,Fac. D-2 (A) Side,,SPI,43454,"402 | Rc Housing, D-2 (Celled)",,
+NKSP-D3,NKSP,D3,D-3,NKSP-D,stated,NKSP_MSR_0924_Redacted.pdf,90,Fac. D-3 (A) Side,,SPI,43455,"403 | Rc Housing, D-3 (Celled)",,
+NKSP-D4,NKSP,D4,D-4,NKSP-D,stated,NKSP_MSR_0524_Redacted.pdf,293,Fac. D-4 (A) Side,,SPI,43456,"404 | Rc Housing, D-4 (Celled)",,
+NKSP-D5,NKSP,D5,D-5,NKSP-D,stated,NKSP_MSR_0524_Redacted.pdf,295,Fac. D-5 (A) Side,,SPI,43457,"405 | Rc Housing, D-5 (Celled)",,
+NKSP-D6,NKSP,D6,D-6,NKSP-D,stated,NKSP_MSR_0524_Redacted.pdf,297,Fac. D-6 (A) Side,,SPI,43458,"406 | Rc Housing, D-6 (Celled)",,
+NKSP-B6,NKSP,B6,B-6,NKSP-B,candidate,unit name,,B-6,,SPI,43459,"407 | Rc Housing, B-6 (Celled)",,
+NKSP-B5,NKSP,B5,B-5,NKSP-B,candidate,unit name,,B-5,,SPI,43460,"408 | Rc Housing, B-5 (Celled)",,
+NKSP-B4,NKSP,B4,B-4,NKSP-B,candidate,unit name,,B-4,,SPI,43461,"409 | Rc Housing, B-4 (Celled)",,
+NKSP-B3,NKSP,B3,B-3,NKSP-B,candidate,unit name,,B-3,,SPI,43462,"410 | Rc Housing, B-3 (Celled)",,
+NKSP-B2,NKSP,B2,B-2,NKSP-B,candidate,unit name,,B-2,,SPI,43463,"411 | Rc Housing, B-2 (Celled)",,
+NKSP-B1,NKSP,B1,B-1,NKSP-B,candidate,unit name,,B-1,,SPI,43464,"412 | Rc Housing, B-1 (Celled)",,
+NKSP-C1,NKSP,C1,C-1,NKSP-C,candidate,unit name,,C-1,,SPI,43465,"413 | Rc Housing, C-1",,
+NKSP-C2,NKSP,C2,C-2,NKSP-C,candidate,unit name,,C-2,,SPI,43466,"414 | Rc Housing, C-2",,
+NKSP-C3,NKSP,C3,C-3,NKSP-C,stated,NKSP_MSR_0624_Redacted.pdf,291,FAC. C 3-A,,SPI,43467,"415 | Rc Housing, C-3",,
+NKSP-C4,NKSP,C4,C-4,NKSP-C,candidate,unit name,,C-4,,SPI,43468,"416 | Rc Housing, C-4",,
+NKSP-C-EAST,NKSP,C-EAST,C-East,NKSP-C,candidate,unit name,,C-East,,SPI,43501,"417 | Rc Housing, C-East",,
+NKSP-C-WEST,NKSP,C-WEST,C-West;C5,NKSP-C,candidate,unit name,,C-West;C5,,SPI,43502,"418 | Rc Housing, C-West",,"log headers ""CW/HU-5"" (0724 p26) and ""C5/West"" (0824 p228) write C-West and C5 together"
+NKSP-E1,NKSP,E1,E-1,NKSP-M,stated,MPAR2022:P-1617-00021,151,"Replace Roofs - M Yard, Building 901 and 902 Dorms",,SPI,43508,"901 | Level I Housing, E-1",,"logs write ""M Dorm 1/2""; no source pairs them with E-1/E-2"
+NKSP-E2,NKSP,E2,E-2,NKSP-M,stated,MPAR2022:P-1617-00021,151,"Replace Roofs - M Yard, Building 901 and 902 Dorms",,SPI,43509,"902 | Level I Housing, E-2",,"logs write ""M Dorm 1/2""; no source pairs them with E-1/E-2"
+CCI-A5,CCI,A5,A5,CCI-A,candidate,unit name,,A5,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,26,in two of its twenty-one housing units (A5 and B5) the thermometers were not working properly,CCI-A5,
+CCI-B5,CCI,B5,B5,CCI-B,candidate,unit name,,B5,,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,26,in two of its twenty-one housing units (A5 and B5) the thermometers were not working properly,CCI-B5,
+CCI-C1,CCI,C1,Facility C Hsg Unit 1,CCI-C,stated,SPI,29075,Facility C Hsg Unit 1,,SPI,29075,Facility C Hsg Unit 1,,
+CCI-C2,CCI,C2,Facility C Hsg Unit 2,CCI-C,stated,SPI,29076,Facility C Hsg Unit 2,,SPI,29076,Facility C Hsg Unit 2,,
+CCI-C3,CCI,C3,Facility C Hsg Unit 3,CCI-C,stated,SPI,29077,Facility C Hsg Unit 3,,SPI,29077,Facility C Hsg Unit 3,,
+CCI-C4,CCI,C4,Facility C Hsg Unit 4,CCI-C,stated,SPI,29078,Facility C Hsg Unit 4,,SPI,29078,Facility C Hsg Unit 4,,
+CCI-C5,CCI,C5,Facility C Hsg Unit 5,CCI-C,stated,SPI,29079,Facility C Hsg Unit 5,,SPI,29079,Facility C Hsg Unit 5,,
+CMF-H-1,CMF,H-1,H-1,,,,,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1",CMF-h-1-wing,
+CMF-H-2,CMF,H-2,H-2,,,,,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1",CMF-h-2-wing,
+CMF-H-3,CMF,H-3,H-3,,,,,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1",CMF-h-3-wing,
+CMF-I-1,CMF,I-1,I-1,,,,,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1",CMF-i-1-wing,
+CMF-I-2,CMF,I-2,I-2,,,,,,,CMF_MSR_0524_Redacted.pdf,11,CMF I-2 206,,
+CMF-I-3,CMF,I-3,I-3,,,,,,,CMF_MSR_0624_Redacted.pdf,15,CMF I-3 VARIES,,
+CMF-J-1,CMF,J-1,J-1,,,,,,,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1",CMF-j-1-wing,
+CMF-J-2,CMF,J-2,J-2,,,,,,,CMF_MSR_0524_Redacted.pdf,12,CMF J-2 DORM 2,,
+CMF-J-3,CMF,J-3,J-3,,,,,,,CMF_MSR_0524_Redacted.pdf,70,CMF J-3 C/O OFFICE,,
+CMF-M-1,CMF,M-1,M-1,,,,,,,CMF_MSR_0524_Redacted.pdf,8,CMF M-1 137,,
+CMF-M-2,CMF,M-2,M-2,,,,,,,CMF_MSR_0524_Redacted.pdf,13,CMF M-2 201,,
+CMF-M-3,CMF,M-3,M-3,,,,,,,CMF_MSR_0524_Redacted.pdf,71,CMF M-3 302,,
+CMF-N-1,CMF,N-1,N-1,,,,,,,CMF_MSR_0524_Redacted.pdf,9,CMF N-1 C/O OFFICE,,
+CMF-N-2,CMF,N-2,N-2,,,,,,,CMF_MSR_0524_Redacted.pdf,40,CMF N-2 231,,
+CMF-N-3,CMF,N-3,N-3,,,,,,,CMF_MSR_0524_Redacted.pdf,72,CMF N-3 302,,
+CMF-G-1,CMF,G-1,G-1,,,,,,,CMF_MSR_0724_Redacted.pdf,29,G-1,,local form only
+CMF-G-2,CMF,G-2,G-2,,,,,,,CMF_MSR_0724_Redacted.pdf,29,G-2,,local form only
+CMF-G-3,CMF,G-3,G-3,,,,,,,CMF_MSR_0724_Redacted.pdf,29,G-3,,local form only
+CMF-T-WING,CMF,T-WING,T-WING,,,,,,,CMF_MSR_0524_Redacted.pdf,23,CMF T-WING 3rd TIER (328),,
+CMF-U-WING,CMF,U-WING,U-WING,,,,,,,CMF_MSR_0524_Redacted.pdf,24,CMF U-WING 3rd TIER (328),,
+CMF-V-WING,CMF,V-WING,V-WING,,,,,,,CMF_MSR_0524_Redacted.pdf,25,CMF V-WING 3rd TIER (328),,
+CMF-A-2,CMF,A-2,A A 2,CMF-A,stated,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,19,CMF A A 2 000201L MH Intermediate Care Facility MH Intermediate Care Facility ICF,ICF (2023-05),coleman_ecf7833-1_iflex_pip_beds_2023-05-11,19,CMF A A 2 000201L MH Intermediate Care Facility MH Intermediate Care Facility ICF,CMF-A A 2,"unit name written as facility, wing, floor; bed numbers start 000, not the floor digit"
+CMF-A-3,CMF,A-3,A A 3,CMF-A,stated,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,21,CMF A A 3 000301L MH Intermediate Care Facility MH Intermediate Care Facility ICF,ICF (2023-05),coleman_ecf7833-1_iflex_pip_beds_2023-05-11,21,CMF A A 3 000301L MH Intermediate Care Facility MH Intermediate Care Facility ICF,CMF-A A 3,"unit name written as facility, wing, floor; bed numbers start 000, not the floor digit"
+CMF-P-1,CMF,P-1,A P 1,CMF-A,stated,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,22,CMF A P 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,PIP (2023-05),coleman_ecf7833-1_iflex_pip_beds_2023-05-11,22,CMF A P 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,CMF-A P 1,"unit name written as facility, wing, floor"
+CMF-P-2,CMF,P-2,A P 2,CMF-A,stated,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,23,CMF A P 2 201001L MH Acute Care Facility Psychiatric Inpatient Program PIP,PIP (2023-05),coleman_ecf7833-1_iflex_pip_beds_2023-05-11,23,CMF A P 2 201001L MH Acute Care Facility Psychiatric Inpatient Program PIP,CMF-A P 2,"unit name written as facility, wing, floor"
+CMF-P-3,CMF,P-3,A P 3,CMF-A,stated,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,25,CMF A P 3 301001L MH Intermediate Care Facility MH Intermediate Care Facility ICF,ICF (2023-05),coleman_ecf7833-1_iflex_pip_beds_2023-05-11,25,CMF A P 3 301001L MH Intermediate Care Facility MH Intermediate Care Facility ICF,CMF-A P 3,"unit name written as facility, wing, floor"
+CMF-Q-1,CMF,Q-1,A Q 1,CMF-A,stated,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,26,CMF A Q 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,PIP (2023-05),coleman_ecf7833-1_iflex_pip_beds_2023-05-11,26,CMF A Q 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,CMF-A Q 1,"unit name written as facility, wing, floor"
+CMF-Q-2,CMF,Q-2,A Q 2,CMF-A,stated,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,27,CMF A Q 2 201001L MH Acute Care Facility Psychiatric Inpatient Program PIP,PIP (2023-05),coleman_ecf7833-1_iflex_pip_beds_2023-05-11,27,CMF A Q 2 201001L MH Acute Care Facility Psychiatric Inpatient Program PIP,CMF-A Q 2,"unit name written as facility, wing, floor"
+CMF-Q-3,CMF,Q-3,A Q 3,CMF-A,stated,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,28,CMF A Q 3 301001L MH Acute Care Facility Psychiatric Inpatient Program PIP,PIP (2023-05),coleman_ecf7833-1_iflex_pip_beds_2023-05-11,28,CMF A Q 3 301001L MH Acute Care Facility Psychiatric Inpatient Program PIP,CMF-A Q 3,"unit name written as facility, wing, floor"
+CMF-S-1,CMF,S-1,A S 1,CMF-A,stated,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,29,CMF A S 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,PIP (2023-05),coleman_ecf7833-1_iflex_pip_beds_2023-05-11,29,CMF A S 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,CMF-A S 1,"unit name written as facility, wing, floor"
+CMF-S-2,CMF,S-2,A S 2,CMF-A,stated,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,30,CMF A S 2 201001L MH Acute Care Facility Psychiatric Inpatient Program PIP,PIP (2023-05),coleman_ecf7833-1_iflex_pip_beds_2023-05-11,30,CMF A S 2 201001L MH Acute Care Facility Psychiatric Inpatient Program PIP,CMF-A S 2,"unit name written as facility, wing, floor"
+CMF-HTCC1,CMF,HTCC1,C HTCC1,CMF-C,stated,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,56,CMF C HTCC1 001001L Psychiatric Inpatient Program MH Intermediate Care Facility ICF,ICF (2023-05),coleman_ecf7833-1_iflex_pip_beds_2023-05-11,56,CMF C HTCC1 001001L Psychiatric Inpatient Program MH Intermediate Care Facility ICF,CMF-C HTCC1,building not identified
+CMF-HTCD1,CMF,HTCD1,C HTCD1,CMF-C,stated,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,56,CMF C HTCD1 001001L MH Intermediate Care Facility MH Intermediate Care Facility ICF,ICF (2023-05),coleman_ecf7833-1_iflex_pip_beds_2023-05-11,56,CMF C HTCD1 001001L MH Intermediate Care Facility MH Intermediate Care Facility ICF,CMF-C HTCD1,building not identified
+CMF-C-DORM,CMF,C-DORM,C DORM;Dorm C (Bldg 901),,,,,,,SPI,50197,901 | Dorm C (Bldg 901),,
+CMF-D-DORM,CMF,D-DORM,D DORM;Dorm D (Bldg 902),,,,,,,SPI,50198,902 | Dorm D (Bldg 902),,
+CMF-R-1-DORM,CMF,R-1-DORM,R-1 DORM;R1 DORM,,,,,,,CMF_MSR_0724_Redacted.pdf,87,CMF R-1 DORM C/O PODIUM,,not placed in SPI
+CMF-Y-DORM,CMF,Y-DORM,Y-DORM,,,,,,,CMF_MSR_0524_Redacted.pdf,79,CMF Y-DORM VARIES,,not placed in SPI
+CMF-RANCH,CMF,RANCH,RANCH,,,,,,,CMF_MSR_0624_Redacted.pdf,83,RANCH,,
+CIM-A8,CIM,A8,A-8;Angelus,CIM-A,candidate,unit name,,A-8 Angelus,,SPI,15059,381 | A-8 Angelus,,
+CIM-A7,CIM,A7,A-7;Otay,CIM-A,candidate,unit name,,A-7 Otay,,SPI,15060,382 | A-7 Otay,,
+CIM-A6,CIM,A6,A-6;Joshua,CIM-A,candidate,unit name,,A-6 Joshua,,SPI,15061,383 | A-6 Joshua,,
+CIM-A5,CIM,A5,A-5;Mariposa,CIM-A,candidate,unit name,,A-5 Mariposa,,SPI,15062,384 | A-5 Mariposa,,
+CIM-A1,CIM,A1,A-1;Borrego,CIM-A,candidate,unit name,,A-1 Borrego,,SPI,15070,385 | A-1 Borrego,,
+CIM-A2,CIM,A2,A-2;Laguna,CIM-A,candidate,unit name,,A-2 Laguna,,SPI,15069,386 | A-2 Laguna,,
+CIM-A3,CIM,A3,A-3;Sequoia,CIM-A,candidate,unit name,,A-3 Sequoia,,SPI,15068,387 | A-3 Sequoia,,
+CIM-A4,CIM,A4,A-4;Cleveland,CIM-A,stated,CIM_MSR_0924_Redacted.pdf,11,CIM-FAC A / A-4,,SPI,15067,388 | A-4 Cleveland,,
+CIM-B1,CIM,B1,B1;Cypress,CIM-B,stated,cim-2018-prea-report,9,The CIM ASU is located within Facility B,RC GP (2018-08),cim-2018-prea-report,9,"Units B1, B4 and B5 housing General Population (GP) reception inmates.",CIM-B1,"hall name from log header ""B-1 CYPRESS"" (CIM_MSR_0524_Redacted.pdf p38)"
+CIM-B2,CIM,B2,B2;Birch,CIM-B,stated,cim-2018-prea-report,9,The CIM ASU is located within Facility B,RC SNY (2018-08),cim-2018-prea-report,9,Unit B2 houses Sensitive Needs Yard (SNY) reception inmates,CIM-B2,"hall name from log header ""B2-BIRCH"" (CIM_MSR_0624_Redacted.pdf p70)"
+CIM-B3,CIM,B3,B3,CIM-B,stated,cim-2018-prea-report,9,The CIM ASU is located within Facility B,ASU (2018-08),cim-2018-prea-report,9,Unit B3 is CIM’s Administrative Segregation Unit (ASU).,CIM-B3,Palm Hall is also called the ASU (facility locator); not paired with B3
+CIM-B4,CIM,B4,B4;Madrone,CIM-B,stated,cim-2018-prea-report,9,The CIM ASU is located within Facility B,RC GP (2018-08),cim-2018-prea-report,9,"Units B1, B4 and B5 housing General Population (GP) reception inmates.",CIM-B4,"hall name from log header ""B4 (MADRONE)"" (CIM_MSR_0524_Redacted.pdf p46)"
+CIM-B5,CIM,B5,B5;Sycamore,CIM-B,stated,cim-2018-prea-report,9,The CIM ASU is located within Facility B,RC GP (2018-08),cim-2018-prea-report,9,"Units B1, B4 and B5 housing General Population (GP) reception inmates.",CIM-B5,"hall name from log header ""B5 SYCAMORE"" (CIM_MSR_1024_Redacted.pdf p61)"
+CIM-D12,CIM,D12,D-12;Magnolia,CIM-D,candidate,unit name,,D-12 Magnolia,,SPI,38296,140 | D-12 Magnolia,,
+CIM-D11,CIM,D11,D-11;Juniper,CIM-D,candidate,unit name,,D-11 Juniper,,SPI,38294,141 | D-11 Juniper,,
+CIM-D10,CIM,D10,D-10;Alder,CIM-D,candidate,unit name,,D-10 Alder,,SPI,38295,142 | D-10 Alder,,
+CIM-D5,CIM,D5,D-5;Willow,CIM-D,candidate,unit name,,D-5 Willow,,SPI,39638,150 | D-5 Willow,,
+CIM-D4,CIM,D4,D-4;Spruce,CIM-D,candidate,unit name,,D-4 Spruce,,SPI,39639,"151, P/C #HO5 | D-4 Spruce",,
+CIM-SOUTH-DORMITORY,CIM,SOUTH-DORMITORY,South Dormitory,CIM-D,stated,SPI,15005,"106 | South Dormitory, Fac-D",,SPI,15005,"106 | South Dormitory, Fac-D",,no D-number found; unit = hall is an assumption to test
+CIM-WEST-DORMITORY,CIM,WEST-DORMITORY,West Dormitory,CIM-D,stated,SPI,15006,"107 | West Dormitory, Fac-D",,SPI,15006,"107 | West Dormitory, Fac-D",,no D-number found; unit = hall is an assumption to test
+CIM-CEDAR-HALL,CIM,CEDAR-HALL,Cedar Hall,CIM-D,stated,SPI,14999,"126 | Cedar Hall, Fac-D",,SPI,14999,"126 | Cedar Hall, Fac-D",,no D-number found; unit = hall is an assumption to test
+CIM-OAK-HALL,CIM,OAK-HALL,Oak Hall,CIM-D,stated,SPI,15000,"127 | Oak Hall, Fac-D",,SPI,15000,"127 | Oak Hall, Fac-D",,no D-number found; unit = hall is an assumption to test
+CIM-PINE-HALL,CIM,PINE-HALL,Pine Hall,CIM-D,stated,SPI,15001,"128 | Pine Hall, Fac-D",,SPI,15001,"128 | Pine Hall, Fac-D",,no D-number found; unit = hall is an assumption to test
+CIM-REDWOOD-HALL,CIM,REDWOOD-HALL,Redwood Hall,CIM-D,stated,SPI,15002,"129 | Redwood Hall, Fac-D",,SPI,15002,"129 | Redwood Hall, Fac-D",,no D-number found; unit = hall is an assumption to test
+CIM-ELM-HALL,CIM,ELM-HALL,Elm Hall,CIM-D,stated,SPI,15003,"196 | Elm Hall, Fac-D",,SPI,15003,"196 | Elm Hall, Fac-D",,no D-number found; unit = hall is an assumption to test

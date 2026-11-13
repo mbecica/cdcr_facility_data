@@ -1,0 +1,30 @@
+facility_key,cdcr_code,facility,name_as_written,source,page,quote,note
+CCWF-A,CCWF,A,Facility A,MPAR2024:P-1920-00145,66,"Facility A, Housing Unit 503 & 504",
+CCWF-B,CCWF,B,Facility B,bcp_2025-26_air_cooling_pilot_8144,3,"CCWF - Facility B, Buildings 506, 507 and 508 (Cross-Top Housing Units)",
+NKSP-A,NKSP,A,FAC A,NKSP_MSR_0924_Redacted.pdf,214,FAC A-2,
+NKSP-B,NKSP,B,"FAC ""B""",NKSP_MSR_1024_Redacted.pdf,92,"FAC ""B""- BLD # 1, A or B (A circled)",
+NKSP-C,NKSP,C,FAC. C,NKSP_MSR_0624_Redacted.pdf,291,FAC. C 3-A,
+NKSP-D,NKSP,D,FAC D,NKSP_MSR_0524_Redacted.pdf,86,FAC D-1 B,
+NKSP-M,NKSP,M,M Yard,MPAR2022:P-1617-00021,151,"Replace Roofs - M Yard, Building 901 and 902 Dorms",
+NKSP-M,NKSP,M,FAC. M,NKSP_MSR_0624_Redacted.pdf,93,FAC. M DORM 1,
+CCI-A,CCI,A,Facility A,SPI,29093,Facility A Units 1-4,
+CCI-B,CCI,B,Facility B,SPI,29094,Facility B Units 1-4,
+CCI-C,CCI,C,Facility C,SPI,29075,Facility C Hsg Unit 1,
+CCI-D,CCI,D,Facility D,SPI,43547,Facility D Gatehouse,
+CCI-E,CCI,E,Facility E,SPI,29047,Facility E - Pia Warehouse,
+,CCI,,4A,CCI_MSR_0524_Redacted.pdf,79,4A HU 5 A SEC,not paired with Facility A-E in any source
+,CCI,,4B,CCI_MSR_0524_Redacted.pdf,189,4B HU 1 A SECTION DAYROOM,not paired with Facility A-E in any source
+,CCI,,Bravo,CCI_MSR_0824_Redacted.pdf,435,Bravo HU4 A-section,not paired with Facility A-E in any source
+,CCI,,FAC-I,CCI_MSR_0924_Redacted.pdf,250,FAC-I HU1,not paired with Facility A-E in any source
+,CCI,,Unit II,MPAR2022:P-1112-00212,,Unit II Culinary,not paired with Facility A-E in any source
+CMF-A,CMF,A,A,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,22,CMF A P 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,
+CMF-C,CMF,C,C,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,56,CMF C HTCC1 001001L Psychiatric Inpatient Program MH Intermediate Care Facility ICF,
+CMF-A,CMF,A,Facility A,bcp_2025-26_air_cooling_pilot_8144,3,"CMF - Facility A, Wing H51/P-Wing (Mainline Housing Units)",
+CIM-A,CIM,A,Facility A,sen_sub5_agenda_vote_outcomes_2018-03-15,27,"Built in 1952, all eight of Facility A’s housing units are equipped with roof mounted HV units without cooling",
+CIM-A,CIM,A,FAC A,CIM_MSR_0924_Redacted.pdf,11,CIM-FAC A / A-4,
+CIM-A,CIM,A,FAA,CIM_MSR_0624_Redacted.pdf,26,CIM-FAA / A-2,read as Facility A from the unit names that follow it
+CIM-B,CIM,B,Facility B,cim-2018-prea-report,9,The CIM ASU is located within Facility B,
+CIM-B,CIM,B,Facility-B,SPI,15084,(SEE COMMENTS) | Facility-B,
+CIM-C,CIM,C,Facility-C,SPI,37042,"492.1, 492.2, 492.3 | Facility-C - Del Norte And Colusa",
+CIM-C,CIM,C,Fac-C,SPI,37043,"493.1, 493.2, 493.3 | Fac-C - Alpine, Butte & W. Culinary",
+CIM-D,CIM,D,Fac-D,SPI,14999,"126 | Cedar Hall, Fac-D",

@@ -1,0 +1,110 @@
+unit_key,target_key,target_table,level,relation,status,source,page,quote,note
+CCWF-501,CCWF-501,places,,same as building,paired,SPI,43400,501 | Reception Center Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-502,CCWF-502,places,,same as building,paired,SPI,43401,502 | Reception Center Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-503,CCWF-503,places,,same as building,paired,SPI,43402,503 | Reception Center Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-504,CCWF-504,places,,same as building,paired,SPI,43403,504 | Specialized Population Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-505,CCWF-505,places,,same as building,paired,SPI,43404,505 | Medical Population Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-506,CCWF-506,places,,same as building,paired,SPI,43405,506 | General Population Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-507,CCWF-507,places,,same as building,paired,SPI,43406,507     BID PACAKAGE 5 | General Population Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-508,CCWF-508,places,,same as building,paired,SPI,43407,508 | General Population Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-509,CCWF-509,places,,same as building,paired,SPI,43408,509 | General Population Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-510,CCWF-510,places,,same as building,paired,SPI,43409,510 | General Population Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-511,CCWF-511,places,,same as building,paired,SPI,43410,511 | General Population Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-512,CCWF-512,places,,same as building,paired,SPI,43411,512 | General Population Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-513,CCWF-513,places,,same as building,paired,SPI,43412,513 | General Population Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-514,CCWF-514,places,,same as building,paired,SPI,43413,514 | General Population Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-515,CCWF-515,places,,same as building,paired,SPI,43414,515 | General Population Housing Unit,SPI names the structure a housing unit under the same number
+CCWF-516,CCWF-516,places,,same as building,paired,SPI,43415,516 | General Population Housing Unit,SPI names the structure a housing unit under the same number
+NKSP-A1,NKSP-301,places,,same as building,paired,SPI,43444,"301 | Level Iii Housing, A-1 (Celled)",SPI writes the unit name on the building record
+NKSP-A2,NKSP-302,places,,same as building,paired,SPI,43445,"302 | Level Iii Housing, A-2 (Celled)",SPI writes the unit name on the building record
+NKSP-A3,NKSP-303,places,,same as building,paired,SPI,43446,"303 | Level Iii Housing, A-3 (Celled)",SPI writes the unit name on the building record
+NKSP-A4,NKSP-304,places,,same as building,paired,SPI,43447,"304 | Level Iii Housing, A-4 (Ad-Seg Celled)",SPI writes the unit name on the building record
+NKSP-A5,NKSP-305,places,,same as building,paired,SPI,43448,"305 | Level Iii Housing, A-5 (Celled)",SPI writes the unit name on the building record
+NKSP-D1,NKSP-401,places,,same as building,paired,SPI,43453,"401 | Rc Housing, D-1 (Celled)",SPI writes the unit name on the building record
+NKSP-D2,NKSP-402,places,,same as building,paired,SPI,43454,"402 | Rc Housing, D-2 (Celled)",SPI writes the unit name on the building record
+NKSP-D3,NKSP-403,places,,same as building,paired,SPI,43455,"403 | Rc Housing, D-3 (Celled)",SPI writes the unit name on the building record
+NKSP-D4,NKSP-404,places,,same as building,paired,SPI,43456,"404 | Rc Housing, D-4 (Celled)",SPI writes the unit name on the building record
+NKSP-D5,NKSP-405,places,,same as building,paired,SPI,43457,"405 | Rc Housing, D-5 (Celled)",SPI writes the unit name on the building record
+NKSP-D6,NKSP-406,places,,same as building,paired,SPI,43458,"406 | Rc Housing, D-6 (Celled)",SPI writes the unit name on the building record
+NKSP-B6,NKSP-407,places,,same as building,paired,SPI,43459,"407 | Rc Housing, B-6 (Celled)",SPI writes the unit name on the building record
+NKSP-B5,NKSP-408,places,,same as building,paired,SPI,43460,"408 | Rc Housing, B-5 (Celled)",SPI writes the unit name on the building record
+NKSP-B4,NKSP-409,places,,same as building,paired,SPI,43461,"409 | Rc Housing, B-4 (Celled)",SPI writes the unit name on the building record
+NKSP-B3,NKSP-410,places,,same as building,paired,SPI,43462,"410 | Rc Housing, B-3 (Celled)",SPI writes the unit name on the building record
+NKSP-B2,NKSP-411,places,,same as building,paired,SPI,43463,"411 | Rc Housing, B-2 (Celled)",SPI writes the unit name on the building record
+NKSP-B1,NKSP-412,places,,same as building,paired,SPI,43464,"412 | Rc Housing, B-1 (Celled)",SPI writes the unit name on the building record
+NKSP-C1,NKSP-413,places,,same as building,paired,SPI,43465,"413 | Rc Housing, C-1",SPI writes the unit name on the building record
+NKSP-C2,NKSP-414,places,,same as building,paired,SPI,43466,"414 | Rc Housing, C-2",SPI writes the unit name on the building record
+NKSP-C3,NKSP-415,places,,same as building,paired,SPI,43467,"415 | Rc Housing, C-3",SPI writes the unit name on the building record
+NKSP-C4,NKSP-416,places,,same as building,paired,SPI,43468,"416 | Rc Housing, C-4",SPI writes the unit name on the building record
+NKSP-C-EAST,NKSP-417,places,,same as building,paired,SPI,43501,"417 | Rc Housing, C-East",SPI writes the unit name on the building record
+NKSP-C-WEST,NKSP-418,places,,same as building,paired,SPI,43502,"418 | Rc Housing, C-West",SPI writes the unit name on the building record
+NKSP-E1,NKSP-901,places,,same as building,paired,SPI,43508,"901 | Level I Housing, E-1",SPI writes the unit name on the building record
+NKSP-E2,NKSP-902,places,,same as building,paired,SPI,43509,"902 | Level I Housing, E-2",SPI writes the unit name on the building record
+CCI-A5,CCI-spi29096,places,,part of group,candidate,SPI,29096,Facility A Hsg Units 5-8 & Support Bldg,group record names units 5-8 of the facility; Coleman's A5/B5 not paired with it (step 3)
+CCI-B5,CCI-spi29095,places,,part of group,candidate,SPI,29095,Facility B Hsg Units 5-8 & Support Bldg,group record names units 5-8 of the facility; Coleman's A5/B5 not paired with it (step 3)
+CCI-C1,CCI-spi29075,places,,same as building,paired,SPI,29075,Facility C Hsg Unit 1,
+CCI-C2,CCI-spi29076,places,,same as building,paired,SPI,29076,Facility C Hsg Unit 2,
+CCI-C3,CCI-spi29077,places,,same as building,paired,SPI,29077,Facility C Hsg Unit 3,
+CCI-C4,CCI-spi29078,places,,same as building,paired,SPI,29078,Facility C Hsg Unit 4,
+CCI-C5,CCI-spi29079,places,,same as building,paired,SPI,29079,Facility C Hsg Unit 5,
+CCI-C1,CCI-spi29071,places,,same as building,candidate,SPI,29071,Facility C Hsg Unit 1,"second SPI record with the same name, typed OFFICE (INSTITUTIONAL)"
+CMF-H-1,CMF-spi15300:H,place_parts,1,part of building,candidate,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1","level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-H-2,CMF-spi15300:H,place_parts,2,part of building,candidate,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1","level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-H-3,CMF-spi15300:H,place_parts,3,part of building,candidate,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1","level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-I-1,CMF-spi15300:I,place_parts,1,part of building,candidate,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1","level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-I-2,CMF-spi15300:I,place_parts,2,part of building,candidate,CMF_MSR_0524_Redacted.pdf,11,CMF I-2 206,"level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-I-3,CMF-spi15300:I,place_parts,3,part of building,candidate,CMF_MSR_0624_Redacted.pdf,15,CMF I-3 VARIES,"level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-J-1,CMF-spi15300:J,place_parts,1,part of building,candidate,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1","level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-J-2,CMF-spi15300:J,place_parts,2,part of building,candidate,CMF_MSR_0524_Redacted.pdf,12,CMF J-2 DORM 2,"level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-J-3,CMF-spi15300:J,place_parts,3,part of building,candidate,CMF_MSR_0524_Redacted.pdf,70,CMF J-3 C/O OFFICE,"level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-M-1,CMF-spi15300:M,place_parts,1,part of building,candidate,CMF_MSR_0524_Redacted.pdf,8,CMF M-1 137,"level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-M-2,CMF-spi15300:M,place_parts,2,part of building,candidate,CMF_MSR_0524_Redacted.pdf,13,CMF M-2 201,"level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-M-3,CMF-spi15300:M,place_parts,3,part of building,candidate,CMF_MSR_0524_Redacted.pdf,71,CMF M-3 302,"level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-N-1,CMF-spi15300:N,place_parts,1,part of building,candidate,CMF_MSR_0524_Redacted.pdf,9,CMF N-1 C/O OFFICE,"level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-N-2,CMF-spi15300:N,place_parts,2,part of building,candidate,CMF_MSR_0524_Redacted.pdf,40,CMF N-2 231,"level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-N-3,CMF-spi15300:N,place_parts,3,part of building,candidate,CMF_MSR_0524_Redacted.pdf,72,CMF N-3 302,"level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-G-1,CMF-spi15300:G,place_parts,1,part of building,candidate,CMF_MSR_0724_Redacted.pdf,29,G-1,"level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-G-2,CMF-spi15300:G,place_parts,2,part of building,candidate,CMF_MSR_0724_Redacted.pdf,29,G-2,"level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-G-3,CMF-spi15300:G,place_parts,3,part of building,candidate,CMF_MSR_0724_Redacted.pdf,29,G-3,"level read from the digit after the wing letter; no source places the wings in SPI ""Main Building"""
+CMF-T-WING,CMF-spi15300:T,place_parts,,part of building,candidate,CMF_MSR_0524_Redacted.pdf,23,CMF T-WING 3rd TIER (328),"no source places the wings in SPI ""Main Building"""
+CMF-U-WING,CMF-spi15300:U,place_parts,,part of building,candidate,CMF_MSR_0524_Redacted.pdf,24,CMF U-WING 3rd TIER (328),"no source places the wings in SPI ""Main Building"""
+CMF-V-WING,CMF-spi15300:V,place_parts,,part of building,candidate,CMF_MSR_0524_Redacted.pdf,25,CMF V-WING 3rd TIER (328),"no source places the wings in SPI ""Main Building"""
+CMF-A-2,CMF-spi15300:A,place_parts,2,part of building,candidate,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,19,CMF A A 2 000201L MH Intermediate Care Facility MH Intermediate Care Facility ICF,"level read from Coleman's floor digit; no source places the wings in SPI ""Main Building"""
+CMF-A-3,CMF-spi15300:A,place_parts,3,part of building,candidate,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,21,CMF A A 3 000301L MH Intermediate Care Facility MH Intermediate Care Facility ICF,"level read from Coleman's floor digit; no source places the wings in SPI ""Main Building"""
+CMF-P-1,CMF-spi15300:P,place_parts,1,part of building,candidate,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,22,CMF A P 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,"level read from Coleman's floor digit; no source places the wings in SPI ""Main Building"""
+CMF-P-2,CMF-spi15300:P,place_parts,2,part of building,candidate,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,23,CMF A P 2 201001L MH Acute Care Facility Psychiatric Inpatient Program PIP,"level read from Coleman's floor digit; no source places the wings in SPI ""Main Building"""
+CMF-P-3,CMF-spi15300:P,place_parts,3,part of building,candidate,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,25,CMF A P 3 301001L MH Intermediate Care Facility MH Intermediate Care Facility ICF,"level read from Coleman's floor digit; no source places the wings in SPI ""Main Building"""
+CMF-Q-1,CMF-spi15300:Q,place_parts,1,part of building,candidate,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,26,CMF A Q 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,"level read from Coleman's floor digit; no source places the wings in SPI ""Main Building"""
+CMF-Q-2,CMF-spi15300:Q,place_parts,2,part of building,candidate,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,27,CMF A Q 2 201001L MH Acute Care Facility Psychiatric Inpatient Program PIP,"level read from Coleman's floor digit; no source places the wings in SPI ""Main Building"""
+CMF-Q-3,CMF-spi15300:Q,place_parts,3,part of building,candidate,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,28,CMF A Q 3 301001L MH Acute Care Facility Psychiatric Inpatient Program PIP,"level read from Coleman's floor digit; no source places the wings in SPI ""Main Building"""
+CMF-S-1,CMF-spi15300:S,place_parts,1,part of building,candidate,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,29,CMF A S 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,"level read from Coleman's floor digit; no source places the wings in SPI ""Main Building"""
+CMF-S-2,CMF-spi15300:S,place_parts,2,part of building,candidate,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,30,CMF A S 2 201001L MH Acute Care Facility Psychiatric Inpatient Program PIP,"level read from Coleman's floor digit; no source places the wings in SPI ""Main Building"""
+CMF-C-DORM,CMF-901,places,,same as building,paired,SPI,50197,901 | Dorm C (Bldg 901),
+CMF-D-DORM,CMF-902,places,,same as building,paired,SPI,50198,902 | Dorm D (Bldg 902),
+CMF-RANCH,CMF-spi15313,places,,part of group,candidate,SPI,15313,HRD1-10 | Ranch Dorms,"log writes RANCH; SPI ""Ranch Dorms"" agency no. HRD1-10 covers several dorms"
+CIM-A8,CIM-381,places,,same as building,paired,SPI,15059,381 | A-8 Angelus,SPI writes the unit name on the building record
+CIM-A7,CIM-382,places,,same as building,paired,SPI,15060,382 | A-7 Otay,SPI writes the unit name on the building record
+CIM-A6,CIM-383,places,,same as building,paired,SPI,15061,383 | A-6 Joshua,SPI writes the unit name on the building record
+CIM-A5,CIM-384,places,,same as building,paired,SPI,15062,384 | A-5 Mariposa,SPI writes the unit name on the building record
+CIM-A1,CIM-385,places,,same as building,paired,SPI,15070,385 | A-1 Borrego,SPI writes the unit name on the building record
+CIM-A2,CIM-386,places,,same as building,paired,SPI,15069,386 | A-2 Laguna,SPI writes the unit name on the building record
+CIM-A3,CIM-387,places,,same as building,paired,SPI,15068,387 | A-3 Sequoia,SPI writes the unit name on the building record
+CIM-A4,CIM-388,places,,same as building,paired,SPI,15067,388 | A-4 Cleveland,SPI writes the unit name on the building record
+CIM-B4,CIM-204.7,places,,one of several buildings,paired,MPAR2025:P-2526-00130,77,"Replace Roof - Facility B, Building 204.7 and 204.8, Unit 4, Housing Unit",
+CIM-B4,CIM-204.8,places,,one of several buildings,paired,MPAR2025:P-2526-00130,77,"Replace Roof - Facility B, Building 204.7 and 204.8, Unit 4, Housing Unit",
+CIM-B2,CIM-204.5,places,,one of several buildings,candidate,MPAR2024:P-2324-00143,79,"Replace Roof - Facility B, Building 204.5/Unit 2, Administration and Medical",the record pairs 204.5 with Unit 2 but describes it as Administration and Medical
+CIM-B1,CIM-spi15084,places,,part of group,candidate,SPI,15084,(SEE COMMENTS) | Facility-B,SPI has one record for Facility B
+CIM-B3,CIM-spi15084,places,,part of group,candidate,SPI,15084,(SEE COMMENTS) | Facility-B,SPI has one record for Facility B
+CIM-B5,CIM-spi15084,places,,part of group,candidate,SPI,15084,(SEE COMMENTS) | Facility-B,SPI has one record for Facility B
+CIM-D12,CIM-140,places,,same as building,paired,SPI,38296,140 | D-12 Magnolia,SPI writes the unit name on the building record
+CIM-D11,CIM-141,places,,same as building,paired,SPI,38294,141 | D-11 Juniper,SPI writes the unit name on the building record
+CIM-D10,CIM-142,places,,same as building,paired,SPI,38295,142 | D-10 Alder,SPI writes the unit name on the building record
+CIM-D5,CIM-150,places,,same as building,paired,SPI,39638,150 | D-5 Willow,SPI writes the unit name on the building record
+CIM-D4,CIM-spi39639,places,,same as building,paired,SPI,39639,"151, P/C #HO5 | D-4 Spruce",SPI writes the unit name on the building record
+CIM-SOUTH-DORMITORY,CIM-106,places,,same as building,candidate,SPI,15005,"106 | South Dormitory, Fac-D",
+CIM-WEST-DORMITORY,CIM-107,places,,same as building,candidate,SPI,15006,"107 | West Dormitory, Fac-D",
+CIM-CEDAR-HALL,CIM-126,places,,same as building,candidate,SPI,14999,"126 | Cedar Hall, Fac-D",
+CIM-OAK-HALL,CIM-127,places,,same as building,candidate,SPI,15000,"127 | Oak Hall, Fac-D",
+CIM-PINE-HALL,CIM-128,places,,same as building,candidate,SPI,15001,"128 | Pine Hall, Fac-D",
+CIM-REDWOOD-HALL,CIM-129,places,,same as building,candidate,SPI,15002,"129 | Redwood Hall, Fac-D",
+CIM-ELM-HALL,CIM-196,places,,same as building,candidate,SPI,15003,"196 | Elm Hall, Fac-D",
