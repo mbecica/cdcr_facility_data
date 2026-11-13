@@ -36,6 +36,8 @@ CAND_DIR = ALL34_DIR / "step2b_candidates"
 TRIAGE_DIR = ALL34_DIR / "step2c_triage"
 HOUSING_QA_DIR = ALL34_DIR / "step2d_housing"
 NAIP_DIR = ROOT / "sources" / "imagery" / "naip_2024"
+NAIP_RGB_DIR = ROOT / "sources" / "imagery" / "naip_2024_rgb"
+QA_IMAGES_DIR = SCRIPTS_DIR / "qa_images"
 DATA_BUILDINGS = ROOT / "data" / "buildings"
 
 TO_3857 = Transformer.from_crs("EPSG:4326", "EPSG:3857", always_xy=True).transform

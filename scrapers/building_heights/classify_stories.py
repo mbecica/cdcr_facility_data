@@ -29,6 +29,8 @@ from common import (
     HOUSING_QA_DIR,
     HT_DIR,
     NAIP_DIR,
+    NAIP_RGB_DIR,
+    QA_IMAGES_DIR,
     ROOT,
     fnum,
     load_font,
@@ -336,6 +338,8 @@ def render_housing_qa(
     )
     draw.text((10, 7), banner, fill=(240, 245, 250), font=hdr_font)
     img.save(HOUSING_QA_DIR / f"{code}_housing_qa.png")
+    QA_IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+    img.save(QA_IMAGES_DIR / f"{code}_housing_qa.webp", format="WEBP", quality=80, method=6)
 
 
 def run_classify(qa_png: bool = False, codes: list[str] | None = None) -> None:
@@ -421,7 +425,9 @@ def run_classify(qa_png: bool = False, codes: list[str] | None = None) -> None:
 
         if qa_png and (not codes or code in codes):
             feats = json.loads((FP_DIR / f"{code}_reconciled.geojson").read_text())["features"]
-            tif_candidate = NAIP_DIR / f"{code}_naip_2024.tif"
+            raw_tif = NAIP_DIR / f"{code}_naip_2024.tif"
+            rgb_tif = NAIP_RGB_DIR / f"{code}_naip_2024_rgb.tif"
+            tif_candidate = raw_tif if raw_tif.exists() else rgb_tif
             render_housing_qa(
                 code, inst_names.get(code, code),
                 tif_candidate if tif_candidate.exists() else None,

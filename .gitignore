@@ -10,7 +10,7 @@ sources/prea/
 sources/cdcr_web/
 sources/reuters_heat_records/
 sources/rfi/
-sources/imagery/
+sources/imagery/naip_2024/
 
 # Public records act responses (password-protected, not ours to publish)
 sources/pwc_2026_pra/
