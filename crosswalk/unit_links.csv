@@ -116,3 +116,37 @@ CIM-CC,CIM-492.1/492.2/492.3,places,,part of group,candidate,cim-2018-prea-repor
 CIM-CC,CIM-493.1/493.2/493.3,places,,part of group,candidate,cim-2018-prea-report,10,Facility C has four interconnected housing units each of which as and upper and lower level.,"Facility C housing is on two SPI records naming four halls (Del Norte, Colusa, Alpine, Butte); no source pairs unit letters with halls"
 CIM-CD,CIM-492.1/492.2/492.3,places,,part of group,candidate,cim-2018-prea-report,10,Facility C has four interconnected housing units each of which as and upper and lower level.,"Facility C housing is on two SPI records naming four halls (Del Norte, Colusa, Alpine, Butte); no source pairs unit letters with halls"
 CIM-CD,CIM-493.1/493.2/493.3,places,,part of group,candidate,cim-2018-prea-report,10,Facility C has four interconnected housing units each of which as and upper and lower level.,"Facility C housing is on two SPI records naming four halls (Del Norte, Colusa, Alpine, Butte); no source pairs unit letters with halls"
+COR-3A01,COR-3A01,places,,same as building,paired,SPI,37826,3A01 | 3A-01 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3A02,COR-3A02,places,,same as building,paired,SPI,37827,3A02 | 3A-02 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3A03,COR-3A03,places,,same as building,paired,SPI,37828,3A03 | 3A-03 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3A04,COR-3A04,places,,same as building,paired,SPI,37829,3A04 | 3A-04 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3A05,COR-3A05,places,,same as building,paired,SPI,37830,3A05 | 3A-05 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3B01,COR-3B01,places,,same as building,paired,SPI,37832,3B01 | Building 3B01 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3B02,COR-3B02,places,,same as building,paired,SPI,37833,3B02 | Building 3B02 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3B03,COR-3B03,places,,same as building,paired,SPI,37834,3B03 | Building 3B03 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3B04,COR-3B04,places,,same as building,paired,SPI,37835,3B04 | Building 3B04 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3B05,COR-3B05,places,,same as building,paired,SPI,37836,3B05 | Building 3B05 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3C01,COR-3C01,places,,same as building,paired,SPI,37837,3C01 | Building 3C01 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3C02,COR-3C02,places,,same as building,paired,SPI,37838,3C02 | Building 3C02 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3C03,COR-3C03,places,,same as building,paired,SPI,37839,3C03 | Building 3C03 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3C04,COR-3C04,places,,same as building,paired,SPI,37840,3C04 | Building 3C04 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-3C05,COR-3C05,places,,same as building,paired,SPI,37841,3C05 | Building 3C05 Inmate Housing,SPI names the structure inmate housing under the same number
+COR-4A1L,COR-4A01:L,place_parts,,part of building,candidate,COR_MSR_0524_Redacted.pdf,13,4A1L,"building number and side read from the unit name; SPI 4A01 is one building, PREA 2024 p42 gives two wings per building"
+COR-4A1R,COR-4A01:R,place_parts,,part of building,candidate,coleman_ecf8558_31st_round_heat_report_2025-02-28,92,building 4A1R reported receiving a bag of ice for their cells every day,"building number and side read from the unit name; SPI 4A01 is one building, PREA 2024 p42 gives two wings per building"
+COR-4A3L,COR-4A03:L,place_parts,,part of building,candidate,COR_MSR_0524_Redacted.pdf,71,4A3L,"building number and side read from the unit name; SPI 4A03 is one building, PREA 2024 p42 gives two wings per building"
+COR-4A4L,COR-4A04:L,place_parts,,part of building,candidate,COR_MSR_0624_Redacted.pdf,152,4A4L,"building number and side read from the unit name; SPI 4A04 is one building, PREA 2024 p42 gives two wings per building"
+COR-4A4R,COR-4A04:R,place_parts,,part of building,candidate,COR_MSR_0824_Redacted.pdf,83,4A4R,"building number and side read from the unit name; SPI 4A04 is one building, PREA 2024 p42 gives two wings per building"
+COR-4B1L,COR-4B01:L,place_parts,,part of building,candidate,COR_MSR_0824_Redacted.pdf,33,4B1L,"building number and side read from the unit name; SPI 4B01 is one building, PREA 2024 p42 gives two wings per building"
+COR-4B1R,COR-4B01:R,place_parts,,part of building,candidate,COR_MSR_0824_Redacted.pdf,34,4B1R,"building number and side read from the unit name; SPI 4B01 is one building, PREA 2024 p42 gives two wings per building"
+COR-4B2L,COR-4B02:L,place_parts,,part of building,candidate,COR_MSR_0824_Redacted.pdf,35,CSP-COR / 4B2L,"building number and side read from the unit name; SPI 4B02 is one building, PREA 2024 p42 gives two wings per building"
+COR-4B2R,COR-4B02:R,place_parts,,part of building,candidate,COR_MSR_0824_Redacted.pdf,38,CSP-COR / 4B2R,"building number and side read from the unit name; SPI 4B02 is one building, PREA 2024 p42 gives two wings per building"
+COR-4B3L,COR-4B03:L,place_parts,,part of building,candidate,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,39,"in multiple housing units at CSP-Corcoran including 4B3L, 4B3R, and 4B4R","building number and side read from the unit name; SPI 4B03 is one building, PREA 2024 p42 gives two wings per building"
+COR-4B3R,COR-4B03:R,place_parts,,part of building,candidate,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,39,"in multiple housing units at CSP-Corcoran including 4B3L, 4B3R, and 4B4R","building number and side read from the unit name; SPI 4B03 is one building, PREA 2024 p42 gives two wings per building"
+COR-4B4L,COR-4B04:L,place_parts,,part of building,candidate,COR_MSR_0624_Redacted.pdf,131,4B4L,"building number and side read from the unit name; SPI 4B04 is one building, PREA 2024 p42 gives two wings per building"
+COR-4B4R,COR-4B04:R,place_parts,,part of building,candidate,coleman_ecf8558-1_heat_report_exhibits_2025-02-28,39,"in multiple housing units at CSP-Corcoran including 4B3L, 4B3R, and 4B4R","building number and side read from the unit name; SPI 4B04 is one building, PREA 2024 p42 gives two wings per building"
+COR-ASU,COR-spi55774,places,,same as building,candidate,SPI,55774,Administration Segregation Unit,"SPI year built 2002 fits the June 2003 activation; SPI 55804 ""Admin Seg Unit/Enhanced Outpatient Prog."" (built 2013) is the other ASU record"
+COR-1A,COR-spi37812,places,,same as building,paired,SPI,37812,LEVEL 1A | Lev. 1A Dorm,SPI names the structure a dorm
+COR-1B,COR-spi37813,places,,same as building,paired,SPI,37813,LEVEL 1B | Level 1B Dorm,SPI names the structure a dorm
+COR-1C,COR-spi37814,places,,same as building,paired,SPI,37814,LEVEL 1C | Level 1C Dorm,SPI names the structure a dorm
+COR-1D,COR-spi37815,places,,same as building,paired,SPI,37815,LEVEL 1D | Level 1D Dorm,SPI names the structure a dorm
+COR-1E,COR-spi38279,places,,same as building,paired,SPI,38279,LV1E | Level 1 E-Dorm,SPI names the structure a dorm

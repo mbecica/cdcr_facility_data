@@ -28,3 +28,21 @@ CIM-B,CIM,B,Facility-B,SPI,15084,(SEE COMMENTS) | Facility-B,
 CIM-C,CIM,C,Facility-C,SPI,37042,"492.1, 492.2, 492.3 | Facility-C - Del Norte And Colusa",
 CIM-C,CIM,C,Fac-C,SPI,37043,"493.1, 493.2, 493.3 | Fac-C - Alpine, Butte & W. Culinary",
 CIM-D,CIM,D,Fac-D,SPI,14999,"126 | Cedar Hall, Fac-D",
+COR-3A,COR,3A,Facility III-A,cor-2018-prea-report,9,Facility III-A houses Sensitive Needs inmates. There are five individual housing units in this facility. Each unit has a bed capacity for 200 inmates.,
+COR-3A,COR,3A,Facility 3A,facility-locator-cor-2026-10-06,,"Facility 3A – P.O. Box 3461, Corcoran, CA 93212",
+COR-3A,COR,3A,3A,COR-Final-PREA-Audit-Report-4.28.24,42,"Corcoran is comprised of six yards, five of which are in use. Yards 3A, 3B, and 3C essentially mirror each other in terms of the number and design of housing units, vocational and program buildings.",called a yard
+COR-3B,COR,3B,Facility III-B,cor-2018-prea-report,9,"Facility III-B is of the same design as Facility III-A; however, it was converted to a Sensitive Needs Yard facility.",
+COR-3B,COR,3B,Facility 3B,facility-locator-cor-2026-10-06,,"Facility 3B – P.O. Box 3466, Corcoran, CA 93212",
+COR-3B,COR,3B,3B,COR-Final-PREA-Audit-Report-4.28.24,42,"Corcoran is comprised of six yards, five of which are in use. Yards 3A, 3B, and 3C essentially mirror each other in terms of the number and design of housing units, vocational and program buildings.",called a yard
+COR-3C,COR,3C,Facility III-C,cor-2018-prea-report,9,"Facility III-C has five buildings with a total combined bed capacity of 1,000. Facility III-C is designated as a General Population Yard.",
+COR-3C,COR,3C,Facility 3C,facility-locator-cor-2026-10-06,,"Facility 3C – P.O. Box 3471, Corcoran, CA 93212",
+COR-3C,COR,3C,3C,COR-Final-PREA-Audit-Report-4.28.24,42,"Corcoran is comprised of six yards, five of which are in use. Yards 3A, 3B, and 3C essentially mirror each other in terms of the number and design of housing units, vocational and program buildings.",called a yard
+COR-4A,COR,4A,Facility IV-A,cor-2018-prea-report,9,"Facility IV-A has the bed capacity for 1,024 inmates.",
+COR-4A,COR,4A,Facility 4A,facility-locator-cor-2026-10-06,,"Facility 4A – P.O. Box 3476, Corcoran, CA 93212",
+COR-4A,COR,4A,4A,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",called a yard
+COR-4B,COR,4B,Facility IV-B,cor-2018-prea-report,10,"Facility IV-B has the bed capacity for 1,005 inmates.",
+COR-4B,COR,4B,Facility 4B,facility-locator-cor-2026-10-06,,"Facility 4B – P.O. Box 3481, Corcoran, CA 93212",
+COR-4B,COR,4B,4B,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",called a yard
+COR-Z,COR,Z,Facility Z,facility-locator-cor-2026-10-06,,"Facility Z , Minimum Support Facility, Hospital, Firehouse – P.O. Box 3456, Corcoran, CA 93212",mailing-address list; no source says which buildings Facility Z holds
+COR-MSF,COR,MSF,Minimum Support Facility (MSF),facility-locator-cor-2026-10-06,,The Minimum Support Facility (MSF) Level I Non-designated Program Facility (Inmates who do not identify as Sensitive Needs Yard or General Population) at CSP-Corcoran consists of five buildings,
+COR-MSF,COR,MSF,Level I Minimum Support,cor-2018-prea-report,9,"comprised of the following facilities: Level I Minimum Support, Level III Sensitive Needs Yard, Level IV Sensitive Needs Yard, and a Level IV General Population",

@@ -1243,14 +1243,10 @@ COR-4A01,COR,4A01,4A01 Inmate Housing,building,4A1,,,,,,housing,,,1988,,46646,DO
 COR-4A02,COR,4A02,4A02 Inmate Housing Level Iv,building,,,,,,,,,,1988,,46646,DORMITORY,37843,4A02,36,,1,SPI
 COR-4A03,COR,4A03,4A03 Inmate Houseing Level Iv,building,4A3,,,,,,housing,,,1988,,46646,DORMITORY,37844,4A03,36,,2,SPI;coleman_ecf8558-1_heat_report_exhibits_2025-02-28
 COR-4A04,COR,4A04,4A04 Inmate Housing Level Iv,building,,,,,,,,,,1988,,46646,DORMITORY,37845,4A04,36,,1,SPI
-COR-4A1R,COR,4A1R,,building,,,,,,,housing,,,,,,,,,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
 COR-4B01,COR,4B01,Building 4B01 Inmate Housing Level Iv,building,,,,,,,,,,1988,,46646,DORMITORY,37846,4B01,36,,1,SPI
 COR-4B02,COR,4B02,Building 4B02 Inmate Housing Level Iv,building,,,,,,,,,,1988,,46646,DORMITORY,37847,4B02,36,,1,SPI
 COR-4B03,COR,4B03,Building 4B03 Inmate Housing Level Iv,building,,,,,,,,,,1988,,46646,DORMITORY,37848,4B03,36,,1,SPI
 COR-4B04,COR,4B04,Building 4B04 Inmate Housing Level Iv,building,,,,,,,,,,1988,,46646,DORMITORY,37849,4B04,36,,1,SPI
-COR-4B3L,COR,4B3L,,building,,,,,,,housing,,,,,,,,,,,1,coleman_ecf8558-1_heat_report_exhibits_2025-02-28
-COR-4B3R,COR,4B3R,,building,,,,,,,housing,,,,,,,,,,,1,coleman_ecf8558-1_heat_report_exhibits_2025-02-28
-COR-4B4R,COR,4B4R,,building,,,COR-4B,mention,,,housing,MSF pipeline,,,,,,,,,,2,coleman_ecf8558-1_heat_report_exhibits_2025-02-28;facility-locator-cor-2026-10-06
 COR-502,COR,502,Pia Chemical Storage,building,,,,,,,,,,1996,,3359,SHOP,38272,502,36,,1,SPI
 COR-901,COR,901,,building,,,,,,,housing,,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 COR-central-health-services,COR,,Central Health Services,building,,,,,,,health_care,,,,,,,,,,,4,December2025QuarterlyReport-ADAFinal;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
