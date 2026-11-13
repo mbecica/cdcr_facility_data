@@ -1709,7 +1709,7 @@ CVSP-spi5122,CVSP,,Osap,building,,,,,,,,,,2004,,6272,RELOCATABLE OFFICE,5122,P-2
 CVSP-spi51525,CVSP,,H.V.A.C. - Chiller Plant,building,,,,,,,,,,2009,,7200,UTILITY,51525,U-32,9288,,1,SPI
 CVSP-spi51559,CVSP,,20 Small Management Exercise Yards,other structure,,,,,,,,,,2009,,3000,SMALL MANAGEMENT EXERCISE YARDS,51559,,9288,,1,SPI
 CVSP-spi57614,CVSP,,Ev Charging Stations (10-Level 2 Ports),other structure,,,,,,,,,,2020,,0,ELECTRIC VEHICLE CHARGING STATION,57614,,9288,,1,SPI
-FOL-1,FOL,1,Metal Fabrication Building#1,building,,,,,,,,,,1951,,18932,SHOP,14674,METAL FABRICATION BLDG #1,39,,3,SPI;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
+FOL-1,FOL,1,,building,,,,,,,,,,,,,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
 FOL-2,FOL,2,,building,,,,,,,,,,,,,,,,,,1,September2021QuarterlyReport-ADA
 FOL-4,FOL,4,,building,,,,,,,,ASU,,,,,,,,,,1,MPAR2022:P-1718-00123
 FOL-C02,FOL,C02,Main Kitchen And Minimum Kitchen,building,,,,,,,,,,1894,,34533,DINING/CAFETERIA,14662,C02,39,,1,SPI
@@ -1796,6 +1796,7 @@ FOL-spi14668,FOL,,Main Yard Buildings,building,,,,,yes,,,,,1915,,31826,OFFICE (I
 FOL-spi14669,FOL,,Cell Block #5 And O & G Building,building,,,,,yes,,,,,1880,,92935,DORMITORY,14669,CELL BLOCK #5 & OG BLDG.,39,,1,SPI
 FOL-spi14670,FOL,,Ly Maint Bd/Painters/Plumbers/Carpenters,building,,,,,,,,,,1946,,47372,SHOP,14670,LOWER YARD MAINTENANCE,39,,1,SPI
 FOL-spi14671,FOL,,Filtration Plant,building,,,,,,,,,,,,5650,UTILITY,14671,U02,39,,1,SPI
+FOL-spi14674,FOL,,Metal Fabrication Building#1,building,,,,,,,,,,1951,,18932,SHOP,14674,METAL FABRICATION BLDG #1,39,,1,SPI
 FOL-spi14679,FOL,,Industries Maintenance,building,,,,,,,,,,1950,,6160,EQUIPMENT/MAINTENANCE BUILDING,14679,I08,39,,1,SPI
 FOL-spi14682,FOL,,Old Dairy Boiler Room,building,,,,,,,,,,1919,,408,UTILITY,14682,ABANDONED,39,,1,SPI
 FOL-spi14684,FOL,,Valley Houses Resident#402,building,,,,,,,,,,1938,,1204,RESIDENCE (SINGLE FAMILY),14684,RES402,39,,1,SPI
@@ -2773,8 +2774,6 @@ RJD-spi15165,RJD,,Fac 4 Pia Workchange,building,,,,,,,,,,1989,,4937,OFFICE (INST
 RJD-spi15166,RJD,,Fac 4 Inmate Service,building,,,,,,,,,,1989,,15120,OFFICE (INSTITUTIONAL),15166,4.9 C-F,49,,1,SPI
 RJD-spi51571,RJD,,20 Small Management Exercise Yards,other structure,,,,,,,,,,2008,,3000,SMALL MANAGEMENT EXERCISE YARDS,51571,2.4 OUTSIDE,49,,1,SPI
 RJD-spi51572,RJD,,20 Small Management Exercise Yards,other structure,,,,,,,,,,2009,,3000,SMALL MANAGEMENT EXERCISE YARDS,51572,2.3 OUTSIDE,49,,1,SPI
-SAC-1,SAC,1,Vocational Education Landscaping Bldg#1,building,,,,,,,,,,1985,,500,CLASSROOM,14629,14629,10486,,1,SPI
-SAC-2,SAC,2,Vocational Education Landscaping Bldg#2,building,,,,,,,,,,1985,,500,CLASSROOM,14630,14630,10486,,1,SPI
 SAC-A,SAC,A,Modular Building A,building,,,,,,,program,,,,,,,,,,,3,December2025QuarterlyReport-ADAFinal;March2026QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
 SAC-A1/A2,SAC,A1/A2,Facility A Housing Building #1 & 2,building,,,SAC-A,SPI name,yes,,housing,,,1985,,36301,DORMITORY,14598,14598,10486,,2,SPI;MPAR2022:P-1718-00129
 SAC-A3/A4,SAC,A3/A4,Facility A Housing Building # 3 & 4,building,,,SAC-A,SPI name,yes,,housing,EOP,,1985,,36301,DORMITORY,14599,14599,10486,,2,SPI;MPAR2022:P-1718-00129
@@ -2826,6 +2825,8 @@ SAC-spi14624,SAC,,Receiving Warehouse New Folsom,building,,,,,,,,,,1985,,92160,W
 SAC-spi14625,SAC,,Prison Industries Receiving Warehouse,building,,,,,,,,,,1985,,92160,WAREHOUSE,14625,14625,10486,,1,SPI
 SAC-spi14626,SAC,,Central Plant Maintenance Building,building,,,,,,,,,,1985,,18432,UTILITY,14626,14626,10486,,1,SPI
 SAC-spi14627,SAC,,Vehicle Maintenance Garage New Folsom,building,,,,,,,,,,1985,,5500,SERVICE STATION,14627,14627,10486,,1,SPI
+SAC-spi14629,SAC,,Vocational Education Landscaping Bldg#1,building,,,,,,,,,,1985,,500,CLASSROOM,14629,14629,10486,,1,SPI
+SAC-spi14630,SAC,,Vocational Education Landscaping Bldg#2,building,,,,,,,,,,1985,,500,CLASSROOM,14630,14630,10486,,1,SPI
 SAC-spi43827,SAC,,Family Visiting #1,building,,,,,,,,,,1985,,1900,VISITATION FACILITY,43827,,10486,,1,SPI
 SAC-spi43828,SAC,,Family Visiting #2,building,,,,,,,,,,1985,,1900,VISITATION FACILITY,43828,,10486,,1,SPI
 SAC-spi43829,SAC,,Family Visiting #3,building,,,,,,,,,,1985,,1900,VISITATION FACILITY,43829,,10486,,1,SPI

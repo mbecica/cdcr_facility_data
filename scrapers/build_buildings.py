@@ -101,6 +101,11 @@ def spi_number(asn: str, name: str) -> str:
         a = m.group(1)
     if a and not DGS_SERIAL.match(a) and re.fullmatch(ID, a):
         return a
+    # "<type> BUILDING#N" at the end of a name counts buildings of that type, not
+    # a building number (FOL "METAL FABRICATION BUILDING#1", whose #2 and #3 are
+    # I04 and I05; SAC "VOCATIONAL EDUCATION LANDSCAPING BLDG#1")
+    if re.search(r"\S\s+(?:BLDG\.?|BUILDING)\s*#\s*\d+$", name.upper().strip()):
+        return ""
     m = re.search(r"\b(?:BLDG\.?|BUILDING(?:\s+NO\.)?)\s*#?\s*(" + ID + r")\b", name.upper())
     if m:
         return m.group(1)
