@@ -43,7 +43,13 @@ OTHER_STRUCTURE = {
     'SMALL MANAGEMENT EXERCISE YARDS', 'STAGING AREA',
 }
 # records that cover several buildings but don't say so in the name
-GROUP_ROWS = {'CIM-spi15084'}   # "Facility-B", agency no. "(SEE COMMENTS)"
+GROUP_ROWS = {
+    'CIM-spi15084',   # "Facility-B", agency no. "(SEE COMMENTS)"
+    'FOL-spi14636',   # Old Dormitories Camp Represa, agency no. "H700 TO H1300"
+    'FOL-spi14637',   # New Dormitories Camp Represa, agency no. "H100 TO H600"
+    'FOL-spi14661',   # Gun Towers, agency no. "S10 TO S28, S31, S34, S35"
+    'FOL-spi14668',   # Main Yard Buildings, agency no. "S02 (SEE COMMENTS)"
+}
 
 FAC_IN_NAME = re.compile(r'\b(?:Facility|Fac)[\s\-]+([A-Z])\b', re.I)
 RANGE = re.compile(r'(?<![A-Za-z\-\d])\d+\s*(?:-|to|&)\s*\d+(?![\d.])', re.I)

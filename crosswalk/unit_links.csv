@@ -150,3 +150,16 @@ COR-1B,COR-spi37813,places,,same as building,paired,SPI,37813,LEVEL 1B | Level 1
 COR-1C,COR-spi37814,places,,same as building,paired,SPI,37814,LEVEL 1C | Level 1C Dorm,SPI names the structure a dorm
 COR-1D,COR-spi37815,places,,same as building,paired,SPI,37815,LEVEL 1D | Level 1D Dorm,SPI names the structure a dorm
 COR-1E,COR-spi38279,places,,same as building,paired,SPI,38279,LV1E | Level 1 E-Dorm,SPI names the structure a dorm
+FOL-1,FOL-H01,places,,same as building,candidate,SPI,14721,H01 | Cell Block#1,number only: no source writes Unit 1 and Cell Block #1 together; PREA 2023 p24 calls Unit 1 a cell block
+FOL-2,FOL-H02/H03,places,,part of group,candidate,SPI,14664,"H02, H03 | Cell Blocks#2&#3 And Hospital Admin Bldg",number only; PREA 2023 says Unit 2 itself has two blocks
+FOL-3,FOL-H02/H03,places,,part of group,candidate,SPI,14664,"H02, H03 | Cell Blocks#2&#3 And Hospital Admin Bldg",number only; PREA 2023 says Unit 3 itself has two blocks
+FOL-4,FOL-H04,places,,same as building,candidate,SPI,50532,H04 | Cell Block #4,number only
+FOL-4,FOL-4,places,,same as building,candidate,MPAR2022:P-1718-00123,125,Design and construction of a Medication Preparation Room in Building 4 to provide the appropriate space with the proper infrastructure for secure medication preparation for Administrative Segregation Unit incarcerated individuals.,number and program (ASU) match; no source writes Unit 4 and Building 4 together
+FOL-5,FOL-spi14669,places,,part of group,candidate,SPI,14669,CELL BLOCK #5 & OG BLDG. | Cell Block #5 And O & G Building,"name match: Cell Block Five / Cell Block #5; SPI year built 1880, PREA says 1878"
+FOL-5,FOL-cell-block-five,places,,same as building,candidate,Sep_2020_Quarterly-ADA_Final,3,Cell Block Five Fire/Life Safety Upgrade,"same name as MPAR ""Cell Block Five"" in the FOL-5 row; likely a duplicate of SPI 14669"
+FOL-FIREHOUSE,FOL-M02,places,,part of building,candidate,FSP-Final-PREA-Audit-Report-02.27.23-2,26,The main building of the firehouse houses the inmates and staff.,"name match with SPI M02 ""Fire House, Engine Barn & Office Bldg"""
+FOL-0900,FOL-spi14636,places,,part of group,candidate,SPI,14636,H700 TO H1300 | Old Dormitories Camp Represa,fits only if dorms are numbered by hundreds (H900 = Dorm 0900); not stated
+FOL-1000,FOL-spi14636,places,,part of group,candidate,SPI,14636,H700 TO H1300 | Old Dormitories Camp Represa,fits only if dorms are numbered by hundreds (H1000 = Dorm 1000); not stated
+FOL-1100,FOL-spi14636,places,,part of group,candidate,SPI,14636,H700 TO H1300 | Old Dormitories Camp Represa,fits only if dorms are numbered by hundreds (H1100 = Dorm 1100); not stated
+FOL-FWF-A,FOL-W18/W19/W20/W21,places,,part of group,candidate,SPI,50531,"W18, W19 ,W20, W21 | Folsom Women'S Facility","SPI record names the facility, not the building"
+FOL-FWF-B,FOL-W18/W19/W20/W21,places,,part of group,candidate,SPI,50531,"W18, W19 ,W20, W21 | Folsom Women'S Facility","SPI record names the facility, not the building"

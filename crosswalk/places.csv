@@ -1712,7 +1712,6 @@ CVSP-spi57614,CVSP,,Ev Charging Stations (10-Level 2 Ports),other structure,,,,,
 FOL-1,FOL,1,Metal Fabrication Building#1,building,,,,,,,,,,1951,,18932,SHOP,14674,METAL FABRICATION BLDG #1,39,,3,SPI;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
 FOL-2,FOL,2,,building,,,,,,,,,,,,,,,,,,1,September2021QuarterlyReport-ADA
 FOL-4,FOL,4,,building,,,,,,,,ASU,,,,,,,,,,1,MPAR2022:P-1718-00123
-FOL-5,FOL,5,Cell Block Five,building,,,,,,,housing,,,,,,,,,,,3,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;MPAR2022:P-0809-01089
 FOL-C02,FOL,C02,Main Kitchen And Minimum Kitchen,building,,,,,,,,,,1894,,34533,DINING/CAFETERIA,14662,C02,39,,1,SPI
 FOL-H01,FOL,H01,Cell Block#1;Cell Block 1,building,,,,,,,housing,,,1908,,83850,DORMITORY,14721,H01,39,,3,SPI;MPAR2022:P-2122-00138;plata_ecf3952-1_cms_exhibits_2025-03-10
 FOL-H02/H03,FOL,H02/H03,Cell Blocks#2&#3 And Hospital Admin Bldg,building,H02;H03,,,,yes,,housing,,,1931,,194900,DORMITORY,14664,"H02, H03",39,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
@@ -1774,8 +1773,8 @@ FOL-central-health-services-building,FOL,,Central Health Services building,build
 FOL-education-annex,FOL,,Education Annex,building,,,,,,,program,,,,,,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
 FOL-spi14628,FOL,,Water Treatment Plant,building,,,,,,,,,,1985,,4012,UTILITY,14628,U02,39,,1,SPI
 FOL-spi14633,FOL,,Larkin Hall In-Service Trainnig,building,,,,,,,,,,1937,,6206,STORAGE BUILDING,14633,M09,39,,1,SPI
-FOL-spi14636,FOL,,Old Dormitories Camp Represa,building,,,,,,,,,,1949,,35700,DORMITORY,14636,H700 TO H1300,39,,1,SPI
-FOL-spi14637,FOL,,New Dormitories Camp Represa,building,,,,,,,,,,1959,,12420,DORMITORY,14637,H100 TO H600,39,,1,SPI
+FOL-spi14636,FOL,,Old Dormitories Camp Represa,building,,,,,yes,,,,,1949,,35700,DORMITORY,14636,H700 TO H1300,39,,1,SPI
+FOL-spi14637,FOL,,New Dormitories Camp Represa,building,,,,,yes,,,,,1959,,12420,DORMITORY,14637,H100 TO H600,39,,1,SPI
 FOL-spi14638,FOL,,Kitchen Camp Represa,building,,,,,,,,,,1959,,3760,KITCHEN,14638,KITCHEN CAMP REPRESA,39,,1,SPI
 FOL-spi14639,FOL,,Maint. Warehouse Old Folsom,building,,,,,,,,,,,,8860,STORAGE BUILDING,14639,WAREHOUSE,39,,1,SPI
 FOL-spi14640,FOL,,Power House 22 Sub-Station (Pia),building,,,,,,,,,,,,416,UTILITY,14640,POWER HOUSE 22 SUBSTATION,39,,1,SPI
@@ -1791,9 +1790,9 @@ FOL-spi14656,FOL,,Valley House Resident#30,building,,,,,,,,,,1938,,1080,RESIDENC
 FOL-spi14658,FOL,,Valley Houses Resident#201,building,,,,,,,,,,1938,,1148,RESIDENCE (SINGLE FAMILY),14658,RES201,39,,1,SPI
 FOL-spi14659,FOL,,Valley Houses Resident#401,building,,,,,,,,,,1938,,1204,RESIDENCE (SINGLE FAMILY),14659,RES401,39,,1,SPI
 FOL-spi14660,FOL,,Valley Houses Resident Garages,building,,,,,,,,,,1938,,16074,GARAGE/PARKING STRUCTURE,14660,VALLEY HOUSES RES GARAGE,39,,1,SPI
-FOL-spi14661,FOL,,Gun Towers,building,,,,,,,,,,,,1620,LOOKOUT (GUARD STATION),14661,"S10 TO S28, S31, S34, S35",39,,1,SPI
+FOL-spi14661,FOL,,Gun Towers,building,,,,,yes,,,,,,,1620,LOOKOUT (GUARD STATION),14661,"S10 TO S28, S31, S34, S35",39,,1,SPI
 FOL-spi14667,FOL,,Vocational Education,building,,,,,,,,,,1948,,14320,CLASSROOM,14667,VOCATIONAL EDUCATION,39,,1,SPI
-FOL-spi14668,FOL,,Main Yard Buildings,building,,,,,,,,,,1915,,31826,OFFICE (INSTITUTIONAL),14668,S02 (SEE COMMENTS),39,,1,SPI
+FOL-spi14668,FOL,,Main Yard Buildings,building,,,,,yes,,,,,1915,,31826,OFFICE (INSTITUTIONAL),14668,S02 (SEE COMMENTS),39,,1,SPI
 FOL-spi14669,FOL,,Cell Block #5 And O & G Building,building,,,,,yes,,,,,1880,,92935,DORMITORY,14669,CELL BLOCK #5 & OG BLDG.,39,,1,SPI
 FOL-spi14670,FOL,,Ly Maint Bd/Painters/Plumbers/Carpenters,building,,,,,,,,,,1946,,47372,SHOP,14670,LOWER YARD MAINTENANCE,39,,1,SPI
 FOL-spi14671,FOL,,Filtration Plant,building,,,,,,,,,,,,5650,UTILITY,14671,U02,39,,1,SPI
