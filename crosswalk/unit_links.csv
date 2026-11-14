@@ -268,3 +268,12 @@ PBSP-MSF-A,PBSP-spi38412,places,,same as building,candidate,SPI,38412,"Level I H
 PBSP-MSF-B,PBSP-spi38411,places,,same as building,candidate,SPI,38411,"Level I Housing, B Dorm",MSF is Level I (locator) and the dorm letter matches the SPI name; no source writes MSF with the SPI record
 PBSP-RHU,PBSP-spi50408,places,,same as building,candidate,SPI,50408,Administrative Segregation Housing Unit,"name match only (built 2004); CQIT calls the RHU ""freestanding""/""Standalone"", which fits a separate building, but no source names the record"
 PBSP-CTC,PBSP-spi38417,places,,part of building,candidate,facility-locator-pbsp-2026-11-13,,Correctional Treatment Center/Infirmary,"the locator writes CTC with Infirmary and SPI 38417 is ""Infirmary / Specialty Clinic""; CQIT p8 names CTC and Specialty Clinic as separate spaces, so part of the building"
+CMC-1,CMC-1,places,,same as building,paired,SPI,14966,1 | Housing Unit Bldg. 1 (Aa),SPI writes the building number and the housing-unit name on the record
+CMC-2,CMC-2,places,,same as building,paired,SPI,14967,2 | Housing Unit Bldg. 2 (Ab),SPI writes the building number and the housing-unit name on the record
+CMC-3,CMC-3,places,,same as building,paired,SPI,14929,"3 | Housing Unit, Bldg.3 (E)",SPI writes the building number and the housing-unit name on the record
+CMC-4,CMC-4,places,,same as building,paired,SPI,14930,"4 | Housing Unit, Bldg.4 (F)",SPI writes the building number and the housing-unit name on the record
+CMC-5,CMC-5,places,,same as building,paired,SPI,14940,"5 | Housing Unit, Bldg 5 (M)","SPI writes the building number and the housing-unit name on the record; SPI conflict: 14940 is named Bldg 5 (M) but its agency number is 14940-N, and 14939 is named Bldg 6 (N) with 14939-M; the link follows the name"
+CMC-6,CMC-6,places,,same as building,paired,SPI,14939,6 | Housing Unit Bldg. 6 (N),"SPI writes the building number and the housing-unit name on the record; SPI conflict: 14940 is named Bldg 5 (M) but its agency number is 14940-N, and 14939 is named Bldg 6 (N) with 14939-M; the link follows the name"
+CMC-7,CMC-7,places,,same as building,paired,SPI,14947,7 | Housing Unit Bldg. 7 (S),SPI writes the building number and the housing-unit name on the record
+CMC-8,CMC-8,places,,same as building,paired,SPI,14948,8 | Housing Unit Bldg. 8 (T),SPI writes the building number and the housing-unit name on the record
+CMC-MHCB,CMC-spi55455,places,,same as building,candidate,SPI,55455,50-Bed Mental Health Crisis Building,"name match only (built 2013, 45,762 sq ft)"
