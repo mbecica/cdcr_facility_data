@@ -771,3 +771,17 @@ CVSP-11,CVSP,11,Housing Unit #11;H-11,,,,,,,SPI,37960,H-11 | Housing Unit #11,,n
 CVSP-12,CVSP,12,Administrative Segregation;H-12,,,,,,ASU,SPI,37961,H-12 | Administrative Segregation,,"no 2024 heat logs; no source places the unit in a facility; PREA 2022 p9: ""the facility no longer maintains a segregated housing unit"""
 CHCF-E301,CHCF,E301,E301,CHCF-E,candidate,unit name,,E301,EOP,SPI,55956,E301 | Enhanced Outpatient Program Housing Unit,,"no 2024 heat logs; the Plata cooling table uses the same ID; sections 301B-301F are parts of it; MPAR 2022 pp76-77 place those in Facility E"
 CIW-RCU-GP-HALL,CIW,RCU GP Hall,RCU / GP HALL;RCU / GP Hall;CIW RCU GP Hall,,,,,,RC,CIW_MSR_0724_Redacted.pdf,80,CIW / RCU / GP HALL,,"logged Jul-Aug 2024 on its own pages next to RCU Forestry; no SPI record names it"
+CCI-A1,CCI,A1,A1,CCI-A,stated,CCI_MSR_0524_Redacted.pdf,22,FAC A HU1 / A SECTION,,CCI_MSR_0524_Redacted.pdf,22,FAC A HU1 / A SECTION,,
+CCI-A2,CCI,A2,A2,CCI-A,candidate,CCI_MSR_0624_Redacted.pdf,463,A HU 2 C SECTION,,CCI_MSR_0624_Redacted.pdf,463,A HU 2 C SECTION,,
+CCI-A3,CCI,A3,A3,CCI-A,candidate,CCI_MSR_0524_Redacted.pdf,38,ALPHA H.U.#3 A-SECTION,,CCI_MSR_0524_Redacted.pdf,38,ALPHA H.U.#3 A-SECTION,,
+CCI-A4,CCI,A4,A4,CCI-A,stated,CCI_MSR_0524_Redacted.pdf,56,"FAC.A, HU#4 / A-SEC Dayroom",,CCI_MSR_0524_Redacted.pdf,56,"FAC.A, HU#4 / A-SEC Dayroom",,
+CCI-A6,CCI,A6,A6,CCI-A,stated,CCI_MSR_0524_Redacted.pdf,101,"FAC-A, H.U. 6 / B-SECTION",,CCI_MSR_0524_Redacted.pdf,101,"FAC-A, H.U. 6 / B-SECTION",,
+CCI-A7,CCI,A7,A7,CCI-A,stated,CCI_MSR_0524_Redacted.pdf,116,FAC A H.U 7 B SECTION,,CCI_MSR_0524_Redacted.pdf,116,FAC A H.U 7 B SECTION,,
+CCI-A8,CCI,A8,A8,CCI-A,candidate,CCI_MSR_0724_Redacted.pdf,288,A HU8 / C SEC,,CCI_MSR_0724_Redacted.pdf,288,A HU8 / C SEC,,
+CCI-B1,CCI,B1,B1,CCI-B,stated,CCI_MSR_0824_Redacted.pdf,297,Fac-B BHU 1,,CCI_MSR_0824_Redacted.pdf,297,Fac-B BHU 1,,
+CCI-B2,CCI,B2,B2,CCI-B,stated,CCI_MSR_0724_Redacted.pdf,402,FACILITY: B HU-2 A,,CCI_MSR_0724_Redacted.pdf,402,FACILITY: B HU-2 A,,
+CCI-B3,CCI,B3,B3,CCI-B,stated,CCI_MSR_0924_Redacted.pdf,448,CCI FAC B HU3 A-Section,,CCI_MSR_0924_Redacted.pdf,448,CCI FAC B HU3 A-Section,,
+CCI-B4,CCI,B4,B4,CCI-B,stated,CCI_MSR_0524_Redacted.pdf,173,FAC B H.U.4 A.SEC,,CCI_MSR_0524_Redacted.pdf,173,FAC B H.U.4 A.SEC,,
+CCI-B6,CCI,B6,B6,CCI-B,stated,CCI_MSR_1024_Redacted.pdf,278,FAC B HU6 A-SEC,,CCI_MSR_1024_Redacted.pdf,278,FAC B HU6 A-SEC,,
+CCI-B7,CCI,B7,B7,CCI-B,candidate,CCI_MSR_0824_Redacted.pdf,281,B HU #7 / C Section,,CCI_MSR_0824_Redacted.pdf,281,B HU #7 / C Section,,
+CCI-B8,CCI,B8,B8,CCI-B,candidate,CCI_MSR_0724_Redacted.pdf,463,CCI / B-HU8 / A,,CCI_MSR_0724_Redacted.pdf,463,CCI / B-HU8 / A,,

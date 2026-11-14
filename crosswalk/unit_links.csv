@@ -626,3 +626,17 @@ CVSP-10,CVSP-spi37959,places,,same as building,paired,SPI,37959,H-10 | Housing U
 CVSP-11,CVSP-spi37960,places,,same as building,paired,SPI,37960,H-11 | Housing Unit #11,"the unit is the SPI record (1987, 23,333 sq ft dormitory)"
 CVSP-12,CVSP-spi37961,places,,same as building,paired,SPI,37961,H-12 | Administrative Segregation,"the unit is the SPI record (1987, 23,876 sq ft dormitory)"
 CHCF-E301,CHCF-E301,places,,same as building,paired,SPI,55956,E301 | Enhanced Outpatient Program Housing Unit,"the unit is the SPI record (118,283 sq ft)"
+CCI-A1,CCI-spi29093,places,,part of group,candidate,SPI,29093,Facility A Units 1-4,group record names units 1-4 of the facility
+CCI-A2,CCI-spi29093,places,,part of group,candidate,SPI,29093,Facility A Units 1-4,group record names units 1-4 of the facility
+CCI-A3,CCI-spi29093,places,,part of group,candidate,SPI,29093,Facility A Units 1-4,group record names units 1-4 of the facility
+CCI-A4,CCI-spi29093,places,,part of group,candidate,SPI,29093,Facility A Units 1-4,group record names units 1-4 of the facility
+CCI-A6,CCI-spi29096,places,,part of group,candidate,SPI,29096,Facility A Hsg Units 5-8 & Support Bldg,group record names units 5-8 of the facility
+CCI-A7,CCI-spi29096,places,,part of group,candidate,SPI,29096,Facility A Hsg Units 5-8 & Support Bldg,group record names units 5-8 of the facility
+CCI-A8,CCI-spi29096,places,,part of group,candidate,SPI,29096,Facility A Hsg Units 5-8 & Support Bldg,group record names units 5-8 of the facility
+CCI-B1,CCI-spi29094,places,,part of group,candidate,SPI,29094,Facility B Units 1-4,group record names units 1-4 of the facility
+CCI-B2,CCI-spi29094,places,,part of group,candidate,SPI,29094,Facility B Units 1-4,group record names units 1-4 of the facility
+CCI-B3,CCI-spi29094,places,,part of group,candidate,SPI,29094,Facility B Units 1-4,group record names units 1-4 of the facility
+CCI-B4,CCI-spi29094,places,,part of group,candidate,SPI,29094,Facility B Units 1-4,group record names units 1-4 of the facility
+CCI-B6,CCI-spi29095,places,,part of group,candidate,SPI,29095,Facility B Hsg Units 5-8 & Support Bldg,group record names units 5-8 of the facility
+CCI-B7,CCI-spi29095,places,,part of group,candidate,SPI,29095,Facility B Hsg Units 5-8 & Support Bldg,group record names units 5-8 of the facility
+CCI-B8,CCI-spi29095,places,,part of group,candidate,SPI,29095,Facility B Hsg Units 5-8 & Support Bldg,group record names units 5-8 of the facility
