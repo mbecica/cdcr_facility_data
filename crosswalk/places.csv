@@ -903,7 +903,6 @@ CIW-H13,CIW,H13,,building,,,,,,,housing,,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits
 CIW-M03,CIW,M03,,building,,,,,,,housing,,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 CIW-S PIPA1,CIW,S PIPA1,,building,,,CIW-S,mention,,,health_care,PIP (2023-05),21 (2023-05),,,,,,,,,1,coleman_ecf7833-1_iflex_pip_beds_2023-05-11
 CIW-S PIPB1,CIW,S PIPB1,,building,,,CIW-S,mention,,,health_care,PIP (2023-05),24 (2023-05),,,,,,,,,1,coleman_ecf7833-1_iflex_pip_beds_2023-05-11
-CIW-administrative-segregation-housing-unit,CIW,,Administrative Segregation Housing Unit,building,,,,,,,housing,ASU,,,,,,,,,,1,MPAR2022:P-1718-00120
 CIW-central-kitchen,CIW,,Central Kitchen,building,,,,,,,kitchen,,,1966,,,,,,,,1,MPAR2022:P-2122-00098
 CIW-spi14557,CIW,,Administration Building,building,,,,,,,,,,1951,,64603,OFFICE (INSTITUTIONAL),14557,14557,41,,1,SPI
 CIW-spi14558,CIW,,Auditorium,building,,,,,,,,,,1951,,9664,AUDITORIUM/HALL,14558,,41,,1,SPI
@@ -967,7 +966,6 @@ CIW-spi55169,CIW,,Guard Tower 6,building,,,,,,,,,,1980,,300,LOOKOUT (GUARD STATI
 CIW-spi55229,CIW,,45 Bed Psychiatric In-Patient Facility,building,,,,,,,,,,2012,,52985,HOSPITAL/CLINIC/TREATMENT CENTER,55229,,41,,1,SPI
 CIW-spi57611,CIW,,Ev Charging Stations (6-Level 2 Ports),other structure,,,,,,,,,,2020,,0,ELECTRIC VEHICLE CHARGING STATION,57611,,41,,1,SPI
 CIW-spi718,CIW,,Mental Health Modular - Rc,building,,,,,,,,,,1995,,2160,RELOCATABLE CLASSROOM,718,,41,,1,SPI
-CIW-walker-unit,CIW,,Walker Unit,building,,,,,,,,,,,,,,,,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
 CMC-1,CMC,1,Housing Unit Bldg. 1 (Aa),building,AA,,,,,,housing,,,1961,,32828,DORMITORY,14966,14966-AA,46,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 CMC-149,CMC,149,Gymnasium - Bldg G,building,,,,,,,,,,1961,,24350,GYMNASIUM,14931,149  -,46,,1,SPI
 CMC-2,CMC,2,Housing Unit Bldg. 2 (Ab),building,AB,,,,,,housing,,,1961,,32828,DORMITORY,14967,14967-AB,46,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10

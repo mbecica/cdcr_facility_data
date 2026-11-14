@@ -568,3 +568,14 @@ CTF-Z-WING,CTF-spi15632:Z,place_parts,,part of building,candidate,CTF_MSR_0524_R
 CTF-O-WING,CTF-spi15632:O,place_parts,,part of building,paired,CTF_MSR_0524_Redacted.pdf,22,O-Wing,the unit is the whole wing
 CTF-FREMONT,CTF-SV,places,,same as building,paired,SPI,38331,SV | Sv Fremont Dormitory,SPI writes the dorm name
 CTF-TORO,CTF-SW,places,,same as building,paired,SPI,38330,SW | Sw Toro Dormitory,SPI writes the dorm name
+CIW-MILLER,CIW-spi14567,places,,same as building,paired,SPI,14567,Miller Housing Unit,"SPI writes the unit name on the building record (1951, 26,318 sq ft dormitory)"
+CIW-BARNEBURG,CIW-spi14568,places,,same as building,paired,SPI,14568,Barneburg Housing Unit,"SPI writes the unit name on the building record (1951, 26,318 sq ft dormitory)"
+CIW-EMMONS,CIW-spi14569,places,,same as building,paired,SPI,14569,Emmons Housing Unit,"SPI writes the unit name on the building record (1951, 26,318 sq ft dormitory)"
+CIW-LATHAM,CIW-spi14570,places,,same as building,paired,SPI,14570,Latham Housing Unit,"SPI writes the unit name on the building record (1951, 26,318 sq ft dormitory)"
+CIW-WILSON,CIW-spi14571,places,,same as building,paired,SPI,14571,Wilson Housing Unit,"SPI writes the unit name on the building record (1963, 26,318 sq ft dormitory)"
+CIW-HARRISON,CIW-spi14572,places,,same as building,paired,SPI,14572,Harrison Housing Unit,"SPI writes the unit name on the building record (1963, 26,318 sq ft dormitory)"
+CIW-SCU,CIW-spi14579,places,,same as building,paired,SPI,14579,Support Care Unit (Scu),"SPI writes the unit name on the building record (1962, 16,583 sq ft dormitory)"
+CIW-SHU,CIW-spi14582,places,,same as building,candidate,SPI,14582,Special Housing Unit (Sphu),"name match only: PREA ""SHU"", SPI ""Sphu"" (1987, 25,084 sq ft); the only SPI housing record left for it"
+CIW-PSU,CIW-spi51538,places,,same as building,paired,SPI,51538,20-Bed Psychiatric Services Housing Unit,the unit is the SPI record
+CIW-H12,CIW-H12,places,,same as building,paired,SPI,14578,H-12 Housing Unit,the unit is the SPI record
+CIW-CTC,CIW-spi50592,places,,same as building,candidate,SPI,50592,Correctional Treatment Center,"name match only (2006, 30,604 sq ft); CQIT calls the building ""Central Services Building"" and puts the PIP there too, while SPI has the PIP as its own record (55229)"
