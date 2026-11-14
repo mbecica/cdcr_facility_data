@@ -327,3 +327,27 @@ CEN-D5,CEN-355,places,,same as building,paired,SPI,38193,355 | Housing Unit D-5,
 CEN-ASU,CEN-346,places,,same as building,candidate,SPI,50272,346 | Administrative Segregation Housing Unit,name match only (built 2003); no source pairs the ASU with this record
 CEN-DORM-1,CEN-901,places,,same as building,paired,SPI,38258,901 | Dorm 1,SPI names the structure a dorm
 CEN-DORM-2,CEN-902,places,,same as building,paired,SPI,38259,902 | Dorm 2,SPI names the structure a dorm
+ISP-A1,ISP-321,places,,same as building,paired,SPI,39411,321 | Housing Unit A-1,SPI writes the unit name on the building record
+ISP-A2,ISP-322,places,,same as building,paired,SPI,39412,322 | Housing Unit A-2,SPI writes the unit name on the building record
+ISP-A3,ISP-323,places,,same as building,paired,SPI,39413,323 | Housing Unit A-3,SPI writes the unit name on the building record
+ISP-A4,ISP-324,places,,same as building,paired,SPI,39414,324 | Housing Unit A-4,SPI writes the unit name on the building record
+ISP-A5,ISP-325,places,,same as building,paired,SPI,39415,325 | Housing Unit A-5,SPI writes the unit name on the building record
+ISP-B1,ISP-331,places,,same as building,paired,SPI,39416,331 | Housing Unit B-1,SPI writes the unit name on the building record
+ISP-B2,ISP-332,places,,same as building,paired,SPI,39417,332 | Housing Unit B-2,SPI writes the unit name on the building record
+ISP-B3,ISP-333,places,,same as building,paired,SPI,39418,333 | Housing Unit B-3,SPI writes the unit name on the building record
+ISP-B4,ISP-334,places,,same as building,paired,SPI,39419,334 | Housing Unit B-4,SPI writes the unit name on the building record
+ISP-B5,ISP-335,places,,same as building,paired,SPI,39420,335 | Housing Unit B-5,SPI writes the unit name on the building record
+ISP-C1,ISP-341,places,,same as building,paired,SPI,39421,341 | Housing Unit C-1,SPI writes the unit name on the building record
+ISP-C2,ISP-342,places,,same as building,paired,SPI,39422,342 | Housing Unit C-2,SPI writes the unit name on the building record
+ISP-C3,ISP-343,places,,same as building,paired,SPI,39423,343 | Housing Unit C-3,SPI writes the unit name on the building record
+ISP-C4,ISP-344,places,,same as building,paired,SPI,39424,344 | Housing Unit C-4,SPI writes the unit name on the building record
+ISP-C5,ISP-345,places,,same as building,paired,SPI,39425,345 | Housing Unit C-5,SPI writes the unit name on the building record
+ISP-D1,ISP-351,places,,same as building,paired,SPI,39426,351 | Housing Unit D-1,SPI writes the unit name on the building record
+ISP-D2,ISP-352,places,,same as building,paired,SPI,39427,352 | Housing Unit D-2,SPI writes the unit name on the building record
+ISP-D3,ISP-353,places,,same as building,paired,SPI,39428,353 | Housing Unit D-3,SPI writes the unit name on the building record
+ISP-D4,ISP-354,places,,same as building,paired,SPI,39429,354 | Housing Unit D-4,SPI writes the unit name on the building record
+ISP-D5,ISP-355,places,,same as building,paired,SPI,39430,355 | Housing Unit D-5,SPI writes the unit name on the building record
+ISP-901,ISP-901,places,,same as building,paired,SPI,39483,901 | Level 1 Dorm - 100 Beds,SPI names the structure a dorm
+ISP-902,ISP-902,places,,same as building,paired,SPI,39484,902 | Level 1 Dorm - 100 Beds,SPI names the structure a dorm
+ISP-911,ISP-911,places,,same as building,paired,SPI,39488,911 | Level 1 Dorm - 100 Beds F Facility,SPI names the structure a dorm
+ISP-912,ISP-912,places,,same as building,paired,SPI,39489,912 | Level 1 Dorm - 100 Beds F Facility,SPI names the structure a dorm
