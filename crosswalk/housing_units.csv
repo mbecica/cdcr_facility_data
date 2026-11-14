@@ -502,3 +502,27 @@ HDSP-RHU,HDSP,RHU,RHU;Restrictive Housing Unit,,,,,,RHU,HDSP-Final-PREA-Audit-Re
 HDSP-Z,HDSP,Z,Z Unit;Z-UNIT;Z,,,,,,,HDSP_MSR_0524_Redacted.pdf,22,HDSP / Z-UNIT / ALL SECTIONS,,"logged May-Oct 2024 (""Z Unit / all sections""); no other source names Z, so no place; the one ""RHU"" page (0624 p104) sits inside the Z run, so Z may be the RHU (not paired)"
 HDSP-MSF-1,HDSP,MSF 1,MSF 1;MSF1,HDSP-MSF,stated,HDSP_MSR_0524_Redacted.pdf,123,HDSP / MSF 1 / dayroom podium,,HDSP_MSR_0524_Redacted.pdf,123,HDSP / MSF 1 / dayroom podium,,logged May-Oct 2024 (dayroom podium)
 HDSP-MSF-2,HDSP,MSF 2,MSF 2;MSF2,HDSP-MSF,stated,HDSP_MSR_0524_Redacted.pdf,128,msf 2,,HDSP_MSR_0524_Redacted.pdf,128,msf 2,,logged May-Oct 2024 (dayroom podium)
+LAC-A1,LAC,A1,A-1;A1,LAC-A,candidate,unit name,,A-1,,SPI,43575,331 | Housing Unit A-1,,logged May-Oct 2024
+LAC-A2,LAC,A2,A-2;A2,LAC-A,candidate,unit name,,A-2,,SPI,43576,332 | Housing Unit A-2,,logged May-Oct 2024
+LAC-A3,LAC,A3,A-3;A3,LAC-A,candidate,unit name,,A-3,,SPI,43577,333 | Housing Unit A-3,,logged May-Oct 2024
+LAC-A4,LAC,A4,A-4;A4,LAC-A,candidate,unit name,,A-4,,SPI,43578,334 | Housing Unit A-4,,logged May-Oct 2024
+LAC-A5,LAC,A5,A-5;A5,LAC-A,candidate,unit name,,A-5,,SPI,43579,335 | Housing Unit A-5,,logged May-Oct 2024
+LAC-B1,LAC,B1,B-1;B1;FBB1,LAC-B,candidate,unit name,,B-1,,SPI,43580,336 | Housing Unit B-1,,"logged May, Aug-Oct 2024"
+LAC-B2,LAC,B2,B-2;B2;FBB2,LAC-B,candidate,unit name,,B-2,,SPI,43581,337 | Housing Unit B-2,,logged May-Oct 2024
+LAC-B3,LAC,B3,B-3;B3,LAC-B,candidate,unit name,,B-3,,SPI,43582,338 | Housing Unit B-3,,logged May-Oct 2024
+LAC-B4,LAC,B4,B-4;B4,LAC-B,candidate,unit name,,B-4,,SPI,43583,339 | Housing Unit B-4,,logged May-Oct 2024
+LAC-B5,LAC,B5,B-5;B5,LAC-B,candidate,unit name,,B-5,,SPI,43584,3310 | Housing Unit B-5,,logged May-Oct 2024
+LAC-C1,LAC,C1,C-1;C1;C-1 CONTROL,LAC-C,candidate,unit name,,C-1,,SPI,43585,341 | Housing Unit C-1,,logged May-Oct 2024
+LAC-C2,LAC,C2,C-2;C2,LAC-C,candidate,unit name,,C-2,,SPI,43586,342 | Housing Unit C-2,,logged May-Oct 2024
+LAC-C3,LAC,C3,C-3;C3,LAC-C,candidate,unit name,,C-3,,SPI,43587,343 | Housing Unit C-3,,logged May-Oct 2024
+LAC-C4,LAC,C4,C-4;C4,LAC-C,candidate,unit name,,C-4,,SPI,43588,344 | Housing Unit C-4,,logged May-Oct 2024
+LAC-C5,LAC,C5,C-5;C5;FCB5,LAC-C,candidate,unit name,,C-5,,SPI,43589,345 | Housing Unit C-5,,logged Jun-Oct 2024
+LAC-D1,LAC,D1,D-1;D1,LAC-D,stated,MPAR2025:P-2324-00149,122,"Replace Roofs - Facility D, Housing Units, Buildings 346, 347, 348 and 3410",,SPI,43590,346 | Housing Unit D-1,,logged May-Oct 2024
+LAC-D2,LAC,D2,D-2;D2;FAC D BLDG 2,LAC-D,stated,MPAR2025:P-2324-00149,122,"Replace Roofs - Facility D, Housing Units, Buildings 346, 347, 348 and 3410",,SPI,43591,347 | Housing Unit D-2,,logged May-Oct 2024
+LAC-D3,LAC,D3,D-3;D3;FDB3,LAC-D,stated,MPAR2025:P-2324-00149,122,"Replace Roofs - Facility D, Housing Units, Buildings 346, 347, 348 and 3410",EOP (MPAR 2022),SPI,43592,348 | Housing Unit D-3,,logged May-Oct 2024; MPAR 2022 P-1718-00125: Medication Distribution Rooms in the Enhanced Outpatient Units at Housing Units D3 and D4
+LAC-D4,LAC,D4,D-4;D4;FDB4,LAC-D,stated,MPAR2024:P-2324-00140,126,"Replace Roofs - Facility D, Buildings 347, 348, 349, and 3410",EOP (MPAR 2022),SPI,43593,349 | Housing Unit D-4,,logged May-Oct 2024; MPAR 2022 P-1718-00125: Medication Distribution Rooms in the Enhanced Outpatient Units at Housing Units D3 and D4
+LAC-D5,LAC,D5,D-5;D5,LAC-D,stated,MPAR2025:P-2324-00149,122,"Replace Roofs - Facility D, Housing Units, Buildings 346, 347, 348 and 3410",,SPI,43594,3410 | Housing Unit D-5,,logged May-Oct 2024
+LAC-ASU,LAC,ASU,ASU-1;ASU;RHU,,,,,,ASU;RHU,LAC_MSR_0524_Redacted.pdf,76,ASU-1,,"logged May-Aug 2024 on pages titled ""ASU-1"" and Oct as ""RHU"" (1024 p89, 2nd tier); PREA 2023 names no ASU"
+LAC-INFIRMARY,LAC,Infirmary,Infirmary;INF;Infermery,,,,,,,LAC_MSR_0524_Redacted.pdf,149,INFIRMARY,,"logged May-Oct 2024 (1st tier); Coleman 31st round p97 mentions temperature logs in ""the CTC"", and SPI 451 is ""Correctional Treatment Center"", but no source pairs the infirmary with the CTC, so no place"
+LAC-MSF-DORM-1,LAC,MSF Dorm 1,MSF Dorm 1;Dorm 1,LAC-MSF,stated,LAC_MSR_0524_Redacted.pdf,7,MSF DORM,,LAC_MSR_0524_Redacted.pdf,7,MSF DORM,,logged May-Oct 2024
+LAC-MSF-DORM-2,LAC,MSF Dorm 2,MSF Dorm 2;Dorm 2,LAC-MSF,stated,LAC_MSR_0624_Redacted.pdf,45,MSF-DORM 2,,LAC_MSR_0624_Redacted.pdf,45,MSF-DORM 2,,"logged Jun, Aug-Sep 2024"

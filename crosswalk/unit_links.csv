@@ -414,3 +414,26 @@ SAC-DORM-B,SAC-spi14620,places,,same as building,paired,SPI,14620,Dormitory Buil
 HDSP-RHU,HDSP-455,places,,same as building,candidate,MPAR2025:P-2021-00058,110,Replace Roof - Buildings 351 and 455; Housing and Administrative Segregation Unit,"MPAR lists 455 with ""Administrative Segregation Unit"" (351 is housing); ASU = RHU is a name match only. SPI 50401 ""Administrative Segregation Housing Unit"" (2003) has no agency number and is probably the same building (not paired)"
 HDSP-MSF-1,HDSP-901,places,,same as building,candidate,SPI,38155,901 | Housing Unit-Level I,"number match only: MSF 1 read as 901, one of the two Level I records"
 HDSP-MSF-2,HDSP-902,places,,same as building,candidate,SPI,38156,902 | Housing Unit-Level I,"number match only: MSF 2 read as 902, one of the two Level I records"
+LAC-A1,LAC-331,places,,same as building,paired,SPI,43575,331 | Housing Unit A-1,SPI writes the unit name on the building record
+LAC-A2,LAC-332,places,,same as building,paired,SPI,43576,332 | Housing Unit A-2,SPI writes the unit name on the building record
+LAC-A3,LAC-333,places,,same as building,paired,SPI,43577,333 | Housing Unit A-3,SPI writes the unit name on the building record
+LAC-A4,LAC-334,places,,same as building,paired,SPI,43578,334 | Housing Unit A-4,SPI writes the unit name on the building record
+LAC-A5,LAC-335,places,,same as building,paired,SPI,43579,335 | Housing Unit A-5,SPI writes the unit name on the building record
+LAC-B1,LAC-336,places,,same as building,paired,SPI,43580,336 | Housing Unit B-1,SPI writes the unit name on the building record
+LAC-B2,LAC-337,places,,same as building,paired,SPI,43581,337 | Housing Unit B-2,SPI writes the unit name on the building record
+LAC-B3,LAC-338,places,,same as building,paired,SPI,43582,338 | Housing Unit B-3,SPI writes the unit name on the building record
+LAC-B4,LAC-339,places,,same as building,paired,SPI,43583,339 | Housing Unit B-4,SPI writes the unit name on the building record
+LAC-B5,LAC-3310,places,,same as building,paired,SPI,43584,3310 | Housing Unit B-5,SPI writes the unit name on the building record
+LAC-C1,LAC-341,places,,same as building,paired,SPI,43585,341 | Housing Unit C-1,SPI writes the unit name on the building record
+LAC-C2,LAC-342,places,,same as building,paired,SPI,43586,342 | Housing Unit C-2,SPI writes the unit name on the building record
+LAC-C3,LAC-343,places,,same as building,paired,SPI,43587,343 | Housing Unit C-3,SPI writes the unit name on the building record
+LAC-C4,LAC-344,places,,same as building,paired,SPI,43588,344 | Housing Unit C-4,SPI writes the unit name on the building record
+LAC-C5,LAC-345,places,,same as building,paired,SPI,43589,345 | Housing Unit C-5,SPI writes the unit name on the building record
+LAC-D1,LAC-346,places,,same as building,paired,SPI,43590,346 | Housing Unit D-1,SPI writes the unit name on the building record
+LAC-D2,LAC-347,places,,same as building,paired,SPI,43591,347 | Housing Unit D-2,SPI writes the unit name on the building record
+LAC-D3,LAC-348,places,,same as building,paired,SPI,43592,348 | Housing Unit D-3,SPI writes the unit name on the building record
+LAC-D4,LAC-349,places,,same as building,paired,SPI,43593,349 | Housing Unit D-4,SPI writes the unit name on the building record
+LAC-D5,LAC-3410,places,,same as building,paired,SPI,43594,3410 | Housing Unit D-5,SPI writes the unit name on the building record
+LAC-ASU,LAC-spi50273,places,,same as building,candidate,SPI,50273,Administrative Segregation Housing Unit,"name match only (built 2002, 25,204 sq ft); the Plata cooling ID ""ASU6"" (Housing) may be the same building, not paired"
+LAC-MSF-DORM-1,LAC-901,places,,same as building,candidate,SPI,43655,901 | Level One Housing,"number match only: Dorm 1 read as 901, one of the two Level One Housing records"
+LAC-MSF-DORM-2,LAC-902,places,,same as building,candidate,SPI,43656,902 | Level One Housing,"number match only: Dorm 2 read as 902, one of the two Level One Housing records"
