@@ -556,3 +556,15 @@ CRC-OHU,CRC-458,places,,part of building,candidate,SPI,28985,458 | Ohu/Main Medi
 CRC-H1,CRC-H1,places,,same as building,paired,SPI,50969,MOD H1 | Male Housing,the unit is the SPI record
 CRC-H2,CRC-H2,places,,same as building,paired,SPI,50970,MOD H2 | Male Housing,the unit is the SPI record
 CRC-H3,CRC-H3,places,,same as building,paired,SPI,50971,MOD H3 | Male Housing,the unit is the SPI record
+CTF-B-WING,CTF-spi15632:B,place_parts,,part of building,candidate,CTF_MSR_0524_Redacted.pdf,2,B-Wing,the unit is the whole wing; the wing is a candidate part of Central Facility
+CTF-C-WING,CTF-spi15632:C,place_parts,,part of building,candidate,CTF_MSR_0524_Redacted.pdf,7,C-WING,the unit is the whole wing; the wing is a candidate part of Central Facility
+CTF-D-WING,CTF-spi15632:D,place_parts,,part of building,candidate,CTF_MSR_0524_Redacted.pdf,12,D-WING,the unit is the whole wing; the wing is a candidate part of Central Facility
+CTF-E-WING,CTF-spi15632:E,place_parts,,part of building,candidate,CTF_MSR_0524_Redacted.pdf,17,EW,the unit is the whole wing; the wing is a candidate part of Central Facility
+CTF-F-WING,CTF-spi15632:F,place_parts,,part of building,candidate,CTF_MSR_0524_Redacted.pdf,27,F-Wing,the unit is the whole wing; the wing is a candidate part of Central Facility
+CTF-G-WING,CTF-spi15632:G,place_parts,,part of building,candidate,CTF_MSR_0524_Redacted.pdf,23,G-W,the unit is the whole wing; the wing is a candidate part of Central Facility
+CTF-X-WING,CTF-spi15632:X,place_parts,,part of building,paired,CTF_MSR_0524_Redacted.pdf,37,X-WING,the unit is the whole wing
+CTF-Y-WING,CTF-spi15632:Y,place_parts,,part of building,candidate,CTF_MSR_0524_Redacted.pdf,42,Y-W,the unit is the whole wing; the wing is a candidate part of Central Facility
+CTF-Z-WING,CTF-spi15632:Z,place_parts,,part of building,candidate,CTF_MSR_0524_Redacted.pdf,47,Z-Wing,the unit is the whole wing; the wing is a candidate part of Central Facility
+CTF-O-WING,CTF-spi15632:O,place_parts,,part of building,paired,CTF_MSR_0524_Redacted.pdf,22,O-Wing,the unit is the whole wing
+CTF-FREMONT,CTF-SV,places,,same as building,paired,SPI,38331,SV | Sv Fremont Dormitory,SPI writes the dorm name
+CTF-TORO,CTF-SW,places,,same as building,paired,SPI,38330,SW | Sw Toro Dormitory,SPI writes the dorm name

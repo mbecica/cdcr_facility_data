@@ -206,3 +206,8 @@ CRC-C,CRC,C,"Facilities B, C, and D",CRC-Final-PREA-Audit-Report-6.22.23,9,"The 
 CRC-D,CRC,D,"Facilities B, C, and D",CRC-Final-PREA-Audit-Report-6.22.23,9,"The lead auditor randomly selected inmates from Facilities B, C, and D. Facility A was closed during the audit due to physical plant issues.",
 CRC-D,CRC,D,DELTA,CRC_MSR_0624_Redacted.pdf,72,Facility-DELTA Dorm-403,log header
 CRC-D,CRC,D,Facility D,SPI,28934,102 | Facility D Visiting,
+CTF-A,CTF,A,Inmate Facility A & B,facility-locator-ctf-2026-11-13,,"Inmate Facility A & B , P.O. Box 705, Soledad, CA 93960",mailing address shared with B
+CTF-B,CTF,B,Inmate Facility A & B,facility-locator-ctf-2026-11-13,,"Inmate Facility A & B , P.O. Box 705, Soledad, CA 93960",mailing address shared with A
+CTF-C,CTF,C,Inmate Facility C,facility-locator-ctf-2026-11-13,,"Inmate Facility C , P.O. Box 689, Soledad, CA 93960",
+CTF-C,CTF,C,Central,coleman_receiver_cqit_audit_ctf_2026,10,"Correctional Training Facility (CTF) is an institution with two facilities, Central and North","candidate: Central holds the nine wings and the O-wing ASU that the locator puts in Facility C; SPI ""Ij-Facility C Primary Care Clinic"" uses the double-letter series of the Central records"
+CTF-D,CTF,D,Facility D,facility-locator-ctf-2026-11-13,,CTF Facility D closed in 2021.,"closed 2021 (six dorms); SPI ""S-90-Facility D Primary Care Clinic"" is in the South Facility S-number series"

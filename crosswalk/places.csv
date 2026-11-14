@@ -1464,7 +1464,6 @@ CTF-SV,CTF,SV,Sv Fremont Dormitory,building,,,,,,,housing,,,1996,,13244,DORMITOR
 CTF-SW,CTF,SW,Sw Toro Dormitory,building,,,,,,,housing,,,1996,,13244,DORMITORY,38330,SW,51,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 CTF-central-culinary-building,CTF,,Central Culinary Building,building,,,,,,,kitchen,,,,,,,,,,,1,MPAR2022:P-0910-00900
 CTF-l-wing,CTF,,L-Wing,building,,,,,,,,,,,,,,,,,,1,MPAR2022:P-0910-00900
-CTF-o-wing,CTF,,O Wing;O-Wing,building,,,,,,,,ASU,,,,,,,,,,5,MPAR2022:P-0910-01114;MPAR2022:P-1718-00122;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA;sen_sub5_agenda_vote_outcomes_2018-03-15
 CTF-spi15632,CTF,,Central Facility,building,,,,,,,,,,,,432325,OFFICE (INSTITUTIONAL),15632,15632,51,,1,SPI
 CTF-spi15633,CTF,,"P-1 Boiler Room Annex, P Boiler Room",building,,,,,,,,,,,,12266,UTILITY,15633,"P, P-1",51,,1,SPI
 CTF-spi15634,CTF,,Bb Garage/Service Station,building,,,,,,,,,,,,8596,SERVICE STATION,15634,BB,51,,1,SPI

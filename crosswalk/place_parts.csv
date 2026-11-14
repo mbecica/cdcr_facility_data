@@ -185,3 +185,13 @@ PVSP-342:B,PVSP-342,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,s
 PVSP-343:B,PVSP-343,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,stated,PVSP_MSR_0724_Redacted.pdf,54,PVSP / B3 / 2ND Tier B-Sect.,,
 PVSP-344:B,PVSP-344,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,stated,PVSP_MSR_0724_Redacted.pdf,58,PVSP / B4 / 2ND T B-SIDE,,
 PVSP-345:B,PVSP-345,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,stated,PVSP_MSR_0924_Redacted.pdf,89,B-5 2nd B-Section,,
+CTF-spi15632:B,CTF-spi15632,wing,B,B wing,candidate,CTF_MSR_0524_Redacted.pdf,2,B-Wing,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:C,CTF-spi15632,wing,C,C wing,candidate,CTF_MSR_0524_Redacted.pdf,7,C-WING,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:D,CTF-spi15632,wing,D,D wing,candidate,CTF_MSR_0524_Redacted.pdf,12,D-WING,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:E,CTF-spi15632,wing,E,E wing,candidate,CTF_MSR_0524_Redacted.pdf,17,EW,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:F,CTF-spi15632,wing,F,F wing,candidate,CTF_MSR_0524_Redacted.pdf,27,F-Wing,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:G,CTF-spi15632,wing,G,G wing,candidate,CTF_MSR_0524_Redacted.pdf,23,G-W,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:X,CTF-spi15632,wing,X,X wing,stated,SPI,36783,"X-1 | X-1 Central Fac Roof, Tower X-Wing",,SPI names the guard tower on the Central Facility roof at this wing
+CTF-spi15632:Y,CTF-spi15632,wing,Y,Y wing,candidate,CTF_MSR_0524_Redacted.pdf,42,Y-W,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:Z,CTF-spi15632,wing,Z,Z wing,candidate,CTF_MSR_0524_Redacted.pdf,47,Z-Wing,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:O,CTF-spi15632,wing,O,O wing,stated,SPI,36784,"O-3 | O-3 Central Fac Roof, Tower O-Wing West",CTF-o-wing,SPI names the guard tower on the Central Facility roof at this wing
