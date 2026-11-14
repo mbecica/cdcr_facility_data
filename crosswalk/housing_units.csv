@@ -303,3 +303,26 @@ CAL-OHU,CAL,OHU,OHU,,,,,,OHU,CAL_MSR_0524_Redacted.pdf,6,OHU,,"logged May-Oct 20
 CAL-RHU,CAL,RHU,RHU,,,,,,RHU,CAL_MSR_0524_Redacted.pdf,41,RHU,,"logged May-Oct 2024 (1st tier); the locator mails ASU with MSF and FH (MSF/FH/ASU), which does not place it in a facility"
 CAL-DORM-1,CAL,Dorm 1,Level I Housing Dorm #1,CAL-MSF,candidate,SPI,43744,901 | Bldg. 901 - Level I Housing Dorm #1,,SPI,43744,901 | Bldg. 901 - Level I Housing Dorm #1,,no 2024 log names a CAL dorm; Plata Aug 2024 lists 901 as Housing; facility MSF from Level I (the locator lists MSF; Level I = MSF is not stated at CAL)
 CAL-DORM-2,CAL,Dorm 2,Level I Housing Dorm #2,CAL-MSF,candidate,SPI,43745,902 | Bldg. 902 - Level I Housing Dorm #2,,SPI,43745,902 | Bldg. 902 - Level I Housing Dorm #2,,no 2024 log names a CAL dorm; Plata Aug 2024 lists 902 as Housing; facility MSF from Level I (the locator lists MSF; Level I = MSF is not stated at CAL)
+CEN-A1,CEN,A1,A-1,CEN-A,candidate,unit name,,A-1,,SPI,38174,321 | Housing Unit A-1,,
+CEN-A2,CEN,A2,A-2,CEN-A,candidate,unit name,,A-2,,SPI,38175,322 | Housing Unit A-2,,
+CEN-A3,CEN,A3,A-3,CEN-A,candidate,unit name,,A-3,,SPI,38176,323 | Housing Unit A-3,,
+CEN-A4,CEN,A4,A-4,CEN-A,candidate,unit name,,A-4,,SPI,38177,324 | Housing Unit A-4,,
+CEN-A5,CEN,A5,A-5,CEN-A,candidate,unit name,,A-5,,SPI,38178,325 | Housing Unit A-5,,
+CEN-B1,CEN,B1,B-1,CEN-B,candidate,unit name,,B-1,,SPI,38179,331 | Housing Unit B-1,,
+CEN-B2,CEN,B2,B-2,CEN-B,candidate,unit name,,B-2,,SPI,38180,332 | Housing Unit B-2,,
+CEN-B3,CEN,B3,B-3,CEN-B,candidate,unit name,,B-3,,SPI,38181,333 | Housing Unit B-3,,
+CEN-B4,CEN,B4,B-4,CEN-B,candidate,unit name,,B-4,,SPI,38182,334 | Housing Unit B-4,,
+CEN-B5,CEN,B5,B-5,CEN-B,candidate,unit name,,B-5,,SPI,38183,335 | Housing Unit B-5,,
+CEN-C1,CEN,C1,C-1,CEN-C,candidate,unit name,,C-1,,SPI,38184,341 | Housing Unit C-1,,
+CEN-C2,CEN,C2,C-2,CEN-C,candidate,unit name,,C-2,,SPI,38185,342 | Housing Unit C-2,,
+CEN-C3,CEN,C3,C-3;C3,CEN-C,candidate,unit name,,C-3,,SPI,38186,343 | Housing Unit C-3,,"logged July 2024 only (CEN_MSR_0724 pp3-6, ""C3"", ""C3 Dayroom""); the CEN packages have no other 2031 pages"
+CEN-C4,CEN,C4,C-4,CEN-C,candidate,unit name,,C-4,,SPI,38187,344 | Housing Unit C-4,,
+CEN-C5,CEN,C5,C-5,CEN-C,candidate,unit name,,C-5,,SPI,38188,345 | Housing Unit C-5,,
+CEN-D1,CEN,D1,D-1,CEN-D,candidate,unit name,,D-1,,SPI,38189,351 | Housing Unit D-1,,
+CEN-D2,CEN,D2,D-2,CEN-D,candidate,unit name,,D-2,,SPI,38190,352 | Housing Unit D-2,,
+CEN-D3,CEN,D3,D-3,CEN-D,candidate,unit name,,D-3,,SPI,38191,353 | Housing Unit D-3,,
+CEN-D4,CEN,D4,D-4,CEN-D,candidate,unit name,,D-4,,SPI,38192,354 | Housing Unit D-4,,
+CEN-D5,CEN,D5,D-5,CEN-D,candidate,unit name,,D-5,,SPI,38193,355 | Housing Unit D-5,,
+CEN-ASU,CEN,ASU,Administrative Segregation Unit,,,,,,ASU,CEN-Final-PREA-Audit-Report-10.26.23,23,"Areas included Facilities A, B, C, and D (which includes reception, general, and special needs populations); Minimum Support Facility; Administrative Segregation Unit, Correctional Treatment Center;",,"listed beside the facilities, not in one; not logged in 2024"
+CEN-DORM-1,CEN,Dorm 1,Dorm 1,CEN-MSF,candidate,SPI,38258,901 | Dorm 1,,SPI,38258,901 | Dorm 1,,"not logged in 2024; Plata Aug 2024 lists 901 as Housing; facility MSF is a candidate (SPI 900-series dorms, as at CAL, NKSP; not stated)"
+CEN-DORM-2,CEN,Dorm 2,Dorm 2,CEN-MSF,candidate,SPI,38259,902 | Dorm 2,,SPI,38259,902 | Dorm 2,,"not logged in 2024; Plata Aug 2024 lists 902 as Housing; facility MSF is a candidate (SPI 900-series dorms, as at CAL, NKSP; not stated)"

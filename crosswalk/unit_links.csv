@@ -304,3 +304,26 @@ CAL-D5,CAL-355,places,,same as building,paired,SPI,43698,355 | Bldg. 355 - Housi
 CAL-RHU,CAL-360,places,,same as building,candidate,SPI,50271,360 | Bldg 360 Admin Segregation Housing Unit,name match only (built 2003); no source pairs RHU with this record
 CAL-DORM-1,CAL-901,places,,same as building,paired,SPI,43744,901 | Bldg. 901 - Level I Housing Dorm #1,SPI names the structure a Level I housing dorm
 CAL-DORM-2,CAL-902,places,,same as building,paired,SPI,43745,902 | Bldg. 902 - Level I Housing Dorm #2,SPI names the structure a Level I housing dorm
+CEN-A1,CEN-321,places,,same as building,paired,SPI,38174,321 | Housing Unit A-1,SPI writes the unit name on the building record
+CEN-A2,CEN-322,places,,same as building,paired,SPI,38175,322 | Housing Unit A-2,SPI writes the unit name on the building record
+CEN-A3,CEN-323,places,,same as building,paired,SPI,38176,323 | Housing Unit A-3,SPI writes the unit name on the building record
+CEN-A4,CEN-324,places,,same as building,paired,SPI,38177,324 | Housing Unit A-4,SPI writes the unit name on the building record
+CEN-A5,CEN-325,places,,same as building,paired,SPI,38178,325 | Housing Unit A-5,SPI writes the unit name on the building record
+CEN-B1,CEN-331,places,,same as building,paired,SPI,38179,331 | Housing Unit B-1,SPI writes the unit name on the building record
+CEN-B2,CEN-332,places,,same as building,paired,SPI,38180,332 | Housing Unit B-2,SPI writes the unit name on the building record
+CEN-B3,CEN-333,places,,same as building,paired,SPI,38181,333 | Housing Unit B-3,SPI writes the unit name on the building record
+CEN-B4,CEN-334,places,,same as building,paired,SPI,38182,334 | Housing Unit B-4,SPI writes the unit name on the building record
+CEN-B5,CEN-335,places,,same as building,paired,SPI,38183,335 | Housing Unit B-5,SPI writes the unit name on the building record
+CEN-C1,CEN-341,places,,same as building,paired,SPI,38184,341 | Housing Unit C-1,SPI writes the unit name on the building record
+CEN-C2,CEN-342,places,,same as building,paired,SPI,38185,342 | Housing Unit C-2,SPI writes the unit name on the building record
+CEN-C3,CEN-343,places,,same as building,paired,SPI,38186,343 | Housing Unit C-3,SPI writes the unit name on the building record
+CEN-C4,CEN-344,places,,same as building,paired,SPI,38187,344 | Housing Unit C-4,SPI writes the unit name on the building record
+CEN-C5,CEN-345,places,,same as building,paired,SPI,38188,345 | Housing Unit C-5,SPI writes the unit name on the building record
+CEN-D1,CEN-351,places,,same as building,paired,SPI,38189,351 | Housing Unit D-1,SPI writes the unit name on the building record
+CEN-D2,CEN-352,places,,same as building,paired,SPI,38190,352 | Housing Unit D-2,SPI writes the unit name on the building record
+CEN-D3,CEN-353,places,,same as building,paired,SPI,38191,353 | Housing Unit D-3,SPI writes the unit name on the building record
+CEN-D4,CEN-354,places,,same as building,paired,SPI,38192,354 | Housing Unit D-4,SPI writes the unit name on the building record
+CEN-D5,CEN-355,places,,same as building,paired,SPI,38193,355 | Housing Unit D-5,SPI writes the unit name on the building record
+CEN-ASU,CEN-346,places,,same as building,candidate,SPI,50272,346 | Administrative Segregation Housing Unit,name match only (built 2003); no source pairs the ASU with this record
+CEN-DORM-1,CEN-901,places,,same as building,paired,SPI,38258,901 | Dorm 1,SPI names the structure a dorm
+CEN-DORM-2,CEN-902,places,,same as building,paired,SPI,38259,902 | Dorm 2,SPI names the structure a dorm
