@@ -1411,50 +1411,6 @@ CRC-spi50975,CRC,,Health Care Offices / Supply,building,,,,,,,,,,2002,,5760,RELO
 CRC-spi50980,CRC,,Board Of Parole Hearings,building,,,,,,,,,,2002,,4320,RELOCATABLE OFFICE,50980,MOD N,48,,1,SPI
 CRC-spi50985,CRC,,Education Offices / Classrooms,building,,,,,,,,,,2002,,2880,RELOCATABLE CLASSROOM,50985,MOD R,48,,1,SPI
 CRC-spi50986,CRC,,Education Classroom,building,,,,,,,,,,2002,,720,RELOCATABLE OFFICE,50986,MOD S,48,,1,SPI
-CTC-B,CTC,B,,building,,,,,,,,,,,,,,,,,,1,MPAR2022:P-1819-00016
-CTC-D,CTC,D,,building,,,,,,,,,,,,,,,,,,1,MPAR2022:P-1819-00016
-CTC-E,CTC,E,,building,,,,,,,,,,,,,,,,,,1,MPAR2022:P-1819-00016
-CTC-F,CTC,F,,building,,,,,,,,,,,,,,,,,,1,MPAR2022:P-1819-00016
-CTC-G,CTC,G,,building,,,,,,,,,,,,,,,,,,1,MPAR2022:P-1819-00016
-CTC-L,CTC,L,,building,,,,,,,,,,,,,,,,,,1,MPAR2022:P-1819-00016
-CTC-N,CTC,N,,building,,,,,,,,,,,,,,,,,,1,MPAR2022:P-1819-00016
-CTC-c-wing,CTC,,C-Wing,building,,,,,,,,,,,,,,,,,,1,MPAR2022:P-1718-00396
-CTC-f-dorm,CTC,,F Dorm,building,,,,,,,housing,,,,,,,,,,,1,MPAR2022:P-1718-00396
-CTC-north-corridor-classrooms,CTC,,North Corridor Classrooms,building,,,,,,,program,,,,,,,,,,,1,MPAR2022:P-1718-00396
-CTC-spi44290,CTC,,A Building,building,,,,,,,,,,1959,,5016,AUDITORIUM/HALL,44290,,10497,,1,SPI
-CTC-spi44291,CTC,,B Building,building,,,,,,,,,,1959,,13035,OFFICE (INSTITUTIONAL),44291,,10497,,1,SPI
-CTC-spi44292,CTC,,C Building,building,,,,,,,,,,1959,,7198,OFFICE (INSTITUTIONAL),44292,,10497,,1,SPI
-CTC-spi44293,CTC,,D Building,building,,,,,,,,,,1959,,3616,OFFICE (INSTITUTIONAL),44293,,10497,,1,SPI
-CTC-spi44294,CTC,,E Building,building,,,,,,,,,,1959,,7729,DORMITORY,44294,,10497,,1,SPI
-CTC-spi44295,CTC,,F Building,building,,,,,,,,,,1959,,9222,DORMITORY,44295,,10497,,1,SPI
-CTC-spi44296,CTC,,G Building,building,,,,,,,,,,1959,,9297,DORMITORY,44296,,10497,,1,SPI
-CTC-spi44297,CTC,,H Building,building,,,,,,,,,,1991,,1906,ARMORY,44297,,10497,,1,SPI
-CTC-spi44298,CTC,,J Building,building,,,,,,,,,,1959,,9648,KITCHEN,44298,,10497,,1,SPI
-CTC-spi44299,CTC,,K Building,building,,,,,,,,,,1959,,2479,OFFICE (INSTITUTIONAL),44299,,10497,,1,SPI
-CTC-spi44300,CTC,,L Building,building,,,,,,,,,,1959,,14972,GYMNASIUM,44300,,10497,,1,SPI
-CTC-spi44301,CTC,,M Building,building,,,,,,,,,,1991,,12750,AUDITORIUM/HALL,44301,,10497,,1,SPI
-CTC-spi44302,CTC,,N Building,building,,,,,,,,,,1991,,4627,OFFICE (INSTITUTIONAL),44302,,10497,,1,SPI
-CTC-spi44303,CTC,,O Building,building,,,,,,,,,,1991,,4110,CLASSROOM,44303,,10497,,1,SPI
-CTC-spi44304,CTC,,P Building,building,,,,,,,,,,1991,,4200,CLASSROOM,44304,,10497,,1,SPI
-CTC-spi44305,CTC,,Q Building,building,,,,,,,,,,1991,,2464,DORMITORY,44305,,10497,,1,SPI
-CTC-spi44306,CTC,,R Building,building,,,,,,,,,,1991,,2464,DORMITORY,44306,,10497,,1,SPI
-CTC-spi44307,CTC,,S Building,building,,,,,,,,,,1991,,2464,DORMITORY,44307,,10497,,1,SPI
-CTC-spi44308,CTC,,T Building,building,,,,,,,,,,1991,,2514,DORMITORY,44308,,10497,,1,SPI
-CTC-spi44309,CTC,,U Building,building,,,,,,,,,,1991,,2514,DORMITORY,44309,,10497,,1,SPI
-CTC-spi44310,CTC,,V Building,building,,,,,,,,,,1991,,7186,SHOP,44310,,10497,,1,SPI
-CTC-spi44311,CTC,,W Building,building,,,,,,,,,,1991,,9668,WAREHOUSE,44311,,10497,,1,SPI
-CTC-spi44312,CTC,,X Building,building,,,,,,,,,,1991,,3117,SHOP,44312,,10497,,1,SPI
-CTC-spi44313,CTC,,Y Building,building,,,,,,,,,,1991,,2342,LAUNDRY,44313,,10497,,1,SPI
-CTC-spi44314,CTC,,Z Building,building,,,,,,,,,,1991,,2940,EQUIPMENT/MAINTENANCE BUILDING,44314,,10497,,1,SPI
-CTC-spi4647,CTC,,Modular Building A,building,,,,,,,,,,1998,,1440,RELOCATABLE CLASSROOM,4647,,10497,,1,SPI
-CTC-spi4648,CTC,,Modular Building B,building,,,,,,,,,,1998,,1440,RELOCATABLE CLASSROOM,4648,,10497,,1,SPI
-CTC-spi4649,CTC,,Modular Building C,building,,,,,,,,,,1998,,1440,RELOCATABLE CLASSROOM,4649,,10497,,1,SPI
-CTC-spi4650,CTC,,Modular Building D,building,,,,,,,,,,1998,,1440,RELOCATABLE CLASSROOM,4650,,10497,,1,SPI
-CTC-spi5014,CTC,,Modular Building F,building,,,,,,,,,,2001,,4970,RELOCATABLE OFFICE,5014,,10497,,1,SPI
-CTC-spi5015,CTC,,Modular Building H,building,,,,,,,,,,2001,,7800,RELOCATABLE DORMITORY,5015,,10497,,1,SPI
-CTC-spi5016,CTC,,Modular Building I,building,,,,,,,,,,2001,,7800,RELOCATABLE DORMITORY,5016,,10497,,1,SPI
-CTC-spi5017,CTC,,Modular Building G,building,,,,,,,,,,2001,,4970,RELOCATABLE DORMITORY,5017,,10497,,1,SPI
-CTC-spi5018,CTC,,Modular Building E,building,,,,,,,,,,2001,,1420,RELOCATABLE CLASSROOM,5018,,10497,,1,SPI
 CTF-O,CTF,O,,building,,,,,,,housing,,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 CTF-P2,CTF,P2,Building P2 - Boiler Addition,building,,,,,,,,,,2012,,713,UTILITY,54983,P2,51,,1,SPI
 CTF-S207,CTF,S207,S-207 Well No. 5,building,,,,,,,,,,,,64,PUMP/WELL HOUSE,28733,S207,51,,1,SPI

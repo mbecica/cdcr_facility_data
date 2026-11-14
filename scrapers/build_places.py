@@ -16,6 +16,9 @@ Reads:
                                 mapper names, so links to them are candidates)
 
 Output: crosswalk/places.csv
+        crosswalk/archive/places_non_prison.csv
+          rows for NON_PRISON codes (sites that aren't prisons, kept but not
+          published), same columns
   One row per building, outdoor area or other structure. Columns are the
   inventory's, renamed (building_key -> place_key, building -> place,
   building_name -> place_name), plus:
@@ -74,6 +77,11 @@ OSM_PLACES = {
     'CMC-305': '204437394',   # Dormitory 33 (305)
     'CMC-308': '204435962',   # Dormitory 34 (308)
 }
+# codes in the inventory that aren't prisons: archived, not published
+NON_PRISON = {
+    'CTC',   # Richard A. McGee Correctional Training Center (staff academy, per SPI)
+}
+
 OSM_NUM = re.compile(r'\((\w+)\)\s*$')
 
 FAC_IN_NAME = re.compile(r'\b(?:Facility|Fac\.?)[\s\-]+([A-Z])\b', re.I)
@@ -161,11 +169,15 @@ def main():
             'beds', 'year_built', 'stories', 'sqft', 'spi_structure_type',
             'spi_structure_number', 'spi_agency_structure_no', 'spi_real_property_number',
             'conflicts', 'n_sources', 'sources']
+    arch = b['cdcr_code'].isin(NON_PRISON)
+    (CW / 'archive').mkdir(exist_ok=True)
+    b.loc[arch, cols].to_csv(CW / 'archive' / 'places_non_prison.csv', index=False)
+    b = b[~arch]
     b[cols].to_csv(CW / 'places.csv', index=False)
     print(f'places.csv: {len(b)} rows ({len(moved)} inventory rows moved to units/parts); '
           f"{(b['kind'] == 'other structure').sum()} other structures, "
           f"{(b['group_row'] == 'yes').sum()} group rows, "
-          f"{(b['facility_key'] != '').sum()} with a facility")
+          f"{(b['facility_key'] != '').sum()} with a facility; {arch.sum()} non-prison rows archived")
 
 
 if __name__ == '__main__':
