@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Build the physical-place table from the building inventory (draft, step 1 of
-the location restructure).
+Build the physical-place table from the building inventory.
 
 Reads:
   crosswalk/buildings.csv       built by scrapers/build_buildings.py
@@ -29,9 +28,9 @@ Output: crosswalk/places.csv
                      ("Cedar Hall, Fac-D", "Facility C Hsg Unit 1")
     facility_source  mention / SPI name
     group_row        yes when the record covers several buildings or units
-                     (name lists or ranges them, or a hand list). Step 2 splits
-                     these; until then this flag is a pattern match to check.
-    split_from       blank until step 2
+                     (name lists or ranges them, or a hand list); a
+                     pattern match, not yet split into child rows.
+    split_from       blank until group rows are split
     stories          blank; no source yet
 
 Inventory rows named in `from_building_key` are left out: they move to
