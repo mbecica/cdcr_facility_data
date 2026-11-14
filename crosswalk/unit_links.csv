@@ -188,7 +188,6 @@ WSP-H1,WSP-418,places,,same as building,paired,SPI,39497,418 | Reception Ctr Hou
 WSP-H2,WSP-419,places,,same as building,paired,SPI,39498,419 | Reception Ctr Housing-Dorms Facility H-2,SPI writes the unit name on the building record
 WSP-H3,WSP-421,places,,same as building,paired,SPI,39499,421 | Reception Ctr Housing-Dorms Facility H-3,SPI writes the unit name on the building record
 WSP-H4,WSP-422,places,,same as building,paired,SPI,39500,422 | Reception Ctr Housing-Dorms Facility H-4,SPI writes the unit name on the building record
-WSP-H5,WSP-423,places,,same as building,paired,SPI,39501,423 | Reception Ctr Housing-Dorms H-5,SPI writes the unit name on the building record
 WSP-M1,WSP-901,places,,same as building,paired,SPI,37797,901 | Facility M Building 1,SPI writes the unit name on the building record
 WSP-M2,WSP-902,places,,same as building,paired,SPI,37798,902 | Facility M Building 2,SPI writes the unit name on the building record
 WSP-CTC,WSP-correctional-treatment-center,places,,same as building,candidate,MPAR2022:P-1516-00295,204,"Board of Parole Hearings conference room, Correctional Treatment Center, Receiving and Release",abbreviation match only; no SPI record named CTC
