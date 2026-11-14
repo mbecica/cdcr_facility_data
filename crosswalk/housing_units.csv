@@ -235,3 +235,33 @@ SATF-C7,SATF,C7,C-7,SATF-C,candidate,unit name,,C-7,,SPI,40200,"344 | Housing Un
 SATF-C8,SATF,C8,C-8,SATF-C,candidate,unit name,,C-8,,SPI,40200,"344 | Housing Unit C-7, C-8",,
 SATF-RHU,SATF,RHU,RHU;Restrictive Housing;Restrictive Housing Unit,,,,,,RHU,SATF-Final-PREA-Audit-Report-10.06.24,50,"Complexes II, III, and IV housing units, Restrictive Housing Unit, and Correctional Treatment Center (CTC) cells are wet (i.e. toilets are within).",,"PREA p23 places Restrictive Housing in Complex I beside Facilities A and B, not in a facility; logged May-Oct 2024 as ""RHU"" with 2nd/top tier pages"
 SATF-CTC,SATF,CTC,CTC;CTC INPAT;Correctional Treatment Center,,,,,,,SATF-Final-PREA-Audit-Report-10.06.24,50,"Complexes II, III, and IV housing units, Restrictive Housing Unit, and Correctional Treatment Center (CTC) cells are wet (i.e. toilets are within).",,"logged May-Oct 2024 as ""CTC INPAT / 1st Tier""; not in PREA's count of 31 (30 SPI units + RHU), kept because logged"
+PBSP-A1,PBSP,A1,A-1;A1,PBSP-A,stated,coleman_receiver_cqit_audit_pbsp_2026,8,A (Level IV ML) General Population (GP); eight cell housing units (180-degree design). A1 and A2 temporarily closed,,SPI,38404,A1 And A2 Housing Units,,
+PBSP-A2,PBSP,A2,A-2;A2,PBSP-A,stated,coleman_receiver_cqit_audit_pbsp_2026,8,A (Level IV ML) General Population (GP); eight cell housing units (180-degree design). A1 and A2 temporarily closed,,SPI,38404,A1 And A2 Housing Units,,
+PBSP-A3,PBSP,A3,A-3;A3,PBSP-A,candidate,unit name,,A-3,,SPI,38405,A3 And A4 Housing Units,,
+PBSP-A4,PBSP,A4,A-4;A4,PBSP-A,candidate,unit name,,A-4,,SPI,38405,A3 And A4 Housing Units,,
+PBSP-A5,PBSP,A5,A-5;A5,PBSP-A,candidate,unit name,,A-5,,SPI,38406,A5 And A6 Housing Units,,
+PBSP-A6,PBSP,A6,A-6;A6,PBSP-A,candidate,unit name,,A-6,,SPI,38406,A5 And A6 Housing Units,,
+PBSP-A7,PBSP,A7,A-7;A7,PBSP-A,candidate,unit name,,A-7,,SPI,38407,A7 And A8 Housing Units,,
+PBSP-A8,PBSP,A8,A-8;A8,PBSP-A,candidate,unit name,,A-8,,SPI,38407,A7 And A8 Housing Units,,
+PBSP-B1,PBSP,B1,B-1;B1,PBSP-B,stated,coleman_receiver_cqit_audit_pbsp_2026,8,"B (Level IV ML) SNY housing for GP, CCCMS, and EOP (B1 only); eight celled housing units (180-degree design). B2 is utilized for RHU overflow. B7 and B8 temporarily closed",,SPI,38410,B1 And B2 Housing Units (Dormitory),,EOP (CQIT 2026 p8)
+PBSP-B2,PBSP,B2,B-2;B2,PBSP-B,stated,coleman_receiver_cqit_audit_pbsp_2026,8,"B (Level IV ML) SNY housing for GP, CCCMS, and EOP (B1 only); eight celled housing units (180-degree design). B2 is utilized for RHU overflow. B7 and B8 temporarily closed",,SPI,38410,B1 And B2 Housing Units (Dormitory),,"used for RHU overflow (CQIT 2026 p8); logged as ""B-2 / A,B,C UPPER TIER"""
+PBSP-B3,PBSP,B3,B-3;B3,PBSP-B,candidate,unit name,,B-3,,SPI,38409,B3 And B4 Housing Units,,
+PBSP-B4,PBSP,B4,B-4;B4,PBSP-B,candidate,unit name,,B-4,,SPI,38409,B3 And B4 Housing Units,,
+PBSP-B5,PBSP,B5,B-5;B5,PBSP-B,stated,PBSP-Final-PREA-Audit-Report-5.21.23,77,"within support and housing units on B Facility (i.e. education, medical, vocation, work change, units B5-7)",,SPI,38460,B5 And B6 Housing Units,,
+PBSP-B6,PBSP,B6,B-6;B6,PBSP-B,stated,PBSP-Final-PREA-Audit-Report-5.21.23,77,"within support and housing units on B Facility (i.e. education, medical, vocation, work change, units B5-7)",,SPI,38460,B5 And B6 Housing Units,,
+PBSP-B7,PBSP,B7,B-7;B7,PBSP-B,stated,coleman_receiver_cqit_audit_pbsp_2026,8,"B (Level IV ML) SNY housing for GP, CCCMS, and EOP (B1 only); eight celled housing units (180-degree design). B2 is utilized for RHU overflow. B7 and B8 temporarily closed",,SPI,38408,B7 And B8 Housing Units,,
+PBSP-B8,PBSP,B8,B-8;B8,PBSP-B,stated,coleman_receiver_cqit_audit_pbsp_2026,8,"B (Level IV ML) SNY housing for GP, CCCMS, and EOP (B1 only); eight celled housing units (180-degree design). B2 is utilized for RHU overflow. B7 and B8 temporarily closed",,SPI,38408,B7 And B8 Housing Units,,
+PBSP-D1,PBSP,D1,D-1;D1;D01,PBSP-D,candidate,unit name,,D-1,,PBSP_MSR_0524_Redacted.pdf,93,D-1,,logs May-Oct 2024; CQIT 2026 p8 counts 10 units on D
+PBSP-D2,PBSP,D2,D-2;D2,PBSP-D,candidate,unit name,,D-2,,PBSP_MSR_0524_Redacted.pdf,94,D-2,,
+PBSP-D3,PBSP,D3,D-3;D3,PBSP-D,candidate,unit name,,D-3,,PBSP_MSR_0524_Redacted.pdf,95,D-3,,
+PBSP-D4,PBSP,D4,D-4;D4,PBSP-D,candidate,unit name,,D-4,,PBSP_MSR_0524_Redacted.pdf,136,D-4,,
+PBSP-D5,PBSP,D5,D-5;D5,PBSP-D,candidate,unit name,,D-5,,PBSP_MSR_0524_Redacted.pdf,128,D5,,
+PBSP-D6,PBSP,D6,D-6;D6,PBSP-D,candidate,unit name,,D-6,,PBSP_MSR_0524_Redacted.pdf,98,D-6,,
+PBSP-D7,PBSP,D7,D-7;D7,PBSP-D,candidate,unit name,,D-7,,PBSP_MSR_0524_Redacted.pdf,119,D-7,,
+PBSP-D8,PBSP,D8,D-8;D8,PBSP-D,candidate,unit name,,D-8,,PBSP_MSR_0524_Redacted.pdf,100,D-8,,
+PBSP-D9,PBSP,D9,D-9;D9,PBSP-D,candidate,unit name,,D-9,,PBSP_MSR_0524_Redacted.pdf,101,D-9,,
+PBSP-D10,PBSP,D10,D-10;D10,PBSP-D,candidate,unit name,,D-10,,PBSP_MSR_0524_Redacted.pdf,102,D10,,
+PBSP-MSF-A,PBSP,MSF-A,MSF A Dorm;MSF-A Dorm;MSF A-DORM;A Dorm,PBSP-MSF,stated,PBSP_MSR_0524_Redacted.pdf,143,MSF A-DORM,,coleman_receiver_cqit_audit_pbsp_2026,8,MSF General Population; two dormitories,,"logged May-Oct 2024, with 2nd tier pages"
+PBSP-MSF-B,PBSP,MSF-B,MSF-B Dorm;MSF - B DORM;B-Dorm MSF,PBSP-MSF,stated,PBSP_MSR_0624_Redacted.pdf,124,MSF-B Dorm,,coleman_receiver_cqit_audit_pbsp_2026,8,MSF General Population; two dormitories,,"logged May-Oct 2024, with upper/2nd tier pages"
+PBSP-RHU,PBSP,RHU,RHU;Restricted Housing Unit,,,,,,RHU,coleman_receiver_cqit_audit_pbsp_2026,8,one freestanding CCCMS Restricted Housing Unit (RHU),,"CQIT lists it beside the facilities, not in one; logged May-Oct 2024 as ""RHU""; PREA 2022 p9 samples ""STRH"" beside A-D (not entered: program name, nothing pairs it)"
+PBSP-CTC,PBSP,CTC,CTC;INF/CTC;Correctional Treatment Center,,,,,,,coleman_receiver_cqit_audit_pbsp_2026,8,CTC Correctional Treatment Center; contains 10-bed MHCB,,"logged May-Oct 2024 (""CTC"", ""CTC / Officer's Station""); kept as at WSP and SATF though not in the unit counts"
