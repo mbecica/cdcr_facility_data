@@ -141,3 +141,10 @@ KVSP-M,KVSP,M,M (MSF),coleman_receiver_cqit_audit_kvsp_2026,11,M (MSF) Minimum S
 KVSP-M,KVSP,M,Minimum Support Facility,coleman_receiver_cqit_audit_kvsp_2026,11,"The institution comprises four Level IV Mainline facilities (A, B, C, D), each with eight 180-degree design housing units, one Minimum Support Facility (MSF), two freestanding Restricted Housing Units, and a 12-bed Mental Health Crisis Bed (MHCB) unit within the Correctional Treatment Center (CTC).",
 KVSP-M,KVSP,M,FAC M,KVSP_MSR_0524_Redacted.pdf,169,FAC M DORM 1,log header
 KVSP-M,KVSP,M,MSF,KVSP_MSR_0524_Redacted.pdf,167,MSF Dorm 1,log header
+SVSP-A,SVSP,A,Facility A,SVSP_MSR_0624_Redacted.pdf,37,Facility A3,log header
+SVSP-B,SVSP,B,B,SVSP_MSR_0524_Redacted.pdf,27,B1,unit-name prefix only; no source writes Facility B
+SVSP-C,SVSP,C,FAC C,SVSP_MSR_0824_Redacted.pdf,83,FAC C4,log header
+SVSP-C,SVSP,C,"""C"" Yard",SVSP_MSR_0524_Redacted.pdf,60,"SVSP / ""C"" Yard / Upper ""B"" Pod",log header
+SVSP-C,SVSP,C,Facility C,plata_ecf3963_receiver_triannual_59_2025-06-02,10,"C6, Facility C Clinic, the Triage and Treatment Area (TTA), and Treatment Center 2",
+SVSP-D,SVSP,D,Facility D,SVSP_MSR_0824_Redacted.pdf,117,Facility D8,log header
+SVSP-E,SVSP,E,Facility E,SVSP-Final-PREA-Audit-Report-6.10.25,43,"Specifically, Facility E was closed in September 2021.",closed; no units
