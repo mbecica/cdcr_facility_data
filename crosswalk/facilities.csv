@@ -225,3 +225,7 @@ CHCF-D,CHCF,D,D yard,coleman_receiver_cqit_audit_chcf_2026,8,"D yard Correctiona
 CHCF-E,CHCF,E,E yard,coleman_receiver_cqit_audit_chcf_2026,8,"E yard ML, Restricted Housing Unit (RHU)",CQIT facility table
 CHCF-E,CHCF,E,E Facility,CHCF-Final-PREA-Audit-Report-8.4.23,44,announce their presence in all E Facility housing units,
 CHCF-E,CHCF,E,Facility E,MPAR2022:P-1920-00107,76,Facility E housing unit 301B dayroom,"also in SPI names (""Facility E Gatehouse"")"
+CVSP-A,CVSP,A,Facility Programs And Services A,SPI,37978,Facility Programs And Services A,"also SPI 37946 ""Facility Food Service Satelite A""; CVSP was deactivated in November 2024 (locator)"
+CVSP-B,CVSP,B,Facility Programs And Services B,SPI,37979,Facility Programs And Services B,"also SPI 37947 ""Facility Food Service Satelite B""; CVSP was deactivated in November 2024 (locator)"
+CVSP-C,CVSP,C,Facility Programs And Services C,SPI,37980,Facility Programs And Services C,"also SPI 37948 ""Facility Food Service Satelite C""; CVSP was deactivated in November 2024 (locator)"
+CVSP-D,CVSP,D,Facility Programs And Services D,SPI,37981,Facility Programs And Services D,"also SPI 37949 ""Facility Food Service Satelite D""; CVSP was deactivated in November 2024 (locator)"

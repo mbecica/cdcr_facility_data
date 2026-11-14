@@ -762,3 +762,15 @@ CHCF-301C,CHCF,301C,301C;Housing Unit 301C,CHCF-E,stated,MPAR2022:P-1920-00108,7
 CHCF-301D,CHCF,301D,301D;Housing Unit 301D,CHCF-E,stated,MPAR2022:P-1920-00109,77,Facility E housing unit 301D dayroom,EOP,sen_sub5_agenda_2021-02-11,14,housing units 301B through 301F are not equipped with toilets,CHCF-301D,"no 2024 heat logs; ADA quarterlies 2021-2026 write ""Housing Unit 301D""; program EOP from the MPAR dayroom projects"
 CHCF-301E,CHCF,301E,301E;Housing Unit 301E,CHCF-E,stated,MPAR2022:P-1920-00110,77,Facility E housing unit 301E dayroom,EOP,sen_sub5_agenda_2021-02-11,14,housing units 301B through 301F are not equipped with toilets,CHCF-301E,"no 2024 heat logs; ADA quarterlies 2021-2026 write ""Housing Unit 301E""; program EOP from the MPAR dayroom projects"
 CHCF-301F,CHCF,301F,301F;Housing Unit 301F,CHCF-E,stated,MPAR2022:P-1920-00111,77,Facility E housing unit 301F dayroom,EOP,sen_sub5_agenda_2021-02-11,14,housing units 301B through 301F are not equipped with toilets,CHCF-301F,"no 2024 heat logs; ADA quarterlies 2021-2026 write ""Housing Unit 301F""; program EOP from the MPAR dayroom projects"
+CVSP-1,CVSP,1,Housing Unit #1;H-01,,,,,,,SPI,37950,H-01 | Housing Unit #1,,no 2024 heat logs; no source places the unit in a facility
+CVSP-2,CVSP,2,Housing Unit #2;H-02,,,,,,,SPI,37951,H-02 | Housing Unit #2,,no 2024 heat logs; no source places the unit in a facility
+CVSP-3,CVSP,3,Housing Unit #3;H-03,,,,,,,SPI,37952,H-03 | Housing Unit #3,,no 2024 heat logs; no source places the unit in a facility
+CVSP-4,CVSP,4,Housing Unit #4;H-04,,,,,,,SPI,37953,H-04 | Housing Unit #4,,no 2024 heat logs; no source places the unit in a facility
+CVSP-5,CVSP,5,Housing Unit #5;H-05,,,,,,,SPI,37954,H-05 | Housing Unit #5,,no 2024 heat logs; no source places the unit in a facility
+CVSP-6,CVSP,6,Housing Unit #6;H-06,,,,,,,SPI,37955,H-06 | Housing Unit #6,,no 2024 heat logs; no source places the unit in a facility
+CVSP-7,CVSP,7,Housing Unit #7;H-07,,,,,,,SPI,37956,H-07 | Housing Unit #7,,no 2024 heat logs; no source places the unit in a facility
+CVSP-8,CVSP,8,Housing Unit #8;H-08,,,,,,,SPI,37957,H-08 | Housing Unit #8,,no 2024 heat logs; no source places the unit in a facility
+CVSP-9,CVSP,9,Housing Unit #9;H-09,,,,,,,SPI,37958,H-09 | Housing Unit #9,,no 2024 heat logs; no source places the unit in a facility
+CVSP-10,CVSP,10,Housing Unit #10;H-10,,,,,,,SPI,37959,H-10 | Housing Unit #10,,no 2024 heat logs; no source places the unit in a facility
+CVSP-11,CVSP,11,Housing Unit #11;H-11,,,,,,,SPI,37960,H-11 | Housing Unit #11,,no 2024 heat logs; no source places the unit in a facility
+CVSP-12,CVSP,12,Administrative Segregation;H-12,,,,,,ASU,SPI,37961,H-12 | Administrative Segregation,,"no 2024 heat logs; no source places the unit in a facility; PREA 2022 p9: ""the facility no longer maintains a segregated housing unit"""
