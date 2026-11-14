@@ -281,3 +281,26 @@ CMC-DORM-31,CMC-303,places,,same as building,candidate,OSM,way/204437395,Dormito
 CMC-DORM-32,CMC-304,places,,same as building,candidate,OSM,way/204437393,Dormitory 32 (304),"dorm number match to an unattributed OSM name; no CDCR source names a dorm building; Plata cooling table lists 304 as Housing, ventilation without cooling"
 CMC-DORM-33,CMC-305,places,,same as building,candidate,OSM,way/204437394,Dormitory 33 (305),dorm number match to an unattributed OSM name; no CDCR source names a dorm building
 CMC-DORM-34,CMC-308,places,,same as building,candidate,OSM,way/204435962,Dormitory 34 (308),dorm number match to an unattributed OSM name; no CDCR source names a dorm building
+CAL-A1,CAL-325,places,,same as building,paired,SPI,43683,325 | Bldg. 325 - Housing Unit A1,SPI writes the unit name on the building record
+CAL-A2,CAL-324,places,,same as building,paired,SPI,43682,324 | Bldg. 324 - Housing Unit A2,SPI writes the unit name on the building record
+CAL-A3,CAL-323,places,,same as building,paired,SPI,43681,323 | Bldg. 323 - Housing Unit A3,SPI writes the unit name on the building record
+CAL-A4,CAL-322,places,,same as building,paired,SPI,43680,322 | Bldg. 322 - Housing Unit A4,SPI writes the unit name on the building record
+CAL-A5,CAL-321,places,,same as building,paired,SPI,43679,321 | Bldg. 321 - Housing Unit A5,SPI writes the unit name on the building record
+CAL-B1,CAL-331,places,,same as building,paired,SPI,43684,331 | Bldg. 331 - Housing Unit B1,SPI writes the unit name on the building record
+CAL-B2,CAL-332,places,,same as building,paired,SPI,43685,332 | Bldg. 332 - Housing Unit B2,SPI writes the unit name on the building record
+CAL-B3,CAL-333,places,,same as building,paired,SPI,43686,333 | Bldg. 333 - Housing Unit B3,SPI writes the unit name on the building record
+CAL-B4,CAL-334,places,,same as building,paired,SPI,43687,334 | Bldg. 334 - Housing Unit B4,SPI writes the unit name on the building record
+CAL-B5,CAL-335,places,,same as building,paired,SPI,43688,335 | Bldg. 335 - Housing Unit B5,SPI writes the unit name on the building record
+CAL-C1,CAL-345,places,,same as building,paired,SPI,43693,345 | Bldg. 345 - Housing Unit C1,SPI writes the unit name on the building record
+CAL-C2,CAL-344,places,,same as building,paired,SPI,43692,344 | Bldg. 344 - Housing Unit C2,SPI writes the unit name on the building record
+CAL-C3,CAL-343,places,,same as building,paired,SPI,43691,343 | Bldg. 343 - Housing Unit C3,SPI writes the unit name on the building record
+CAL-C4,CAL-342,places,,same as building,paired,SPI,43690,342 | Bldg. 342 - Housing Unit C4,SPI writes the unit name on the building record
+CAL-C5,CAL-341,places,,same as building,paired,SPI,43689,341 | Bldg. 341 - Housing Unit C5,SPI writes the unit name on the building record
+CAL-D1,CAL-351,places,,same as building,paired,SPI,43694,351 | Bldg. 351 - Housing Unit D1,SPI writes the unit name on the building record
+CAL-D2,CAL-352,places,,same as building,paired,SPI,43695,352 | Bldg. 352 - Housing Unit D2,SPI writes the unit name on the building record
+CAL-D3,CAL-353,places,,same as building,paired,SPI,43696,353 | Bldg. 353 - Housing Unit D3,SPI writes the unit name on the building record
+CAL-D4,CAL-354,places,,same as building,paired,SPI,43697,354 | Bldg. 354 - Housing Unit D4,SPI writes the unit name on the building record
+CAL-D5,CAL-355,places,,same as building,paired,SPI,43698,355 | Bldg. 355 - Housing Unit D5,SPI writes the unit name on the building record
+CAL-RHU,CAL-360,places,,same as building,candidate,SPI,50271,360 | Bldg 360 Admin Segregation Housing Unit,name match only (built 2003); no source pairs RHU with this record
+CAL-DORM-1,CAL-901,places,,same as building,paired,SPI,43744,901 | Bldg. 901 - Level I Housing Dorm #1,SPI names the structure a Level I housing dorm
+CAL-DORM-2,CAL-902,places,,same as building,paired,SPI,43745,902 | Bldg. 902 - Level I Housing Dorm #2,SPI names the structure a Level I housing dorm
