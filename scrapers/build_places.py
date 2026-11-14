@@ -53,6 +53,11 @@ GROUP_ROWS = {
     'FOL-spi14637',   # New Dormitories Camp Represa, agency no. "H100 TO H600"
     'FOL-spi14661',   # Gun Towers, agency no. "S10 TO S28, S31, S34, S35"
     'FOL-spi14668',   # Main Yard Buildings, agency no. "S02 (SEE COMMENTS)"
+    # KVSP 180 records: CQIT 2026 counts eight units per facility, SPI has four
+    # records per facility at 50,203 sq ft, the size SATF's SPI names with two units
+    'KVSP-321', 'KVSP-322', 'KVSP-323', 'KVSP-324', 'KVSP-331', 'KVSP-332', 'KVSP-333',
+    'KVSP-334', 'KVSP-341', 'KVSP-342', 'KVSP-343', 'KVSP-344', 'KVSP-351', 'KVSP-352',
+    'KVSP-353', 'KVSP-354',
 }
 
 # OSM buildings that a housing unit needs and the inventory lacks, as

@@ -2089,22 +2089,22 @@ KVSP-311,KVSP,311,Pmtr Tower (8),building,,,,,,,,,,2004,,169,LOOKOUT (GUARD STAT
 KVSP-312,KVSP,312,Pmtr Tower (9),building,,,,,,,,,,2004,,169,LOOKOUT (GUARD STATION),50322,312,10424,,1,SPI
 KVSP-313,KVSP,313,Pmtr Tower (10),building,,,,,,,,,,2004,,169,LOOKOUT (GUARD STATION),50323,313,10424,,1,SPI
 KVSP-314,KVSP,314,Pmtr Tower (11),building,,,,,,,,,,2004,,169,LOOKOUT (GUARD STATION),50324,314,10424,,1,SPI
-KVSP-321,KVSP,321,180 Housing- Level Iv (1),building,,,,,,,housing,,,2004,,50203,DORMITORY,50293,321,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-322,KVSP,322,180 Housing- Level Iv (2),building,,,,,,,housing,,,2004,,50203,DORMITORY,50294,322,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-323,KVSP,323,180 Housing- Level Iv (3),building,,,,,,,housing,,,2004,,50203,DORMITORY,50295,323,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-324,KVSP,324,180 Housing- Level Iv (4),building,,,,,,,housing,,,2004,,50203,DORMITORY,50296,324,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-331,KVSP,331,180 Housing- Level Iv (5),building,,,,,,,housing,,,2004,,50203,DORMITORY,50297,331,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-332,KVSP,332,180 Housing- Level Iv (6),building,,,,,,,housing,,,2004,,50203,DORMITORY,50298,332,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-333,KVSP,333,180 Housing- Level Iv (7),building,,,,,,,housing,,,2004,,50203,DORMITORY,50299,333,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-334,KVSP,334,180 Housing- Level Iv (8),building,,,,,,,housing,,,2004,,50203,DORMITORY,50300,334,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-341,KVSP,341,180 Housing- Level Iv (9),building,,,KVSP-C,mention,,,housing,,,2004,,50203,DORMITORY,50301,341,10424,,6,SPI;MPAR2025:P-2526-00145;MPAR2025:P-2526-00157;bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-342,KVSP,342,180 Housing- Level Iv (10),building,,,KVSP-C,mention,,,housing,,,2004,,50203,DORMITORY,50302,342,10424,,4,SPI;bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-343,KVSP,343,180 Housing- Level Iv (11),building,,,,,,,housing,,,2004,,50203,DORMITORY,50303,343,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-344,KVSP,344,180 Housing- Level Iv (12),building,,,KVSP-C,mention,,,housing,,,2004,,50203,DORMITORY,50304,344,10424,,6,SPI;MPAR2025:P-2526-00145;MPAR2025:P-2526-00157;bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-351,KVSP,351,180 Housing- Level Iv (13),building,,,,,,,housing,,,2004,,50203,DORMITORY,50305,351,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-352,KVSP,352,180 Housing- Level Iv (14),building,,,,,,,housing,,,2004,,50203,DORMITORY,50306,352,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-353,KVSP,353,180 Housing- Level Iv (15),building,,,,,,,housing,,,2004,,50203,DORMITORY,50307,353,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-KVSP-354,KVSP,354,180 Housing- Level Iv (16),building,,,,,,,housing,,,2004,,50706,DORMITORY,50308,354,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-321,KVSP,321,180 Housing- Level Iv (1),building,,,,,yes,,housing,,,2004,,50203,DORMITORY,50293,321,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-322,KVSP,322,180 Housing- Level Iv (2),building,,,,,yes,,housing,,,2004,,50203,DORMITORY,50294,322,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-323,KVSP,323,180 Housing- Level Iv (3),building,,,,,yes,,housing,,,2004,,50203,DORMITORY,50295,323,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-324,KVSP,324,180 Housing- Level Iv (4),building,,,,,yes,,housing,,,2004,,50203,DORMITORY,50296,324,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-331,KVSP,331,180 Housing- Level Iv (5),building,,,,,yes,,housing,,,2004,,50203,DORMITORY,50297,331,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-332,KVSP,332,180 Housing- Level Iv (6),building,,,,,yes,,housing,,,2004,,50203,DORMITORY,50298,332,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-333,KVSP,333,180 Housing- Level Iv (7),building,,,,,yes,,housing,,,2004,,50203,DORMITORY,50299,333,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-334,KVSP,334,180 Housing- Level Iv (8),building,,,,,yes,,housing,,,2004,,50203,DORMITORY,50300,334,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-341,KVSP,341,180 Housing- Level Iv (9),building,,,KVSP-C,mention,yes,,housing,,,2004,,50203,DORMITORY,50301,341,10424,,6,SPI;MPAR2025:P-2526-00145;MPAR2025:P-2526-00157;bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-342,KVSP,342,180 Housing- Level Iv (10),building,,,KVSP-C,mention,yes,,housing,,,2004,,50203,DORMITORY,50302,342,10424,,4,SPI;bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-343,KVSP,343,180 Housing- Level Iv (11),building,,,,,yes,,housing,,,2004,,50203,DORMITORY,50303,343,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-344,KVSP,344,180 Housing- Level Iv (12),building,,,KVSP-C,mention,yes,,housing,,,2004,,50203,DORMITORY,50304,344,10424,,6,SPI;MPAR2025:P-2526-00145;MPAR2025:P-2526-00157;bcp_2025-26_air_cooling_pilot_8144;coleman_ecf8558-1_heat_report_exhibits_2025-02-28;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-351,KVSP,351,180 Housing- Level Iv (13),building,,,,,yes,,housing,,,2004,,50203,DORMITORY,50305,351,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-352,KVSP,352,180 Housing- Level Iv (14),building,,,,,yes,,housing,,,2004,,50203,DORMITORY,50306,352,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-353,KVSP,353,180 Housing- Level Iv (15),building,,,,,yes,,housing,,,2004,,50203,DORMITORY,50307,353,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+KVSP-354,KVSP,354,180 Housing- Level Iv (16),building,,,,,yes,,housing,,,2004,,50706,DORMITORY,50308,354,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 KVSP-360,KVSP,360,Ad Seg - New Design (1),building,,,,,,,housing,,,2004,,27547,DORMITORY,50310,360,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 KVSP-361,KVSP,361,Ad Seg - New Design (2),building,,,,,,,housing,,,2004,,27547,DORMITORY,50311,361,10424,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 KVSP-401,KVSP,401,Central Srvcs Bldg,building,,,,,,,,,,2004,,22425,OFFICE (INSTITUTIONAL),50332,401,10424,,1,SPI
