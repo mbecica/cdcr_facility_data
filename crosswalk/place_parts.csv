@@ -128,3 +128,37 @@ COR-spi55774:E,COR-spi55774,section,E,Section E,candidate,COR_MSR_0824_Redacted.
 COR-spi55774:F,COR-spi55774,section,F,Section F,candidate,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
 COR-spi55774:G,COR-spi55774,section,G,Section G,candidate,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
 COR-spi55774:H,COR-spi55774,section,H,Section H,candidate,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
+WSP-304:A,WSP-304,side,A,A side,stated,WSP_MSR_0624_Redacted.pdf,215,WSP / FAB4 A-SIDE / TIER 2,,
+WSP-304:B,WSP-304,side,B,B side,stated,WSP_MSR_0624_Redacted.pdf,218,WSP / FAB4 B-SIDE / TIER 2,,
+WSP-407:A,WSP-407,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,70,"WSP / B-1 / 2nd tier, A-side",,
+WSP-407:B,WSP-407,side,B,B side,stated,WSP_MSR_0924_Redacted.pdf,74,"WSP / B-1 / 2nd tier, B-side",,
+WSP-408:A,WSP-408,side,A,A side,stated,WSP_MSR_0624_Redacted.pdf,149,WSP-RC / B2 / A-Side 2nd Tier,,
+WSP-408:B,WSP-408,side,B,B side,stated,WSP_MSR_0524_Redacted.pdf,69,WSP-RC / B2 / B-SIDE 2ND TIER,,
+WSP-409:A,WSP-409,side,A,A side,stated,WSP_MSR_1024_Redacted.pdf,78,B3 Aside,,
+WSP-409:B,WSP-409,side,B,B side,stated,WSP_MSR_0524_Redacted.pdf,80,WSP / B3- Bsid / 2nd tier,,
+WSP-410:A,WSP-410,side,A,A side,stated,WSP_MSR_0624_Redacted.pdf,170,WSP / B4 A-side 2nd tier,,
+WSP-410:B,WSP-410,side,B,B side,stated,WSP_MSR_0624_Redacted.pdf,174,WSP B-4 B-side 2nd tier,,
+WSP-411:A,WSP-411,side,A,A side,stated,WSP_MSR_0524_Redacted.pdf,97,WSP / B5-A side / 2nd Tier,,
+WSP-411:B,WSP-411,side,B,B side,stated,WSP_MSR_0624_Redacted.pdf,183,B5-B side,,
+WSP-412:A,WSP-412,side,A,A side,stated,WSP_MSR_1024_Redacted.pdf,110,WSP / B6 A side,,
+WSP-412:B,WSP-412,side,B,B side,stated,WSP_MSR_0524_Redacted.pdf,108,B6-B side,,
+WSP-413:A,WSP-413,side,A,A side,stated,WSP_MSR_0724_Redacted.pdf,19,WSP / C1 A-SIDE / 1ST TIER,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
+WSP-413:B,WSP-413,side,B,B side,stated,WSP_MSR_0524_Redacted.pdf,119,WSP-RC / C1 B Side 1st Tier,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
+WSP-414:A,WSP-414,side,A,A side,candidate,WSP_MSR_0924_Redacted.pdf,152,WSP / C2-A / TIER 2,,"""side"" not written; same A/B split as the C1, C3, C4 sides; PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings"
+WSP-414:B,WSP-414,side,B,B side,candidate,WSP_MSR_0924_Redacted.pdf,158,WSP / C2-B / TIER 2,,"""side"" not written; same A/B split as the C1, C3, C4 sides; PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings"
+WSP-415:A,WSP-415,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,164,FAC C3 A/SIDE,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
+WSP-415:B,WSP-415,side,B,B side;B pod,stated,WSP_MSR_1024_Redacted.pdf,145,WSP / FAC C3 B/SIDE / TIER 2,,"PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings; also written ""B pod"" (WSP / C3 / B pod dayroom)"
+WSP-416:A,WSP-416,side,A,A side,stated,WSP_MSR_0524_Redacted.pdf,143,WSP-RC / C4 A-Side / 2nd Tier,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
+WSP-416:B,WSP-416,side,B,B side,stated,WSP_MSR_0624_Redacted.pdf,134,C4 B SIDE,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
+WSP-401:A,WSP-401,side,A,A side,stated,WSP_MSR_0524_Redacted.pdf,156,WSP / D1 / TIER 2 / A SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-401:B,WSP-401,side,B,B side,stated,WSP_MSR_0524_Redacted.pdf,158,WSP / D1 / TIER 2 / B SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-402:A,WSP-402,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,198,WSP D2 A SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-402:B,WSP-402,side,B,B side,stated,WSP_MSR_0924_Redacted.pdf,199,WSP D2 B SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-403:A,WSP-403,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,215,WSP-RC / FDB3 / tier 2 A side,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-403:B,WSP-403,side,B,B side,stated,WSP_MSR_1024_Redacted.pdf,187,WSP/RC / D3 / 2nd tier Bside,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-404:A,WSP-404,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,223,WSP-RC / FDB4-A SIDE / TIER 2,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-404:B,WSP-404,side,B,B side,stated,WSP_MSR_0924_Redacted.pdf,229,WSP-RC / FDB4-B SIDE / TIER 2,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-405:A,WSP-405,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,235,WSP / D5 / A-SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-405:B,WSP-405,side,B,B side,stated,WSP_MSR_0924_Redacted.pdf,243,WSP D5 B-SIDE 2nd,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-406:A,WSP-406,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,249,WSP D6 2nd TIER A SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-406:B,WSP-406,side,B,B side,stated,WSP_MSR_0924_Redacted.pdf,253,WSP / D6 / B SIDE TOP TIER 2,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings

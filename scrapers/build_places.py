@@ -51,7 +51,7 @@ GROUP_ROWS = {
     'FOL-spi14668',   # Main Yard Buildings, agency no. "S02 (SEE COMMENTS)"
 }
 
-FAC_IN_NAME = re.compile(r'\b(?:Facility|Fac)[\s\-]+([A-Z])\b', re.I)
+FAC_IN_NAME = re.compile(r'\b(?:Facility|Fac\.?)[\s\-]+([A-Z])\b', re.I)
 RANGE = re.compile(r'(?<![A-Za-z\-\d])\d+\s*(?:-|to|&)\s*\d+(?![\d.])', re.I)
 LETTER_LIST = re.compile(r'\b[A-Z]\s*&\s*[A-Z]\b')
 

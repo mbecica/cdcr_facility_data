@@ -54,3 +54,16 @@ FOL-B,FOL,B,FWF,FSP-Final-PREA-Audit-Report-02.27.23-2,26,"Folsom Women’s Faci
 FOL-MSF,FOL,MSF,Minimum Support Facility,FSP-Final-PREA-Audit-Report-02.27.23-2,11,"FSP consists of 3 main complexes: Facility A, which houses medium security general population Level II and Level III male inmates; Facility B, also known as the Folsom Women's Facility (FWF), which houses minimum and medium security female inmates; and the Minimum Support Facility which houses minimum security Level I male inmates.",
 FOL-MSF,FOL,MSF,Minimum Support Facility (MSF),FSP-Final-PREA-Audit-Report-02.27.23-2,24,"Today, FSP houses medium-custody male inmates as well as minimum-custody male inmates in the Minimum Support Facility (MSF) and Firehouse located outside the secured perimeter.",
 FOL-MSF,FOL,MSF,Minimum Support Facility,FSP-Final-PREA-Audit-8.28.25,42,"They are primarily classified as Minimum, Level II, or Level III and may be housed in a tier/cell design (units 1-5), dorm (Minimum Support Facility), or firehouse.",
+WSP-A,WSP,A,Facility A,WSP-Final-PREA-Audit-Report-6.2.25,41,Facility A houses general population and is comprised of five housing units.,
+WSP-A,WSP,A,Facility A,facility-locator-wsp-2026-11-13,,"Facility A, 701 Scofield Ave.,P.O. Box 4400, Wasco, CA 93280",
+WSP-B,WSP,B,Facility B,WSP-Final-PREA-Audit-Report-6.2.25,51,Noted modifications were the closing of Facility B since the last audit.,closed after the 2024 logs: B1-B6 are logged May-Oct 2024; not on the Nov 2026 locator
+WSP-C,WSP,C,Facility C,WSP-Final-PREA-Audit-Report-6.2.25,41,"Facility C houses newly arrived incarcerated individuals and is comprised of four housing units, with each housing unit having two wings.",
+WSP-C,WSP,C,Facility C,facility-locator-wsp-2026-11-13,,"Facility C, 701 Scofield Ave.,P.O. Box 6600, Wasco, CA 93280",
+WSP-D,WSP,D,Facility D,WSP-Final-PREA-Audit-Report-6.2.25,42,"Facility D houses incarcerated individuals who are in reception. This facility contains EOP, special needs, and segregation housing unit.",
+WSP-D,WSP,D,Facility D,facility-locator-wsp-2026-11-13,,"Facility D, 701 Scofield Ave.,P.O. Box 7700, Wasco, CA 93280",
+WSP-H,WSP,H,Housing unit H,WSP-Final-PREA-Audit-Report-6.2.25,42,Housing unit H also houses newly arrived incarcerated persons and is comprised of 4 housing units.,PREA calls it a housing unit; SPI and the locator call it Facility H
+WSP-H,WSP,H,Facility H,facility-locator-wsp-2026-11-13,,"Facility H, 701 Scofield Ave.,P.O. Box 9900, Wasco, CA 93280",
+WSP-M,WSP,M,Facility M,WSP-Final-PREA-Audit-Report-6.2.25,42,Facility M is located outside of the fence and houses incarcerated individuals in the firefighting program.,
+WSP-M,WSP,M,Facility M,facility-locator-wsp-2026-11-13,,"Facility M, 701 Scofield Ave.,P.O. Box 3300, Wasco, CA 93280",
+WSP-C,WSP,C,FAC C,WSP_MSR_0924_Redacted.pdf,164,FAC C3 A/SIDE,
+,WSP,,WSP is comprised of six facilities,WSP-Final-PREA-Audit-Report-6.2.25,41,"WSP is comprised of six facilities, five of which are currently in use.","count only: A, B (closed), C, D, H, M"

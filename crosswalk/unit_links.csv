@@ -163,3 +163,32 @@ FOL-1000,FOL-spi14636,places,,part of group,candidate,SPI,14636,H700 TO H1300 | 
 FOL-1100,FOL-spi14636,places,,part of group,candidate,SPI,14636,H700 TO H1300 | Old Dormitories Camp Represa,fits only if dorms are numbered by hundreds (H1100 = Dorm 1100); not stated
 FOL-FWF-A,FOL-W18/W19/W20/W21,places,,part of group,candidate,SPI,50531,"W18, W19 ,W20, W21 | Folsom Women'S Facility","SPI record names the facility, not the building"
 FOL-FWF-B,FOL-W18/W19/W20/W21,places,,part of group,candidate,SPI,50531,"W18, W19 ,W20, W21 | Folsom Women'S Facility","SPI record names the facility, not the building"
+WSP-A1,WSP-301,places,,same as building,paired,SPI,37713,301 | Level 3 Housing A-1,SPI writes the unit name on the building record
+WSP-A2,WSP-302,places,,same as building,paired,SPI,37714,302 | Level 3 Housing. A-2,SPI writes the unit name on the building record
+WSP-A3,WSP-303,places,,same as building,paired,SPI,37715,303 | Level 3 Housing A-3,SPI writes the unit name on the building record
+WSP-A4,WSP-304,places,,same as building,paired,SPI,37716,304 | Level 3 Housing A-4,SPI writes the unit name on the building record
+WSP-A5,WSP-305,places,,same as building,paired,SPI,37717,305 | Level 3 Housing A-5,SPI writes the unit name on the building record
+WSP-B1,WSP-407,places,,same as building,paired,SPI,37731,"407 | Reception Center Housing Cells, B-1",SPI writes the unit name on the building record
+WSP-B2,WSP-408,places,,same as building,paired,SPI,37732,"408 | Reception Center Housing-Cells, B-2",SPI writes the unit name on the building record
+WSP-B3,WSP-409,places,,same as building,paired,SPI,37733,"409 | Reception Center Housing-Cells, B-3",SPI writes the unit name on the building record
+WSP-B4,WSP-410,places,,same as building,paired,SPI,37734,"410 | Reception Center Housing-Cells, B-4",SPI writes the unit name on the building record
+WSP-B5,WSP-411,places,,same as building,paired,SPI,37735,"411 | Reception Center Housing Cells, B-5",SPI writes the unit name on the building record
+WSP-B6,WSP-412,places,,same as building,paired,SPI,37736,"412 | Reception Center Housing Cells, B-6",SPI writes the unit name on the building record
+WSP-C1,WSP-413,places,,same as building,paired,SPI,37737,413 | Reception Center Housing-Dorms Fac. C-1,SPI writes the unit name on the building record
+WSP-C2,WSP-414,places,,same as building,paired,SPI,37738,414 | Reception Center Housing Dorms Fac. C-2,SPI writes the unit name on the building record
+WSP-C3,WSP-415,places,,same as building,paired,SPI,37739,415 | Reception Center Housing-Dorms Fac. C-3,SPI writes the unit name on the building record
+WSP-C4,WSP-416,places,,same as building,paired,SPI,37740,416 | Reception Center Housing-Dorms Fac. C-4,SPI writes the unit name on the building record
+WSP-D1,WSP-401,places,,same as building,paired,SPI,37725,"401 | Reception Center Housing-Cells, D-1",SPI writes the unit name on the building record
+WSP-D2,WSP-402,places,,same as building,paired,SPI,37726,"402 | Reception Center Housing-Cells, D-2",SPI writes the unit name on the building record
+WSP-D3,WSP-403,places,,same as building,paired,SPI,37727,"403 | Reception Center Housing-Cells, D-3",SPI writes the unit name on the building record
+WSP-D4,WSP-404,places,,same as building,paired,SPI,37728,"404 | Reception Center Housing-Cells, D-4",SPI writes the unit name on the building record
+WSP-D5,WSP-405,places,,same as building,paired,SPI,37729,"405 | Reception Center Housing Cells, D-5",SPI writes the unit name on the building record
+WSP-D6,WSP-406,places,,same as building,paired,SPI,37730,"406 | Reception Center Housing-Cells, D-6",SPI writes the unit name on the building record
+WSP-H1,WSP-418,places,,same as building,paired,SPI,39497,418 | Reception Ctr Housing-Dorms Facility H-1,SPI writes the unit name on the building record
+WSP-H2,WSP-419,places,,same as building,paired,SPI,39498,419 | Reception Ctr Housing-Dorms Facility H-2,SPI writes the unit name on the building record
+WSP-H3,WSP-421,places,,same as building,paired,SPI,39499,421 | Reception Ctr Housing-Dorms Facility H-3,SPI writes the unit name on the building record
+WSP-H4,WSP-422,places,,same as building,paired,SPI,39500,422 | Reception Ctr Housing-Dorms Facility H-4,SPI writes the unit name on the building record
+WSP-H5,WSP-423,places,,same as building,paired,SPI,39501,423 | Reception Ctr Housing-Dorms H-5,SPI writes the unit name on the building record
+WSP-M1,WSP-901,places,,same as building,paired,SPI,37797,901 | Facility M Building 1,SPI writes the unit name on the building record
+WSP-M2,WSP-902,places,,same as building,paired,SPI,37798,902 | Facility M Building 2,SPI writes the unit name on the building record
+WSP-CTC,WSP-correctional-treatment-center,places,,same as building,candidate,MPAR2022:P-1516-00295,204,"Board of Parole Hearings conference room, Correctional Treatment Center, Receiving and Release",abbreviation match only; no SPI record named CTC
