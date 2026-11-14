@@ -1,6 +1,6 @@
 # Buildings
 
-Capital projects, condition ratings, institution profiles, the state property inventory, building heights and footprints, and every place a source names a building. `crosswalk/buildings.csv` combines the inventory and the mentions. Five tables in `crosswalk/` split that inventory into physical places and administrative housing units, joined by a link table.
+Capital projects, condition ratings, institution profiles, the state property inventory, building heights and footprints, and every place a source names a building. `crosswalk/buildings.csv` combines the inventory and the mentions.
 
 ## Files
 
@@ -16,11 +16,6 @@ Capital projects, condition ratings, institution profiles, the state property in
 | `spi_cdcr_structures.csv` | A CDCR structure in the state property inventory, with its identifiers as entered | Oct 6, 2026 | DGS Statewide Property Inventory (SPI) |
 | `building_mentions.csv` | A place a source names a building or housing unit | Various | MPARs, Capital Outlay Quarterly Reports, PREA audits, CDCR web pages, court filings |
 | `../../crosswalk/buildings.csv` | A building or housing unit, combining SPI and the mentions | Various | `build_buildings.py` |
-| `../../crosswalk/places.csv` | A building or other structure | 32 institutions | `build_places.py`, from `buildings.csv` |
-| `../../crosswalk/place_parts.csv` | A wing, side, section or post of a place | 13 institutions | Entered by hand |
-| `../../crosswalk/facilities.csv` | A facility (yard) and one name a source uses for it | 32 institutions | Entered by hand |
-| `../../crosswalk/housing_units.csv` | A housing unit | 32 institutions | Entered by hand |
-| `../../crosswalk/unit_links.csv` | A housing unit and the place or part it occupies | 32 institutions | Entered by hand |
 
 ## Caveats
 
@@ -28,10 +23,6 @@ Capital projects, condition ratings, institution profiles, the state property in
 - SPI has no beds or capacity, and at some institutions has no building numbers or lists several buildings as one record.
 - A mention joins an SPI structure when the building numbers match (ignoring hyphens, spaces, and leading zeros), when it matches a housing unit SPI names on the same row, or when its name matches an SPI structure name unique at the institution. Otherwise mentions merge only when they use the same number or name, so one building can still appear under two keys. Wings and sides of a building are kept separate from the building.
 - Coverage of the inventory's fields varies widely between institutions.
-- In the five place and unit tables, a facility is an administrative grouping and a housing unit is administrative; a place is physical. A unit can be one building, part of a building (a wing, or a wing and floor), several buildings, or one of several units on a record that covers more than one building.
-- Every hand-entered row cites a source, page and quote. Links and facility assignments a source states are `paired` or `stated`; those that rest on a name, number or elimination are `candidate`.
-- The 2024 indoor temperature logs are a source for housing units: they show which units were in use in 2024 and the names written for them. A unit only enters when a source names it; units implied by gaps in numbering are left out.
-- Records that cover several buildings or units are flagged `group_row` and are not yet split into child rows. Units on them link to the group row.
 - For `building_heights.csv` and `building_footprints.geojson`, roof heights (feet above surrounding ground) come from USGS 3DEP EPT LiDAR calibrated against 3–15 m surrounding ground rings and 1 m eroded roof interiors, reconciled with Overture Maps and LiDAR/NAIP residual scans inside HIFLD/RAPT prison boundaries (`2,033` structures across 34 institutions, including closed facilities `CAC`, `CVSP`, and `FWF`). Source polygons with zero LiDAR roof returns and no standing structure visible in 2024 NAIP imagery (`80` polygons), plus one non-occupied utility apron (`ASP-fp-024`), are excluded.
 - Two post-LiDAR yard/sallyport canopies (`CAC-fp-007` and `KVSP-fp-049`) are retained as `building_category = canopy` with blank `stories` (`story_confidence = indeterminate`). One library/chapel/gym building (`VSP-fp-023`) fell in a LiDAR tile void so its height percentiles remain blank, while its `1`-story assignment (`story_confidence = medium`) is derived from matching SPI structure `43778` (`BLDG 407 - Library/Chapel/Gym`) and visual inspection of 2024 NAIP imagery.
 
@@ -78,31 +69,6 @@ In `crosswalk/buildings.csv`:
 | `conflicts` | Columns where sources disagree. |
 | `n_sources`, `sources` | Sources that name the building. MPAR sources are written `MPAR{year}:{project_id}`; others are the PDF filename. |
 
-`crosswalk/places.csv` has the columns of `buildings.csv`, renamed (`place_key`, `place`, `place_name`), without rows that are housing units or parts of a building (those move to `housing_units.csv` or `place_parts.csv`), plus:
-
-| Column | Meaning |
-| :--- | :--- |
-| `kind` | `building` or `other structure` (exercise yards, canopies, charging stations). |
-| `facility_key`, `facility_source` | Facility from a mention or from the SPI name (`mention`, `SPI name`); blank where no source places the building. |
-| `group_row` | `yes` when the record lists or ranges several buildings or units. |
-| `split_from`, `stories` | Blank for now. |
-
-In the hand-entered tables, `source`, `page` and `quote` cite the row. SPI rows cite the DGS structure number as the page. `note` gives coverage and what the row rests on.
-
-| Table | Column | Meaning |
-| :--- | :--- | :--- |
-| `facilities` | `facility_key`, `facility` | `{cdcr_code}-{letter or name}`; one row per name a source uses (`A`, `ALPHA`, `A Yard`). A name no source pairs with a facility has a blank key. |
-| `housing_units` | `unit_key`, `unit`, `names` | `{cdcr_code}-{unit}`, the unit, and every name written for it, separated by semicolons. Unit keys use the same form as place keys; a shared key is the same object only where `unit_links` says so. |
-| `housing_units` | `facility_key`, `facility_status`, `facility_source`/`_page`/`_quote` | The unit's facility; `stated` when a source writes the facility with the unit, `candidate` when it comes from the unit name or numbering. |
-| `housing_units` | `program` | Programs sources give the unit (ASU, RHU, EOP...), separated by semicolons. |
-| `housing_units`, `place_parts` | `from_building_key` | The `buildings.csv` row this unit or part replaces in `places.csv`. |
-| `place_parts` | `part_key`, `place_key`, `part_type`, `part` | `{place_key}:{part}`; `part_type` is `wing`, `side`, `section` or `post`. A floor is not a part. |
-| `place_parts` | `status` | `stated` when a source names the part at that place, `candidate` otherwise. |
-| `unit_links` | `target_key`, `target_table` | The place or part, and which table it's in. |
-| `unit_links` | `relation` | `same as building`, `part of building`, `one of several buildings`, or `part of group` (a unit on a group row). |
-| `unit_links` | `level` | Floor, where the unit is one floor of a wing. |
-| `unit_links` | `status` | `paired` when a source writes both IDs together or the unit is the record itself, `candidate` otherwise. |
-
 ## Provenance
 
 | Table | Source | Script and inputs | Covered through |
@@ -114,8 +80,6 @@ In the hand-entered tables, `source`, `page` and `quote` cite the row. SPI rows 
 | `spi_cdcr_structures` | [SPI](https://services8.arcgis.com/a4GMqC2tQHvYiVtK/arcgis/rest/services/SPIPublicMapViewer/FeatureServer/1) | `fetch_spi_structures.py` | Oct 6, 2026 |
 | `building_mentions` | The sources under Files; PDFs and saved pages in `sources/prea/`, `sources/cdcr_web/`, `sources/heat_cooling/` | Transcribed by hand, plus equipment rows from `extract_housing_cooling_types.py` | Oct 2026 |
 | `crosswalk/buildings` | SPI and `building_mentions` | `build_buildings.py` | Oct 2026 |
-| `crosswalk/places` | `crosswalk/buildings` | `build_places.py`; unit and part rows named in `from_building_key` | Nov 2026 |
-| `crosswalk/facilities`, `housing_units`, `place_parts`, `unit_links` | SPI, `building_mentions`, PREA audits, facility locator pages, Receiver's Continuous Quality Improvement Reports (2026), MPARs, 2024 indoor temperature logs (`data/heat/logs_2024/`) | Entered by hand | Nov 2026 |
 
 ## References
 
@@ -124,8 +88,6 @@ California Department of Corrections and Rehabilitation, Facilities Planning, Co
 California Department of Corrections and Rehabilitation, Facility Planning, Construction and Management. (2026, May). *Infrastructure Master Plan* and Appendices 1–3. https://www.cdcr.ca.gov/fpcm/cdcr-infrastructure-master-plan/
 
 California Department of Corrections and Rehabilitation. (2018–2025). *PREA Audit Reports*. https://www.cdcr.ca.gov/prea/prea/reports-audits/ (2016–2019 reports: https://www.cdcr.ca.gov/wp-content/uploads/sites/186/2019/06/{code}-{year}-prea-report.pdf)
-
-Coleman v. Newsom, No. 2:90-cv-0520 KJM SCR (E.D. Cal.). (2026). *Continuous Quality Improvement Reports* [Receiver's Compliance Team, Statewide Mental Health Program]. https://cchcs.ca.gov/reports/
 
 California Department of Corrections and Rehabilitation. (2026). *Facility Locator* [Institution web pages]. https://www.cdcr.ca.gov/facility-locator/
 
