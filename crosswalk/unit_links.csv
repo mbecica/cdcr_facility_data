@@ -277,3 +277,7 @@ CMC-6,CMC-6,places,,same as building,paired,SPI,14939,6 | Housing Unit Bldg. 6 (
 CMC-7,CMC-7,places,,same as building,paired,SPI,14947,7 | Housing Unit Bldg. 7 (S),SPI writes the building number and the housing-unit name on the record
 CMC-8,CMC-8,places,,same as building,paired,SPI,14948,8 | Housing Unit Bldg. 8 (T),SPI writes the building number and the housing-unit name on the record
 CMC-MHCB,CMC-spi55455,places,,same as building,candidate,SPI,55455,50-Bed Mental Health Crisis Building,"name match only (built 2013, 45,762 sq ft)"
+CMC-DORM-31,CMC-303,places,,same as building,candidate,OSM,way/204437395,Dormitory 31 (303),dorm number match to an unattributed OSM name; no CDCR source names a dorm building
+CMC-DORM-32,CMC-304,places,,same as building,candidate,OSM,way/204437393,Dormitory 32 (304),"dorm number match to an unattributed OSM name; no CDCR source names a dorm building; Plata cooling table lists 304 as Housing, ventilation without cooling"
+CMC-DORM-33,CMC-305,places,,same as building,candidate,OSM,way/204437394,Dormitory 33 (305),dorm number match to an unattributed OSM name; no CDCR source names a dorm building
+CMC-DORM-34,CMC-308,places,,same as building,candidate,OSM,way/204435962,Dormitory 34 (308),dorm number match to an unattributed OSM name; no CDCR source names a dorm building

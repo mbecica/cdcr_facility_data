@@ -977,7 +977,7 @@ CMC-204,CMC,204,Water Filtration Plant Storage Bldg 204,building,,,,,,,,,,,,391,
 CMC-210,CMC,210,Clorine Station #1 Bldg 210,building,,,,,,,,,,,,600,STORAGE,51136,210,46,,1,SPI
 CMC-220,CMC,220,Clorine Station #2 Bldg 220,building,,,,,,,,,,,,468,STORAGE,51137,220,46,,1,SPI
 CMC-3,CMC,3,"Housing Unit, Bldg.3 (E)",building,E,,,,,,housing,,,1961,,32828,DORMITORY,14929,14929-E,46,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-CMC-304,CMC,304,,building,,,,,,,housing,,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
+CMC-304,CMC,304,Dormitory 32 (304),building,,,,,,,housing,,,,,,,,,,,2,plata_ecf3952-1_cms_exhibits_2025-03-10;OSM way/204437393
 CMC-330,CMC,330,,building,,,,,,,kitchen,,,,,,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
 CMC-352A,CMC,352A,,building,,,,,,,kitchen,,,,,,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
 CMC-360,CMC,360,,building,,,,,,,kitchen,,,,,,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
@@ -3685,3 +3685,6 @@ WSP-spi37788,WSP,,Testing,building,,,,,,,,,,1991,,2522,CLASSROOM,37788,BUILDING 
 WSP-spi37789,WSP,,Satellite Library B,building,,,,,,,,,,1991,,1220,LIBRARY,37789,BUILDING 702 B-4,9647,,1,SPI
 WSP-spi37790,WSP,,Facility C Chapel,building,,,WSP-C,SPI name,,,,,,1991,,2451,CHAPEL,37790,BUILDING 702 C-1,9647,,1,SPI
 WSP-spi51578,WSP,,20 Small Management Exercise Yards,other structure,,,,,,,,,,2009,,3000,SMALL MANAGEMENT EXERCISE YARDS,51578,,9647,,1,SPI
+CMC-303,CMC,303,Dormitory 31 (303),building,,,,,,,housing,,,,,,,,,,,1,OSM way/204437395
+CMC-305,CMC,305,Dormitory 33 (305),building,,,,,,,housing,,,,,,,,,,,1,OSM way/204437394
+CMC-308,CMC,308,Dormitory 34 (308),building,,,,,,,housing,,,,,,,,,,,1,OSM way/204435962

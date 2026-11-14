@@ -10,6 +10,10 @@ Reads:
   crosswalk/facilities.csv      hand-entered; facility names -> keys
   crosswalk/place_parts.csv     hand-entered; `from_building_key` names inventory
                                 rows that are parts of a place (wings)
+  sources/openstreetmap/osm_cdcr_buildings.csv
+                                only the OSM_PLACES rows below: buildings a unit
+                                needs that no CDCR record names (unattributed
+                                mapper names, so links to them are candidates)
 
 Output: crosswalk/places.csv
   One row per building, outdoor area or other structure. Columns are the
@@ -51,6 +55,17 @@ GROUP_ROWS = {
     'FOL-spi14668',   # Main Yard Buildings, agency no. "S02 (SEE COMMENTS)"
 }
 
+# OSM buildings that a housing unit needs and the inventory lacks, as
+# {place_key: osm_id}. A key already in the inventory keeps its row and gains
+# the OSM name (if blank) and source.
+OSM_PLACES = {
+    'CMC-303': '204437395',   # Dormitory 31 (303)
+    'CMC-304': '204437393',   # Dormitory 32 (304); inventory row from the Plata cooling table
+    'CMC-305': '204437394',   # Dormitory 33 (305)
+    'CMC-308': '204435962',   # Dormitory 34 (308)
+}
+OSM_NUM = re.compile(r'\((\w+)\)\s*$')
+
 FAC_IN_NAME = re.compile(r'\b(?:Facility|Fac\.?)[\s\-]+([A-Z])\b', re.I)
 RANGE = re.compile(r'(?<![A-Za-z\-\d])\d+\s*(?:-|to|&)\s*\d+(?![\d.])', re.I)
 LETTER_LIST = re.compile(r'\b[A-Z]\s*&\s*[A-Z]\b')
@@ -83,6 +98,30 @@ def group_row(row):
     return ''
 
 
+def add_osm(b):
+    osm = pd.read_csv(ROOT / 'sources/openstreetmap/osm_cdcr_buildings.csv', dtype=str).fillna('')
+    osm = osm.set_index('osm_id')
+    new = []
+    for key, oid in OSM_PLACES.items():
+        r = osm.loc[oid]
+        src = f"OSM {r['osm_type']}/{oid}"
+        hit = b['building_key'] == key
+        if hit.any():
+            i = b.index[hit][0]
+            if not b.at[i, 'building_name']:
+                b.at[i, 'building_name'] = r['name']
+            b.at[i, 'sources'] = ';'.join(filter(None, [b.at[i, 'sources'], src]))
+            b.at[i, 'n_sources'] = str(int(b.at[i, 'n_sources'] or 0) + 1)
+            continue
+        row = {c: '' for c in b.columns}
+        row.update(building_key=key, cdcr_code=r['cdcr_code'],
+                   building=OSM_NUM.search(r['name']).group(1), building_name=r['name'],
+                   use='housing' if 'Dormitory' in r['name'] else '',
+                   n_sources='1', sources=src)
+        new.append(row)
+    return pd.concat([b, pd.DataFrame(new)], ignore_index=True)
+
+
 def main():
     b = pd.read_csv(CW / 'buildings.csv', dtype=str).fillna('')
     moved = set()
@@ -93,6 +132,7 @@ def main():
     if missing:
         raise SystemExit(f'from_building_key not in buildings.csv: {sorted(missing)}')
     b = b[~b['building_key'].isin(moved)].copy()
+    b = add_osm(b)
 
     b['kind'] = b['spi_structure_type'].map(
         lambda t: 'other structure' if t in OTHER_STRUCTURE else 'building')
