@@ -551,3 +551,8 @@ SOL-22,SOL-22,places,,same as building,paired,SPI,15277,H-18 | Building 22,SPI w
 SOL-23,SOL-23,places,,same as building,paired,SPI,15278,H-19 | Building 23,SPI writes the building number the logs use; SPI agency number H-19 differs from the building number
 SOL-24,SOL-24,places,,same as building,paired,SPI,39035,"Building No. 24, Housing Unit",SPI writes the building number the logs use
 SOL-CTC,SOL-spi15257,places,,part of building,candidate,SPI,15257,C-01 | Ctrl Kitchen/Corr Treatment Ctr (Ctc),"name match only: the only SPI record naming the CTC; the record also holds the central kitchen, so part of the building"
+CRC-DORM-214,CRC-426,places,,same as building,candidate,SPI,51224,426 | Housing Unit / D-214,"name match only: SPI ""D-214"" read as Dorm 214 (a log header writes ""B214""); 2007, 13,244 sq ft, the size of a single dorm building"
+CRC-OHU,CRC-458,places,,part of building,candidate,SPI,28985,458 | Ohu/Main Medical Clinic,"name match only: the only SPI record naming the OHU; it also holds the main clinic, so part of the building"
+CRC-H1,CRC-H1,places,,same as building,paired,SPI,50969,MOD H1 | Male Housing,the unit is the SPI record
+CRC-H2,CRC-H2,places,,same as building,paired,SPI,50970,MOD H2 | Male Housing,the unit is the SPI record
+CRC-H3,CRC-H3,places,,same as building,paired,SPI,50971,MOD H3 | Male Housing,the unit is the SPI record

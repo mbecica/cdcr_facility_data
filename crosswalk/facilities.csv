@@ -199,3 +199,10 @@ SOL-B,SOL,B,B Yard,coleman_receiver_cqit_audit_sol_2026,11,two Level III Mainlin
 SOL-B,SOL,B,Facility B,coleman_receiver_cqit_audit_sol_2026,8,"RHU patients are housed on Facility B, Unit 10.",
 SOL-C,SOL,C,C Yard,coleman_receiver_cqit_audit_sol_2026,11,C Yard was deactivated within the ﬁrst quarter of 2026.,open in 2024 (logs C 13-C17)
 SOL-D,SOL,D,D Yard,coleman_receiver_cqit_audit_sol_2026,11,one Level II Mainline facility (D Yard),
+CRC-A,CRC,A,Facility A,CRC-Final-PREA-Audit-Report-6.22.23,9,"The lead auditor randomly selected inmates from Facilities B, C, and D. Facility A was closed during the audit due to physical plant issues.",closed during the 2023 audit; no 2024 log names it
+CRC-B,CRC,B,"Facilities B, C, and D",CRC-Final-PREA-Audit-Report-6.22.23,9,"The lead auditor randomly selected inmates from Facilities B, C, and D. Facility A was closed during the audit due to physical plant issues.",
+CRC-B,CRC,B,BRAVO,CRC_MSR_0624_Redacted.pdf,152,CRC / FACILITY-B DORM: 207 BRAVO,log header
+CRC-C,CRC,C,"Facilities B, C, and D",CRC-Final-PREA-Audit-Report-6.22.23,9,"The lead auditor randomly selected inmates from Facilities B, C, and D. Facility A was closed during the audit due to physical plant issues.",
+CRC-D,CRC,D,"Facilities B, C, and D",CRC-Final-PREA-Audit-Report-6.22.23,9,"The lead auditor randomly selected inmates from Facilities B, C, and D. Facility A was closed during the audit due to physical plant issues.",
+CRC-D,CRC,D,DELTA,CRC_MSR_0624_Redacted.pdf,72,Facility-DELTA Dorm-403,log header
+CRC-D,CRC,D,Facility D,SPI,28934,102 | Facility D Visiting,
