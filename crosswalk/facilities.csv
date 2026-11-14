@@ -190,6 +190,12 @@ ASP-C,ASP,C,Facility C,facility-locator-asp-2026-11-13,,"Facility C, P.O. Box 90
 ASP-D,ASP,D,Facility D,facility-locator-asp-2026-11-13,,"Facility D, P.O. Box 904, Avenal, CA 93204",
 ASP-E,ASP,E,Facility E,facility-locator-asp-2026-11-13,,"Facility E, P.O. Box 905, Avenal, CA 93204",
 ASP-F,ASP,F,Facility F,facility-locator-asp-2026-11-13,,"Facility F, P.O. Box 906, Avenal, CA 93204",
-ASP-A,ASP,A,A-Yard,SPI,34,"150 | Education Building 150-Sap, On A-Yard",
-ASP-D,ASP,D,D Yard,SPI,34,445 | 445 D Yard Dars,
-ASP-F,ASP,F,F Yard,SPI,34,625 | 625 F Yard Dars,
+ASP-A,ASP,A,A-Yard,SPI,5089,"150 | Education Building 150-Sap, On A-Yard",
+ASP-D,ASP,D,D Yard,SPI,51117,445 | 445 D Yard Dars,
+ASP-F,ASP,F,F Yard,SPI,51118,625 | 625 F Yard Dars,
+SOL-A,SOL,A,A Yard,coleman_receiver_cqit_audit_sol_2026,11,two Level III Mainline facilities (A and B Yard),CQIT housing table page
+SOL-A,SOL,A,FAC A,SOL_MSR_1024_Redacted_R.pdf,25,CSP-SOL / FAC A BLD 4 / 2nd Tier,log header
+SOL-B,SOL,B,B Yard,coleman_receiver_cqit_audit_sol_2026,11,two Level III Mainline facilities (A and B Yard),
+SOL-B,SOL,B,Facility B,coleman_receiver_cqit_audit_sol_2026,8,"RHU patients are housed on Facility B, Unit 10.",
+SOL-C,SOL,C,C Yard,coleman_receiver_cqit_audit_sol_2026,11,C Yard was deactivated within the ﬁrst quarter of 2026.,open in 2024 (logs C 13-C17)
+SOL-D,SOL,D,D Yard,coleman_receiver_cqit_audit_sol_2026,11,one Level II Mainline facility (D Yard),

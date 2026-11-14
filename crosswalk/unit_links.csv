@@ -501,28 +501,53 @@ MCSP-20,MCSP-E20,places,,same as building,paired,SPI,57373,E20 | Level Ii Dormit
 MCSP-21,MCSP-E21,places,,same as building,paired,SPI,57374,E21 | Level Ii Dormitory - E21,SPI writes the unit name on the building record
 MCSP-MSF-DORM-1,MCSP-G2.1,places,,same as building,candidate,SPI,28912,G2.1 | Level 1 Dormitory,"number match only: Dorm 1 read as G2.1, one of the two Level 1 Dormitory records"
 MCSP-MSF-DORM-2,MCSP-G2.2,places,,same as building,candidate,SPI,28913,G2.2 | Level 1 Dormitory,"number match only: Dorm 2 read as G2.2, one of the two Level 1 Dormitory records"
-ASP-110,ASP-110,places,,same as building,paired,SPI,34,110 | 110 Housing Unit,logs write the SPI building number
-ASP-120,ASP-120,places,,same as building,paired,SPI,34,120 | 120 Housing Unit,logs write the SPI building number
-ASP-130,ASP-130,places,,same as building,paired,SPI,34,130 | 130 Dormitory Housing,logs write the SPI building number
-ASP-140,ASP-140,places,,same as building,paired,SPI,34,140 | 140 Housing Unit,logs write the SPI building number
-ASP-210,ASP-210,places,,same as building,paired,SPI,34,210 | 210 Housing Unit,logs write the SPI building number
-ASP-220,ASP-220,places,,same as building,paired,SPI,34,220 | 220 Dormitory Housing,logs write the SPI building number
-ASP-230,ASP-230,places,,same as building,paired,SPI,34,230 | 230 Housing Unit,logs write the SPI building number
-ASP-250,ASP-250,places,,same as building,paired,SPI,34,250 | 250 Housing Unit,logs write the SPI building number
-ASP-310,ASP-310,places,,same as building,paired,SPI,34,310 | 310 Housing Unit,logs write the SPI building number
-ASP-320,ASP-320,places,,same as building,paired,SPI,34,320 | 320 Dormitory Housing,logs write the SPI building number
-ASP-330,ASP-330,places,,same as building,paired,SPI,34,330 | 330 Housing Unit,logs write the SPI building number
-ASP-350,ASP-350,places,,same as building,paired,SPI,34,350 | 350 Housing Unit,logs write the SPI building number
-ASP-410,ASP-410,places,,same as building,paired,SPI,34,410 | 410 Housing Unit,logs write the SPI building number
-ASP-420,ASP-420,places,,same as building,paired,SPI,34,420 | 420 Dormitory Housing,logs write the SPI building number
-ASP-430,ASP-430,places,,same as building,paired,SPI,34,430 | 430 Housing Unit,logs write the SPI building number
-ASP-450,ASP-450,places,,same as building,paired,SPI,34,450 | 450 Housing Unit,logs write the SPI building number
-ASP-510,ASP-510,places,,same as building,paired,SPI,34,510 | 510 Housing Unit,logs write the SPI building number
-ASP-520,ASP-520,places,,same as building,paired,SPI,34,520 | 520 Dormitory Housing,logs write the SPI building number
-ASP-530,ASP-530,places,,same as building,paired,SPI,34,530 | 530 Housing Unit,logs write the SPI building number
-ASP-550,ASP-550,places,,same as building,paired,SPI,34,550 | 550 Housing Unit,logs write the SPI building number
-ASP-610,ASP-610,places,,same as building,paired,SPI,34,610 | 610 Housing Unit,logs write the SPI building number
-ASP-630,ASP-630,places,,same as building,paired,SPI,34,630 | 630 Housing Unit,logs write the SPI building number
-ASP-640,ASP-640,places,,same as building,paired,SPI,34,640 | 640 Dormitory Housing,logs write the SPI building number
-ASP-650,ASP-650,places,,same as building,paired,SPI,34,650 | 650 Housing Unit,logs write the SPI building number
+ASP-110,ASP-110,places,,same as building,paired,SPI,13692,110 | 110 Housing Unit,logs write the SPI building number
+ASP-120,ASP-120,places,,same as building,paired,SPI,13693,120 | 120 Housing Unit,logs write the SPI building number
+ASP-130,ASP-130,places,,same as building,paired,SPI,39364,130 | 130 Dormitory Housing,logs write the SPI building number
+ASP-140,ASP-140,places,,same as building,paired,SPI,13694,140 | 140 Housing Unit,logs write the SPI building number
+ASP-210,ASP-210,places,,same as building,paired,SPI,13698,210 | 210 Housing Unit,logs write the SPI building number
+ASP-220,ASP-220,places,,same as building,paired,SPI,39365,220 | 220 Dormitory Housing,logs write the SPI building number
+ASP-230,ASP-230,places,,same as building,paired,SPI,13699,230 | 230 Housing Unit,logs write the SPI building number
+ASP-250,ASP-250,places,,same as building,paired,SPI,13700,250 | 250 Housing Unit,logs write the SPI building number
+ASP-310,ASP-310,places,,same as building,paired,SPI,13704,310 | 310 Housing Unit,logs write the SPI building number
+ASP-320,ASP-320,places,,same as building,paired,SPI,39366,320 | 320 Dormitory Housing,logs write the SPI building number
+ASP-330,ASP-330,places,,same as building,paired,SPI,13705,330 | 330 Housing Unit,logs write the SPI building number
+ASP-350,ASP-350,places,,same as building,paired,SPI,13706,350 | 350 Housing Unit,logs write the SPI building number
+ASP-410,ASP-410,places,,same as building,paired,SPI,13710,410 | 410 Housing Unit,logs write the SPI building number
+ASP-420,ASP-420,places,,same as building,paired,SPI,39367,420 | 420 Dormitory Housing,logs write the SPI building number
+ASP-430,ASP-430,places,,same as building,paired,SPI,13711,430 | 430 Housing Unit,logs write the SPI building number
+ASP-450,ASP-450,places,,same as building,paired,SPI,13712,450 | 450 Housing Unit,logs write the SPI building number
+ASP-510,ASP-510,places,,same as building,paired,SPI,13715,510 | 510 Housing Unit,logs write the SPI building number
+ASP-520,ASP-520,places,,same as building,paired,SPI,39368,520 | 520 Dormitory Housing,logs write the SPI building number
+ASP-530,ASP-530,places,,same as building,paired,SPI,13716,530 | 530 Housing Unit,logs write the SPI building number
+ASP-550,ASP-550,places,,same as building,paired,SPI,13717,550 | 550 Housing Unit,logs write the SPI building number
+ASP-610,ASP-610,places,,same as building,paired,SPI,13721,610 | 610 Housing Unit,logs write the SPI building number
+ASP-630,ASP-630,places,,same as building,paired,SPI,13722,630 | 630 Housing Unit,logs write the SPI building number
+ASP-640,ASP-640,places,,same as building,paired,SPI,39369,640 | 640 Dormitory Housing,logs write the SPI building number
+ASP-650,ASP-650,places,,same as building,paired,SPI,13723,650 | 650 Housing Unit,logs write the SPI building number
 ASP-OHU,ASP-390,places,,same as building,paired,ASP_MSR_0524_Redacted.pdf,46,OHU 390,"the header writes OHU with building 390 (SPI ""390 Infirmary"")"
+SOL-1,SOL-1,places,,same as building,paired,SPI,15260,H-01 | Building 1,SPI writes the building number the logs use
+SOL-2,SOL-2,places,,same as building,paired,SPI,15261,H-02 | Building 2,SPI writes the building number the logs use
+SOL-3,SOL-3,places,,same as building,paired,SPI,15262,H-03 | Building 3,SPI writes the building number the logs use
+SOL-4,SOL-4,places,,same as building,paired,SPI,15263,H-04 | Building 4,SPI writes the building number the logs use
+SOL-5,SOL-5,places,,same as building,paired,SPI,15264,H-05 | Building 5,SPI writes the building number the logs use
+SOL-6,SOL-6,places,,same as building,paired,SPI,15265,H-06 | Building 6,SPI writes the building number the logs use
+SOL-7,SOL-7,places,,same as building,paired,SPI,15266,H-07 | Building 7,SPI writes the building number the logs use
+SOL-8,SOL-8,places,,same as building,paired,SPI,15267,H-08 | Building 8,SPI writes the building number the logs use
+SOL-9,SOL-9,places,,same as building,paired,SPI,15268,H-09 | Building 9,SPI writes the building number the logs use
+SOL-10,SOL-10,places,,same as building,paired,SPI,15269,H-10 | Building 10,SPI writes the building number the logs use
+SOL-11,SOL-11,places,,same as building,paired,SPI,15670,H-11 | Building 11,SPI writes the building number the logs use
+SOL-12,SOL-12,places,,same as building,paired,SPI,15671,H-12 | Building 12,SPI writes the building number the logs use
+SOL-13,SOL-13,places,,same as building,paired,SPI,15272,H-13 | Building 13,SPI writes the building number the logs use
+SOL-14,SOL-14,places,,same as building,paired,SPI,15273,H-14 | Building 14,SPI writes the building number the logs use
+SOL-15,SOL-15,places,,same as building,paired,SPI,15274,H-15 | Building 15,SPI writes the building number the logs use
+SOL-16,SOL-16,places,,same as building,paired,SPI,39031,"Building No. 16, Housing Unit",SPI writes the building number the logs use
+SOL-17,SOL-17,places,,same as building,paired,SPI,39032,"Building No. 17, Housing Unit",SPI writes the building number the logs use
+SOL-18,SOL-18,places,,same as building,paired,SPI,39033,"Building No. 18, Housing Unit",SPI writes the building number the logs use
+SOL-19,SOL-19,places,,same as building,paired,SPI,39034,"Building No. 19, Housing Unit",SPI writes the building number the logs use
+SOL-20,SOL-20,places,,same as building,paired,SPI,15275,H-16 | Building 20,SPI writes the building number the logs use; SPI agency number H-16 differs from the building number
+SOL-21,SOL-21,places,,same as building,paired,SPI,15276,H-17 | Building 21,SPI writes the building number the logs use; SPI agency number H-17 differs from the building number
+SOL-22,SOL-22,places,,same as building,paired,SPI,15277,H-18 | Building 22,SPI writes the building number the logs use; SPI agency number H-18 differs from the building number
+SOL-23,SOL-23,places,,same as building,paired,SPI,15278,H-19 | Building 23,SPI writes the building number the logs use; SPI agency number H-19 differs from the building number
+SOL-24,SOL-24,places,,same as building,paired,SPI,39035,"Building No. 24, Housing Unit",SPI writes the building number the logs use
+SOL-CTC,SOL-spi15257,places,,part of building,candidate,SPI,15257,C-01 | Ctrl Kitchen/Corr Treatment Ctr (Ctc),"name match only: the only SPI record naming the CTC; the record also holds the central kitchen, so part of the building"
