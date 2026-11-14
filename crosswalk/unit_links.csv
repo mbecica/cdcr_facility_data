@@ -453,3 +453,28 @@ VSP-D1,VSP-301,places,,same as building,paired,SPI,43756,301 | Bldg 301-General 
 VSP-D2,VSP-302,places,,same as building,paired,SPI,43757,302 | Bldg 302-General Population Housing D-2,SPI writes the unit name on the building record
 VSP-D3,VSP-303,places,,same as building,paired,SPI,43758,303 | Bldg 303-General Population Housing D-3,SPI writes the unit name on the building record
 VSP-D4,VSP-304,places,,same as building,paired,SPI,43759,304 | Bldg 304-General Population Housing D-4,SPI writes the unit name on the building record
+RJD-1,RJD-1.1,places,,same as building,paired,SPI,15124,1.1 | Housing Unit 1,SPI writes the unit number on the building record
+RJD-2,RJD-1.2,places,,same as building,paired,SPI,15125,1.2 | Housing Unit 2,SPI writes the unit number on the building record
+RJD-3,RJD-1.3,places,,same as building,paired,SPI,15126,1.3 | Housing Unit 3,SPI writes the unit number on the building record
+RJD-4,RJD-1.4,places,,same as building,paired,SPI,15127,1.4 | Housing Unit 4,SPI writes the unit number on the building record
+RJD-5,RJD-1.5,places,,same as building,paired,SPI,15128,1.5 | Housing Unit 5,SPI writes the unit number on the building record
+RJD-6,RJD-2.5,places,,same as building,paired,SPI,15129,2.5 | Housing Unit 6 Adseg,SPI writes the unit number on the building record
+RJD-7,RJD-2.4,places,,same as building,paired,SPI,15130,2.4 | Housing Unit 7,SPI writes the unit number on the building record
+RJD-8,RJD-2.3,places,,same as building,paired,SPI,15131,2.3 | Housing Unit 8,SPI writes the unit number on the building record
+RJD-9,RJD-2.2,places,,same as building,paired,SPI,15132,2.2 | Housing Unit 9,SPI writes the unit number on the building record
+RJD-10,RJD-2.1,places,,same as building,paired,SPI,15133,2.1 | Housing Unit 10,SPI writes the unit number on the building record
+RJD-11,RJD-3.1,places,,same as building,paired,SPI,15134,3.1 | Housing Unit 11,SPI writes the unit number on the building record
+RJD-12,RJD-3.2,places,,same as building,paired,SPI,15135,3.2 | Housing Unit 12,SPI writes the unit number on the building record
+RJD-13,RJD-3.3,places,,same as building,paired,SPI,15136,3.3 | Housing Unit 13,SPI writes the unit number on the building record
+RJD-14,RJD-3.4,places,,same as building,paired,SPI,15137,3.4 | Housing Unit 14,SPI writes the unit number on the building record
+RJD-15,RJD-3.5,places,,same as building,paired,SPI,15138,3.5 | Housing Unit 15,SPI writes the unit number on the building record
+RJD-16,RJD-4.5,places,,same as building,paired,SPI,15139,4.5 | Housing Unit 16,SPI writes the unit number on the building record
+RJD-17,RJD-4.4,places,,same as building,paired,SPI,15140,4.4 | Housing Unit 17,SPI writes the unit number on the building record
+RJD-18,RJD-4.3,places,,same as building,paired,SPI,15141,4.3 | Housing Unit 18,SPI writes the unit number on the building record
+RJD-19,RJD-4.2,places,,same as building,paired,SPI,15142,4.2 | Housing Unit 19,SPI writes the unit number on the building record
+RJD-20,RJD-4.1,places,,same as building,paired,SPI,15143,4.1 | Housing Unit 20,SPI writes the unit number on the building record
+RJD-21,RJD-5.15,places,,same as building,paired,SPI,15098,5.15 | Housing Unit No 21,SPI writes the unit number on the building record
+RJD-22,RJD-5.16,places,,same as building,paired,SPI,15099,5.16 | Housing Unit No22,SPI writes the unit number on the building record
+RJD-23,RJD-E23,places,,same as building,paired,plata_ecf3952-1_cms_exhibits_2025-03-10,67,RJD | E23 | Housing,the place is the cooling-table record for this ID
+RJD-24,RJD-E24,places,,same as building,paired,plata_ecf3952-1_cms_exhibits_2025-03-10,67,RJD | E24 | Housing,the place is the cooling-table record for this ID
+RJD-25,RJD-E25,places,,same as building,paired,plata_ecf3952-1_cms_exhibits_2025-03-10,67,RJD | E25 | Housing,the place is the cooling-table record for this ID

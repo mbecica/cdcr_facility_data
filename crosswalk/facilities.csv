@@ -171,3 +171,10 @@ VSP-A,VSP,A,A,SPI,43774,403 | Bldg 403- A/B Support Services/Reception,"""A/B"" 
 VSP-B,VSP,B,B-Yard,SPI,55783,B-Yard Inmate Restroom,
 VSP-C,VSP,C,C-Yard,SPI,55784,C-Yard Inmate Restroom,
 VSP-D,VSP,D,D-Yard,SPI,55785,D-Yard Inmate Restroom,
+RJD-A,RJD,A,Facility A,coleman_receiver_cqit_audit_rjd_2026,11,RJD has three Level II facilities (Facility B: cell living; Facility D: cell living; Facility E: dorm living) and two Level III facilities (Facility A and Facility C),
+RJD-B,RJD,B,Facility B,coleman_receiver_cqit_audit_rjd_2026,11,RJD has three Level II facilities (Facility B: cell living; Facility D: cell living; Facility E: dorm living) and two Level III facilities (Facility A and Facility C),
+RJD-C,RJD,C,Facility C,coleman_receiver_cqit_audit_rjd_2026,11,RJD has three Level II facilities (Facility B: cell living; Facility D: cell living; Facility E: dorm living) and two Level III facilities (Facility A and Facility C),
+RJD-D,RJD,D,Facility D,coleman_receiver_cqit_audit_rjd_2026,11,RJD has three Level II facilities (Facility B: cell living; Facility D: cell living; Facility E: dorm living) and two Level III facilities (Facility A and Facility C),
+RJD-D,RJD,D,Yard 4,MPAR2022:P-1213-00089,167,"Housing Units Yard 4 Install Electrical and Television Outlets H.U.16, 17,18,19","yard number 4 read as D: the logs write D16-D18, three of the four units listed"
+RJD-E,RJD,E,Facility E,coleman_receiver_cqit_audit_rjd_2026,11,RJD has three Level II facilities (Facility B: cell living; Facility D: cell living; Facility E: dorm living) and two Level III facilities (Facility A and Facility C),
+RJD-E,RJD,E,E Yard,RJD-Final-PREA-Audit-Report-12.31.23-revised,37,"E Yard is unique to RJDCF in that each cell is a six person room, rather than two person, and contains a toilet and urinal.",
