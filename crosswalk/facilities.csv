@@ -218,3 +218,10 @@ SCC-C,SCC,C,Facility C,coleman_receiver_cqit_audit_scc_2026,10,"The institution 
 SCC-C,SCC,C,Tuolumne Yard,2025_MPAR-ADA_Final,153,Replace Hydronic Hot Water Line Level III Yard ... Replace existing hydronic hot water loop serving the Tuolumne Yard.,"candidate: the MPAR calls the Level III yard Tuolumne and the CQIT calls Facility C Level III; MPAR 2022 p179 ""Tuolumne Housing Buildings 1 through 5"""
 SCC-C,SCC,C,FAC C,SCC_MSR_0924_Redacted.pdf,139,BLD 2 FAC C,log header
 SCC-C,SCC,C,Tuolumne,2022-MPAR-Narrative-Final,179,Repair the showers in Tuolumne Housing Buildings 1 through 5.,"P-1617-00136; candidate, as for ""Tuolumne Yard"""
+CHCF-A,CHCF,A,A yard,coleman_receiver_cqit_audit_chcf_2026,8,"A yard MHCB, Prison Work Crew (PWC)",CQIT facility table
+CHCF-B,CHCF,B,B yard,coleman_receiver_cqit_audit_chcf_2026,8,B yard Psychiatric Inpatient Program (PIP),CQIT facility table
+CHCF-C,CHCF,C,C yard,coleman_receiver_cqit_audit_chcf_2026,8,C yard Outpatient Housing Unit (OHU),CQIT facility table
+CHCF-D,CHCF,D,D yard,coleman_receiver_cqit_audit_chcf_2026,8,"D yard Correctional Treatment Center (CTC), Assisted Living Outpatient Housing Unit (ALOHU), Alternative Housing (ATH)",CQIT facility table
+CHCF-E,CHCF,E,E yard,coleman_receiver_cqit_audit_chcf_2026,8,"E yard ML, Restricted Housing Unit (RHU)",CQIT facility table
+CHCF-E,CHCF,E,E Facility,CHCF-Final-PREA-Audit-Report-8.4.23,44,announce their presence in all E Facility housing units,
+CHCF-E,CHCF,E,Facility E,MPAR2022:P-1920-00107,76,Facility E housing unit 301B dayroom,"also in SPI names (""Facility E Gatehouse"")"

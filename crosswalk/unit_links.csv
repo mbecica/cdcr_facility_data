@@ -585,3 +585,36 @@ SCC-C3,SCC-spi14749,places,,same as building,paired,SPI,14749,Housing Unit Numbe
 SCC-C4,SCC-spi14750,places,,same as building,paired,SPI,14750,Housing Unit Number Four,"SPI writes the unit number on the building record (19,578 sq ft); MPAR 2022 p179 ""Tuolumne Housing Buildings 1 through 5"" are the same five (inventory rows SCC-1 to SCC-5)"
 SCC-C5,SCC-spi14751,places,,same as building,paired,SPI,14751,Housing Unit Number Five,"SPI writes the unit number on the building record (19,578 sq ft); MPAR 2022 p179 ""Tuolumne Housing Buildings 1 through 5"" are the same five (inventory rows SCC-1 to SCC-5)"
 SCC-FIREHOUSE,SCC-spi14781,places,,same as building,candidate,SPI,14781,Firehouse,"name match only (3,434 sq ft); SPI also has ""Firehouse Classroom And Workshop"" (14803)"
+CHCF-A301,CHCF-A301,places,,same as building,paired,SPI,55932,A301 | Mental Health Crisis Bed Housing,the unit is the SPI record (41532 sq ft)
+CHCF-A302,CHCF-A302,places,,same as building,paired,SPI,55933,A302 | Mental Health Crisis Bed Housing,the unit is the SPI record (47017 sq ft)
+CHCF-A304,CHCF-A304,places,,same as building,paired,SPI,55934,A304 | Permanent Work Crew Housing,the unit is the SPI record (46462 sq ft)
+CHCF-B301,CHCF-B301,places,,same as building,paired,SPI,55935,B301 | Acute Psychiatric Housing & Icf Housing,the unit is the SPI record (36855 sq ft)
+CHCF-B302,CHCF-B302,places,,same as building,paired,SPI,55936,B302 | Intermediate Care Facility-High Custody,the unit is the SPI record (37754 sq ft)
+CHCF-B303,CHCF-B303,places,,same as building,paired,SPI,55937,B303 | Intermediate Care Facility-High Custody,the unit is the SPI record (37754 sq ft)
+CHCF-B304,CHCF-B304,places,,same as building,paired,SPI,55938,B304 | Intermediate Care Facility-High Custody,the unit is the SPI record (37754 sq ft)
+CHCF-B305,CHCF-B305,places,,same as building,paired,SPI,55939,B305 | Intermediate Care Facility-High Custody,the unit is the SPI record (37754 sq ft)
+CHCF-B306,CHCF-B306,places,,same as building,paired,SPI,55940,B306 | Intermediate Care Facility-High Custody,the unit is the SPI record (37754 sq ft)
+CHCF-B307,CHCF-B307,places,,same as building,paired,SPI,55941,B307 | Intermediate Care Facility-High Custody,the unit is the SPI record (37754 sq ft)
+CHCF-B308,CHCF-B308,places,,same as building,paired,SPI,55942,B308 | Intermediate Care Facility-High Custody,the unit is the SPI record (37754 sq ft)
+CHCF-C301,CHCF-C301,places,,same as building,paired,SPI,55943,C301 | Low Acuity Cubicle Housing,the unit is the SPI record (38211 sq ft)
+CHCF-C302,CHCF-C302,places,,same as building,paired,SPI,55944,C302 | Low Acuity Cell Housing,the unit is the SPI record (52100 sq ft)
+CHCF-C303,CHCF-C303,places,,same as building,paired,SPI,55945,C303 | Low Acuity Cell Housing,the unit is the SPI record (52100 sq ft)
+CHCF-C304,CHCF-C304,places,,same as building,paired,SPI,55946,C304 | Low Acuity Cubicle Housing,the unit is the SPI record (37950 sq ft)
+CHCF-C305,CHCF-C305,places,,same as building,paired,SPI,55947,C305 | Low Acuity Cubicle Housing,the unit is the SPI record (37950 sq ft)
+CHCF-C306,CHCF-C306,places,,same as building,paired,SPI,55948,C306 | Low Acuity Cubicle Housing,the unit is the SPI record (37950 sq ft)
+CHCF-D301,CHCF-D301,places,,same as building,paired,SPI,55949,D301 | High Acuity Housing,the unit is the SPI record (37754 sq ft)
+CHCF-D302,CHCF-D302,places,,same as building,paired,SPI,55950,D302 | High Acuity Housing,the unit is the SPI record (37754 sq ft)
+CHCF-D303,CHCF-D303,places,,same as building,paired,SPI,55951,D303 | High Acuity Housing,the unit is the SPI record (37754 sq ft)
+CHCF-D304,CHCF-D304,places,,same as building,paired,SPI,55952,D304 | High Acuity Housing,the unit is the SPI record (36855 sq ft)
+CHCF-D305,CHCF-D305,places,,same as building,paired,SPI,55953,D305 | High Acuity Housing,the unit is the SPI record (37754 sq ft)
+CHCF-D306,CHCF-D306,places,,same as building,paired,SPI,55954,D306 | High Acuity Housing,the unit is the SPI record (37754 sq ft)
+CHCF-D307,CHCF-D307,places,,same as building,paired,SPI,55955,D307 | High Acuity Housing,the unit is the SPI record (37754 sq ft)
+CHCF-E302,CHCF-E302,places,,same as building,paired,SPI,55957,E302 | Special General Population Housing,the unit is the SPI record (22881 sq ft)
+CHCF-E303,CHCF-E303,places,,same as building,paired,SPI,55958,E303 | Special General Population Housing,the unit is the SPI record (22379 sq ft)
+CHCF-E304,CHCF-E304,places,,same as building,paired,SPI,55959,E304 | Special General Population Housing,the unit is the SPI record (22379 sq ft)
+CHCF-E305,CHCF-E305,places,,same as building,paired,SPI,55960,E305 | Special General Population Housing,the unit is the SPI record (22881 sq ft)
+CHCF-301B,CHCF-E301,places,,part of building,candidate,SPI,55956,E301 | Enhanced Outpatient Program Housing Unit,"number match only: 301B-301F read as units in E301 (118,283 sq ft, about five times the other E records); no 301A is named"
+CHCF-301C,CHCF-E301,places,,part of building,candidate,SPI,55956,E301 | Enhanced Outpatient Program Housing Unit,"number match only: 301B-301F read as units in E301 (118,283 sq ft, about five times the other E records); no 301A is named"
+CHCF-301D,CHCF-E301,places,,part of building,candidate,SPI,55956,E301 | Enhanced Outpatient Program Housing Unit,"number match only: 301B-301F read as units in E301 (118,283 sq ft, about five times the other E records); no 301A is named"
+CHCF-301E,CHCF-E301,places,,part of building,candidate,SPI,55956,E301 | Enhanced Outpatient Program Housing Unit,"number match only: 301B-301F read as units in E301 (118,283 sq ft, about five times the other E records); no 301A is named"
+CHCF-301F,CHCF-E301,places,,part of building,candidate,SPI,55956,E301 | Enhanced Outpatient Program Housing Unit,"number match only: 301B-301F read as units in E301 (118,283 sq ft, about five times the other E records); no 301A is named"
