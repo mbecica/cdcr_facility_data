@@ -351,3 +351,26 @@ ISP-901,ISP-901,places,,same as building,paired,SPI,39483,901 | Level 1 Dorm - 1
 ISP-902,ISP-902,places,,same as building,paired,SPI,39484,902 | Level 1 Dorm - 100 Beds,SPI names the structure a dorm
 ISP-911,ISP-911,places,,same as building,paired,SPI,39488,911 | Level 1 Dorm - 100 Beds F Facility,SPI names the structure a dorm
 ISP-912,ISP-912,places,,same as building,paired,SPI,39489,912 | Level 1 Dorm - 100 Beds F Facility,SPI names the structure a dorm
+PVSP-A1,PVSP-346,places,,same as building,paired,SPI,40358,346 | 270 Housing Unit A-1,SPI writes the unit name on the building record
+PVSP-A2,PVSP-347,places,,same as building,paired,SPI,40359,347 | 270 Housing Unit A-2,SPI writes the unit name on the building record
+PVSP-A3,PVSP-348,places,,same as building,paired,SPI,40360,348 | 270 Housing Unit A-3,SPI writes the unit name on the building record
+PVSP-A4,PVSP-349,places,,same as building,paired,SPI,40361,349 | 270 Housing Unit A-4,SPI writes the unit name on the building record
+PVSP-A5,PVSP-350,places,,same as building,paired,SPI,40362,350 | 270 Housing Unit A-5,SPI writes the unit name on the building record
+PVSP-B1,PVSP-341,places,,same as building,paired,SPI,40353,341 | 270 Housing Unit B-1,SPI writes the unit name on the building record
+PVSP-B2,PVSP-342,places,,same as building,paired,SPI,40354,342 | 270 Housing Unit B-2,SPI writes the unit name on the building record
+PVSP-B3,PVSP-343,places,,same as building,paired,SPI,40355,343 | 270 Housing Unit B-3,SPI writes the unit name on the building record
+PVSP-B4,PVSP-344,places,,same as building,paired,SPI,40356,344 | 270 Housing Unit B-4,SPI writes the unit name on the building record
+PVSP-B5,PVSP-345,places,,same as building,paired,SPI,40357,345 | 270 Housing Unit B-5,SPI writes the unit name on the building record
+PVSP-C1,PVSP-336,places,,same as building,paired,SPI,40348,336 | 270 Housing Unit C-1,SPI writes the unit name on the building record
+PVSP-C2,PVSP-337,places,,same as building,paired,SPI,40349,337 | 270 Housing Unit C-2,SPI writes the unit name on the building record
+PVSP-C3,PVSP-338,places,,same as building,paired,SPI,40350,338 | 270 Housing Unit C-3,SPI writes the unit name on the building record
+PVSP-C4,PVSP-339,places,,same as building,paired,SPI,40351,339 | 270 Housing Unit C-4,SPI writes the unit name on the building record
+PVSP-C5,PVSP-340,places,,same as building,paired,SPI,40352,340 | 270 Housing Unit C-5,SPI writes the unit name on the building record
+PVSP-D1,PVSP-331,places,,same as building,paired,SPI,40343,331 | 270 Housing Unit D-1,SPI writes the unit name on the building record
+PVSP-D2,PVSP-332,places,,same as building,paired,SPI,40344,332 | 270 Housing Unit D-2,SPI writes the unit name on the building record
+PVSP-D3,PVSP-333,places,,same as building,paired,SPI,40345,333 | 270 Housing Unit D-3,SPI writes the unit name on the building record
+PVSP-D4,PVSP-334,places,,same as building,paired,SPI,40346,334 | 270 Housing Unit D-4 Ad-Seg,SPI writes the unit name on the building record
+PVSP-D5,PVSP-335,places,,same as building,paired,SPI,40347,335 | 270 Housing Unit D-5,SPI writes the unit name on the building record
+PVSP-DORM-1,PVSP-901,places,,same as building,paired,SPI,40431,901 | E-Facility Housing Dormitory No. 1,SPI writes the dorm number on the record
+PVSP-DORM-2,PVSP-902,places,,same as building,paired,SPI,40432,902 | E-Facility Housing Dormitory No. 2,SPI writes the dorm number on the record
+PVSP-RHU,PVSP-spi50364,places,,same as building,candidate,SPI,50364,Administrative Segregation Housing Unit,"name match only (built 2003, 25,204 sq ft, the ASU size at CAL, CEN, COR); no source pairs RHU with this record. Plata Aug 2024 ""455 | Housing"" has no SPI record and may be the same building; CQIT p11 lists RHU telepsychiatry rooms in ""Building 456"""

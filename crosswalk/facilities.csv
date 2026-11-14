@@ -117,3 +117,15 @@ ISP-D,ISP,D,Facilities A-D,ISP-Final-PREA-Audit-Report-12.30.25,41,"They are pri
 ISP-MSF,ISP,MSF,Minimum Support Facility,ISP-Final-PREA-Audit-Report-12.30.25,41,"They are primarily classified as Minimum and Level III and may be housed in a tier/cell design (Facilities A-D), Restrictive Housing, or dorm (Minimum Support Facility).",dorm housing
 ISP-MSF,ISP,MSF,MSF,ISP-Final-PREA-Audit-Report-12.30.25,43,The same was true of Minimum Support Facility (MSF).,
 ISP-F,ISP,F,F Facility,SPI,39488,911 | Level 1 Dorm - 100 Beds F Facility,"only in SPI (911, 912); whether F is part of MSF is not stated"
+PVSP-A,PVSP,A,Yard A,coleman_receiver_cqit_audit_pvsp_2026,11,"The institution's housing configuration includes Yards A, B, C, and D for general population and sensitive needs housing, M-Yard, a Minimum Support Facility, and a Restricted Housing Unit.",CQIT visit 2026
+PVSP-A,PVSP,A,Facility A,MPAR2022:P-1617-00573,161,"Facility A, Building 346, 347, 348, 349, 350",
+PVSP-B,PVSP,B,Yard B,coleman_receiver_cqit_audit_pvsp_2026,11,"The institution's housing configuration includes Yards A, B, C, and D for general population and sensitive needs housing, M-Yard, a Minimum Support Facility, and a Restricted Housing Unit.",CQIT visit 2026
+PVSP-B,PVSP,B,Facility B,MPAR2022:P-1617-00573,161,"Facility B, Building 341, 342, 343, 344, 345",
+PVSP-C,PVSP,C,Yard C,coleman_receiver_cqit_audit_pvsp_2026,11,"The institution's housing configuration includes Yards A, B, C, and D for general population and sensitive needs housing, M-Yard, a Minimum Support Facility, and a Restricted Housing Unit.",CQIT visit 2026
+PVSP-C,PVSP,C,Facility C,MPAR2022:P-1617-00573,161,"Facility C, Building 336, 337, 338, 339, 340",
+PVSP-D,PVSP,D,Yard D,coleman_receiver_cqit_audit_pvsp_2026,11,"The institution's housing configuration includes Yards A, B, C, and D for general population and sensitive needs housing, M-Yard, a Minimum Support Facility, and a Restricted Housing Unit.",CQIT visit 2026
+PVSP-D,PVSP,D,Facility D,MPAR2022:P-1617-00573,161,"Facility D, Building 331, 332, 333, 334, 335",
+PVSP-M,PVSP,M,M-Yard,coleman_receiver_cqit_audit_pvsp_2026,11,"The institution's housing configuration includes Yards A, B, C, and D for general population and sensitive needs housing, M-Yard, a Minimum Support Facility, and a Restricted Housing Unit.",logs write unit M-2 from Jul 2024; no SPI record or other source names M-Yard buildings
+PVSP-MSF,PVSP,MSF,Minimum Support Facility,coleman_receiver_cqit_audit_pvsp_2026,11,"The institution's housing configuration includes Yards A, B, C, and D for general population and sensitive needs housing, M-Yard, a Minimum Support Facility, and a Restricted Housing Unit.",
+PVSP-MSF,PVSP,MSF,MSF,PVSP_MSR_0524_Redacted.pdf,98,MSF DORM 2,log header
+PVSP-MSF,PVSP,MSF,E-Facility,SPI,40432,902 | E-Facility Housing Dormitory No. 2,"candidate: SPI puts Dormitory No. 2 in E-Facility and the logs write MSF DORM 2, so E-Facility and MSF may be one facility; not stated"

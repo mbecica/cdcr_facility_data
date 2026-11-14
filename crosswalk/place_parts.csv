@@ -173,3 +173,15 @@ SATF-383:B,SATF-383,section,B,383 B,candidate,September_2025_Quarterly_Report-AD
 SATF-383:C,SATF-383,section,C,383 C,candidate,September_2025_Quarterly_Report-ADA,43,"Buildings 373, 383 B, and 383 C",SATF-383 C,"part of 383 is read from the name; whether B/C are pods, sections or wings is not stated (Complex IV ""is configured in a pod design"", PREA p43)"
 CAL-345:B,CAL-345,section,B,B Sec.;B sec;Bsec,stated,CAL_MSR_0924_Redacted.pdf,42,CAL / C1 - 2nd tier B Sec.,,
 CAL-341:B,CAL-341,section,B,B section,stated,CAL_MSR_0724_Redacted.pdf,54,CAL C-5 2nd Tier B section,,
+PVSP-spi50364:A,PVSP-spi50364,section,A,STRH A;RHU A;A,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH A,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:B,PVSP-spi50364,section,B,STRH B;RHU B;B,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH B,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:C,PVSP-spi50364,section,C,STRH C;RHU C;C,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH C,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:D,PVSP-spi50364,section,D,STRH D;RHU D;D,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH D,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:E,PVSP-spi50364,section,E,STRH E;RHU E;E,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH E,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:F,PVSP-spi50364,section,F,STRH F;RHU F;F,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH F,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:G,PVSP-spi50364,section,G,STRH G;RHU G;G,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH G,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:H,PVSP-spi50364,section,H,STRH H;RHU H;H,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH H,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-342:B,PVSP-342,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,stated,PVSP_MSR_0724_Redacted.pdf,48,PVSP / B2 / B Section,,
+PVSP-343:B,PVSP-343,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,stated,PVSP_MSR_0724_Redacted.pdf,54,PVSP / B3 / 2ND Tier B-Sect.,,
+PVSP-344:B,PVSP-344,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,stated,PVSP_MSR_0724_Redacted.pdf,58,PVSP / B4 / 2ND T B-SIDE,,
+PVSP-345:B,PVSP-345,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,stated,PVSP_MSR_0924_Redacted.pdf,89,B-5 2nd B-Section,,
