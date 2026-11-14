@@ -15,7 +15,7 @@ Reads:
                                 mapper names, so links to them are candidates)
 
 Output: crosswalk/places.csv
-        crosswalk/archive/places_non_prison.csv
+        notes/crosswalk_archive/places_non_prison.csv (gitignored)
           rows for NON_PRISON codes (sites that aren't prisons, kept but not
           published), same columns
   One row per building, outdoor area or other structure. Columns are the
@@ -169,8 +169,8 @@ def main():
             'spi_structure_number', 'spi_agency_structure_no', 'spi_real_property_number',
             'conflicts', 'n_sources', 'sources']
     arch = b['cdcr_code'].isin(NON_PRISON)
-    (CW / 'archive').mkdir(exist_ok=True)
-    b.loc[arch, cols].to_csv(CW / 'archive' / 'places_non_prison.csv', index=False)
+    (ROOT / 'notes' / 'crosswalk_archive').mkdir(parents=True, exist_ok=True)
+    b.loc[arch, cols].to_csv(ROOT / 'notes' / 'crosswalk_archive' / 'places_non_prison.csv', index=False)
     b = b[~arch]
     b[cols].to_csv(CW / 'places.csv', index=False)
     print(f'places.csv: {len(b)} rows ({len(moved)} inventory rows moved to units/parts); '
