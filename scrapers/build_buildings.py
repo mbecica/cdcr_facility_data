@@ -183,10 +183,19 @@ def lookups(s: pd.DataFrame) -> dict:
     return out
 
 
+# Mention IDs that are housing-unit names and only collide with an SPI agency number.
+# MCSP's SPI letter+digit numbers are a building series (A3, B8, C4 are clothing
+# exchanges; B6 "Vocational Landscaping Modular", B7 "B7 - Mental Health"), while
+# Coleman's "housing unit B7" and "Facility B6" are units 7 and 6 on Facility B.
+NO_SPI_JOIN = {("MCSP", "B6"), ("MCSP", "B7")}
+
+
 def mention_key(row, look: dict) -> str:
     c = row["cdcr_code"]
     if row["placeholder_id"]:
         return f"{c}-ph-{row['placeholder_id']}"
+    if (c, row["building"]) in NO_SPI_JOIN:
+        return f"{c}-unit-{row['building']}"
     if row["building"]:
         for part in [row["building"], *row["building"].split("/")]:
             if (c, canon(part)) in look:

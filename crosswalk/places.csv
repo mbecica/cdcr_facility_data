@@ -2307,8 +2307,8 @@ MCSP-B2,MCSP,B2,"Central Corridor, Bldg B2 & B3",building,,,,,,,,,,,,94286,OFFIC
 MCSP-B3,MCSP,B3,"Correctional Treatment Centers, Phase Ii",building,,,,,,,,,,2003,,0,HOSPITAL/CLINIC/TREATMENT CENTER,44506,B3,43,,1,SPI
 MCSP-B4,MCSP,B4,Cogeneration Plant,building,,,,,,,,,,,,2083,UTILITY,28921,B4,43,,1,SPI
 MCSP-B5,MCSP,B5,Mental Health Bldg.,building,,,,,,,,,,2004,,6617,HOSPITAL/CLINIC/TREATMENT CENTER,50587,B5,43,,1,SPI
-MCSP-B6,MCSP,B6,Vocational Landscaping Modular,building,,,,,,,,,,1996,,2160,RELOCATABLE CLASSROOM,4618,B6,43,,2,SPI;coleman_ecf8558_31st_round_heat_report_2025-02-28
-MCSP-B7,MCSP,B7,B7 - Mental Health,building,,,,,,,housing,,,2009,,4320,RELOCATABLE MEDICAL FACILITY,51110,B7,43,,3,SPI;coleman_ecf8558-1_heat_report_exhibits_2025-02-28;coleman_ecf8558_31st_round_heat_report_2025-02-28
+MCSP-B6,MCSP,B6,Vocational Landscaping Modular,building,,,,,,,,,,1996,,2160,RELOCATABLE CLASSROOM,4618,B6,43,,1,SPI
+MCSP-B7,MCSP,B7,B7 - Mental Health,building,,,,,,,,,,2009,,4320,RELOCATABLE MEDICAL FACILITY,51110,B7,43,,1,SPI
 MCSP-B8,MCSP,B8,Facility B Clothing Exchange,building,,,MCSP-B,SPI name,,,,,,2018,,3586,STORAGE BUILDING,57266,B8,43,,1,SPI
 MCSP-B9,MCSP,B9,Pharmacy And Laboratory,building,,,,,,,,,,2018,,2471,HOSPITAL/CLINIC/TREATMENT CENTER,57264,B9,43,,1,SPI
 MCSP-C3,MCSP,C3,Asu Primary Care & Asu-Eop Mental Health,building,,,,,,,,,,2018,,6162,HOSPITAL/CLINIC/TREATMENT CENTER,57263,C3,43,,1,SPI

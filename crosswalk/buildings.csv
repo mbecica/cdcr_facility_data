@@ -2341,8 +2341,8 @@ MCSP-B2,MCSP,B2,"Central Corridor, Bldg B2 & B3",,,,,,,,94286,OFFICE (INSTITUTIO
 MCSP-B3,MCSP,B3,"Correctional Treatment Centers, Phase Ii",,,,,,,2003,0,HOSPITAL/CLINIC/TREATMENT CENTER,44506,B3,43,,1,SPI
 MCSP-B4,MCSP,B4,Cogeneration Plant,,,,,,,,2083,UTILITY,28921,B4,43,,1,SPI
 MCSP-B5,MCSP,B5,Mental Health Bldg.,,,,,,,2004,6617,HOSPITAL/CLINIC/TREATMENT CENTER,50587,B5,43,,1,SPI
-MCSP-B6,MCSP,B6,Vocational Landscaping Modular,,,,,,,1996,2160,RELOCATABLE CLASSROOM,4618,B6,43,,2,SPI;coleman_ecf8558_31st_round_heat_report_2025-02-28
-MCSP-B7,MCSP,B7,B7 - Mental Health,,,,housing,,,2009,4320,RELOCATABLE MEDICAL FACILITY,51110,B7,43,,3,SPI;coleman_ecf8558-1_heat_report_exhibits_2025-02-28;coleman_ecf8558_31st_round_heat_report_2025-02-28
+MCSP-B6,MCSP,B6,Vocational Landscaping Modular,,,,,,,1996,2160,RELOCATABLE CLASSROOM,4618,B6,43,,1,SPI
+MCSP-B7,MCSP,B7,B7 - Mental Health,,,,,,,2009,4320,RELOCATABLE MEDICAL FACILITY,51110,B7,43,,1,SPI
 MCSP-B8,MCSP,B8,Facility B Clothing Exchange,,,,,,,2018,3586,STORAGE BUILDING,57266,B8,43,,1,SPI
 MCSP-B9,MCSP,B9,Pharmacy And Laboratory,,,,,,,2018,2471,HOSPITAL/CLINIC/TREATMENT CENTER,57264,B9,43,,1,SPI
 MCSP-C12,MCSP,C12,,,,,housing,ASU,,,,,,,,,1,MPAR2022:P-1718-00126
@@ -2424,6 +2424,8 @@ MCSP-spi56667,MCSP,,Wastewater Treatment Office/Lab,,,,,,,2016,1200,OFFICE (INST
 MCSP-spi57358,MCSP,,Central Utility Plant,,,,,,,2018,1680,UTILITY,57358,D,43,,1,SPI
 MCSP-spi57383,MCSP,,Gunwalk/Catwalk,,,,,,,2018,950,LOOKOUT (GUARD STATION),57383,,43,,1,SPI
 MCSP-spi961,MCSP,,Modular / I.S.T. Modular A,,,,,,,1988,2160,RELOCATABLE CLASSROOM,961,A02 - MODULAR A,43,,1,SPI
+MCSP-unit-B6,MCSP,B6,,,,,,,,,,,,,,,1,coleman_ecf8558_31st_round_heat_report_2025-02-28
+MCSP-unit-B7,MCSP,B7,,,,,housing,,,,,,,,,,2,coleman_ecf8558-1_heat_report_exhibits_2025-02-28;coleman_ecf8558_31st_round_heat_report_2025-02-28
 NKSP-100,NKSP,100,Friends Outside Visitor Center,,,,,,,1991,1440,VISITATION FACILITY,43441,100,9648,,1,SPI
 NKSP-200,NKSP,200,Central Transportation Modular,,,,,,,2006,1776,RELOCATABLE OFFICE,5669,200,9648,,1,SPI
 NKSP-201,NKSP,201,Wastewater Pump Station,,,,,,,1991,965,PUMP/WELL HOUSE,43442,201,9648,,1,SPI
