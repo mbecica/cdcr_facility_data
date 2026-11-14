@@ -167,3 +167,7 @@ LAC-B,LAC,B,FB,LAC_MSR_0524_Redacted.pdf,94,FBB1,log header (Facility B Building
 LAC-C,LAC,C,facility C,LAC-Final-PREA-Audit-Report-11.15.23,33,the audit team’s largest concern which were the PIA areas for facility A and C.,
 LAC-D,LAC,D,Facility D,MPAR2025:P-2324-00149,122,"Replace Roofs - Facility D, Housing Units, Buildings 346, 347, 348 and 3410",
 LAC-MSF,LAC,MSF,MSF,LAC_MSR_0524_Redacted.pdf,7,MSF DORM,log header
+VSP-A,VSP,A,A,SPI,43774,403 | Bldg 403- A/B Support Services/Reception,"""A/B"" support building; also the unit-name prefix (SPI 313-316)"
+VSP-B,VSP,B,B-Yard,SPI,55783,B-Yard Inmate Restroom,
+VSP-C,VSP,C,C-Yard,SPI,55784,C-Yard Inmate Restroom,
+VSP-D,VSP,D,D-Yard,SPI,55785,D-Yard Inmate Restroom,

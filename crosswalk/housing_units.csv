@@ -526,3 +526,20 @@ LAC-ASU,LAC,ASU,ASU-1;ASU;RHU,,,,,,ASU;RHU,LAC_MSR_0524_Redacted.pdf,76,ASU-1,,"
 LAC-INFIRMARY,LAC,Infirmary,Infirmary;INF;Infermery,,,,,,,LAC_MSR_0524_Redacted.pdf,149,INFIRMARY,,"logged May-Oct 2024 (1st tier); Coleman 31st round p97 mentions temperature logs in ""the CTC"", and SPI 451 is ""Correctional Treatment Center"", but no source pairs the infirmary with the CTC, so no place"
 LAC-MSF-DORM-1,LAC,MSF Dorm 1,MSF Dorm 1;Dorm 1,LAC-MSF,stated,LAC_MSR_0524_Redacted.pdf,7,MSF DORM,,LAC_MSR_0524_Redacted.pdf,7,MSF DORM,,logged May-Oct 2024
 LAC-MSF-DORM-2,LAC,MSF Dorm 2,MSF Dorm 2;Dorm 2,LAC-MSF,stated,LAC_MSR_0624_Redacted.pdf,45,MSF-DORM 2,,LAC_MSR_0624_Redacted.pdf,45,MSF-DORM 2,,"logged Jun, Aug-Sep 2024"
+VSP-A1,VSP,A1,A1;A-1;A1-313;A1 - 313;A1-VSP,VSP-A,candidate,unit name,,A-1,RC,SPI,43768,313 | Bldg 313-Reception Center Housing  A-1,,"logged May-Oct 2024; headers ""A1-313"" (0724 p26) and ""A1 - 313"" (0924 p18) write the SPI number beside the unit"
+VSP-A2,VSP,A2,A2;A-2,VSP-A,candidate,unit name,,A-2,RC,SPI,43769,314 | Bldg 314-Reception Center Housing  A-2,,logged May-Oct 2024
+VSP-A3,VSP,A3,A3;A-3,VSP-A,candidate,unit name,,A-3,RC,SPI,43770,315 | Bldg 315-Reception Center-270(Cells) A-3,,"logged May-Oct 2024; SPI 315 ""Reception Center-270(Cells) A-3"""
+VSP-A4,VSP,A4,A4;A-4;Ad-Seg-A4;A4 Cnt,VSP-A,candidate,unit name,,A-4,SHU/ASU,SPI,43771,316 | Bldg 316-Shu/Ad Sef-270 (Cells) Unit A-4,,"logged May-Oct 2024; header ""Ad-Seg-A4"" (0724 p33) pairs ASU with A4, as SPI 316 does; PREA 2024 p41 ""The Restricted Housing unit is a two-story unit"" names no unit (not paired)"
+VSP-B1,VSP,B1,B1;B-1;B 1;B-1 (HD);B1 (HD),VSP-B,candidate,unit name,,B-1,GP,SPI,43764,309 | Bldg 309-General Population Housing B-1,,"logged May-Oct 2024; often written ""B-1 (HD)"", meaning not stated"
+VSP-B2,VSP,B2,B2;B-2,VSP-B,candidate,unit name,,B-2,GP,SPI,43765,310 | Bldg 310-General Population Housing B-2,,logged May-Oct 2024
+VSP-B3,VSP,B3,B3,VSP-B,candidate,unit name,,B-3,GP,SPI,43766,311 | Bldg 311-General Population Housing B-3,,logged May-Oct 2024
+VSP-B4,VSP,B4,B4;B-4;B-4 (CM),VSP-B,candidate,unit name,,B-4,GP,SPI,43767,312 | Bldg 312-General Population Housing B-4,,logged May-Oct 2024
+VSP-C1,VSP,C1,C1;C-1,VSP-C,candidate,unit name,,C-1,GP,SPI,43760,305 | Bldg 305-General Population Housing C-1,,logged May-Oct 2024
+VSP-C2,VSP,C2,C2;C-2;c-2,VSP-C,candidate,unit name,,C-2,GP,SPI,43761,306 | Bldg 306-General Population Housing C-2,,logged May-Oct 2024
+VSP-C3,VSP,C3,C3;C-3;C03;C103,VSP-C,candidate,unit name,,C-3,GP,SPI,43762,307 | Bldg 307-General Population Housing C-3,,"logged May-Oct 2024; most weekly pages are headed ""C/03"" (read as ""C103"") in the C3 slot of the C1-C4 rotation, and one ""Delta 103"" (0724 p80)"
+VSP-C4,VSP,C4,C4;C-4,VSP-C,candidate,unit name,,C-4,GP,SPI,43763,308 | Bldg 308-General Population Housing C-4,,logged May-Oct 2024
+VSP-D1,VSP,D1,D1;D-1;D1 (301);D1-301,VSP-D,candidate,unit name,,D-1,GP,SPI,43756,301 | Bldg 301-General Population Housing D-1,,"logged May-Oct 2024; headers ""D1 (301)"" (0924 p74) and ""D1-301"" (0724 p78) write the SPI number beside the unit"
+VSP-D2,VSP,D2,D2;D-2,VSP-D,candidate,unit name,,D-2,GP,SPI,43757,302 | Bldg 302-General Population Housing D-2,,logged May-Oct 2024
+VSP-D3,VSP,D3,D3,VSP-D,candidate,unit name,,D-3,GP,SPI,43758,303 | Bldg 303-General Population Housing D-3,,logged May-Oct 2024
+VSP-D4,VSP,D4,D4,VSP-D,candidate,unit name,,D-4,GP,SPI,43759,304 | Bldg 304-General Population Housing D-4,,logged May-Oct 2024
+VSP-INFIRMARY-OHU,VSP,Infirmary OHU,Infirmary OHU;INFIRMARY OHU,,,,,,OHU,VSP_MSR_0524_Redacted.pdf,2,Infirmary OHU,,"logged May-Oct 2024 (floor); SPI 1101 ""Central Health Facility"" is not paired with it, so no place"

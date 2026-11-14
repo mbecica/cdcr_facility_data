@@ -437,3 +437,19 @@ LAC-D5,LAC-3410,places,,same as building,paired,SPI,43594,3410 | Housing Unit D-
 LAC-ASU,LAC-spi50273,places,,same as building,candidate,SPI,50273,Administrative Segregation Housing Unit,"name match only (built 2002, 25,204 sq ft); the Plata cooling ID ""ASU6"" (Housing) may be the same building, not paired"
 LAC-MSF-DORM-1,LAC-901,places,,same as building,candidate,SPI,43655,901 | Level One Housing,"number match only: Dorm 1 read as 901, one of the two Level One Housing records"
 LAC-MSF-DORM-2,LAC-902,places,,same as building,candidate,SPI,43656,902 | Level One Housing,"number match only: Dorm 2 read as 902, one of the two Level One Housing records"
+VSP-A1,VSP-313,places,,same as building,paired,SPI,43768,313 | Bldg 313-Reception Center Housing  A-1,SPI writes the unit name on the building record
+VSP-A2,VSP-314,places,,same as building,paired,SPI,43769,314 | Bldg 314-Reception Center Housing  A-2,SPI writes the unit name on the building record
+VSP-A3,VSP-315,places,,same as building,paired,SPI,43770,315 | Bldg 315-Reception Center-270(Cells) A-3,SPI writes the unit name on the building record
+VSP-A4,VSP-316,places,,same as building,paired,SPI,43771,316 | Bldg 316-Shu/Ad Sef-270 (Cells) Unit A-4,SPI writes the unit name on the building record
+VSP-B1,VSP-309,places,,same as building,paired,SPI,43764,309 | Bldg 309-General Population Housing B-1,SPI writes the unit name on the building record
+VSP-B2,VSP-310,places,,same as building,paired,SPI,43765,310 | Bldg 310-General Population Housing B-2,SPI writes the unit name on the building record
+VSP-B3,VSP-311,places,,same as building,paired,SPI,43766,311 | Bldg 311-General Population Housing B-3,SPI writes the unit name on the building record
+VSP-B4,VSP-312,places,,same as building,paired,SPI,43767,312 | Bldg 312-General Population Housing B-4,SPI writes the unit name on the building record
+VSP-C1,VSP-305,places,,same as building,paired,SPI,43760,305 | Bldg 305-General Population Housing C-1,SPI writes the unit name on the building record
+VSP-C2,VSP-306,places,,same as building,paired,SPI,43761,306 | Bldg 306-General Population Housing C-2,SPI writes the unit name on the building record
+VSP-C3,VSP-307,places,,same as building,paired,SPI,43762,307 | Bldg 307-General Population Housing C-3,SPI writes the unit name on the building record
+VSP-C4,VSP-308,places,,same as building,paired,SPI,43763,308 | Bldg 308-General Population Housing C-4,SPI writes the unit name on the building record
+VSP-D1,VSP-301,places,,same as building,paired,SPI,43756,301 | Bldg 301-General Population Housing D-1,SPI writes the unit name on the building record
+VSP-D2,VSP-302,places,,same as building,paired,SPI,43757,302 | Bldg 302-General Population Housing D-2,SPI writes the unit name on the building record
+VSP-D3,VSP-303,places,,same as building,paired,SPI,43758,303 | Bldg 303-General Population Housing D-3,SPI writes the unit name on the building record
+VSP-D4,VSP-304,places,,same as building,paired,SPI,43759,304 | Bldg 304-General Population Housing D-4,SPI writes the unit name on the building record
