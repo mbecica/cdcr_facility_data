@@ -191,3 +191,18 @@ WSP-H4,WSP-422,places,,same as building,paired,SPI,39500,422 | Reception Ctr Hou
 WSP-M1,WSP-901,places,,same as building,paired,SPI,37797,901 | Facility M Building 1,SPI writes the unit name on the building record
 WSP-M2,WSP-902,places,,same as building,paired,SPI,37798,902 | Facility M Building 2,SPI writes the unit name on the building record
 WSP-CTC,WSP-correctional-treatment-center,places,,same as building,candidate,MPAR2022:P-1516-00295,204,"Board of Parole Hearings conference room, Correctional Treatment Center, Receiving and Release",abbreviation match only; no SPI record named CTC
+SQ-NORTH,SQ-23,places,,same as building,paired,SPI,27199,SQ-B-23 | North Block,SPI names the structure North Block
+SQ-WEST,SQ-30,places,,same as building,paired,SPI,27205,SQ-B-30 | West Block,SPI names the structure West Block
+SQ-EAST,SQ-24,places,,same as building,paired,SPI,27200,SQ-B-24 | East Block,SPI names the structure East Block
+SQ-AC,SQ-20,places,,same as building,paired,SPI,27196,SQ-B-20 | Adjustment Center,SPI names the structure Adjustment Center
+SQ-CHSB,SQ-22,places,,same as building,candidate,SPI,51186,SQ-B-22 | Central Health Services Facility,"abbreviation match only: CHSB (logs) and Central Health Services (PREA) vs SPI ""Central Health Services Facility"" / MPAR ""New Central Health Services Building, ID 22"""
+SQ-ALPINE,SQ-28:ALPINE,place_parts,,part of building,candidate,SQRC_MSR_0524_Redacted.pdf,23,San Quentin / Alpine / 3rd tier,no source places it in South Block; candidate because PREA p42 places Carson Unit within South Block and no 2024 log page names South Block
+SQ-BADGER,SQ-28:BADGER,place_parts,,part of building,candidate,SQRC_MSR_0524_Redacted.pdf,28,San Quentin / BADGER / TIER 1,no source places it in South Block; candidate because PREA p42 places Carson Unit within South Block and no 2024 log page names South Block
+SQ-DONNER,SQ-28:DONNER,place_parts,,part of building,candidate,SQRC_MSR_0524_Redacted.pdf,38,San Quentin / Donner,no source places it in South Block; candidate because PREA p42 places Carson Unit within South Block and no 2024 log page names South Block
+SQ-CARSON,SQ-28:CARSON,place_parts,,part of building,paired,SQRC-Final-PREA-Audit-Report-2.21.25,42,"Although SQRC is actively reducing population as they systematically close and reconfigure housing units (East Block and Carson Unit within South Block), the footprint of the facility is massive (432 acres).","PREA writes ""Carson Unit within South Block""; South Block = SPI SQ-B-28 by name"
+SQ-H-DORM-1,SQ-spi39678,places,,same as building,paired,SPI,39678,H Unit - Dorm 1,SPI names the structure H Unit - Dorm 1
+SQ-H-DORM-2,SQ-spi39679,places,,same as building,paired,SPI,39679,H Unit - Dorm 2,SPI names the structure H Unit - Dorm 2
+SQ-H-DORM-3,SQ-spi39680,places,,same as building,paired,SPI,39680,H Unit - Dorm 3,SPI names the structure H Unit - Dorm 3
+SQ-H-DORM-4,SQ-spi39681,places,,same as building,paired,SPI,39681,H Unit - Dorm 4,SPI names the structure H Unit - Dorm 4
+SQ-H-DORM-5,SQ-spi39682,places,,same as building,paired,SPI,39682,H Unit - Dorm 5,SPI names the structure H Unit - Dorm 5
+SQ-FIREHOUSE,SQ-45,places,,part of building,candidate,SPI,27220,SQ-B-45 | Firehouse,name match only; which part of the firehouse houses people is not stated
