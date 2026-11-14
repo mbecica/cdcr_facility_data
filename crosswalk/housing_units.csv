@@ -785,3 +785,5 @@ CCI-B4,CCI,B4,B4,CCI-B,stated,CCI_MSR_0524_Redacted.pdf,173,FAC B H.U.4 A.SEC,,C
 CCI-B6,CCI,B6,B6,CCI-B,stated,CCI_MSR_1024_Redacted.pdf,278,FAC B HU6 A-SEC,,CCI_MSR_1024_Redacted.pdf,278,FAC B HU6 A-SEC,,
 CCI-B7,CCI,B7,B7,CCI-B,candidate,CCI_MSR_0824_Redacted.pdf,281,B HU #7 / C Section,,CCI_MSR_0824_Redacted.pdf,281,B HU #7 / C Section,,
 CCI-B8,CCI,B8,B8,CCI-B,candidate,CCI_MSR_0724_Redacted.pdf,463,CCI / B-HU8 / A,,CCI_MSR_0724_Redacted.pdf,463,CCI / B-HU8 / A,,
+NKSP-DORM-1,NKSP,Dorm 1,Dorm 1;M Dorm 1,NKSP-M,stated,NKSP_MSR_0624_Redacted.pdf,93,FAC. M DORM 1,,NKSP_MSR_0624_Redacted.pdf,93,FAC. M DORM 1,,
+NKSP-DORM-2,NKSP,Dorm 2,Dorm 2;M Dorm 2,NKSP-M,stated,NKSP_MSR_0524_Redacted.pdf,98,Fac. M Dorm 2,,NKSP_MSR_0524_Redacted.pdf,98,Fac. M Dorm 2,,
