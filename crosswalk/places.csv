@@ -2931,11 +2931,11 @@ SATF-spi40234,SATF,,Facility F Program And Life Skills,building,,,SATF-F,SPI nam
 SATF-spi40239,SATF,,Facility G Program And Gym,building,,,SATF-G,SPI name,,,,,,1997,,15047,OFFICE (INSTITUTIONAL),40239,481/482,10105,,1,SPI
 SATF-spi50368,SATF,,Administrative Segregation Housing Unit,building,,,,,,,,,,2002,,25204,DORMITORY,50368,,10105,,1,SPI
 SATF-spi51554,SATF,,10 Small Management Exercise Yards,other structure,,,,,,,,,,2009,,1500,SMALL MANAGEMENT EXERCISE YARDS,51554,,10105,,1,SPI
-SCC-1,SCC,1,,building,,,SCC-Tuolumne,mention,,,housing,,,,,,,,,,,1,MPAR2022:P-1617-00136
-SCC-2,SCC,2,,building,,,SCC-Tuolumne,mention,,,housing,,,,,,,,,,,2,MPAR2022:P-1617-00136;MPAR2023:P-2324-00033
-SCC-3,SCC,3,,building,,,SCC-Tuolumne,mention,,,housing,,,,,,,,,,,1,MPAR2022:P-1617-00136
-SCC-4,SCC,4,,building,,,SCC-Tuolumne,mention,,,housing,,,,,,,,,,,1,MPAR2022:P-1617-00136
-SCC-5,SCC,5,,building,,,SCC-Tuolumne,mention,,,housing,,,,,,,,,,,1,MPAR2022:P-1617-00136
+SCC-1,SCC,1,,building,,,SCC-C,mention,,,housing,,,,,,,,,,,1,MPAR2022:P-1617-00136
+SCC-2,SCC,2,,building,,,SCC-C,mention,,,housing,,,,,,,,,,,2,MPAR2022:P-1617-00136;MPAR2023:P-2324-00033
+SCC-3,SCC,3,,building,,,SCC-C,mention,,,housing,,,,,,,,,,,1,MPAR2022:P-1617-00136
+SCC-4,SCC,4,,building,,,SCC-C,mention,,,housing,,,,,,,,,,,1,MPAR2022:P-1617-00136
+SCC-5,SCC,5,,building,,,SCC-C,mention,,,housing,,,,,,,,,,,1,MPAR2022:P-1617-00136
 SCC-H01,SCC,H01,,building,,,,,,,housing,,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 SCC-H02,SCC,H02,,building,,,,,,,housing,,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 SCC-H51,SCC,H51,,building,,,,,,,housing,,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
