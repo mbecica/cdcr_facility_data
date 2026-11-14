@@ -184,3 +184,12 @@ MCSP-C,MCSP,C,Facility C,coleman_receiver_cqit_audit_mcsp_2026,9,Facility C (Lev
 MCSP-D,MCSP,D,Facility D,coleman_receiver_cqit_audit_mcsp_2026,9,"Facility D (Level II ML) NDPF housing for GP, CCCMS, and EOP (D18 only); three dormitories","CQIT housing table (PDF page 9, printed page 7)"
 MCSP-E,MCSP,E,Facility E,coleman_receiver_cqit_audit_mcsp_2026,9,Facility E (Level II ML) NDPF housing for GP and CCCMS; three dormitories,"CQIT housing table (PDF page 9, printed page 7)"
 MCSP-MSF,MCSP,MSF,MSF,coleman_receiver_cqit_audit_mcsp_2026,9,MSF NDPF housing for GP and CCCMS; one dormitory currently; Dorm #1 deactivated July 2024,"CQIT housing table (PDF page 9, printed page 7)"
+ASP-A,ASP,A,Facility A,facility-locator-asp-2026-11-13,,"Facility A, P.O. Box 901, Avenal, CA 93204",
+ASP-B,ASP,B,Facility B,facility-locator-asp-2026-11-13,,"Facility B, P.O. Box 902, Avenal, CA 93204",
+ASP-C,ASP,C,Facility C,facility-locator-asp-2026-11-13,,"Facility C, P.O. Box 903, Avenal, CA 93204",
+ASP-D,ASP,D,Facility D,facility-locator-asp-2026-11-13,,"Facility D, P.O. Box 904, Avenal, CA 93204",
+ASP-E,ASP,E,Facility E,facility-locator-asp-2026-11-13,,"Facility E, P.O. Box 905, Avenal, CA 93204",
+ASP-F,ASP,F,Facility F,facility-locator-asp-2026-11-13,,"Facility F, P.O. Box 906, Avenal, CA 93204",
+ASP-A,ASP,A,A-Yard,SPI,34,"150 | Education Building 150-Sap, On A-Yard",
+ASP-D,ASP,D,D Yard,SPI,34,445 | 445 D Yard Dars,
+ASP-F,ASP,F,F Yard,SPI,34,625 | 625 F Yard Dars,
