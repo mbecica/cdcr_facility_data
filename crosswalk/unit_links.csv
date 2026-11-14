@@ -613,11 +613,6 @@ CHCF-E302,CHCF-E302,places,,same as building,paired,SPI,55957,E302 | Special Gen
 CHCF-E303,CHCF-E303,places,,same as building,paired,SPI,55958,E303 | Special General Population Housing,the unit is the SPI record (22379 sq ft)
 CHCF-E304,CHCF-E304,places,,same as building,paired,SPI,55959,E304 | Special General Population Housing,the unit is the SPI record (22379 sq ft)
 CHCF-E305,CHCF-E305,places,,same as building,paired,SPI,55960,E305 | Special General Population Housing,the unit is the SPI record (22881 sq ft)
-CHCF-301B,CHCF-E301,places,,part of building,candidate,SPI,55956,E301 | Enhanced Outpatient Program Housing Unit,"number match only: 301B-301F read as units in E301 (118,283 sq ft, about five times the other E records); no 301A is named"
-CHCF-301C,CHCF-E301,places,,part of building,candidate,SPI,55956,E301 | Enhanced Outpatient Program Housing Unit,"number match only: 301B-301F read as units in E301 (118,283 sq ft, about five times the other E records); no 301A is named"
-CHCF-301D,CHCF-E301,places,,part of building,candidate,SPI,55956,E301 | Enhanced Outpatient Program Housing Unit,"number match only: 301B-301F read as units in E301 (118,283 sq ft, about five times the other E records); no 301A is named"
-CHCF-301E,CHCF-E301,places,,part of building,candidate,SPI,55956,E301 | Enhanced Outpatient Program Housing Unit,"number match only: 301B-301F read as units in E301 (118,283 sq ft, about five times the other E records); no 301A is named"
-CHCF-301F,CHCF-E301,places,,part of building,candidate,SPI,55956,E301 | Enhanced Outpatient Program Housing Unit,"number match only: 301B-301F read as units in E301 (118,283 sq ft, about five times the other E records); no 301A is named"
 CVSP-1,CVSP-spi37950,places,,same as building,paired,SPI,37950,H-01 | Housing Unit #1,"the unit is the SPI record (1987, 23,333 sq ft dormitory)"
 CVSP-2,CVSP-spi37951,places,,same as building,paired,SPI,37951,H-02 | Housing Unit #2,"the unit is the SPI record (1987, 23,333 sq ft dormitory)"
 CVSP-3,CVSP-spi37952,places,,same as building,paired,SPI,37952,H-03 | Housing Unit #3,"the unit is the SPI record (1987, 23,333 sq ft dormitory)"
@@ -630,3 +625,4 @@ CVSP-9,CVSP-spi37958,places,,same as building,paired,SPI,37958,H-09 | Housing Un
 CVSP-10,CVSP-spi37959,places,,same as building,paired,SPI,37959,H-10 | Housing Unit #10,"the unit is the SPI record (1987, 23,333 sq ft dormitory)"
 CVSP-11,CVSP-spi37960,places,,same as building,paired,SPI,37960,H-11 | Housing Unit #11,"the unit is the SPI record (1987, 23,333 sq ft dormitory)"
 CVSP-12,CVSP-spi37961,places,,same as building,paired,SPI,37961,H-12 | Administrative Segregation,"the unit is the SPI record (1987, 23,876 sq ft dormitory)"
+CHCF-E301,CHCF-E301,places,,same as building,paired,SPI,55956,E301 | Enhanced Outpatient Program Housing Unit,"the unit is the SPI record (118,283 sq ft)"
