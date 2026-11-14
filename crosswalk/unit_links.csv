@@ -478,3 +478,26 @@ RJD-22,RJD-5.16,places,,same as building,paired,SPI,15099,5.16 | Housing Unit No
 RJD-23,RJD-E23,places,,same as building,paired,plata_ecf3952-1_cms_exhibits_2025-03-10,67,RJD | E23 | Housing,the place is the cooling-table record for this ID
 RJD-24,RJD-E24,places,,same as building,paired,plata_ecf3952-1_cms_exhibits_2025-03-10,67,RJD | E24 | Housing,the place is the cooling-table record for this ID
 RJD-25,RJD-E25,places,,same as building,paired,plata_ecf3952-1_cms_exhibits_2025-03-10,67,RJD | E25 | Housing,the place is the cooling-table record for this ID
+MCSP-1,MCSP-Y1,places,,same as building,candidate,SPI,28922,Y1 | Level 4 Inmate Housing Unit,number match only: unit 1 read as Y1; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-2,MCSP-Y2,places,,same as building,candidate,SPI,28923,Y2 | Level 4 Inmate Housing Unit,number match only: unit 2 read as Y2; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-3,MCSP-Y3,places,,same as building,candidate,SPI,28924,Y3 | Level 4 Inmate Housing Unit,number match only: unit 3 read as Y3; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-4,MCSP-Y4,places,,same as building,candidate,SPI,28925,Y4 | Level 4 Inmate Housing Unit,number match only: unit 4 read as Y4; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-5,MCSP-Y5,places,,same as building,candidate,SPI,28926,Y5 | Level 4 Inmate Housing Unit,number match only: unit 5 read as Y5; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-6,MCSP-Y6,places,,same as building,candidate,SPI,28927,Y6 | Level 3 Inmate Housing Unit,number match only: unit 6 read as Y6; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-7,MCSP-Y7,places,,same as building,candidate,SPI,28928,Y7 | Level 3 Inmate Housing Unit,number match only: unit 7 read as Y7; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-8,MCSP-Y8,places,,same as building,candidate,SPI,28929,Y8 | Level 3 Inmate Housing Unit,number match only: unit 8 read as Y8; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-9,MCSP-Y9,places,,same as building,candidate,SPI,28930,Y9 | Level 3 Inmate Housing Unit,number match only: unit 9 read as Y9; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-10,MCSP-Y10,places,,same as building,candidate,SPI,29113,Y10 | Level 3 Inmate Housing Unit,number match only: unit 10 read as Y10; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-11,MCSP-Y11,places,,same as building,candidate,SPI,29114,Y11 | Level 3 Inmate Housing Unit,number match only: unit 11 read as Y11; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-12,MCSP-Y12,places,,same as building,candidate,SPI,29115,Y12 | Administrative Segregation Housing Unit,number match only: unit 12 read as Y12; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-13,MCSP-Y13,places,,same as building,candidate,SPI,29116,Y13 | Level 3 Inmate Housing Unit,number match only: unit 13 read as Y13; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-14,MCSP-Y14,places,,same as building,candidate,SPI,29117,Y14 | Level 3 Inmate Housing Unit,number match only: unit 14 read as Y14; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-15,MCSP-Y15,places,,same as building,candidate,SPI,29118,Y15 | Level 3 Inmate Housing Unit,number match only: unit 15 read as Y15; fits the levels (Y1-Y5 Level 4 = Facility A Level IV; Y12 Administrative Segregation = C12 RHU)
+MCSP-16,MCSP-D16,places,,same as building,paired,SPI,57364,D16 | Level Ii Dormitory - D16,SPI writes the unit name on the building record
+MCSP-17,MCSP-D17,places,,same as building,paired,SPI,57365,D17 | Level Ii Dormitory - D17,SPI writes the unit name on the building record
+MCSP-18,MCSP-D18,places,,same as building,paired,SPI,57366,D18 | Level Ii Eop Dormitory - D18,SPI writes the unit name on the building record
+MCSP-19,MCSP-E19,places,,same as building,paired,SPI,57372,E19 | Level Ii Dormitory - E19,SPI writes the unit name on the building record
+MCSP-20,MCSP-E20,places,,same as building,paired,SPI,57373,E20 | Level Ii Dormitory - E20,SPI writes the unit name on the building record
+MCSP-21,MCSP-E21,places,,same as building,paired,SPI,57374,E21 | Level Ii Dormitory - E21,SPI writes the unit name on the building record
+MCSP-MSF-DORM-1,MCSP-G2.1,places,,same as building,candidate,SPI,28912,G2.1 | Level 1 Dormitory,"number match only: Dorm 1 read as G2.1, one of the two Level 1 Dormitory records"
+MCSP-MSF-DORM-2,MCSP-G2.2,places,,same as building,candidate,SPI,28913,G2.2 | Level 1 Dormitory,"number match only: Dorm 2 read as G2.2, one of the two Level 1 Dormitory records"

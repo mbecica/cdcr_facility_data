@@ -2311,8 +2311,6 @@ MCSP-B6,MCSP,B6,Vocational Landscaping Modular,building,,,,,,,,,,1996,,2160,RELO
 MCSP-B7,MCSP,B7,B7 - Mental Health,building,,,,,,,housing,,,2009,,4320,RELOCATABLE MEDICAL FACILITY,51110,B7,43,,3,SPI;coleman_ecf8558-1_heat_report_exhibits_2025-02-28;coleman_ecf8558_31st_round_heat_report_2025-02-28
 MCSP-B8,MCSP,B8,Facility B Clothing Exchange,building,,,MCSP-B,SPI name,,,,,,2018,,3586,STORAGE BUILDING,57266,B8,43,,1,SPI
 MCSP-B9,MCSP,B9,Pharmacy And Laboratory,building,,,,,,,,,,2018,,2471,HOSPITAL/CLINIC/TREATMENT CENTER,57264,B9,43,,1,SPI
-MCSP-C12,MCSP,C12,,building,,,,,,,housing,ASU,,,,,,,,,,1,MPAR2022:P-1718-00126
-MCSP-C14,MCSP,C14,,building,,,,,,,housing,,,,,,,,,,,2,coleman_ecf8558-1_heat_report_exhibits_2025-02-28;coleman_ecf8558_31st_round_heat_report_2025-02-28
 MCSP-C3,MCSP,C3,Asu Primary Care & Asu-Eop Mental Health,building,,,,,,,,,,2018,,6162,HOSPITAL/CLINIC/TREATMENT CENTER,57263,C3,43,,1,SPI
 MCSP-C4,MCSP,C4,Facility C Clothing Exchange,building,,,MCSP-C,SPI name,,,,,,2018,,3586,STORAGE BUILDING,57267,C4,43,,1,SPI
 MCSP-C5,MCSP,C5,Health Modular,building,,,,,,,,,,,,4320,RELOCATABLE MEDICAL FACILITY,50588,C5,43,,1,SPI
