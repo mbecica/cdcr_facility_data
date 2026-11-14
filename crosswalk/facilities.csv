@@ -148,3 +148,7 @@ SVSP-C,SVSP,C,"""C"" Yard",SVSP_MSR_0524_Redacted.pdf,60,"SVSP / ""C"" Yard / Up
 SVSP-C,SVSP,C,Facility C,plata_ecf3963_receiver_triannual_59_2025-06-02,10,"C6, Facility C Clinic, the Triage and Treatment Area (TTA), and Treatment Center 2",
 SVSP-D,SVSP,D,Facility D,SVSP_MSR_0824_Redacted.pdf,117,Facility D8,log header
 SVSP-E,SVSP,E,Facility E,SVSP-Final-PREA-Audit-Report-6.10.25,43,"Specifically, Facility E was closed in September 2021.",closed; no units
+SAC-A,SAC,A,Facility A,SPI,14598,A1/A2 | Facility A Housing Building #1 & 2,
+SAC-B,SAC,B,Facility B,SPI,14602,B1/B2 | Facility B Housing Building #1 & 2,
+SAC-C,SAC,C,Facility C,SPI,14606,C1/C2 | Facility C Housing Building #1 & 2,
+SAC-B,SAC,B,B yard,SAC-Final-PREA-Audit-Report-8.11.25,41,"Of note, in the B yard recreation bathrooms (an indoor bathroom), there is a catwalk that is used by staff.",

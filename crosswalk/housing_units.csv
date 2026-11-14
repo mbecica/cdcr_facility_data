@@ -443,3 +443,32 @@ SVSP-CTC,SVSP,CTC,CTC;Infirmary;CTC/INF;CTC-Infirmary;INF.;INFM,,,,,,,SVSP_MSR_0
 SVSP-TC1,SVSP,TC1,TC1,,,,,,,SVSP_MSR_0524_Redacted.pdf,118,TC1,,"logged May-Jul 2024 (lobby, podium); no source names a Treatment Center 1 building, so no place"
 SVSP-TC2,SVSP,TC2,TC2;Treatment Center 2,,,,,,,SVSP_MSR_0524_Redacted.pdf,125,TC2,,"logged May-Jul 2024 (lobby, podium); Treatment Center 2 is named in the Plata triannual (with C6 and the Facility C Clinic); TC as Treatment Center is an abbreviation match"
 SVSP-Z9,SVSP,Z9,Z9,,,,,,,SVSP_MSR_0524_Redacted.pdf,127,Z9,,"logged May-Oct 2024 (""Z9 Control Booth""); no source names a Z facility or a Z9 building, so no place"
+SAC-A1,SAC,A1,A1;A-1,SAC-A,stated,SPI,14598,A1/A2 | Facility A Housing Building #1 & 2,,SPI,14598,A1/A2 | Facility A Housing Building #1 & 2,,logged May-Oct 2024
+SAC-A2,SAC,A2,A2;A-2,SAC-A,stated,SPI,14598,A1/A2 | Facility A Housing Building #1 & 2,,SPI,14598,A1/A2 | Facility A Housing Building #1 & 2,,logged May-Oct 2024
+SAC-A3,SAC,A3,A3;A-3,SAC-A,stated,SPI,14599,A3/A4 | Facility A Housing Building # 3 & 4,,SPI,14599,A3/A4 | Facility A Housing Building # 3 & 4,,logged May-Oct 2024
+SAC-A4,SAC,A4,A4;A-4,SAC-A,stated,SPI,14599,A3/A4 | Facility A Housing Building # 3 & 4,,SPI,14599,A3/A4 | Facility A Housing Building # 3 & 4,,logged May-Oct 2024
+SAC-A5,SAC,A5,A5;A-5,SAC-A,stated,SPI,14600,A5/A6 | Facility A Housing Building #5 & 6,,SPI,14600,A5/A6 | Facility A Housing Building #5 & 6,,logged May-Oct 2024
+SAC-A6,SAC,A6,A6;A-6,SAC-A,stated,SPI,14600,A5/A6 | Facility A Housing Building #5 & 6,,SPI,14600,A5/A6 | Facility A Housing Building #5 & 6,,logged May-Oct 2024
+SAC-A7,SAC,A7,A7;A-7,SAC-A,stated,SPI,14601,A7/A8 | Facility A Housing Building #7 & 8,,SPI,14601,A7/A8 | Facility A Housing Building #7 & 8,,logged May-Oct 2024
+SAC-A8,SAC,A8,A8;A-8,SAC-A,stated,SPI,14601,A7/A8 | Facility A Housing Building #7 & 8,,SPI,14601,A7/A8 | Facility A Housing Building #7 & 8,,logged May-Oct 2024
+SAC-B1,SAC,B1,B1;B-1;FB1,SAC-B,stated,SPI,14602,B1/B2 | Facility B Housing Building #1 & 2,,SPI,14602,B1/B2 | Facility B Housing Building #1 & 2,,logged May-Oct 2024
+SAC-B2,SAC,B2,B2;B-2,SAC-B,stated,SPI,14602,B1/B2 | Facility B Housing Building #1 & 2,,SPI,14602,B1/B2 | Facility B Housing Building #1 & 2,,logged May-Oct 2024
+SAC-B3,SAC,B3,B3;B-3,SAC-B,stated,SPI,14603,B3/B4 | Facility B Housing Building #3 & 4,,SPI,14603,B3/B4 | Facility B Housing Building #3 & 4,,logged May-Oct 2024
+SAC-B4,SAC,B4,B4;B-4,SAC-B,stated,SPI,14603,B3/B4 | Facility B Housing Building #3 & 4,,SPI,14603,B3/B4 | Facility B Housing Building #3 & 4,,logged May-Oct 2024
+SAC-B5,SAC,B5,B5;B-5,SAC-B,stated,SPI,14604,B5/B6 | Facility B Housing Building #5 & 6,,SPI,14604,B5/B6 | Facility B Housing Building #5 & 6,,logged May-Oct 2024
+SAC-B6,SAC,B6,B6;B-6;FB6;BRAVO 6,SAC-B,stated,SPI,14604,B5/B6 | Facility B Housing Building #5 & 6,,SPI,14604,B5/B6 | Facility B Housing Building #5 & 6,,logged May-Oct 2024
+SAC-B7,SAC,B7,B7;B-7,SAC-B,stated,SPI,14605,B7/B8 | Facility B Housing Building #7 & 8,,SPI,14605,B7/B8 | Facility B Housing Building #7 & 8,,logged May-Oct 2024
+SAC-B8,SAC,B8,B8;B-8;FB8,SAC-B,stated,SPI,14605,B7/B8 | Facility B Housing Building #7 & 8,,SPI,14605,B7/B8 | Facility B Housing Building #7 & 8,,logged Sep-Oct 2024
+SAC-C1,SAC,C1,C1;C-1;FC-1,SAC-C,stated,SPI,14606,C1/C2 | Facility C Housing Building #1 & 2,,SPI,14606,C1/C2 | Facility C Housing Building #1 & 2,,logged May-Oct 2024
+SAC-C2,SAC,C2,C2;C-2,SAC-C,stated,SPI,14606,C1/C2 | Facility C Housing Building #1 & 2,,SPI,14606,C1/C2 | Facility C Housing Building #1 & 2,,"logged May 2024 only, as ""C2 Dining"" (dining hall or unit C2: not clear)"
+SAC-C3,SAC,C3,C3;C-3;Charlie 3,SAC-C,stated,SPI,14607,C3/C4 | Facility C Housing Building #3 & 4,,SPI,14607,C3/C4 | Facility C Housing Building #3 & 4,,logged May-Oct 2024
+SAC-C4,SAC,C4,C4;C-4,SAC-C,stated,SPI,14607,C3/C4 | Facility C Housing Building #3 & 4,,SPI,14607,C3/C4 | Facility C Housing Building #3 & 4,,logged May-Oct 2024
+SAC-C5,SAC,C5,C5;C-5,SAC-C,stated,SPI,14608,C5/C6 | Facility C Housing Building #5 & 6,,SPI,14608,C5/C6 | Facility C Housing Building #5 & 6,,logged May-Oct 2024
+SAC-C6,SAC,C6,C6;C-6,SAC-C,stated,SPI,14608,C5/C6 | Facility C Housing Building #5 & 6,,SPI,14608,C5/C6 | Facility C Housing Building #5 & 6,,logged May-Oct 2024
+SAC-C7,SAC,C7,C7;C-7;FC7,SAC-C,stated,SPI,14609,C7/C8 | Facility C Housing Building #7 & 8,,SPI,14609,C7/C8 | Facility C Housing Building #7 & 8,,logged May-Oct 2024
+SAC-C8,SAC,C8,C8;C-8,SAC-C,stated,SPI,14609,C7/C8 | Facility C Housing Building #7 & 8,,SPI,14609,C7/C8 | Facility C Housing Building #7 & 8,,logged May-Jun 2024
+SAC-ASU,SAC,ASU,Administrative Segregation Housing Unit,,,,,,ASU,SPI,50399,Administrative Segregation Housing Unit,,"SPI calls the record a housing unit (built 2004, 25,204 sq ft); logs write ""STRH"" May-Oct 2024 (0524 p124), a program, not paired with this record"
+SAC-DORM-A,SAC,Dorm A,Dormitory Building A New Folsom,,,,,,,SPI,14619,Dormitory Building A New Folsom,,"SPI names a dormitory building (15,912 sq ft); no source names an MSF at SAC, so no facility; not logged in 2024 (""FMS"" 1024 p126 is not paired)"
+SAC-DORM-B,SAC,Dorm B,Dormitory Building B New Folsom,,,,,,,SPI,14620,Dormitory Building B New Folsom,,"SPI names a dormitory building (15,912 sq ft); no source names an MSF at SAC, so no facility; not logged in 2024 (""FMS"" 1024 p126 is not paired)"
+SAC-CTC-1,SAC,CTC 1,CTC 1,,,,,,,SAC_MSR_0524_Redacted.pdf,2,CTC 1,,"logged May-Oct 2024; MPAR 2022 P-1415-00052 names one ""Correctional Treatment Center"" (Facility A); which CTC is in it is not stated, so no link"
+SAC-CTC-2,SAC,CTC 2,CTC 2;CTC II,,,,,,,SAC_MSR_0524_Redacted.pdf,67,CTC 2,,"logged May-Oct 2024; MPAR 2022 P-1415-00052 names one ""Correctional Treatment Center"" (Facility A); which CTC is in it is not stated, so no link"
