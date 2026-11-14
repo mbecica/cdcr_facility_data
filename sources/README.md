@@ -5,3 +5,5 @@ Raw inputs to the tables in `data/`, as published. Most are large PDFs and aren'
 [`powerbi_query_api.md`](powerbi_query_api.md) describes how to read CDCR's Power BI dashboards through their query endpoint, without a browser.
 
 `sb601_open_data/` is stored here: the SB 601 data download, data dictionary, and counting rules from [data.ca.gov](https://data.ca.gov/dataset/sb601-reporting).
+
+`imagery/naip_2024_rgb/` stores JPEG-compressed RGB GeoTIFF tiles for all 34 adult CDCR institutions (`2024` USDA NAIP aerials clipped to the institutional boundary + 300 m buffer) used for [`scrapers/building_heights/`](../scrapers/building_heights/README.md).

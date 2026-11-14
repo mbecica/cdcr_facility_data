@@ -1,0 +1,14 @@
+{
+  "ASP-fp-024": {
+    "triage_status": "new_post_lidar_bldg",
+    "note": "visual_2024_naip_standing_roof_shadow_post2021"
+  },
+  "CAC-fp-007": {
+    "triage_status": "new_post_lidar_bldg",
+    "note": "visual_2024_naip_standing_white_roof_post2018"
+  },
+  "KVSP-fp-049": {
+    "triage_status": "new_post_lidar_bldg",
+    "note": "visual_2024_naip_standing_kiosk_shadow_post2021"
+  }
+}
