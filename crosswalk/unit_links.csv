@@ -206,3 +206,35 @@ SQ-H-DORM-3,SQ-spi39680,places,,same as building,paired,SPI,39680,H Unit - Dorm 
 SQ-H-DORM-4,SQ-spi39681,places,,same as building,paired,SPI,39681,H Unit - Dorm 4,SPI names the structure H Unit - Dorm 4
 SQ-H-DORM-5,SQ-spi39682,places,,same as building,paired,SPI,39682,H Unit - Dorm 5,SPI names the structure H Unit - Dorm 5
 SQ-FIREHOUSE,SQ-45,places,,part of building,candidate,SPI,27220,SQ-B-45 | Firehouse,name match only; which part of the firehouse houses people is not stated
+SATF-A1,SATF-321,places,,same as building,paired,SPI,40191,321 | Housing Unit A-1,SPI writes the unit name on the building record
+SATF-A2,SATF-322,places,,same as building,paired,SPI,40192,322 | Housing Unit A-2,SPI writes the unit name on the building record
+SATF-A3,SATF-323,places,,same as building,paired,SPI,40193,323 | Housing Unit A-3,SPI writes the unit name on the building record
+SATF-B1,SATF-331,places,,same as building,paired,SPI,40194,331 | Housing Unit B-1,SPI writes the unit name on the building record
+SATF-B2,SATF-332,places,,same as building,paired,SPI,40195,332 | Housing Unit B-2,SPI writes the unit name on the building record
+SATF-B3,SATF-333,places,,same as building,paired,SPI,40196,333 | Housing Unit B-3,SPI writes the unit name on the building record
+SATF-D1,SATF-351,places,,same as building,paired,SPI,40201,351 | Housing Unit D-1,SPI writes the unit name on the building record
+SATF-D2,SATF-352,places,,same as building,paired,SPI,40202,352 | Housing Unit D-2,SPI writes the unit name on the building record
+SATF-D3,SATF-353,places,,same as building,paired,SPI,40203,353 | Housing Unit D-3,SPI writes the unit name on the building record
+SATF-D4,SATF-354,places,,same as building,paired,SPI,40204,354 | Housing Unit D-4,SPI writes the unit name on the building record
+SATF-D5,SATF-355,places,,same as building,paired,SPI,40205,355 | Housing Unit D-5,SPI writes the unit name on the building record
+SATF-E1,SATF-361,places,,same as building,paired,SPI,40206,361 | Housing Unit E-1,SPI writes the unit name on the building record
+SATF-E2,SATF-362,places,,same as building,paired,SPI,40207,362 | Housing Unit E-2,SPI writes the unit name on the building record
+SATF-E3,SATF-363,places,,same as building,paired,SPI,40208,363 | Housing Unit E-3,SPI writes the unit name on the building record
+SATF-E4,SATF-364,places,,same as building,paired,SPI,40209,364 | Housing Unit E-4,SPI writes the unit name on the building record
+SATF-E5,SATF-365,places,,same as building,paired,SPI,40210,365 | Housing Unit E-5,SPI writes the unit name on the building record
+SATF-F1,SATF-371,places,,same as building,paired,SPI,40211,371 | Housing Unit F-1,SPI writes the unit name on the building record
+SATF-F2,SATF-372,places,,same as building,paired,SPI,40212,372 | Housing Unit F-2,SPI writes the unit name on the building record
+SATF-F3,SATF-373,places,,same as building,paired,SPI,40213,373 | Housing Unit F-3,SPI writes the unit name on the building record
+SATF-G1,SATF-381,places,,same as building,paired,SPI,40214,381 | Housing Unit G-1,SPI writes the unit name on the building record
+SATF-G2,SATF-382,places,,same as building,paired,SPI,40215,382 | Housing Unit G-2,SPI writes the unit name on the building record
+SATF-G3,SATF-383,places,,same as building,paired,SPI,40216,383 | Housing Unit G-3,SPI writes the unit name on the building record
+SATF-C1,SATF-341,places,,part of building,candidate,SPI,40197,"341 | Housing Unit C-1, C-2","one SPI record names two units (50,203 sq ft, about twice a D unit); no source says whether the record is one building with two units or two buildings"
+SATF-C2,SATF-341,places,,part of building,candidate,SPI,40197,"341 | Housing Unit C-1, C-2","one SPI record names two units (50,203 sq ft, about twice a D unit); no source says whether the record is one building with two units or two buildings"
+SATF-C3,SATF-342,places,,part of building,candidate,SPI,40198,"342 | Housing Unit C-3, C-4","one SPI record names two units (50,203 sq ft, about twice a D unit); no source says whether the record is one building with two units or two buildings"
+SATF-C4,SATF-342,places,,part of building,candidate,SPI,40198,"342 | Housing Unit C-3, C-4","one SPI record names two units (50,203 sq ft, about twice a D unit); no source says whether the record is one building with two units or two buildings"
+SATF-C5,SATF-343,places,,part of building,candidate,SPI,40199,"343 | Housing Unit C-5, C-6","one SPI record names two units (50,203 sq ft, about twice a D unit); no source says whether the record is one building with two units or two buildings"
+SATF-C6,SATF-343,places,,part of building,candidate,SPI,40199,"343 | Housing Unit C-5, C-6","one SPI record names two units (50,203 sq ft, about twice a D unit); no source says whether the record is one building with two units or two buildings"
+SATF-C7,SATF-344,places,,part of building,candidate,SPI,40200,"344 | Housing Unit C-7, C-8","one SPI record names two units (50,203 sq ft, about twice a D unit); no source says whether the record is one building with two units or two buildings"
+SATF-C8,SATF-344,places,,part of building,candidate,SPI,40200,"344 | Housing Unit C-7, C-8","one SPI record names two units (50,203 sq ft, about twice a D unit); no source says whether the record is one building with two units or two buildings"
+SATF-RHU,SATF-spi50368,places,,same as building,candidate,SPI,50368,Administrative Segregation Housing Unit,"name match only (ASU building, built 2002); no source pairs RHU with this record. Plata Aug 2024 ""391 | Housing | NEW AD-SEG AIR COND. UNIT"" may be the same building; not paired"
+SATF-CTC,SATF-448,places,,same as building,candidate,SPI,40226,448 | Correctional Treatment Center,"name match only: PREA writes ""Correctional Treatment Center (CTC)"", SPI 448 is the only record with that name"

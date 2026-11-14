@@ -69,3 +69,10 @@ WSP-C,WSP,C,FAC C,WSP_MSR_0924_Redacted.pdf,164,FAC C3 A/SIDE,
 ,WSP,,WSP is comprised of six facilities,WSP-Final-PREA-Audit-Report-6.2.25,41,"WSP is comprised of six facilities, five of which are currently in use.","count only: A, B (closed), C, D, H, M"
 SQ-A,SQ,A,Facility A,SQRC-Final-PREA-Audit-Report-2.21.25,47,"SQRC utilizes two body scanners; located in Facility A Main Visiting and Facility B H-Unit Visiting for the purpose of visits, offsite transport, segregation placement, and for cause.","""Facility A Main Visiting""; no source places a housing unit in Facility A"
 SQ-B,SQ,B,Facility B,SQRC-Final-PREA-Audit-Report-2.21.25,47,"SQRC utilizes two body scanners; located in Facility A Main Visiting and Facility B H-Unit Visiting for the purpose of visits, offsite transport, segregation placement, and for cause.",also listed as a living area beside the cell blocks (p49)
+SATF-A,SATF,A,Facility A,SATF-Final-PREA-Audit-Report-10.06.24,23,"Complex I is comprised of Facility A, Facility B and Restrictive Housing.",in Complex I
+SATF-B,SATF,B,Facility B,SATF-Final-PREA-Audit-Report-10.06.24,23,"Complex I is comprised of Facility A, Facility B and Restrictive Housing.",in Complex I
+SATF-C,SATF,C,Facility C,SATF-Final-PREA-Audit-Report-10.06.24,23,Complex II is made up of Facility C and Central Services.,in Complex II
+SATF-D,SATF,D,Facilities D and E,SATF-Final-PREA-Audit-Report-10.06.24,23,Complex III includes Facilities D and E.,in Complex III
+SATF-E,SATF,E,Facilities D and E,SATF-Final-PREA-Audit-Report-10.06.24,23,Complex III includes Facilities D and E.,in Complex III
+SATF-F,SATF,F,Facilities F and G,SATF-Final-PREA-Audit-Report-10.06.24,23,"Finally, Complex IV includes Facilities F and G.",in Complex IV
+SATF-G,SATF,G,Facilities F and G,SATF-Final-PREA-Audit-Report-10.06.24,23,"Finally, Complex IV includes Facilities F and G.",in Complex IV
