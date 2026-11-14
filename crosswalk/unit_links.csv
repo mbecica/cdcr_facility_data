@@ -411,3 +411,6 @@ SAC-C8,SAC-C7/C8,places,,part of group,candidate,SPI,14609,C7/C8 | Facility C Ho
 SAC-ASU,SAC-spi50399,places,,same as building,paired,SPI,50399,Administrative Segregation Housing Unit,the unit is the SPI record
 SAC-DORM-A,SAC-spi14619,places,,same as building,paired,SPI,14619,Dormitory Building A New Folsom,the unit is the SPI record
 SAC-DORM-B,SAC-spi14620,places,,same as building,paired,SPI,14620,Dormitory Building B New Folsom,the unit is the SPI record
+HDSP-RHU,HDSP-455,places,,same as building,candidate,MPAR2025:P-2021-00058,110,Replace Roof - Buildings 351 and 455; Housing and Administrative Segregation Unit,"MPAR lists 455 with ""Administrative Segregation Unit"" (351 is housing); ASU = RHU is a name match only. SPI 50401 ""Administrative Segregation Housing Unit"" (2003) has no agency number and is probably the same building (not paired)"
+HDSP-MSF-1,HDSP-901,places,,same as building,candidate,SPI,38155,901 | Housing Unit-Level I,"number match only: MSF 1 read as 901, one of the two Level I records"
+HDSP-MSF-2,HDSP-902,places,,same as building,candidate,SPI,38156,902 | Housing Unit-Level I,"number match only: MSF 2 read as 902, one of the two Level I records"

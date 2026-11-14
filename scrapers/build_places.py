@@ -58,6 +58,11 @@ GROUP_ROWS = {
     'KVSP-321', 'KVSP-322', 'KVSP-323', 'KVSP-324', 'KVSP-331', 'KVSP-332', 'KVSP-333',
     'KVSP-334', 'KVSP-341', 'KVSP-342', 'KVSP-343', 'KVSP-344', 'KVSP-351', 'KVSP-352',
     'KVSP-353', 'KVSP-354',
+    # SVSP and HDSP 180 records: logs name eight units per yard (C1-C8 etc.), SPI has
+    # four records per yard at 42,000-46,540 sq ft
+    'SVSP-331', 'SVSP-332', 'SVSP-333', 'SVSP-334', 'SVSP-335', 'SVSP-336', 'SVSP-337',
+    'SVSP-338', 'HDSP-341', 'HDSP-342', 'HDSP-343', 'HDSP-344', 'HDSP-351', 'HDSP-352',
+    'HDSP-353', 'HDSP-354',
 }
 
 # OSM buildings that a housing unit needs and the inventory lacks, as

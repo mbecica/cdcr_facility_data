@@ -1871,14 +1871,14 @@ HDSP-327,HDSP,327,"Housing Unit Level Iii, B Yard (Recepti)",building,,,,,,,hous
 HDSP-328,HDSP,328,"Housing Unit Level Iii, B Yard",building,,,,,,,housing,,,1995,,25000,DORMITORY,38080,KITCHELL- 328 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 HDSP-329,HDSP,329,"Housing Unit Level Iii, B Yard",building,,,,,,,housing,,,1995,,25000,DORMITORY,38081,KITCHELL- 329 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 HDSP-330,HDSP,330,"Housing Unit Level Iii, B Yard",building,,,,,,,housing,,,1995,,25000,DORMITORY,38082,KITCHELL- 330 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-341,HDSP,341,"Housing Unit Level Iv, C Yard",building,,,,,,,housing,,,1995,,42000,DORMITORY,38083,KITCHELL- 341 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-342,HDSP,342,"Housing Unit Level Iv, C Yard",building,,,,,,,housing,,,1995,,42000,DORMITORY,38084,KITCHELL- 342 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-343,HDSP,343,"Housing Unit Level Iv, C Yard",building,,,,,,,housing,,,1995,,42000,DORMITORY,38085,KITCHELL- 343 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-344,HDSP,344,"Housing Unit Level Iv, C Yard",building,,,,,,,housing,,,1995,,42000,DORMITORY,38086,KITCHELL- 344 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-351,HDSP,351,"Housing Unit Level Iv, D Yard",building,,,,,,,housing,,,1995,,42000,DORMITORY,38087,KITCHELL- 351 BLDG.,9982,,4,SPI;MPAR2024:P-2324-00144;MPAR2025:P-2021-00058;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-352,HDSP,352,"Housing Unit Level Iv, D Yard",building,,,,,,,housing,,,1995,,42000,DORMITORY,38088,KITCHELL- 352 BLDG.,9982,,3,SPI;MPAR2024:P-2324-00144;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-353,HDSP,353,"Housing Unit Level Iv, D Yard",building,,,,,,,housing,,,1995,,42000,DORMITORY,38089,KITCHELL- 353 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-354,HDSP,354,"Housing Unit Level Iv, D Yard",building,,,,,,,housing,,,1995,,42000,DORMITORY,38090,KITCHELL- 354 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-341,HDSP,341,"Housing Unit Level Iv, C Yard",building,,,,,yes,,housing,,,1995,,42000,DORMITORY,38083,KITCHELL- 341 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-342,HDSP,342,"Housing Unit Level Iv, C Yard",building,,,,,yes,,housing,,,1995,,42000,DORMITORY,38084,KITCHELL- 342 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-343,HDSP,343,"Housing Unit Level Iv, C Yard",building,,,,,yes,,housing,,,1995,,42000,DORMITORY,38085,KITCHELL- 343 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-344,HDSP,344,"Housing Unit Level Iv, C Yard",building,,,,,yes,,housing,,,1995,,42000,DORMITORY,38086,KITCHELL- 344 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-351,HDSP,351,"Housing Unit Level Iv, D Yard",building,,,,,yes,,housing,,,1995,,42000,DORMITORY,38087,KITCHELL- 351 BLDG.,9982,,4,SPI;MPAR2024:P-2324-00144;MPAR2025:P-2021-00058;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-352,HDSP,352,"Housing Unit Level Iv, D Yard",building,,,,,yes,,housing,,,1995,,42000,DORMITORY,38088,KITCHELL- 352 BLDG.,9982,,3,SPI;MPAR2024:P-2324-00144;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-353,HDSP,353,"Housing Unit Level Iv, D Yard",building,,,,,yes,,housing,,,1995,,42000,DORMITORY,38089,KITCHELL- 353 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-354,HDSP,354,"Housing Unit Level Iv, D Yard",building,,,,,yes,,housing,,,1995,,42000,DORMITORY,38090,KITCHELL- 354 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 HDSP-355,HDSP,355,,building,,,,,,,housing,,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 HDSP-420,HDSP,420,Central Operations,building,,,,,,,,,,1995,,6145,OFFICE (INSTITUTIONAL),38091,KITCHELL- 420 BLDG.,9982,,1,SPI
 HDSP-421,HDSP,421,A Facilities Program/Support Services,building,,,,,,,,,,1995,,17664,OFFICE (INSTITUTIONAL),38092,KITCHELL- 421 BLDG.,9982,,1,SPI
@@ -3411,14 +3411,14 @@ SVSP-327,SVSP,327,Bldg 327 - 270 Housing (Level Iv),building,,,,,,,housing,,,199
 SVSP-328,SVSP,328,Bldg 328 - 270 Housing (Level Iv),building,,,,,,,housing,,,1996,,24435,DORMITORY,39063,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 SVSP-329,SVSP,329,Bldg 329 - 270 Housing (Level Iv),building,,,,,,,housing,,,1996,,24435,DORMITORY,39064,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 SVSP-330,SVSP,330,Bldg 330 - 270 Housing (Level Iv),building,,,,,,,housing,,,1996,,24435,DORMITORY,39065,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-SVSP-331,SVSP,331,Bldg 331 - 180 Housing (Level Iv),building,,,,,,,housing,,,1996,,46540,DORMITORY,39066,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-SVSP-332,SVSP,332,Bldg 332 - 180 Housing (Level Iv),building,,,,,,,housing,,,1996,,46540,DORMITORY,39067,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-SVSP-333,SVSP,333,Bldg 333 - 180 Housing (Level Iv),building,,,,,,,housing,,,1996,,46540,DORMITORY,39068,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-SVSP-334,SVSP,334,Bldg 334 - 180 Housing (Level Iv),building,,,,,,,housing,,,1996,,46540,DORMITORY,39069,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-SVSP-335,SVSP,335,Bldg 335 - 180 Housing (Level Iv),building,,,,,,,housing,,,1996,,46540,DORMITORY,39070,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-SVSP-336,SVSP,336,Bldg 336 - 180 Housing (Level Iv),building,,,,,,,housing,,,1996,,46540,DORMITORY,39071,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-SVSP-337,SVSP,337,Bldg 337 - 180 Housing (Level Iv),building,,,,,,,housing,,,1996,,46540,DORMITORY,39072,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-SVSP-338,SVSP,338,Bldg 338 - 180 Housing (Level Iv),building,,,,,,,housing,,,1996,,46540,DORMITORY,39073,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+SVSP-331,SVSP,331,Bldg 331 - 180 Housing (Level Iv),building,,,,,yes,,housing,,,1996,,46540,DORMITORY,39066,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+SVSP-332,SVSP,332,Bldg 332 - 180 Housing (Level Iv),building,,,,,yes,,housing,,,1996,,46540,DORMITORY,39067,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+SVSP-333,SVSP,333,Bldg 333 - 180 Housing (Level Iv),building,,,,,yes,,housing,,,1996,,46540,DORMITORY,39068,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+SVSP-334,SVSP,334,Bldg 334 - 180 Housing (Level Iv),building,,,,,yes,,housing,,,1996,,46540,DORMITORY,39069,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+SVSP-335,SVSP,335,Bldg 335 - 180 Housing (Level Iv),building,,,,,yes,,housing,,,1996,,46540,DORMITORY,39070,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+SVSP-336,SVSP,336,Bldg 336 - 180 Housing (Level Iv),building,,,,,yes,,housing,,,1996,,46540,DORMITORY,39071,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+SVSP-337,SVSP,337,Bldg 337 - 180 Housing (Level Iv),building,,,,,yes,,housing,,,1996,,46540,DORMITORY,39072,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+SVSP-338,SVSP,338,Bldg 338 - 180 Housing (Level Iv),building,,,,,yes,,housing,,,1996,,46540,DORMITORY,39073,,10154,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 SVSP-420,SVSP,420,Bldg 420 - Central Operations,building,,,,,,,,,,1996,,6165,OFFICE (INSTITUTIONAL),39074,,10154,,2,SPI;MPAR2025:P-2526-00167
 SVSP-421,SVSP,421,Bldg 421 - Fac A Program & Support Svcs,building,,,SVSP-A,SPI name,,,,,,1996,,18093,OFFICE (INSTITUTIONAL),39075,,10154,,1,SPI
 SVSP-422,SVSP,422,Bldg 422 - Gymnasium (Facility A),building,,,SVSP-A,SPI name,,,,,,1996,,7392,GYMNASIUM,39076,,10154,,1,SPI
