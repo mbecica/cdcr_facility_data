@@ -45,6 +45,13 @@ READ_BASIS = {
 # where a cell holds two values the page doesn't explain (WSP CTC "72/72"), the
 # transcript splits them into "(first value)"/"(second value)" lines -> value_1/value_2.
 # Choosing between them is left to the cleaned layer.
+# Two reads gave the same number but a reader marked it unsure ("74?"): published as clear
+# with read_basis two_reads_agree_after_doubt (user, Nov 15 2026), below 88 only; cells at
+# 88 and above keep the ? until the tens digit is checked (QA threshold gate).
+AGREED = {"second read agrees", "pair agrees", "pair agrees, one unsure", "Claude read, pair agrees",
+          "pair agrees, Claude checked"}
+DOUBT_MAX = 88
+
 THERMOMETER = {"WALL": "wall", "WALL2": "wall_2", "HAND": "hand", "HAND2": "hand_2"}
 VALUE_SUFFIX = re.compile(r"\s*\((first|second) value\)\s*$", re.I)
 
@@ -194,6 +201,10 @@ def main(out_dir):
             "status": r["status"], "alt_f": num(r["alt_f"]) if r["alt_f"] else "",
             "read_basis": basis if r["temp_f"] != "" else "",
         }
+        if (r["status"] == "unsure" and r["check"] in AGREED and basis == "two_reads_agree"
+                and o["temp_f"] != "" and float(o["temp_f"]) < DOUBT_MAX):
+            o.update(status="clear", temp_as_written=o["temp_as_written"].replace("?", ""),
+                     read_basis="two_reads_agree_after_doubt")
         vals = multi.get((pkg, page, r["day"], r["time"])) if not r["housing_unit_as_written"].endswith("value)") else None
         if vals:
             for i, v in enumerate(vals, 1):
