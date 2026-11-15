@@ -1,4 +1,4 @@
-package,page,cdcr_code,housing_unit_as_written,form,day,date_as_written,date,date_source,time,thermometer,temp_as_written,temp_f,status,alt_f,read_basis
+package,page,cdcr_code,housing_unit_as_written,form,day,date_as_written,date,date_source,time,value_label,temp_as_written,temp_f,status,alt_f,read_basis
 CIW_MSR_0824,106,CIW,CTC Room 1310,local,Sat,8/3/24,2024-08-03,written,1500,,92,92,clear,,researcher_review
 CIW_MSR_0824,106,CIW,CTC Room 1310,local,Sat,8/3/24,2024-08-03,written,1800,,80,80,clear,,researcher_review
 CIW_MSR_0824,106,CIW,CTC Room 1318,local,Sat,8/3/24,2024-08-03,written,1500,,94,94,clear,,researcher_review

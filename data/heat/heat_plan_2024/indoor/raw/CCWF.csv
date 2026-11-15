@@ -1,4 +1,4 @@
-package,page,cdcr_code,housing_unit_as_written,form,day,date_as_written,date,date_source,time,thermometer,temp_as_written,temp_f,status,alt_f,read_basis
+package,page,cdcr_code,housing_unit_as_written,form,day,date_as_written,date,date_source,time,value_label,temp_as_written,temp_f,status,alt_f,read_basis
 CCWF_MSR_0524,19,CCWF,501,cdcr_2031,Wed,5/01/24,2024-05-01,written,0300,,70?,70,unsure,,two_reads_agree
 CCWF_MSR_0524,19,CCWF,501,cdcr_2031,Wed,5/01/24,2024-05-01,written,0600,,72,72,clear,,two_reads_agree
 CCWF_MSR_0524,19,CCWF,501,cdcr_2031,Wed,5/01/24,2024-05-01,written,0900,,72,72,clear,,two_reads_agree
@@ -13913,9 +13913,9 @@ CCWF_MSR_0824,84,CCWF,"CCWF 513 DAYROOM, A, B, C, D WINGS",cdcr_2031,Mon,8/5/24,
 CCWF_MSR_0824,84,CCWF,"CCWF 513 DAYROOM, A, B, C, D WINGS",cdcr_2031,Mon,8/5/24,2024-08-05,written,0600,,72,72,clear,,two_reads_agree
 CCWF_MSR_0824,84,CCWF,"CCWF 513 DAYROOM, A, B, C, D WINGS",cdcr_2031,Mon,8/5/24,2024-08-05,written,0900,,76,76,clear,,two_reads_agree
 CCWF_MSR_0824,84,CCWF,"CCWF 513 DAYROOM, A, B, C, D WINGS",cdcr_2031,Mon,8/5/24,2024-08-05,written,1200,,80,80,clear,,two_reads_agree
-CCWF_MSR_0824,84,CCWF,"CCWF 513 DAYROOM, A, B, C, D WINGS",cdcr_2031,Mon,8/5/24,2024-08-05,written,1500,,79?,79,unsure,,two_reads_agree
-CCWF_MSR_0824,84,CCWF,"CCWF 513 DAYROOM, A, B, C, D WINGS",cdcr_2031,Mon,8/5/24,2024-08-05,written,1800,,78?,78,unsure,,two_reads_agree
-CCWF_MSR_0824,84,CCWF,"CCWF 513 DAYROOM, A, B, C, D WINGS",cdcr_2031,Mon,8/5/24,2024-08-05,written,2100,,75?,75,unsure,,two_reads_agree
+CCWF_MSR_0824,84,CCWF,"CCWF 513 DAYROOM, A, B, C, D WINGS",cdcr_2031,Mon,8/5/24,2024-08-05,written,1500,,79,79,clear,,researcher_review
+CCWF_MSR_0824,84,CCWF,"CCWF 513 DAYROOM, A, B, C, D WINGS",cdcr_2031,Mon,8/5/24,2024-08-05,written,1800,,78,78,clear,,researcher_review
+CCWF_MSR_0824,84,CCWF,"CCWF 513 DAYROOM, A, B, C, D WINGS",cdcr_2031,Mon,8/5/24,2024-08-05,written,2100,,75,75,clear,,researcher_review
 CCWF_MSR_0824,84,CCWF,"CCWF 513 DAYROOM, A, B, C, D WINGS",cdcr_2031,Mon,8/5/24,2024-08-05,written,2400,,76,76,clear,,two_reads_agree
 CCWF_MSR_0824,84,CCWF,"CCWF 513 DAYROOM, A, B, C, D WINGS",cdcr_2031,Tue,8/6/24,2024-08-06,written,0300,,74,74,clear,,two_reads_agree
 CCWF_MSR_0824,84,CCWF,"CCWF 513 DAYROOM, A, B, C, D WINGS",cdcr_2031,Tue,8/6/24,2024-08-06,written,0600,,74|79,74,ambiguous,79,two_reads_agree

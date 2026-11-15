@@ -1,4 +1,4 @@
-package,page,cdcr_code,housing_unit_as_written,form,day,date_as_written,date,date_source,time,thermometer,temp_as_written,temp_f,status,alt_f,read_basis
+package,page,cdcr_code,housing_unit_as_written,form,day,date_as_written,date,date_source,time,value_label,temp_as_written,temp_f,status,alt_f,read_basis
 HDSP_MSR_0524,2,HDSP,HDSP / A1 / 2nd tier,cdcr_2031,Wed,5/1/24,2024-05-01,written,0300,,70.5,70.5,clear,,two_reads_agree
 HDSP_MSR_0524,2,HDSP,HDSP / A1 / 2nd tier,cdcr_2031,Wed,5/1/24,2024-05-01,written,0600,,70,70,clear,,two_reads_agree
 HDSP_MSR_0524,2,HDSP,HDSP / A1 / 2nd tier,cdcr_2031,Wed,5/1/24,2024-05-01,written,0900,,69,69,clear,,two_reads_agree
@@ -11883,9 +11883,12 @@ HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,writt
 HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,written,0600,,72,72,clear,,two_reads_agree
 HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,written,0900,,72,72,clear,,two_reads_agree
 HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,written,1200,,73,73,clear,,two_reads_agree
-HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,written,1500,,76|75,76,ambiguous,75,two_reads_agree
-HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,written,1800,,74|75,74,ambiguous,75,two_reads_agree
-HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,written,2100,,74|73,74,ambiguous,73,two_reads_agree
+HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,written,1500,value_1,76,76,clear,,single_read
+HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,written,1500,value_2,75,75,clear,,single_read
+HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,written,1800,value_1,74,74,clear,,single_read
+HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,written,1800,value_2,75,75,clear,,single_read
+HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,written,2100,value_1,74,74,clear,,single_read
+HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,written,2100,value_2,73,73,clear,,single_read
 HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Thu,6/13/2024,2024-06-13,written,2400,,73,73,clear,,two_reads_agree
 HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Fri,6/14/2024,2024-06-14,written,0300,,73,73,clear,,two_reads_agree
 HDSP_MSR_0624,149,HDSP,HDSP A3 2nd tier,cdcr_2031,Fri,6/14/2024,2024-06-14,written,0600,,73,73,clear,,two_reads_agree

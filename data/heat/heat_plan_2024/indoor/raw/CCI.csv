@@ -1,4 +1,4 @@
-package,page,cdcr_code,housing_unit_as_written,form,day,date_as_written,date,date_source,time,thermometer,temp_as_written,temp_f,status,alt_f,read_basis
+package,page,cdcr_code,housing_unit_as_written,form,day,date_as_written,date,date_source,time,value_label,temp_as_written,temp_f,status,alt_f,read_basis
 CCI_MSR_0524,22,CCI,FAC A HU1 / A SECTION,cdcr_2031,Wed,5/1/24,2024-05-01,written,0300,,60,60,clear,,single_read
 CCI_MSR_0524,22,CCI,FAC A HU1 / A SECTION,cdcr_2031,Wed,5/1/24,2024-05-01,written,0600,,60,60,clear,,single_read
 CCI_MSR_0524,22,CCI,FAC A HU1 / A SECTION,cdcr_2031,Wed,5/1/24,2024-05-01,written,0900,,61,61,clear,,single_read
@@ -20608,8 +20608,10 @@ CCI_MSR_0624,353,CCI,1,cdcr_2031,Thu,6/6,2024-06-06,written,0600,,72?,72,unsure,
 CCI_MSR_0624,353,CCI,1,cdcr_2031,Thu,6/6,2024-06-06,written,0900,,72?,72,unsure,,two_reads_agree
 CCI_MSR_0624,353,CCI,1,cdcr_2031,Thu,6/6,2024-06-06,written,1200,,70?,70,unsure,,dispute_decided
 CCI_MSR_0624,353,CCI,1,cdcr_2031,Thu,6/6,2024-06-06,written,1500,,75,75,clear,,two_reads_agree
-CCI_MSR_0624,353,CCI,1,cdcr_2031,Thu,6/6,2024-06-06,written,1800,,74|75,74,ambiguous,75,dispute_decided
-CCI_MSR_0624,353,CCI,1,cdcr_2031,Thu,6/6,2024-06-06,written,2100,,74|75,74,ambiguous,75,dispute_decided
+CCI_MSR_0624,353,CCI,1,cdcr_2031,Thu,6/6,2024-06-06,written,1800,value_1,75,75,clear,,single_read
+CCI_MSR_0624,353,CCI,1,cdcr_2031,Thu,6/6,2024-06-06,written,1800,value_2,74?,74,unsure,,single_read
+CCI_MSR_0624,353,CCI,1,cdcr_2031,Thu,6/6,2024-06-06,written,2100,value_1,75,75,clear,,single_read
+CCI_MSR_0624,353,CCI,1,cdcr_2031,Thu,6/6,2024-06-06,written,2100,value_2,74?,74,unsure,,single_read
 CCI_MSR_0624,353,CCI,1,cdcr_2031,Thu,6/6,2024-06-06,written,2400,,72,72,clear,,two_reads_agree
 CCI_MSR_0624,353,CCI,1,cdcr_2031,Fri,6/7,2024-06-07,written,0300,,71,71,clear,,two_reads_agree
 CCI_MSR_0624,353,CCI,1,cdcr_2031,Fri,6/7,2024-06-07,written,0600,,71,71,clear,,two_reads_agree
@@ -33388,8 +33390,8 @@ CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Mon,7/22/24,2024-07-22,user,24
 CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Tue,7/23/24,2024-07-23,user,0300,,79,79,clear,,two_reads_agree
 CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Tue,7/23/24,2024-07-23,user,0600,,84?,84,unsure,,two_reads_agree
 CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Tue,7/23/24,2024-07-23,user,0900,,85,85,clear,,two_reads_agree
-CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Tue,7/23/24,2024-07-23,user,1200,,90,90,clear,,adjudicated
-CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Tue,7/23/24,2024-07-23,user,1500,,84,84,clear,,adjudicated
+CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Tue,7/23/24,2024-07-23,user,1200,,90,90,clear,,researcher_review
+CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Tue,7/23/24,2024-07-23,user,1500,,84,84,clear,,researcher_review
 CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Tue,7/23/24,2024-07-23,user,1800,,85,85,clear,,two_reads_agree
 CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Tue,7/23/24,2024-07-23,user,2100,,87,87,clear,,two_reads_agree
 CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Tue,7/23/24,2024-07-23,user,2400,,83,83,clear,,two_reads_agree
@@ -33399,7 +33401,7 @@ CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Wed,7/24/24,2024-07-24,user,09
 CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Wed,7/24/24,2024-07-24,user,1200,,83,83,clear,,two_reads_agree
 CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Wed,7/24/24,2024-07-24,user,1500,,89?,89,unsure,,adjudicated
 CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Wed,7/24/24,2024-07-24,user,1800,,83,83,clear,,two_reads_agree
-CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Wed,7/24/24,2024-07-24,user,2100,,80,80,clear,,adjudicated
+CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Wed,7/24/24,2024-07-24,user,2100,,80,80,clear,,researcher_review
 CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Wed,7/24/24,2024-07-24,user,2400,,88,88,clear,,two_reads_agree
 CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Thu,7/23/24,2024-07-25,user,0300,,88,88,clear,,two_reads_agree
 CCI_MSR_0724,411,CCI,4B HU2 / C Section,cdcr_2031,Thu,7/23/24,2024-07-25,user,0600,,84?,84,unsure,,two_reads_agree

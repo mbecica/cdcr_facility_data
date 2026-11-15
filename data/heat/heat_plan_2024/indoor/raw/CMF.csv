@@ -1,4 +1,4 @@
-package,page,cdcr_code,housing_unit_as_written,form,day,date_as_written,date,date_source,time,thermometer,temp_as_written,temp_f,status,alt_f,read_basis
+package,page,cdcr_code,housing_unit_as_written,form,day,date_as_written,date,date_source,time,value_label,temp_as_written,temp_f,status,alt_f,read_basis
 CMF_MSR_0524,5,CMF,H-1,cdcr_2031,Wed,5/1/24,2024-05-01,written,0300,,77,77,clear,,two_reads_agree
 CMF_MSR_0524,5,CMF,H-1,cdcr_2031,Wed,5/1/24,2024-05-01,written,0600,,71,71,clear,,two_reads_agree
 CMF_MSR_0524,5,CMF,H-1,cdcr_2031,Wed,5/1/24,2024-05-01,written,0900,,71,71,clear,,two_reads_agree

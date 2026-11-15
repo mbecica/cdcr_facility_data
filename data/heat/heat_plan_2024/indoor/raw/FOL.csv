@@ -1,4 +1,4 @@
-package,page,cdcr_code,housing_unit_as_written,form,day,date_as_written,date,date_source,time,thermometer,temp_as_written,temp_f,status,alt_f,read_basis
+package,page,cdcr_code,housing_unit_as_written,form,day,date_as_written,date,date_source,time,value_label,temp_as_written,temp_f,status,alt_f,read_basis
 FOL_MSR_0524,5,FOL,Folsom State Prison 1 3rd Tier,cdcr_2031,Tue,4/30,2024-04-30,written,0300,,-,,blank,,
 FOL_MSR_0524,5,FOL,Folsom State Prison 1 3rd Tier,cdcr_2031,Tue,4/30,2024-04-30,written,0600,,-,,blank,,
 FOL_MSR_0524,5,FOL,Folsom State Prison 1 3rd Tier,cdcr_2031,Tue,4/30,2024-04-30,written,0900,,-,,blank,,

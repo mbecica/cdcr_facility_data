@@ -40,10 +40,16 @@ READ_BASIS = {
     "adjudicated by context": "adjudicated_by_context",
 }
 
+# value_label: which of several values written for one place and time this row is.
+# CRC zone logs label two thermometers on the page (WALL/HAND, each sometimes twice);
+# where a cell holds two values the page doesn't explain (WSP CTC "72/72"), the
+# transcript splits them into "(first value)"/"(second value)" lines -> value_1/value_2.
+# Choosing between them is left to the cleaned layer.
 THERMOMETER = {"WALL": "wall", "WALL2": "wall_2", "HAND": "hand", "HAND2": "hand_2"}
+VALUE_SUFFIX = re.compile(r"\s*\((first|second) value\)\s*$", re.I)
 
 COLUMNS = ["package", "page", "cdcr_code", "housing_unit_as_written", "form", "day",
-           "date_as_written", "date", "date_source", "time", "thermometer",
+           "date_as_written", "date", "date_source", "time", "value_label",
            "temp_as_written", "temp_f", "status", "alt_f", "read_basis"]
 
 
@@ -73,6 +79,38 @@ def unit_fixes():
     """Unit strings that carry a reader's note -> the text as written (unit_string_notes.csv)."""
     with open(SCAN / "unit_string_notes.csv", newline="") as f:
         return {(r["cdcr_code"], r["unit_as_transcribed"]): r["housing_unit_as_written"] for r in csv.DictReader(f)}
+
+
+def unit_page_fixes():
+    """Pages whose unit string was misread, checked against the page image (unit_string_page_fixes.csv)."""
+    p = SCAN / "unit_string_page_fixes.csv"
+    if not p.exists():
+        return {}
+    with open(p, newline="") as f:
+        return {(r["source_file"], int(r["page"]), r["unit_as_transcribed"]): r["housing_unit_as_written"]
+                for r in csv.DictReader(f)}
+
+
+def multi_value_cells():
+    """Cells holding several values the page doesn't explain (multi_value_cells.csv, checked on the
+    page image): (package, page, day, time) -> values in written order. Each value becomes a row."""
+    p = SCAN / "multi_value_cells.csv"
+    if not p.exists():
+        return {}
+    with open(p, newline="") as f:
+        return {(r["package"], int(r["page"]), r["day"], r["time"]): r["values_in_order"].split(";")
+                for r in csv.DictReader(f)}
+
+
+def value_cell(v):
+    """One written value -> (temp_f, status): '74' clear, '74?' unsure, '7?' (a digit missing) illegible."""
+    v = v.strip()
+    m = re.fullmatch(r"(\d\d+(?:\.\d+)?)(\?)?", v)
+    if not m:
+        return "", "illegible"
+    f = float(m.group(1))
+    temp = m.group(1) if "." in m.group(1) else str(int(f))
+    return temp, "unsure" if m.group(2) else "clear"
 
 
 def researcher_cells():
@@ -109,6 +147,13 @@ def main(out_dir):
     out = Path(out_dir)
     user = researcher_cells()
     ufix = unit_fixes()
+    pfix = unit_page_fixes()
+    multi = multi_value_cells()
+    printed = defaultdict(set)  # (package, page, date, day as published) -> printed weekdays
+    with open(SCAN / "date_fixes.csv", newline="") as f:
+        for fx in csv.DictReader(f):
+            if fx.get("day_fixed"):
+                printed[(fx["pkg"], fx["page"], fx["date"], fx["day_fixed"])].add(fx["day"])
     rows_by = defaultdict(list)          # (log_type, cdcr) -> rows
     pages = defaultdict(lambda: {"units": Counter(), "forms": Counter(), "dates": set(), "n": 0, "cells": 0})
     dropped = Counter()
@@ -118,30 +163,46 @@ def main(out_dir):
         if r["status"] == "struck" or r["day_struck"] == "yes":
             dropped["struck"] += 1
             continue
-        unit = ufix.get((r["cdcr_code"], r["housing_unit_as_written"]), r["housing_unit_as_written"])
+        unit = pfix.get((r["source_file"], page, r["housing_unit_as_written"]))
+        if unit is None:
+            unit = ufix.get((r["cdcr_code"], r["housing_unit_as_written"]), r["housing_unit_as_written"])
+        label = ""
+        m = VALUE_SUFFIX.search(unit)
+        if m:
+            unit = unit[:m.start()]
+            label = "value_1" if m.group(1).lower() == "first" else "value_2"
         lt = "indoor"
         if (pkg, page) in AC_PAGES or ((pkg, page) in AC_ROWS and "room" in r["housing_unit_as_written"].lower()):
             lt = "ac_outage"
         t = r["time"]
-        therm = THERMOMETER.get(t, "")
-        if therm:
-            t = ""
+        if t in THERMOMETER:
+            label, t = THERMOMETER[t], ""
         basis = READ_BASIS.get(r["check"], r["check"])
-        for u in ("", r["housing_unit_as_written"]):  # adjudications name a unit only on override lines
-            if (pkg, r["page"], r["day"], r["time"], u) in user:
-                basis = "researcher_review"
+        # adjudications use the printed weekday; a relabelled block has its written weekday in `day`
+        for d in {r["day"]} | printed.get((pkg, r["page"], r["date"], r["day"]), set()):
+            for u in ("", r["housing_unit_as_written"]):  # adjudications name a unit only on override lines
+                if (pkg, r["page"], d, r["time"], u) in user:
+                    basis = "researcher_review"
         o = {
             "package": pkg, "page": page, "cdcr_code": r["cdcr_code"],
             "housing_unit_as_written": unit,
             "form": FORM.get(r["form"], r["form"]), "day": r["day"],
             "date_as_written": r["date_as_written"], "date": r["date"],
             "date_source": r["date_check"] or ("written" if r["date"] else ""),
-            "time": t, "thermometer": therm,
+            "time": t, "value_label": label,
             "temp_as_written": r["temp_as_written"], "temp_f": temp_out(r),
             "status": r["status"], "alt_f": num(r["alt_f"]) if r["alt_f"] else "",
             "read_basis": basis if r["temp_f"] != "" else "",
         }
-        rows_by[(lt, r["cdcr_code"])].append(o)
+        vals = multi.get((pkg, page, r["day"], r["time"])) if not r["housing_unit_as_written"].endswith("value)") else None
+        if vals:
+            for i, v in enumerate(vals, 1):
+                temp, status = value_cell(v)
+                rows_by[(lt, r["cdcr_code"])].append(dict(o, value_label=f"value_{i}", temp_as_written=v.strip(),
+                                                          temp_f=temp, status=status, alt_f="",
+                                                          read_basis="single_read" if temp else ""))
+        else:
+            rows_by[(lt, r["cdcr_code"])].append(o)
         p = pages[(lt, pkg, page)]
         p["units"][unit] += 1
         p["forms"][o["form"]] += 1
