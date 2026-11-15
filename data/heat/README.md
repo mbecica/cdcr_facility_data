@@ -1,6 +1,6 @@
 # Heat
 
-Cooling infrastructure, court monitoring of CDCR's Heat Plan, and CDCR's 2024 heat records. The 2024 records are described in [`logs_2024/`](logs_2024/).
+Cooling infrastructure, court monitoring of CDCR's Heat Plan, and CDCR's 2024 heat records. The 2024 records are described in [`heat_plan_2024/`](heat_plan_2024/).
 
 ## Files
 
