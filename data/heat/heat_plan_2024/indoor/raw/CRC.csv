@@ -54686,25 +54686,25 @@ CRC_MSR_1024,153,CRC,CRC/NORCO DORM 407 Building Single Floor,cdcr_2031,Sat,10/1
 CRC_MSR_1024,153,CRC,CRC/NORCO DORM 407 Building Single Floor,cdcr_2031,Sat,10/12/24,2024-10-12,written,2100,,-,,blank,,
 CRC_MSR_1024,153,CRC,CRC/NORCO DORM 407 Building Single Floor,cdcr_2031,Sat,10/12/24,2024-10-12,written,2400,,-,,blank,,
 CRC_MSR_1024,153,CRC,CRC/NORCO DORM 407 Building Single Floor,cdcr_2031,Thu,?,,,2400,,-,,blank,,
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Tue,10/22/24,2024-10-22,written,0300,,x,,illegible,,
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Tue,10/22/24,2024-10-22,written,0600,,-,,blank,,
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Tue,10/22/24,2024-10-22,written,0900,,-,,blank,,
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Fri,10/25/24,2024-10-25,written,1500,,74,74,clear,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Fri,10/25/24,2024-10-25,written,1800,,72?,72,unsure,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Fri,10/25/24,2024-10-25,written,2100,,72?,72,unsure,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Fri,10/25/24,2024-10-25,written,2400,,72,72,clear,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Sat,10/26/24,2024-10-26,written,0300,,71?,71,unsure,,dispute_decided
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Sat,10/26/24,2024-10-26,written,0600,,72?,72,unsure,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Sat,10/26/24,2024-10-26,written,0900,,72?,72,unsure,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Sat,10/26/24,2024-10-26,written,1200,,72?,72,unsure,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Sat,10/26/24,2024-10-26,written,1500,,72?,72,unsure,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Sat,10/26/24,2024-10-26,written,1800,,72,72,clear,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Sat,10/26/24,2024-10-26,written,2100,,72?,72,unsure,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Sat,10/26/24,2024-10-26,written,2400,,70,70,clear,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Sun,10/27/24,2024-10-27,written,0300,,70?,70,unsure,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Sun,10/27/24,2024-10-27,written,0600,,70?,70,unsure,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Sun,10/27/24,2024-10-27,written,0900,,70?,70,unsure,,two_reads_agree
-CRC_MSR_1024,154,CRC,FACILITY- (DORM - 407 in location field),cdcr_2031,Sun,10/27/24,2024-10-27,written,1200,,x,,illegible,,
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Tue,10/22/24,2024-10-22,written,0300,,x,,illegible,,
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Tue,10/22/24,2024-10-22,written,0600,,-,,blank,,
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Tue,10/22/24,2024-10-22,written,0900,,-,,blank,,
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Fri,10/25/24,2024-10-25,written,1500,,74,74,clear,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Fri,10/25/24,2024-10-25,written,1800,,72?,72,unsure,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Fri,10/25/24,2024-10-25,written,2100,,72?,72,unsure,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Fri,10/25/24,2024-10-25,written,2400,,72,72,clear,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Sat,10/26/24,2024-10-26,written,0300,,71?,71,unsure,,dispute_decided
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Sat,10/26/24,2024-10-26,written,0600,,72?,72,unsure,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Sat,10/26/24,2024-10-26,written,0900,,72?,72,unsure,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Sat,10/26/24,2024-10-26,written,1200,,72?,72,unsure,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Sat,10/26/24,2024-10-26,written,1500,,72?,72,unsure,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Sat,10/26/24,2024-10-26,written,1800,,72,72,clear,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Sat,10/26/24,2024-10-26,written,2100,,72?,72,unsure,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Sat,10/26/24,2024-10-26,written,2400,,70,70,clear,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Sun,10/27/24,2024-10-27,written,0300,,70?,70,unsure,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Sun,10/27/24,2024-10-27,written,0600,,70?,70,unsure,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Sun,10/27/24,2024-10-27,written,0900,,70?,70,unsure,,two_reads_agree
+CRC_MSR_1024,154,CRC,FACILITY- / DORM - 407,cdcr_2031,Sun,10/27/24,2024-10-27,written,1200,,x,,illegible,,
 CRC_MSR_1024,155,CRC,CRC/NORCO DORM 408,cdcr_2031,Tue,10/1/24,2024-10-01,written,0300,,71,71,clear,,two_reads_agree
 CRC_MSR_1024,155,CRC,CRC/NORCO DORM 408,cdcr_2031,Tue,10/1/24,2024-10-01,written,0600,,72,72,clear,,two_reads_agree
 CRC_MSR_1024,155,CRC,CRC/NORCO DORM 408,cdcr_2031,Tue,10/1/24,2024-10-01,written,0900,,72,72,clear,,two_reads_agree
