@@ -222,13 +222,13 @@ ASP_MSR_0524,26,ASP,210,cdcr_2031,Wed,5/1/24,2024-05-01,written,1200,,73,73,clea
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Wed,5/1/24,2024-05-01,written,1500,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Wed,5/1/24,2024-05-01,written,1800,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Wed,5/1/24,2024-05-01,written,2100,,73,73,clear,,two_reads_agree
-ASP_MSR_0524,26,ASP,210,cdcr_2031,Wed,5/1/24,2024-05-01,written,2400,,70,70,clear,,single_read
+ASP_MSR_0524,26,ASP,210,cdcr_2031,Wed,5/1/24,2024-05-01,written,2400,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Thu,5/2,2024-05-02,written,0300,,68,68,clear,,two_reads_agree_after_doubt
-ASP_MSR_0524,26,ASP,210,cdcr_2031,Thu,5/2,2024-05-02,written,0600,,68,68,clear,,single_read
+ASP_MSR_0524,26,ASP,210,cdcr_2031,Thu,5/2,2024-05-02,written,0600,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Thu,5/2,2024-05-02,written,0900,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Thu,5/2,2024-05-02,written,1200,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Thu,5/2,2024-05-02,written,1500,,76,76,clear,,two_reads_agree
-ASP_MSR_0524,26,ASP,210,cdcr_2031,Thu,5/2,2024-05-02,written,1800,,77,77,clear,,single_read
+ASP_MSR_0524,26,ASP,210,cdcr_2031,Thu,5/2,2024-05-02,written,1800,,77,77,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Thu,5/2,2024-05-02,written,2100,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Thu,5/2,2024-05-02,written,2400,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Fri,5/3,2024-05-03,written,0300,,70,70,clear,,two_reads_agree
@@ -236,7 +236,7 @@ ASP_MSR_0524,26,ASP,210,cdcr_2031,Fri,5/3,2024-05-03,written,0600,,70,70,clear,,
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Fri,5/3,2024-05-03,written,0900,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Fri,5/3,2024-05-03,written,1200,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Fri,5/3,2024-05-03,written,1500,,78,78,clear,,two_reads_agree_after_doubt
-ASP_MSR_0524,26,ASP,210,cdcr_2031,Fri,5/3,2024-05-03,written,1800,,79?,79,unsure,,single_read
+ASP_MSR_0524,26,ASP,210,cdcr_2031,Fri,5/3,2024-05-03,written,1800,,79,79,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Fri,5/3,2024-05-03,written,2100,,77,77,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Fri,5/3,2024-05-03,written,2400,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Sat,5/4,2024-05-04,written,0300,,72,72,clear,,two_reads_agree
@@ -254,7 +254,7 @@ ASP_MSR_0524,26,ASP,210,cdcr_2031,Sun,5/5,2024-05-05,written,1200,,67,67,clear,,
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Sun,5/5,2024-05-05,written,1500,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Sun,5/5,2024-05-05,written,1800,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,26,ASP,210,cdcr_2031,Sun,5/5,2024-05-05,written,2100,,67,67,clear,,two_reads_agree
-ASP_MSR_0524,26,ASP,210,cdcr_2031,Sun,5/5,2024-05-05,written,2400,,65,65,clear,,single_read
+ASP_MSR_0524,26,ASP,210,cdcr_2031,Sun,5/5,2024-05-05,written,2400,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,27,ASP,220,cdcr_2031,Wed,5/1/24,2024-05-01,written,0300,,71.6,71.6,clear,,two_reads_agree
 ASP_MSR_0524,27,ASP,220,cdcr_2031,Wed,5/1/24,2024-05-01,written,0600,,70.6,70.6,clear,,two_reads_agree
 ASP_MSR_0524,27,ASP,220,cdcr_2031,Wed,5/1/24,2024-05-01,written,0900,,71.5,71.5,clear,,two_reads_agree
@@ -267,7 +267,7 @@ ASP_MSR_0524,27,ASP,220,cdcr_2031,Thu,5/2/24,2024-05-02,written,0300,,72.1,72.1,
 ASP_MSR_0524,27,ASP,220,cdcr_2031,Thu,5/2/24,2024-05-02,written,0600,,71.1,71.1,clear,,two_reads_agree
 ASP_MSR_0524,27,ASP,220,cdcr_2031,Thu,5/2/24,2024-05-02,written,0900,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,27,ASP,220,cdcr_2031,Thu,5/2/24,2024-05-02,written,1200,,75,75,clear,,two_reads_agree
-ASP_MSR_0524,27,ASP,220,cdcr_2031,Thu,5/2/24,2024-05-02,written,1500,,75.0?,75.0,unsure,,single_read
+ASP_MSR_0524,27,ASP,220,cdcr_2031,Thu,5/2/24,2024-05-02,written,1500,,75.0,75.0,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,27,ASP,220,cdcr_2031,Thu,5/2/24,2024-05-02,written,1800,,78.0,78.0,clear,,two_reads_agree
 ASP_MSR_0524,27,ASP,220,cdcr_2031,Thu,5/2/24,2024-05-02,written,2100,,77.4,77.4,clear,,two_reads_agree
 ASP_MSR_0524,27,ASP,220,cdcr_2031,Thu,5/2/24,2024-05-02,written,2400,,76.1,76.1,clear,,two_reads_agree
@@ -313,7 +313,7 @@ ASP_MSR_0524,28,ASP,230,cdcr_2031,Thu,5/2,2024-05-02,written,2100,,76,76,clear,,
 ASP_MSR_0524,28,ASP,230,cdcr_2031,Thu,5/2,2024-05-02,written,2400,,76,76,clear,,two_reads_agree
 ASP_MSR_0524,28,ASP,230,cdcr_2031,Fri,5/3,2024-05-03,written,0300,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,28,ASP,230,cdcr_2031,Fri,5/3,2024-05-03,written,0600,,76,76,clear,,two_reads_agree
-ASP_MSR_0524,28,ASP,230,cdcr_2031,Fri,5/3,2024-05-03,written,0900,,75?,75,unsure,,single_read
+ASP_MSR_0524,28,ASP,230,cdcr_2031,Fri,5/3,2024-05-03,written,0900,,75,75,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,28,ASP,230,cdcr_2031,Fri,5/3,2024-05-03,written,1200,,76,76,clear,,two_reads_agree
 ASP_MSR_0524,28,ASP,230,cdcr_2031,Fri,5/3,2024-05-03,written,1500,,78,78,clear,,two_reads_agree
 ASP_MSR_0524,28,ASP,230,cdcr_2031,Fri,5/3,2024-05-03,written,1800,,78,78,clear,,two_reads_agree
@@ -326,7 +326,7 @@ ASP_MSR_0524,28,ASP,230,cdcr_2031,Sat,5/4,2024-05-04,written,1200,,76,76,clear,,
 ASP_MSR_0524,28,ASP,230,cdcr_2031,Sat,5/4,2024-05-04,written,1500,,76,76,clear,,two_reads_agree
 ASP_MSR_0524,28,ASP,230,cdcr_2031,Sat,5/4,2024-05-04,written,1800,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,28,ASP,230,cdcr_2031,Sat,5/4,2024-05-04,written,2100,,74,74,clear,,two_reads_agree
-ASP_MSR_0524,28,ASP,230,cdcr_2031,Sat,5/4,2024-05-04,written,2400,,73,73,clear,,single_read
+ASP_MSR_0524,28,ASP,230,cdcr_2031,Sat,5/4,2024-05-04,written,2400,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,28,ASP,230,cdcr_2031,Sun,5/5,2024-05-05,written,0300,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,28,ASP,230,cdcr_2031,Sun,5/5,2024-05-05,written,0600,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,28,ASP,230,cdcr_2031,Sun,5/5,2024-05-05,written,0900,,70,70,clear,,two_reads_agree
@@ -407,7 +407,7 @@ ASP_MSR_0524,30,ASP,310,cdcr_2031,Sat,5-4-24,2024-05-04,written,1500,,69,69,clea
 ASP_MSR_0524,30,ASP,310,cdcr_2031,Sat,5-4-24,2024-05-04,written,1800,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,30,ASP,310,cdcr_2031,Sat,5-4-24,2024-05-04,written,2100,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,30,ASP,310,cdcr_2031,Sat,5-4-24,2024-05-04,written,2400,,68,68,clear,,two_reads_agree
-ASP_MSR_0524,30,ASP,310,cdcr_2031,Sun,5-5-24,2024-05-05,written,0300,,65?,65,unsure,,single_read
+ASP_MSR_0524,30,ASP,310,cdcr_2031,Sun,5-5-24,2024-05-05,written,0300,,65,65,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,30,ASP,310,cdcr_2031,Sun,5-5-24,2024-05-05,written,0600,,66,66,clear,,single_read
 ASP_MSR_0524,30,ASP,310,cdcr_2031,Sun,5-5-24,2024-05-05,written,0900,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,30,ASP,310,cdcr_2031,Sun,5-5-24,2024-05-05,written,1200,,65,65,clear,,two_reads_agree
@@ -459,9 +459,9 @@ ASP_MSR_0524,32,ASP,330,cdcr_2031,Wed,5/1/24,2024-05-01,written,0300,,64,64,clea
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Wed,5/1/24,2024-05-01,written,0600,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Wed,5/1/24,2024-05-01,written,0900,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Wed,5/1/24,2024-05-01,written,1200,,67,67,clear,,two_reads_agree
-ASP_MSR_0524,32,ASP,330,cdcr_2031,Wed,5/1/24,2024-05-01,written,1500,,68,68,clear,,single_read
+ASP_MSR_0524,32,ASP,330,cdcr_2031,Wed,5/1/24,2024-05-01,written,1500,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Wed,5/1/24,2024-05-01,written,1800,,68,68,clear,,two_reads_agree
-ASP_MSR_0524,32,ASP,330,cdcr_2031,Wed,5/1/24,2024-05-01,written,2100,,68,68,clear,,single_read
+ASP_MSR_0524,32,ASP,330,cdcr_2031,Wed,5/1/24,2024-05-01,written,2100,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Wed,5/1/24,2024-05-01,written,2400,,64,64,clear,,single_read
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Thu,5/2/24,2024-05-02,written,0300,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Thu,5/2/24,2024-05-02,written,0600,,65,65,clear,,two_reads_agree
@@ -476,7 +476,7 @@ ASP_MSR_0524,32,ASP,330,cdcr_2031,Fri,5/3/24,2024-05-03,written,0600,,67,67,clea
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Fri,5/3/24,2024-05-03,written,0900,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Fri,5/3/24,2024-05-03,written,1200,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Fri,5/3/24,2024-05-03,written,1500,,72,72,clear,,two_reads_agree
-ASP_MSR_0524,32,ASP,330,cdcr_2031,Fri,5/3/24,2024-05-03,written,1800,,72,72,clear,,single_read
+ASP_MSR_0524,32,ASP,330,cdcr_2031,Fri,5/3/24,2024-05-03,written,1800,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Fri,5/3/24,2024-05-03,written,2100,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Fri,5/3/24,2024-05-03,written,2400,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Sat,5/4/24,2024-05-04,written,0300,,70,70,clear,,two_reads_agree
@@ -486,11 +486,11 @@ ASP_MSR_0524,32,ASP,330,cdcr_2031,Sat,5/4/24,2024-05-04,written,1200,,69,69,clea
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Sat,5/4/24,2024-05-04,written,1500,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Sat,5/4/24,2024-05-04,written,1800,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Sat,5/4/24,2024-05-04,written,2100,,69,69,clear,,two_reads_agree
-ASP_MSR_0524,32,ASP,330,cdcr_2031,Sat,5/4/24,2024-05-04,written,2400,,65,65,clear,,single_read
-ASP_MSR_0524,32,ASP,330,cdcr_2031,Sun,5/5/24,2024-05-05,written,0300,,64,64,clear,,single_read
-ASP_MSR_0524,32,ASP,330,cdcr_2031,Sun,5/5/24,2024-05-05,written,0600,,63?,63,unsure,,single_read
+ASP_MSR_0524,32,ASP,330,cdcr_2031,Sat,5/4/24,2024-05-04,written,2400,,65,65,clear,,two_reads_agree
+ASP_MSR_0524,32,ASP,330,cdcr_2031,Sun,5/5/24,2024-05-05,written,0300,,64,64,clear,,two_reads_agree
+ASP_MSR_0524,32,ASP,330,cdcr_2031,Sun,5/5/24,2024-05-05,written,0600,,63,63,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Sun,5/5/24,2024-05-05,written,0900,,64,64,clear,,two_reads_agree
-ASP_MSR_0524,32,ASP,330,cdcr_2031,Sun,5/5/24,2024-05-05,written,1200,,64?,64,unsure,,single_read
+ASP_MSR_0524,32,ASP,330,cdcr_2031,Sun,5/5/24,2024-05-05,written,1200,,64,64,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Sun,5/5/24,2024-05-05,written,1500,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Sun,5/5/24,2024-05-05,written,1800,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,32,ASP,330,cdcr_2031,Sun,5/5/24,2024-05-05,written,2100,,65,65,clear,,two_reads_agree
@@ -700,9 +700,9 @@ ASP_MSR_0524,38,ASP,510,cdcr_2031,Wed,5/1/24,2024-05-01,written,0600,,66,66,clea
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Wed,5/1/24,2024-05-01,written,0900,,67,67,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Wed,5/1/24,2024-05-01,written,1200,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Wed,5/1/24,2024-05-01,written,1500,,70,70,clear,,two_reads_agree
-ASP_MSR_0524,38,ASP,510,cdcr_2031,Wed,5/1/24,2024-05-01,written,1800,,70|78,70,ambiguous,78,single_read
-ASP_MSR_0524,38,ASP,510,cdcr_2031,Wed,5/1/24,2024-05-01,written,2100,,69,69,clear,,single_read
-ASP_MSR_0524,38,ASP,510,cdcr_2031,Wed,5/1/24,2024-05-01,written,2400,,68?,68,unsure,,single_read
+ASP_MSR_0524,38,ASP,510,cdcr_2031,Wed,5/1/24,2024-05-01,written,1800,,70|78,70,ambiguous,78,two_reads_agree
+ASP_MSR_0524,38,ASP,510,cdcr_2031,Wed,5/1/24,2024-05-01,written,2100,,69,69,clear,,two_reads_agree
+ASP_MSR_0524,38,ASP,510,cdcr_2031,Wed,5/1/24,2024-05-01,written,2400,,68,68,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Thu,5/2/2024,2024-05-02,written,0300,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Thu,5/2/2024,2024-05-02,written,0600,,66,66,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Thu,5/2/2024,2024-05-02,written,0900,,67,67,clear,,two_reads_agree
@@ -713,18 +713,18 @@ ASP_MSR_0524,38,ASP,510,cdcr_2031,Thu,5/2/2024,2024-05-02,written,2100,,70,70,cl
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Thu,5/2/2024,2024-05-02,written,2400,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Fri,5/3/24,2024-05-03,written,0300,,67,67,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Fri,5/3/24,2024-05-03,written,0600,,66,66,clear,,single_read
-ASP_MSR_0524,38,ASP,510,cdcr_2031,Fri,5/3/24,2024-05-03,written,0900,,68,68,clear,,single_read
+ASP_MSR_0524,38,ASP,510,cdcr_2031,Fri,5/3/24,2024-05-03,written,0900,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Fri,5/3/24,2024-05-03,written,1200,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Fri,5/3/24,2024-05-03,written,1500,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Fri,5/3/24,2024-05-03,written,1800,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Fri,5/3/24,2024-05-03,written,2100,,71,71,clear,,two_reads_agree
-ASP_MSR_0524,38,ASP,510,cdcr_2031,Fri,5/3/24,2024-05-03,written,2400,,70?,70,unsure,,single_read
+ASP_MSR_0524,38,ASP,510,cdcr_2031,Fri,5/3/24,2024-05-03,written,2400,,70,70,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Sat,5/4/24,2024-05-04,written,0300,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Sat,5/4/24,2024-05-04,written,0600,,67,67,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Sat,5/4/24,2024-05-04,written,0900,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Sat,5/4/24,2024-05-04,written,1200,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Sat,5/4/24,2024-05-04,written,1500,,68,68,clear,,two_reads_agree
-ASP_MSR_0524,38,ASP,510,cdcr_2031,Sat,5/4/24,2024-05-04,written,1800,,68,68,clear,,single_read
+ASP_MSR_0524,38,ASP,510,cdcr_2031,Sat,5/4/24,2024-05-04,written,1800,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Sat,5/4/24,2024-05-04,written,2100,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Sat,5/4/24,2024-05-04,written,2400,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Sun,5/5/24,2024-05-05,written,0300,,65,65,clear,,two_reads_agree
@@ -737,7 +737,7 @@ ASP_MSR_0524,38,ASP,510,cdcr_2031,Sun,5/5/24,2024-05-05,written,2100,,64,64,clea
 ASP_MSR_0524,38,ASP,510,cdcr_2031,Sun,5/5/24,2024-05-05,written,2400,,62,62,clear,,two_reads_agree
 ASP_MSR_0524,39,ASP,E520,cdcr_2031,Wed,5/01/24,2024-05-01,written,0300,,66,66,clear,,two_reads_agree
 ASP_MSR_0524,39,ASP,E520,cdcr_2031,Wed,5/01/24,2024-05-01,written,0600,,67,67,clear,,two_reads_agree
-ASP_MSR_0524,39,ASP,E520,cdcr_2031,Wed,5/01/24,2024-05-01,written,0900,,68,68,clear,,single_read
+ASP_MSR_0524,39,ASP,E520,cdcr_2031,Wed,5/01/24,2024-05-01,written,0900,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,39,ASP,E520,cdcr_2031,Wed,5/01/24,2024-05-01,written,1200,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,39,ASP,E520,cdcr_2031,Wed,5/01/24,2024-05-01,written,1500,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,39,ASP,E520,cdcr_2031,Wed,5/01/24,2024-05-01,written,1800,,71,71,clear,,two_reads_agree
@@ -745,7 +745,7 @@ ASP_MSR_0524,39,ASP,E520,cdcr_2031,Wed,5/01/24,2024-05-01,written,2100,,70,70,cl
 ASP_MSR_0524,39,ASP,E520,cdcr_2031,Wed,5/01/24,2024-05-01,written,2400,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,39,ASP,E520,cdcr_2031,Thu,5/02/24,2024-05-02,written,0300,,66,66,clear,,two_reads_agree
 ASP_MSR_0524,39,ASP,E520,cdcr_2031,Thu,5/02/24,2024-05-02,written,0600,,66,66,clear,,two_reads_agree
-ASP_MSR_0524,39,ASP,E520,cdcr_2031,Thu,5/02/24,2024-05-02,written,0900,,66,66,clear,,single_read
+ASP_MSR_0524,39,ASP,E520,cdcr_2031,Thu,5/02/24,2024-05-02,written,0900,,66,66,clear,,two_reads_agree
 ASP_MSR_0524,39,ASP,E520,cdcr_2031,Thu,5/02/24,2024-05-02,written,1200,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,39,ASP,E520,cdcr_2031,Thu,5/02/24,2024-05-02,written,1500,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,39,ASP,E520,cdcr_2031,Thu,5/02/24,2024-05-02,written,1800,,70,70,clear,,two_reads_agree
@@ -827,16 +827,16 @@ ASP_MSR_0524,41,ASP,550,cdcr_2031,Thu,5/2/24,2024-05-02,written,0300,,68,68,clea
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Thu,5/2/24,2024-05-02,written,0600,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Thu,5/2/24,2024-05-02,written,0900,,76,76,clear,,adjudicated
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Thu,5/2/24,2024-05-02,written,1200,,72,72,clear,,two_reads_agree
-ASP_MSR_0524,41,ASP,550,cdcr_2031,Thu,5/2/24,2024-05-02,written,1500,,76,76,clear,,single_read
+ASP_MSR_0524,41,ASP,550,cdcr_2031,Thu,5/2/24,2024-05-02,written,1500,,76,76,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Thu,5/2/24,2024-05-02,written,1800,,74,74,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Thu,5/2/24,2024-05-02,written,2100,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Thu,5/2/24,2024-05-02,written,2400,,73,73,clear,,two_reads_agree
-ASP_MSR_0524,41,ASP,550,cdcr_2031,Fri,5/3/24,2024-05-03,written,0300,,78?,78,unsure,,single_read
+ASP_MSR_0524,41,ASP,550,cdcr_2031,Fri,5/3/24,2024-05-03,written,0300,,78,78,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Fri,5/3/24,2024-05-03,written,0600,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Fri,5/3/24,2024-05-03,written,0900,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Fri,5/3/24,2024-05-03,written,1200,,74,74,clear,,two_reads_agree
-ASP_MSR_0524,41,ASP,550,cdcr_2031,Fri,5/3/24,2024-05-03,written,1500,,78,78,clear,,single_read
-ASP_MSR_0524,41,ASP,550,cdcr_2031,Fri,5/3/24,2024-05-03,written,1800,,78,78,clear,,single_read
+ASP_MSR_0524,41,ASP,550,cdcr_2031,Fri,5/3/24,2024-05-03,written,1500,,78,78,clear,,two_reads_agree
+ASP_MSR_0524,41,ASP,550,cdcr_2031,Fri,5/3/24,2024-05-03,written,1800,,78,78,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Fri,5/3/24,2024-05-03,written,2100,,77,77,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Fri,5/3/24,2024-05-03,written,2400,,77,77,clear,,single_read
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Sat,5/4/24,2024-05-04,written,0300,,77,77,clear,,single_read
@@ -844,12 +844,12 @@ ASP_MSR_0524,41,ASP,550,cdcr_2031,Sat,5/4/24,2024-05-04,written,0600,,71,71,clea
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Sat,5/4/24,2024-05-04,written,0900,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Sat,5/4/24,2024-05-04,written,1200,,73,73,clear,,single_read
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Sat,5/4/24,2024-05-04,written,1500,,72,72,clear,,two_reads_agree
-ASP_MSR_0524,41,ASP,550,cdcr_2031,Sat,5/4/24,2024-05-04,written,1800,,71,71,clear,,single_read
+ASP_MSR_0524,41,ASP,550,cdcr_2031,Sat,5/4/24,2024-05-04,written,1800,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Sat,5/4/24,2024-05-04,written,2100,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Sat,5/4/24,2024-05-04,written,2400,,67,67,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Sun,5/5/24,2024-05-05,written,0300,,86|66,86,ambiguous,66,single_read
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Sun,5/5/24,2024-05-05,written,0600,,64,64,clear,,two_reads_agree
-ASP_MSR_0524,41,ASP,550,cdcr_2031,Sun,5/5/24,2024-05-05,written,0900,,66,66,clear,,single_read
+ASP_MSR_0524,41,ASP,550,cdcr_2031,Sun,5/5/24,2024-05-05,written,0900,,66,66,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Sun,5/5/24,2024-05-05,written,1200,,67,67,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Sun,5/5/24,2024-05-05,written,1500,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,41,ASP,550,cdcr_2031,Sun,5/5/24,2024-05-05,written,1800,,68,68,clear,,two_reads_agree
@@ -1021,12 +1021,12 @@ ASP_MSR_0524,45,ASP,650,cdcr_2031,Sat,5-4-24,2024-05-04,written,0900,,71,71,clea
 ASP_MSR_0524,45,ASP,650,cdcr_2031,Sat,5-4-24,2024-05-04,written,1200,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,45,ASP,650,cdcr_2031,Sat,5-4-24,2024-05-04,written,1500,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,45,ASP,650,cdcr_2031,Sat,5-4-24,2024-05-04,written,1800,,73,73,clear,,two_reads_agree
-ASP_MSR_0524,45,ASP,650,cdcr_2031,Sat,5-4-24,2024-05-04,written,2100,,69,69,clear,,single_read
-ASP_MSR_0524,45,ASP,650,cdcr_2031,Sat,5-4-24,2024-05-04,written,2400,,69,69,clear,,single_read
-ASP_MSR_0524,45,ASP,650,cdcr_2031,Sun,5-5-24,2024-05-05,written,0300,,68,68,clear,,single_read
-ASP_MSR_0524,45,ASP,650,cdcr_2031,Sun,5-5-24,2024-05-05,written,0600,,68?,68,unsure,,single_read
-ASP_MSR_0524,45,ASP,650,cdcr_2031,Sun,5-5-24,2024-05-05,written,0900,,68,68,clear,,single_read
-ASP_MSR_0524,45,ASP,650,cdcr_2031,Sun,5-5-24,2024-05-05,written,1200,,68,68,clear,,single_read
+ASP_MSR_0524,45,ASP,650,cdcr_2031,Sat,5-4-24,2024-05-04,written,2100,,69,69,clear,,two_reads_agree
+ASP_MSR_0524,45,ASP,650,cdcr_2031,Sat,5-4-24,2024-05-04,written,2400,,69,69,clear,,two_reads_agree
+ASP_MSR_0524,45,ASP,650,cdcr_2031,Sun,5-5-24,2024-05-05,written,0300,,68,68,clear,,two_reads_agree
+ASP_MSR_0524,45,ASP,650,cdcr_2031,Sun,5-5-24,2024-05-05,written,0600,,68,68,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,45,ASP,650,cdcr_2031,Sun,5-5-24,2024-05-05,written,0900,,68,68,clear,,two_reads_agree
+ASP_MSR_0524,45,ASP,650,cdcr_2031,Sun,5-5-24,2024-05-05,written,1200,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,45,ASP,650,cdcr_2031,Sun,5-5-24,2024-05-05,written,1500,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,45,ASP,650,cdcr_2031,Sun,5-5-24,2024-05-05,written,1800,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,45,ASP,650,cdcr_2031,Sun,5-5-24,2024-05-05,written,2100,,69,69,clear,,two_reads_agree
@@ -1594,42 +1594,42 @@ ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Mon,5/6/24,2024-05-06,written,0300,,55,55,
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Mon,5/6/24,2024-05-06,written,0600,,56,56,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Mon,5/6/24,2024-05-06,written,0900,,57,57,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Mon,5/6/24,2024-05-06,written,1200,,57,57,clear,,two_reads_agree
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Mon,5/6/24,2024-05-06,written,1500,,61,61,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Mon,5/6/24,2024-05-06,written,1800,,61,61,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Mon,5/6/24,2024-05-06,written,2100,,59,59,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Mon,5/6/24,2024-05-06,written,2400,,58,58,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,0300,,56,56,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,0600,,56,56,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,0900,,60,60,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,1200,,61,61,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,1500,,63,63,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,1800,,61,61,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,2100,,62,62,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,2400,,59,59,clear,,single_read
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Mon,5/6/24,2024-05-06,written,1500,,61,61,clear,,two_reads_agree
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Mon,5/6/24,2024-05-06,written,1800,,61,61,clear,,two_reads_agree
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Mon,5/6/24,2024-05-06,written,2100,,59,59,clear,,two_reads_agree
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Mon,5/6/24,2024-05-06,written,2400,,58,58,clear,,two_reads_agree
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,0300,,56,56,clear,,two_reads_agree
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,0600,,56,56,clear,,two_reads_agree
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,0900,,60,60,clear,,two_reads_agree
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,1200,,61,61,clear,,two_reads_agree
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,1500,,63,63,clear,,two_reads_agree
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,1800,,61,61,clear,,two_reads_agree
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,2100,,62,62,clear,,two_reads_agree
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Tue,5/7/24,2024-05-07,written,2400,,59,59,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Wed,5/8/24,2024-05-08,written,0300,,57,57,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Wed,5/8/24,2024-05-08,written,0600,,57,57,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Wed,5/8/24,2024-05-08,written,0900,,58,58,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Wed,5/8/24,2024-05-08,written,1200,,61,61,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Wed,5/8/24,2024-05-08,written,1500,,62,62,clear,,two_reads_agree
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Wed,5/8/24,2024-05-08,written,1800,,60,60,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Wed,5/8/24,2024-05-08,written,2100,,59,59,clear,,single_read
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Wed,5/8/24,2024-05-08,written,1800,,60,60,clear,,two_reads_agree
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Wed,5/8/24,2024-05-08,written,2100,,59,59,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Wed,5/8/24,2024-05-08,written,2400,,59,59,clear,,two_reads_agree
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Thu,5/9/24,2024-05-09,written,0300,,56,56,clear,,single_read
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Thu,5/9/24,2024-05-09,written,0300,,56,56,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Thu,5/9/24,2024-05-09,written,0600,,57,57,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Thu,5/9/24,2024-05-09,written,0900,,57,57,clear,,two_reads_agree
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Thu,5/9/24,2024-05-09,written,1200,,62,62,clear,,single_read
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Thu,5/9/24,2024-05-09,written,1200,,62,62,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Thu,5/9/24,2024-05-09,written,1500,,62,62,clear,,two_reads_agree
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Thu,5/9/24,2024-05-09,written,1800,,62,62,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Thu,5/9/24,2024-05-09,written,2100,,62?,62,unsure,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Thu,5/9/24,2024-05-09,written,2400,,62,62,clear,,single_read
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Thu,5/9/24,2024-05-09,written,1800,,62,62,clear,,two_reads_agree
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Thu,5/9/24,2024-05-09,written,2100,,62,62,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Thu,5/9/24,2024-05-09,written,2400,,62,62,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Fri,5/10/24,2024-05-10,written,0300,,61,61,clear,,two_reads_agree
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Fri,5/10/24,2024-05-10,written,0600,,61,61,clear,,single_read
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Fri,5/10/24,2024-05-10,written,0600,,61,61,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Fri,5/10/24,2024-05-10,written,0900,,63,63,clear,,two_reads_agree
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Fri,5/10/24,2024-05-10,written,1200,,65,65,clear,,single_read
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Fri,5/10/24,2024-05-10,written,1200,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Fri,5/10/24,2024-05-10,written,1500,,66,66,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Fri,5/10/24,2024-05-10,written,1800,,66,66,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Fri,5/10/24,2024-05-10,written,2100,,67,67,clear,,two_reads_agree
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Fri,5/10/24,2024-05-10,written,2400,,67,67,clear,,single_read
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Fri,5/10/24,2024-05-10,written,2400,,67,67,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sat,5/11/24,2024-05-11,written,0300,,58,58,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sat,5/11/24,2024-05-11,written,0600,,62,62,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sat,5/11/24,2024-05-11,written,0900,,63,63,clear,,two_reads_agree
@@ -1639,9 +1639,9 @@ ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sat,5/11/24,2024-05-11,written,1800,,68,68
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sat,5/11/24,2024-05-11,written,2100,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sat,5/11/24,2024-05-11,written,2400,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sun,5/12/24,2024-05-12,written,0300,,65,65,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sun,5/12/24,2024-05-12,written,0600,,68?,68,unsure,,single_read
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sun,5/12/24,2024-05-12,written,0600,,68,68,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sun,5/12/24,2024-05-12,written,0900,,68,68,clear,,single_read
-ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sun,5/12/24,2024-05-12,written,1200,,68,68,clear,,single_read
+ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sun,5/12/24,2024-05-12,written,1200,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sun,5/12/24,2024-05-12,written,1500,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sun,5/12/24,2024-05-12,written,1800,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,56,ASP,H/U 320,cdcr_2031,Sun,5/12/24,2024-05-12,written,2100,,69,69,clear,,two_reads_agree
@@ -1653,55 +1653,55 @@ ASP_MSR_0524,57,ASP,330,cdcr_2031,Mon,5/6/24,2024-05-06,written,1200,,65,65,clea
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Mon,5/6/24,2024-05-06,written,1500,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Mon,5/6/24,2024-05-06,written,1800,,67,67,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Mon,5/6/24,2024-05-06,written,2100,,65,65,clear,,two_reads_agree
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Mon,5/6/24,2024-05-06,written,2400,,64,64,clear,,single_read
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Mon,5/6/24,2024-05-06,written,2400,,64,64,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Tue,5/7/24,2024-05-07,written,0300,,64,64,clear,,single_read
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Tue,5/7/24,2024-05-07,written,0600,,63,63,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Tue,5/7/24,2024-05-07,written,0900,,65,65,clear,,two_reads_agree
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Tue,5/7/24,2024-05-07,written,1200,,65,65,clear,,single_read
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Tue,5/7/24,2024-05-07,written,1200,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Tue,5/7/24,2024-05-07,written,1500,,69,69,clear,,single_read
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Tue,5/7/24,2024-05-07,written,1800,,69?,69,unsure,,single_read
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Tue,5/7/24,2024-05-07,written,2100,,69?,69,unsure,,single_read
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Tue,5/7/24,2024-05-07,written,2400,,65,65,clear,,single_read
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Tue,5/7/24,2024-05-07,written,1800,,69,69,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Tue,5/7/24,2024-05-07,written,2100,,69,69,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Tue,5/7/24,2024-05-07,written,2400,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Wed,5/8/24,2024-05-08,written,0300,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Wed,5/8/24,2024-05-08,written,0600,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Wed,5/8/24,2024-05-08,written,0900,,65,65,clear,,two_reads_agree
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Wed,5/8/24,2024-05-08,written,1200,,67,67,clear,,single_read
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Wed,5/8/24,2024-05-08,written,1500,,69,69,clear,,single_read
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Wed,5/8/24,2024-05-08,written,1800,,69,69,clear,,single_read
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Wed,5/8/24,2024-05-08,written,2100,,69,69,clear,,single_read
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Wed,5/8/24,2024-05-08,written,2400,,67,67,clear,,single_read
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Thu,5/9/24,2024-05-09,written,0300,,67,67,clear,,single_read
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Wed,5/8/24,2024-05-08,written,1200,,67,67,clear,,two_reads_agree
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Wed,5/8/24,2024-05-08,written,1500,,69,69,clear,,two_reads_agree
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Wed,5/8/24,2024-05-08,written,1800,,69,69,clear,,two_reads_agree
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Wed,5/8/24,2024-05-08,written,2100,,69,69,clear,,two_reads_agree
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Wed,5/8/24,2024-05-08,written,2400,,67,67,clear,,two_reads_agree
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Thu,5/9/24,2024-05-09,written,0300,,67,67,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Thu,5/9/24,2024-05-09,written,0600,,65,65,clear,,two_reads_agree
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Thu,5/9/24,2024-05-09,written,0900,,67,67,clear,,single_read
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Thu,5/9/24,2024-05-09,written,1200,,67,67,clear,,single_read
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Thu,5/9/24,2024-05-09,written,0900,,67,67,clear,,two_reads_agree
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Thu,5/9/24,2024-05-09,written,1200,,67,67,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Thu,5/9/24,2024-05-09,written,1500,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Thu,5/9/24,2024-05-09,written,1800,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Thu,5/9/24,2024-05-09,written,2100,,71,71,clear,,two_reads_agree
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Thu,5/9/24,2024-05-09,written,2400,,69,69,clear,,single_read
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Thu,5/9/24,2024-05-09,written,2400,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Fri,5/10/24,2024-05-10,written,0300,,64?,64,unsure,,single_read
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Fri,5/10/24,2024-05-10,written,0600,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Fri,5/10/24,2024-05-10,written,0900,,70,70,clear,,two_reads_agree
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Fri,5/10/24,2024-05-10,written,1200,,72,72,clear,,single_read
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Fri,5/10/24,2024-05-10,written,1500,,73,73,clear,,single_read
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Fri,5/10/24,2024-05-10,written,1200,,72,72,clear,,two_reads_agree
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Fri,5/10/24,2024-05-10,written,1500,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Fri,5/10/24,2024-05-10,written,1800,,74,74,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Fri,5/10/24,2024-05-10,written,2100,,74,74,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Fri,5/10/24,2024-05-10,written,2400,,73,73,clear,,two_reads_agree
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Sat,5/11/24,2024-05-11,written,0300,,73,73,clear,,single_read
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Sat,5/11/24,2024-05-11,written,0300,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Sat,5/11/24,2024-05-11,written,0600,,71,71,clear,,two_reads_agree
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Sat,5/11/24,2024-05-11,written,0900,,73,73,clear,,single_read
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Sat,5/11/24,2024-05-11,written,0900,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Sat,5/11/24,2024-05-11,written,1200,,74,74,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Sat,5/11/24,2024-05-11,written,1500,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Sat,5/11/24,2024-05-11,written,1800,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Sat,5/11/24,2024-05-11,written,2100,,75,75,clear,,two_reads_agree
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Sat,5/11/24,2024-05-11,written,2400,,74?,74,unsure,,single_read
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Sun,5/12/24,2024-05-12,written,0300,,73,73,clear,,single_read
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Sun,5/12/24,2024-05-12,written,0600,,73,73,clear,,single_read
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Sun,5/12/24,2024-05-12,written,0900,,74,74,clear,,single_read
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Sat,5/11/24,2024-05-11,written,2400,,74,74,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Sun,5/12/24,2024-05-12,written,0300,,73,73,clear,,two_reads_agree
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Sun,5/12/24,2024-05-12,written,0600,,73,73,clear,,two_reads_agree
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Sun,5/12/24,2024-05-12,written,0900,,74,74,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Sun,5/12/24,2024-05-12,written,1200,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Sun,5/12/24,2024-05-12,written,1500,,77,77,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Sun,5/12/24,2024-05-12,written,1800,,77,77,clear,,two_reads_agree
 ASP_MSR_0524,57,ASP,330,cdcr_2031,Sun,5/12/24,2024-05-12,written,2100,,75,75,clear,,two_reads_agree
-ASP_MSR_0524,57,ASP,330,cdcr_2031,Sun,5/12/24,2024-05-12,written,2400,,75,75,clear,,single_read
+ASP_MSR_0524,57,ASP,330,cdcr_2031,Sun,5/12/24,2024-05-12,written,2400,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,58,ASP,350,cdcr_2031,Mon,5/6/24,2024-05-06,written,0300,,62,62,clear,,dispute_decided
 ASP_MSR_0524,58,ASP,350,cdcr_2031,Mon,5/6/24,2024-05-06,written,0600,,61,61,clear,,two_reads_agree
 ASP_MSR_0524,58,ASP,350,cdcr_2031,Mon,5/6/24,2024-05-06,written,0900,,63,63,clear,,two_reads_agree
@@ -1767,23 +1767,23 @@ ASP_MSR_0524,59,ASP,410,cdcr_2031,Mon,5/6,2024-05-06,written,1800,,78|70,78,ambi
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Mon,5/6,2024-05-06,written,2100,,65?,65,unsure,,single_read
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Mon,5/6,2024-05-06,written,2400,,68,68,clear,,single_read
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Tue,5/7,2024-05-07,written,0300,,65,65,clear,,two_reads_agree
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Tue,5/7,2024-05-07,written,0600,,69?,69,unsure,,single_read
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Tue,5/7,2024-05-07,written,0600,,69,69,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Tue,5/7,2024-05-07,written,0900,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Tue,5/7,2024-05-07,written,1200,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Tue,5/7,2024-05-07,written,1500,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Tue,5/7,2024-05-07,written,1800,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Tue,5/7,2024-05-07,written,2100,,70,70,clear,,two_reads_agree
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Tue,5/7,2024-05-07,written,2400,,70?,70,unsure,,single_read
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Tue,5/7,2024-05-07,written,2400,,70,70,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Wed,5/8,2024-05-08,written,0300,,68,68,clear,,two_reads_agree
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Wed,5/8,2024-05-08,written,0600,,69,69,clear,,single_read
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Wed,5/8,2024-05-08,written,0900,,70,70,clear,,single_read
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Wed,5/8,2024-05-08,written,0600,,69,69,clear,,two_reads_agree
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Wed,5/8,2024-05-08,written,0900,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Wed,5/8,2024-05-08,written,1200,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Wed,5/8,2024-05-08,written,1500,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Wed,5/8,2024-05-08,written,1800,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Wed,5/8,2024-05-08,written,2100,,70,70,clear,,two_reads_agree
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Wed,5/8,2024-05-08,written,2400,,65,65,clear,,single_read
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Wed,5/8,2024-05-08,written,2400,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Thu,5/9,2024-05-09,written,0300,,65,65,clear,,two_reads_agree
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Thu,5/9,2024-05-09,written,0600,,69,69,clear,,single_read
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Thu,5/9,2024-05-09,written,0600,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Thu,5/9,2024-05-09,written,0900,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Thu,5/9,2024-05-09,written,1200,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Thu,5/9,2024-05-09,written,1500,,71,71,clear,,two_reads_agree
@@ -1791,29 +1791,29 @@ ASP_MSR_0524,59,ASP,410,cdcr_2031,Thu,5/9,2024-05-09,written,1800,,74,74,clear,,
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Thu,5/9,2024-05-09,written,2100,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Thu,5/9,2024-05-09,written,2400,,72,72,clear,,single_read
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Fri,5/10,2024-05-10,written,0300,,70,70,clear,,two_reads_agree
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Fri,5/10,2024-05-10,written,0600,,70,70,clear,,single_read
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Fri,5/10,2024-05-10,written,0600,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Fri,5/10,2024-05-10,written,0900,,70,70,clear,,single_read
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Fri,5/10,2024-05-10,written,1200,,71,71,clear,,single_read
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Fri,5/10,2024-05-10,written,1500,,75,75,clear,,single_read
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Fri,5/10,2024-05-10,written,1200,,71,71,clear,,two_reads_agree
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Fri,5/10,2024-05-10,written,1500,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Fri,5/10,2024-05-10,written,1800,,77,77,clear,,single_read
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Fri,5/10,2024-05-10,written,2100,,76,76,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Fri,5/10,2024-05-10,written,2400,,79?,79,unsure,,single_read
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Sat,5/11,2024-05-11,written,0300,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Sat,5/11,2024-05-11,written,0600,,74?,74,unsure,,single_read
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Sat,5/11,2024-05-11,written,0900,,76,76,clear,,two_reads_agree
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Sat,5/11,2024-05-11,written,1200,,76,76,clear,,single_read
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Sat,5/11,2024-05-11,written,1200,,76,76,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Sat,5/11,2024-05-11,written,1500,,78,78,clear,,single_read
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Sat,5/11,2024-05-11,written,1800,,78,78,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Sat,5/11,2024-05-11,written,2100,,77,77,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Sat,5/11,2024-05-11,written,2400,,76,76,clear,,two_reads_agree
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Sun,5/12,2024-05-12,written,0300,,76,76,clear,,two_reads_agree
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Sun,5/12,2024-05-12,written,0600,,76,76,clear,,single_read
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Sun,5/12,2024-05-12,written,0900,,76?,76,unsure,,single_read
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Sun,5/12,2024-05-12,written,0600,,76,76,clear,,two_reads_agree
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Sun,5/12,2024-05-12,written,0900,,76,76,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Sun,5/12,2024-05-12,written,1200,,78,78,clear,,two_reads_agree
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Sun,5/12,2024-05-12,written,1500,,79,79,clear,,single_read
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Sun,5/12,2024-05-12,written,1800,,80?,80,unsure,,single_read
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Sun,5/12,2024-05-12,written,1500,,79,79,clear,,two_reads_agree
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Sun,5/12,2024-05-12,written,1800,,80,80,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,59,ASP,410,cdcr_2031,Sun,5/12,2024-05-12,written,2100,,80,80,clear,,two_reads_agree
-ASP_MSR_0524,59,ASP,410,cdcr_2031,Sun,5/12,2024-05-12,written,2400,,79?,79,unsure,,single_read
+ASP_MSR_0524,59,ASP,410,cdcr_2031,Sun,5/12,2024-05-12,written,2400,,79,79,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,60,ASP,470,cdcr_2031,Mon,5/6/24,2024-05-06,written,0300,,64,64,clear,,two_reads_agree
 ASP_MSR_0524,60,ASP,470,cdcr_2031,Mon,5/6/24,2024-05-06,written,0600,,61,61,clear,,dispute_decided
 ASP_MSR_0524,60,ASP,470,cdcr_2031,Mon,5/6/24,2024-05-06,written,0900,,62,62,clear,,two_reads_agree
@@ -1872,24 +1872,24 @@ ASP_MSR_0524,60,ASP,470,cdcr_2031,Sun,5/12/24,2024-05-12,written,2100,,74,74,cle
 ASP_MSR_0524,60,ASP,470,cdcr_2031,Sun,5/12/24,2024-05-12,written,2400,,74,74,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Mon,5/6,2024-05-06,written,0300,,63,63,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Mon,5/6,2024-05-06,written,0600,,60,60,clear,,single_read
-ASP_MSR_0524,61,ASP,430,cdcr_2031,Mon,5/6,2024-05-06,written,0900,,61,61,clear,,single_read
-ASP_MSR_0524,61,ASP,430,cdcr_2031,Mon,5/6,2024-05-06,written,1200,,62,62,clear,,single_read
+ASP_MSR_0524,61,ASP,430,cdcr_2031,Mon,5/6,2024-05-06,written,0900,,61,61,clear,,two_reads_agree
+ASP_MSR_0524,61,ASP,430,cdcr_2031,Mon,5/6,2024-05-06,written,1200,,62,62,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Mon,5/6,2024-05-06,written,1500,,64,64,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Mon,5/6,2024-05-06,written,1800,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Mon,5/6,2024-05-06,written,2100,,65,65,clear,,two_reads_agree
-ASP_MSR_0524,61,ASP,430,cdcr_2031,Mon,5/6,2024-05-06,written,2400,,64,64,clear,,single_read
+ASP_MSR_0524,61,ASP,430,cdcr_2031,Mon,5/6,2024-05-06,written,2400,,64,64,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Tue,5/7/24,2024-05-07,written,0300,,63,63,clear,,two_reads_agree
-ASP_MSR_0524,61,ASP,430,cdcr_2031,Tue,5/7/24,2024-05-07,written,0600,,62?,62,unsure,,single_read
+ASP_MSR_0524,61,ASP,430,cdcr_2031,Tue,5/7/24,2024-05-07,written,0600,,62,62,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Tue,5/7/24,2024-05-07,written,0900,,64,64,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Tue,5/7/24,2024-05-07,written,1200,,65,65,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Tue,5/7/24,2024-05-07,written,1500,,66,66,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Tue,5/7/24,2024-05-07,written,1800,,86|66,86,ambiguous,66,adjudicated
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Tue,5/7/24,2024-05-07,written,2100,,66,66,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Tue,5/7/24,2024-05-07,written,2400,,65,65,clear,,two_reads_agree
-ASP_MSR_0524,61,ASP,430,cdcr_2031,Wed,5/8/24,2024-05-08,written,0300,,64,64,clear,,single_read
-ASP_MSR_0524,61,ASP,430,cdcr_2031,Wed,5/8/24,2024-05-08,written,0600,,64,64,clear,,single_read
-ASP_MSR_0524,61,ASP,430,cdcr_2031,Wed,5/8/24,2024-05-08,written,0900,,65,65,clear,,single_read
-ASP_MSR_0524,61,ASP,430,cdcr_2031,Wed,5/8/24,2024-05-08,written,1200,,66,66,clear,,single_read
+ASP_MSR_0524,61,ASP,430,cdcr_2031,Wed,5/8/24,2024-05-08,written,0300,,64,64,clear,,two_reads_agree
+ASP_MSR_0524,61,ASP,430,cdcr_2031,Wed,5/8/24,2024-05-08,written,0600,,64,64,clear,,two_reads_agree
+ASP_MSR_0524,61,ASP,430,cdcr_2031,Wed,5/8/24,2024-05-08,written,0900,,65,65,clear,,two_reads_agree
+ASP_MSR_0524,61,ASP,430,cdcr_2031,Wed,5/8/24,2024-05-08,written,1200,,66,66,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Wed,5/8/24,2024-05-08,written,1500,,67,67,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Wed,5/8/24,2024-05-08,written,1800,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Wed,5/8/24,2024-05-08,written,2100,,67?,67,unsure,,single_read
@@ -1899,17 +1899,17 @@ ASP_MSR_0524,61,ASP,430,cdcr_2031,Thu,5/9/24,2024-05-09,written,0600,,64,64,clea
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Thu,5/9/24,2024-05-09,written,0900,,66,66,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Thu,5/9/24,2024-05-09,written,1200,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Thu,5/9/24,2024-05-09,written,1500,,69,69,clear,,two_reads_agree
-ASP_MSR_0524,61,ASP,430,cdcr_2031,Thu,5/9/24,2024-05-09,written,1800,,70|78,70,ambiguous,78,single_read
+ASP_MSR_0524,61,ASP,430,cdcr_2031,Thu,5/9/24,2024-05-09,written,1800,,70|78,70,ambiguous,78,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Thu,5/9/24,2024-05-09,written,2100,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Thu,5/9/24,2024-05-09,written,2400,,69,69,clear,,two_reads_agree
-ASP_MSR_0524,61,ASP,430,cdcr_2031,Fri,5/10/24,2024-05-10,written,0300,,67,67,clear,,single_read
+ASP_MSR_0524,61,ASP,430,cdcr_2031,Fri,5/10/24,2024-05-10,written,0300,,67,67,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Fri,5/10/24,2024-05-10,written,0600,,68?,68,unsure,,single_read
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Fri,5/10/24,2024-05-10,written,0900,,68?,68,unsure,,single_read
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Fri,5/10/24,2024-05-10,written,1200,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Fri,5/10/24,2024-05-10,written,1500,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Fri,5/10/24,2024-05-10,written,1800,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Fri,5/10/24,2024-05-10,written,2100,,72,72,clear,,two_reads_agree
-ASP_MSR_0524,61,ASP,430,cdcr_2031,Fri,5/10/24,2024-05-10,written,2400,,70,70,clear,,single_read
+ASP_MSR_0524,61,ASP,430,cdcr_2031,Fri,5/10/24,2024-05-10,written,2400,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Sat,5/11/24,2024-05-11,written,0300,,70?,70,unsure,,single_read
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Sat,5/11/24,2024-05-11,written,0600,,70,70,clear,,single_read
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Sat,5/11/24,2024-05-11,written,0900,,71,71,clear,,two_reads_agree
@@ -1922,9 +1922,9 @@ ASP_MSR_0524,61,ASP,430,cdcr_2031,Sun,5/12/24,2024-05-12,written,0300,,71,71,cle
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Sun,5/12/24,2024-05-12,written,0600,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Sun,5/12/24,2024-05-12,written,0900,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Sun,5/12/24,2024-05-12,written,1200,,74,74,clear,,two_reads_agree
-ASP_MSR_0524,61,ASP,430,cdcr_2031,Sun,5/12/24,2024-05-12,written,1500,,75,75,clear,,single_read
+ASP_MSR_0524,61,ASP,430,cdcr_2031,Sun,5/12/24,2024-05-12,written,1500,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Sun,5/12/24,2024-05-12,written,1800,,76,76,clear,,two_reads_agree
-ASP_MSR_0524,61,ASP,430,cdcr_2031,Sun,5/12/24,2024-05-12,written,2100,,75,75,clear,,single_read
+ASP_MSR_0524,61,ASP,430,cdcr_2031,Sun,5/12/24,2024-05-12,written,2100,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,61,ASP,430,cdcr_2031,Sun,5/12/24,2024-05-12,written,2400,,74,74,clear,,two_reads_agree
 ASP_MSR_0524,62,ASP,450,cdcr_2031,Mon,05/06/24,2024-05-06,written,0300,,64,64,clear,,dispute_decided
 ASP_MSR_0524,62,ASP,450,cdcr_2031,Mon,05/06/24,2024-05-06,written,0600,,64,64,clear,,dispute_decided
@@ -3700,21 +3700,21 @@ ASP_MSR_0524,93,ASP,630,cdcr_2031,Fri,5-17-24,2024-05-17,written,0900,,79,79,cle
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Fri,5-17-24,2024-05-17,written,1200,,80,80,clear,,two_reads_agree
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Fri,5-17-24,2024-05-17,written,1500,,80,80,clear,,adjudicated
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Fri,5-17-24,2024-05-17,written,1800,,82?,82,unsure,,single_read
-ASP_MSR_0524,93,ASP,630,cdcr_2031,Fri,5-17-24,2024-05-17,written,2100,,82?,82,unsure,,single_read
+ASP_MSR_0524,93,ASP,630,cdcr_2031,Fri,5-17-24,2024-05-17,written,2100,,82,82,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Fri,5-17-24,2024-05-17,written,2400,,80,80,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Sat,5-18-24,2024-05-18,written,0300,,80,80,clear,,two_reads_agree
-ASP_MSR_0524,93,ASP,630,cdcr_2031,Sat,5-18-24,2024-05-18,written,0600,,80?,80,unsure,,single_read
+ASP_MSR_0524,93,ASP,630,cdcr_2031,Sat,5-18-24,2024-05-18,written,0600,,80,80,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Sat,5-18-24,2024-05-18,written,0900,,78?,78,unsure,,single_read
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Sat,5-18-24,2024-05-18,written,1200,,79,79,clear,,single_read
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Sat,5-18-24,2024-05-18,written,1500,,80,80,clear,,two_reads_agree
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Sat,5-18-24,2024-05-18,written,1800,,80,80,clear,,two_reads_agree
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Sat,5-18-24,2024-05-18,written,2100,,80,80,clear,,two_reads_agree
-ASP_MSR_0524,93,ASP,630,cdcr_2031,Sat,5-18-24,2024-05-18,written,2400,,73,73,clear,,single_read
+ASP_MSR_0524,93,ASP,630,cdcr_2031,Sat,5-18-24,2024-05-18,written,2400,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Sun,5-19-24,2024-05-19,written,0300,,72,72,clear,,single_read
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Sun,5-19-24,2024-05-19,written,0600,,72,72,clear,,single_read
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Sun,5-19-24,2024-05-19,written,0900,,75?,75,unsure,,single_read
-ASP_MSR_0524,93,ASP,630,cdcr_2031,Sun,5-19-24,2024-05-19,written,1200,,78?,78,unsure,,single_read
-ASP_MSR_0524,93,ASP,630,cdcr_2031,Sun,5-19-24,2024-05-19,written,1500,,80,80,clear,,single_read
+ASP_MSR_0524,93,ASP,630,cdcr_2031,Sun,5-19-24,2024-05-19,written,1200,,78,78,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,93,ASP,630,cdcr_2031,Sun,5-19-24,2024-05-19,written,1500,,80,80,clear,,two_reads_agree
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Sun,5-19-24,2024-05-19,written,1800,,79,79,clear,,single_read
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Sun,5-19-24,2024-05-19,written,2100,,79,79,clear,,single_read
 ASP_MSR_0524,93,ASP,630,cdcr_2031,Sun,5-19-24,2024-05-19,written,2400,,75,75,clear,,two_reads_agree
@@ -3774,30 +3774,30 @@ ASP_MSR_0524,94,ASP,640,cdcr_2031,Sun,5/19/24,2024-05-19,written,1500,,75,75,cle
 ASP_MSR_0524,94,ASP,640,cdcr_2031,Sun,5/19/24,2024-05-19,written,1800,,77,77,clear,,two_reads_agree
 ASP_MSR_0524,94,ASP,640,cdcr_2031,Sun,5/19/24,2024-05-19,written,2100,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,94,ASP,640,cdcr_2031,Sun,5/19/24,2024-05-19,written,2400,,73,73,clear,,two_reads_agree
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Mon,5-13-24,2024-05-13,written,0300,,75,75,clear,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Mon,5-13-24,2024-05-13,written,0600,,78,78,clear,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Mon,5-13-24,2024-05-13,written,0900,,75?,75,unsure,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Mon,5-13-24,2024-05-13,written,1200,,80,80,clear,,single_read
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Mon,5-13-24,2024-05-13,written,0300,,75,75,clear,,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Mon,5-13-24,2024-05-13,written,0600,,78,78,clear,,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Mon,5-13-24,2024-05-13,written,0900,,75,75,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Mon,5-13-24,2024-05-13,written,1200,,80,80,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Mon,5-13-24,2024-05-13,written,1500,,80,80,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Mon,5-13-24,2024-05-13,written,1800,,81,81,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Mon,5-13-24,2024-05-13,written,2100,,80,80,clear,,two_reads_agree
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Mon,5-13-24,2024-05-13,written,2400,,80,80,clear,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Tue,5-14-24,2024-05-14,written,0300,,79,79,clear,,single_read
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Mon,5-13-24,2024-05-13,written,2400,,80,80,clear,,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Tue,5-14-24,2024-05-14,written,0300,,79,79,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Tue,5-14-24,2024-05-14,written,0600,,78,78,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Tue,5-14-24,2024-05-14,written,0900,,78?,78,unsure,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Tue,5-14-24,2024-05-14,written,1200,,78?,78,unsure,,single_read
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Tue,5-14-24,2024-05-14,written,1200,,78,78,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Tue,5-14-24,2024-05-14,written,1500,,79?,79,unsure,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Tue,5-14-24,2024-05-14,written,1800,,79?,79,unsure,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Tue,5-14-24,2024-05-14,written,2100,,78,78,clear,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Tue,5-14-24,2024-05-14,written,2400,,78,78,clear,,single_read
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Tue,5-14-24,2024-05-14,written,1800,,79,79,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Tue,5-14-24,2024-05-14,written,2100,,78,78,clear,,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Tue,5-14-24,2024-05-14,written,2400,,78,78,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Wed,5-15-24,2024-05-15,written,0300,,78,78,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Wed,5-15-24,2024-05-15,written,0600,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Wed,5-15-24,2024-05-15,written,0900,,76,76,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Wed,5-15-24,2024-05-15,written,1200,,79,79,clear,,two_reads_agree
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Wed,5-15-24,2024-05-15,written,1500,,80,80,clear,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Wed,5-15-24,2024-05-15,written,1800,,80,80,clear,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Wed,5-15-24,2024-05-15,written,2100,,79,79,clear,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Wed,5-15-24,2024-05-15,written,2400,,80,80,clear,,single_read
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Wed,5-15-24,2024-05-15,written,1500,,80,80,clear,,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Wed,5-15-24,2024-05-15,written,1800,,80,80,clear,,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Wed,5-15-24,2024-05-15,written,2100,,79,79,clear,,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Wed,5-15-24,2024-05-15,written,2400,,80,80,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Thu,5-16-24,2024-05-16,written,0300,,79,79,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Thu,5-16-24,2024-05-16,written,0600,,79,79,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Thu,5-16-24,2024-05-16,written,0900,,80,80,clear,,two_reads_agree_after_doubt
@@ -3810,37 +3810,37 @@ ASP_MSR_0524,95,ASP,650,cdcr_2031,Fri,5-17-24,2024-05-17,written,0300,,80?,80,un
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Fri,5-17-24,2024-05-17,written,0600,,79,79,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Fri,5-17-24,2024-05-17,written,0900,,76,76,clear,,single_read
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Fri,5-17-24,2024-05-17,written,1200,,78,78,clear,,two_reads_agree
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Fri,5-17-24,2024-05-17,written,1500,,79,79,clear,,single_read
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Fri,5-17-24,2024-05-17,written,1500,,79,79,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Fri,5-17-24,2024-05-17,written,1800,,79,79,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Fri,5-17-24,2024-05-17,written,2100,,79,79,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Fri,5-17-24,2024-05-17,written,2400,,79,79,clear,,two_reads_agree
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Sat,5-18-24,2024-05-18,written,0300,,79,79,clear,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Sat,5-18-24,2024-05-18,written,0600,,78,78,clear,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Sat,5-18-24,2024-05-18,written,0900,,79,79,clear,,single_read
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Sat,5-18-24,2024-05-18,written,0300,,79,79,clear,,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Sat,5-18-24,2024-05-18,written,0600,,78,78,clear,,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Sat,5-18-24,2024-05-18,written,0900,,79,79,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Sat,5-18-24,2024-05-18,written,1200,,80,80,clear,,two_reads_agree
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Sat,5-18-24,2024-05-18,written,1500,,80?,80,unsure,,single_read
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Sat,5-18-24,2024-05-18,written,1500,,80,80,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Sat,5-18-24,2024-05-18,written,1800,,80,80,clear,,two_reads_agree
 ASP_MSR_0524,95,ASP,650,cdcr_2031,Sat,5-18-24,2024-05-18,written,2100,,80,80,clear,,two_reads_agree
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Sat,5-18-24,2024-05-18,written,2400,,79,79,clear,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,0300,,79,79,clear,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,0600,,79?,79,unsure,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,0900,,80|88,80,ambiguous,88,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,1200,,80?,80,unsure,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,1500,,80,80,clear,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,1800,,80,80,clear,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,2100,,75?,75,unsure,,single_read
-ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,2400,,79,79,clear,,single_read
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Sat,5-18-24,2024-05-18,written,2400,,79,79,clear,,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,0300,,79,79,clear,,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,0600,,79,79,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,0900,,80|88,80,ambiguous,88,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,1200,,80,80,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,1500,,80,80,clear,,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,1800,,80,80,clear,,two_reads_agree
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,2100,,75,75,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,95,ASP,650,cdcr_2031,Sun,5-19-24,2024-05-19,written,2400,,79,79,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Mon,5-20,2024-05-20,written,0300,,65,65,clear,,single_read
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Mon,5-20,2024-05-20,written,0600,,65?,65,unsure,,single_read
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Mon,5-20,2024-05-20,written,0900,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Mon,5-20,2024-05-20,written,1200,,70,70,clear,,two_reads_agree
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Mon,5-20,2024-05-20,written,1500,,71,71,clear,,single_read
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Mon,5-20,2024-05-20,written,1500,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Mon,5-20,2024-05-20,written,1800,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Mon,5-20,2024-05-20,written,2100,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Mon,5-20,2024-05-20,written,2400,,69,69,clear,,two_reads_agree
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Tue,5-21-24,2024-05-21,written,0300,,69,69,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Tue,5-21-24,2024-05-21,written,0600,,70,70,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Tue,5-21-24,2024-05-21,written,0900,,70,70,clear,,single_read
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Tue,5-21-24,2024-05-21,written,0300,,69,69,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Tue,5-21-24,2024-05-21,written,0600,,70,70,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Tue,5-21-24,2024-05-21,written,0900,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Tue,5-21-24,2024-05-21,written,1200,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Tue,5-21-24,2024-05-21,written,1500,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Tue,5-21-24,2024-05-21,written,1800,,72,72,clear,,two_reads_agree
@@ -3849,43 +3849,43 @@ ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Tue,5-21-24,2024-05-21,written,2400,,71,71
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Wed,5-22,2024-05-22,written,0300,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Wed,5-22,2024-05-22,written,0600,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Wed,5-22,2024-05-22,written,0900,,72,72,clear,,two_reads_agree
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Wed,5-22,2024-05-22,written,1200,,71,71,clear,,single_read
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Wed,5-22,2024-05-22,written,1200,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Wed,5-22,2024-05-22,written,1500,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Wed,5-22,2024-05-22,written,1800,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Wed,5-22,2024-05-22,written,2100,,72.9?,72.9,unsure,,single_read
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Wed,5-22,2024-05-22,written,2400,,69,69,clear,,two_reads_agree
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,0300,,68,68,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,0600,,68?,68,unsure,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,0900,,69,69,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,1200,,69,69,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,1500,,70,70,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,1800,,70,70,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,2100,,70,70,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,2400,,69,69,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Fri,5-24,2024-05-24,written,0300,,68,68,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Fri,5-24,2024-05-24,written,0600,,69?,69,unsure,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Fri,5-24,2024-05-24,written,0900,,68,68,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Fri,5-24,2024-05-24,written,1200,,68?,68,unsure,,single_read
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,0300,,68,68,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,0600,,68,68,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,0900,,69,69,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,1200,,69,69,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,1500,,70,70,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,1800,,70,70,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,2100,,70,70,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Thu,5-23,2024-05-23,written,2400,,69,69,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Fri,5-24,2024-05-24,written,0300,,68,68,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Fri,5-24,2024-05-24,written,0600,,69,69,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Fri,5-24,2024-05-24,written,0900,,68,68,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Fri,5-24,2024-05-24,written,1200,,68,68,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Fri,5-24,2024-05-24,written,1500,,69?,69,unsure,,single_read
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Fri,5-24,2024-05-24,written,1800,,66,66,clear,,single_read
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Fri,5-24,2024-05-24,written,2100,,65?,65,unsure,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Fri,5-24,2024-05-24,written,2400,,71,71,clear,,single_read
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Fri,5-24,2024-05-24,written,2400,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sat,5-25,2024-05-25,written,0300,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sat,5-25,2024-05-25,written,0600,,72,72,clear,,two_reads_agree
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sat,5-25,2024-05-25,written,0900,,69?,69,unsure,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sat,5-25,2024-05-25,written,1200,,68,68,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sat,5-25,2024-05-25,written,1500,,69?,69,unsure,,single_read
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sat,5-25,2024-05-25,written,0900,,69,69,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sat,5-25,2024-05-25,written,1200,,68,68,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sat,5-25,2024-05-25,written,1500,,69,69,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sat,5-25,2024-05-25,written,1800,,66,66,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sat,5-25,2024-05-25,written,2100,,69?,69,unsure,,single_read
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sat,5-25,2024-05-25,written,2100,,69,69,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sat,5-25,2024-05-25,written,2400,,70,70,clear,,two_reads_agree
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,0300,,70,70,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,0600,,70,70,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,0900,,70,70,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,1200,,69?,69,unsure,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,1500,,69,69,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,1800,,69?,69,unsure,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,2100,,69,69,clear,,single_read
-ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,2400,,69,69,clear,,single_read
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,0300,,70,70,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,0600,,70,70,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,0900,,70,70,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,1200,,69,69,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,1500,,69,69,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,1800,,69,69,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,2100,,69,69,clear,,two_reads_agree
+ASP_MSR_0524,96,ASP,OHU 390,cdcr_2031,Sun,5-26,2024-05-26,written,2400,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,97,ASP,110,cdcr_2031,Mon,5/20/24,2024-05-20,written,0300,,70.5,70.5,clear,,two_reads_agree
 ASP_MSR_0524,97,ASP,110,cdcr_2031,Mon,5/20/24,2024-05-20,written,0600,,70.3,70.3,clear,,two_reads_agree
 ASP_MSR_0524,97,ASP,110,cdcr_2031,Mon,5/20/24,2024-05-20,written,0900,,70.3,70.3,clear,,two_reads_agree
@@ -4057,14 +4057,14 @@ ASP_MSR_0524,99,ASP,130,cdcr_2031,Sun,5/26/24,2024-05-26,written,2400,,67,67,cle
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Mon,5/20/24,2024-05-20,written,0300,,74,74,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Mon,5/20/24,2024-05-20,written,0600,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Mon,5/20/24,2024-05-20,written,0900,,70?,70,unsure,,single_read
-ASP_MSR_0524,100,ASP,140,cdcr_2031,Mon,5/20/24,2024-05-20,written,1200,,73,73,clear,,single_read
+ASP_MSR_0524,100,ASP,140,cdcr_2031,Mon,5/20/24,2024-05-20,written,1200,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Mon,5/20/24,2024-05-20,written,1500,,75,75,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Mon,5/20/24,2024-05-20,written,1800,,75,75,clear,,two_reads_agree
-ASP_MSR_0524,100,ASP,140,cdcr_2031,Mon,5/20/24,2024-05-20,written,2100,,70,70,clear,,single_read
+ASP_MSR_0524,100,ASP,140,cdcr_2031,Mon,5/20/24,2024-05-20,written,2100,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Mon,5/20/24,2024-05-20,written,2400,,70,70,clear,,two_reads_agree
-ASP_MSR_0524,100,ASP,140,cdcr_2031,Tue,5-21-24,2024-05-21,written,0300,,72,72,clear,,single_read
+ASP_MSR_0524,100,ASP,140,cdcr_2031,Tue,5-21-24,2024-05-21,written,0300,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Tue,5-21-24,2024-05-21,written,0600,,74,74,clear,,two_reads_agree
-ASP_MSR_0524,100,ASP,140,cdcr_2031,Tue,5-21-24,2024-05-21,written,0900,,70,70,clear,,single_read
+ASP_MSR_0524,100,ASP,140,cdcr_2031,Tue,5-21-24,2024-05-21,written,0900,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Tue,5-21-24,2024-05-21,written,1200,,70,70,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Tue,5-21-24,2024-05-21,written,1500,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Tue,5-21-24,2024-05-21,written,1800,,71,71,clear,,two_reads_agree_after_doubt
@@ -4088,21 +4088,21 @@ ASP_MSR_0524,100,ASP,140,cdcr_2031,Thu,5-23-24,2024-05-23,written,2100,,72,72,cl
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Thu,5-23-24,2024-05-23,written,2400,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Fri,5-24-24,2024-05-24,written,0300,,74,74,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Fri,5-24-24,2024-05-24,written,0600,,73,73,clear,,two_reads_agree
-ASP_MSR_0524,100,ASP,140,cdcr_2031,Fri,5-24-24,2024-05-24,written,0900,,72,72,clear,,single_read
+ASP_MSR_0524,100,ASP,140,cdcr_2031,Fri,5-24-24,2024-05-24,written,0900,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Fri,5-24-24,2024-05-24,written,1200,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Fri,5-24-24,2024-05-24,written,1500,,71,71,clear,,single_read
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Fri,5-24-24,2024-05-24,written,1800,,71,71,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Fri,5-24-24,2024-05-24,written,2100,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Fri,5-24-24,2024-05-24,written,2400,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Sat,5-25-24,2024-05-25,written,0300,,74,74,clear,,two_reads_agree
-ASP_MSR_0524,100,ASP,140,cdcr_2031,Sat,5-25-24,2024-05-25,written,0600,,73,73,clear,,single_read
+ASP_MSR_0524,100,ASP,140,cdcr_2031,Sat,5-25-24,2024-05-25,written,0600,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Sat,5-25-24,2024-05-25,written,0900,,69,69,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Sat,5-25-24,2024-05-25,written,1200,,69,69,clear,,two_reads_agree
-ASP_MSR_0524,100,ASP,140,cdcr_2031,Sat,5-25-24,2024-05-25,written,1500,,68,68,clear,,single_read
-ASP_MSR_0524,100,ASP,140,cdcr_2031,Sat,5-25-24,2024-05-25,written,1800,,68,68,clear,,single_read
-ASP_MSR_0524,100,ASP,140,cdcr_2031,Sat,5-25-24,2024-05-25,written,2100,,68,68,clear,,single_read
+ASP_MSR_0524,100,ASP,140,cdcr_2031,Sat,5-25-24,2024-05-25,written,1500,,68,68,clear,,two_reads_agree
+ASP_MSR_0524,100,ASP,140,cdcr_2031,Sat,5-25-24,2024-05-25,written,1800,,68,68,clear,,two_reads_agree
+ASP_MSR_0524,100,ASP,140,cdcr_2031,Sat,5-25-24,2024-05-25,written,2100,,68,68,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Sat,5-25-24,2024-05-25,written,2400,,73,73,clear,,two_reads_agree
-ASP_MSR_0524,100,ASP,140,cdcr_2031,Sun,5-26-24,2024-05-26,written,0300,,77|72,77,ambiguous,72,single_read
+ASP_MSR_0524,100,ASP,140,cdcr_2031,Sun,5-26-24,2024-05-26,written,0300,,77|72,77,ambiguous,72,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Sun,5-26-24,2024-05-26,written,0600,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Sun,5-26-24,2024-05-26,written,0900,,68,68,clear,,single_read
 ASP_MSR_0524,100,ASP,140,cdcr_2031,Sun,5-26-24,2024-05-26,written,1200,,69,69,clear,,two_reads_agree
@@ -5181,28 +5181,28 @@ ASP_MSR_0524,120,ASP,650,cdcr_2031,Mon,5.20.24,2024-05-20,written,1200,,74?,74,u
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Mon,5.20.24,2024-05-20,written,1500,,76,76,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Mon,5.20.24,2024-05-20,written,1800,,76,76,clear,,two_reads_agree
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Mon,5.20.24,2024-05-20,written,2100,,76,76,clear,,two_reads_agree
-ASP_MSR_0524,120,ASP,650,cdcr_2031,Mon,5.20.24,2024-05-20,written,2400,,77?,77,unsure,,single_read
-ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,0300,,77?,77,unsure,,single_read
-ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,0600,,74,74,clear,,single_read
-ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,0900,,74,74,clear,,single_read
+ASP_MSR_0524,120,ASP,650,cdcr_2031,Mon,5.20.24,2024-05-20,written,2400,,77,77,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,0300,,77,77,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,0600,,74,74,clear,,two_reads_agree
+ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,0900,,74,74,clear,,two_reads_agree
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,1200,,76,76,clear,,single_read
-ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,1500,,78,78,clear,,single_read
-ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,1800,,78,78,clear,,single_read
-ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,2100,,78,78,clear,,single_read
+ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,1500,,78,78,clear,,two_reads_agree
+ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,1800,,78,78,clear,,two_reads_agree
+ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,2100,,78,78,clear,,two_reads_agree
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Tue,5/21/24,2024-05-21,written,2400,,76,76,clear,,two_reads_agree
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Wed,5/22/2024,2024-05-22,written,0300,,76,76,clear,,two_reads_agree
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Wed,5/22/2024,2024-05-22,written,0600,,74,74,clear,,two_reads_agree
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Wed,5/22/2024,2024-05-22,written,0900,,73,73,clear,,two_reads_agree
-ASP_MSR_0524,120,ASP,650,cdcr_2031,Wed,5/22/2024,2024-05-22,written,1200,,78?,78,unsure,,single_read
-ASP_MSR_0524,120,ASP,650,cdcr_2031,Wed,5/22/2024,2024-05-22,written,1500,,79?,79,unsure,,single_read
+ASP_MSR_0524,120,ASP,650,cdcr_2031,Wed,5/22/2024,2024-05-22,written,1200,,78,78,clear,,two_reads_agree_after_doubt
+ASP_MSR_0524,120,ASP,650,cdcr_2031,Wed,5/22/2024,2024-05-22,written,1500,,79,79,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Wed,5/22/2024,2024-05-22,written,1800,,78,78,clear,,two_reads_agree
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Wed,5/22/2024,2024-05-22,written,2100,,76?,76,unsure,,single_read
-ASP_MSR_0524,120,ASP,650,cdcr_2031,Wed,5/22/2024,2024-05-22,written,2400,,73,73,clear,,single_read
+ASP_MSR_0524,120,ASP,650,cdcr_2031,Wed,5/22/2024,2024-05-22,written,2400,,73,73,clear,,two_reads_agree
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Thu,5/22/24,2024-05-23,rule,0300,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Thu,5/22/24,2024-05-23,rule,0600,,72,72,clear,,two_reads_agree
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Thu,5/22/24,2024-05-23,rule,0900,,74,74,clear,,two_reads_agree
-ASP_MSR_0524,120,ASP,650,cdcr_2031,Thu,5/22/24,2024-05-23,rule,1200,,76,76,clear,,single_read
-ASP_MSR_0524,120,ASP,650,cdcr_2031,Thu,5/22/24,2024-05-23,rule,1500,,78?,78,unsure,,single_read
+ASP_MSR_0524,120,ASP,650,cdcr_2031,Thu,5/22/24,2024-05-23,rule,1200,,76,76,clear,,two_reads_agree
+ASP_MSR_0524,120,ASP,650,cdcr_2031,Thu,5/22/24,2024-05-23,rule,1500,,78,78,clear,,two_reads_agree_after_doubt
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Thu,5/22/24,2024-05-23,rule,1800,,76,76,clear,,two_reads_agree
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Thu,5/22/24,2024-05-23,rule,2100,,75?,75,unsure,,single_read
 ASP_MSR_0524,120,ASP,650,cdcr_2031,Thu,5/22/24,2024-05-23,rule,2400,,76,76,clear,,two_reads_agree
@@ -8526,14 +8526,14 @@ ASP_MSR_0624,55,ASP,110,cdcr_2031,Sat,6/15,2024-06-15,written,1500,,79.0,79.0,cl
 ASP_MSR_0624,55,ASP,110,cdcr_2031,Sat,6/15,2024-06-15,written,1800,,78.3,78.3,clear,,two_reads_agree
 ASP_MSR_0624,55,ASP,110,cdcr_2031,Sat,6/15,2024-06-15,written,2100,,78.9,78.9,clear,,adjudicated
 ASP_MSR_0624,55,ASP,110,cdcr_2031,Sat,6/15,2024-06-15,written,2400,,77.4,77.4,clear,,two_reads_agree
-ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,0300,,75.7,75.7,clear,,single_read
-ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,0600,,74.5,74.5,clear,,single_read
-ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,0900,,75.2,75.2,clear,,single_read
-ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,1200,,76.3,76.3,clear,,single_read
-ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,1500,,77.5,77.5,clear,,single_read
-ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,1800,,78,78,clear,,single_read
-ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,2100,,77.5,77.5,clear,,single_read
-ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,2400,,75.9,75.9,clear,,single_read
+ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,0300,,75.7,75.7,clear,,two_reads_agree
+ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,0600,,74.5,74.5,clear,,two_reads_agree
+ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,0900,,75.2,75.2,clear,,two_reads_agree
+ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,1200,,76.3,76.3,clear,,two_reads_agree
+ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,1500,,77.5,77.5,clear,,two_reads_agree
+ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,1800,,78,78,clear,,two_reads_agree
+ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,2100,,77.5,77.5,clear,,two_reads_agree
+ASP_MSR_0624,55,ASP,110,cdcr_2031,Sun,6/10,2024-06-16,rule,2400,,75.9,75.9,clear,,two_reads_agree
 ASP_MSR_0624,56,ASP,A 120,cdcr_2031,Mon,6/10/24,2024-06-10,written,0300,,80,80,clear,,two_reads_agree
 ASP_MSR_0624,56,ASP,A 120,cdcr_2031,Mon,6/10/24,2024-06-10,written,0600,,80,80,clear,,two_reads_agree
 ASP_MSR_0624,56,ASP,A 120,cdcr_2031,Mon,6/10/24,2024-06-10,written,0900,,82,82,clear,,two_reads_agree
@@ -8862,14 +8862,14 @@ ASP_MSR_0624,61,ASP,230,cdcr_2031,Sat,6/15,2024-06-15,written,1500,,77,77,clear,
 ASP_MSR_0624,61,ASP,230,cdcr_2031,Sat,6/15,2024-06-15,written,1800,,78,78,clear,,two_reads_agree
 ASP_MSR_0624,61,ASP,230,cdcr_2031,Sat,6/15,2024-06-15,written,2100,,77,77,clear,,two_reads_agree
 ASP_MSR_0624,61,ASP,230,cdcr_2031,Sat,6/15,2024-06-15,written,2400,,76,76,clear,,two_reads_agree
-ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,0300,,74,74,clear,,single_read
-ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,0600,,72,72,clear,,single_read
-ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,0900,,74,74,clear,,single_read
-ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,1200,,76,76,clear,,single_read
-ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,1500,,76,76,clear,,single_read
-ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,1800,,77,77,clear,,single_read
-ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,2100,,76,76,clear,,single_read
-ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,2400,,75,75,clear,,single_read
+ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,0300,,74,74,clear,,two_reads_agree
+ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,0600,,72,72,clear,,two_reads_agree
+ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,0900,,74,74,clear,,two_reads_agree
+ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,1200,,76,76,clear,,two_reads_agree
+ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,1500,,76,76,clear,,two_reads_agree
+ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,1800,,77,77,clear,,two_reads_agree
+ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,2100,,76,76,clear,,two_reads_agree
+ASP_MSR_0624,61,ASP,230,cdcr_2031,Sun,6/14,2024-06-16,rule,2400,,75,75,clear,,two_reads_agree
 ASP_MSR_0624,62,ASP,250,cdcr_2031,Mon,6/10/24,2024-06-10,written,0300,,78,78,clear,,two_reads_agree
 ASP_MSR_0624,62,ASP,250,cdcr_2031,Mon,6/10/24,2024-06-10,written,0600,,78,78,clear,,two_reads_agree
 ASP_MSR_0624,62,ASP,250,cdcr_2031,Mon,6/10/24,2024-06-10,written,0900,,78,78,clear,,two_reads_agree
@@ -13505,7 +13505,7 @@ ASP_MSR_0724,41,ASP,430,cdcr_2031,Sat,7/06,2024-07-06,written,0300,,84,84,clear,
 ASP_MSR_0724,41,ASP,430,cdcr_2031,Sat,7/06,2024-07-06,written,0600,,81,81,clear,,two_reads_agree
 ASP_MSR_0724,41,ASP,430,cdcr_2031,Sat,7/06,2024-07-06,written,0900,,x,,illegible,,
 ASP_MSR_0724,41,ASP,430,cdcr_2031,Sat,7/06,2024-07-06,written,1200,,83|85,83,ambiguous,85,adjudicated
-ASP_MSR_0724,41,ASP,430,cdcr_2031,Sat,7/06,2024-07-06,written,1500,,87?,87,unsure,,single_read
+ASP_MSR_0724,41,ASP,430,cdcr_2031,Sat,7/06,2024-07-06,written,1500,,87?,87,unsure,,two_reads_agree
 ASP_MSR_0724,41,ASP,430,cdcr_2031,Sat,7/06,2024-07-06,written,1800,,89|84,89,ambiguous,84,adjudicated
 ASP_MSR_0724,41,ASP,430,cdcr_2031,Sat,7/06,2024-07-06,written,2100,,x,,illegible,,
 ASP_MSR_0724,41,ASP,430,cdcr_2031,Sat,7/06,2024-07-06,written,2400,,89,89,clear,,two_reads_agree_after_doubt
@@ -17440,14 +17440,14 @@ ASP_MSR_0724,115,ASP,410,cdcr_2031,Mon,7/22/24,2024-07-22,written,1500,,89,89,cl
 ASP_MSR_0724,115,ASP,410,cdcr_2031,Mon,7/22/24,2024-07-22,written,1800,,91,91,clear,,two_reads_agree
 ASP_MSR_0724,115,ASP,410,cdcr_2031,Mon,7/22/24,2024-07-22,written,2100,,89,89,clear,,two_reads_agree
 ASP_MSR_0724,115,ASP,410,cdcr_2031,Mon,7/22/24,2024-07-22,written,2400,,88,88,clear,,two_reads_agree
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,0300,,86,86,clear,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,0600,,86,86,clear,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,0900,,87,87,clear,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,1200,,89,89,clear,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,1500,,90,90,clear,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,1800,,91,91,clear,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,2100,,90,90,clear,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,2400,,90,90,clear,,single_read
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,0300,,86,86,clear,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,0600,,86,86,clear,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,0900,,87,87,clear,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,1200,,89,89,clear,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,1500,,90,90,clear,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,1800,,91,91,clear,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,2100,,90,90,clear,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Tue,?,2024-07-23,calendar,2400,,90,90,clear,,two_reads_agree
 ASP_MSR_0724,115,ASP,410,cdcr_2031,Wed,7/24/24,2024-07-24,written,0300,,89,89,clear,,two_reads_agree
 ASP_MSR_0724,115,ASP,410,cdcr_2031,Wed,7/24/24,2024-07-24,written,0600,,88,88,clear,,two_reads_agree
 ASP_MSR_0724,115,ASP,410,cdcr_2031,Wed,7/24/24,2024-07-24,written,0900,,88,88,clear,,two_reads_agree
@@ -17480,14 +17480,14 @@ ASP_MSR_0724,115,ASP,410,cdcr_2031,Sat,7/27/24,2024-07-27,written,1500,,87,87,cl
 ASP_MSR_0724,115,ASP,410,cdcr_2031,Sat,7/27/24,2024-07-27,written,1800,,87,87,clear,,two_reads_agree
 ASP_MSR_0724,115,ASP,410,cdcr_2031,Sat,7/27/24,2024-07-27,written,2100,,86,86,clear,,two_reads_agree
 ASP_MSR_0724,115,ASP,410,cdcr_2031,Sat,7/27/24,2024-07-27,written,2400,,85,85,clear,,two_reads_agree
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,0300,,84,84,clear,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,0600,,82,82,clear,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,0900,,82,82,clear,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,1200,,84?,84,unsure,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,1500,,85,85,clear,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,1800,,86,86,clear,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,2100,,85,85,clear,,single_read
-ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,2400,,84,84,clear,,single_read
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,0300,,84,84,clear,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,0600,,82,82,clear,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,0900,,82,82,clear,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,1200,,84?,84,unsure,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,1500,,85,85,clear,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,1800,,86,86,clear,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,2100,,85,85,clear,,two_reads_agree
+ASP_MSR_0724,115,ASP,410,cdcr_2031,Sun,?,2024-07-28,calendar,2400,,84,84,clear,,two_reads_agree
 ASP_MSR_0724,116,ASP,430,cdcr_2031,Mon,7/22,2024-07-22,written,0300,,90,90,clear,,two_reads_agree
 ASP_MSR_0724,116,ASP,430,cdcr_2031,Mon,7/22,2024-07-22,written,0600,,88,88,clear,,two_reads_agree
 ASP_MSR_0724,116,ASP,430,cdcr_2031,Mon,7/22,2024-07-22,written,0900,,88,88,clear,,two_reads_agree
@@ -24044,8 +24044,8 @@ ASP_MSR_0924,31,ASP,330,cdcr_2031,Sun,9/1,2024-09-01,written,0300,,83,83,clear,,
 ASP_MSR_0924,31,ASP,330,cdcr_2031,Sun,9/1,2024-09-01,written,0600,,81,81,clear,,two_reads_agree
 ASP_MSR_0924,31,ASP,330,cdcr_2031,Sun,9/1,2024-09-01,written,0900,,81,81,clear,,researcher_review
 ASP_MSR_0924,31,ASP,330,cdcr_2031,Sun,9/1,2024-09-01,written,1200,,83,83,clear,,two_reads_agree
-ASP_MSR_0924,31,ASP,330,cdcr_2031,Sun,9/1,2024-09-01,written,1500,,81,81,clear,,single_read
-ASP_MSR_0924,31,ASP,330,cdcr_2031,Sun,9/1,2024-09-01,written,1800,,83?,83,unsure,,single_read
+ASP_MSR_0924,31,ASP,330,cdcr_2031,Sun,9/1,2024-09-01,written,1500,,81,81,clear,,two_reads_agree
+ASP_MSR_0924,31,ASP,330,cdcr_2031,Sun,9/1,2024-09-01,written,1800,,83,83,clear,,two_reads_agree_after_doubt
 ASP_MSR_0924,31,ASP,330,cdcr_2031,Sun,9/1,2024-09-01,written,2100,,90,90,clear,,researcher_review
 ASP_MSR_0924,31,ASP,330,cdcr_2031,Sun,9/1,2024-09-01,written,2400,,89|84,89,ambiguous,84,single_read
 ASP_MSR_0924,32,ASP,ASP 350 2ND TIER,cdcr_2031,Mon,8/26/24,2024-08-26,written,0300,,74,74,clear,,two_reads_agree
@@ -24492,7 +24492,7 @@ ASP_MSR_0924,45,ASP,120,cdcr_2031,Mon,9/2,2024-09-02,written,0300,,83,83,clear,,
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Mon,9/2,2024-09-02,written,0600,,83,83,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Mon,9/2,2024-09-02,written,0900,,83,83,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Mon,9/2,2024-09-02,written,1200,,83,83,clear,,two_reads_agree
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Mon,9/2,2024-09-02,written,1500,,85,85,clear,,single_read
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Mon,9/2,2024-09-02,written,1500,,85,85,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Mon,9/2,2024-09-02,written,1800,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Mon,9/2,2024-09-02,written,2100,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Mon,9/2,2024-09-02,written,2400,,84,84,clear,,two_reads_agree
@@ -24500,8 +24500,8 @@ ASP_MSR_0924,45,ASP,120,cdcr_2031,Tue,9/3,2024-09-03,written,0300,,81,81,clear,,
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Tue,9/3,2024-09-03,written,0600,,81,81,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Tue,9/3,2024-09-03,written,0900,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Tue,9/3,2024-09-03,written,1200,,83,83,clear,,two_reads_agree
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Tue,9/3,2024-09-03,written,1500,,85,85,clear,,single_read
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Tue,9/3,2024-09-03,written,1800,,86,86,clear,,single_read
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Tue,9/3,2024-09-03,written,1500,,85,85,clear,,two_reads_agree
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Tue,9/3,2024-09-03,written,1800,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Tue,9/3,2024-09-03,written,2100,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Tue,9/3,2024-09-03,written,2400,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Wed,9/4,2024-09-04,written,0300,,81,81,clear,,two_reads_agree
@@ -24515,35 +24515,35 @@ ASP_MSR_0924,45,ASP,120,cdcr_2031,Wed,9/4,2024-09-04,written,2400,,83,83,clear,,
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Thu,9/5,2024-09-05,written,0300,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Thu,9/5,2024-09-05,written,0600,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Thu,9/5,2024-09-05,written,0900,,86,86,clear,,two_reads_agree
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Thu,9/5,2024-09-05,written,1200,,88,88,clear,,single_read
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Thu,9/5,2024-09-05,written,1500,,88,88,clear,,single_read
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Thu,9/5,2024-09-05,written,1800,,88,88,clear,,single_read
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Thu,9/5,2024-09-05,written,2100,,88,88,clear,,single_read
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Thu,9/5,2024-09-05,written,1200,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Thu,9/5,2024-09-05,written,1500,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Thu,9/5,2024-09-05,written,1800,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Thu,9/5,2024-09-05,written,2100,,88,88,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Thu,9/5,2024-09-05,written,2400,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Fri,9/6,2024-09-06,written,0300,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Fri,9/6,2024-09-06,written,0600,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Fri,9/6,2024-09-06,written,0900,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Fri,9/6,2024-09-06,written,1200,,85,85,clear,,two_reads_agree
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Fri,9/6,2024-09-06,written,1500,,88,88,clear,,single_read
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Fri,9/6,2024-09-06,written,1500,,88,88,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Fri,9/6,2024-09-06,written,1800,,87,87,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Fri,9/6,2024-09-06,written,2100,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Fri,9/6,2024-09-06,written,2400,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Sat,9/7,2024-09-07,written,0300,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Sat,9/7,2024-09-07,written,0600,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Sat,9/7,2024-09-07,written,0900,,86,86,clear,,two_reads_agree
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Sat,9/7,2024-09-07,written,1200,,89,89,clear,,single_read
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Sat,9/7,2024-09-07,written,1500,,88,88,clear,,single_read
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Sat,9/7,2024-09-07,written,1800,,82?,82,unsure,,single_read
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Sat,9/7,2024-09-07,written,2100,,90,90,clear,,single_read
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Sat,9/7,2024-09-07,written,1200,,89,89,clear,,two_reads_agree
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Sat,9/7,2024-09-07,written,1500,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Sat,9/7,2024-09-07,written,1800,,82,82,clear,,two_reads_agree_after_doubt
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Sat,9/7,2024-09-07,written,2100,,90,90,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Sat,9/7,2024-09-07,written,2400,,87,87,clear,,two_reads_agree
 ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,0300,,87,87,clear,,two_reads_agree
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,0600,,88,88,clear,,single_read
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,0900,,89,89,clear,,single_read
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,1200,,90,90,clear,,single_read
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,1500,,91,91,clear,,single_read
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,1800,,91,91,clear,,single_read
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,2100,,90,90,clear,,single_read
-ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,2400,,89,89,clear,,single_read
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,0600,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,0900,,89,89,clear,,two_reads_agree
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,1200,,90,90,clear,,two_reads_agree
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,1500,,91,91,clear,,two_reads_agree
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,1800,,91,91,clear,,two_reads_agree
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,2100,,90,90,clear,,two_reads_agree
+ASP_MSR_0924,45,ASP,120,cdcr_2031,Sun,9/8,2024-09-08,written,2400,,89,89,clear,,two_reads_agree
 ASP_MSR_0924,46,ASP,130,cdcr_2031,Mon,9/2/24,2024-09-02,written,0300,,73,73,clear,,two_reads_agree
 ASP_MSR_0924,46,ASP,130,cdcr_2031,Mon,9/2/24,2024-09-02,written,0600,,73,73,clear,,two_reads_agree
 ASP_MSR_0924,46,ASP,130,cdcr_2031,Mon,9/2/24,2024-09-02,written,0900,,74,74,clear,,two_reads_agree
@@ -24600,18 +24600,18 @@ ASP_MSR_0924,46,ASP,130,cdcr_2031,Sun,9/8/24,2024-09-08,written,1500,,79,79,clea
 ASP_MSR_0924,46,ASP,130,cdcr_2031,Sun,9/8/24,2024-09-08,written,1800,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,46,ASP,130,cdcr_2031,Sun,9/8/24,2024-09-08,written,2100,,78,78,clear,,two_reads_agree
 ASP_MSR_0924,46,ASP,130,cdcr_2031,Sun,9/8/24,2024-09-08,written,2400,,76,76,clear,,two_reads_agree
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Mon,9/2/24,2024-09-02,written,0300,,78?,78,unsure,,single_read
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Mon,9/2/24,2024-09-02,written,0600,,78,78,clear,,single_read
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Mon,9/2/24,2024-09-02,written,0300,,78,78,clear,,two_reads_agree_after_doubt
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Mon,9/2/24,2024-09-02,written,0600,,78,78,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Mon,9/2/24,2024-09-02,written,0900,,78?,78,unsure,,single_read
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Mon,9/2/24,2024-09-02,written,1200,,79,79,clear,,single_read
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Mon,9/2/24,2024-09-02,written,1200,,79,79,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Mon,9/2/24,2024-09-02,written,1500,,79,79,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Mon,9/2/24,2024-09-02,written,1800,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Mon,9/2/24,2024-09-02,written,2100,,79,79,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Mon,9/2/24,2024-09-02,written,2400,,78,78,clear,,single_read
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Tue,9/3/24,2024-09-03,written,0300,,76,76,clear,,single_read
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Tue,9/3/24,2024-09-03,written,0600,,74,74,clear,,single_read
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Tue,9/3/24,2024-09-03,written,0900,,76?,76,unsure,,single_read
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Tue,9/3/24,2024-09-03,written,1200,,78?,78,unsure,,single_read
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Tue,9/3/24,2024-09-03,written,0300,,76,76,clear,,two_reads_agree
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Tue,9/3/24,2024-09-03,written,0600,,74,74,clear,,two_reads_agree
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Tue,9/3/24,2024-09-03,written,0900,,76,76,clear,,two_reads_agree_after_doubt
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Tue,9/3/24,2024-09-03,written,1200,,78?,78,unsure,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Tue,9/3/24,2024-09-03,written,1500,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Tue,9/3/24,2024-09-03,written,1800,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Tue,9/3/24,2024-09-03,written,2100,,80,80,clear,,two_reads_agree
@@ -24623,20 +24623,20 @@ ASP_MSR_0924,47,ASP,140,cdcr_2031,Wed,9/4/24,2024-09-04,written,1200,,80,80,clea
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Wed,9/4/24,2024-09-04,written,1500,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Wed,9/4/24,2024-09-04,written,1800,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Wed,9/4/24,2024-09-04,written,2100,,80,80,clear,,two_reads_agree
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Wed,9/4/24,2024-09-04,written,2400,,80,80,clear,,single_read
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Wed,9/4/24,2024-09-04,written,2400,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Thu,9/5/24,2024-09-05,written,0300,,79,79,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Thu,9/5/24,2024-09-05,written,0600,,77,77,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Thu,9/5/24,2024-09-05,written,0900,,79,79,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Thu,9/5/24,2024-09-05,written,1200,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Thu,9/5/24,2024-09-05,written,1500,,81,81,clear,,two_reads_agree
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Thu,9/5/24,2024-09-05,written,1800,,84,84,clear,,single_read
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Thu,9/5/24,2024-09-05,written,2100,,82,82,clear,,single_read
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Thu,9/5/24,2024-09-05,written,1800,,84,84,clear,,two_reads_agree
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Thu,9/5/24,2024-09-05,written,2100,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Thu,9/5/24,2024-09-05,written,2400,,80,80,clear,,two_reads_agree
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Fri,9/6/24,2024-09-06,written,0300,,80?,80,unsure,,single_read
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Fri,9/6/24,2024-09-06,written,0300,,80?,80,unsure,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Fri,9/6/24,2024-09-06,written,0600,,77,77,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Fri,9/6/24,2024-09-06,written,0900,,80?,80,unsure,,single_read
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Fri,9/6/24,2024-09-06,written,1200,,81,81,clear,,two_reads_agree
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Fri,9/6/24,2024-09-06,written,1500,,83,83,clear,,single_read
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Fri,9/6/24,2024-09-06,written,1500,,83,83,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Fri,9/6/24,2024-09-06,written,1800,,83,83,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Fri,9/6/24,2024-09-06,written,2100,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Fri,9/6/24,2024-09-06,written,2400,,80,80,clear,,two_reads_agree
@@ -24654,8 +24654,8 @@ ASP_MSR_0924,47,ASP,140,cdcr_2031,Sun,9/8/24,2024-09-08,written,0900,,79,79,clea
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Sun,9/8/24,2024-09-08,written,1200,,82?,82,unsure,,single_read
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Sun,9/8/24,2024-09-08,written,1500,,83,83,clear,,single_read
 ASP_MSR_0924,47,ASP,140,cdcr_2031,Sun,9/8/24,2024-09-08,written,1800,,82?,82,unsure,,single_read
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Sun,9/8/24,2024-09-08,written,2100,,82?,82,unsure,,single_read
-ASP_MSR_0924,47,ASP,140,cdcr_2031,Sun,9/8/24,2024-09-08,written,2400,,81?,81,unsure,,single_read
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Sun,9/8/24,2024-09-08,written,2100,,82,82,clear,,two_reads_agree_after_doubt
+ASP_MSR_0924,47,ASP,140,cdcr_2031,Sun,9/8/24,2024-09-08,written,2400,,81?,81,unsure,,two_reads_agree
 ASP_MSR_0924,48,ASP,210,cdcr_2031,Mon,9/2,2024-09-02,written,0300,,78,78,clear,,two_reads_agree
 ASP_MSR_0924,48,ASP,210,cdcr_2031,Mon,9/2,2024-09-02,written,0600,,76,76,clear,,two_reads_agree
 ASP_MSR_0924,48,ASP,210,cdcr_2031,Mon,9/2,2024-09-02,written,0900,,76?,76,unsure,,dispute_decided
@@ -24995,65 +24995,65 @@ ASP_MSR_0924,53,ASP,350,cdcr_2031,Sun,9/8/24,2024-09-08,written,2400,,83,83,clea
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Mon,9/2/24,2024-09-02,written,0300,,85,85,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Mon,9/2/24,2024-09-02,written,0600,,85,85,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Mon,9/2/24,2024-09-02,written,0900,,84,84,clear,,two_reads_agree
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Mon,9/2/24,2024-09-02,written,1200,,85,85,clear,,single_read
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Mon,9/2/24,2024-09-02,written,1200,,85,85,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Mon,9/2/24,2024-09-02,written,1500,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Mon,9/2/24,2024-09-02,written,1800,,87,87,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Mon,9/2/24,2024-09-02,written,2100,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Mon,9/2/24,2024-09-02,written,2400,,85,85,clear,,two_reads_agree
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,0300,,84,84,clear,,single_read
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,0300,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,0600,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,0900,,85,85,clear,,two_reads_agree
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,1200,,85,85,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,1500,,86,86,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,1800,,87,87,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,2100,,86,86,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,2400,,85,85,clear,,single_read
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,1200,,85,85,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,1500,,86,86,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,1800,,87,87,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,2100,,86,86,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Tue,9/5/24,2024-09-03,rule,2400,,85,85,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Wed,9/4/24,2024-09-04,written,0300,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Wed,9/4/24,2024-09-04,written,0600,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Wed,9/4/24,2024-09-04,written,0900,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Wed,9/4/24,2024-09-04,written,1200,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Wed,9/4/24,2024-09-04,written,1500,,87,87,clear,,two_reads_agree
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Wed,9/4/24,2024-09-04,written,1800,,88|86,88,ambiguous,86,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Wed,9/4/24,2024-09-04,written,2100,,87?,87,unsure,,single_read
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Wed,9/4/24,2024-09-04,written,1800,,88|86,88,ambiguous,86,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Wed,9/4/24,2024-09-04,written,2100,,87,87,clear,,two_reads_agree_after_doubt
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Wed,9/4/24,2024-09-04,written,2400,,86,86,clear,,two_reads_agree
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,0300,,85,85,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,0600,,84,84,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,0900,,85,85,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,1200,,86,86,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,1500,,87?,87,unsure,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,1800,,88,88,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,2100,,88,88,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,2400,,86,86,clear,,single_read
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,0300,,85,85,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,0600,,84,84,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,0900,,85,85,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,1200,,86,86,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,1500,,87,87,clear,,two_reads_agree_after_doubt
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,1800,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,2100,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Thu,9/5/24,2024-09-05,written,2400,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Fri,9/6/24,2024-09-06,written,0300,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Fri,9/6/24,2024-09-06,written,0600,,85,85,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Fri,9/6/24,2024-09-06,written,0900,,85,85,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Fri,9/6/24,2024-09-06,written,1200,,86,86,clear,,two_reads_agree
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Fri,9/6/24,2024-09-06,written,1500,,88,88,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Fri,9/6/24,2024-09-06,written,1800,,88,88,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Fri,9/6/24,2024-09-06,written,2100,,88,88,clear,,single_read
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Fri,9/6/24,2024-09-06,written,1500,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Fri,9/6/24,2024-09-06,written,1800,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Fri,9/6/24,2024-09-06,written,2100,,88,88,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Fri,9/6/24,2024-09-06,written,2400,,87,87,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Sat,9/7/24,2024-09-07,written,0300,,87,87,clear,,two_reads_agree_after_doubt
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Sat,9/7/24,2024-09-07,written,0600,,85,85,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Sat,9/7/24,2024-09-07,written,0900,,85,85,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Sat,9/7/24,2024-09-07,written,1200,,87,87,clear,,two_reads_agree
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Sat,9/7/24,2024-09-07,written,1500,,88,88,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Sat,9/7/24,2024-09-07,written,1800,,89,89,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Sat,9/7/24,2024-09-07,written,2100,,88,88,clear,,single_read
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Sat,9/7/24,2024-09-07,written,1500,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Sat,9/7/24,2024-09-07,written,1800,,89,89,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Sat,9/7/24,2024-09-07,written,2100,,88,88,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Sat,9/7/24,2024-09-07,written,2400,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Sun,?,2024-09-08,calendar,0300,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Sun,?,2024-09-08,calendar,0600,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Sun,?,2024-09-08,calendar,0900,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Sun,?,2024-09-08,calendar,1200,,87,87,clear,,two_reads_agree
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Sun,?,2024-09-08,calendar,1500,,88,88,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Sun,?,2024-09-08,calendar,1800,,89,89,clear,,single_read
-ASP_MSR_0924,54,ASP,410,cdcr_2031,Sun,?,2024-09-08,calendar,2100,,88,88,clear,,single_read
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Sun,?,2024-09-08,calendar,1500,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Sun,?,2024-09-08,calendar,1800,,89,89,clear,,two_reads_agree
+ASP_MSR_0924,54,ASP,410,cdcr_2031,Sun,?,2024-09-08,calendar,2100,,88,88,clear,,two_reads_agree
 ASP_MSR_0924,54,ASP,410,cdcr_2031,Sun,?,2024-09-08,calendar,2400,,87,87,clear,,two_reads_agree_after_doubt
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Mon,9/02/24,2024-09-02,written,0300,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Mon,9/02/24,2024-09-02,written,0600,,84?,84,unsure,,single_read
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Mon,9/02/24,2024-09-02,written,0900,,85,85,clear,,two_reads_agree_after_doubt
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Mon,9/02/24,2024-09-02,written,1200,,85?,85,unsure,,single_read
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Mon,9/02/24,2024-09-02,written,1200,,85,85,clear,,two_reads_agree_after_doubt
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Mon,9/02/24,2024-09-02,written,1500,,88,88,ambiguous,87,single_read
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Mon,9/02/24,2024-09-02,written,1800,,88,88,clear,,single_read
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Mon,9/02/24,2024-09-02,written,1800,,88,88,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Mon,9/02/24,2024-09-02,written,2100,,87,87,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Mon,9/02/24,2024-09-02,written,2400,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Tue,?,2024-09-03,calendar,0300,,80,80,clear,,two_reads_agree
@@ -25068,42 +25068,42 @@ ASP_MSR_0924,55,ASP,430,cdcr_2031,Wed,9/4/24,2024-09-04,written,0300,,82,82,clea
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Wed,9/4/24,2024-09-04,written,0600,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Wed,9/4/24,2024-09-04,written,0900,,83,83,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Wed,9/4/24,2024-09-04,written,1200,,86,86,clear,,two_reads_agree
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Wed,9/4/24,2024-09-04,written,1500,,88,88,clear,,single_read
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Wed,9/4/24,2024-09-04,written,1800,,90,90,clear,,single_read
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Wed,9/4/24,2024-09-04,written,2100,,90,90,clear,,single_read
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Wed,9/4/24,2024-09-04,written,1500,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Wed,9/4/24,2024-09-04,written,1800,,90,90,clear,,two_reads_agree
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Wed,9/4/24,2024-09-04,written,2100,,90,90,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Wed,9/4/24,2024-09-04,written,2400,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Thu,9/5/24,2024-09-05,written,0300,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Thu,9/5/24,2024-09-05,written,0600,,82,82,clear,,single_read
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Thu,9/5/24,2024-09-05,written,0900,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Thu,9/5/24,2024-09-05,written,1200,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Thu,9/5/24,2024-09-05,written,1500,,86,86,clear,,two_reads_agree
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Thu,9/5/24,2024-09-05,written,1800,,89,89,clear,,single_read
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Thu,9/5/24,2024-09-05,written,1800,,89,89,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Thu,9/5/24,2024-09-05,written,2100,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Thu,9/5/24,2024-09-05,written,2400,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Fri,9/6/24,2024-09-06,written,0300,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Fri,9/6/24,2024-09-06,written,0600,,85,85,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Fri,9/6/24,2024-09-06,written,0900,,86,86,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Fri,9/6/24,2024-09-06,written,1200,,87,87,clear,,two_reads_agree
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Fri,9/6/24,2024-09-06,written,1500,,88,88,clear,,single_read
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Fri,9/6/24,2024-09-06,written,1800,,88,88,clear,,single_read
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Fri,9/6/24,2024-09-06,written,1500,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Fri,9/6/24,2024-09-06,written,1800,,88,88,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Fri,9/6/24,2024-09-06,written,2100,,87,87,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Fri,9/6/24,2024-09-06,written,2400,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Sat,9/7/24,2024-09-07,written,0300,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Sat,9/7/24,2024-09-07,written,0600,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Sat,9/7/24,2024-09-07,written,0900,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Sat,9/7/24,2024-09-07,written,1200,,86,86,clear,,two_reads_agree
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Sat,9/7/24,2024-09-07,written,1500,,88,88,clear,,single_read
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Sat,9/7/24,2024-09-07,written,1800,,89,89,clear,,single_read
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Sat,9/7/24,2024-09-07,written,1500,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Sat,9/7/24,2024-09-07,written,1800,,89,89,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Sat,9/7/24,2024-09-07,written,2100,,85|86,85,ambiguous,86,adjudicated
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Sat,9/7/24,2024-09-07,written,2400,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Sun,9/8/24,2024-09-08,written,0300,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Sun,9/8/24,2024-09-08,written,0600,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,55,ASP,430,cdcr_2031,Sun,9/8/24,2024-09-08,written,0900,,86,86,clear,,two_reads_agree
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Sun,9/8/24,2024-09-08,written,1200,,88,88,clear,,single_read
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Sun,9/8/24,2024-09-08,written,1500,,88,88,clear,,single_read
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Sun,9/8/24,2024-09-08,written,1800,,89,89,clear,,single_read
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Sun,9/8/24,2024-09-08,written,2100,,88,88,clear,,single_read
-ASP_MSR_0924,55,ASP,430,cdcr_2031,Sun,9/8/24,2024-09-08,written,2400,,88,88,clear,,single_read
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Sun,9/8/24,2024-09-08,written,1200,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Sun,9/8/24,2024-09-08,written,1500,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Sun,9/8/24,2024-09-08,written,1800,,89,89,clear,,two_reads_agree
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Sun,9/8/24,2024-09-08,written,2100,,88,88,clear,,two_reads_agree
+ASP_MSR_0924,55,ASP,430,cdcr_2031,Sun,9/8/24,2024-09-08,written,2400,,88,88,clear,,two_reads_agree
 ASP_MSR_0924,56,ASP,450,cdcr_2031,Mon,9/02,2024-09-02,written,0300,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,56,ASP,450,cdcr_2031,Mon,9/02,2024-09-02,written,0600,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,56,ASP,450,cdcr_2031,Mon,9/02,2024-09-02,written,0900,,83,83,clear,,two_reads_agree
@@ -25776,62 +25776,62 @@ ASP_MSR_0924,67,ASP,130,cdcr_2031,Sun,9/15,2024-09-15,written,1500,,72,72,clear,
 ASP_MSR_0924,67,ASP,130,cdcr_2031,Sun,9/15,2024-09-15,written,1800,,73,73,clear,,two_reads_agree
 ASP_MSR_0924,67,ASP,130,cdcr_2031,Sun,9/15,2024-09-15,written,2100,,69,69,clear,,two_reads_agree
 ASP_MSR_0924,67,ASP,130,cdcr_2031,Sun,9/15,2024-09-15,written,2400,,69,69,clear,,two_reads_agree
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,0300,,79,79,clear,,single_read
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,0300,,79,79,clear,,two_reads_agree
 ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,0600,,79|78,79,ambiguous,78,adjudicated
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,0900,,79,79,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,1200,,83,83,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,1500,,82,82,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,1800,,82,82,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,2100,,82,82,clear,,single_read
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,0900,,79,79,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,1200,,83,83,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,1500,,82,82,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,1800,,82,82,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,2100,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,68,ASP,140,cdcr_2031,Mon,9/9/24,2024-09-09,written,2400,,81,81,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,0300,,80,80,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,0600,,81?,81,unsure,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,0900,,78,78,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,1200,,80,80,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,1500,,82,82,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,1800,,82,82,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,2100,,80,80,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,2400,,79,79,clear,,single_read
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,0300,,80,80,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,0600,,81,81,clear,,two_reads_agree_after_doubt
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,0900,,78,78,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,1200,,80,80,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,1500,,82,82,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,1800,,82,82,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,2100,,80,80,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Tue,9/10/24,2024-09-10,written,2400,,79,79,clear,,two_reads_agree
 ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,0300,,78?,78,unsure,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,0600,,73,73,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,0900,,73,73,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,1200,,79,79,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,1500,,80,80,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,1800,,80,80,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,2100,,78,78,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,2400,,78,78,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,0300,,77,77,clear,,single_read
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,0600,,73,73,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,0900,,73,73,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,1200,,79,79,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,1500,,80,80,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,1800,,80,80,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,2100,,78,78,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Wed,9/11/24,2024-09-11,written,2400,,78,78,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,0300,,77,77,clear,,two_reads_agree
 ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,0600,,73,73,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,0900,,73,73,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,1200,,75,75,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,1500,,77,77,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,1800,,76,76,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,2100,,76,76,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,2400,,78,78,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,0300,,77,77,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,0600,,71,71,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,0900,,72?,72,unsure,,single_read
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,0900,,73,73,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,1200,,75,75,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,1500,,77,77,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,1800,,76,76,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,2100,,76,76,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Thu,9/12/24,2024-09-12,written,2400,,78,78,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,0300,,77,77,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,0600,,71,71,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,0900,,72,72,clear,,two_reads_agree_after_doubt
 ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,1200,,76?,76,unsure,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,1500,,78,78,clear,,single_read
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,1500,,78,78,clear,,two_reads_agree
 ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,1800,,81,81,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,2100,,80,80,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,2400,,73,73,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,0300,,72,72,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,0600,,71,71,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,0900,,73,73,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,1200,,76,76,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,1500,,80,80,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,1800,,79,79,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,2100,,79,79,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,2400,,74,74,clear,,single_read
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,2100,,80,80,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Fri,9/13/24,2024-09-13,written,2400,,73,73,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,0300,,72,72,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,0600,,71,71,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,0900,,73,73,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,1200,,76,76,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,1500,,80,80,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,1800,,79,79,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,2100,,79,79,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sat,9/14/24,2024-09-14,written,2400,,74,74,clear,,two_reads_agree
 ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,0300,,70?,70,unsure,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,0600,,71,71,clear,,single_read
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,0600,,71,71,clear,,two_reads_agree
 ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,0900,,72|73,72,ambiguous,73,adjudicated
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,1200,,75,75,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,1500,,80?,80,unsure,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,1800,,79,79,clear,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,2100,,78?,78,unsure,,single_read
-ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,2400,,79,79,clear,,single_read
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,1200,,75,75,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,1500,,80,80,clear,,two_reads_agree_after_doubt
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,1800,,79,79,clear,,two_reads_agree
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,2100,,78,78,clear,,two_reads_agree_after_doubt
+ASP_MSR_0924,68,ASP,140,cdcr_2031,Sun,9/15/24,2024-09-15,written,2400,,79,79,clear,,two_reads_agree
 ASP_MSR_0924,69,ASP,210,cdcr_2031,Mon,9/9,2024-09-09,written,0300,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,69,ASP,210,cdcr_2031,Mon,9/9,2024-09-09,written,0600,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,69,ASP,210,cdcr_2031,Mon,9/9,2024-09-09,written,0900,,81?,81,unsure,,dispute_decided
@@ -26953,60 +26953,60 @@ ASP_MSR_0924,88,ASP,130,cdcr_2031,Sun,9/22/24,2024-09-22,written,1800,,76,76,cle
 ASP_MSR_0924,88,ASP,130,cdcr_2031,Sun,9/22/24,2024-09-22,written,2100,,74,74,clear,,two_reads_agree
 ASP_MSR_0924,88,ASP,130,cdcr_2031,Sun,9/22/24,2024-09-22,written,2400,,74,74,clear,,two_reads_agree
 ASP_MSR_0924,89,ASP,140,cdcr_2031,Mon,9/16/2024,2024-09-16,written,0300,,70|78,70,ambiguous,78,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Mon,9/16/2024,2024-09-16,written,0600,,70?,70,unsure,,single_read
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Mon,9/16/2024,2024-09-16,written,0600,,70,70,clear,,two_reads_agree_after_doubt
 ASP_MSR_0924,89,ASP,140,cdcr_2031,Mon,9/16/2024,2024-09-16,written,0900,,70?,70,unsure,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Mon,9/16/2024,2024-09-16,written,1200,,71,71,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Mon,9/16/2024,2024-09-16,written,1500,,71,71,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Mon,9/16/2024,2024-09-16,written,1800,,71,71,clear,,single_read
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Mon,9/16/2024,2024-09-16,written,1200,,71,71,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Mon,9/16/2024,2024-09-16,written,1500,,71,71,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Mon,9/16/2024,2024-09-16,written,1800,,71,71,clear,,two_reads_agree
 ASP_MSR_0924,89,ASP,140,cdcr_2031,Mon,9/16/2024,2024-09-16,written,2100,,70?,70,unsure,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Mon,9/16/2024,2024-09-16,written,2400,,70,70,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Tue,9/17/24,2024-09-17,written,0300,,70?,70,unsure,,single_read
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Mon,9/16/2024,2024-09-16,written,2400,,70,70,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Tue,9/17/24,2024-09-17,written,0300,,70,70,clear,,two_reads_agree_after_doubt
 ASP_MSR_0924,89,ASP,140,cdcr_2031,Tue,9/17/24,2024-09-17,written,0600,,72,72,clear,,single_read
 ASP_MSR_0924,89,ASP,140,cdcr_2031,Tue,9/17/24,2024-09-17,written,0900,,68?,68,unsure,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Tue,9/17/24,2024-09-17,written,1200,,69,69,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Tue,9/17/24,2024-09-17,written,1500,,72,72,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Tue,9/17/24,2024-09-17,written,1800,,72,72,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Tue,9/17/24,2024-09-17,written,2100,,70,70,clear,,single_read
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Tue,9/17/24,2024-09-17,written,1200,,69,69,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Tue,9/17/24,2024-09-17,written,1500,,72,72,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Tue,9/17/24,2024-09-17,written,1800,,72,72,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Tue,9/17/24,2024-09-17,written,2100,,70,70,clear,,two_reads_agree
 ASP_MSR_0924,89,ASP,140,cdcr_2031,Tue,9/17/24,2024-09-17,written,2400,,67?,67,unsure,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,0300,,68,68,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,0600,,68,68,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,0900,,69,69,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,1200,,71,71,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,1500,,73,73,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,1800,,73,73,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,2100,,72,72,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,2400,,72,72,clear,,single_read
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,0300,,68,68,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,0600,,68,68,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,0900,,69,69,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,1200,,71,71,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,1500,,73,73,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,1800,,73,73,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,2100,,72,72,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Wed,9/18/24,2024-09-18,written,2400,,72,72,clear,,two_reads_agree
 ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,0300,,71,71,clear,,two_reads_agree
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,0600,,69,69,clear,,single_read
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,0600,,69,69,clear,,two_reads_agree
 ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,0900,,70,70,clear,,two_reads_agree
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,1200,,72,72,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,1500,,72,72,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,1800,,74,74,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,2100,,72,72,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,2400,,78?,78,unsure,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,0300,,71,71,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,0600,,69,69,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,0900,,69,69,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,1200,,73,73,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,1500,,74,74,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,1800,,74,74,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,2100,,72,72,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,2400,,70,70,clear,,single_read
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,1200,,72,72,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,1500,,72,72,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,1800,,74,74,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,2100,,72,72,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Thu,9/19/24,2024-09-19,written,2400,,78,78,clear,,two_reads_agree_after_doubt
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,0300,,71,71,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,0600,,69,69,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,0900,,69,69,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,1200,,73,73,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,1500,,74,74,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,1800,,74,74,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,2100,,72,72,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Fri,9/20/24,2024-09-20,written,2400,,70,70,clear,,two_reads_agree
 ASP_MSR_0924,89,ASP,140,cdcr_2031,Sat,9/21/24,2024-09-21,written,0300,,76?,76,unsure,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Sat,9/21/24,2024-09-21,written,0600,,71,71,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Sat,9/21/24,2024-09-21,written,0900,,72,72,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Sat,9/21/24,2024-09-21,written,1200,,72,72,clear,,single_read
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Sat,9/21/24,2024-09-21,written,0600,,71,71,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Sat,9/21/24,2024-09-21,written,0900,,72,72,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Sat,9/21/24,2024-09-21,written,1200,,72,72,clear,,two_reads_agree
 ASP_MSR_0924,89,ASP,140,cdcr_2031,Sat,9/21/24,2024-09-21,written,1500,,74,74,clear,,two_reads_agree
 ASP_MSR_0924,89,ASP,140,cdcr_2031,Sat,9/21/24,2024-09-21,written,1800,,75,75,clear,,two_reads_agree
 ASP_MSR_0924,89,ASP,140,cdcr_2031,Sat,9/21/24,2024-09-21,written,2100,,73,73,clear,,two_reads_agree
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Sat,9/21/24,2024-09-21,written,2400,,71,71,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,0300,,70,70,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,0600,,71,71,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,0900,,75,75,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,1200,,77,77,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,1500,,80,80,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,1800,,80,80,clear,,single_read
-ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,2100,,78?,78,unsure,,single_read
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Sat,9/21/24,2024-09-21,written,2400,,71,71,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,0300,,70,70,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,0600,,71,71,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,0900,,75,75,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,1200,,77,77,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,1500,,80,80,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,1800,,80,80,clear,,two_reads_agree
+ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,2100,,78,78,clear,,two_reads_agree_after_doubt
 ASP_MSR_0924,89,ASP,140,cdcr_2031,Sun,9/22/24,2024-09-22,written,2400,,76,76,clear,,adjudicated
 ASP_MSR_0924,90,ASP,210,cdcr_2031,Mon,9/16,2024-09-16,written,0300,,72,72,clear,,two_reads_agree
 ASP_MSR_0924,90,ASP,210,cdcr_2031,Mon,9/16,2024-09-16,written,0600,,71,71,clear,,two_reads_agree
@@ -28856,14 +28856,14 @@ ASP_MSR_0924,122,ASP,530,cdcr_2031,Sun,9/29/24,2024-09-29,written,1500,,79,79,cl
 ASP_MSR_0924,122,ASP,530,cdcr_2031,Sun,9/29/24,2024-09-29,written,1800,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,122,ASP,530,cdcr_2031,Sun,9/29/24,2024-09-29,written,2100,,78,78,clear,,two_reads_agree
 ASP_MSR_0924,122,ASP,530,cdcr_2031,Sun,9/29/24,2024-09-29,written,2400,,78,78,clear,,two_reads_agree
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,0300,,78,78,clear,,single_read
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,0600,,78,78,clear,,single_read
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,0900,,77,77,clear,,single_read
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,1200,,80,80,clear,,single_read
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,1500,,82,82,clear,,single_read
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,1800,,82,82,clear,,single_read
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,2100,,82,82,clear,,single_read
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,2400,,81,81,clear,,single_read
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,0300,,78,78,clear,,two_reads_agree
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,0600,,78,78,clear,,two_reads_agree
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,0900,,77,77,clear,,two_reads_agree
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,1200,,80,80,clear,,two_reads_agree
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,1500,,82,82,clear,,two_reads_agree
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,1800,,82,82,clear,,two_reads_agree
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,2100,,82,82,clear,,two_reads_agree
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Mon,9/23/24,2024-09-23,written,2400,,81,81,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Tue,9/24/24,2024-09-24,written,0300,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Tue,9/24/24,2024-09-24,written,0600,,79,79,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Tue,9/24/24,2024-09-24,written,0900,,80,80,clear,,two_reads_agree
@@ -28872,21 +28872,21 @@ ASP_MSR_0924,123,ASP,550,cdcr_2031,Tue,9/24/24,2024-09-24,written,1500,,83,83,cl
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Tue,9/24/24,2024-09-24,written,1800,,85,85,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Tue,9/24/24,2024-09-24,written,2100,,83,83,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Tue,9/24/24,2024-09-24,written,2400,,83,83,clear,,two_reads_agree
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,0300,,81,81,clear,,single_read
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,0600,,79,79,clear,,single_read
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,0300,,81,81,clear,,two_reads_agree
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,0600,,79,79,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,0900,,81,81,clear,,single_read
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,1200,,82,82,clear,,single_read
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,1200,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,1500,,85,85,clear,,researcher_review
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,1800,,84,84,clear,,single_read
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,2100,,84?,84,unsure,,single_read
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,2400,,80,80,clear,,single_read
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,1800,,84,84,clear,,two_reads_agree
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,2100,,84,84,clear,,two_reads_agree_after_doubt
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Wed,9/25/24,2024-09-25,written,2400,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Thu,9/26/24,2024-09-26,written,0300,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Thu,9/26/24,2024-09-26,written,0600,,78,78,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Thu,9/26/24,2024-09-26,written,0900,,78,78,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Thu,9/26/24,2024-09-26,written,1200,,80,80,clear,,two_reads_agree_after_doubt
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Thu,9/26/24,2024-09-26,written,1500,,82,82,clear,,single_read
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Thu,9/26/24,2024-09-26,written,1500,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Thu,9/26/24,2024-09-26,written,1800,,83,83,clear,,two_reads_agree
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Thu,9/26/24,2024-09-26,written,2100,,82?,82,unsure,,single_read
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Thu,9/26/24,2024-09-26,written,2100,,82,82,clear,,two_reads_agree_after_doubt
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Thu,9/26/24,2024-09-26,written,2400,,79,79,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Fri,9/27/24,2024-09-27,written,0300,,78,78,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Fri,9/27/24,2024-09-27,written,0600,,76,76,clear,,two_reads_agree
@@ -28910,7 +28910,7 @@ ASP_MSR_0924,123,ASP,550,cdcr_2031,Sun,9/29/24,2024-09-29,written,0900,,79,79,cl
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Sun,9/29/24,2024-09-29,written,1200,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Sun,9/29/24,2024-09-29,written,1500,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Sun,9/29/24,2024-09-29,written,1800,,81,81,clear,,two_reads_agree
-ASP_MSR_0924,123,ASP,550,cdcr_2031,Sun,9/29/24,2024-09-29,written,2100,,81,81,clear,,single_read
+ASP_MSR_0924,123,ASP,550,cdcr_2031,Sun,9/29/24,2024-09-29,written,2100,,81,81,clear,,two_reads_agree
 ASP_MSR_0924,123,ASP,550,cdcr_2031,Sun,9/29/24,2024-09-29,written,2400,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,124,ASP,ASP 610 2nd,cdcr_2031,Mon,9/23/24,2024-09-23,written,0300,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,124,ASP,ASP 610 2nd,cdcr_2031,Mon,9/23/24,2024-09-23,written,0600,,80,80,clear,,two_reads_agree
@@ -29208,13 +29208,13 @@ ASP_MSR_0924,130,ASP,130,cdcr_2031,Sun,10/6/24,2024-10-06,written,1500,,77,77,cl
 ASP_MSR_0924,130,ASP,130,cdcr_2031,Sun,10/6/24,2024-10-06,written,1800,,77,77,clear,,two_reads_agree
 ASP_MSR_0924,130,ASP,130,cdcr_2031,Sun,10/6/24,2024-10-06,written,2100,,76,76,clear,,two_reads_agree
 ASP_MSR_0924,130,ASP,130,cdcr_2031,Sun,10/6/24,2024-10-06,written,2400,,74,74,clear,,two_reads_agree
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Mon,9/30/24,2024-09-30,written,0300,,78?,78,unsure,,single_read
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Mon,9/30/24,2024-09-30,written,0300,,78,78,clear,,two_reads_agree_after_doubt
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Mon,9/30/24,2024-09-30,written,0600,,78|70,78,ambiguous,70,adjudicated
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Mon,9/30/24,2024-09-30,written,0900,,73,73,clear,,single_read
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Mon,9/30/24,2024-09-30,written,1200,,76,76,clear,,single_read
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Mon,9/30/24,2024-09-30,written,0900,,73,73,clear,,two_reads_agree
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Mon,9/30/24,2024-09-30,written,1200,,76,76,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Mon,9/30/24,2024-09-30,written,1500,,78,78,clear,,two_reads_agree_after_doubt
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Mon,9/30/24,2024-09-30,written,1800,,78,78,clear,,two_reads_agree_after_doubt
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Mon,9/30/24,2024-09-30,written,2100,,78?,78,unsure,,single_read
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Mon,9/30/24,2024-09-30,written,2100,,78,78,clear,,two_reads_agree_after_doubt
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Mon,9/30/24,2024-09-30,written,2400,,78?,78,unsure,,single_read
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Tue,10/01/24,2024-10-01,written,0300,,78,78,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Tue,10/01/24,2024-10-01,written,0600,,78?,78,unsure,,single_read
@@ -29228,8 +29228,8 @@ ASP_MSR_0924,131,ASP,140,cdcr_2031,Wed,10/02/24,2024-10-02,written,0300,,77,77,c
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Wed,10/02/24,2024-10-02,written,0600,,75,75,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Wed,10/02/24,2024-10-02,written,0900,,76,76,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Wed,10/02/24,2024-10-02,written,1200,,78,78,clear,,two_reads_agree
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Wed,10/02/24,2024-10-02,written,1500,,81,81,clear,,single_read
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Wed,10/02/24,2024-10-02,written,1800,,82,82,clear,,single_read
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Wed,10/02/24,2024-10-02,written,1500,,81,81,clear,,two_reads_agree
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Wed,10/02/24,2024-10-02,written,1800,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Wed,10/02/24,2024-10-02,written,2100,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Wed,10/02/24,2024-10-02,written,2400,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Thu,10/03/24,2024-10-03,written,0300,,79,79,clear,,two_reads_agree
@@ -29238,28 +29238,28 @@ ASP_MSR_0924,131,ASP,140,cdcr_2031,Thu,10/03/24,2024-10-03,written,0900,,78,78,c
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Thu,10/03/24,2024-10-03,written,1200,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Thu,10/03/24,2024-10-03,written,1500,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Thu,10/03/24,2024-10-03,written,1800,,81,81,clear,,single_read
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Thu,10/03/24,2024-10-03,written,2100,,80,80,clear,,single_read
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Thu,10/03/24,2024-10-03,written,2400,,80,80,clear,,single_read
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Thu,10/03/24,2024-10-03,written,2100,,80,80,clear,,two_reads_agree
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Thu,10/03/24,2024-10-03,written,2400,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Fri,10/04/24,2024-10-04,written,0300,,80,80,clear,,two_reads_agree
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Fri,10/04/24,2024-10-04,written,0600,,77,77,clear,,single_read
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Fri,10/04/24,2024-10-04,written,0600,,77,77,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Fri,10/04/24,2024-10-04,written,0900,,77?,77,unsure,,single_read
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Fri,10/04/24,2024-10-04,written,1200,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Fri,10/04/24,2024-10-04,written,1500,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Fri,10/04/24,2024-10-04,written,1800,,82?,82,unsure,,single_read
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Fri,10/04/24,2024-10-04,written,2100,,80?,80,unsure,,single_read
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Fri,10/04/24,2024-10-04,written,2400,,80,80,clear,,single_read
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Fri,10/04/24,2024-10-04,written,2100,,80,80,clear,,two_reads_agree_after_doubt
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Fri,10/04/24,2024-10-04,written,2400,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Sat,10/05/24,2024-10-05,written,0300,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Sat,10/05/24,2024-10-05,written,0600,,77,77,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Sat,10/05/24,2024-10-05,written,0900,,78,78,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Sat,10/05/24,2024-10-05,written,1200,,80,80,clear,,two_reads_agree
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Sat,10/05/24,2024-10-05,written,1500,,81,81,clear,,single_read
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Sat,10/05/24,2024-10-05,written,1800,,79,79,clear,,single_read
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Sat,10/05/24,2024-10-05,written,2100,,78,78,clear,,single_read
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Sat,10/05/24,2024-10-05,written,1500,,81,81,clear,,two_reads_agree
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Sat,10/05/24,2024-10-05,written,1800,,79,79,clear,,two_reads_agree
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Sat,10/05/24,2024-10-05,written,2100,,78,78,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Sat,10/05/24,2024-10-05,written,2400,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Sun,10/06/24,2024-10-06,written,0300,,80,80,clear,,two_reads_agree
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Sun,10/06/24,2024-10-06,written,0600,,77,77,clear,,single_read
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Sun,10/06/24,2024-10-06,written,0900,,77,77,clear,,single_read
-ASP_MSR_0924,131,ASP,140,cdcr_2031,Sun,10/06/24,2024-10-06,written,1200,,81,81,clear,,single_read
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Sun,10/06/24,2024-10-06,written,0600,,77,77,clear,,two_reads_agree
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Sun,10/06/24,2024-10-06,written,0900,,77,77,clear,,two_reads_agree
+ASP_MSR_0924,131,ASP,140,cdcr_2031,Sun,10/06/24,2024-10-06,written,1200,,81,81,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Sun,10/06/24,2024-10-06,written,1500,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Sun,10/06/24,2024-10-06,written,1800,,82,82,clear,,two_reads_agree
 ASP_MSR_0924,131,ASP,140,cdcr_2031,Sun,10/06/24,2024-10-06,written,2100,,80,80,clear,,two_reads_agree
@@ -29648,14 +29648,14 @@ ASP_MSR_0924,143,ASP,ASP / 530 / 2nd Tier,cdcr_2031,Sun,10/6/24,2024-10-06,writt
 ASP_MSR_0924,143,ASP,ASP / 530 / 2nd Tier,cdcr_2031,Sun,10/6/24,2024-10-06,written,1800,,84,84,clear,,two_reads_agree
 ASP_MSR_0924,143,ASP,ASP / 530 / 2nd Tier,cdcr_2031,Sun,10/6/24,2024-10-06,written,2100,,83?,83,unsure,,dispute_decided
 ASP_MSR_0924,143,ASP,ASP / 530 / 2nd Tier,cdcr_2031,Sun,10/6/24,2024-10-06,written,2400,,83,83,clear,,two_reads_agree
-ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,0300,,79,79,clear,,single_read
-ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,0600,,77,77,clear,,single_read
-ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,0900,,79,79,clear,,single_read
-ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,1200,,81,81,clear,,single_read
-ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,1500,,81,81,clear,,single_read
-ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,1800,,82,82,clear,,single_read
-ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,2100,,81,81,clear,,single_read
-ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,2400,,80,80,clear,,single_read
+ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,0300,,79,79,clear,,two_reads_agree
+ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,0600,,77,77,clear,,two_reads_agree
+ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,0900,,79,79,clear,,two_reads_agree
+ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,1200,,81,81,clear,,two_reads_agree
+ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,1500,,81,81,clear,,two_reads_agree
+ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,1800,,82,82,clear,,two_reads_agree
+ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,2100,,81,81,clear,,two_reads_agree
+ASP_MSR_0924,144,ASP,550,cdcr_2031,Mon,9/30/24,2024-09-30,written,2400,,80,80,clear,,two_reads_agree
 ASP_MSR_0924,145,ASP,610,cdcr_2031,Mon,9/30/24,2024-09-30,written,0300,,81,81,clear,,two_reads_agree
 ASP_MSR_0924,145,ASP,610,cdcr_2031,Mon,9/30/24,2024-09-30,written,0600,,81?,81,unsure,,dispute_decided
 ASP_MSR_0924,145,ASP,610,cdcr_2031,Mon,9/30/24,2024-09-30,written,0900,,81?,81,unsure,,dispute_decided
@@ -32104,14 +32104,14 @@ ASP_MSR_1024,47,ASP,110,cdcr_2031,Sun,10/20,2024-10-20,written,1500,,73,73,clear
 ASP_MSR_1024,47,ASP,110,cdcr_2031,Sun,10/20,2024-10-20,written,1800,,71,71,clear,,two_reads_agree
 ASP_MSR_1024,47,ASP,110,cdcr_2031,Sun,10/20,2024-10-20,written,2100,,70,70,clear,,two_reads_agree
 ASP_MSR_1024,47,ASP,110,cdcr_2031,Sun,10/20,2024-10-20,written,2400,,69,69,clear,,two_reads_agree
-ASP_MSR_1024,48,ASP,120,cdcr_2031,Mon,10-14-24,2024-10-14,written,0300,,78,78,clear,,single_read
+ASP_MSR_1024,48,ASP,120,cdcr_2031,Mon,10-14-24,2024-10-14,written,0300,,78,78,clear,,two_reads_agree
 ASP_MSR_1024,48,ASP,120,cdcr_2031,Mon,10-14-24,2024-10-14,written,0600,,79,79,clear,,two_reads_agree
 ASP_MSR_1024,48,ASP,120,cdcr_2031,Mon,10-14-24,2024-10-14,written,0900,,79,79,clear,,two_reads_agree
-ASP_MSR_1024,48,ASP,120,cdcr_2031,Mon,10-14-24,2024-10-14,written,1200,,79,79,clear,,single_read
+ASP_MSR_1024,48,ASP,120,cdcr_2031,Mon,10-14-24,2024-10-14,written,1200,,79,79,clear,,two_reads_agree
 ASP_MSR_1024,48,ASP,120,cdcr_2031,Mon,10-14-24,2024-10-14,written,1500,,80,80,clear,,two_reads_agree
-ASP_MSR_1024,48,ASP,120,cdcr_2031,Mon,10-14-24,2024-10-14,written,1800,,78,78,clear,,single_read
-ASP_MSR_1024,48,ASP,120,cdcr_2031,Mon,10-14-24,2024-10-14,written,2100,,78,78,clear,,single_read
-ASP_MSR_1024,48,ASP,120,cdcr_2031,Mon,10-14-24,2024-10-14,written,2400,,78,78,clear,,single_read
+ASP_MSR_1024,48,ASP,120,cdcr_2031,Mon,10-14-24,2024-10-14,written,1800,,78,78,clear,,two_reads_agree
+ASP_MSR_1024,48,ASP,120,cdcr_2031,Mon,10-14-24,2024-10-14,written,2100,,78,78,clear,,two_reads_agree
+ASP_MSR_1024,48,ASP,120,cdcr_2031,Mon,10-14-24,2024-10-14,written,2400,,78,78,clear,,two_reads_agree
 ASP_MSR_1024,48,ASP,120,cdcr_2031,Tue,10/15/24,2024-10-15,written,0300,,78,78,clear,,two_reads_agree
 ASP_MSR_1024,48,ASP,120,cdcr_2031,Tue,10/15/24,2024-10-15,written,0600,,79,79,clear,,two_reads_agree
 ASP_MSR_1024,48,ASP,120,cdcr_2031,Tue,10/15/24,2024-10-15,written,0900,,79,79,clear,,two_reads_agree
@@ -32120,14 +32120,14 @@ ASP_MSR_1024,48,ASP,120,cdcr_2031,Tue,10/15/24,2024-10-15,written,1500,,80,80,cl
 ASP_MSR_1024,48,ASP,120,cdcr_2031,Tue,10/15/24,2024-10-15,written,1800,,80,80,clear,,two_reads_agree
 ASP_MSR_1024,48,ASP,120,cdcr_2031,Tue,10/15/24,2024-10-15,written,2100,,80,80,clear,,two_reads_agree
 ASP_MSR_1024,48,ASP,120,cdcr_2031,Tue,10/15/24,2024-10-15,written,2400,,80,80,clear,,two_reads_agree
-ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,0300,,79,79,clear,,single_read
-ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,0600,,79,79,clear,,single_read
-ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,0900,,79,79,clear,,single_read
-ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,1200,,80,80,clear,,single_read
-ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,1500,,80,80,clear,,single_read
-ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,1800,,80,80,clear,,single_read
-ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,2100,,79,79,clear,,single_read
-ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,2400,,79,79,clear,,single_read
+ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,0300,,79,79,clear,,two_reads_agree
+ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,0600,,79,79,clear,,two_reads_agree
+ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,0900,,79,79,clear,,two_reads_agree
+ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,1200,,80,80,clear,,two_reads_agree
+ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,1500,,80,80,clear,,two_reads_agree
+ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,1800,,80,80,clear,,two_reads_agree
+ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,2100,,79,79,clear,,two_reads_agree
+ASP_MSR_1024,48,ASP,120,cdcr_2031,Wed,10/16/24,2024-10-16,written,2400,,79,79,clear,,two_reads_agree
 ASP_MSR_1024,48,ASP,120,cdcr_2031,Thu,10/17/24,2024-10-17,written,0300,,78,78,clear,,two_reads_agree
 ASP_MSR_1024,48,ASP,120,cdcr_2031,Thu,10/17/24,2024-10-17,written,0600,,78,78,clear,,two_reads_agree
 ASP_MSR_1024,48,ASP,120,cdcr_2031,Thu,10/17/24,2024-10-17,written,0900,,78,78,clear,,two_reads_agree
@@ -32249,7 +32249,7 @@ ASP_MSR_1024,50,ASP,140,cdcr_2031,Thu,10-17-24,2024-10-17,written,1800,,73,73,cl
 ASP_MSR_1024,50,ASP,140,cdcr_2031,Thu,10-17-24,2024-10-17,written,2100,,73,73,clear,,two_reads_agree
 ASP_MSR_1024,50,ASP,140,cdcr_2031,Thu,10-17-24,2024-10-17,written,2400,,69,69,clear,,two_reads_agree
 ASP_MSR_1024,50,ASP,140,cdcr_2031,Fri,10-18-24,2024-10-18,written,0300,,68,68,clear,,two_reads_agree
-ASP_MSR_1024,50,ASP,140,cdcr_2031,Fri,10-18-24,2024-10-18,written,0600,,76?,76,unsure,,single_read
+ASP_MSR_1024,50,ASP,140,cdcr_2031,Fri,10-18-24,2024-10-18,written,0600,,76,76,clear,,two_reads_agree_after_doubt
 ASP_MSR_1024,50,ASP,140,cdcr_2031,Fri,10-18-24,2024-10-18,written,0900,,70,70,clear,,two_reads_agree
 ASP_MSR_1024,50,ASP,140,cdcr_2031,Fri,10-18-24,2024-10-18,written,1200,,70,70,clear,,two_reads_agree
 ASP_MSR_1024,50,ASP,140,cdcr_2031,Fri,10-18-24,2024-10-18,written,1500,,70,70,clear,,two_reads_agree
@@ -33914,17 +33914,17 @@ ASP_MSR_1024,80,ASP,450,cdcr_2031,Tue,10/22/24,2024-10-22,written,2100,,72,72,cl
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Tue,10/22/24,2024-10-22,written,2400,,70,70,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Wed,10/23/24,2024-10-23,written,0300,,71,71,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Wed,10/23/24,2024-10-23,written,0600,,70,70,clear,,two_reads_agree
-ASP_MSR_1024,80,ASP,450,cdcr_2031,Wed,10/23/24,2024-10-23,written,0900,,72,72,clear,,single_read
+ASP_MSR_1024,80,ASP,450,cdcr_2031,Wed,10/23/24,2024-10-23,written,0900,,72,72,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Wed,10/23/24,2024-10-23,written,1200,,73,73,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Wed,10/23/24,2024-10-23,written,1500,,74,74,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Wed,10/23/24,2024-10-23,written,1800,,74,74,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Wed,10/23/24,2024-10-23,written,2100,,73,73,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Wed,10/23/24,2024-10-23,written,2400,,71,71,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Thu,10/24/24,2024-10-24,written,0300,,69,69,clear,,two_reads_agree
-ASP_MSR_1024,80,ASP,450,cdcr_2031,Thu,10/24/24,2024-10-24,written,0600,,70,70,clear,,single_read
-ASP_MSR_1024,80,ASP,450,cdcr_2031,Thu,10/24/24,2024-10-24,written,0900,,70,70,clear,,single_read
-ASP_MSR_1024,80,ASP,450,cdcr_2031,Thu,10/24/24,2024-10-24,written,1200,,72,72,clear,,single_read
-ASP_MSR_1024,80,ASP,450,cdcr_2031,Thu,10/24/24,2024-10-24,written,1500,,72,72,clear,,single_read
+ASP_MSR_1024,80,ASP,450,cdcr_2031,Thu,10/24/24,2024-10-24,written,0600,,70,70,clear,,two_reads_agree
+ASP_MSR_1024,80,ASP,450,cdcr_2031,Thu,10/24/24,2024-10-24,written,0900,,70,70,clear,,two_reads_agree
+ASP_MSR_1024,80,ASP,450,cdcr_2031,Thu,10/24/24,2024-10-24,written,1200,,72,72,clear,,two_reads_agree
+ASP_MSR_1024,80,ASP,450,cdcr_2031,Thu,10/24/24,2024-10-24,written,1500,,72,72,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Thu,10/24/24,2024-10-24,written,1800,,71,71,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Thu,10/24/24,2024-10-24,written,2100,,70,70,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Thu,10/24/24,2024-10-24,written,2400,,69,69,clear,,two_reads_agree
@@ -33937,13 +33937,13 @@ ASP_MSR_1024,80,ASP,450,cdcr_2031,Fri,10.25,2024-10-25,written,1800,,72,72,clear
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Fri,10.25,2024-10-25,written,2100,,71,71,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Fri,10.25,2024-10-25,written,2400,,69,69,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,0300,,69?,69,unsure,,single_read
-ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,0600,,69,69,clear,,single_read
-ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,0900,,69,69,clear,,single_read
-ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,1200,,70,70,clear,,single_read
-ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,1500,,71,71,clear,,single_read
-ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,1800,,71,71,clear,,single_read
-ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,2100,,70,70,clear,,single_read
-ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,2400,,69,69,clear,,single_read
+ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,0600,,69,69,clear,,two_reads_agree
+ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,0900,,69,69,clear,,two_reads_agree
+ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,1200,,70,70,clear,,two_reads_agree
+ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,1500,,71,71,clear,,two_reads_agree
+ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,1800,,71,71,clear,,two_reads_agree
+ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,2100,,70,70,clear,,two_reads_agree
+ASP_MSR_1024,80,ASP,450,cdcr_2031,Sat,10.26,2024-10-26,written,2400,,69,69,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Sun,10.27,2024-10-27,written,0300,,69,69,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Sun,10.27,2024-10-27,written,0600,,69,69,clear,,two_reads_agree
 ASP_MSR_1024,80,ASP,450,cdcr_2031,Sun,10.27,2024-10-27,written,0900,,70,70,clear,,two_reads_agree

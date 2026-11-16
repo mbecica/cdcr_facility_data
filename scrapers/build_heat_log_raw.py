@@ -32,6 +32,7 @@ READ_BASIS = {
     "pair agrees": "two_reads_agree",
     "pair agrees, one unsure": "two_reads_agree",
     "Claude read, pair agrees": "two_reads_agree",
+    "Claude read, one reader agrees": "two_reads_agree",
     "pair agrees, Claude checked": "two_reads_agree",
     "pair disputed, Claude decided": "dispute_decided",
     "Claude read": "single_read",
