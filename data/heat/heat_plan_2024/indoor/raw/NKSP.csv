@@ -24584,7 +24584,7 @@ NKSP_MSR_0724,125,NKSP,Fac. D. Building 4 A & B A side,nksp_stage,Sat,"July 13, 
 NKSP_MSR_0724,125,NKSP,Fac. D. Building 4 A & B A side,nksp_stage,Sat,"July 13, 2024",2024-07-13,written,1800,,90,90,clear,,two_reads_agree
 NKSP_MSR_0724,125,NKSP,Fac. D. Building 4 A & B A side,nksp_stage,Sat,"July 13, 2024",2024-07-13,written,1900,,90,90,clear,,two_reads_agree
 NKSP_MSR_0724,125,NKSP,Fac. D. Building 4 A & B A side,nksp_stage,Sat,"July 13, 2024",2024-07-13,written,2000,,90,90,clear,,two_reads_agree
-NKSP_MSR_0724,125,NKSP,Fac. D. Building 4 A & B A side,nksp_stage,Sat,"July 13, 2024",2024-07-13,written,2100,,90,90,clear,,single_read
+NKSP_MSR_0724,125,NKSP,Fac. D. Building 4 A & B A side,nksp_stage,Sat,"July 13, 2024",2024-07-13,written,2100,,90,90,clear,,researcher_review
 NKSP_MSR_0724,125,NKSP,Fac. D. Building 4 A & B A side,nksp_stage,Sat,"July 13, 2024",2024-07-13,written,2200,,88,88,clear,,two_reads_agree
 NKSP_MSR_0724,125,NKSP,Fac. D. Building 4 A & B A side,nksp_stage,Sat,"July 13, 2024",2024-07-13,written,2300,,-,,blank,,
 NKSP_MSR_0724,125,NKSP,Fac. D. Building 4 A & B B side,nksp_stage,Sat,"July 13, 2024",2024-07-13,written,0000,,-,,blank,,

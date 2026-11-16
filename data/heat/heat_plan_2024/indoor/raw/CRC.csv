@@ -10371,7 +10371,7 @@ CRC_MSR_0624,20,CRC,Facility C / Dorm 305,cdcr_2031,Sun,6/23/24,2024-06-23,writt
 CRC_MSR_0624,20,CRC,Facility C / Dorm 305,cdcr_2031,Sun,6/23/24,2024-06-23,written,1200,,88,88,clear,,two_reads_agree
 CRC_MSR_0624,20,CRC,Facility C / Dorm 305,cdcr_2031,Sun,6/23/24,2024-06-23,written,1500,,90,90,clear,,two_reads_agree
 CRC_MSR_0624,20,CRC,Facility C / Dorm 305,cdcr_2031,Sun,6/23/24,2024-06-23,written,1800,,85,85,clear,,two_reads_agree
-CRC_MSR_0624,20,CRC,Facility C / Dorm 305,cdcr_2031,Sun,6/23/24,2024-06-23,written,2100,,80|90,80,ambiguous,90,two_reads_agree
+CRC_MSR_0624,20,CRC,Facility C / Dorm 305,cdcr_2031,Sun,6/23/24,2024-06-23,written,2100,,80,80,clear,,researcher_review
 CRC_MSR_0624,20,CRC,Facility C / Dorm 305,cdcr_2031,Sun,6/23/24,2024-06-23,written,2400,,80,80,clear,,two_reads_agree
 CRC_MSR_0624,21,CRC,Facility C / Dorm 305,cdcr_2031,Mon,6/24/24,2024-06-24,written,0300,,78,78,clear,,two_reads_agree
 CRC_MSR_0624,21,CRC,Facility C / Dorm 305,cdcr_2031,Mon,6/24/24,2024-06-24,written,0600,,78,78,clear,,two_reads_agree
@@ -10641,7 +10641,7 @@ CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sat,6/22/24,2024-06-22
 CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sat,6/22/24,2024-06-22,written,0600,,76,76,clear,,two_reads_agree
 CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sat,6/22/24,2024-06-22,written,0900,,76,76,clear,,two_reads_agree
 CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sat,6/22/24,2024-06-22,written,1200,,80,80,clear,,two_reads_agree
-CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sat,6/22/24,2024-06-22,written,1500,,96|90,96,ambiguous,90,two_reads_agree
+CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sat,6/22/24,2024-06-22,written,1500,,90,90,clear,,researcher_review
 CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sat,6/22/24,2024-06-22,written,1800,,91,91,clear,,two_reads_agree
 CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sat,6/22/24,2024-06-22,written,2100,,89,89,clear,,two_reads_agree
 CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sat,6/22/24,2024-06-22,written,2400,,88,88,clear,,two_reads_agree
@@ -10650,7 +10650,7 @@ CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sun,6/23/24,2024-06-23
 CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sun,6/23/24,2024-06-23,written,0900,,80,80,clear,,two_reads_agree_after_doubt
 CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sun,6/23/24,2024-06-23,written,1200,,86,86,clear,,two_reads_agree
 CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sun,6/23/24,2024-06-23,written,1500,,90,90,clear,,two_reads_agree
-CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sun,6/23/24,2024-06-23,written,1800,,88|90,88,ambiguous,90,adjudicated
+CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sun,6/23/24,2024-06-23,written,1800,,88,88,clear,,researcher_review
 CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sun,6/23/24,2024-06-23,written,2100,,88,88,clear,,two_reads_agree
 CRC_MSR_0624,25,CRC,CRC / Facility C / Dorm 306,cdcr_2031,Sun,6/23/24,2024-06-23,written,2400,,85,85,clear,,two_reads_agree
 CRC_MSR_0624,26,CRC,CRC Facility C Dorm 306,cdcr_2031,Mon,6/24/24,2024-06-24,written,0300,,80,80,clear,,two_reads_agree
@@ -10931,7 +10931,7 @@ CRC_MSR_0624,30,CRC,307,cdcr_2031,Sun,6/23/24,2024-06-23,written,0900,,78,78,cle
 CRC_MSR_0624,30,CRC,307,cdcr_2031,Sun,6/23/24,2024-06-23,written,1200,,86,86,clear,,two_reads_agree
 CRC_MSR_0624,30,CRC,307,cdcr_2031,Sun,6/23/24,2024-06-23,written,1500,,90,90,clear,,two_reads_agree
 CRC_MSR_0624,30,CRC,307,cdcr_2031,Sun,6/23/24,2024-06-23,written,1800,,90,90,clear,,two_reads_agree
-CRC_MSR_0624,30,CRC,307,cdcr_2031,Sun,6/23/24,2024-06-23,written,2100,,88|90,88,ambiguous,90,adjudicated
+CRC_MSR_0624,30,CRC,307,cdcr_2031,Sun,6/23/24,2024-06-23,written,2100,,88,88,clear,,researcher_review
 CRC_MSR_0624,30,CRC,307,cdcr_2031,Sun,6/23/24,2024-06-23,written,2400,,-,,blank,,
 CRC_MSR_0624,31,CRC,307,cdcr_2031,Mon,6/24/24,2024-06-24,written,0300,,74,74,clear,,two_reads_agree_after_doubt
 CRC_MSR_0624,31,CRC,307,cdcr_2031,Mon,6/24/24,2024-06-24,written,0600,,74,74,clear,,two_reads_agree
@@ -11948,7 +11948,7 @@ CRC_MSR_0624,49,CRC,Facility C Dorm 311,cdcr_2031,Sat,6/15/24,2024-06-15,written
 CRC_MSR_0624,49,CRC,Facility C Dorm 311,cdcr_2031,Sat,6/15/24,2024-06-15,written,1500,,88,88,clear,,two_reads_agree
 CRC_MSR_0624,49,CRC,Facility C Dorm 311,cdcr_2031,Sat,6/15/24,2024-06-15,written,1800,,85,85,clear,,two_reads_agree
 CRC_MSR_0624,49,CRC,Facility C Dorm 311,cdcr_2031,Sat,6/15/24,2024-06-15,written,2100,,84,84,clear,,two_reads_agree
-CRC_MSR_0624,49,CRC,Facility C Dorm 311,cdcr_2031,Sat,6/15/24,2024-06-15,written,2400,,80|90,80,ambiguous,90,two_reads_agree
+CRC_MSR_0624,49,CRC,Facility C Dorm 311,cdcr_2031,Sat,6/15/24,2024-06-15,written,2400,,80,80,clear,,researcher_review
 CRC_MSR_0624,49,CRC,Facility C Dorm 311,cdcr_2031,Sun,6/16/24,2024-06-16,written,0300,,80,80,clear,,two_reads_agree
 CRC_MSR_0624,49,CRC,Facility C Dorm 311,cdcr_2031,Sun,6/16/24,2024-06-16,written,0600,,78,78,clear,,two_reads_agree_after_doubt
 CRC_MSR_0624,49,CRC,Facility C Dorm 311,cdcr_2031,Sun,6/16/24,2024-06-16,written,0900,,76,76,clear,,two_reads_agree
@@ -13331,7 +13331,7 @@ CRC_MSR_0624,75,CRC,CRC/NORCO DORM 403 Building 2nd Floor,cdcr_2031,Sun,6/23/202
 CRC_MSR_0624,75,CRC,CRC/NORCO DORM 403 Building 2nd Floor,cdcr_2031,Sun,6/23/2024,2024-06-23,written,1200,,92,92,clear,,two_reads_agree
 CRC_MSR_0624,75,CRC,CRC/NORCO DORM 403 Building 2nd Floor,cdcr_2031,Sun,6/23/2024,2024-06-23,written,1500,,90,90,clear,,two_reads_agree
 CRC_MSR_0624,75,CRC,CRC/NORCO DORM 403 Building 2nd Floor,cdcr_2031,Sun,6/23/2024,2024-06-23,written,1800,,90,90,clear,,two_reads_agree
-CRC_MSR_0624,75,CRC,CRC/NORCO DORM 403 Building 2nd Floor,cdcr_2031,Sun,6/23/2024,2024-06-23,written,2100,,84|94,84,ambiguous,94,two_reads_agree
+CRC_MSR_0624,75,CRC,CRC/NORCO DORM 403 Building 2nd Floor,cdcr_2031,Sun,6/23/2024,2024-06-23,written,2100,,84,84,clear,,researcher_review
 CRC_MSR_0624,75,CRC,CRC/NORCO DORM 403 Building 2nd Floor,cdcr_2031,Sun,6/23/2024,2024-06-23,written,2400,,84,84,clear,,two_reads_agree
 CRC_MSR_0624,76,CRC,DORM 403,cdcr_2031,Mon,6/24/24,2024-06-24,written,0300,,82,82,clear,,two_reads_agree
 CRC_MSR_0624,76,CRC,DORM 403,cdcr_2031,Mon,6/24/24,2024-06-24,written,0600,,82,82,clear,,two_reads_agree
@@ -17410,7 +17410,7 @@ CRC_MSR_0624,176,CRC,Facility B / Dorm 211,cdcr_2031,Sat,6/29/24,2024-06-29,writ
 CRC_MSR_0624,176,CRC,Facility B / Dorm 211,cdcr_2031,Sat,6/29/24,2024-06-29,written,0900,,80,80,clear,,two_reads_agree
 CRC_MSR_0624,176,CRC,Facility B / Dorm 211,cdcr_2031,Sat,6/29/24,2024-06-29,written,1200,,84,84,clear,,two_reads_agree
 CRC_MSR_0624,176,CRC,Facility B / Dorm 211,cdcr_2031,Sat,6/29/24,2024-06-29,written,1500,,90,90,clear,,two_reads_agree
-CRC_MSR_0624,176,CRC,Facility B / Dorm 211,cdcr_2031,Sat,6/29/24,2024-06-29,written,1800,,90|98,90,ambiguous,98,two_reads_agree
+CRC_MSR_0624,176,CRC,Facility B / Dorm 211,cdcr_2031,Sat,6/29/24,2024-06-29,written,1800,,90,90,clear,,researcher_review
 CRC_MSR_0624,176,CRC,Facility B / Dorm 211,cdcr_2031,Sat,6/29/24,2024-06-29,written,2100,,89,89,clear,,two_reads_agree
 CRC_MSR_0624,176,CRC,Facility B / Dorm 211,cdcr_2031,Sat,6/29/24,2024-06-29,written,2400,,82,82,clear,,two_reads_agree
 CRC_MSR_0624,176,CRC,Facility B / Dorm 211,cdcr_2031,Sun,6/30/24,2024-06-30,written,0300,,76,76,clear,,two_reads_agree
@@ -48035,7 +48035,7 @@ CRC_MSR_1024,27,CRC,Facility B / DORM 207,cdcr_2031,Tue,10/1/24,2024-10-01,writt
 CRC_MSR_1024,27,CRC,Facility B / DORM 207,cdcr_2031,Tue,10/1/24,2024-10-01,written,0900,,74,74,clear,,two_reads_agree
 CRC_MSR_1024,27,CRC,Facility B / DORM 207,cdcr_2031,Tue,10/1/24,2024-10-01,written,1200,,80,80,clear,,two_reads_agree
 CRC_MSR_1024,27,CRC,Facility B / DORM 207,cdcr_2031,Tue,10/1/24,2024-10-01,written,1500,,88,88,clear,,two_reads_agree
-CRC_MSR_1024,27,CRC,Facility B / DORM 207,cdcr_2031,Tue,10/1/24,2024-10-01,written,1800,,90|88,90,ambiguous,88,adjudicated_by_context
+CRC_MSR_1024,27,CRC,Facility B / DORM 207,cdcr_2031,Tue,10/1/24,2024-10-01,written,1800,,86,86,clear,,researcher_review
 CRC_MSR_1024,27,CRC,Facility B / DORM 207,cdcr_2031,Tue,10/1/24,2024-10-01,written,2100,,84,84,clear,,two_reads_agree
 CRC_MSR_1024,27,CRC,Facility B / DORM 207,cdcr_2031,Tue,10/1/24,2024-10-01,written,2400,,79,79,clear,,two_reads_agree
 CRC_MSR_1024,27,CRC,Facility B / DORM 207,cdcr_2031,Wed,10/2/24,2024-10-02,written,0300,,78,78,clear,,two_reads_agree
@@ -48785,7 +48785,7 @@ CRC_MSR_1024,42,CRC,Facility B / DORM 210,cdcr_2031,Tue,10/1/24,2024-10-01,writt
 CRC_MSR_1024,42,CRC,Facility B / DORM 210,cdcr_2031,Wed,10/2/24,2024-10-02,written,0300,,74,74,clear,,two_reads_agree
 CRC_MSR_1024,42,CRC,Facility B / DORM 210,cdcr_2031,Wed,10/2/24,2024-10-02,written,0600,,74,74,clear,,two_reads_agree
 CRC_MSR_1024,42,CRC,Facility B / DORM 210,cdcr_2031,Wed,10/2/24,2024-10-02,written,0900,,76,76,clear,,two_reads_agree
-CRC_MSR_1024,42,CRC,Facility B / DORM 210,cdcr_2031,Wed,10/2/24,2024-10-02,written,1200,,90|80,90,ambiguous,80,adjudicated_by_context
+CRC_MSR_1024,42,CRC,Facility B / DORM 210,cdcr_2031,Wed,10/2/24,2024-10-02,written,1200,,80,80,clear,,researcher_review
 CRC_MSR_1024,42,CRC,Facility B / DORM 210,cdcr_2031,Wed,10/2/24,2024-10-02,written,1500,,89,89,clear,,two_reads_agree
 CRC_MSR_1024,42,CRC,Facility B / DORM 210,cdcr_2031,Wed,10/2/24,2024-10-02,written,1800,,90,90,clear,,two_reads_agree
 CRC_MSR_1024,42,CRC,Facility B / DORM 210,cdcr_2031,Wed,10/2/24,2024-10-02,written,2100,,82,82,clear,,two_reads_agree
@@ -49321,7 +49321,7 @@ CRC_MSR_1024,52,CRC,Facility B / DORM 212,cdcr_2031,Sun,10/6/24,2024-10-06,writt
 CRC_MSR_1024,53,CRC,Facility B / DORM 212,cdcr_2031,Mon,10/7/24,2024-10-07,written,0300,,75,75,clear,,two_reads_agree
 CRC_MSR_1024,53,CRC,Facility B / DORM 212,cdcr_2031,Mon,10/7/24,2024-10-07,written,0600,,75,75,clear,,two_reads_agree
 CRC_MSR_1024,53,CRC,Facility B / DORM 212,cdcr_2031,Mon,10/7/24,2024-10-07,written,0900,,75,75,clear,,two_reads_agree
-CRC_MSR_1024,53,CRC,Facility B / DORM 212,cdcr_2031,Mon,10/7/24,2024-10-07,written,1200,,85|95,85,ambiguous,95,adjudicated_by_context
+CRC_MSR_1024,53,CRC,Facility B / DORM 212,cdcr_2031,Mon,10/7/24,2024-10-07,written,1200,,85,85,clear,,researcher_review
 CRC_MSR_1024,53,CRC,Facility B / DORM 212,cdcr_2031,Mon,10/7/24,2024-10-07,written,1500,,89,89,clear,,two_reads_agree
 CRC_MSR_1024,53,CRC,Facility B / DORM 212,cdcr_2031,Mon,10/7/24,2024-10-07,written,1800,,89,89,clear,,two_reads_agree
 CRC_MSR_1024,53,CRC,Facility B / DORM 212,cdcr_2031,Mon,10/7/24,2024-10-07,written,2100,,84,84,clear,,two_reads_agree
@@ -51170,7 +51170,7 @@ CRC_MSR_1024,87,CRC,"Facility C, Dorm 307",cdcr_2031,Thu,10/3/24,2024-10-03,writ
 CRC_MSR_1024,87,CRC,"Facility C, Dorm 307",cdcr_2031,Thu,10/3/24,2024-10-03,written,0600,,72,72,clear,,two_reads_agree
 CRC_MSR_1024,87,CRC,"Facility C, Dorm 307",cdcr_2031,Thu,10/3/24,2024-10-03,written,0900,,75,75,clear,,two_reads_agree
 CRC_MSR_1024,87,CRC,"Facility C, Dorm 307",cdcr_2031,Thu,10/3/24,2024-10-03,written,1200,,80,80,clear,,two_reads_agree
-CRC_MSR_1024,87,CRC,"Facility C, Dorm 307",cdcr_2031,Thu,10/3/24,2024-10-03,written,1500,,71|91,71,ambiguous,91,adjudicated
+CRC_MSR_1024,87,CRC,"Facility C, Dorm 307",cdcr_2031,Thu,10/3/24,2024-10-03,written,1500,,91,91,clear,,researcher_review
 CRC_MSR_1024,87,CRC,"Facility C, Dorm 307",cdcr_2031,Thu,10/3/24,2024-10-03,written,1800,,85,85,clear,,two_reads_agree
 CRC_MSR_1024,87,CRC,"Facility C, Dorm 307",cdcr_2031,Thu,10/3/24,2024-10-03,written,2100,,77,77,clear,,researcher_review
 CRC_MSR_1024,87,CRC,"Facility C, Dorm 307",cdcr_2031,Thu,10/3/24,2024-10-03,written,2400,,72,72,clear,,two_reads_agree
@@ -51716,7 +51716,7 @@ CRC_MSR_1024,97,CRC,CRC / Facility C / Dorm 309,cdcr_2031,Thu,10/3/24,2024-10-03
 CRC_MSR_1024,97,CRC,CRC / Facility C / Dorm 309,cdcr_2031,Thu,10/3/24,2024-10-03,written,1200,,80,80,clear,,two_reads_agree
 CRC_MSR_1024,97,CRC,CRC / Facility C / Dorm 309,cdcr_2031,Thu,10/3/24,2024-10-03,written,1500,,89,89,clear,,two_reads_agree
 CRC_MSR_1024,97,CRC,CRC / Facility C / Dorm 309,cdcr_2031,Thu,10/3/24,2024-10-03,written,1800,,88,88,clear,,researcher_review
-CRC_MSR_1024,97,CRC,CRC / Facility C / Dorm 309,cdcr_2031,Thu,10/3/24,2024-10-03,written,2100,,87|97,87,ambiguous,97,adjudicated
+CRC_MSR_1024,97,CRC,CRC / Facility C / Dorm 309,cdcr_2031,Thu,10/3/24,2024-10-03,written,2100,,87,87,clear,,researcher_review
 CRC_MSR_1024,97,CRC,CRC / Facility C / Dorm 309,cdcr_2031,Thu,10/3/24,2024-10-03,written,2400,,72,72,clear,,two_reads_agree
 CRC_MSR_1024,97,CRC,CRC / Facility C / Dorm 309,cdcr_2031,Fri,10/4/24,2024-10-04,written,0300,,72,72,clear,,two_reads_agree
 CRC_MSR_1024,97,CRC,CRC / Facility C / Dorm 309,cdcr_2031,Fri,10/4/24,2024-10-04,written,0600,,72,72,clear,,two_reads_agree

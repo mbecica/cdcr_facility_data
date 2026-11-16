@@ -13661,7 +13661,7 @@ CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Thu,9/5,2024-09-05,written,0600,,81,81,cl
 CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Thu,9/5,2024-09-05,written,0900,,81,81,clear,,two_reads_agree
 CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Thu,9/5,2024-09-05,written,1200,,82,82,clear,,two_reads_agree
 CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Thu,9/5,2024-09-05,written,1500,,83,83,clear,,two_reads_agree
-CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Thu,9/5,2024-09-05,written,1800,,90,90,clear,,single_read
+CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Thu,9/5,2024-09-05,written,1800,,90,90,clear,,researcher_review
 CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Thu,9/5,2024-09-05,written,2100,,89,89,clear,,single_read
 CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Thu,9/5,2024-09-05,written,2400,,82,82,clear,,two_reads_agree
 CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Fri,9/6,2024-09-06,written,0300,,80,80,clear,,two_reads_agree

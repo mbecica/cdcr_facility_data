@@ -11235,7 +11235,7 @@ SATF_MSR_0624,89,SATF,A3,cdcr_2031,Tue,6/25/24,2024-06-25,written,0600,,79,79,cl
 SATF_MSR_0624,89,SATF,A3,cdcr_2031,Tue,6/25/24,2024-06-25,written,0900,,78.1,78.1,clear,,two_reads_agree
 SATF_MSR_0624,89,SATF,A3,cdcr_2031,Tue,6/25/24,2024-06-25,written,1200,,78.6,78.6,clear,,two_reads_agree_after_doubt
 SATF_MSR_0624,89,SATF,A3,cdcr_2031,Tue,6/25/24,2024-06-25,written,1500,,78.5,78.5,clear,,two_reads_agree_after_doubt
-SATF_MSR_0624,89,SATF,A3,cdcr_2031,Tue,6/25/24,2024-06-25,written,1800,,90|80,90,ambiguous,80,two_reads_agree
+SATF_MSR_0624,89,SATF,A3,cdcr_2031,Tue,6/25/24,2024-06-25,written,1800,,90,90,clear,,researcher_review
 SATF_MSR_0624,89,SATF,A3,cdcr_2031,Tue,6/25/24,2024-06-25,written,2100,,89,89,clear,,two_reads_agree_after_doubt
 SATF_MSR_0624,89,SATF,A3,cdcr_2031,Tue,6/25/24,2024-06-25,written,2400,,78,78,clear,,two_reads_agree
 SATF_MSR_0624,89,SATF,A3,cdcr_2031,Wed,6/26/24,2024-06-26,written,0300,,78,78,clear,,two_reads_agree

@@ -16090,7 +16090,7 @@ LAC_MSR_0724,32,LAC,CSP-LAC D-2,cdcr_2031,Sat,7/6/24,2024-07-06,written,2400,,82
 LAC_MSR_0724,32,LAC,CSP-LAC D-2,cdcr_2031,Sun,7/7/24,2024-07-07,written,0300,,85,85,clear,,two_reads_agree
 LAC_MSR_0724,32,LAC,CSP-LAC D-2,cdcr_2031,Sun,7/7/24,2024-07-07,written,0600,,84,84,clear,,two_reads_agree_after_doubt
 LAC_MSR_0724,32,LAC,CSP-LAC D-2,cdcr_2031,Sun,7/7/24,2024-07-07,written,0900,,84,84,clear,,two_reads_agree_after_doubt
-LAC_MSR_0724,32,LAC,CSP-LAC D-2,cdcr_2031,Sun,7/7/24,2024-07-07,written,1200,,84|94,84,ambiguous,94,adjudicated_by_context
+LAC_MSR_0724,32,LAC,CSP-LAC D-2,cdcr_2031,Sun,7/7/24,2024-07-07,written,1200,,84,84,clear,,researcher_review
 LAC_MSR_0724,32,LAC,CSP-LAC D-2,cdcr_2031,Sun,7/7/24,2024-07-07,written,1500,,85,85,clear,,two_reads_agree
 LAC_MSR_0724,32,LAC,CSP-LAC D-2,cdcr_2031,Sun,7/7/24,2024-07-07,written,1800,,85,85,clear,,two_reads_agree
 LAC_MSR_0724,32,LAC,CSP-LAC D-2,cdcr_2031,Sun,7/7/24,2024-07-07,written,2100,,86,86,clear,,two_reads_agree

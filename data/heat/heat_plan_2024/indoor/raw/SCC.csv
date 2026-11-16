@@ -4734,7 +4734,7 @@ SCC_MSR_0624,64,SCC,SCC / 66 / Dayroom,cdcr_2031,Sun,6/2,2024-06-02,written,1200
 SCC_MSR_0624,64,SCC,SCC / 66 / Dayroom,cdcr_2031,Sun,6/2,2024-06-02,written,1500,,85|95,85,ambiguous,95,adjudicated_by_context
 SCC_MSR_0624,64,SCC,SCC / 66 / Dayroom,cdcr_2031,Sun,6/2,2024-06-02,written,1800,,85,85,clear,,two_reads_agree
 SCC_MSR_0624,64,SCC,SCC / 66 / Dayroom,cdcr_2031,Sun,6/2,2024-06-02,written,2100,,83,83,clear,,two_reads_agree
-SCC_MSR_0624,64,SCC,SCC / 66 / Dayroom,cdcr_2031,Sun,6/2,2024-06-02,written,2400,,80|90,80,ambiguous,90,two_reads_agree
+SCC_MSR_0624,64,SCC,SCC / 66 / Dayroom,cdcr_2031,Sun,6/2,2024-06-02,written,2400,,80,80,clear,,researcher_review
 SCC_MSR_0624,65,SCC,SCC / 67 / Dayroom,cdcr_2031,Mon,5/27,2024-05-27,written,0300,,72,72,clear,,two_reads_agree
 SCC_MSR_0624,65,SCC,SCC / 67 / Dayroom,cdcr_2031,Mon,5/27,2024-05-27,written,0600,,71,71,clear,,two_reads_agree
 SCC_MSR_0624,65,SCC,SCC / 67 / Dayroom,cdcr_2031,Mon,5/27,2024-05-27,written,0900,,72,72,clear,,two_reads_agree
@@ -6574,7 +6574,7 @@ SCC_MSR_0624,101,SCC,67 / Dayroom,cdcr_2031,Sun,6/23,2024-06-23,written,1200,,94
 SCC_MSR_0624,101,SCC,67 / Dayroom,cdcr_2031,Sun,6/23,2024-06-23,written,1500,,94,94,clear,,two_reads_agree
 SCC_MSR_0624,101,SCC,67 / Dayroom,cdcr_2031,Sun,6/23,2024-06-23,written,1800,,92,92,clear,,two_reads_agree
 SCC_MSR_0624,101,SCC,67 / Dayroom,cdcr_2031,Sun,6/23,2024-06-23,written,2100,,90,90,clear,,two_reads_agree
-SCC_MSR_0624,101,SCC,67 / Dayroom,cdcr_2031,Sun,6/23,2024-06-23,written,2400,,96|90,96,ambiguous,90,two_reads_agree
+SCC_MSR_0624,101,SCC,67 / Dayroom,cdcr_2031,Sun,6/23,2024-06-23,written,2400,,90,90,clear,,researcher_review
 SCC_MSR_0624,102,SCC,68,cdcr_2031,Mon,6/17,2024-06-17,written,0300,,82,82,clear,,two_reads_agree
 SCC_MSR_0624,102,SCC,68,cdcr_2031,Mon,6/17,2024-06-17,written,0600,,84,84,clear,,two_reads_agree
 SCC_MSR_0624,102,SCC,68,cdcr_2031,Mon,6/17,2024-06-17,written,0900,,85,85,clear,,two_reads_agree
@@ -7082,7 +7082,7 @@ SCC_MSR_0624,111,SCC,65 / Dayroom,cdcr_2031,Mon,6/24,2024-06-24,written,2400,,90
 SCC_MSR_0624,111,SCC,65 / Dayroom,cdcr_2031,Tue,6/25,2024-06-25,written,0300,,90,90,clear,,two_reads_agree
 SCC_MSR_0624,111,SCC,65 / Dayroom,cdcr_2031,Tue,6/25,2024-06-25,written,0600,,90,90,clear,,two_reads_agree
 SCC_MSR_0624,111,SCC,65 / Dayroom,cdcr_2031,Tue,6/25,2024-06-25,written,0900,,89,89,clear,,two_reads_agree
-SCC_MSR_0624,111,SCC,65 / Dayroom,cdcr_2031,Tue,6/25,2024-06-25,written,1200,,80|90,80,ambiguous,90,two_reads_agree
+SCC_MSR_0624,111,SCC,65 / Dayroom,cdcr_2031,Tue,6/25,2024-06-25,written,1200,,90,90,clear,,researcher_review
 SCC_MSR_0624,111,SCC,65 / Dayroom,cdcr_2031,Tue,6/25,2024-06-25,written,1500,,90,90,clear,,two_reads_agree
 SCC_MSR_0624,111,SCC,65 / Dayroom,cdcr_2031,Tue,6/25,2024-06-25,written,1800,,91,91,clear,,two_reads_agree
 SCC_MSR_0624,111,SCC,65 / Dayroom,cdcr_2031,Tue,6/25,2024-06-25,written,2100,,90,90,clear,,two_reads_agree
@@ -7245,7 +7245,7 @@ SCC_MSR_0624,114,SCC,68 / Dayroom,cdcr_2031,Mon,6/24,2024-06-24,written,0900,,89
 SCC_MSR_0624,114,SCC,68 / Dayroom,cdcr_2031,Mon,6/24,2024-06-24,written,1200,,90,90,clear,,two_reads_agree
 SCC_MSR_0624,114,SCC,68 / Dayroom,cdcr_2031,Mon,6/24,2024-06-24,written,1500,,90,90,clear,,adjudicated_by_context
 SCC_MSR_0624,114,SCC,68 / Dayroom,cdcr_2031,Mon,6/24,2024-06-24,written,1800,,90,90,clear,,two_reads_agree
-SCC_MSR_0624,114,SCC,68 / Dayroom,cdcr_2031,Mon,6/24,2024-06-24,written,2100,,86|90,86,ambiguous,90,adjudicated
+SCC_MSR_0624,114,SCC,68 / Dayroom,cdcr_2031,Mon,6/24,2024-06-24,written,2100,,90,90,clear,,researcher_review
 SCC_MSR_0624,114,SCC,68 / Dayroom,cdcr_2031,Mon,6/24,2024-06-24,written,2400,,88,88,clear,,two_reads_agree
 SCC_MSR_0624,114,SCC,68 / Dayroom,cdcr_2031,Tue,6/25,2024-06-25,written,0300,,88,88,clear,,two_reads_agree
 SCC_MSR_0624,114,SCC,68 / Dayroom,cdcr_2031,Tue,6/25,2024-06-25,written,0600,,88|78,88,ambiguous,78,adjudicated
@@ -10405,7 +10405,7 @@ SCC_MSR_0724,86,SCC,75 Dayroom,cdcr_2031,Thu,7/11,2024-07-11,written,2100,,97,97
 SCC_MSR_0724,86,SCC,75 Dayroom,cdcr_2031,Thu,7/11,2024-07-11,written,2400,,90,90,clear,,two_reads_agree
 SCC_MSR_0724,86,SCC,75 Dayroom,cdcr_2031,Fri,7/12/24,2024-07-12,written,0300,,92,92,clear,,two_reads_agree
 SCC_MSR_0724,86,SCC,75 Dayroom,cdcr_2031,Fri,7/12/24,2024-07-12,written,0600,,93,93,clear,,two_reads_agree
-SCC_MSR_0724,86,SCC,75 Dayroom,cdcr_2031,Fri,7/12/24,2024-07-12,written,0900,,92,92,clear,,single_read
+SCC_MSR_0724,86,SCC,75 Dayroom,cdcr_2031,Fri,7/12/24,2024-07-12,written,0900,,92,92,clear,,researcher_review
 SCC_MSR_0724,86,SCC,75 Dayroom,cdcr_2031,Fri,7/12/24,2024-07-12,written,1200,,94,94,clear,,two_reads_agree
 SCC_MSR_0724,86,SCC,75 Dayroom,cdcr_2031,Fri,7/12/24,2024-07-12,written,1500,,95,95,clear,,two_reads_agree
 SCC_MSR_0724,86,SCC,75 Dayroom,cdcr_2031,Fri,7/12/24,2024-07-12,written,1800,,96,96,clear,,two_reads_agree
@@ -21531,7 +21531,7 @@ SCC_MSR_0924,115,SCC,69 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,1800,,84
 SCC_MSR_0924,115,SCC,69 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,2100,,82,82,clear,,two_reads_agree
 SCC_MSR_0924,115,SCC,69 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,2400,,82,82,clear,,two_reads_agree_after_doubt
 SCC_MSR_0924,115,SCC,69 / Dayroom,cdcr_2031,Tue,10/1,2024-10-01,written,0300,,80,80,clear,,two_reads_agree
-SCC_MSR_0924,115,SCC,69 / Dayroom,cdcr_2031,Tue,10/1,2024-10-01,written,0600,,80|90,80,ambiguous,90,adjudicated
+SCC_MSR_0924,115,SCC,69 / Dayroom,cdcr_2031,Tue,10/1,2024-10-01,written,0600,,80,80,clear,,researcher_review
 SCC_MSR_0924,115,SCC,69 / Dayroom,cdcr_2031,Tue,10/1,2024-10-01,written,0900,,85,85,clear,,two_reads_agree_after_doubt
 SCC_MSR_0924,115,SCC,69 / Dayroom,cdcr_2031,Tue,10/1,2024-10-01,written,1200,,88,88,clear,,two_reads_agree_after_doubt
 SCC_MSR_0924,115,SCC,69 / Dayroom,cdcr_2031,Tue,10/1,2024-10-01,written,1500,,90,90,clear,,two_reads_agree
@@ -21579,7 +21579,7 @@ SCC_MSR_0924,115,SCC,69 / Dayroom,cdcr_2031,Sun,10/6,2024-10-06,written,1800,,80
 SCC_MSR_0924,115,SCC,69 / Dayroom,cdcr_2031,Sun,10/6,2024-10-06,written,2100,,80|88,80,ambiguous,88,adjudicated
 SCC_MSR_0924,115,SCC,69 / Dayroom,cdcr_2031,Sun,10/6,2024-10-06,written,2400,,86,86,clear,,two_reads_agree
 SCC_MSR_0924,116,SCC,70 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,0300,,82,82,clear,,two_reads_agree
-SCC_MSR_0924,116,SCC,70 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,0600,,80|90,80,ambiguous,90,adjudicated
+SCC_MSR_0924,116,SCC,70 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,0600,,80,80,clear,,researcher_review
 SCC_MSR_0924,116,SCC,70 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,0900,,80,80,clear,,two_reads_agree
 SCC_MSR_0924,116,SCC,70 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,1200,,82,82,clear,,two_reads_agree_after_doubt
 SCC_MSR_0924,116,SCC,70 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,1500,,84,84,clear,,two_reads_agree
@@ -21803,7 +21803,7 @@ SCC_MSR_0924,119,SCC,73 / Dayroom,cdcr_2031,Sun,10/6,2024-10-06,written,1800,,88
 SCC_MSR_0924,119,SCC,73 / Dayroom,cdcr_2031,Sun,10/6,2024-10-06,written,2100,,88,88,clear,,two_reads_agree
 SCC_MSR_0924,119,SCC,73 / Dayroom,cdcr_2031,Sun,10/6,2024-10-06,written,2400,,87,87,clear,,two_reads_agree
 SCC_MSR_0924,120,SCC,74 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,0300,,82,82,clear,,two_reads_agree
-SCC_MSR_0924,120,SCC,74 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,0600,,80|90,80,ambiguous,90,adjudicated
+SCC_MSR_0924,120,SCC,74 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,0600,,80,80,clear,,researcher_review
 SCC_MSR_0924,120,SCC,74 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,0900,,80,80,clear,,two_reads_agree
 SCC_MSR_0924,120,SCC,74 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,1200,,82,82,clear,,two_reads_agree_after_doubt
 SCC_MSR_0924,120,SCC,74 / Dayroom,cdcr_2031,Mon,9/30,2024-09-30,written,1500,,84,84,clear,,two_reads_agree

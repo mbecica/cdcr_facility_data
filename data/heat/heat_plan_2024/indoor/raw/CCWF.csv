@@ -7060,7 +7060,7 @@ CCWF_MSR_0724,21,CCWF,501,cdcr_2031,Sun,7/21/24,2024-07-21,written,1200,,81.5,81
 CCWF_MSR_0724,21,CCWF,501,cdcr_2031,Sun,7/21/24,2024-07-21,written,1500,,82,82,clear,,two_reads_agree
 CCWF_MSR_0724,21,CCWF,501,cdcr_2031,Sun,7/21/24,2024-07-21,written,1800,,80,80,clear,,two_reads_agree
 CCWF_MSR_0724,21,CCWF,501,cdcr_2031,Sun,7/21/24,2024-07-21,written,2100,,80,80,clear,,two_reads_agree
-CCWF_MSR_0724,21,CCWF,501,cdcr_2031,Sun,7/21/24,2024-07-21,written,2400,,80|90,80,ambiguous,90,adjudicated_by_context
+CCWF_MSR_0724,21,CCWF,501,cdcr_2031,Sun,7/21/24,2024-07-21,written,2400,,80,80,clear,,researcher_review
 CCWF_MSR_0724,22,CCWF,501,cdcr_2031,Mon,7/22/24,2024-07-22,written,0300,,81,81,clear,,two_reads_agree
 CCWF_MSR_0724,22,CCWF,501,cdcr_2031,Mon,7/22/24,2024-07-22,written,0600,,81,81,clear,,two_reads_agree
 CCWF_MSR_0724,22,CCWF,501,cdcr_2031,Mon,7/22/24,2024-07-22,written,0900,,81,81,clear,,two_reads_agree
