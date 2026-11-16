@@ -24054,7 +24054,7 @@ CMF_MSR_0724,169,CMF,G1,local,?,7/7/24,2024-07-07,written,2100,,85,85,clear,,sin
 CMF_MSR_0724,169,CMF,G1,local,?,7/7/24,2024-07-07,written,2200,,84,84,clear,,single_read
 CMF_MSR_0724,169,CMF,G1,local,?,7/7/24,2024-07-07,written,2300,,84,84,clear,,single_read
 CMF_MSR_0724,169,CMF,G2,local,?,7/7/24,2024-07-07,written,1200,,89,89,clear,,single_read
-CMF_MSR_0724,169,CMF,G2,local,?,7/7/24,2024-07-07,written,1300,,90,90,clear,,single_read
+CMF_MSR_0724,169,CMF,G2,local,?,7/7/24,2024-07-07,written,1300,,90,90,clear,,two_reads_agree
 CMF_MSR_0724,169,CMF,G2,local,?,7/7/24,2024-07-07,written,1400,,89,89,clear,,single_read
 CMF_MSR_0724,169,CMF,G2,local,?,7/7/24,2024-07-07,written,1500,,89,89,clear,,single_read
 CMF_MSR_0724,169,CMF,G2,local,?,7/7/24,2024-07-07,written,1600,,87,87,clear,,single_read
@@ -24071,8 +24071,8 @@ CMF_MSR_0724,169,CMF,G3,local,?,7/7/24,2024-07-07,written,1400,,88.8,88.8,clear,
 CMF_MSR_0724,169,CMF,G3,local,?,7/7/24,2024-07-07,written,1500,,84.7|89.7,84.7,ambiguous,89.7,single_read
 CMF_MSR_0724,169,CMF,G3,local,?,7/7/24,2024-07-07,written,1600,,88.7,88.7,clear,,single_read
 CMF_MSR_0724,169,CMF,G3,local,?,7/7/24,2024-07-07,written,1700,,89.2,89.2,clear,,single_read
-CMF_MSR_0724,169,CMF,G3,local,?,7/7/24,2024-07-07,written,1800,,90,90,clear,,single_read
-CMF_MSR_0724,169,CMF,G3,local,?,7/7/24,2024-07-07,written,1900,,90,90,clear,,single_read
+CMF_MSR_0724,169,CMF,G3,local,?,7/7/24,2024-07-07,written,1800,,90,90,clear,,two_reads_agree
+CMF_MSR_0724,169,CMF,G3,local,?,7/7/24,2024-07-07,written,1900,,90,90,clear,,two_reads_agree
 CMF_MSR_0724,169,CMF,G3,local,?,7/7/24,2024-07-07,written,2000,,89.2,89.2,clear,,single_read
 CMF_MSR_0724,169,CMF,G3,local,?,7/7/24,2024-07-07,written,2100,,88,88,clear,,single_read
 CMF_MSR_0724,169,CMF,G3,local,?,7/7/24,2024-07-07,written,2200,,88.7,88.7,clear,,single_read
@@ -41515,7 +41515,7 @@ CMF_MSR_1024,32,CMF,J-1,cmf_hourly,Sat,10-5-24,2024-10-05,written,1400,,85,85,cl
 CMF_MSR_1024,32,CMF,J-1,cmf_hourly,Sat,10-5-24,2024-10-05,written,1500,,85,85,clear,,single_read
 CMF_MSR_1024,32,CMF,J-1,cmf_hourly,Sat,10-5-24,2024-10-05,written,1600,,85,85,clear,,single_read
 CMF_MSR_1024,32,CMF,J-1,cmf_hourly,Sat,10-5-24,2024-10-05,written,1700,,84,84,clear,,single_read
-CMF_MSR_1024,32,CMF,J-1,cmf_hourly,Sat,10-5-24,2024-10-05,written,1800,,91,91,clear,,single_read
+CMF_MSR_1024,32,CMF,J-1,cmf_hourly,Sat,10-5-24,2024-10-05,written,1800,,91,91,clear,,two_reads_agree
 CMF_MSR_1024,32,CMF,J-1,cmf_hourly,Sat,10-5-24,2024-10-05,written,1900,,86,86,clear,,single_read
 CMF_MSR_1024,32,CMF,J-1,cmf_hourly,Sat,10-5-24,2024-10-05,written,2000,,83,83,clear,,single_read
 CMF_MSR_1024,32,CMF,J-2,cmf_hourly,Sat,10-5-24,2024-10-05,written,1200,,78,78,clear,,single_read
@@ -41587,7 +41587,7 @@ CMF_MSR_1024,32,CMF,R1 DORM,cmf_hourly,Sat,10-5-24,2024-10-05,written,1400,,78,7
 CMF_MSR_1024,32,CMF,R1 DORM,cmf_hourly,Sat,10-5-24,2024-10-05,written,1500,,79,79,clear,,single_read
 CMF_MSR_1024,32,CMF,R1 DORM,cmf_hourly,Sat,10-5-24,2024-10-05,written,1600,,78,78,clear,,single_read
 CMF_MSR_1024,32,CMF,R1 DORM,cmf_hourly,Sat,10-5-24,2024-10-05,written,1700,,78,78,clear,,single_read
-CMF_MSR_1024,32,CMF,R1 DORM,cmf_hourly,Sat,10-5-24,2024-10-05,written,1800,,83,83,clear,,single_read
+CMF_MSR_1024,32,CMF,R1 DORM,cmf_hourly,Sat,10-5-24,2024-10-05,written,1800,,83?,83,unsure,,single_read
 CMF_MSR_1024,32,CMF,R1 DORM,cmf_hourly,Sat,10-5-24,2024-10-05,written,1900,,81,81,clear,,single_read
 CMF_MSR_1024,32,CMF,R1 DORM,cmf_hourly,Sat,10-5-24,2024-10-05,written,2000,,-,,blank,,
 CMF_MSR_1024,32,CMF,T-WING,cmf_hourly,Sat,10-5-24,2024-10-05,written,1200,,75,75,clear,,single_read
@@ -42930,7 +42930,7 @@ CMF_MSR_1024,60,CMF,J-1,cmf_hourly,Mon,10/7/24,2024-10-07,written,1300,,85,85,cl
 CMF_MSR_1024,60,CMF,J-1,cmf_hourly,Mon,10/7/24,2024-10-07,written,1400,,80,80,clear,,single_read
 CMF_MSR_1024,60,CMF,J-1,cmf_hourly,Mon,10/7/24,2024-10-07,written,1500,,90,90,clear,,adjudicated
 CMF_MSR_1024,60,CMF,J-1,cmf_hourly,Mon,10/7/24,2024-10-07,written,1600,,90,90,clear,,researcher_review
-CMF_MSR_1024,60,CMF,J-1,cmf_hourly,Mon,10/7/24,2024-10-07,written,1700,,90,90,clear,,single_read
+CMF_MSR_1024,60,CMF,J-1,cmf_hourly,Mon,10/7/24,2024-10-07,written,1700,,90,90,clear,,two_reads_agree
 CMF_MSR_1024,60,CMF,J-1,cmf_hourly,Mon,10/7/24,2024-10-07,written,1800,,89,89,clear,,single_read
 CMF_MSR_1024,60,CMF,J-1,cmf_hourly,Mon,10/7/24,2024-10-07,written,1900,,88,88,clear,,single_read
 CMF_MSR_1024,60,CMF,J-1,cmf_hourly,Mon,10/7/24,2024-10-07,written,2000,,85,85,clear,,single_read

@@ -156,6 +156,18 @@ def third_read_cells():
                 for r in csv.DictReader(f)}
 
 
+def confirmed_cells():
+    """Rows of third_read_agrees.csv from the QA grid read (answer "QA Nov 16 grid: …"): two blind
+    readers gave the same full value with the tens digit certain, so the cell is published as
+    two_reads_agree (user, Nov 16 2026). Earlier gate rows keep their read_basis."""
+    p = SCAN / "gate" / "third_read_agrees.csv"
+    if not p.exists():
+        return set()
+    with open(p, newline="") as f:
+        return {(r["package"], r["page"], r["day"], r["time"], r["value_label"], r["unit_transcribed"])
+                for r in csv.DictReader(f) if r["answer"].startswith("QA Nov 16 grid")}
+
+
 def value_alt_cells():
     """Cells at 88+ where the threshold gate's blind read had the same tens digit but another
     units digit, with no Stage II/III line between them (Nov 16 2026,
@@ -204,6 +216,7 @@ def main(out_dir):
     user = researcher_cells()
     gate_ok = gate_ok_cells()
     third_ok = third_read_cells()
+    confirmed = confirmed_cells()
     value_alt = value_alt_cells()
     ufix = unit_fixes()
     pfix = unit_page_fixes()
@@ -262,6 +275,8 @@ def main(out_dir):
         elif r["status"] == "unsure" and gate_key(pkg, page, o, r, value_alt):
             o.update(status="ambiguous", temp_as_written=o["temp_as_written"].replace("?", ""),
                      alt_f=num(value_alt[gate_key(pkg, page, o, r, value_alt)]))
+        if o["read_basis"] == "single_read" and gate_key(pkg, page, o, r, confirmed):
+            o.update(read_basis="two_reads_agree")
         vals = multi.get((pkg, page, r["day"], r["time"])) if not r["housing_unit_as_written"].endswith("value)") else None
         if vals:
             for i, v in enumerate(vals, 1):

@@ -15495,7 +15495,7 @@ SATF_MSR_0724,60,SATF,CSATF / C8 2nd tier,cdcr_2031,Sun,7/7/24,2024-07-07,writte
 SATF_MSR_0724,60,SATF,CSATF / C8 2nd tier,cdcr_2031,Sun,7/7/24,2024-07-07,written,1800,,87.3,87.3,clear,,two_reads_agree
 SATF_MSR_0724,60,SATF,CSATF / C8 2nd tier,cdcr_2031,Sun,7/7/24,2024-07-07,written,2100,,87.4,87.4,clear,,two_reads_agree
 SATF_MSR_0724,60,SATF,CSATF / C8 2nd tier,cdcr_2031,Sun,7/7/24,2024-07-07,written,2400,,86.9,86.9,clear,,two_reads_agree_after_doubt
-SATF_MSR_0724,61,SATF,C8,satf_stage,Sun,7/7/24,2024-07-07,written,1730,,94,94,clear,,single_read
+SATF_MSR_0724,61,SATF,C8,satf_stage,Sun,7/7/24,2024-07-07,written,1730,,94,94,clear,,two_reads_agree
 SATF_MSR_0724,61,SATF,C8,satf_stage,Sun,7/7/24,2024-07-07,written,1800,,94,94,clear,,two_reads_agree
 SATF_MSR_0724,61,SATF,C8,satf_stage,Sun,7/7/24,2024-07-07,written,1900,,95,95,clear,,two_reads_agree
 SATF_MSR_0724,61,SATF,C8,satf_stage,Sun,7/7/24,2024-07-07,written,2000,,91,91,clear,,two_reads_agree
