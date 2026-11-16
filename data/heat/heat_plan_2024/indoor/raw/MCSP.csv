@@ -12423,11 +12423,11 @@ MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Fri,7/5/24,2024-07-05,written,2400,,89.2,89.
 MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Sat,7/6/24,2024-07-06,written,0300,,87.4,87.4,clear,,two_reads_agree
 MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Sat,7/6/24,2024-07-06,written,0600,,83,83,clear,,two_reads_agree
 MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Sat,7/6/24,2024-07-06,written,0900,,88,88,clear,,two_reads_agree
-MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Sat,7/6/24,2024-07-06,written,1200,,90?,90,unsure,,two_reads_agree
+MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Sat,7/6/24,2024-07-06,written,1200,,90,90,clear,,researcher_review
 MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Sat,7/6/24,2024-07-06,written,1500,,94.2,94.2,clear,,two_reads_agree
 MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Sat,7/6/24,2024-07-06,written,1800,,94.5,94.5,clear,,two_reads_agree
 MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Sat,7/6/24,2024-07-06,written,2100,,99,99,clear,,researcher_review
-MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Sat,7/6/24,2024-07-06,written,2400,,93?,93,unsure,,two_reads_agree
+MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Sat,7/6/24,2024-07-06,written,2400,,93,93,clear,,researcher_review
 MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Sun,7/7/24,2024-07-07,written,0300,,89,89,clear,,two_reads_agree
 MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Sun,7/7/24,2024-07-07,written,0600,,86,86,clear,,two_reads_agree
 MCSP_MSR_0724,42,MCSP,C11,cdcr_2031,Sun,7/7/24,2024-07-07,written,0900,,89,89,clear,,two_reads_agree

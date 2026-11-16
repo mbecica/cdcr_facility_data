@@ -10957,7 +10957,7 @@ CIW_MSR_0824,72,CIW,BARNEBERG A / BARNEBERG A,cdcr_2031,Mon,8/5,2024-08-05,writt
 CIW_MSR_0824,72,CIW,BARNEBERG A / BARNEBERG A,cdcr_2031,Mon,8/5,2024-08-05,written,1200,,82,82,clear,,two_reads_agree
 CIW_MSR_0824,72,CIW,BARNEBERG A / BARNEBERG A,cdcr_2031,Mon,8/5,2024-08-05,written,1500,,82,82,clear,,two_reads_agree
 CIW_MSR_0824,72,CIW,BARNEBERG A / BARNEBERG A,cdcr_2031,Mon,8/5,2024-08-05,written,1800,,90,90,clear,,two_reads_agree_after_doubt
-CIW_MSR_0824,72,CIW,BARNEBERG A / BARNEBERG A,cdcr_2031,Mon,8/5,2024-08-05,written,2100,,89?,89,unsure,,two_reads_agree
+CIW_MSR_0824,72,CIW,BARNEBERG A / BARNEBERG A,cdcr_2031,Mon,8/5,2024-08-05,written,2100,,89,89,clear,,two_reads_agree_after_doubt
 CIW_MSR_0824,72,CIW,BARNEBERG A / BARNEBERG A,cdcr_2031,Mon,8/5,2024-08-05,written,2400,,86,86,clear,,two_reads_agree
 CIW_MSR_0824,72,CIW,BARNEBERG A / BARNEBERG A,cdcr_2031,Tue,8/6,2024-08-06,written,0300,,85,85,clear,,two_reads_agree
 CIW_MSR_0824,72,CIW,BARNEBERG A / BARNEBERG A,cdcr_2031,Tue,8/6,2024-08-06,written,0600,,84,84,clear,,two_reads_agree

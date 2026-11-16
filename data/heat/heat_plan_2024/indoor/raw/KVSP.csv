@@ -10212,7 +10212,7 @@ KVSP_MSR_0624,31,KVSP,A6,cdcr_2031,Mon,6/24/24,2024-06-24,written,0600,,89,89,cl
 KVSP_MSR_0624,31,KVSP,A6,cdcr_2031,Mon,6/24/24,2024-06-24,written,0900,,89,89,clear,,two_reads_agree
 KVSP_MSR_0624,31,KVSP,A6,cdcr_2031,Mon,6/24/24,2024-06-24,written,1200,,89,89,clear,,two_reads_agree
 KVSP_MSR_0624,31,KVSP,A6,cdcr_2031,Mon,6/24/24,2024-06-24,written,1500,,89,89,clear,,two_reads_agree
-KVSP_MSR_0624,31,KVSP,A6,cdcr_2031,Mon,6/24/24,2024-06-24,written,1800,,89?,89,unsure,,two_reads_agree
+KVSP_MSR_0624,31,KVSP,A6,cdcr_2031,Mon,6/24/24,2024-06-24,written,1800,,89,89,clear,,researcher_review
 KVSP_MSR_0624,31,KVSP,A6,cdcr_2031,Mon,6/24/24,2024-06-24,written,2100,,88,88,clear,,two_reads_agree
 KVSP_MSR_0624,31,KVSP,A6,cdcr_2031,Mon,6/24/24,2024-06-24,written,2400,,80,80,clear,,adjudicated
 KVSP_MSR_0624,31,KVSP,A6,cdcr_2031,Tue,6/25/24,2024-06-25,written,0300,,88,88,clear,,two_reads_agree

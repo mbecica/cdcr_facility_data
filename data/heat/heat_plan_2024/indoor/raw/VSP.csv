@@ -4692,7 +4692,7 @@ VSP_MSR_0624,9,VSP,A4,cdcr_2031,Wed,6/5,2024-06-05,written,0600,,73,73,clear,,tw
 VSP_MSR_0624,9,VSP,A4,cdcr_2031,Wed,6/5,2024-06-05,written,0900,,76,76,clear,,two_reads_agree
 VSP_MSR_0624,9,VSP,A4,cdcr_2031,Wed,6/5,2024-06-05,written,1200,,79,79,clear,,two_reads_agree
 VSP_MSR_0624,9,VSP,A4,cdcr_2031,Wed,6/5,2024-06-05,written,1500,,87,87,clear,,two_reads_agree
-VSP_MSR_0624,9,VSP,A4,cdcr_2031,Wed,6/5,2024-06-05,written,1800,,88?,88,unsure,,two_reads_agree
+VSP_MSR_0624,9,VSP,A4,cdcr_2031,Wed,6/5,2024-06-05,written,1800,,88,88,clear,,two_reads_agree_after_doubt
 VSP_MSR_0624,9,VSP,A4,cdcr_2031,Wed,6/5,2024-06-05,written,2100,,86,86,clear,,two_reads_agree
 VSP_MSR_0624,9,VSP,A4,cdcr_2031,Wed,6/5,2024-06-05,written,2400,,83,83,clear,,two_reads_agree
 VSP_MSR_0624,9,VSP,A4,cdcr_2031,Thu,6-6-24,2024-06-06,written,0300,,80,80,clear,,two_reads_agree

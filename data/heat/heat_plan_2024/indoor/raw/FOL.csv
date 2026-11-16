@@ -1795,7 +1795,7 @@ FOL_MSR_0624,23,FOL,#2,cdcr_2031,Thu,6/6,2024-06-06,written,0300,,81.3,81.3,clea
 FOL_MSR_0624,23,FOL,#2,cdcr_2031,Thu,6/6,2024-06-06,written,0600,,81.4,81.4,clear,,two_reads_agree
 FOL_MSR_0624,23,FOL,#2,cdcr_2031,Thu,6/6,2024-06-06,written,0900,,84.1,84.1,clear,,two_reads_agree
 FOL_MSR_0624,23,FOL,#2,cdcr_2031,Thu,6/6,2024-06-06,written,1200,,86.4|96.4,86.4,ambiguous,96.4,two_reads_agree
-FOL_MSR_0624,23,FOL,#2,cdcr_2031,Thu,6/6,2024-06-06,written,1500,,91.3?,91.3,unsure,,two_reads_agree
+FOL_MSR_0624,23,FOL,#2,cdcr_2031,Thu,6/6,2024-06-06,written,1500,,91.3,91.3,clear,,researcher_review
 FOL_MSR_0624,23,FOL,#2,cdcr_2031,Thu,6/6,2024-06-06,written,1800,,92.5,92.5,clear,,two_reads_agree
 FOL_MSR_0624,23,FOL,#2,cdcr_2031,Thu,6/6,2024-06-06,written,2100,,92.3,92.3,clear,,two_reads_agree
 FOL_MSR_0624,23,FOL,#2,cdcr_2031,Thu,6/6,2024-06-06,written,2400,,84.0,84.0,clear,,two_reads_agree
@@ -2727,7 +2727,7 @@ FOL_MSR_0624,67,FOL,1,cdcr_2031,Mon,6/24/24,2024-06-24,written,1500,,88.4,88.4,c
 FOL_MSR_0624,67,FOL,1,cdcr_2031,Mon,6/24/24,2024-06-24,written,1800,,89.8,89.8,clear,,single_read
 FOL_MSR_0624,67,FOL,1,cdcr_2031,Mon,6/24/24,2024-06-24,written,2100,,88.2,88.2,clear,,single_read
 FOL_MSR_0624,67,FOL,1,cdcr_2031,Mon,6/24/24,2024-06-24,written,2400,,86.3,86.3,clear,,two_reads_agree
-FOL_MSR_0624,67,FOL,1,cdcr_2031,Tue,6/25/24,2024-06-25,written,0300,,89.0?,89.0,unsure,,single_read
+FOL_MSR_0624,67,FOL,1,cdcr_2031,Tue,6/25/24,2024-06-25,written,0300,,89.0,89.0,clear,,single_read
 FOL_MSR_0624,67,FOL,1,cdcr_2031,Tue,6/25/24,2024-06-25,written,0600,,82.9,82.9,clear,,two_reads_agree
 FOL_MSR_0624,67,FOL,1,cdcr_2031,Tue,6/25/24,2024-06-25,written,0900,,83.4,83.4,clear,,single_read
 FOL_MSR_0624,67,FOL,1,cdcr_2031,Tue,6/25/24,2024-06-25,written,1200,,85.3,85.3,clear,,two_reads_agree
@@ -3115,8 +3115,8 @@ FOL_MSR_0726,8,FOL,2 / 3rd Tier,cdcr_2031,Mon,7-1,2024-07-01,written,0300,,81.8,
 FOL_MSR_0726,8,FOL,2 / 3rd Tier,cdcr_2031,Mon,7-1,2024-07-01,written,0600,,79.5,79.5,clear,,two_reads_agree
 FOL_MSR_0726,8,FOL,2 / 3rd Tier,cdcr_2031,Mon,7-1,2024-07-01,written,0900,,81.6,81.6,clear,,two_reads_agree
 FOL_MSR_0726,8,FOL,2 / 3rd Tier,cdcr_2031,Mon,7-1,2024-07-01,written,1200,,83.5,83.5,clear,,researcher_review
-FOL_MSR_0726,8,FOL,2 / 3rd Tier,cdcr_2031,Mon,7-1,2024-07-01,written,1500,,88.8?,88.8,unsure,,adjudicated
-FOL_MSR_0726,8,FOL,2 / 3rd Tier,cdcr_2031,Mon,7-1,2024-07-01,written,1800,,88.6?,88.6,unsure,,adjudicated
+FOL_MSR_0726,8,FOL,2 / 3rd Tier,cdcr_2031,Mon,7-1,2024-07-01,written,1500,,88.8,88.8,clear,,adjudicated_by_context
+FOL_MSR_0726,8,FOL,2 / 3rd Tier,cdcr_2031,Mon,7-1,2024-07-01,written,1800,,88.8,88.8,clear,,researcher_review
 FOL_MSR_0726,8,FOL,2 / 3rd Tier,cdcr_2031,Mon,7-1,2024-07-01,written,2100,,87.6,87.6,clear,,two_reads_agree
 FOL_MSR_0726,8,FOL,2 / 3rd Tier,cdcr_2031,Mon,7-1,2024-07-01,written,2400,,85.2,85.2,clear,,two_reads_agree
 FOL_MSR_0726,8,FOL,2 / 3rd Tier,cdcr_2031,Tue,7-2,2024-07-02,written,0300,,81.8|83.8,81.8,ambiguous,83.8,adjudicated
@@ -3182,11 +3182,11 @@ FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Tue,7.2.24,2024-07-02,written,1200,,89
 FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Tue,7.2.24,2024-07-02,written,1500,,90.7,90.7,clear,,two_reads_agree
 FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Tue,7.2.24,2024-07-02,written,1800,,90.9,90.9,clear,,two_reads_agree
 FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Tue,7.2.24,2024-07-02,written,2100,,90.2,90.2,clear,,two_reads_agree
-FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Tue,7.2.24,2024-07-02,written,2400,,88.1?,88.1,unsure,,two_reads_agree
+FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Tue,7.2.24,2024-07-02,written,2400,,88.7,88.7,clear,,researcher_review
 FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Wed,7.3.24,2024-07-03,written,0300,,85.7,85.7,clear,,two_reads_agree
 FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Wed,7.3.24,2024-07-03,written,0600,,86,86,clear,,two_reads_agree_after_doubt
-FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Wed,7.3.24,2024-07-03,written,0900,,89?,89,unsure,,adjudicated
-FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Wed,7.3.24,2024-07-03,written,1200,,89.9?,89.9,unsure,,adjudicated
+FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Wed,7.3.24,2024-07-03,written,0900,,89,89,clear,,adjudicated
+FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Wed,7.3.24,2024-07-03,written,1200,,89.9,89.9,ambiguous,84.9,adjudicated
 FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Wed,7.3.24,2024-07-03,written,1500,,93.1,93.1,clear,,two_reads_agree
 FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Wed,7.3.24,2024-07-03,written,1800,,93.4,93.4,clear,,two_reads_agree
 FOL_MSR_0726,9,FOL,3 / 3RD Tier,cdcr_2031,Wed,7.3.24,2024-07-03,written,2100,,90.7,90.7,clear,,two_reads_agree
@@ -3348,14 +3348,14 @@ FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Tue,7/9/24,2024-07-09,written,0600,,8
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Tue,7/9/24,2024-07-09,written,0900,,78.1,78.1,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Tue,7/9/24,2024-07-09,written,1200,,83.8,83.8,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Tue,7/9/24,2024-07-09,written,1500,,85.6,85.6,clear,,two_reads_agree
-FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Tue,7/9/24,2024-07-09,written,1800,,90.2?,90.2,unsure,,two_reads_agree
+FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Tue,7/9/24,2024-07-09,written,1800,,90.2,90.2,clear,,researcher_review
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Tue,7/9/24,2024-07-09,written,2100,,87.2,87.2,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Tue,7/9/24,2024-07-09,written,2400,,83.5,83.5,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/10/24,2024-07-10,written,0300,,82.8,82.8,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/10/24,2024-07-10,written,0600,,83.6,83.6,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/10/24,2024-07-10,written,0900,,84.9,84.9,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/10/24,2024-07-10,written,1200,,86.2,86.2,clear,,two_reads_agree
-FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/10/24,2024-07-10,written,1500,,90.6?,90.6,unsure,,two_reads_agree
+FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/10/24,2024-07-10,written,1500,,90.6,90.6,clear,,adjudicated_by_context
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/10/24,2024-07-10,written,1800,,93.1,93.1,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/10/24,2024-07-10,written,2100,,92.0,92.0,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/10/24,2024-07-10,written,2400,,89.7,89.7,clear,,two_reads_agree
@@ -3372,7 +3372,7 @@ FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Fri,7/12/24,2024-07-12,written,0600,,
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Fri,7/12/24,2024-07-12,written,0900,,87.9,87.9,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Fri,7/12/24,2024-07-12,written,1200,,90.5,90.5,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Fri,7/12/24,2024-07-12,written,1500,,93.8,93.8,clear,,two_reads_agree
-FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Fri,7/12/24,2024-07-12,written,1800,,96.2?,96.2,unsure,,two_reads_agree
+FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Fri,7/12/24,2024-07-12,written,1800,,96.2,96.2,clear,,researcher_review
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Fri,7/12/24,2024-07-12,written,2100,,95,95,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Fri,7/12/24,2024-07-12,written,2400,,90.9,90.9,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Sat,7/13/24,2024-07-13,written,0300,,89.7,89.7,clear,,two_reads_agree
@@ -3388,7 +3388,7 @@ FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/14/24,2024-07-14,written,0600,,
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/14/24,2024-07-14,written,0900,,79.7,79.7,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/14/24,2024-07-14,written,1200,,83.9,83.9,clear,,adjudicated
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/14/24,2024-07-14,written,1500,,87.1,87.1,clear,,two_reads_agree_after_doubt
-FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/14/24,2024-07-14,written,1800,,89.4?,89.4,unsure,,two_reads_agree
+FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/14/24,2024-07-14,written,1800,,89.4,89.4,clear,,two_reads_agree_after_doubt
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/14/24,2024-07-14,written,2100,,88.4,88.4,clear,,two_reads_agree
 FOL_MSR_0726,21,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/14/24,2024-07-14,written,2400,,85.2,85.2,clear,,two_reads_agree_after_doubt
 FOL_MSR_0726,22,FOL,2 / 3rd Tier,cdcr_2031,Mon,7-8,2024-07-08,written,0300,,84.7,84.7,clear,,two_reads_agree
@@ -3421,7 +3421,7 @@ FOL_MSR_0726,22,FOL,2 / 3rd Tier,cdcr_2031,Thu,7-11,2024-07-11,written,0900,,86.
 FOL_MSR_0726,22,FOL,2 / 3rd Tier,cdcr_2031,Thu,7-11,2024-07-11,written,1200,,88.5,88.5,clear,,two_reads_agree_after_doubt
 FOL_MSR_0726,22,FOL,2 / 3rd Tier,cdcr_2031,Thu,7-11,2024-07-11,written,1500,,91.2,91.2,clear,,two_reads_agree
 FOL_MSR_0726,22,FOL,2 / 3rd Tier,cdcr_2031,Thu,7-11,2024-07-11,written,1800,,92.4,92.4,clear,,two_reads_agree
-FOL_MSR_0726,22,FOL,2 / 3rd Tier,cdcr_2031,Thu,7-11,2024-07-11,written,2100,,89.4?,89.4,unsure,,two_reads_agree
+FOL_MSR_0726,22,FOL,2 / 3rd Tier,cdcr_2031,Thu,7-11,2024-07-11,written,2100,,89.4,89.4,clear,,researcher_review
 FOL_MSR_0726,22,FOL,2 / 3rd Tier,cdcr_2031,Thu,7-11,2024-07-11,written,2400,,88.1,88.1,clear,,two_reads_agree
 FOL_MSR_0726,22,FOL,2 / 3rd Tier,cdcr_2031,Fri,7-12,2024-07-12,written,0300,,86.3,86.3,clear,,two_reads_agree
 FOL_MSR_0726,22,FOL,2 / 3rd Tier,cdcr_2031,Fri,7-12,2024-07-12,written,0600,,84.6,84.6,clear,,two_reads_agree
@@ -3478,7 +3478,7 @@ FOL_MSR_0726,23,FOL,3 / 3RD Tier,cdcr_2031,Thu,7.11.24,2024-07-11,written,1200,,
 FOL_MSR_0726,23,FOL,3 / 3RD Tier,cdcr_2031,Thu,7.11.24,2024-07-11,written,1500,,93.4,93.4,clear,,two_reads_agree
 FOL_MSR_0726,23,FOL,3 / 3RD Tier,cdcr_2031,Thu,7.11.24,2024-07-11,written,1800,,95.2,95.2,clear,,two_reads_agree
 FOL_MSR_0726,23,FOL,3 / 3RD Tier,cdcr_2031,Thu,7.11.24,2024-07-11,written,2100,,91.3,91.3,clear,,researcher_review
-FOL_MSR_0726,23,FOL,3 / 3RD Tier,cdcr_2031,Thu,7.11.24,2024-07-11,written,2400,,89.3?,89.3,unsure,,adjudicated
+FOL_MSR_0726,23,FOL,3 / 3RD Tier,cdcr_2031,Thu,7.11.24,2024-07-11,written,2400,,89.3,89.3,clear,,researcher_review
 FOL_MSR_0726,23,FOL,3 / 3RD Tier,cdcr_2031,Fri,7.12.24,2024-07-12,written,0300,,88.1,88.1,clear,,two_reads_agree
 FOL_MSR_0726,23,FOL,3 / 3RD Tier,cdcr_2031,Fri,7.12.24,2024-07-12,written,0600,,86.0,86.0,clear,,two_reads_agree
 FOL_MSR_0726,23,FOL,3 / 3RD Tier,cdcr_2031,Fri,7.12.24,2024-07-12,written,0900,,87.6,87.6,clear,,two_reads_agree_after_doubt
@@ -3505,7 +3505,7 @@ FOL_MSR_0726,23,FOL,3 / 3RD Tier,cdcr_2031,Sun,7.14.24,2024-07-14,written,2100,,
 FOL_MSR_0726,23,FOL,3 / 3RD Tier,cdcr_2031,Sun,7.14.24,2024-07-14,written,2400,,84.7,84.7,clear,,two_reads_agree
 FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Mon,7/08/24,2024-07-08,written,0300,,91.4,91.4,clear,,two_reads_agree
 FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Mon,7/08/24,2024-07-08,written,0600,,89.6,89.6,clear,,two_reads_agree
-FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Mon,7/08/24,2024-07-08,written,0900,,88.7?,88.7,unsure,,two_reads_agree
+FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Mon,7/08/24,2024-07-08,written,0900,,88.7,88.7,clear,,researcher_review
 FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Mon,7/08/24,2024-07-08,written,1200,,89.2,89.2,clear,,two_reads_agree
 FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Mon,7/08/24,2024-07-08,written,1500,,91.3,91.3,clear,,two_reads_agree
 FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Mon,7/08/24,2024-07-08,written,1800,,92.7,92.7,clear,,two_reads_agree
@@ -3515,7 +3515,7 @@ FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Tue,7/09/24,2024-07-09,written,030
 FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Tue,7/09/24,2024-07-09,written,0600,,86.7,86.7,clear,,two_reads_agree
 FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Tue,7/09/24,2024-07-09,written,0900,,85.2,85.2,clear,,two_reads_agree
 FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Tue,7/09/24,2024-07-09,written,1200,,85.4,85.4,clear,,two_reads_agree
-FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Tue,7/09/24,2024-07-09,written,1500,,89.2?,89.2,unsure,,adjudicated
+FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Tue,7/09/24,2024-07-09,written,1500,,89.2,89.2,clear,,researcher_review
 FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Tue,7/09/24,2024-07-09,written,1800,,89.8|89.9,89.8,ambiguous,89.9,adjudicated
 FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Tue,7/09/24,2024-07-09,written,2100,,89.4,89.4,clear,,two_reads_agree
 FOL_MSR_0726,24,FOL,FOUR / 3RD TIER,cdcr_2031,Tue,7/09/24,2024-07-09,written,2400,,89.0,89.0,clear,,two_reads_agree
@@ -3725,7 +3725,7 @@ FOL_MSR_0726,36,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/21/24,2024-07-21,written,0900,,
 FOL_MSR_0726,36,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/21/24,2024-07-21,written,1200,,84.0,84.0,clear,,two_reads_agree_after_doubt
 FOL_MSR_0726,36,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/21/24,2024-07-21,written,1500,,87.9,87.9,clear,,two_reads_agree_after_doubt
 FOL_MSR_0726,36,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/21/24,2024-07-21,written,1800,,89.1|99.1,89.1,ambiguous,99.1,adjudicated_by_context
-FOL_MSR_0726,36,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/21/24,2024-07-21,written,2100,,88.7?,88.7,unsure,,two_reads_agree
+FOL_MSR_0726,36,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/21/24,2024-07-21,written,2100,,88.7,88.7,clear,,two_reads_agree_after_doubt
 FOL_MSR_0726,36,FOL,1 / 3rd Tier,cdcr_2031,Sun,7/21/24,2024-07-21,written,2400,,87.1,87.1,clear,,two_reads_agree
 FOL_MSR_0726,37,FOL,Folsom State Prison / 2 / 3RD TIER,cdcr_2031,Mon,7/15,2024-07-15,written,0300,,76.9,76.9,clear,,two_reads_agree_after_doubt
 FOL_MSR_0726,37,FOL,Folsom State Prison / 2 / 3RD TIER,cdcr_2031,Mon,7/15,2024-07-15,written,0600,,77.5,77.5,clear,,two_reads_agree
@@ -4023,7 +4023,7 @@ FOL_MSR_0726,51,FOL,1 / 3rd Tier,cdcr_2031,Tue,7/23/24,2024-07-23,written,1500,,
 FOL_MSR_0726,51,FOL,1 / 3rd Tier,cdcr_2031,Tue,7/23/24,2024-07-23,written,1800,,95.2,95.2,clear,,two_reads_agree
 FOL_MSR_0726,51,FOL,1 / 3rd Tier,cdcr_2031,Tue,7/23/24,2024-07-23,written,2100,,94.3,94.3,clear,,two_reads_agree
 FOL_MSR_0726,51,FOL,1 / 3rd Tier,cdcr_2031,Tue,7/23/24,2024-07-23,written,2400,,91.0,91.0,clear,,two_reads_agree_after_doubt
-FOL_MSR_0726,51,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/24/24,2024-07-24,written,0300,,89.5?,89.5,unsure,,two_reads_agree
+FOL_MSR_0726,51,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/24/24,2024-07-24,written,0300,,89.5,89.5,clear,,researcher_review
 FOL_MSR_0726,51,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/24/24,2024-07-24,written,0600,,86.9,86.9,clear,,two_reads_agree
 FOL_MSR_0726,51,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/24/24,2024-07-24,written,0900,,88.1,88.1,clear,,two_reads_agree
 FOL_MSR_0726,51,FOL,1 / 3rd Tier,cdcr_2031,Wed,7/24/24,2024-07-24,written,1200,,91.0,91.0,clear,,two_reads_agree
@@ -4122,7 +4122,7 @@ FOL_MSR_0726,52,FOL,#2 / 3RD TIER,cdcr_2031,Sun,7/28,2024-07-28,written,2400,,74
 FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Mon,7/22/24,2024-07-22,written,0300,,84.4,84.4,clear,,two_reads_agree_after_doubt
 FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Mon,7/22/24,2024-07-22,written,0600,,82.6,82.6,clear,,two_reads_agree
 FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Mon,7/22/24,2024-07-22,written,0900,,83.9,83.9,clear,,two_reads_agree
-FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Mon,7/22/24,2024-07-22,written,1200,,89.9?,89.9,unsure,,two_reads_agree
+FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Mon,7/22/24,2024-07-22,written,1200,,89.9,89.9,clear,,adjudicated_by_context
 FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Mon,7/22/24,2024-07-22,written,1500,,85.6,85.6,clear,,two_reads_agree_after_doubt
 FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Mon,7/22/24,2024-07-22,written,1800,,89.7,89.7,clear,,adjudicated
 FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Mon,7/22/24,2024-07-22,written,2100,,88.8,88.8,clear,,two_reads_agree
@@ -4146,10 +4146,10 @@ FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Wed,7/24/24,2024-07-24,written,2400,,
 FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Thu,7/25/24,2024-07-25,written,0300,,86.1,86.1,clear,,two_reads_agree
 FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Thu,7/25/24,2024-07-25,written,0600,,85.0,85.0,clear,,two_reads_agree
 FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Thu,7/25/24,2024-07-25,written,0900,,88.7,88.7,clear,,two_reads_agree
-FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Thu,7/25/24,2024-07-25,written,1200,,89.0?,89.0,unsure,,two_reads_agree
+FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Thu,7/25/24,2024-07-25,written,1200,,89.0,89.0,clear,,two_reads_agree_after_doubt
 FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Thu,7/25/24,2024-07-25,written,1500,,89.4,89.4,clear,,two_reads_agree
-FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Thu,7/25/24,2024-07-25,written,1800,,91.1?,91.1,unsure,,two_reads_agree
-FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Thu,7/25/24,2024-07-25,written,2100,,88.7?,88.7,unsure,,two_reads_agree
+FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Thu,7/25/24,2024-07-25,written,1800,,91.1,91.1,clear,,two_reads_agree_after_doubt
+FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Thu,7/25/24,2024-07-25,written,2100,,88.7,88.7,clear,,researcher_review
 FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Thu,7/25/24,2024-07-25,written,2400,,85.5,85.5,clear,,two_reads_agree
 FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Fri,7/26/24,2024-07-26,written,0300,,84.3,84.3,clear,,two_reads_agree
 FOL_MSR_0726,53,FOL,3 / 3rd tier,cdcr_2031,Fri,7/26/24,2024-07-26,written,0600,,83.7?,83.7,unsure,,adjudicated
@@ -4193,11 +4193,11 @@ FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Tue,7/23/24,2024-07-23,written,210
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Tue,7/23/24,2024-07-23,written,2400,,92.3,92.3,clear,,single_read
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Wed,7/24/24,2024-07-24,written,0300,,90.3,90.3,clear,,two_reads_agree
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Wed,7/24/24,2024-07-24,written,0600,,89.0,89.0,clear,,two_reads_agree
-FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Wed,7/24/24,2024-07-24,written,0900,,89.4?,89.4,unsure,,two_reads_agree
+FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Wed,7/24/24,2024-07-24,written,0900,,89.4,89.4,clear,,researcher_review
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Wed,7/24/24,2024-07-24,written,1200,,89.8|88.8,89.8,ambiguous,88.8,adjudicated
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Wed,7/24/24,2024-07-24,written,1500,,91.9,91.9,clear,,two_reads_agree_after_doubt
-FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Wed,7/24/24,2024-07-24,written,1800,,93.4?,93.4,unsure,,two_reads_agree
-FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Wed,7/24/24,2024-07-24,written,2100,,92.4?,92.4,unsure,,two_reads_agree
+FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Wed,7/24/24,2024-07-24,written,1800,,93.4,93.4,clear,,adjudicated_by_context
+FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Wed,7/24/24,2024-07-24,written,2100,,92.4,92.4,clear,,adjudicated_by_context
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Wed,7/24/24,2024-07-24,written,2400,,90.6,90.6,clear,,two_reads_agree
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Thu,7/25/24,2024-07-25,written,0300,,89.5,89.5,clear,,two_reads_agree
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Thu,7/25/24,2024-07-25,written,0600,,88.7,88.7,clear,,two_reads_agree_after_doubt
@@ -4207,7 +4207,7 @@ FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Thu,7/25/24,2024-07-25,written,150
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Thu,7/25/24,2024-07-25,written,1800,,91.9,91.9,clear,,two_reads_agree
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Thu,7/25/24,2024-07-25,written,2100,,91.1,91.1,clear,,two_reads_agree
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Thu,7/25/24,2024-07-25,written,2400,,90.5,90.5,clear,,two_reads_agree
-FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Fri,7/26/24,2024-07-26,written,0300,,90.1?,90.1,unsure,,two_reads_agree
+FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Fri,7/26/24,2024-07-26,written,0300,,90.1,90.1,clear,,researcher_review
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Fri,7/26/24,2024-07-26,written,0600,,89.0,89.0,clear,,two_reads_agree
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Fri,7/26/24,2024-07-26,written,0900,,87.4,87.4,clear,,two_reads_agree
 FOL_MSR_0726,54,FOL,FOUR / 3RD TIER,cdcr_2031,Fri,7/26/24,2024-07-26,written,1200,,89.4,89.4,clear,,two_reads_agree
@@ -4491,7 +4491,7 @@ FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Fri,8/2/24,2024-08-02,written,0300,,8
 FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Fri,8/2/24,2024-08-02,written,0600,,79.9,79.9,clear,,two_reads_agree
 FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Fri,8/2/24,2024-08-02,written,0900,,80.1,80.1,clear,,two_reads_agree
 FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Fri,8/2/24,2024-08-02,written,1200,,82.5,82.5,clear,,researcher_review
-FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Fri,8/2/24,2024-08-02,written,1500,,89.6?,89.6,unsure,,two_reads_agree
+FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Fri,8/2/24,2024-08-02,written,1500,,89.6,89.6,clear,,two_reads_agree_after_doubt
 FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Fri,8/2/24,2024-08-02,written,1800,,85.9,85.9,clear,,two_reads_agree
 FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Fri,8/2/24,2024-08-02,written,2100,,84.7,84.7,clear,,two_reads_agree
 FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Fri,8/2/24,2024-08-02,written,2400,,83.4|85.4,83.4,ambiguous,85.4,adjudicated
@@ -4508,7 +4508,7 @@ FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Sun,8/4/24,2024-08-04,written,0600,,8
 FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Sun,8/4/24,2024-08-04,written,0900,,83.5,83.5,clear,,two_reads_agree_after_doubt
 FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Sun,8/4/24,2024-08-04,written,1200,,84.6?,84.6,unsure,,adjudicated
 FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Sun,8/4/24,2024-08-04,written,1500,,83.1,83.1,clear,,two_reads_agree_after_doubt
-FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Sun,8/4/24,2024-08-04,written,1800,,88.9?,88.9,unsure,,two_reads_agree
+FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Sun,8/4/24,2024-08-04,written,1800,,88.9,88.9,clear,,adjudicated_by_context
 FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Sun,8/4/24,2024-08-04,written,2100,,86.7,86.7,clear,,two_reads_agree
 FOL_MSR_0726,66,FOL,3 / 3rd Tier,cdcr_2031,Sun,8/4/24,2024-08-04,written,2400,,82.7,82.7,clear,,two_reads_agree
 FOL_MSR_0726,67,FOL,FOUR / 3RD TIER,cdcr_2031,Mon,7/29/24,2024-07-29,written,0300,,79.7,79.7,clear,,two_reads_agree
@@ -5036,7 +5036,7 @@ FOL_MSR_0824,20,FOL,1,cdcr_2031,Wed,8/7/24,2024-08-07,written,0600,,82.9,82.9,cl
 FOL_MSR_0824,20,FOL,1,cdcr_2031,Wed,8/7/24,2024-08-07,written,0900,,83.8,83.8,clear,,two_reads_agree
 FOL_MSR_0824,20,FOL,1,cdcr_2031,Wed,8/7/24,2024-08-07,written,1200,,88.1|85.9,88.1,ambiguous,85.9,adjudicated
 FOL_MSR_0824,20,FOL,1,cdcr_2031,Wed,8/7/24,2024-08-07,written,1500,,90.3,90.3,clear,,two_reads_agree
-FOL_MSR_0824,20,FOL,1,cdcr_2031,Wed,8/7/24,2024-08-07,written,1800,,91.7?,91.7,unsure,,two_reads_agree
+FOL_MSR_0824,20,FOL,1,cdcr_2031,Wed,8/7/24,2024-08-07,written,1800,,91.7,91.7,clear,,researcher_review
 FOL_MSR_0824,20,FOL,1,cdcr_2031,Wed,8/7/24,2024-08-07,written,2100,,80.4,80.4,clear,,two_reads_agree
 FOL_MSR_0824,20,FOL,1,cdcr_2031,Wed,8/7/24,2024-08-07,written,2400,,84.6,84.6,clear,,two_reads_agree
 FOL_MSR_0824,20,FOL,1,cdcr_2031,Thu,8/8/24,2024-08-08,written,0300,,81.8,81.8,clear,,two_reads_agree
@@ -6732,8 +6732,8 @@ FOL_MSR_0924,26,FOL,1,cdcr_2031,Fri,9/6/24,2024-09-06,written,0600,,82.3,82.3,cl
 FOL_MSR_0924,26,FOL,1,cdcr_2031,Fri,9/6/24,2024-09-06,written,0900,,83.7,83.7,clear,,two_reads_agree
 FOL_MSR_0924,26,FOL,1,cdcr_2031,Fri,9/6/24,2024-09-06,written,1200,,87.1,87.1,clear,,two_reads_agree_after_doubt
 FOL_MSR_0924,26,FOL,1,cdcr_2031,Fri,9/6/24,2024-09-06,written,1500,,84.2,84.2,clear,,adjudicated
-FOL_MSR_0924,26,FOL,1,cdcr_2031,Fri,9/6/24,2024-09-06,written,1800,,90.8?,90.8,unsure,,two_reads_agree
-FOL_MSR_0924,26,FOL,1,cdcr_2031,Fri,9/6/24,2024-09-06,written,2100,,89.7?,89.7,unsure,,two_reads_agree
+FOL_MSR_0924,26,FOL,1,cdcr_2031,Fri,9/6/24,2024-09-06,written,1800,,90.8,90.8,clear,,two_reads_agree_after_doubt
+FOL_MSR_0924,26,FOL,1,cdcr_2031,Fri,9/6/24,2024-09-06,written,2100,,89.7,89.7,clear,,two_reads_agree_after_doubt
 FOL_MSR_0924,26,FOL,1,cdcr_2031,Fri,9/6/24,2024-09-06,written,2400,,86.6,86.6,clear,,two_reads_agree
 FOL_MSR_0924,26,FOL,1,cdcr_2031,Sat,9/7/24,2024-09-07,written,0300,,85.3,85.3,clear,,two_reads_agree
 FOL_MSR_0924,26,FOL,1,cdcr_2031,Sat,9/7/24,2024-09-07,written,0600,,83.0,83.0,clear,,two_reads_agree
@@ -6748,7 +6748,7 @@ FOL_MSR_0924,26,FOL,1,cdcr_2031,Sun,9/8/24,2024-09-08,written,0600,,81.8,81.8,cl
 FOL_MSR_0924,26,FOL,1,cdcr_2031,Sun,9/8/24,2024-09-08,written,0900,,85.9,85.9,clear,,two_reads_agree
 FOL_MSR_0924,26,FOL,1,cdcr_2031,Sun,9/8/24,2024-09-08,written,1200,,86.9|86.7,86.9,ambiguous,86.7,adjudicated
 FOL_MSR_0924,26,FOL,1,cdcr_2031,Sun,9/8/24,2024-09-08,written,1500,,89.1,89.1,clear,,two_reads_agree
-FOL_MSR_0924,26,FOL,1,cdcr_2031,Sun,9/8/24,2024-09-08,written,1800,,89.7?,89.7,unsure,,two_reads_agree
+FOL_MSR_0924,26,FOL,1,cdcr_2031,Sun,9/8/24,2024-09-08,written,1800,,89.7,89.7,clear,,two_reads_agree_after_doubt
 FOL_MSR_0924,26,FOL,1,cdcr_2031,Sun,9/8/24,2024-09-08,written,2100,,87.7|81.7,87.7,ambiguous,81.7,adjudicated
 FOL_MSR_0924,26,FOL,1,cdcr_2031,Sun,9/8/24,2024-09-08,written,2400,,85.4,85.4,clear,,two_reads_agree
 FOL_MSR_0924,27,FOL,2,cdcr_2031,Mon,9-2,2024-09-02,written,0300,,75.5,75.5,clear,,two_reads_agree

@@ -6788,7 +6788,7 @@ SQ_MSR_1024,24,SQ,Alpine / 1st / 5th Tier,cdcr_2031,Mon,10/7/24,2024-10-07,writt
 SQ_MSR_1024,24,SQ,Alpine / 1st / 5th Tier,cdcr_2031,Mon,10/7/24,2024-10-07,written,0900,,75,75,clear,,two_reads_agree
 SQ_MSR_1024,24,SQ,Alpine / 1st / 5th Tier,cdcr_2031,Mon,10/7/24,2024-10-07,written,1200,,74|79,74,ambiguous,79,adjudicated
 SQ_MSR_1024,24,SQ,Alpine / 1st / 5th Tier,cdcr_2031,Mon,10/7/24,2024-10-07,written,1500,,84,84,clear,,two_reads_agree
-SQ_MSR_1024,24,SQ,Alpine / 1st / 5th Tier,cdcr_2031,Mon,10/7/24,2024-10-07,written,1800,,89?,89,unsure,,two_reads_agree
+SQ_MSR_1024,24,SQ,Alpine / 1st / 5th Tier,cdcr_2031,Mon,10/7/24,2024-10-07,written,1800,,89,89,clear,,two_reads_agree_after_doubt
 SQ_MSR_1024,24,SQ,Alpine / 1st / 5th Tier,cdcr_2031,Mon,10/7/24,2024-10-07,written,2100,,82,82,clear,,adjudicated
 SQ_MSR_1024,24,SQ,Alpine / 1st / 5th Tier,cdcr_2031,Tue,10/8/24,2024-10-08,written,0000,,74,74,clear,,two_reads_agree
 SQ_MSR_1024,24,SQ,Alpine / 1st / 5th Tier,cdcr_2031,Tue,10/8/24,2024-10-08,written,0300,,74,74,clear,,two_reads_agree

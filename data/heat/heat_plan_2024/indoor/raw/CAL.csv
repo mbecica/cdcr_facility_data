@@ -8756,7 +8756,7 @@ CAL_MSR_0824,30,CAL,B-5,cdcr_2031,Mon,8/5/24,2024-08-05,written,2400,,81,81,clea
 CAL_MSR_0824,30,CAL,B-5,cdcr_2031,Tue,8/6/24,2024-08-06,written,0300,,80,80,clear,,two_reads_agree
 CAL_MSR_0824,30,CAL,B-5,cdcr_2031,Tue,8/6/24,2024-08-06,written,0600,,79,79,clear,,two_reads_agree
 CAL_MSR_0824,30,CAL,B-5,cdcr_2031,Tue,8/6/24,2024-08-06,written,0900,,80,80,clear,,two_reads_agree_after_doubt
-CAL_MSR_0824,30,CAL,B-5,cdcr_2031,Tue,8/6/24,2024-08-06,written,1200,,88?,88,unsure,,adjudicated
+CAL_MSR_0824,30,CAL,B-5,cdcr_2031,Tue,8/6/24,2024-08-06,written,1200,,88,88,clear,,adjudicated_by_context
 CAL_MSR_0824,30,CAL,B-5,cdcr_2031,Tue,8/6/24,2024-08-06,written,1500,,84.8,84.8,clear,,adjudicated
 CAL_MSR_0824,30,CAL,B-5,cdcr_2031,Tue,8/6/24,2024-08-06,written,1800,,86.4|80.4,86.4,ambiguous,80.4,adjudicated
 CAL_MSR_0824,30,CAL,B-5,cdcr_2031,Tue,8/6/24,2024-08-06,written,2100,,81.7,81.7,clear,,two_reads_agree

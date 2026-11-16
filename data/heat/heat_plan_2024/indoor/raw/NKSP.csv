@@ -5411,7 +5411,7 @@ NKSP_MSR_0524,160,NKSP,CW,cdcr_2031,Wed,05/15,2024-05-15,written,0300,,81,81,cle
 NKSP_MSR_0524,160,NKSP,CW,cdcr_2031,Wed,05/15,2024-05-15,written,0600,,81,81,clear,,two_reads_agree
 NKSP_MSR_0524,160,NKSP,CW,cdcr_2031,Wed,05/15,2024-05-15,written,0900,,82,82,clear,,two_reads_agree
 NKSP_MSR_0524,160,NKSP,CW,cdcr_2031,Wed,05/15,2024-05-15,written,1200,,84,84,clear,,two_reads_agree
-NKSP_MSR_0524,160,NKSP,CW,cdcr_2031,Wed,05/15,2024-05-15,written,1500,,88?,88,unsure,,single_read
+NKSP_MSR_0524,160,NKSP,CW,cdcr_2031,Wed,05/15,2024-05-15,written,1500,,88,88,clear,,adjudicated_by_context
 NKSP_MSR_0524,160,NKSP,CW,cdcr_2031,Wed,05/15,2024-05-15,written,1800,,88,88,clear,,single_read
 NKSP_MSR_0524,160,NKSP,CW,cdcr_2031,Wed,05/15,2024-05-15,written,2100,,82|85,82,ambiguous,85,adjudicated
 NKSP_MSR_0524,160,NKSP,CW,cdcr_2031,Wed,05/15,2024-05-15,written,2400,,84?,84,unsure,,single_read
@@ -16886,7 +16886,7 @@ NKSP_MSR_0624,216,NKSP,C1B,cdcr_2031,Mon,6/24/24,2024-06-24,written,2400,,80,80,
 NKSP_MSR_0624,216,NKSP,C1B,cdcr_2031,Tue,6/25/24,2024-06-25,written,0300,,86,86,clear,,two_reads_agree
 NKSP_MSR_0624,216,NKSP,C1B,cdcr_2031,Tue,6/25/24,2024-06-25,written,0600,,86,86,clear,,two_reads_agree
 NKSP_MSR_0624,216,NKSP,C1B,cdcr_2031,Tue,6/25/24,2024-06-25,written,0900,,88,88,clear,,two_reads_agree
-NKSP_MSR_0624,216,NKSP,C1B,cdcr_2031,Tue,6/25/24,2024-06-25,written,1200,,89?,89,unsure,,two_reads_agree
+NKSP_MSR_0624,216,NKSP,C1B,cdcr_2031,Tue,6/25/24,2024-06-25,written,1200,,89,89,clear,,two_reads_agree_after_doubt
 NKSP_MSR_0624,216,NKSP,C1B,cdcr_2031,Tue,6/25/24,2024-06-25,written,1500,,88,88,clear,,two_reads_agree
 NKSP_MSR_0624,216,NKSP,C1B,cdcr_2031,Tue,6/25/24,2024-06-25,written,1800,,88,88,clear,,two_reads_agree
 NKSP_MSR_0624,216,NKSP,C1B,cdcr_2031,Tue,6/25/24,2024-06-25,written,2100,,87,87,clear,,two_reads_agree
@@ -17218,7 +17218,7 @@ NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Mon,6/24/24,2024-06-24,written,1200,,81|87,
 NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Mon,6/24/24,2024-06-24,written,1500,,80|88,80,ambiguous,88,adjudicated
 NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Mon,6/24/24,2024-06-24,written,1800,,84?,84,unsure,,adjudicated
 NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Mon,6/24/24,2024-06-24,written,2100,,86,86,clear,,two_reads_agree_after_doubt
-NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Mon,6/24/24,2024-06-24,written,2400,,88?,88,unsure,,two_reads_agree
+NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Mon,6/24/24,2024-06-24,written,2400,,88,88,clear,,adjudicated_by_context
 NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Tue,6/25/24,2024-06-25,written,0300,,88,88,clear,,two_reads_agree
 NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Tue,6/25/24,2024-06-25,written,0600,,86,86,clear,,two_reads_agree
 NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Tue,6/25/24,2024-06-25,written,0900,,86,86,clear,,two_reads_agree
@@ -17241,7 +17241,7 @@ NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Thu,6/27/24,2024-06-27,written,0900,,83,83,
 NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Thu,6/27/24,2024-06-27,written,1200,,83,83,clear,,two_reads_agree
 NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Thu,6/27/24,2024-06-27,written,1500,,86,86,clear,,two_reads_agree_after_doubt
 NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Thu,6/27/24,2024-06-27,written,1800,,87,87,clear,,two_reads_agree
-NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Thu,6/27/24,2024-06-27,written,2100,,88?,88,unsure,,two_reads_agree
+NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Thu,6/27/24,2024-06-27,written,2100,,88,88,clear,,two_reads_agree_after_doubt
 NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Thu,6/27/24,2024-06-27,written,2400,,86,86,clear,,two_reads_agree
 NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Fri,6/28,2024-06-28,written,0300,,83,83,clear,,two_reads_agree
 NKSP_MSR_0624,222,NKSP,C4B,cdcr_2031,Fri,6/28,2024-06-28,written,0600,,82,82,clear,,two_reads_agree
@@ -23572,9 +23572,9 @@ NKSP_MSR_0724,93,NKSP,C I A-S,cdcr_2031,Tue,7/9/24,2024-07-09,written,0600,,87,8
 NKSP_MSR_0724,93,NKSP,C I A-S,cdcr_2031,Tue,7/9/24,2024-07-09,written,0900,,87,87,clear,,two_reads_agree
 NKSP_MSR_0724,93,NKSP,C I A-S,cdcr_2031,Tue,7/9/24,2024-07-09,written,1200,,87,87,clear,,two_reads_agree
 NKSP_MSR_0724,93,NKSP,C I A-S,cdcr_2031,Tue,7/9/24,2024-07-09,written,1500,,88,88,clear,,two_reads_agree
-NKSP_MSR_0724,93,NKSP,C I A-S,cdcr_2031,Tue,7/9/24,2024-07-09,written,1800,,88?,88,unsure,,two_reads_agree
-NKSP_MSR_0724,93,NKSP,C I A-S,cdcr_2031,Tue,7/9/24,2024-07-09,written,2100,,88?,88,unsure,,two_reads_agree
-NKSP_MSR_0724,93,NKSP,C I A-S,cdcr_2031,Tue,7/9/24,2024-07-09,written,2400,,89?,89,unsure,,two_reads_agree
+NKSP_MSR_0724,93,NKSP,C I A-S,cdcr_2031,Tue,7/9/24,2024-07-09,written,1800,,88,88,clear,,two_reads_agree_after_doubt
+NKSP_MSR_0724,93,NKSP,C I A-S,cdcr_2031,Tue,7/9/24,2024-07-09,written,2100,,88,88,clear,,two_reads_agree_after_doubt
+NKSP_MSR_0724,93,NKSP,C I A-S,cdcr_2031,Tue,7/9/24,2024-07-09,written,2400,,89,89,clear,,two_reads_agree_after_doubt
 NKSP_MSR_0724,93,NKSP,C I A-S,cdcr_2031,Wed,7/10/24,2024-07-10,written,0300,,86,86,clear,,two_reads_agree
 NKSP_MSR_0724,93,NKSP,C I A-S,cdcr_2031,Wed,7/10/24,2024-07-10,written,0600,,85,85,clear,,two_reads_agree
 NKSP_MSR_0724,93,NKSP,C I A-S,cdcr_2031,Wed,7/10/24,2024-07-10,written,0900,,85,85,clear,,two_reads_agree
@@ -24042,7 +24042,7 @@ NKSP_MSR_0724,105,NKSP,C-4,cdcr_2031,Wed,7/10/24,2024-07-10,written,0600,,81,81,
 NKSP_MSR_0724,105,NKSP,C-4,cdcr_2031,Wed,7/10/24,2024-07-10,written,0900,,81,81,clear,,two_reads_agree
 NKSP_MSR_0724,105,NKSP,C-4,cdcr_2031,Wed,7/10/24,2024-07-10,written,1200,,84,84,clear,,two_reads_agree
 NKSP_MSR_0724,105,NKSP,C-4,cdcr_2031,Wed,7/10/24,2024-07-10,written,1500,,86,86,clear,,adjudicated
-NKSP_MSR_0724,105,NKSP,C-4,cdcr_2031,Wed,7/10/24,2024-07-10,written,1800,,88?,88,unsure,,two_reads_agree
+NKSP_MSR_0724,105,NKSP,C-4,cdcr_2031,Wed,7/10/24,2024-07-10,written,1800,,88,88,clear,,adjudicated_by_context
 NKSP_MSR_0724,105,NKSP,C-4,cdcr_2031,Wed,7/10/24,2024-07-10,written,2100,,86,86,clear,,two_reads_agree_after_doubt
 NKSP_MSR_0724,105,NKSP,C-4,cdcr_2031,Wed,7/10/24,2024-07-10,written,2400,,84,84,clear,,two_reads_agree
 NKSP_MSR_0724,105,NKSP,C-4,cdcr_2031,Thu,7/11/24,2024-07-11,written,0300,,84,84,clear,,two_reads_agree
@@ -25904,15 +25904,15 @@ NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Mon,7/15/24,2024-07-15,written,0600,,85,85
 NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Mon,7/15/24,2024-07-15,written,0900,,85,85,clear,,two_reads_agree
 NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Mon,7/15/24,2024-07-15,written,1200,,86,86,clear,,two_reads_agree
 NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Mon,7/15/24,2024-07-15,written,1500,,88,88,clear,,two_reads_agree
-NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Mon,7/15/24,2024-07-15,written,1800,,88?,88,unsure,,two_reads_agree
-NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Mon,7/15/24,2024-07-15,written,2100,,88?,88,unsure,,two_reads_agree
+NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Mon,7/15/24,2024-07-15,written,1800,,88,88,clear,,two_reads_agree_after_doubt
+NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Mon,7/15/24,2024-07-15,written,2100,,88,88,clear,,two_reads_agree_after_doubt
 NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Mon,7/15/24,2024-07-15,written,2400,,86,86,clear,,two_reads_agree
 NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Tue,7/16/24,2024-07-16,written,0300,,84,84,clear,,two_reads_agree
 NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Tue,7/16/24,2024-07-16,written,0600,,84,84,clear,,two_reads_agree
 NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Tue,7/16/24,2024-07-16,written,0900,,84,84,clear,,two_reads_agree
 NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Tue,7/16/24,2024-07-16,written,1200,,84,84,clear,,two_reads_agree
 NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Tue,7/16/24,2024-07-16,written,1500,,86,86,clear,,two_reads_agree
-NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Tue,7/16/24,2024-07-16,written,1800,,88?,88,unsure,,two_reads_agree
+NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Tue,7/16/24,2024-07-16,written,1800,,88,88,clear,,two_reads_agree_after_doubt
 NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Tue,7/16/24,2024-07-16,written,2100,,88,88,clear,,two_reads_agree
 NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Tue,7/16/24,2024-07-16,written,2400,,86,86,clear,,two_reads_agree
 NKSP_MSR_0724,185,NKSP,C1-A,cdcr_2031,Wed,7/17/24,2024-07-17,written,0300,,84,84,clear,,two_reads_agree_after_doubt
@@ -28591,7 +28591,7 @@ NKSP_MSR_0724,269,NKSP,C-West,cdcr_2031,Mon,7-22-24,2024-07-22,written,0300,,82,
 NKSP_MSR_0724,269,NKSP,C-West,cdcr_2031,Mon,7-22-24,2024-07-22,written,0600,,81,81,clear,,two_reads_agree
 NKSP_MSR_0724,269,NKSP,C-West,cdcr_2031,Mon,7-22-24,2024-07-22,written,0900,,82,82,clear,,two_reads_agree
 NKSP_MSR_0724,269,NKSP,C-West,cdcr_2031,Mon,7-22-24,2024-07-22,written,1200,,87?,87,unsure,,adjudicated
-NKSP_MSR_0724,269,NKSP,C-West,cdcr_2031,Mon,7-22-24,2024-07-22,written,1500,,88?,88,unsure,,two_reads_agree
+NKSP_MSR_0724,269,NKSP,C-West,cdcr_2031,Mon,7-22-24,2024-07-22,written,1500,,88,88,clear,,adjudicated_by_context
 NKSP_MSR_0724,269,NKSP,C-West,cdcr_2031,Mon,7-22-24,2024-07-22,written,1800,,88,88,clear,,two_reads_agree
 NKSP_MSR_0724,269,NKSP,C-West,cdcr_2031,Mon,7-22-24,2024-07-22,written,2100,,88,88,clear,,adjudicated_by_context
 NKSP_MSR_0724,269,NKSP,C-West,cdcr_2031,Mon,7-22-24,2024-07-22,written,2400,,84,84,clear,,two_reads_agree

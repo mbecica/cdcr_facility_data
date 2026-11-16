@@ -120,6 +120,18 @@ def value_cell(v):
     return temp, "unsure" if m.group(2) else "clear"
 
 
+# Threshold-gate lists (notes/heat_log_scan/gate/*.csv) find a cell by package, page, day, time
+# and value_label; `unit_transcribed` (the unit as in readings.csv, before the location
+# project's renames) is filled only where several units share a page and that isn't enough.
+# They never key on published unit strings (user, Nov 16 2026).
+def gate_key(pkg, page, o, r, cells):
+    k = (pkg, str(page), o["day"], o["time"], o["value_label"])
+    for u in ("", r["housing_unit_as_written"]):
+        if k + (u,) in cells:
+            return k + (u,)
+    return None
+
+
 def gate_ok_cells():
     """Agreed cells at 88+ whose tens digit a third, blind read found certain (threshold gate,
     Nov 15 2026, notes/heat_log_scan/gate/after_doubt_ok.csv): published like the <88 ones."""
@@ -127,7 +139,7 @@ def gate_ok_cells():
     if not p.exists():
         return set()
     with open(p, newline="") as f:
-        return {(r["package"], r["page"], r["day"], r["time"], r["housing_unit_as_written"], r["value_label"])
+        return {(r["package"], r["page"], r["day"], r["time"], r["value_label"], r["unit_transcribed"])
                 for r in csv.DictReader(f)}
 
 
@@ -139,7 +151,7 @@ def third_read_cells():
     if not p.exists():
         return set()
     with open(p, newline="") as f:
-        return {(r["package"], r["page"], r["day"], r["time"], r["housing_unit_as_written"], r["value_label"])
+        return {(r["package"], r["page"], r["day"], r["time"], r["value_label"], r["unit_transcribed"])
                 for r in csv.DictReader(f)}
 
 
@@ -152,7 +164,7 @@ def value_alt_cells():
     if not p.exists():
         return {}
     with open(p, newline="") as f:
-        return {(r["package"], r["page"], r["day"], r["time"], r["housing_unit_as_written"], r["value_label"]): r["alt_f"]
+        return {(r["package"], r["page"], r["day"], r["time"], r["value_label"], r["unit_transcribed"]): r["alt_f"]
                 for r in csv.DictReader(f)}
 
 
@@ -241,14 +253,14 @@ def main(out_dir):
             "read_basis": basis if r["temp_f"] != "" else "",
         }
         if (r["status"] == "unsure" and r["check"] in AGREED and basis == "two_reads_agree"
-                and o["temp_f"] != "" and (float(o["temp_f"]) < DOUBT_MAX or (pkg, str(page), o["day"], o["time"], unit, o["value_label"]) in gate_ok)):
+                and o["temp_f"] != "" and (float(o["temp_f"]) < DOUBT_MAX or gate_key(pkg, page, o, r, gate_ok))):
             o.update(status="clear", temp_as_written=o["temp_as_written"].replace("?", ""),
                      read_basis="two_reads_agree_after_doubt")
-        elif r["status"] == "unsure" and (pkg, str(page), o["day"], o["time"], unit, o["value_label"]) in third_ok:
+        elif r["status"] == "unsure" and gate_key(pkg, page, o, r, third_ok):
             o.update(status="clear", temp_as_written=o["temp_as_written"].replace("?", ""))
-        elif r["status"] == "unsure" and (pkg, str(page), o["day"], o["time"], unit, o["value_label"]) in value_alt:
+        elif r["status"] == "unsure" and gate_key(pkg, page, o, r, value_alt):
             o.update(status="ambiguous", temp_as_written=o["temp_as_written"].replace("?", ""),
-                     alt_f=num(value_alt[(pkg, str(page), o["day"], o["time"], unit, o["value_label"])]))
+                     alt_f=num(value_alt[gate_key(pkg, page, o, r, value_alt)]))
         vals = multi.get((pkg, page, r["day"], r["time"])) if not r["housing_unit_as_written"].endswith("value)") else None
         if vals:
             for i, v in enumerate(vals, 1):

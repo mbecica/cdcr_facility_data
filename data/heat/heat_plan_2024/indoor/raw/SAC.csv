@@ -16284,7 +16284,7 @@ SAC_MSR_0724,43,SAC,A6,cdcr_2031,Fri,7/5,2024-07-05,written,1200,,93,93,clear,,t
 SAC_MSR_0724,43,SAC,A6,cdcr_2031,Fri,7/5,2024-07-05,written,1500,,89.4,89.4,clear,,two_reads_agree
 SAC_MSR_0724,43,SAC,A6,cdcr_2031,Fri,7/5,2024-07-05,written,1800,,90.3,90.3,clear,,two_reads_agree
 SAC_MSR_0724,43,SAC,A6,cdcr_2031,Fri,7/5,2024-07-05,written,2100,,90.1,90.1,clear,,two_reads_agree
-SAC_MSR_0724,43,SAC,A6,cdcr_2031,Fri,7/5,2024-07-05,written,2400,,88.8?,88.8,unsure,,two_reads_agree
+SAC_MSR_0724,43,SAC,A6,cdcr_2031,Fri,7/5,2024-07-05,written,2400,,89.8,89.8,clear,,researcher_review
 SAC_MSR_0724,43,SAC,A6,cdcr_2031,Sat,7/6,2024-07-06,written,0300,,88.2,88.2,clear,,adjudicated
 SAC_MSR_0724,43,SAC,A6,cdcr_2031,Sat,7/6,2024-07-06,written,0600,,86.2,86.2,clear,,two_reads_agree
 SAC_MSR_0724,43,SAC,A6,cdcr_2031,Sat,7/6,2024-07-06,written,0900,,88.0,88.0,clear,,two_reads_agree
@@ -20624,7 +20624,7 @@ SAC_MSR_0724,128,SAC,SAC / C Visiting / Visiting FLR,cdcr_2031,Sun,7/14,2024-07-
 SAC_MSR_0724,128,SAC,SAC / C Visiting / Visiting FLR,cdcr_2031,Fri,7/19/24,2024-07-19,user,0300,,-,,blank,,
 SAC_MSR_0724,128,SAC,SAC / C Visiting / Visiting FLR,cdcr_2031,Fri,7/19/24,2024-07-19,user,0600,,-,,blank,,
 SAC_MSR_0724,128,SAC,SAC / C Visiting / Visiting FLR,cdcr_2031,Fri,7/19/24,2024-07-19,user,0900,,-,,blank,,
-SAC_MSR_0724,128,SAC,SAC / C Visiting / Visiting FLR,cdcr_2031,Fri,7/19/24,2024-07-19,user,1200,,89.9?,89.9,unsure,,two_reads_agree
+SAC_MSR_0724,128,SAC,SAC / C Visiting / Visiting FLR,cdcr_2031,Fri,7/19/24,2024-07-19,user,1200,,89.9,89.9,clear,,researcher_review
 SAC_MSR_0724,128,SAC,SAC / C Visiting / Visiting FLR,cdcr_2031,Fri,7/19/24,2024-07-19,user,1500,,89.6,89.6,clear,,two_reads_agree
 SAC_MSR_0724,128,SAC,SAC / C Visiting / Visiting FLR,cdcr_2031,Fri,7/19/24,2024-07-19,user,1800,,89.5,89.5,clear,,two_reads_agree
 SAC_MSR_0724,128,SAC,SAC / C Visiting / Visiting FLR,cdcr_2031,Fri,7/19/24,2024-07-19,user,2100,,-,,blank,,
@@ -21656,8 +21656,8 @@ SAC_MSR_0724,148,SAC,CSP-SAC WORK CENTER MK Pantry,cdcr_2031,Thu,7/4,2024-07-04,
 SAC_MSR_0724,148,SAC,CSP-SAC WORK CENTER MK Pantry,cdcr_2031,Thu,7/4,2024-07-04,written,0600,,82,82,clear,,two_reads_agree
 SAC_MSR_0724,148,SAC,CSP-SAC WORK CENTER MK Pantry,cdcr_2031,Thu,7/4,2024-07-04,written,0900,,84,84,clear,,two_reads_agree_after_doubt
 SAC_MSR_0724,148,SAC,CSP-SAC WORK CENTER MK Pantry,cdcr_2031,Thu,7/4,2024-07-04,written,1200,,86,86,clear,,two_reads_agree
-SAC_MSR_0724,148,SAC,CSP-SAC WORK CENTER MK Pantry,cdcr_2031,Thu,7/4,2024-07-04,written,1500,,89?,89,unsure,,two_reads_agree
-SAC_MSR_0724,148,SAC,CSP-SAC WORK CENTER MK Pantry,cdcr_2031,Thu,7/4,2024-07-04,written,1800,,89?,89,unsure,,two_reads_agree
+SAC_MSR_0724,148,SAC,CSP-SAC WORK CENTER MK Pantry,cdcr_2031,Thu,7/4,2024-07-04,written,1500,,89,89,clear,,adjudicated_by_context
+SAC_MSR_0724,148,SAC,CSP-SAC WORK CENTER MK Pantry,cdcr_2031,Thu,7/4,2024-07-04,written,1800,,89,89,clear,,adjudicated_by_context
 SAC_MSR_0724,148,SAC,CSP-SAC WORK CENTER MK Pantry,cdcr_2031,Thu,7/4,2024-07-04,written,2100,,-,,blank,,
 SAC_MSR_0724,148,SAC,CSP-SAC WORK CENTER MK Pantry,cdcr_2031,Thu,7/4,2024-07-04,written,2400,,-,,blank,,
 SAC_MSR_0724,148,SAC,CSP-SAC WORK CENTER MK Pantry,cdcr_2031,Fri,7/5,2024-07-05,written,0300,,-,,blank,,
@@ -38852,7 +38852,7 @@ SAC_MSR_1024,35,SAC,WORK CENTER / C PIA LAUNDRY,cdcr_2031,Wed,10.9,2024-10-09,wr
 SAC_MSR_1024,35,SAC,WORK CENTER / C PIA LAUNDRY,cdcr_2031,Wed,10.9,2024-10-09,written,2100,,-,,blank,,
 SAC_MSR_1024,35,SAC,WORK CENTER / C PIA LAUNDRY,cdcr_2031,Wed,10.9,2024-10-09,written,2400,,-,,blank,,
 SAC_MSR_1024,35,SAC,WORK CENTER / C PIA LAUNDRY,cdcr_2031,Thu,10.10,2024-10-10,written,0300,,87.8?,87.8,unsure,,adjudicated
-SAC_MSR_1024,35,SAC,WORK CENTER / C PIA LAUNDRY,cdcr_2031,Thu,10.10,2024-10-10,written,0600,,88.1?,88.1,unsure,,adjudicated
+SAC_MSR_1024,35,SAC,WORK CENTER / C PIA LAUNDRY,cdcr_2031,Thu,10.10,2024-10-10,written,0600,,88.1,88.1,clear,,adjudicated
 SAC_MSR_1024,35,SAC,WORK CENTER / C PIA LAUNDRY,cdcr_2031,Thu,10.10,2024-10-10,written,0900,,79.0,79.0,clear,,two_reads_agree_after_doubt
 SAC_MSR_1024,35,SAC,WORK CENTER / C PIA LAUNDRY,cdcr_2031,Thu,10.10,2024-10-10,written,1200,,80.2,80.2,clear,,two_reads_agree
 SAC_MSR_1024,35,SAC,WORK CENTER / C PIA LAUNDRY,cdcr_2031,Thu,10.10,2024-10-10,written,1500,,82.9,82.9,clear,,two_reads_agree
