@@ -13685,7 +13685,7 @@ CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Sun,9/9,2024-09-08,rule,0600,,82,82,clear
 CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Sun,9/9,2024-09-08,rule,0900,,84,84,clear,,single_read
 CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Sun,9/9,2024-09-08,rule,1200,,86,86,clear,,two_reads_agree
 CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Sun,9/9,2024-09-08,rule,1500,,89,89,clear,,single_read
-CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Sun,9/9,2024-09-08,rule,1800,,89?,89,unsure,,single_read
+CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Sun,9/9,2024-09-08,rule,1800,,89,89,clear,,single_read
 CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Sun,9/9,2024-09-08,rule,2100,,88,88,clear,,single_read
 CIW_MSR_0924,21,CIW,Latham B,cdcr_2031,Sun,9/9,2024-09-08,rule,2400,,88,88,clear,,single_read
 CIW_MSR_0924,22,CIW,CIW / Latham B / Long/Short hall,cdcr_2031,Mon,9/9/24,2024-09-09,written,0300,,88,88,clear,,two_reads_agree
@@ -14531,7 +14531,7 @@ CIW_MSR_0924,41,CIW,HB,cdcr_2031,Mon,9/9/24,2024-09-09,written,0600,,80,80,clear
 CIW_MSR_0924,41,CIW,HB,cdcr_2031,Mon,9/9/24,2024-09-09,written,0900,,80,80,clear,,two_reads_agree
 CIW_MSR_0924,41,CIW,HB,cdcr_2031,Mon,9/9/24,2024-09-09,written,1200,,80,80,clear,,two_reads_agree
 CIW_MSR_0924,41,CIW,HB,cdcr_2031,Mon,9/9/24,2024-09-09,written,1500,,86?,86,unsure,,single_read
-CIW_MSR_0924,41,CIW,HB,cdcr_2031,Mon,9/9/24,2024-09-09,written,1800,,88?,88,unsure,,single_read
+CIW_MSR_0924,41,CIW,HB,cdcr_2031,Mon,9/9/24,2024-09-09,written,1800,,88,88,clear,,single_read
 CIW_MSR_0924,41,CIW,HB,cdcr_2031,Mon,9/9/24,2024-09-09,written,2100,,87?,87,unsure,,single_read
 CIW_MSR_0924,41,CIW,HB,cdcr_2031,Mon,9/9/24,2024-09-09,written,2400,,82,82,clear,,two_reads_agree
 CIW_MSR_0924,41,CIW,HB,cdcr_2031,Tue,9/10,2024-09-10,written,0300,,62|82,62,ambiguous,82,single_read

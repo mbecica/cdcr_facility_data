@@ -174,7 +174,7 @@ CEN_MSR_0724,6,CEN,C3,cdcr_2031,Sun,7/21/24,2024-07-21,written,1200,,-,,blank,,
 CEN_MSR_0724,6,CEN,C3,cdcr_2031,Sun,7/21/24,2024-07-21,written,1500,,91.4,91.4,clear,,two_reads_agree
 CEN_MSR_0724,6,CEN,C3,cdcr_2031,Sun,7/21/24,2024-07-21,written,1800,,87.1,87.1,clear,,two_reads_agree
 CEN_MSR_0724,6,CEN,C3,cdcr_2031,Sun,7/21/24,2024-07-21,written,2100,,87.1,87.1,clear,,two_reads_agree
-CEN_MSR_0724,6,CEN,C3,cdcr_2031,Sun,7/21/24,2024-07-21,written,2400,,88.0?,88.0,unsure,,dispute_decided
+CEN_MSR_0724,6,CEN,C3,cdcr_2031,Sun,7/21/24,2024-07-21,written,2400,,88.0,88.0,clear,,dispute_decided
 CEN_MSR_0724,6,CEN,C3,cdcr_2031,Mon,?,,,0300,,-,,blank,,
 CEN_MSR_0724,6,CEN,C3,cdcr_2031,Tue,?,,,0300,,-,,blank,,
 CEN_MSR_0724,6,CEN,C3,cdcr_2031,Wed,?,,,0300,,-,,blank,,

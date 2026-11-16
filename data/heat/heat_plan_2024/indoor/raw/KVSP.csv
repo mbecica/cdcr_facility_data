@@ -24088,7 +24088,7 @@ KVSP_MSR_0724,151,KVSP,KVSP FDB6 2nd Tier,cdcr_2031,Wed,7/3/24,2024-07-03,writte
 KVSP_MSR_0724,151,KVSP,KVSP FDB6 2nd Tier,cdcr_2031,Wed,7/3/24,2024-07-03,written,1800,,80,80,clear,,two_reads_agree_after_doubt
 KVSP_MSR_0724,151,KVSP,KVSP FDB6 2nd Tier,cdcr_2031,Wed,7/3/24,2024-07-03,written,2100,,80,80,clear,,two_reads_agree_after_doubt
 KVSP_MSR_0724,151,KVSP,KVSP FDB6 2nd Tier,cdcr_2031,Wed,7/3/24,2024-07-03,written,2400,,80,80,clear,,two_reads_agree
-KVSP_MSR_0724,151,KVSP,KVSP FDB6 2nd Tier,cdcr_2031,Thu,7/4/24,2024-07-04,written,0300,,88?,88,unsure,,adjudicated
+KVSP_MSR_0724,151,KVSP,KVSP FDB6 2nd Tier,cdcr_2031,Thu,7/4/24,2024-07-04,written,0300,,88,88,clear,,adjudicated
 KVSP_MSR_0724,151,KVSP,KVSP FDB6 2nd Tier,cdcr_2031,Thu,7/4/24,2024-07-04,written,0600,,78,78,clear,,two_reads_agree
 KVSP_MSR_0724,151,KVSP,KVSP FDB6 2nd Tier,cdcr_2031,Thu,7/4/24,2024-07-04,written,0900,,78,78,clear,,two_reads_agree
 KVSP_MSR_0724,151,KVSP,KVSP FDB6 2nd Tier,cdcr_2031,Thu,7/4/24,2024-07-04,written,1200,,78,78,clear,,two_reads_agree

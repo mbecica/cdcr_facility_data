@@ -14230,7 +14230,7 @@ COR_MSR_0724,101,COR,4B-4R,cdcr_2031,Sat,7/13/24,2024-07-13,written,0300,,87.1,8
 COR_MSR_0724,101,COR,4B-4R,cdcr_2031,Sat,7/13/24,2024-07-13,written,0600,,87.1,87.1,clear,,two_reads_agree
 COR_MSR_0724,101,COR,4B-4R,cdcr_2031,Sat,7/13/24,2024-07-13,written,0900,,87.2,87.2,clear,,two_reads_agree_after_doubt
 COR_MSR_0724,101,COR,4B-4R,cdcr_2031,Sat,7/13/24,2024-07-13,written,1200,,87.5,87.5,clear,,two_reads_agree
-COR_MSR_0724,101,COR,4B-4R,cdcr_2031,Sat,7/13/24,2024-07-13,written,1500,,88.1?,88.1,unsure,,two_reads_agree
+COR_MSR_0724,101,COR,4B-4R,cdcr_2031,Sat,7/13/24,2024-07-13,written,1500,,88.1,88.1,clear,,adjudicated_by_context
 COR_MSR_0724,101,COR,4B-4R,cdcr_2031,Sat,7/13/24,2024-07-13,written,1800,,89.1,89.1,clear,,two_reads_agree_after_doubt
 COR_MSR_0724,101,COR,4B-4R,cdcr_2031,Sat,7/13/24,2024-07-13,written,2100,,88.3,88.3,clear,,two_reads_agree
 COR_MSR_0724,101,COR,4B-4R,cdcr_2031,Sat,7/13/24,2024-07-13,written,2400,,88.1,88.1,clear,,two_reads_agree
@@ -15142,7 +15142,7 @@ COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Mon,7/15/24,2024-07-15,written,0300,,86.9,8
 COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Mon,7/15/24,2024-07-15,written,0600,,85.6,85.6,clear,,adjudicated
 COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Mon,7/15/24,2024-07-15,written,0900,,86.4,86.4,clear,,two_reads_agree
 COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Mon,7/15/24,2024-07-15,written,1200,,87.8,87.8,clear,,two_reads_agree
-COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Mon,7/15/24,2024-07-15,written,1500,,88.4?,88.4,unsure,,two_reads_agree
+COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Mon,7/15/24,2024-07-15,written,1500,,88.4,88.4,clear,,adjudicated_by_context
 COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Mon,7/15/24,2024-07-15,written,1800,,89.5,89.5,clear,,two_reads_agree_after_doubt
 COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Mon,7/15/24,2024-07-15,written,2100,,89.0,89.0,clear,,two_reads_agree
 COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Mon,7/15/24,2024-07-15,written,2400,,87,87,clear,,two_reads_agree
@@ -15150,7 +15150,7 @@ COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Tue,7/16/24,2024-07-16,written,0300,,85.5,8
 COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Tue,7/16/24,2024-07-16,written,0600,,84.3,84.3,clear,,two_reads_agree
 COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Tue,7/16/24,2024-07-16,written,0900,,84.9,84.9,clear,,two_reads_agree
 COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Tue,7/16/24,2024-07-16,written,1200,,87.5,87.5,clear,,two_reads_agree_after_doubt
-COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Tue,7/16/24,2024-07-16,written,1500,,88.0?,88.0,unsure,,two_reads_agree
+COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Tue,7/16/24,2024-07-16,written,1500,,88.0,88.0,clear,,adjudicated_by_context
 COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Tue,7/16/24,2024-07-16,written,1800,,88.5,88.5,clear,,two_reads_agree
 COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Tue,7/16/24,2024-07-16,written,2100,,88.2|86.2,88.2,ambiguous,86.2,adjudicated
 COR_MSR_0724,123,COR,4B-1L,cdcr_2031,Tue,7/16/24,2024-07-16,written,2400,,85.5,85.5,clear,,two_reads_agree
@@ -21231,7 +21231,7 @@ COR_MSR_0824,130,COR,3B03,cdcr_2031,Thu,8/29/24,2024-08-29,written,0600,,75,75,c
 COR_MSR_0824,130,COR,3B03,cdcr_2031,Thu,8/29/24,2024-08-29,written,0900,,77,77,clear,,two_reads_agree
 COR_MSR_0824,130,COR,3B03,cdcr_2031,Thu,8/29/24,2024-08-29,written,1200,,79,79,clear,,two_reads_agree
 COR_MSR_0824,130,COR,3B03,cdcr_2031,Thu,8/29/24,2024-08-29,written,1500,,79,79,clear,,two_reads_agree
-COR_MSR_0824,130,COR,3B03,cdcr_2031,Thu,8/29/24,2024-08-29,written,1800,,88?,88,unsure,,adjudicated
+COR_MSR_0824,130,COR,3B03,cdcr_2031,Thu,8/29/24,2024-08-29,written,1800,,88,88,clear,,adjudicated
 COR_MSR_0824,130,COR,3B03,cdcr_2031,Thu,8/29/24,2024-08-29,written,2100,,77?,77,unsure,,adjudicated
 COR_MSR_0824,130,COR,3B03,cdcr_2031,Thu,8/29/24,2024-08-29,written,2400,,76,76,clear,,two_reads_agree
 COR_MSR_0824,130,COR,3B03,cdcr_2031,Fri,8/30/24,2024-08-30,written,0300,,75,75,clear,,two_reads_agree

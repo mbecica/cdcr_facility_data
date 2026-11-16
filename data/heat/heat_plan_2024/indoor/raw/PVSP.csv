@@ -9588,7 +9588,7 @@ PVSP_MSR_0624,50,PVSP,B5,cdcr_2031,Sun,6/23/24,2024-06-23,written,0600,,74,74,cl
 PVSP_MSR_0624,50,PVSP,B5,cdcr_2031,Sun,6/23/24,2024-06-23,written,0900,,74,74,clear,,two_reads_agree
 PVSP_MSR_0624,50,PVSP,B5,cdcr_2031,Sun,6/23/24,2024-06-23,written,1200,,80,80,clear,,two_reads_agree_after_doubt
 PVSP_MSR_0624,50,PVSP,B5,cdcr_2031,Sun,6/23/24,2024-06-23,written,1500,,80,80,clear,,two_reads_agree_after_doubt
-PVSP_MSR_0624,50,PVSP,B5,cdcr_2031,Sun,6/23/24,2024-06-23,written,1800,,89?,89,unsure,,adjudicated
+PVSP_MSR_0624,50,PVSP,B5,cdcr_2031,Sun,6/23/24,2024-06-23,written,1800,,89,89,clear,,adjudicated
 PVSP_MSR_0624,50,PVSP,B5,cdcr_2031,Sun,6/23/24,2024-06-23,written,2100,,81,81,clear,,two_reads_agree
 PVSP_MSR_0624,50,PVSP,B5,cdcr_2031,Sun,6/23/24,2024-06-23,written,2400,,74,74,clear,,two_reads_agree
 PVSP_MSR_0624,51,PVSP,B5,cdcr_2031,Mon,6/24/24,2024-06-24,written,0300,,72,72,clear,,two_reads_agree_after_doubt

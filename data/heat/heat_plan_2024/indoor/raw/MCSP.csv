@@ -13562,7 +13562,7 @@ MCSP_MSR_0724,63,MCSP,C15,cdcr_2031,Fri,7/12/24,2024-07-12,written,0900,,78,78,c
 MCSP_MSR_0724,63,MCSP,C15,cdcr_2031,Fri,7/12/24,2024-07-12,written,1200,,84,84,clear,,two_reads_agree
 MCSP_MSR_0724,63,MCSP,C15,cdcr_2031,Fri,7/12/24,2024-07-12,written,1500,,87?,87,unsure,,adjudicated
 MCSP_MSR_0724,63,MCSP,C15,cdcr_2031,Fri,7/12/24,2024-07-12,written,1800,,89,89,clear,,two_reads_agree
-MCSP_MSR_0724,63,MCSP,C15,cdcr_2031,Fri,7/12/24,2024-07-12,written,2100,,88?,88,unsure,,adjudicated
+MCSP_MSR_0724,63,MCSP,C15,cdcr_2031,Fri,7/12/24,2024-07-12,written,2100,,88,88,clear,,adjudicated
 MCSP_MSR_0724,63,MCSP,C15,cdcr_2031,Fri,7/12/24,2024-07-12,written,2400,,84,84,clear,,two_reads_agree
 MCSP_MSR_0724,63,MCSP,C15,cdcr_2031,Sat,7/13/24,2024-07-13,written,0300,,81,81,clear,,two_reads_agree
 MCSP_MSR_0724,63,MCSP,C15,cdcr_2031,Sat,7/13/24,2024-07-13,written,0600,,78,78,clear,,two_reads_agree

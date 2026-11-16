@@ -131,6 +131,31 @@ def gate_ok_cells():
                 for r in csv.DictReader(f)}
 
 
+def third_read_cells():
+    """Single-read or adjudicated cells at 88+ where the threshold gate's blind read gave the
+    same full value (Nov 15 2026, notes/heat_log_scan/gate/third_read_agrees.csv): published
+    without the ?, status clear, read_basis unchanged."""
+    p = SCAN / "gate" / "third_read_agrees.csv"
+    if not p.exists():
+        return set()
+    with open(p, newline="") as f:
+        return {(r["package"], r["page"], r["day"], r["time"], r["housing_unit_as_written"], r["value_label"])
+                for r in csv.DictReader(f)}
+
+
+def value_alt_cells():
+    """Cells at 88+ where the threshold gate's blind read had the same tens digit but another
+    units digit, with no Stage II/III line between them (Nov 16 2026,
+    notes/heat_log_scan/gate/value_alt.csv): published without the ?, status ambiguous, the
+    gate's reading in alt_f, read_basis unchanged."""
+    p = SCAN / "gate" / "value_alt.csv"
+    if not p.exists():
+        return {}
+    with open(p, newline="") as f:
+        return {(r["package"], r["page"], r["day"], r["time"], r["housing_unit_as_written"], r["value_label"]): r["alt_f"]
+                for r in csv.DictReader(f)}
+
+
 def researcher_cells():
     """Cells whose last adjudication row is the researcher's own decision."""
     last = {}
@@ -165,6 +190,8 @@ def main(out_dir):
     out = Path(out_dir)
     user = researcher_cells()
     gate_ok = gate_ok_cells()
+    third_ok = third_read_cells()
+    value_alt = value_alt_cells()
     ufix = unit_fixes()
     pfix = unit_page_fixes()
     multi = multi_value_cells()
@@ -217,6 +244,11 @@ def main(out_dir):
                 and o["temp_f"] != "" and (float(o["temp_f"]) < DOUBT_MAX or (pkg, str(page), o["day"], o["time"], unit, o["value_label"]) in gate_ok)):
             o.update(status="clear", temp_as_written=o["temp_as_written"].replace("?", ""),
                      read_basis="two_reads_agree_after_doubt")
+        elif r["status"] == "unsure" and (pkg, str(page), o["day"], o["time"], unit, o["value_label"]) in third_ok:
+            o.update(status="clear", temp_as_written=o["temp_as_written"].replace("?", ""))
+        elif r["status"] == "unsure" and (pkg, str(page), o["day"], o["time"], unit, o["value_label"]) in value_alt:
+            o.update(status="ambiguous", temp_as_written=o["temp_as_written"].replace("?", ""),
+                     alt_f=num(value_alt[(pkg, str(page), o["day"], o["time"], unit, o["value_label"])]))
         vals = multi.get((pkg, page, r["day"], r["time"])) if not r["housing_unit_as_written"].endswith("value)") else None
         if vals:
             for i, v in enumerate(vals, 1):

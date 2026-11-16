@@ -21831,7 +21831,7 @@ CMF_MSR_0724,145,CMF,N-2 231,cdcr_2031,Sat,7/6/24,2024-07-06,written,2400,,87,87
 CMF_MSR_0724,145,CMF,N-2 231,cdcr_2031,Sun,7/7/24,2024-07-07,written,0300,,84,84,clear,,two_reads_agree
 CMF_MSR_0724,145,CMF,N-2 231,cdcr_2031,Sun,7/7/24,2024-07-07,written,0600,,83,83,clear,,two_reads_agree
 CMF_MSR_0724,145,CMF,N-2 231,cdcr_2031,Sun,7/7/24,2024-07-07,written,0900,,89,89,clear,,adjudicated
-CMF_MSR_0724,145,CMF,N-2 231,cdcr_2031,Sun,7/7/24,2024-07-07,written,1200,,88.7?,88.7,unsure,,two_reads_agree
+CMF_MSR_0724,145,CMF,N-2 231,cdcr_2031,Sun,7/7/24,2024-07-07,written,1200,,88.7,88.7,clear,,adjudicated_by_context
 CMF_MSR_0724,145,CMF,N-2 231,cdcr_2031,Sun,7/7/24,2024-07-07,written,1500,,91,91,clear,,two_reads_agree
 CMF_MSR_0724,145,CMF,N-2 231,cdcr_2031,Sun,7/7/24,2024-07-07,written,1800,,92,92,clear,,two_reads_agree
 CMF_MSR_0724,145,CMF,N-2 231,cdcr_2031,Sun,7/7/24,2024-07-07,written,2100,,91,91,clear,,two_reads_agree
