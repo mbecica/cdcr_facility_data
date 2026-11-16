@@ -14674,7 +14674,7 @@ LAC_MSR_0724,4,LAC,MSF,cdcr_2031,Thu,7/4/24,2024-07-04,written,2400,,80,80,clear
 LAC_MSR_0724,4,LAC,MSF,cdcr_2031,Fri,7/5/24,2024-07-05,written,0300,,80,80,clear,,two_reads_agree_after_doubt
 LAC_MSR_0724,4,LAC,MSF,cdcr_2031,Fri,7/5/24,2024-07-05,written,0600,,82,82,clear,,two_reads_agree
 LAC_MSR_0724,4,LAC,MSF,cdcr_2031,Fri,7/5/24,2024-07-05,written,0900,,83,83,clear,,two_reads_agree
-LAC_MSR_0724,4,LAC,MSF,cdcr_2031,Fri,7/5/24,2024-07-05,written,1200,,88?,88,unsure,,two_reads_agree
+LAC_MSR_0724,4,LAC,MSF,cdcr_2031,Fri,7/5/24,2024-07-05,written,1200,,88,88,clear,,two_reads_agree_after_doubt
 LAC_MSR_0724,4,LAC,MSF,cdcr_2031,Fri,7/5/24,2024-07-05,written,1500,,87,87,clear,,two_reads_agree
 LAC_MSR_0724,4,LAC,MSF,cdcr_2031,Fri,7/5/24,2024-07-05,written,1800,,86,86,clear,,two_reads_agree
 LAC_MSR_0724,4,LAC,MSF,cdcr_2031,Fri,7/5/24,2024-07-05,written,2100,,86,86,clear,,two_reads_agree

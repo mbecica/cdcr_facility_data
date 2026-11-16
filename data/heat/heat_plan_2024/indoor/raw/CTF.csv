@@ -18970,7 +18970,7 @@ CTF_MSR_0924,66,CTF,CTF / O-Wing / 3rd Tier,cdcr_2031,Thu,9/5/24,2024-09-05,writ
 CTF_MSR_0924,66,CTF,CTF / O-Wing / 3rd Tier,cdcr_2031,Thu,9/5/24,2024-09-05,written,1200,,88,88,clear,,two_reads_agree
 CTF_MSR_0924,66,CTF,CTF / O-Wing / 3rd Tier,cdcr_2031,Thu,9/5/24,2024-09-05,written,1500,,92,92,clear,,two_reads_agree
 CTF_MSR_0924,66,CTF,CTF / O-Wing / 3rd Tier,cdcr_2031,Thu,9/5/24,2024-09-05,written,1800,,90,90,clear,,two_reads_agree
-CTF_MSR_0924,66,CTF,CTF / O-Wing / 3rd Tier,cdcr_2031,Thu,9/5/24,2024-09-05,written,2100,,88?,88,unsure,,two_reads_agree
+CTF_MSR_0924,66,CTF,CTF / O-Wing / 3rd Tier,cdcr_2031,Thu,9/5/24,2024-09-05,written,2100,,88,88,clear,,two_reads_agree_after_doubt
 CTF_MSR_0924,66,CTF,CTF / O-Wing / 3rd Tier,cdcr_2031,Thu,9/5/24,2024-09-05,written,2400,,82,82,clear,,two_reads_agree
 CTF_MSR_0924,66,CTF,CTF / O-Wing / 3rd Tier,cdcr_2031,Fri,9/6/24,2024-09-06,written,0300,,80,80,clear,,two_reads_agree
 CTF_MSR_0924,66,CTF,CTF / O-Wing / 3rd Tier,cdcr_2031,Fri,9/6/24,2024-09-06,written,0600,,80,80,clear,,dispute_decided
@@ -21931,7 +21931,7 @@ CTF_MSR_1024,38,CTF,TD.,cdcr_2031,Tue,10/1/24,2024-10-01,written,0300,,80,80,cle
 CTF_MSR_1024,38,CTF,TD.,cdcr_2031,Tue,10/1/24,2024-10-01,written,0600,,80,80,clear,,two_reads_agree
 CTF_MSR_1024,38,CTF,TD.,cdcr_2031,Tue,10/1/24,2024-10-01,written,0900,,75,75,clear,,two_reads_agree
 CTF_MSR_1024,38,CTF,TD.,cdcr_2031,Tue,10/1/24,2024-10-01,written,1200,,80,80,clear,,two_reads_agree
-CTF_MSR_1024,38,CTF,TD.,cdcr_2031,Tue,10/1/24,2024-10-01,written,1500,,88?,88,unsure,,two_reads_agree
+CTF_MSR_1024,38,CTF,TD.,cdcr_2031,Tue,10/1/24,2024-10-01,written,1500,,88,88,clear,,two_reads_agree_after_doubt
 CTF_MSR_1024,38,CTF,TD.,cdcr_2031,Tue,10/1/24,2024-10-01,written,1800,,80,80,clear,,two_reads_agree
 CTF_MSR_1024,38,CTF,TD.,cdcr_2031,Tue,10/1/24,2024-10-01,written,2100,,80,80,clear,,two_reads_agree
 CTF_MSR_1024,38,CTF,TD.,cdcr_2031,Tue,10/1/24,2024-10-01,written,2400,,80,80,clear,,two_reads_agree

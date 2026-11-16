@@ -7097,7 +7097,7 @@ CCWF_MSR_0724,22,CCWF,501,cdcr_2031,Fri,7/26/24,2024-07-26,written,0300,,84.2,84
 CCWF_MSR_0724,22,CCWF,501,cdcr_2031,Fri,7/26/24,2024-07-26,written,0600,,83.2,83.2,clear,,two_reads_agree
 CCWF_MSR_0724,22,CCWF,501,cdcr_2031,Fri,7/26/24,2024-07-26,written,0900,,84,84,clear,,two_reads_agree
 CCWF_MSR_0724,22,CCWF,501,cdcr_2031,Fri,7/26/24,2024-07-26,written,1200,,85,85,clear,,two_reads_agree
-CCWF_MSR_0724,22,CCWF,501,cdcr_2031,Fri,7/26/24,2024-07-26,written,1500,,88?,88,unsure,,two_reads_agree
+CCWF_MSR_0724,22,CCWF,501,cdcr_2031,Fri,7/26/24,2024-07-26,written,1500,,88,88,clear,,two_reads_agree_after_doubt
 CCWF_MSR_0724,22,CCWF,501,cdcr_2031,Fri,7/26/24,2024-07-26,written,1800,,85,85,clear,,two_reads_agree
 CCWF_MSR_0724,22,CCWF,501,cdcr_2031,Fri,7/26/24,2024-07-26,written,2100,,85,85,clear,,two_reads_agree
 CCWF_MSR_0724,22,CCWF,501,cdcr_2031,Fri,7/26/24,2024-07-26,written,2400,,77,77,clear,,two_reads_agree

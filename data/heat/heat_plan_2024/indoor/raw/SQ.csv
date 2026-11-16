@@ -6070,62 +6070,62 @@ SQ_MSR_0924,59,SQ,Dorm 4 / Podium,cdcr_2031,Sun,9-29-24,2024-09-29,written,1500,
 SQ_MSR_0924,59,SQ,Dorm 4 / Podium,cdcr_2031,Sun,9-29-24,2024-09-29,written,1800,,68|66,68,ambiguous,66,adjudicated
 SQ_MSR_0924,59,SQ,Dorm 4 / Podium,cdcr_2031,Sun,9-29-24,2024-09-29,written,2100,,72,72,clear,,two_reads_agree
 SQ_MSR_0924,59,SQ,Dorm 4 / Podium,cdcr_2031,Sun,9-29-24,2024-09-29,written,2400,,72,72,clear,,two_reads_agree
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,0300,,64?,64,unsure,,single_read
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,0600,,66,66,clear,,two_reads_agree
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,0900,,66,66,clear,,two_reads_agree
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,1200,,70,70,clear,,two_reads_agree
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,1500,,77,77,clear,,two_reads_agree
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,1800,,79,79,clear,,two_reads_agree
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,2100,,77,77,clear,,two_reads_agree
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,2400,,73,73,clear,,two_reads_agree
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Tue,?,,,0300,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Wed,?,,,0300,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Thu,?,,,0300,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Fri,?,,,0300,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sat,?,,,0300,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sun,?,,,0300,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Tue,?,,,0600,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Wed,?,,,0600,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Thu,?,,,0600,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Fri,?,,,0600,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sat,?,,,0600,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sun,?,,,0600,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Tue,?,,,0900,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Wed,?,,,0900,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Thu,?,,,0900,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Fri,?,,,0900,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sat,?,,,0900,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sun,?,,,0900,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Tue,?,,,1200,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Wed,?,,,1200,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Thu,?,,,1200,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Fri,?,,,1200,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sat,?,,,1200,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sun,?,,,1200,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Tue,?,,,1500,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Wed,?,,,1500,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Thu,?,,,1500,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Fri,?,,,1500,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sat,?,,,1500,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sun,?,,,1500,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Tue,?,,,1800,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Wed,?,,,1800,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Thu,?,,,1800,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Fri,?,,,1800,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sat,?,,,1800,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sun,?,,,1800,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Tue,?,,,2100,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Wed,?,,,2100,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Thu,?,,,2100,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Fri,?,,,2100,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sat,?,,,2100,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sun,?,,,2100,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Tue,?,,,2400,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Wed,?,,,2400,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Thu,?,,,2400,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Fri,?,,,2400,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sat,?,,,2400,,-,,blank,,
-SQ_MSR_0924,60,SQ,DORM ? / Podium,cdcr_2031,Sun,?,,,2400,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,0300,,64?,64,unsure,,single_read
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,0600,,66,66,clear,,two_reads_agree
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,0900,,66,66,clear,,two_reads_agree
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,1200,,70,70,clear,,two_reads_agree
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,1500,,77,77,clear,,two_reads_agree
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,1800,,79,79,clear,,two_reads_agree
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,2100,,77,77,clear,,two_reads_agree
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Mon,9-30-24,2024-09-30,written,2400,,73,73,clear,,two_reads_agree
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Tue,?,,,0300,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Wed,?,,,0300,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Thu,?,,,0300,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Fri,?,,,0300,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sat,?,,,0300,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sun,?,,,0300,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Tue,?,,,0600,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Wed,?,,,0600,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Thu,?,,,0600,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Fri,?,,,0600,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sat,?,,,0600,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sun,?,,,0600,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Tue,?,,,0900,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Wed,?,,,0900,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Thu,?,,,0900,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Fri,?,,,0900,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sat,?,,,0900,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sun,?,,,0900,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Tue,?,,,1200,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Wed,?,,,1200,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Thu,?,,,1200,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Fri,?,,,1200,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sat,?,,,1200,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sun,?,,,1200,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Tue,?,,,1500,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Wed,?,,,1500,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Thu,?,,,1500,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Fri,?,,,1500,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sat,?,,,1500,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sun,?,,,1500,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Tue,?,,,1800,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Wed,?,,,1800,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Thu,?,,,1800,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Fri,?,,,1800,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sat,?,,,1800,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sun,?,,,1800,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Tue,?,,,2100,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Wed,?,,,2100,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Thu,?,,,2100,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Fri,?,,,2100,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sat,?,,,2100,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sun,?,,,2100,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Tue,?,,,2400,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Wed,?,,,2400,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Thu,?,,,2400,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Fri,?,,,2400,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sat,?,,,2400,,-,,blank,,
+SQ_MSR_0924,60,SQ,DORM 4 / Podium,cdcr_2031,Sun,?,,,2400,,-,,blank,,
 SQ_MSR_0924,61,SQ,H5- / Podium,cdcr_2031,Sun,9-1-2024,2024-09-01,written,0000,,70,70,clear,,two_reads_agree
 SQ_MSR_0924,61,SQ,H5- / Podium,cdcr_2031,Sun,9-1-2024,2024-09-01,written,0300,,69,69,clear,,two_reads_agree
 SQ_MSR_0924,61,SQ,H5- / Podium,cdcr_2031,Sun,9-1-2024,2024-09-01,written,0600,,72,72,clear,,two_reads_agree
@@ -8603,7 +8603,7 @@ SQ_MSR_1024,58,SQ,SQRC / H-unit / Dorm 2,cdcr_2031,Fri,10/4/24,2024-10-04,writte
 SQ_MSR_1024,58,SQ,SQRC / H-unit / Dorm 2,cdcr_2031,Fri,10/4/24,2024-10-04,written,0600,,72,72,clear,,two_reads_agree
 SQ_MSR_1024,58,SQ,SQRC / H-unit / Dorm 2,cdcr_2031,Fri,10/4/24,2024-10-04,written,0900,,74,74,clear,,two_reads_agree
 SQ_MSR_1024,58,SQ,SQRC / H-unit / Dorm 2,cdcr_2031,Fri,10/4/24,2024-10-04,written,1200,,75,75,clear,,two_reads_agree
-SQ_MSR_1024,58,SQ,SQRC / H-unit / Dorm 2,cdcr_2031,Fri,10/4/24,2024-10-04,written,1500,,88?,88,unsure,,two_reads_agree
+SQ_MSR_1024,58,SQ,SQRC / H-unit / Dorm 2,cdcr_2031,Fri,10/4/24,2024-10-04,written,1500,,88,88,clear,,two_reads_agree_after_doubt
 SQ_MSR_1024,58,SQ,SQRC / H-unit / Dorm 2,cdcr_2031,Fri,10/4/24,2024-10-04,written,1800,,86,86,clear,,adjudicated
 SQ_MSR_1024,58,SQ,SQRC / H-unit / Dorm 2,cdcr_2031,Fri,10/4/24,2024-10-04,written,2100,,89|84,89,ambiguous,84,adjudicated
 SQ_MSR_1024,58,SQ,SQRC / H-unit / Dorm 2,cdcr_2031,Sat,10/5,2024-10-05,written,0000,,74,74,clear,,two_reads_agree

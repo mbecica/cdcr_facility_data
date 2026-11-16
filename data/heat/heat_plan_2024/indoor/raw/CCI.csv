@@ -21234,7 +21234,7 @@ CCI_MSR_0624,386,CCI,?,cdcr_2031,Sun,6/2/24,2024-06-02,written,0300,,68,68,clear
 CCI_MSR_0624,386,CCI,?,cdcr_2031,Sun,6/2/24,2024-06-02,written,0600,,67,67,clear,,two_reads_agree
 CCI_MSR_0624,386,CCI,?,cdcr_2031,Sun,6/2/24,2024-06-02,written,0900,,68,68,clear,,two_reads_agree
 CCI_MSR_0624,386,CCI,?,cdcr_2031,Sun,6/2/24,2024-06-02,written,1200,,88|68,88,ambiguous,68,adjudicated
-CCI_MSR_0624,386,CCI,?,cdcr_2031,Sun,6/2/24,2024-06-02,written,1500,,88?,88,unsure,,two_reads_agree
+CCI_MSR_0624,386,CCI,?,cdcr_2031,Sun,6/2/24,2024-06-02,written,1500,,88,88,clear,,two_reads_agree_after_doubt
 CCI_MSR_0624,386,CCI,?,cdcr_2031,Sun,6/2/24,2024-06-02,written,1800,,75,75,clear,,two_reads_agree
 CCI_MSR_0624,386,CCI,?,cdcr_2031,Sun,6/2/24,2024-06-02,written,2100,,69,69,clear,,adjudicated
 CCI_MSR_0624,386,CCI,?,cdcr_2031,Sun,6/2/24,2024-06-02,written,2400,,68|65,68,ambiguous,65,adjudicated
@@ -33102,7 +33102,7 @@ CCI_MSR_0724,406,CCI,B HU-2 / C,cdcr_2031,Mon,7/8/24,2024-07-08,written,2400,,80
 CCI_MSR_0724,406,CCI,B HU-2 / C,cdcr_2031,Tue,7/9,2024-07-09,written,0300,,80,80,clear,,two_reads_agree
 CCI_MSR_0724,406,CCI,B HU-2 / C,cdcr_2031,Tue,7/9,2024-07-09,written,0600,,84,84,clear,,two_reads_agree
 CCI_MSR_0724,406,CCI,B HU-2 / C,cdcr_2031,Tue,7/9,2024-07-09,written,0900,,87,87,clear,,adjudicated
-CCI_MSR_0724,406,CCI,B HU-2 / C,cdcr_2031,Tue,7/9,2024-07-09,written,1200,,89?,89,unsure,,two_reads_agree
+CCI_MSR_0724,406,CCI,B HU-2 / C,cdcr_2031,Tue,7/9,2024-07-09,written,1200,,89,89,clear,,two_reads_agree_after_doubt
 CCI_MSR_0724,406,CCI,B HU-2 / C,cdcr_2031,Tue,7/9,2024-07-09,written,1500,,89,89,clear,,two_reads_agree
 CCI_MSR_0724,406,CCI,B HU-2 / C,cdcr_2031,Tue,7/9,2024-07-09,written,1800,,90,90,clear,,two_reads_agree
 CCI_MSR_0724,406,CCI,B HU-2 / C,cdcr_2031,Tue,7/9,2024-07-09,written,2100,,90,90,clear,,two_reads_agree
@@ -41012,7 +41012,7 @@ CCI_MSR_0724,851,CCI,CCI / C-4 / DAYROOM,cdcr_2031,Sun,7/7,2024-07-07,written,12
 CCI_MSR_0724,851,CCI,CCI / C-4 / DAYROOM,cdcr_2031,Sun,7/7,2024-07-07,written,1500,,80,80,clear,,two_reads_agree
 CCI_MSR_0724,851,CCI,CCI / C-4 / DAYROOM,cdcr_2031,Sun,7/7,2024-07-07,written,1800,,80,80,clear,,two_reads_agree
 CCI_MSR_0724,851,CCI,CCI / C-4 / DAYROOM,cdcr_2031,Sun,7/7,2024-07-07,written,2100,,79,79,clear,,two_reads_agree
-CCI_MSR_0724,851,CCI,CCI / C-4 / DAYROOM,cdcr_2031,Sun,7/7,2024-07-07,written,2400,,89?,89,unsure,,two_reads_agree
+CCI_MSR_0724,851,CCI,CCI / C-4 / DAYROOM,cdcr_2031,Sun,7/7,2024-07-07,written,2400,,89,89,clear,,two_reads_agree_after_doubt
 CCI_MSR_0724,852,CCI,CCI C-4 DAYROOM,cdcr_2031,Mon,7/8,2024-07-08,written,0300,,88,88,clear,,two_reads_agree
 CCI_MSR_0724,852,CCI,CCI C-4 DAYROOM,cdcr_2031,Mon,7/8,2024-07-08,written,0600,,88,88,clear,,two_reads_agree
 CCI_MSR_0724,852,CCI,CCI C-4 DAYROOM,cdcr_2031,Mon,7/8,2024-07-08,written,0900,,78,78,clear,,two_reads_agree_after_doubt
@@ -50392,9 +50392,9 @@ CCI_MSR_0824,351,CCI,B HU 8? Dayroom,cdcr_2031,Sun,9.1.24,2024-09-01,written,030
 CCI_MSR_0824,351,CCI,B HU 8? Dayroom,cdcr_2031,Sun,9.1.24,2024-09-01,written,0600,,80,80,clear,,two_reads_agree
 CCI_MSR_0824,351,CCI,B HU 8? Dayroom,cdcr_2031,Sun,9.1.24,2024-09-01,written,0900,,80,80,clear,,two_reads_agree
 CCI_MSR_0824,351,CCI,B HU 8? Dayroom,cdcr_2031,Sun,9.1.24,2024-09-01,written,1200,,80,80,clear,,two_reads_agree
-CCI_MSR_0824,351,CCI,B HU 8? Dayroom,cdcr_2031,Sun,9.1.24,2024-09-01,written,1500,,89?,89,unsure,,two_reads_agree
+CCI_MSR_0824,351,CCI,B HU 8? Dayroom,cdcr_2031,Sun,9.1.24,2024-09-01,written,1500,,89,89,clear,,two_reads_agree_after_doubt
 CCI_MSR_0824,351,CCI,B HU 8? Dayroom,cdcr_2031,Sun,9.1.24,2024-09-01,written,1800,,83|88,83,ambiguous,88,adjudicated
-CCI_MSR_0824,351,CCI,B HU 8? Dayroom,cdcr_2031,Sun,9.1.24,2024-09-01,written,2100,,88?,88,unsure,,two_reads_agree
+CCI_MSR_0824,351,CCI,B HU 8? Dayroom,cdcr_2031,Sun,9.1.24,2024-09-01,written,2100,,88,88,clear,,two_reads_agree_after_doubt
 CCI_MSR_0824,351,CCI,B HU 8? Dayroom,cdcr_2031,Sun,9.1.24,2024-09-01,written,2400,,87,87,clear,,two_reads_agree
 CCI_MSR_0824,353,CCI,?,local,?,8/1,2024-08-01,written,1300,,82,82,clear,,single_read
 CCI_MSR_0824,353,CCI,?,local,?,8/1,2024-08-01,written,1400,,82,82,clear,,single_read

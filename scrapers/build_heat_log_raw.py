@@ -47,7 +47,7 @@ READ_BASIS = {
 # Choosing between them is left to the cleaned layer.
 # Two reads gave the same number but a reader marked it unsure ("74?"): published as clear
 # with read_basis two_reads_agree_after_doubt (user, Nov 15 2026), below 88 only; cells at
-# 88 and above keep the ? until the tens digit is checked (QA threshold gate).
+# 88 and above keep the ? unless the threshold gate found the tens digit certain (gate_ok_cells).
 AGREED = {"second read agrees", "pair agrees", "pair agrees, one unsure", "Claude read, pair agrees",
           "pair agrees, Claude checked"}
 DOUBT_MAX = 88
@@ -120,6 +120,17 @@ def value_cell(v):
     return temp, "unsure" if m.group(2) else "clear"
 
 
+def gate_ok_cells():
+    """Agreed cells at 88+ whose tens digit a third, blind read found certain (threshold gate,
+    Nov 15 2026, notes/heat_log_scan/gate/after_doubt_ok.csv): published like the <88 ones."""
+    p = SCAN / "gate" / "after_doubt_ok.csv"
+    if not p.exists():
+        return set()
+    with open(p, newline="") as f:
+        return {(r["package"], r["page"], r["day"], r["time"], r["housing_unit_as_written"], r["value_label"])
+                for r in csv.DictReader(f)}
+
+
 def researcher_cells():
     """Cells whose last adjudication row is the researcher's own decision."""
     last = {}
@@ -153,6 +164,7 @@ def skip_kind(reason):
 def main(out_dir):
     out = Path(out_dir)
     user = researcher_cells()
+    gate_ok = gate_ok_cells()
     ufix = unit_fixes()
     pfix = unit_page_fixes()
     multi = multi_value_cells()
@@ -202,7 +214,7 @@ def main(out_dir):
             "read_basis": basis if r["temp_f"] != "" else "",
         }
         if (r["status"] == "unsure" and r["check"] in AGREED and basis == "two_reads_agree"
-                and o["temp_f"] != "" and float(o["temp_f"]) < DOUBT_MAX):
+                and o["temp_f"] != "" and (float(o["temp_f"]) < DOUBT_MAX or (pkg, str(page), o["day"], o["time"], unit, o["value_label"]) in gate_ok)):
             o.update(status="clear", temp_as_written=o["temp_as_written"].replace("?", ""),
                      read_basis="two_reads_agree_after_doubt")
         vals = multi.get((pkg, page, r["day"], r["time"])) if not r["housing_unit_as_written"].endswith("value)") else None

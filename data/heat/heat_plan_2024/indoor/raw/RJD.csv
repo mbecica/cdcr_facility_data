@@ -13614,7 +13614,7 @@ RJD_MSR_0924,42,RJD,11,cdcr_2031,Sun,9/8/24,2024-09-08,written,0900,,85,85,clear
 RJD_MSR_0924,42,RJD,11,cdcr_2031,Sun,9/8/24,2024-09-08,written,1200,,84,84,clear,,two_reads_agree
 RJD_MSR_0924,42,RJD,11,cdcr_2031,Sun,9/8/24,2024-09-08,written,1500,,86,86,clear,,two_reads_agree
 RJD_MSR_0924,42,RJD,11,cdcr_2031,Sun,9/8/24,2024-09-08,written,1800,,86,86,clear,,two_reads_agree
-RJD_MSR_0924,42,RJD,11,cdcr_2031,Sun,9/8/24,2024-09-08,written,2100,,89?,89,unsure,,two_reads_agree
+RJD_MSR_0924,42,RJD,11,cdcr_2031,Sun,9/8/24,2024-09-08,written,2100,,89,89,clear,,two_reads_agree_after_doubt
 RJD_MSR_0924,42,RJD,11,cdcr_2031,Sun,9/8/24,2024-09-08,written,2400,,80,80,clear,,two_reads_agree
 RJD_MSR_0924,43,RJD,12,cdcr_2031,Mon,9/2,2024-09-02,written,0300,,72?,72,unsure,,single_read
 RJD_MSR_0924,43,RJD,12,cdcr_2031,Mon,9/2,2024-09-02,written,0600,,75,75,clear,,two_reads_agree
@@ -13949,7 +13949,7 @@ RJD_MSR_0924,48,RJD,D17,cdcr_2031,Sun,9/8/24,2024-09-08,written,0600,,85,85,clea
 RJD_MSR_0924,48,RJD,D17,cdcr_2031,Sun,9/8/24,2024-09-08,written,0900,,87,87,clear,,two_reads_agree
 RJD_MSR_0924,48,RJD,D17,cdcr_2031,Sun,9/8/24,2024-09-08,written,1200,,89,89,clear,,two_reads_agree
 RJD_MSR_0924,48,RJD,D17,cdcr_2031,Sun,9/8/24,2024-09-08,written,1500,,90,90,clear,,two_reads_agree
-RJD_MSR_0924,48,RJD,D17,cdcr_2031,Sun,9/8/24,2024-09-08,written,1800,,89?,89,unsure,,two_reads_agree
+RJD_MSR_0924,48,RJD,D17,cdcr_2031,Sun,9/8/24,2024-09-08,written,1800,,89,89,clear,,two_reads_agree_after_doubt
 RJD_MSR_0924,48,RJD,D17,cdcr_2031,Sun,9/8/24,2024-09-08,written,2100,,87,87,clear,,two_reads_agree
 RJD_MSR_0924,48,RJD,D17,cdcr_2031,Sun,9/8/24,2024-09-08,written,2400,,87,87,clear,,two_reads_agree
 RJD_MSR_0924,49,RJD,RJD / 18 / 2ND TIER,cdcr_2031,Mon,9/2/24,2024-09-02,written,0300,,74,74,clear,,two_reads_agree
@@ -14183,7 +14183,7 @@ RJD_MSR_0924,53,RJD,3,cdcr_2031,Mon,9/9,2024-09-09,written,1200,,89,89,clear,,tw
 RJD_MSR_0924,53,RJD,3,cdcr_2031,Mon,9/9,2024-09-09,written,1500,,89,89,clear,,two_reads_agree
 RJD_MSR_0924,53,RJD,3,cdcr_2031,Mon,9/9,2024-09-09,written,1800,,89,89,clear,,two_reads_agree
 RJD_MSR_0924,53,RJD,3,cdcr_2031,Mon,9/9,2024-09-09,written,2100,,88,88,clear,,two_reads_agree
-RJD_MSR_0924,53,RJD,3,cdcr_2031,Mon,9/9,2024-09-09,written,2400,,88?,88,unsure,,two_reads_agree
+RJD_MSR_0924,53,RJD,3,cdcr_2031,Mon,9/9,2024-09-09,written,2400,,88,88,clear,,two_reads_agree_after_doubt
 RJD_MSR_0924,53,RJD,3,cdcr_2031,Tue,9/10,2024-09-10,written,0300,,87,87,clear,,two_reads_agree_after_doubt
 RJD_MSR_0924,53,RJD,3,cdcr_2031,Tue,9/10,2024-09-10,written,0600,,85,85,clear,,two_reads_agree
 RJD_MSR_0924,53,RJD,3,cdcr_2031,Tue,9/10,2024-09-10,written,0900,,86,86,clear,,two_reads_agree
@@ -14192,7 +14192,7 @@ RJD_MSR_0924,53,RJD,3,cdcr_2031,Tue,9/10,2024-09-10,written,1500,,88,88,clear,,t
 RJD_MSR_0924,53,RJD,3,cdcr_2031,Tue,9/10,2024-09-10,written,1800,,87,87,clear,,two_reads_agree
 RJD_MSR_0924,53,RJD,3,cdcr_2031,Tue,9/10,2024-09-10,written,2100,,85,85,clear,,researcher_review
 RJD_MSR_0924,53,RJD,3,cdcr_2031,Tue,9/10,2024-09-10,written,2400,,84,84,clear,,two_reads_agree
-RJD_MSR_0924,53,RJD,3,cdcr_2031,Wed,9/11,2024-09-11,written,0300,,88?,88,unsure,,two_reads_agree
+RJD_MSR_0924,53,RJD,3,cdcr_2031,Wed,9/11,2024-09-11,written,0300,,88,88,clear,,two_reads_agree_after_doubt
 RJD_MSR_0924,53,RJD,3,cdcr_2031,Wed,9/11,2024-09-11,written,0600,,83|87,83,ambiguous,87,adjudicated
 RJD_MSR_0924,53,RJD,3,cdcr_2031,Wed,9/11,2024-09-11,written,0900,,84,84,clear,,two_reads_agree_after_doubt
 RJD_MSR_0924,53,RJD,3,cdcr_2031,Wed,9/11,2024-09-11,written,1200,,85,85,clear,,two_reads_agree_after_doubt
@@ -14570,7 +14570,7 @@ RJD_MSR_0924,59,RJD,RJD / 11 / 2nd tier,cdcr_2031,Sun,9/15/24,2024-09-15,written
 RJD_MSR_0924,59,RJD,RJD / 11 / 2nd tier,cdcr_2031,Sun,9/15/24,2024-09-15,written,2400,,70,70,clear,,two_reads_agree
 RJD_MSR_0924,60,RJD,12,cdcr_2031,Mon,9/9/24,2024-09-09,written,0300,,-,,blank,,
 RJD_MSR_0924,60,RJD,12,cdcr_2031,Mon,9/9/24,2024-09-09,written,0600,,80,80,clear,,two_reads_agree_after_doubt
-RJD_MSR_0924,60,RJD,12,cdcr_2031,Mon,9/9/24,2024-09-09,written,0900,,89?,89,unsure,,two_reads_agree
+RJD_MSR_0924,60,RJD,12,cdcr_2031,Mon,9/9/24,2024-09-09,written,0900,,89,89,clear,,two_reads_agree_after_doubt
 RJD_MSR_0924,60,RJD,12,cdcr_2031,Mon,9/9/24,2024-09-09,written,1200,,89,89,clear,,two_reads_agree
 RJD_MSR_0924,60,RJD,12,cdcr_2031,Mon,9/9/24,2024-09-09,written,1500,,89,89,clear,,two_reads_agree
 RJD_MSR_0924,60,RJD,12,cdcr_2031,Mon,9/9/24,2024-09-09,written,1800,,85,85,clear,,two_reads_agree
@@ -14597,7 +14597,7 @@ RJD_MSR_0924,60,RJD,12,cdcr_2031,Thu,9/12,2024-09-12,written,0600,,78,78,clear,,
 RJD_MSR_0924,60,RJD,12,cdcr_2031,Thu,9/12,2024-09-12,written,0900,,79,79,clear,,two_reads_agree
 RJD_MSR_0924,60,RJD,12,cdcr_2031,Thu,9/12,2024-09-12,written,1200,,79,79,clear,,two_reads_agree
 RJD_MSR_0924,60,RJD,12,cdcr_2031,Thu,9/12,2024-09-12,written,1500,,81,81,clear,,two_reads_agree_after_doubt
-RJD_MSR_0924,60,RJD,12,cdcr_2031,Thu,9/12,2024-09-12,written,1800,,89?,89,unsure,,two_reads_agree
+RJD_MSR_0924,60,RJD,12,cdcr_2031,Thu,9/12,2024-09-12,written,1800,,89,89,clear,,two_reads_agree_after_doubt
 RJD_MSR_0924,60,RJD,12,cdcr_2031,Thu,9/12,2024-09-12,written,2100,,79,79,clear,,two_reads_agree
 RJD_MSR_0924,60,RJD,12,cdcr_2031,Thu,9/12,2024-09-12,written,2400,,78,78,clear,,two_reads_agree
 RJD_MSR_0924,60,RJD,12,cdcr_2031,Fri,9/13,2024-09-13,written,0300,,76,76,clear,,two_reads_agree
@@ -14631,7 +14631,7 @@ RJD_MSR_0924,61,RJD,13,cdcr_2031,Mon,9/9,2024-09-09,written,1200,,85,85,clear,,t
 RJD_MSR_0924,61,RJD,13,cdcr_2031,Mon,9/9,2024-09-09,written,1500,,85,85,clear,,two_reads_agree
 RJD_MSR_0924,61,RJD,13,cdcr_2031,Mon,9/9,2024-09-09,written,1800,,83,83,clear,,researcher_review
 RJD_MSR_0924,61,RJD,13,cdcr_2031,Mon,9/9,2024-09-09,written,2100,,82,82,clear,,two_reads_agree
-RJD_MSR_0924,61,RJD,13,cdcr_2031,Mon,9/9,2024-09-09,written,2400,,88?,88,unsure,,two_reads_agree
+RJD_MSR_0924,61,RJD,13,cdcr_2031,Mon,9/9,2024-09-09,written,2400,,88,88,clear,,two_reads_agree_after_doubt
 RJD_MSR_0924,61,RJD,13,cdcr_2031,Tue,9/10,2024-09-10,written,0300,,74,74,clear,,two_reads_agree
 RJD_MSR_0924,61,RJD,13,cdcr_2031,Tue,9/10,2024-09-10,written,0600,,74,74,clear,,two_reads_agree
 RJD_MSR_0924,61,RJD,13,cdcr_2031,Tue,9/10,2024-09-10,written,0900,,75,75,clear,,two_reads_agree
