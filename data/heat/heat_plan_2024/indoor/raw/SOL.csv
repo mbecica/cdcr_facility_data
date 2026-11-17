@@ -19708,7 +19708,7 @@ SOL_MSR_1024,62,SOL,11,cdcr_2031,Fri,10/11,2024-10-11,written,0900,,84,84,clear,
 SOL_MSR_1024,62,SOL,11,cdcr_2031,Fri,10/11,2024-10-11,written,1200,,83,83,clear,,two_reads_agree
 SOL_MSR_1024,62,SOL,11,cdcr_2031,Fri,10/11,2024-10-11,written,1500,,82,82,clear,,two_reads_agree
 SOL_MSR_1024,62,SOL,11,cdcr_2031,Fri,10/11,2024-10-11,written,1800,,82,82,clear,,two_reads_agree
-SOL_MSR_1024,62,SOL,11,cdcr_2031,Fri,10/11,2024-10-11,written,2100,,81|21,81,ambiguous,21,two_reads_agree
+SOL_MSR_1024,62,SOL,11,cdcr_2031,Fri,10/11,2024-10-11,written,2100,,81,81,clear,,researcher_review
 SOL_MSR_1024,62,SOL,11,cdcr_2031,Fri,10/11,2024-10-11,written,2400,,80,80,clear,,two_reads_agree
 SOL_MSR_1024,62,SOL,11,cdcr_2031,Sat,10/12,2024-10-12,written,0300,,79,79,clear,,two_reads_agree
 SOL_MSR_1024,62,SOL,11,cdcr_2031,Sat,10/12,2024-10-12,written,0600,,78,78,clear,,two_reads_agree

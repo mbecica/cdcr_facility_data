@@ -11352,7 +11352,7 @@ CCI_MSR_0524,281,CCI,A SEC,cdcr_2031,Tue,5/14,2024-05-14,written,2400,,70,70,cle
 CCI_MSR_0524,281,CCI,A SEC,cdcr_2031,Wed,5/15,2024-05-15,written,0300,,69,69,clear,,single_read
 CCI_MSR_0524,281,CCI,A SEC,cdcr_2031,Wed,5/15,2024-05-15,written,0600,,70,70,clear,,single_read
 CCI_MSR_0524,281,CCI,A SEC,cdcr_2031,Wed,5/15,2024-05-15,written,0900,,73,73,clear,,single_read
-CCI_MSR_0524,281,CCI,A SEC,cdcr_2031,Wed,5/15,2024-05-15,written,1200,,25?,25,unsure,,single_read
+CCI_MSR_0524,281,CCI,A SEC,cdcr_2031,Wed,5/15,2024-05-15,written,1200,,75,75,clear,,researcher_review
 CCI_MSR_0524,281,CCI,A SEC,cdcr_2031,Wed,5/15,2024-05-15,written,1500,,78?,78,unsure,,single_read
 CCI_MSR_0524,281,CCI,A SEC,cdcr_2031,Wed,5/15,2024-05-15,written,1800,,76,76,clear,,single_read
 CCI_MSR_0524,281,CCI,A SEC,cdcr_2031,Wed,5/15,2024-05-15,written,2100,,76,76,clear,,single_read

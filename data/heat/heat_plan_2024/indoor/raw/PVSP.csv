@@ -944,7 +944,7 @@ PVSP_MSR_0524,19,PVSP,PVSP A4 2nd tier,cdcr_2031,Sun,5/19,2024-05-19,written,180
 PVSP_MSR_0524,19,PVSP,PVSP A4 2nd tier,cdcr_2031,Sun,5/19,2024-05-19,written,2100,,74,74,clear,,two_reads_agree
 PVSP_MSR_0524,19,PVSP,PVSP A4 2nd tier,cdcr_2031,Sun,5/19,2024-05-19,written,2400,,74,74,clear,,two_reads_agree
 PVSP_MSR_0524,20,PVSP,A4,cdcr_2031,Mon,5/20,2024-05-20,written,0300,,74,74,clear,,two_reads_agree
-PVSP_MSR_0524,20,PVSP,A4,cdcr_2031,Mon,5/20,2024-05-20,written,0600,,21?,21,unsure,,adjudicated
+PVSP_MSR_0524,20,PVSP,A4,cdcr_2031,Mon,5/20,2024-05-20,written,0600,,69,69,clear,,researcher_review
 PVSP_MSR_0524,20,PVSP,A4,cdcr_2031,Mon,5/20,2024-05-20,written,0900,,69,69,clear,,two_reads_agree
 PVSP_MSR_0524,20,PVSP,A4,cdcr_2031,Mon,5/20,2024-05-20,written,1200,,72,72,clear,,two_reads_agree
 PVSP_MSR_0524,20,PVSP,A4,cdcr_2031,Mon,5/20,2024-05-20,written,1500,,73,73,clear,,two_reads_agree
@@ -3376,7 +3376,7 @@ PVSP_MSR_0524,67,PVSP,C1,cdcr_2031,Mon,5/27/24,2024-05-27,written,1800,,75,75,cl
 PVSP_MSR_0524,67,PVSP,C1,cdcr_2031,Mon,5/27/24,2024-05-27,written,2100,,75,75,clear,,two_reads_agree
 PVSP_MSR_0524,67,PVSP,C1,cdcr_2031,Mon,5/27/24,2024-05-27,written,2400,,72,72,clear,,two_reads_agree
 PVSP_MSR_0524,67,PVSP,C1,cdcr_2031,Tue,5/28,2024-05-28,written,0300,,72,72,clear,,two_reads_agree
-PVSP_MSR_0524,67,PVSP,C1,cdcr_2031,Tue,5/28,2024-05-28,written,0600,,27|72,27,ambiguous,72,dispute_decided
+PVSP_MSR_0524,67,PVSP,C1,cdcr_2031,Tue,5/28,2024-05-28,written,0600,,27,27,clear,,researcher_review
 PVSP_MSR_0524,67,PVSP,C1,cdcr_2031,Tue,5/28,2024-05-28,written,0900,,72,72,clear,,two_reads_agree
 PVSP_MSR_0524,67,PVSP,C1,cdcr_2031,Tue,5/28,2024-05-28,written,1200,,72,72,clear,,two_reads_agree
 PVSP_MSR_0524,67,PVSP,C1,cdcr_2031,Tue,5/28,2024-05-28,written,1500,,75,75,clear,,two_reads_agree
@@ -19209,7 +19209,7 @@ PVSP_MSR_0724,117,PVSP,E,local,?,7/9/24,2024-07-09,written,2300,,72,72,clear,,tw
 PVSP_MSR_0724,117,PVSP,F,local,?,7/9/24,2024-07-09,written,0200,,71,71,clear,,two_reads_agree
 PVSP_MSR_0724,117,PVSP,F,local,?,7/9/24,2024-07-09,written,0500,,71,71,clear,,two_reads_agree
 PVSP_MSR_0724,117,PVSP,F,local,?,7/9/24,2024-07-09,written,0800,,72,72,clear,,two_reads_agree
-PVSP_MSR_0724,117,PVSP,F,local,?,7/9/24,2024-07-09,written,1100,,72|22,72,ambiguous,22,two_reads_agree
+PVSP_MSR_0724,117,PVSP,F,local,?,7/9/24,2024-07-09,written,1100,,72,72,clear,,researcher_review
 PVSP_MSR_0724,117,PVSP,F,local,?,7/9/24,2024-07-09,written,1400,,72,72,clear,,two_reads_agree
 PVSP_MSR_0724,117,PVSP,F,local,?,7/9/24,2024-07-09,written,1700,,74,74,clear,,two_reads_agree
 PVSP_MSR_0724,117,PVSP,F,local,?,7/9/24,2024-07-09,written,2000,,74,74,clear,,two_reads_agree

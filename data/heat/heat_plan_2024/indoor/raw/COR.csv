@@ -33634,7 +33634,7 @@ COR_MSR_1024,113,COR,CSP-COR / 3B03 / CONTROL,cdcr_2031,Sat,10/26/24,2024-10-26,
 COR_MSR_1024,113,COR,CSP-COR / 3B03 / CONTROL,cdcr_2031,Sat,10/26/24,2024-10-26,written,1500,,76,76,clear,,two_reads_agree
 COR_MSR_1024,113,COR,CSP-COR / 3B03 / CONTROL,cdcr_2031,Sat,10/26/24,2024-10-26,written,1800,,76,76,clear,,two_reads_agree
 COR_MSR_1024,113,COR,CSP-COR / 3B03 / CONTROL,cdcr_2031,Sat,10/26/24,2024-10-26,written,2100,,74,74,clear,,two_reads_agree
-COR_MSR_1024,113,COR,CSP-COR / 3B03 / CONTROL,cdcr_2031,Sat,10/26/24,2024-10-26,written,2400,,34|74,34,ambiguous,74,two_reads_agree
+COR_MSR_1024,113,COR,CSP-COR / 3B03 / CONTROL,cdcr_2031,Sat,10/26/24,2024-10-26,written,2400,,74,74,clear,,researcher_review
 COR_MSR_1024,113,COR,CSP-COR / 3B03 / CONTROL,cdcr_2031,Sun,10/27/24,2024-10-27,written,0300,,71,71,clear,,two_reads_agree
 COR_MSR_1024,113,COR,CSP-COR / 3B03 / CONTROL,cdcr_2031,Sun,10/27/24,2024-10-27,written,0600,,69,69,clear,,two_reads_agree
 COR_MSR_1024,113,COR,CSP-COR / 3B03 / CONTROL,cdcr_2031,Sun,10/27/24,2024-10-27,written,0900,,70,70,clear,,two_reads_agree

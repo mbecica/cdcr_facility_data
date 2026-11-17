@@ -1056,7 +1056,7 @@ SCC_MSR_0524,80,SCC,72,cdcr_2031,Fri,5/10,2024-05-10,written,1800,,79,79,clear,,
 SCC_MSR_0524,80,SCC,72,cdcr_2031,Fri,5/10,2024-05-10,written,2100,,77,77,clear,,two_reads_agree
 SCC_MSR_0524,80,SCC,72,cdcr_2031,Fri,5/10,2024-05-10,written,2400,,76,76,clear,,two_reads_agree
 SCC_MSR_0524,80,SCC,72,cdcr_2031,Sat,5/11,2024-05-11,written,0300,,74,74,clear,,two_reads_agree
-SCC_MSR_0524,80,SCC,72,cdcr_2031,Sat,5/11,2024-05-11,written,0600,,24?,24,unsure,,adjudicated
+SCC_MSR_0524,80,SCC,72,cdcr_2031,Sat,5/11,2024-05-11,written,0600,,74,74,clear,,researcher_review
 SCC_MSR_0524,80,SCC,72,cdcr_2031,Sat,5/11,2024-05-11,written,0900,,76,76,clear,,two_reads_agree
 SCC_MSR_0524,80,SCC,72,cdcr_2031,Sat,5/11,2024-05-11,written,1200,,78,78,clear,,two_reads_agree
 SCC_MSR_0524,80,SCC,72,cdcr_2031,Sat,5/11,2024-05-11,written,1500,,81,81,clear,,two_reads_agree

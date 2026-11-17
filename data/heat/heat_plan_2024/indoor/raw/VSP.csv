@@ -11817,7 +11817,7 @@ VSP_MSR_0724,76,VSP,C103,cdcr_2031,Tue,7/30/24,2024-07-30,written,2100,,76,76,cl
 VSP_MSR_0724,76,VSP,C103,cdcr_2031,Tue,7/30/24,2024-07-30,written,2400,,72,72,clear,,two_reads_agree
 VSP_MSR_0724,76,VSP,C103,cdcr_2031,Wed,7/31/24,2024-07-31,written,0300,,74,74,clear,,two_reads_agree
 VSP_MSR_0724,76,VSP,C103,cdcr_2031,Wed,7/31/24,2024-07-31,written,0600,,73,73,clear,,two_reads_agree
-VSP_MSR_0724,76,VSP,C103,cdcr_2031,Wed,7/31/24,2024-07-31,written,0900,,73|23,73,ambiguous,23,two_reads_agree
+VSP_MSR_0724,76,VSP,C103,cdcr_2031,Wed,7/31/24,2024-07-31,written,0900,,73,73,clear,,researcher_review
 VSP_MSR_0724,76,VSP,C103,cdcr_2031,Wed,7/31/24,2024-07-31,written,1200,,77,77,clear,,two_reads_agree
 VSP_MSR_0724,76,VSP,C103,cdcr_2031,Wed,7/31/24,2024-07-31,written,1500,,78,78,clear,,two_reads_agree
 VSP_MSR_0724,76,VSP,C103,cdcr_2031,Wed,7/31/24,2024-07-31,written,1800,,78,78,clear,,two_reads_agree_after_doubt

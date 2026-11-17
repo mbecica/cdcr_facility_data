@@ -826,7 +826,7 @@ LAC_MSR_0524,28,LAC,B2,cdcr_2031,Fri,5/3/24,2024-05-03,written,2400,,70,70,clear
 LAC_MSR_0524,28,LAC,B2,cdcr_2031,Sat,5/4/24,2024-05-04,written,0300,,70,70,clear,,single_read
 LAC_MSR_0524,28,LAC,B2,cdcr_2031,Sat,5/4/24,2024-05-04,written,0600,,70,70,clear,,single_read
 LAC_MSR_0524,28,LAC,B2,cdcr_2031,Sat,5/4/24,2024-05-04,written,0900,,68,68,clear,,single_read
-LAC_MSR_0524,28,LAC,B2,cdcr_2031,Sat,5/4/24,2024-05-04,written,1200,,10?,10,unsure,,single_read
+LAC_MSR_0524,28,LAC,B2,cdcr_2031,Sat,5/4/24,2024-05-04,written,1200,,70,70,clear,,researcher_review
 LAC_MSR_0524,28,LAC,B2,cdcr_2031,Sat,5/4/24,2024-05-04,written,1500,,-,,blank,,
 LAC_MSR_0524,28,LAC,B2,cdcr_2031,Sat,5/4/24,2024-05-04,written,1800,,-,,blank,,
 LAC_MSR_0524,28,LAC,B2,cdcr_2031,Sat,5/4/24,2024-05-04,written,2100,,-,,blank,,
@@ -18220,7 +18220,7 @@ LAC_MSR_0724,79,LAC,E WING,local,?,7/17/24,2024-07-17,written,0600,,70,70,clear,
 LAC_MSR_0724,79,LAC,E WING,local,?,7/17/24,2024-07-17,written,0900,,70,70,clear,,two_reads_agree
 LAC_MSR_0724,79,LAC,E WING,local,?,7/17/24,2024-07-17,written,1200,,70,70,clear,,two_reads_agree
 LAC_MSR_0724,79,LAC,E WING,local,?,7/17/24,2024-07-17,written,1500,,70,70,clear,,two_reads_agree
-LAC_MSR_0724,79,LAC,E WING,local,?,7/17/24,2024-07-17,written,1800,,20|70,20,ambiguous,70,adjudicated
+LAC_MSR_0724,79,LAC,E WING,local,?,7/17/24,2024-07-17,written,1800,,70,70,clear,,researcher_review
 LAC_MSR_0724,79,LAC,E WING,local,?,7/17/24,2024-07-17,written,2100,,70,70,clear,,two_reads_agree
 LAC_MSR_0724,79,LAC,E WING,local,?,7/17/24,2024-07-17,written,2400,,70,70,clear,,two_reads_agree
 LAC_MSR_0724,79,LAC,F WING,local,?,7/17/24,2024-07-17,written,0300,,66,66,clear,,two_reads_agree

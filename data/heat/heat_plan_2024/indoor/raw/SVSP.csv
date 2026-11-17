@@ -19546,7 +19546,7 @@ SVSP_MSR_0724,141,SVSP,TC1,cdcr_2031,Mon,7/29,2024-07-29,written,1200,,72,72,cle
 SVSP_MSR_0724,141,SVSP,TC1,cdcr_2031,Mon,7/29,2024-07-29,written,1500,,72,72,clear,,two_reads_agree
 SVSP_MSR_0724,141,SVSP,TC1,cdcr_2031,Mon,7/29,2024-07-29,written,1800,,72,72,clear,,two_reads_agree
 SVSP_MSR_0724,141,SVSP,TC1,cdcr_2031,Mon,7/29,2024-07-29,written,2100,,72,72,clear,,two_reads_agree
-SVSP_MSR_0724,141,SVSP,TC1,cdcr_2031,Mon,7/29,2024-07-29,written,2400,,72|22,72,ambiguous,22,two_reads_agree
+SVSP_MSR_0724,141,SVSP,TC1,cdcr_2031,Mon,7/29,2024-07-29,written,2400,,72,72,clear,,researcher_review
 SVSP_MSR_0724,141,SVSP,TC1,cdcr_2031,Tue,7/30,2024-07-30,written,0300,,72,72,clear,,two_reads_agree
 SVSP_MSR_0724,141,SVSP,TC1,cdcr_2031,Tue,7/30,2024-07-30,written,0600,,71,71,clear,,two_reads_agree
 SVSP_MSR_0724,141,SVSP,TC1,cdcr_2031,Tue,7/30,2024-07-30,written,0900,,72,72,clear,,two_reads_agree
@@ -22150,7 +22150,7 @@ SVSP_MSR_0824,65,SVSP,C-7,cdcr_2031,Wed,8/7/24,2024-08-07,written,2400,,75,75,cl
 SVSP_MSR_0824,65,SVSP,C-7,cdcr_2031,Thu,8/8/24,2024-08-08,written,0300,,75,75,clear,,two_reads_agree
 SVSP_MSR_0824,65,SVSP,C-7,cdcr_2031,Thu,8/8/24,2024-08-08,written,0600,,75,75,clear,,two_reads_agree
 SVSP_MSR_0824,65,SVSP,C-7,cdcr_2031,Thu,8/8/24,2024-08-08,written,0900,,74,74,clear,,two_reads_agree
-SVSP_MSR_0824,65,SVSP,C-7,cdcr_2031,Thu,8/8/24,2024-08-08,written,1200,,37?,37,unsure,,adjudicated
+SVSP_MSR_0824,65,SVSP,C-7,cdcr_2031,Thu,8/8/24,2024-08-08,written,1200,,74,74,clear,,researcher_review
 SVSP_MSR_0824,65,SVSP,C-7,cdcr_2031,Thu,8/8/24,2024-08-08,written,1500,,74,74,clear,,two_reads_agree
 SVSP_MSR_0824,65,SVSP,C-7,cdcr_2031,Thu,8/8/24,2024-08-08,written,1800,,74|72,74,ambiguous,72,two_reads_agree
 SVSP_MSR_0824,65,SVSP,C-7,cdcr_2031,Thu,8/8/24,2024-08-08,written,2100,,72,72,clear,,two_reads_agree

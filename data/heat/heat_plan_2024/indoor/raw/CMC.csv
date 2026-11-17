@@ -67624,7 +67624,7 @@ CMC_MSR_0924,303,CMC,CMC / FACILITY M / DORM 34,cdcr_2031,Thu,10/03/24,2024-10-0
 CMC_MSR_0924,303,CMC,CMC / FACILITY M / DORM 34,cdcr_2031,Thu,10/03/24,2024-10-03,written,1800,,87,87,clear,,two_reads_agree
 CMC_MSR_0924,303,CMC,CMC / FACILITY M / DORM 34,cdcr_2031,Thu,10/03/24,2024-10-03,written,2100,,87,87,clear,,dispute_decided
 CMC_MSR_0924,303,CMC,CMC / FACILITY M / DORM 34,cdcr_2031,Thu,10/03/24,2024-10-03,written,2400,,80,80,clear,,dispute_decided
-CMC_MSR_0924,303,CMC,CMC / FACILITY M / DORM 34,cdcr_2031,Fri,10/04/24,2024-10-04,written,0300,,78|28,78,ambiguous,28,dispute_decided
+CMC_MSR_0924,303,CMC,CMC / FACILITY M / DORM 34,cdcr_2031,Fri,10/04/24,2024-10-04,written,0300,,78,78,clear,,researcher_review
 CMC_MSR_0924,303,CMC,CMC / FACILITY M / DORM 34,cdcr_2031,Fri,10/04/24,2024-10-04,written,0600,,74,74,clear,,two_reads_agree
 CMC_MSR_0924,303,CMC,CMC / FACILITY M / DORM 34,cdcr_2031,Fri,10/04/24,2024-10-04,written,0900,,72,72,clear,,two_reads_agree
 CMC_MSR_0924,303,CMC,CMC / FACILITY M / DORM 34,cdcr_2031,Fri,10/04/24,2024-10-04,written,1200,,72,72,clear,,two_reads_agree

@@ -326,7 +326,7 @@ CIM_MSR_0524,10,CIM,A1,cdcr_2031,Sat,5/11,2024-05-11,written,1200,,72,72,clear,,
 CIM_MSR_0524,10,CIM,A1,cdcr_2031,Sat,5/11,2024-05-11,written,1500,,72,72,clear,,two_reads_agree
 CIM_MSR_0524,10,CIM,A1,cdcr_2031,Sat,5/11,2024-05-11,written,1800,,72,72,clear,,two_reads_agree
 CIM_MSR_0524,10,CIM,A1,cdcr_2031,Sat,5/11,2024-05-11,written,2100,,72,72,clear,,two_reads_agree
-CIM_MSR_0524,10,CIM,A1,cdcr_2031,Sat,5/11,2024-05-11,written,2400,,21|71,21,ambiguous,71,adjudicated
+CIM_MSR_0524,10,CIM,A1,cdcr_2031,Sat,5/11,2024-05-11,written,2400,,71,71,clear,,researcher_review
 CIM_MSR_0524,10,CIM,A1,cdcr_2031,Sun,5/12,2024-05-12,written,0300,,69,69,clear,,single_read
 CIM_MSR_0524,10,CIM,A1,cdcr_2031,Sun,5/12,2024-05-12,written,0600,,71,71,clear,,single_read
 CIM_MSR_0524,10,CIM,A1,cdcr_2031,Sun,5/12,2024-05-12,written,0900,,70,70,clear,,single_read

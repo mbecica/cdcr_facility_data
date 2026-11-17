@@ -17754,7 +17754,7 @@ ASP_MSR_0724,120,ASP,530,cdcr_2031,Fri,7/26/24,2024-07-26,written,2100,,87,87,cl
 ASP_MSR_0724,120,ASP,530,cdcr_2031,Fri,7/26/24,2024-07-26,written,2400,,85,85,clear,,two_reads_agree
 ASP_MSR_0724,120,ASP,530,cdcr_2031,Sat,7/27/24,2024-07-27,written,0300,,84,84,clear,,two_reads_agree
 ASP_MSR_0724,120,ASP,530,cdcr_2031,Sat,7/27/24,2024-07-27,written,0600,,81,81,clear,,two_reads_agree
-ASP_MSR_0724,120,ASP,530,cdcr_2031,Sat,7/27/24,2024-07-27,written,0900,,32|82,32,ambiguous,82,adjudicated
+ASP_MSR_0724,120,ASP,530,cdcr_2031,Sat,7/27/24,2024-07-27,written,0900,,82,82,clear,,researcher_review
 ASP_MSR_0724,120,ASP,530,cdcr_2031,Sat,7/27/24,2024-07-27,written,1200,,83.4,83.4,clear,,two_reads_agree
 ASP_MSR_0724,120,ASP,530,cdcr_2031,Sat,7/27/24,2024-07-27,written,1500,,84,84,clear,,two_reads_agree
 ASP_MSR_0724,120,ASP,530,cdcr_2031,Sat,7/27/24,2024-07-27,written,1800,,84,84,clear,,two_reads_agree
