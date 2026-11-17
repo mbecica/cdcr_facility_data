@@ -10777,14 +10777,6 @@ WSP_MSR_0524,231,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,5/26/24,2024-05-26,writte
 WSP_MSR_0524,231,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,5/26/24,2024-05-26,written,1800,,74,74,clear,,two_reads_agree
 WSP_MSR_0524,231,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,5/26/24,2024-05-26,written,2100,,73,73,clear,,two_reads_agree
 WSP_MSR_0524,231,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,5/26/24,2024-05-26,written,2400,,72,72,clear,,two_reads_agree
-WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-04-02,written,0300,,-,,blank,,
-WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-04-02,written,0600,,-,,blank,,
-WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-04-02,written,0900,,-,,blank,,
-WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-04-02,written,1200,,-,,blank,,
-WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-04-02,written,1500,,-,,blank,,
-WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-04-02,written,1800,,-,,blank,,
-WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-04-02,written,2100,,-,,blank,,
-WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-04-02,written,2400,,-,,blank,,
 WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Mon,5/27/24,2024-05-27,written,0300,,71,71,clear,,two_reads_agree
 WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Mon,5/27/24,2024-05-27,written,0600,,72,72,clear,,two_reads_agree
 WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Mon,5/27/24,2024-05-27,written,0900,,77?,77,unsure,,dispute_decided
@@ -10833,6 +10825,14 @@ WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sat,6/1,2024-06-01,written,15
 WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sat,6/1,2024-06-01,written,1800,,-,,blank,,
 WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sat,6/1,2024-06-01,written,2100,,-,,blank,,
 WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sat,6/1,2024-06-01,written,2400,,-,,blank,,
+WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-06-02,written,0300,,-,,blank,,
+WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-06-02,written,0600,,-,,blank,,
+WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-06-02,written,0900,,-,,blank,,
+WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-06-02,written,1200,,-,,blank,,
+WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-06-02,written,1500,,-,,blank,,
+WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-06-02,written,1800,,-,,blank,,
+WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-06-02,written,2100,,-,,blank,,
+WSP_MSR_0524,232,WSP,WSP H-3 DAYROOM 1st,cdcr_2031,Sun,4/2,2024-06-02,written,2400,,-,,blank,,
 WSP_MSR_0524,233,WSP,WSP / H4 / 1st tier,cdcr_2031,Wed,05/01/24,2024-05-01,written,0300,,70,70,clear,,two_reads_agree
 WSP_MSR_0524,233,WSP,WSP / H4 / 1st tier,cdcr_2031,Wed,05/01/24,2024-05-01,written,0600,,70,70,clear,,two_reads_agree
 WSP_MSR_0524,233,WSP,WSP / H4 / 1st tier,cdcr_2031,Wed,05/01/24,2024-05-01,written,0900,,70,70,clear,,two_reads_agree
