@@ -37676,14 +37676,6 @@ SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Sun,?,2024-09-01,written,1500,,72.4
 SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Sun,?,2024-09-01,written,1800,,71.0,71.0,clear,,dispute_decided
 SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Sun,?,2024-09-01,written,2100,,71.5,71.5,clear,,two_reads_agree
 SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Sun,?,2024-09-01,written,2400,,71.9,71.9,clear,,two_reads_agree
-SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Mon,9/2,2024-09-02,written,0300,,69.0,69.0,clear,,dispute_decided
-SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Mon,9/2,2024-09-02,written,0600,,-,,blank,,
-SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Mon,9/2,2024-09-02,written,0900,,-,,blank,,
-SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Mon,9/2,2024-09-02,written,1200,,-,,blank,,
-SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Mon,9/2,2024-09-02,written,1500,,-,,blank,,
-SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Mon,9/2,2024-09-02,written,1800,,-,,blank,,
-SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Mon,9/2,2024-09-02,written,2100,,-,,blank,,
-SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Mon,9/2,2024-09-02,written,2400,,-,,blank,,
 SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Tue,?,,,0300,,-,,blank,,
 SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Wed,?,,,0300,,-,,blank,,
 SAC_MSR_0924,172,SAC,CSP-SAC CTC 2,cdcr_2031,Thu,?,,,0300,,-,,blank,,
@@ -44788,6 +44780,9 @@ SAC_MSR_1024,148,SAC,C5-Control / 'B' Panel Window,cdcr_2031,Fri,10/18,2024-10-1
 SAC_MSR_1024,148,SAC,C5-Control / 'B' Panel Window,cdcr_2031,Fri,10/18,2024-10-18,written,2100,,73.2,73.2,clear,,two_reads_agree
 SAC_MSR_1024,148,SAC,C5-Control / 'B' Panel Window,cdcr_2031,Fri,10/18,2024-10-18,written,2400,,-,,blank,,
 SAC_MSR_1024,148,SAC,C5-Control / 'B' Panel Window,cdcr_2031,Sat,10/19,2024-10-19,written,0300,,-,,blank,,
+SAC_MSR_1024,148,SAC,C5-Control / 'B' Panel Window,cdcr_2031,Sat,10/19,2024-10-19,written,0600,,73.4,73.4,clear,,adjudicated
+SAC_MSR_1024,148,SAC,C5-Control / 'B' Panel Window,cdcr_2031,Sat,10/19,2024-10-19,written,0900,,74.4,74.4,clear,,adjudicated
+SAC_MSR_1024,148,SAC,C5-Control / 'B' Panel Window,cdcr_2031,Sat,10/19,2024-10-19,written,1200,,74.3,74.3,clear,,adjudicated
 SAC_MSR_1024,148,SAC,C5-Control / 'B' Panel Window,cdcr_2031,Sat,10/19,2024-10-19,written,1500,,74.4,74.4,clear,,two_reads_agree
 SAC_MSR_1024,148,SAC,C5-Control / 'B' Panel Window,cdcr_2031,Sat,10/19,2024-10-19,written,1800,,74.3,74.3,clear,,two_reads_agree
 SAC_MSR_1024,148,SAC,C5-Control / 'B' Panel Window,cdcr_2031,Sat,10/19,2024-10-19,written,2100,,73.5,73.5,clear,,two_reads_agree
