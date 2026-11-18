@@ -267,6 +267,26 @@ DUPLICATES = {
 }
 
 
+# Weather-station data exports (15-minute records: Temp Out, Hum, Dew, Wind, Heat Index, Rain,
+# plus the console's own In Temp/Hum), filed after each CDCR 2030 outside record. Identified
+# Nov 2026 from whole-page OCR (rotated for August) and page order; titles don't OCR.
+WEATHER_STATION_EXPORTS = {
+    'NKSP_MSR_0624_Redacted.pdf': '43-46, 48-55, 97-104, 106-113, 115-122, 164-171, 173-180, 182-189, 191-198, 240-247, 249-256, 258-265, 267-270, 312-319, 321-328, 330-337',
+    'NKSP_MSR_0724_Redacted.pdf': '52-59, 61-68, 70-77, 134-141, 143-150, 152-159, 161-168, 210-217, 219-226, 228-235, 237-244, 298-305, 307-314, 316-323, 326-333, 375-382',
+    'NKSP_MSR_0824_Redaction.pdf': '42-49, 51-58, 104-111, 113-120, 122-129, 131-138, 178-185, 187-194, 196-203, 245-252, 254-261, 263-270, 317-324, 326-333, 335-342, 344-351',
+    'NKSP_MSR_0924_Redacted.pdf': '48-55, 104-111, 113-120, 122-129, 176-183, 185-192, 194-201, 203-210, 257-264, 266-273, 275-282, 284-291, 340-347, 349-356, 358-365, 412-419',
+    'NKSP_MSR_1024_Redacted.pdf': '47-54, 56-63, 65-72, 74-81, 128-135, 137-144, 146-153, 200-207, 209-216, 263-270, 272-279, 326-333, 335-342, 344-351, 353-360',
+}
+
+
+def _expand(spec):
+    out = set()
+    for part in spec.split(', '):
+        a, _, b = part.partition('-')
+        out.update(range(int(a), int(b or a) + 1))
+    return out
+
+
 def load_readings():
     out = {}
     if READINGS.exists():
@@ -299,6 +319,8 @@ def assemble():
                 if f2 not in ('blank_or_unreadable',):
                     form, as_stated, lines = f2, s2, reocr[name][n]
                     note = 'identified from full-page OCR'
+            if int(n) in _expand(WEATHER_STATION_EXPORTS.get(name, '0')):
+                form, as_stated, note = 'weather_station_export', '', ''
             extra = fields.get(name, {}).get(n, {}).get('field_text')
             if form == 'cdcr_2031' and extra:
                 lines = lines + [extra]

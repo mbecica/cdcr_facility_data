@@ -20,7 +20,7 @@ Tables from CDCR's 2024 Heat Plan monthly packages, May–October, released unde
 
 | Column | Meaning |
 | :--- | :--- |
-| `form` | `mh_7711_1` (monthly summary), `mh_7711_2` (heat incident log), `mh_7711_3` (Stage III rounds log), `cdcr_2030` (outside temperature record), `cdcr_2031` (inside temperature record), `other_form`, or `blank_or_unreadable`. |
+| `form` | `mh_7711_1` (monthly summary), `mh_7711_2` (heat incident log), `mh_7711_3` (Stage III rounds log), `cdcr_2030` (outside temperature record), `cdcr_2031` (inside temperature record), `weather_station_export` (weather-station data printout), `other_form`, or `blank_or_unreadable`. |
 | `ocr_check` | In the summaries, `ocr` where OCR read every answer the same as the page image, `corrected from image` where an answer was taken from the image. |
 | `source_file`, `page` | The package and page in the Reuters files. |
 
