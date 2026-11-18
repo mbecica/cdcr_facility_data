@@ -295,6 +295,14 @@ FORM_BY_EYE = {
         'CIW_MSR_0524_Redacted.pdf': '100, 102-105, 107-120, 122-130',
         'NKSP_MSR_0724_Redacted.pdf': '31, 122, 324',
         'SCC_MSR_0524_Redacted.pdf': '2', 'SCC_MSR_0624_Redacted_R.pdf': '2',
+        # page 2 of the daily "Heat Plan Expectation Meeting" minutes, OCR'd as mh_7711_3 (checked by eye Nov 18)
+        'CEN_MSR_0924_Redacted.pdf': '64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140',
+        'CEN_MSR_1024_Redacted.pdf': '63, 67, 71, 75, 79, 83, 87, 91, 95, 99, 103, 107, 111, 115, 119, 123, 127, 131, 135, 139, 143, 147, 151',
+    },
+    'cdcr_2030': {  # outside temperature records (thermometer location D-OBSERVATION), checked by eye Nov 18
+        'CIM_MSR_0524_Redacted.pdf': '105-112', 'CIM_MSR_0624_Redacted.pdf': '7',
+        'CIM_MSR_0924_Redacted.pdf': '123, 125',
+        'CEN_MSR_0724_Redacted.pdf': '32',
     },
 }
 INDOOR_PAGES = ROOT / 'data' / 'heat' / 'heat_plan_2024' / 'indoor' / 'pages.csv'
@@ -306,7 +314,7 @@ def load_read_pages():
     if INDOOR_PAGES.exists():
         with open(INDOOR_PAGES) as f:
             for r in csv.DictReader(f):
-                if r['form'] and r['set_aside'] != 'no_inside_readings':
+                if (r['form'] and r['set_aside'] != 'no_inside_readings') or r['set_aside'] == 'duplicate_scan':
                     out.add((r['package'], int(r['page'])))
     return out
 

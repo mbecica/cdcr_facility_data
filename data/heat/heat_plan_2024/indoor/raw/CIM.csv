@@ -18143,6 +18143,14 @@ CIM_MSR_0924,2,CIM,A-1,cdcr_2031,Sun,9/1,2024-09-01,written,1500,,82,82,clear,,s
 CIM_MSR_0924,2,CIM,A-1,cdcr_2031,Sun,9/1,2024-09-01,written,1800,,87,87,clear,,single_read
 CIM_MSR_0924,2,CIM,A-1,cdcr_2031,Sun,9/1,2024-09-01,written,2100,,84,84,clear,,two_reads_agree
 CIM_MSR_0924,2,CIM,A-1,cdcr_2031,Sun,9/1,2024-09-01,written,2400,,83,83,clear,,two_reads_agree
+CIM_MSR_0924,3,CIM,A3,cdcr_2031,Sun,9/1/24,2024-09-01,written,0300,,77,77,clear,,single_read
+CIM_MSR_0924,3,CIM,A3,cdcr_2031,Sun,9/1/24,2024-09-01,written,0600,,x,,illegible,,
+CIM_MSR_0924,3,CIM,A3,cdcr_2031,Sun,9/1/24,2024-09-01,written,0900,,73,73,clear,,single_read
+CIM_MSR_0924,3,CIM,A3,cdcr_2031,Sun,9/1/24,2024-09-01,written,1200,,75,75,clear,,two_reads_agree
+CIM_MSR_0924,3,CIM,A3,cdcr_2031,Sun,9/1/24,2024-09-01,written,1500,,80,80,clear,,two_reads_agree
+CIM_MSR_0924,3,CIM,A3,cdcr_2031,Sun,9/1/24,2024-09-01,written,1800,,80,80,clear,,two_reads_agree
+CIM_MSR_0924,3,CIM,A3,cdcr_2031,Sun,9/1/24,2024-09-01,written,2100,,79,79,clear,,two_reads_agree
+CIM_MSR_0924,3,CIM,A3,cdcr_2031,Sun,9/1/24,2024-09-01,written,2400,,77,77,clear,,two_reads_agree
 CIM_MSR_0924,4,CIM,A4,cdcr_2031,Sun,9-1-24,2024-09-01,written,0300,,71,71,clear,,two_reads_agree
 CIM_MSR_0924,4,CIM,A4,cdcr_2031,Sun,9/1/24,2024-09-01,written,0300,,-,,blank,,
 CIM_MSR_0924,4,CIM,A4,cdcr_2031,Sun,9-1-24,2024-09-01,written,0600,,73,73,clear,,two_reads_agree
