@@ -279,6 +279,38 @@ WEATHER_STATION_EXPORTS = {
 }
 
 
+# Page types checked by eye on pages the header OCR misfiled (Nov 2026 audit of never-read pages:
+# whole-page OCR triage, then contact sheets). Pages with transcribed readings are taken from
+# indoor/pages.csv instead (see INDOOR_PAGES), so this list only needs pages not yet transcribed.
+FORM_BY_EYE = {
+    'cdcr_2031': {  # inside temperature records not yet transcribed
+        'CIM_MSR_0624_Redacted.pdf': '76', 'CIM_MSR_1024_Redacted.pdf': '41',
+        'CMC_MSR_0524_Redacted.pdf': '7', 'CMC_MSR_0824_Redacted.pdf': '21, 92, 144, 150',
+        'CMC_MSR_0924_Redacted.pdf': '311', 'HDSP_MSR_0524_Redacted.pdf': '62',
+        'HDSP_MSR_0624_Redacted.pdf': '42, 57', 'RJD_MSR_0824_Redacted.pdf': '22',
+        'SVSP_MSR_0924_Redacted.pdf': '47-48, 83', 'WSP_MSR_0924_Redacted.pdf': '98',
+        'WSP_MSR_1024_Redacted.pdf': '79, 81, 83, 85-87, 98-100, 103, 106',
+    },
+    'other_form': {  # titled as outside records by OCR, but checklists or memos
+        'CIW_MSR_0524_Redacted.pdf': '100, 102-105, 107-120, 122-130',
+        'NKSP_MSR_0724_Redacted.pdf': '31, 122, 324',
+        'SCC_MSR_0524_Redacted.pdf': '2', 'SCC_MSR_0624_Redacted_R.pdf': '2',
+    },
+}
+INDOOR_PAGES = ROOT / 'data' / 'heat' / 'heat_plan_2024' / 'indoor' / 'pages.csv'
+
+
+def load_read_pages():
+    """(package, page) of pages the transcription identified as inside records, readings or not."""
+    out = set()
+    if INDOOR_PAGES.exists():
+        with open(INDOOR_PAGES) as f:
+            for r in csv.DictReader(f):
+                if r['form'] and r['set_aside'] != 'no_inside_readings':
+                    out.add((r['package'], int(r['page'])))
+    return out
+
+
 def _expand(spec):
     out = set()
     for part in spec.split(', '):
@@ -306,6 +338,7 @@ def assemble():
     reocr = json.loads((CACHE / '_reocr.json').read_text()) if (CACHE / '_reocr.json').exists() else {}
     fields = json.loads((CACHE / '_fields.json').read_text()) if (CACHE / '_fields.json').exists() else {}
     readings = load_readings()
+    read_pages = load_read_pages()
     rows = []
     for name in sorted(p.name for p in SRC.glob('*.pdf')):
         pages = json.loads((CACHE / f'{name}.json').read_text())
@@ -321,6 +354,11 @@ def assemble():
                     note = 'identified from full-page OCR'
             if int(n) in _expand(WEATHER_STATION_EXPORTS.get(name, '0')):
                 form, as_stated, note = 'weather_station_export', '', ''
+            for f_eye, spec in FORM_BY_EYE.items():
+                if int(n) in _expand(spec.get(name, '0')) and form != f_eye:
+                    form, as_stated, note = f_eye, '', 'identified from page image'
+            if (re.sub(r'(_Redacted)?(_R)?\.pdf$', '', name), int(n)) in read_pages and form != 'cdcr_2031':
+                form, as_stated, note = 'cdcr_2031', '', 'identified from page image'
             extra = fields.get(name, {}).get(n, {}).get('field_text')
             if form == 'cdcr_2031' and extra:
                 lines = lines + [extra]
