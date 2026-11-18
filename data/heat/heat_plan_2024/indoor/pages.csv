@@ -19770,13 +19770,13 @@ SOL_MSR_0624,62,SOL,,,,,0,0,no_inside_readings,
 SOL_MSR_0624,65,SOL,,,,,0,0,no_inside_readings,
 SOL_MSR_0624,84,SOL,cdcr_2031,12,2024-06-24,2024-06-30,56,56,,
 SOL_MSR_0624,85,SOL,,,,,0,0,no_inside_readings,
-SOL_MSR_0624,86,SOL,cdcr_2031,14,2024-06-24,2024-06-30,56,56,,
+SOL_MSR_0624,86,SOL,,,,,0,0,duplicate_scan,41
 SOL_MSR_0624,87,SOL,,,,,0,0,duplicate_scan,42
 SOL_MSR_0624,88,SOL,,,,,0,0,duplicate_scan,44
 SOL_MSR_0624,89,SOL,,,,,0,0,duplicate_scan,23
 SOL_MSR_0624,90,SOL,,,,,0,0,duplicate_scan,24
 SOL_MSR_0624,91,SOL,,,,,0,0,duplicate_scan,26
-SOL_MSR_0624,92,SOL,cdcr_2031,22,2024-06-24,2024-06-30,56,56,,
+SOL_MSR_0624,92,SOL,,,,,0,0,duplicate_scan,27
 SOL_MSR_0624,93,SOL,,,,,0,0,duplicate_scan,28
 SOL_MSR_0624,94,SOL,,,,,0,0,duplicate_scan,29
 SOL_MSR_0624,95,SOL,,,,,0,0,no_inside_readings,
@@ -19809,9 +19809,9 @@ SOL_MSR_0624,128,SOL,cdcr_2031,Solano / 17,2024-06-10,2024-06-16,56,56,,
 SOL_MSR_0624,129,SOL,cdcr_2031,CSP-SOL / 18,2024-06-10,2024-06-16,56,56,,
 SOL_MSR_0624,130,SOL,,,,,0,0,duplicate_scan,37
 SOL_MSR_0624,131,SOL,,,,,0,0,duplicate_scan,36
-SOL_MSR_0624,132,SOL,cdcr_2031,16,2024-06-03,2024-06-09,56,55,,
-SOL_MSR_0624,133,SOL,cdcr_2031,15,2024-06-03,2024-06-09,56,55,,
-SOL_MSR_0624,134,SOL,cdcr_2031,14,2024-06-03,2024-06-09,56,55,,
+SOL_MSR_0624,132,SOL,,,,,0,0,duplicate_scan,35
+SOL_MSR_0624,133,SOL,,,,,0,0,duplicate_scan,33
+SOL_MSR_0624,134,SOL,,,,,0,0,duplicate_scan,32
 SOL_MSR_0624,135,SOL,,,,,0,0,duplicate_scan,31
 SOL_MSR_0624,136,SOL,local,Correctional Treatment Center / Back Hallway,2024-06-03,2024-06-03,8,8,,
 SOL_MSR_0624,137,SOL,local,Correctional Treatment Center / Front Hallway,2024-06-04,2024-06-04,6,6,,
@@ -19821,15 +19821,15 @@ SOL_MSR_0624,140,SOL,local,Correctional Treatment Center / Front Hallway,2024-06
 SOL_MSR_0624,141,SOL,local,Correctional Treatment Center / Middle Hallway,2024-06-08,2024-06-08,8,8,,
 SOL_MSR_0624,142,SOL,local,Correctional Treatment Center / Front Hallway,2024-06-09,2024-06-09,8,8,,
 SOL_MSR_0624,143,SOL,,,,,0,0,no_inside_readings,
-SOL_MSR_0624,144,SOL,cdcr_2031,C 13,2024-06-03,2024-06-09,56,56,,
-SOL_MSR_0624,145,SOL,cdcr_2031,16,2024-06-03,2024-06-09,56,55,,
+SOL_MSR_0624,144,SOL,,,,,0,0,duplicate_scan,31
+SOL_MSR_0624,145,SOL,,,,,0,0,duplicate_scan,35
 SOL_MSR_0624,146,SOL,,,,,0,0,duplicate_scan,36
 SOL_MSR_0624,147,SOL,,,,,0,0,duplicate_scan,37
 SOL_MSR_0624,148,SOL,,,,,0,0,no_inside_readings,
 SOL_MSR_0624,149,SOL,,,,,0,0,duplicate_scan,16
-SOL_MSR_0624,150,SOL,cdcr_2031,20,2024-06-03,2024-06-09,56,56,,
-SOL_MSR_0624,151,SOL,cdcr_2031,Building 21,2024-06-03,2024-06-09,56,56,,
-SOL_MSR_0624,152,SOL,cdcr_2031,22,2024-06-03,2024-06-09,56,56,,
+SOL_MSR_0624,150,SOL,,,,,0,0,duplicate_scan,17
+SOL_MSR_0624,151,SOL,,,,,0,0,duplicate_scan,18
+SOL_MSR_0624,152,SOL,,,,,0,0,duplicate_scan,19
 SOL_MSR_0624,153,SOL,,,,,0,0,duplicate_scan,20
 SOL_MSR_0624,154,SOL,,,,,0,0,duplicate_scan,21
 SOL_MSR_0624,155,SOL,cdcr_2031,7,2024-06-03,2024-06-09,56,55,,
