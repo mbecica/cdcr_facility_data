@@ -1575,6 +1575,61 @@ HDSP_MSR_0524,61,HDSP,D1,cdcr_2031,Sun,5/26/2024,2024-05-26,written,1500,,70.9,7
 HDSP_MSR_0524,61,HDSP,D1,cdcr_2031,Sun,5/26/2024,2024-05-26,written,1800,,71.2,71.2,clear,,single_read
 HDSP_MSR_0524,61,HDSP,D1,cdcr_2031,Sun,5/26/2024,2024-05-26,written,2100,,71,71,clear,,single_read
 HDSP_MSR_0524,61,HDSP,D1,cdcr_2031,Sun,5/26/2024,2024-05-26,written,2400,,71,71,clear,,single_read
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Mon,5/27/2024,2024-05-27,written,0300,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Mon,5/27/2024,2024-05-27,written,0600,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Mon,5/27/2024,2024-05-27,written,0900,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Mon,5/27/2024,2024-05-27,written,1200,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Mon,5/27/2024,2024-05-27,written,1500,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Mon,5/27/2024,2024-05-27,written,1800,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Mon,5/27/2024,2024-05-27,written,2100,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Mon,5/27/2024,2024-05-27,written,2400,,71.6,71.6,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Tue,5/28/2024,2024-05-28,written,0300,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Tue,5/28/2024,2024-05-28,written,0600,,70.7,70.7,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Tue,5/28/2024,2024-05-28,written,0900,,70.7,70.7,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Tue,5/28/2024,2024-05-28,written,1200,,70.7,70.7,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Tue,5/28/2024,2024-05-28,written,1500,,70,70,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Tue,5/28/2024,2024-05-28,written,1800,,72,72,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Tue,5/28/2024,2024-05-28,written,2100,,72,72,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Tue,5/28/2024,2024-05-28,written,2400,,71.8,71.8,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Wed,5/29/2024,2024-05-29,written,0300,,71.6,71.6,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Wed,5/29/2024,2024-05-29,written,0600,,71.4,71.4,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Wed,5/29/2024,2024-05-29,written,0900,,71.4,71.4,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Wed,5/29/2024,2024-05-29,written,1200,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Wed,5/29/2024,2024-05-29,written,1500,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Wed,5/29/2024,2024-05-29,written,1800,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Wed,5/29/2024,2024-05-29,written,2100,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Wed,5/29/2024,2024-05-29,written,2400,,71.2,71.2,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Thu,5/30/2024,2024-05-30,written,0300,,71.4,71.4,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Thu,5/30/2024,2024-05-30,written,0600,,71.2,71.2,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Thu,5/30/2024,2024-05-30,written,0900,,71.0,71.0,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Thu,5/30/2024,2024-05-30,written,1200,,70,70,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Thu,5/30/2024,2024-05-30,written,1500,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Thu,5/30/2024,2024-05-30,written,1800,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Thu,5/30/2024,2024-05-30,written,2100,,71,71,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Fri,5/31/2024,2024-05-31,written,0300,,70,70,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Fri,5/31/2024,2024-05-31,written,0600,,70,70,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Fri,5/31/2024,2024-05-31,written,0900,,70,70,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Fri,5/31/2024,2024-05-31,written,1200,,70,70,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Fri,5/31/2024,2024-05-31,written,1500,,70.9,70.9,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Fri,5/31/2024,2024-05-31,written,1800,,71.1,71.1,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Fri,5/31/2024,2024-05-31,written,2100,,71.6,71.6,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Fri,5/31/2024,2024-05-31,written,2400,,71.5,71.5,clear,,two_reads_agree
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sat,?,,,0300,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sun,?,,,0300,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sat,?,,,0600,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sun,?,,,0600,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sat,?,,,0900,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sun,?,,,0900,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sat,?,,,1200,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sun,?,,,1200,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sat,?,,,1500,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sun,?,,,1500,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sat,?,,,1800,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sun,?,,,1800,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sat,?,,,2100,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sun,?,,,2100,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sat,?,,,2400,,#,,redacted,,
+HDSP_MSR_0524,62,HDSP,D1,cdcr_2031,Sun,?,,,2400,,#,,redacted,,
 HDSP_MSR_0524,63,HDSP,HDSP D2 2nd tier,cdcr_2031,Wed,5/1/24,2024-05-01,written,0300,,72,72,clear,,two_reads_agree
 HDSP_MSR_0524,63,HDSP,HDSP D2 2nd tier,cdcr_2031,Wed,5/1/24,2024-05-01,written,0600,,73,73,clear,,two_reads_agree
 HDSP_MSR_0524,63,HDSP,HDSP D2 2nd tier,cdcr_2031,Wed,5/1/24,2024-05-01,written,0900,,73,73,clear,,two_reads_agree
@@ -7735,6 +7790,22 @@ HDSP_MSR_0624,41,HDSP,HDSP D1 2nd tier,cdcr_2031,Sun,6/23,2024-06-23,written,150
 HDSP_MSR_0624,41,HDSP,HDSP D1 2nd tier,cdcr_2031,Sun,6/23,2024-06-23,written,1800,,73.8,73.8,clear,,two_reads_agree
 HDSP_MSR_0624,41,HDSP,HDSP D1 2nd tier,cdcr_2031,Sun,6/23,2024-06-23,written,2100,,73.8,73.8,clear,,two_reads_agree
 HDSP_MSR_0624,41,HDSP,HDSP D1 2nd tier,cdcr_2031,Sun,6/23,2024-06-23,written,2400,,73,73,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sat,6/1/24,2024-06-01,written,0300,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sat,6/1/24,2024-06-01,written,0600,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sat,6/1/24,2024-06-01,written,0900,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sat,6/1/24,2024-06-01,written,1200,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sat,6/1/24,2024-06-01,written,1500,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sat,6/1/24,2024-06-01,written,1800,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sat,6/1/24,2024-06-01,written,2100,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sat,6/1/24,2024-06-01,written,2400,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sun,6/2/24,2024-06-02,written,0300,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sun,6/2/24,2024-06-02,written,0600,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sun,6/2/24,2024-06-02,written,0900,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sun,6/2/24,2024-06-02,written,1200,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sun,6/2/24,2024-06-02,written,1500,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sun,6/2/24,2024-06-02,written,1800,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sun,6/2/24,2024-06-02,written,2100,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,42,HDSP,HDSP / D-2 / B-SECTION (2nd tier),cdcr_2031,Sun,6/2/24,2024-06-02,written,2400,,71.7,71.7,clear,,two_reads_agree_after_doubt
 HDSP_MSR_0624,43,HDSP,D-2,cdcr_2031,Mon,6/3/24,2024-06-03,written,0300,,71.4,71.4,clear,,two_reads_agree
 HDSP_MSR_0624,43,HDSP,D-2,cdcr_2031,Mon,6/3/24,2024-06-03,written,0600,,71.7,71.7,clear,,two_reads_agree_after_doubt
 HDSP_MSR_0624,43,HDSP,D-2,cdcr_2031,Mon,6/3/24,2024-06-03,written,0900,,71.1,71.1,clear,,two_reads_agree
@@ -8519,6 +8590,62 @@ HDSP_MSR_0624,56,HDSP,HDSP D6 2nd tier,cdcr_2031,Sun,6/30/2024,2024-06-30,writte
 HDSP_MSR_0624,56,HDSP,HDSP D6 2nd tier,cdcr_2031,Sun,6/30/2024,2024-06-30,written,1800,,73.2,73.2,clear,,two_reads_agree
 HDSP_MSR_0624,56,HDSP,HDSP D6 2nd tier,cdcr_2031,Sun,6/30/2024,2024-06-30,written,2100,,73,73,clear,,two_reads_agree
 HDSP_MSR_0624,56,HDSP,HDSP D6 2nd tier,cdcr_2031,Sun,6/30/2024,2024-06-30,written,2400,,72.7,72.7,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,0300,,70,70,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,0600,,54.1,54.1,clear,,researcher_review
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,0900,,70.9,70.9,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,1200,,70.7,70.7,clear,,single_read
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,1500,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,1800,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,2100,,70,70,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,2400,,70,70,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sun,6/2/24,2024-06-02,written,0300,,70,70,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sun,6/2/24,2024-06-02,written,0600,,70,70,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sun,6/2/24,2024-06-02,written,0900,,70.1,70.1,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sun,6/2/24,2024-06-02,written,1200,,70.2,70.2,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sun,6/2/24,2024-06-02,written,1500,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sun,6/2/24,2024-06-02,written,1800,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sun,6/2/24,2024-06-02,written,2100,,71,71,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Sun,6/2/24,2024-06-02,written,2400,,70,70,clear,,two_reads_agree
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Mon,?,,,0300,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Tue,?,,,0300,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Wed,?,,,0300,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Thu,?,,,0300,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Fri,?,,,0300,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Mon,?,,,0600,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Tue,?,,,0600,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Wed,?,,,0600,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Thu,?,,,0600,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Fri,?,,,0600,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Mon,?,,,0900,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Tue,?,,,0900,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Wed,?,,,0900,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Thu,?,,,0900,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Fri,?,,,0900,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Mon,?,,,1200,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Tue,?,,,1200,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Wed,?,,,1200,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Thu,?,,,1200,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Fri,?,,,1200,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Mon,?,,,1500,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Tue,?,,,1500,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Wed,?,,,1500,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Thu,?,,,1500,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Fri,?,,,1500,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Mon,?,,,1800,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Tue,?,,,1800,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Wed,?,,,1800,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Thu,?,,,1800,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Fri,?,,,1800,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Mon,?,,,2100,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Tue,?,,,2100,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Wed,?,,,2100,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Thu,?,,,2100,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Fri,?,,,2100,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Mon,?,,,2400,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Tue,?,,,2400,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Wed,?,,,2400,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Thu,?,,,2400,,#,,redacted,,
+HDSP_MSR_0624,57,HDSP,D7 / 2nd tier,cdcr_2031,Fri,?,,,2400,,#,,redacted,,
 HDSP_MSR_0624,58,HDSP,HDSP / D7 / 2nd tier,cdcr_2031,Mon,6/3/2024,2024-06-03,written,0300,,71,71,clear,,two_reads_agree
 HDSP_MSR_0624,58,HDSP,HDSP / D7 / 2nd tier,cdcr_2031,Mon,6/3/2024,2024-06-03,written,0600,,71,71,clear,,two_reads_agree_after_doubt
 HDSP_MSR_0624,58,HDSP,HDSP / D7 / 2nd tier,cdcr_2031,Mon,6/3/2024,2024-06-03,written,0900,,71,71,clear,,two_reads_agree

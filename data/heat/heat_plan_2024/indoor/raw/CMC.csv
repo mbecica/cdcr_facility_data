@@ -227,6 +227,30 @@ CMC_MSR_0524,6,CMC,CMC / EAST / Z-233,cdcr_2031,Mon,?,,,2100,,-,,blank,,
 CMC_MSR_0524,6,CMC,CMC / EAST / Z-233,cdcr_2031,Tue,?,,,2100,,-,,blank,,
 CMC_MSR_0524,6,CMC,CMC / EAST / Z-233,cdcr_2031,Mon,?,,,2400,,-,,blank,,
 CMC_MSR_0524,6,CMC,CMC / EAST / Z-233,cdcr_2031,Tue,?,,,2400,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Wed,5/1/24,2024-05-01,written,0300,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Wed,5/1/24,2024-05-01,written,0600,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Wed,5/1/24,2024-05-01,written,0900,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Wed,5/1/24,2024-05-01,written,1200,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Wed,5/1/24,2024-05-01,written,1500,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Wed,5/1/24,2024-05-01,written,1800,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Wed,5/1/24,2024-05-01,written,2100,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Wed,5/1/24,2024-05-01,written,2400,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Thu,5/2/24,2024-05-02,written,0300,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Thu,5/2/24,2024-05-02,written,0600,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Thu,5/2/24,2024-05-02,written,0900,,74|79,74,ambiguous,79,single_read
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Thu,5/2/24,2024-05-02,written,1200,,76,76,clear,,two_reads_agree
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Thu,5/2/24,2024-05-02,written,1500,,76|75,76,ambiguous,75,two_reads_agree
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Thu,5/2/24,2024-05-02,written,1800,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Thu,5/2/24,2024-05-02,written,2100,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Thu,5/2/24,2024-05-02,written,2400,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Fri,5/3/24,2024-05-03,written,0300,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Fri,5/3/24,2024-05-03,written,0600,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Fri,5/3/24,2024-05-03,written,0900,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Fri,5/3/24,2024-05-03,written,1200,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Fri,5/3/24,2024-05-03,written,1500,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Fri,5/3/24,2024-05-03,written,1800,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Fri,5/3/24,2024-05-03,written,2100,,-,,blank,,
+CMC_MSR_0524,7,CMC,A-158,cdcr_2031,Fri,5/3/24,2024-05-03,written,2400,,-,,blank,,
 CMC_MSR_0524,8,CMC,CMC / Classroom D-104 / Teacher's Desk,cdcr_2031,Wed,5/1/24,2024-05-01,written,0300,,-,,blank,,
 CMC_MSR_0524,8,CMC,CMC / Classroom D-104 / Teacher's Desk,cdcr_2031,Wed,5/1/24,2024-05-01,written,0600,,-,,blank,,
 CMC_MSR_0524,8,CMC,CMC / Classroom D-104 / Teacher's Desk,cdcr_2031,Wed,5/1/24,2024-05-01,written,0900,,70,70,clear,,two_reads_agree
@@ -41688,6 +41712,46 @@ CMC_MSR_0824,20,CMC,D106,cdcr_2031,Sun,8/11,2024-08-11,written,1500,,-,,blank,,
 CMC_MSR_0824,20,CMC,D106,cdcr_2031,Sun,8/11,2024-08-11,written,1800,,-,,blank,,
 CMC_MSR_0824,20,CMC,D106,cdcr_2031,Sun,8/11,2024-08-11,written,2100,,-,,blank,,
 CMC_MSR_0824,20,CMC,D106,cdcr_2031,Sun,8/11,2024-08-11,written,2400,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Mon,8/5,2024-08-05,written,0300,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Mon,8/5,2024-08-05,written,0600,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Mon,8/5,2024-08-05,written,0900,,75,75,clear,,two_reads_agree_after_doubt
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Mon,8/5,2024-08-05,written,1200,,74|76,74,ambiguous,76,adjudicated
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Mon,8/5,2024-08-05,written,1500,,78,78,clear,,two_reads_agree
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Mon,8/5,2024-08-05,written,1800,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Mon,8/5,2024-08-05,written,2100,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Mon,8/5,2024-08-05,written,2400,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Tue,8/6,2024-08-06,written,0300,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Tue,8/6,2024-08-06,written,0600,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Tue,8/6,2024-08-06,written,0900,,73,73,clear,,two_reads_agree
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Tue,8/6,2024-08-06,written,1200,,74,74,clear,,two_reads_agree
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Tue,8/6,2024-08-06,written,1500,,74,74,clear,,two_reads_agree
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Tue,8/6,2024-08-06,written,1800,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Tue,8/6,2024-08-06,written,2100,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Tue,8/6,2024-08-06,written,2400,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Wed,8/7,2024-08-07,written,0300,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Wed,8/7,2024-08-07,written,0600,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Wed,8/7,2024-08-07,written,0900,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Wed,8/7,2024-08-07,written,1200,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Wed,8/7,2024-08-07,written,1500,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Wed,8/7,2024-08-07,written,1800,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Wed,8/7,2024-08-07,written,2100,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Wed,8/7,2024-08-07,written,2400,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Thu,8/8,2024-08-08,written,0300,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Thu,8/8,2024-08-08,written,0600,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Thu,8/8,2024-08-08,written,0900,,72,72,clear,,two_reads_agree
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Thu,8/8,2024-08-08,written,1200,,76,76,clear,,two_reads_agree
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Thu,8/8,2024-08-08,written,1500,,80,80,clear,,two_reads_agree
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Thu,8/8,2024-08-08,written,1800,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Thu,8/8,2024-08-08,written,2100,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Thu,8/8,2024-08-08,written,2400,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Fri,8/9,2024-08-09,written,0300,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Fri,8/9,2024-08-09,written,0600,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Fri,8/9,2024-08-09,written,0900,,74,74,clear,,two_reads_agree
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Fri,8/9,2024-08-09,written,1200,,76,76,clear,,two_reads_agree
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Fri,8/9,2024-08-09,written,1500,,76,76,clear,,two_reads_agree
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Fri,8/9,2024-08-09,written,1800,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Fri,8/9,2024-08-09,written,2100,,-,,blank,,
+CMC_MSR_0824,21,CMC,A-158,cdcr_2031,Fri,8/9,2024-08-09,written,2400,,-,,blank,,
 CMC_MSR_0824,22,CMC,CMC Classroom D-104,cdcr_2031,Mon,8/5/24,2024-08-05,written,0300,,-,,blank,,
 CMC_MSR_0824,22,CMC,CMC Classroom D-104,cdcr_2031,Mon,8/5/24,2024-08-05,written,0600,,-,,blank,,
 CMC_MSR_0824,22,CMC,CMC Classroom D-104,cdcr_2031,Mon,8/5/24,2024-08-05,written,0900,,74.5,74.5,clear,,two_reads_agree
@@ -45398,6 +45462,46 @@ CMC_MSR_0824,91,CMC,Medical Corridor / Classroom B-125,cdcr_2031,Sun,8/18,2024-0
 CMC_MSR_0824,91,CMC,Medical Corridor / Classroom B-125,cdcr_2031,Sun,8/18,2024-08-18,written,1800,,-,,blank,,
 CMC_MSR_0824,91,CMC,Medical Corridor / Classroom B-125,cdcr_2031,Sun,8/18,2024-08-18,written,2100,,-,,blank,,
 CMC_MSR_0824,91,CMC,Medical Corridor / Classroom B-125,cdcr_2031,Sun,8/18,2024-08-18,written,2400,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Mon,8/12,2024-08-12,written,0300,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Mon,8/12,2024-08-12,written,0600,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Mon,8/12,2024-08-12,written,0900,,66,66,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Mon,8/12,2024-08-12,written,1200,,70,70,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Mon,8/12,2024-08-12,written,1500,,70,70,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Mon,8/12,2024-08-12,written,1800,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Mon,8/12,2024-08-12,written,2100,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Mon,8/12,2024-08-12,written,2400,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Tue,8/13,2024-08-13,written,0300,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Tue,8/13,2024-08-13,written,0600,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Tue,8/13,2024-08-13,written,0900,,65,65,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Tue,8/13,2024-08-13,written,1200,,68,68,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Tue,8/13,2024-08-13,written,1500,,72,72,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Tue,8/13,2024-08-13,written,1800,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Tue,8/13,2024-08-13,written,2100,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Tue,8/13,2024-08-13,written,2400,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Wed,8/14,2024-08-14,written,0300,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Wed,8/14,2024-08-14,written,0600,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Wed,8/14,2024-08-14,written,0900,,60|66,60,ambiguous,66,single_read
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Wed,8/14,2024-08-14,written,1200,,72,72,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Wed,8/14,2024-08-14,written,1500,,72,72,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Wed,8/14,2024-08-14,written,1800,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Wed,8/14,2024-08-14,written,2100,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Wed,8/14,2024-08-14,written,2400,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Thu,8/15,2024-08-15,written,0300,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Thu,8/15,2024-08-15,written,0600,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Thu,8/15,2024-08-15,written,0900,,68,68,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Thu,8/15,2024-08-15,written,1200,,70,70,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Thu,8/15,2024-08-15,written,1500,,72,72,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Thu,8/15,2024-08-15,written,1800,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Thu,8/15,2024-08-15,written,2100,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Thu,8/15,2024-08-15,written,2400,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Fri,8/16,2024-08-16,written,0300,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Fri,8/16,2024-08-16,written,0600,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Fri,8/16,2024-08-16,written,0900,,74,74,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Fri,8/16,2024-08-16,written,1200,,76,76,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Fri,8/16,2024-08-16,written,1500,,80,80,clear,,two_reads_agree
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Fri,8/16,2024-08-16,written,1800,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Fri,8/16,2024-08-16,written,2100,,-,,blank,,
+CMC_MSR_0824,92,CMC,A-156,cdcr_2031,Fri,8/16,2024-08-16,written,2400,,-,,blank,,
 CMC_MSR_0824,93,CMC,H-H / Gym Corridor / East Education - PSCE College,cdcr_2031,Mon,8/12/24,2024-08-12,written,0300,,-,,blank,,
 CMC_MSR_0824,93,CMC,H-H / Gym Corridor / East Education - PSCE College,cdcr_2031,Mon,8/12/24,2024-08-12,written,0600,,-,,blank,,
 CMC_MSR_0824,93,CMC,H-H / Gym Corridor / East Education - PSCE College,cdcr_2031,Mon,8/12/24,2024-08-12,written,0900,,76.7,76.7,clear,,two_reads_agree
@@ -47773,6 +47877,20 @@ CMC_MSR_0824,143,CMC,CMC / Education / H-G - Gym Corridor,cdcr_2031,Sun,8/25,202
 CMC_MSR_0824,143,CMC,CMC / Education / H-G - Gym Corridor,cdcr_2031,Sun,8/25,2024-08-25,written,1800,,-,,blank,,
 CMC_MSR_0824,143,CMC,CMC / Education / H-G - Gym Corridor,cdcr_2031,Sun,8/25,2024-08-25,written,2100,,-,,blank,,
 CMC_MSR_0824,143,CMC,CMC / Education / H-G - Gym Corridor,cdcr_2031,Sun,8/25,2024-08-25,written,2400,,-,,blank,,
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Mon,8/19/24,2024-08-19,written,0900,,83,83,clear,,two_reads_agree_after_doubt
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Mon,8/19/24,2024-08-19,written,1200,,86,86,clear,,two_reads_agree
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Tue,8/20/24,2024-08-20,written,0900,,68?,68,unsure,,single_read
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Tue,8/20/24,2024-08-20,written,1200,,83|82,83,ambiguous,82,single_read
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Wed,8/21/24,2024-08-21,written,0900,,-,,blank,,
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Wed,8/21/24,2024-08-21,written,1200,,-,,blank,,
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Thu,8/22/24,2024-08-22,written,0900,,71,71,clear,,two_reads_agree
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Thu,8/22/24,2024-08-22,written,1200,,77,77,clear,,single_read
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Fri,8/23/24,2024-08-23,written,0900,,77,77,clear,,two_reads_agree
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Fri,8/23/24,2024-08-23,written,1200,,80,80,clear,,two_reads_agree_after_doubt
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Sat,?,,,0900,,-,,blank,,
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Sun,?,,,0900,,-,,blank,,
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Sat,?,,,1200,,-,,blank,,
+CMC_MSR_0824,144,CMC,Z-234? / Education - CRT Classroom,cdcr_2031,Sun,?,,,1200,,-,,blank,,
 CMC_MSR_0824,145,CMC,CMC / H-H / Gym Corridor / East Education - PSCE College,cdcr_2031,Mon,8/19/24,2024-08-19,written,0300,,-,,blank,,
 CMC_MSR_0824,145,CMC,CMC / H-H / Gym Corridor / East Education - PSCE College,cdcr_2031,Mon,8/19/24,2024-08-19,written,0600,,-,,blank,,
 CMC_MSR_0824,145,CMC,CMC / H-H / Gym Corridor / East Education - PSCE College,cdcr_2031,Mon,8/19/24,2024-08-19,written,0900,,74.8,74.8,clear,,two_reads_agree
@@ -48053,6 +48171,46 @@ CMC_MSR_0824,149,CMC,CMC / Classroom D-104 / Teacher's Desk,cdcr_2031,Sun,8/25,2
 CMC_MSR_0824,149,CMC,CMC / Classroom D-104 / Teacher's Desk,cdcr_2031,Sun,8/25,2024-08-25,written,1800,,-,,blank,,
 CMC_MSR_0824,149,CMC,CMC / Classroom D-104 / Teacher's Desk,cdcr_2031,Sun,8/25,2024-08-25,written,2100,,-,,blank,,
 CMC_MSR_0824,149,CMC,CMC / Classroom D-104 / Teacher's Desk,cdcr_2031,Sun,8/25,2024-08-25,written,2400,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Mon,8/19,2024-08-19,written,0300,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Mon,8/19,2024-08-19,written,0600,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Mon,8/19,2024-08-19,written,0900,,71,71,clear,,two_reads_agree
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Mon,8/19,2024-08-19,written,1200,,72,72,clear,,two_reads_agree
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Mon,8/19,2024-08-19,written,1500,,74,74,clear,,two_reads_agree
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Mon,8/19,2024-08-19,written,1800,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Mon,8/19,2024-08-19,written,2100,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Mon,8/19,2024-08-19,written,2400,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Tue,8/20,2024-08-20,written,0300,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Tue,8/20,2024-08-20,written,0600,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Tue,8/20,2024-08-20,written,0900,,72,72,clear,,two_reads_agree
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Tue,8/20,2024-08-20,written,1200,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Tue,8/20,2024-08-20,written,1500,,80,80,clear,,two_reads_agree
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Tue,8/20,2024-08-20,written,1800,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Tue,8/20,2024-08-20,written,2100,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Tue,8/20,2024-08-20,written,2400,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Wed,8/21,2024-08-21,written,0300,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Wed,8/21,2024-08-21,written,0600,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Wed,8/21,2024-08-21,written,0900,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Wed,8/21,2024-08-21,written,1200,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Wed,8/21,2024-08-21,written,1500,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Wed,8/21,2024-08-21,written,1800,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Wed,8/21,2024-08-21,written,2100,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Wed,8/21,2024-08-21,written,2400,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Thu,8/22,2024-08-22,written,0300,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Thu,8/22,2024-08-22,written,0600,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Thu,8/22,2024-08-22,written,0900,,72,72,clear,,two_reads_agree
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Thu,8/22,2024-08-22,written,1200,,80,80,clear,,two_reads_agree
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Thu,8/22,2024-08-22,written,1500,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Thu,8/22,2024-08-22,written,1800,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Thu,8/22,2024-08-22,written,2100,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Thu,8/22,2024-08-22,written,2400,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Fri,8/23,2024-08-23,written,0300,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Fri,8/23,2024-08-23,written,0600,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Fri,8/23,2024-08-23,written,0900,,78?,78,unsure,,single_read
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Fri,8/23,2024-08-23,written,1200,,78,78,clear,,two_reads_agree
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Fri,8/23,2024-08-23,written,1500,,76,76,clear,,two_reads_agree
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Fri,8/23,2024-08-23,written,1800,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Fri,8/23,2024-08-23,written,2100,,-,,blank,,
+CMC_MSR_0824,150,CMC,A-158,cdcr_2031,Fri,8/23,2024-08-23,written,2400,,-,,blank,,
 CMC_MSR_0824,151,CMC,CMC / Medical Corridor / Classroom B-125,cdcr_2031,Mon,8/19,2024-08-19,written,0300,,-,,blank,,
 CMC_MSR_0824,151,CMC,CMC / Medical Corridor / Classroom B-125,cdcr_2031,Mon,8/19,2024-08-19,written,0600,,-,,blank,,
 CMC_MSR_0824,151,CMC,CMC / Medical Corridor / Classroom B-125,cdcr_2031,Mon,8/19,2024-08-19,written,0900,,70,70,clear,,two_reads_agree
@@ -67992,6 +68150,62 @@ CMC_MSR_0924,310,CMC,CMC / Plant ops / Z-156,cdcr_2031,Fri,10/4/24,2024-10-04,wr
 CMC_MSR_0924,310,CMC,CMC / Plant ops / Z-156,cdcr_2031,Fri,10/4/24,2024-10-04,written,1800,,-,,blank,,
 CMC_MSR_0924,310,CMC,CMC / Plant ops / Z-156,cdcr_2031,Fri,10/4/24,2024-10-04,written,2100,,-,,blank,,
 CMC_MSR_0924,310,CMC,CMC / Plant ops / Z-156,cdcr_2031,Fri,10/4/24,2024-10-04,written,2400,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Mon,9/30,2024-09-30,written,0300,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Mon,9/30,2024-09-30,written,0600,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Mon,9/30,2024-09-30,written,0900,,78,78,clear,,two_reads_agree
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Mon,9/30,2024-09-30,written,1200,,89,89,clear,,two_reads_agree
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Mon,9/30,2024-09-30,written,1500,,91,91,clear,,two_reads_agree
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Mon,9/30,2024-09-30,written,1800,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Mon,9/30,2024-09-30,written,2100,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Mon,9/30,2024-09-30,written,2400,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Tue,10/1,2024-10-01,written,0300,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Tue,10/1,2024-10-01,written,0600,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Tue,10/1,2024-10-01,written,0900,,81,81,clear,,two_reads_agree
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Tue,10/1,2024-10-01,written,1200,,88,88,clear,,two_reads_agree
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Tue,10/1,2024-10-01,written,1500,,88,88,clear,,two_reads_agree
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Tue,10/1,2024-10-01,written,1800,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Tue,10/1,2024-10-01,written,2100,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Tue,10/1,2024-10-01,written,2400,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Wed,10/2,2024-10-02,written,0300,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Wed,10/2,2024-10-02,written,0600,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Wed,10/2,2024-10-02,written,0900,,84,84,clear,,two_reads_agree
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Wed,10/2,2024-10-02,written,1200,,90,90,clear,,two_reads_agree
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Wed,10/2,2024-10-02,written,1500,,94,94,clear,,two_reads_agree
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Wed,10/2,2024-10-02,written,1800,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Wed,10/2,2024-10-02,written,2100,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Wed,10/2,2024-10-02,written,2400,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Thu,10/3,2024-10-03,written,0300,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Thu,10/3,2024-10-03,written,0600,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Thu,10/3,2024-10-03,written,0900,,87,87,clear,,two_reads_agree
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Thu,10/3,2024-10-03,written,1200,,94,94,clear,,two_reads_agree
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Thu,10/3,2024-10-03,written,1500,,97,97,clear,,researcher_review
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Thu,10/3,2024-10-03,written,1800,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Thu,10/3,2024-10-03,written,2100,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Thu,10/3,2024-10-03,written,2400,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Fri,?,,,0300,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sat,?,,,0300,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sun,?,,,0300,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Fri,?,,,0600,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sat,?,,,0600,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sun,?,,,0600,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Fri,?,,,0900,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sat,?,,,0900,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sun,?,,,0900,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Fri,?,,,1200,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sat,?,,,1200,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sun,?,,,1200,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Fri,?,,,1500,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sat,?,,,1500,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sun,?,,,1500,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Fri,?,,,1800,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sat,?,,,1800,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sun,?,,,1800,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Fri,?,,,2100,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sat,?,,,2100,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sun,?,,,2100,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Fri,?,,,2400,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sat,?,,,2400,,-,,blank,,
+CMC_MSR_0924,311,CMC,Knitting Mill / Floor Isile,cdcr_2031,Sun,?,,,2400,,-,,blank,,
 CMC_MSR_0924,312,CMC,M&R / CalPIA,cdcr_2031,Mon,9/30/24,2024-09-30,written,0300,,-,,blank,,
 CMC_MSR_0924,312,CMC,M&R / CalPIA,cdcr_2031,Mon,9/30/24,2024-09-30,written,0600,,73,73,clear,,two_reads_agree
 CMC_MSR_0924,312,CMC,M&R / CalPIA,cdcr_2031,Mon,9/30/24,2024-09-30,written,0900,,74,74,clear,,two_reads_agree
