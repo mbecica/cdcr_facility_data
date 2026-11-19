@@ -9,11 +9,15 @@ Reads:
   data/buildings/building_mentions.csv    one row per place another source names a
                                    specific building or housing unit
 
-Output: crosswalk/buildings.csv
-  Columns: building_key, cdcr_code, building, building_name, aliases,
+Used by scrapers/build_places.py, which calls build() and writes
+crosswalk/places.csv; this script no longer writes a table of its own (run it
+for a summary).
+  Columns of build(): building_key, cdcr_code, building, building_name, aliases,
            placeholder, facility, use, program, beds, year_built, sqft,
            spi_structure_type, spi_structure_number, spi_agency_structure_no,
-           spi_real_property_number, conflicts, n_sources, sources
+           spi_real_property_number, conflicts, n_sources, sources,
+           facility_cites (source and page of every mention that gives a
+           facility, ";"-joined)
 
 Keys:
   - `{cdcr_code}-{building}` for a numbered building. SPI building numbers come
@@ -59,7 +63,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SPI = ROOT / 'data' / 'buildings' / 'spi_cdcr_structures.csv'
 MENTIONS = ROOT / 'data' / 'buildings' / 'building_mentions.csv'
-OUT = ROOT / "crosswalk" / "buildings.csv"
 
 DGS_SERIAL = re.compile(r"^\d{5}(-[A-Z])?$")
 ID = r"\d[A-Z]\d{1,2}[A-Z]?|[A-Z]?\d+[A-Z]{0,2}(?:\.\d+)?"
@@ -101,6 +104,11 @@ def spi_number(asn: str, name: str) -> str:
         a = m.group(1)
     if a and not DGS_SERIAL.match(a) and re.fullmatch(ID, a):
         return a
+    # "<type> BUILDING#N" at the end of a name counts buildings of that type, not
+    # a building number (FOL "METAL FABRICATION BUILDING#1", whose #2 and #3 are
+    # I04 and I05; SAC "VOCATIONAL EDUCATION LANDSCAPING BLDG#1")
+    if re.search(r"\S\s+(?:BLDG\.?|BUILDING)\s*#\s*\d+$", name.upper().strip()):
+        return ""
     m = re.search(r"\b(?:BLDG\.?|BUILDING(?:\s+NO\.)?)\s*#?\s*(" + ID + r")\b", name.upper())
     if m:
         return m.group(1)
@@ -178,10 +186,19 @@ def lookups(s: pd.DataFrame) -> dict:
     return out
 
 
+# Mention IDs that are housing-unit names and only collide with an SPI agency number.
+# MCSP's SPI letter+digit numbers are a building series (A3, B8, C4 are clothing
+# exchanges; B6 "Vocational Landscaping Modular", B7 "B7 - Mental Health"), while
+# Coleman's "housing unit B7" and "Facility B6" are units 7 and 6 on Facility B.
+NO_SPI_JOIN = {("MCSP", "B6"), ("MCSP", "B7")}
+
+
 def mention_key(row, look: dict) -> str:
     c = row["cdcr_code"]
     if row["placeholder_id"]:
         return f"{c}-ph-{row['placeholder_id']}"
+    if (c, row["building"]) in NO_SPI_JOIN:
+        return f"{c}-unit-{row['building']}"
     if row["building"]:
         for part in [row["building"], *row["building"].split("/")]:
             if (c, canon(part)) in look:
@@ -190,7 +207,7 @@ def mention_key(row, look: dict) -> str:
     return look.get((c, "NAME:" + slug(row["building_name"])), f"{c}-{slug(row['building_name'])}")
 
 
-def main():
+def build() -> pd.DataFrame:
     s = load_spi()
     look = lookups(s)
     m = pd.read_csv(MENTIONS, dtype=str).fillna("")
@@ -217,6 +234,8 @@ def main():
             "aliases": joined(b for b in ment.building if b and b != building),
             "placeholder": "yes" if ment.placeholder_id.any() else "",
             "facility": joined(ment.facility),
+            "facility_cites": joined(f"{fs} p{fp}" if fp else fs for fs, fp, fv in
+                                     zip(ment.source, ment.page, ment.facility) if fv),
             "use": joined(ment.use),
             "program": dated(ment, "program"),
             "beds": dated(ment, "beds"),
@@ -231,10 +250,13 @@ def main():
         row["n_sources"] = g.source.nunique()
         row["sources"] = joined(g.source)
         rows.append(row)
-    out = pd.DataFrame(rows)
-    out.to_csv(OUT, index=False)
+    return pd.DataFrame(rows)
+
+
+def main():
+    out = build()
     linked = out[(out.sources.str.contains("SPI")) & (out.sources != "SPI")]
-    print(f"Wrote {len(out)} buildings to {OUT.relative_to(ROOT)}: "
+    print(f"{len(out)} buildings: "
           f"{(out.sources == 'SPI').sum()} SPI only, {len(linked)} SPI plus other sources, "
           f"{(~out.sources.str.contains('SPI')).sum()} other sources only; "
           f"{(out.conflicts != '').sum()} with conflicts")
