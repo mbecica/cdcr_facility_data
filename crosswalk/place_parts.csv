@@ -1,214 +1,214 @@
-part_key,place_key,part_type,part,names,status,source,page,quote,from_building_key,note
-CCWF-501:A,CCWF-501,wing,A,A wing,stated,CCWF_MSR_0624_Redacted.pdf,19,"CCWF / 501 / A, B, C, D Wings & Dayroom",,
-CCWF-501:B,CCWF-501,wing,B,B wing,stated,CCWF_MSR_0624_Redacted.pdf,19,"CCWF / 501 / A, B, C, D Wings & Dayroom",,
-CCWF-501:C,CCWF-501,wing,C,C wing,stated,CCWF_MSR_0624_Redacted.pdf,19,"CCWF / 501 / A, B, C, D Wings & Dayroom",,
-CCWF-501:D,CCWF-501,wing,D,D wing,stated,CCWF_MSR_0624_Redacted.pdf,19,"CCWF / 501 / A, B, C, D Wings & Dayroom",,
-CCWF-502:A,CCWF-502,wing,A,A wing,stated,CCWF_MSR_0624_Redacted.pdf,28,"CCWF / 502 / A, B, C, D Wings & Dayroom",,
-CCWF-502:B,CCWF-502,wing,B,B wing,stated,CCWF_MSR_0624_Redacted.pdf,28,"CCWF / 502 / A, B, C, D Wings & Dayroom",,
-CCWF-502:C,CCWF-502,wing,C,C wing,stated,CCWF_MSR_0624_Redacted.pdf,28,"CCWF / 502 / A, B, C, D Wings & Dayroom",,
-CCWF-502:D,CCWF-502,wing,D,D wing,stated,CCWF_MSR_0624_Redacted.pdf,28,"CCWF / 502 / A, B, C, D Wings & Dayroom",,
-CCWF-505:A,CCWF-505,wing,A,A wing,stated,CCWF_MSR_1024_Redacted.pdf,24,"CCWF / 505 (A, B, C, D, Wings & Dayroom)",,
-CCWF-505:B,CCWF-505,wing,B,B wing,stated,CCWF_MSR_1024_Redacted.pdf,24,"CCWF / 505 (A, B, C, D, Wings & Dayroom)",,
-CCWF-505:C,CCWF-505,wing,C,C wing,stated,CCWF_MSR_1024_Redacted.pdf,24,"CCWF / 505 (A, B, C, D, Wings & Dayroom)",,
-CCWF-505:D,CCWF-505,wing,D,D wing,stated,CCWF_MSR_1024_Redacted.pdf,24,"CCWF / 505 (A, B, C, D, Wings & Dayroom)",,
-CCWF-506:A,CCWF-506,wing,A,A wing,stated,CCWF_MSR_0824_Redacted.pdf,49,"CCWF / 506 / A, B, C, D, Wings & Dayroom",,
-CCWF-506:B,CCWF-506,wing,B,B wing,stated,CCWF_MSR_0824_Redacted.pdf,49,"CCWF / 506 / A, B, C, D, Wings & Dayroom",,
-CCWF-506:C,CCWF-506,wing,C,C wing,stated,CCWF_MSR_0824_Redacted.pdf,49,"CCWF / 506 / A, B, C, D, Wings & Dayroom",,
-CCWF-506:D,CCWF-506,wing,D,D wing,stated,CCWF_MSR_0824_Redacted.pdf,49,"CCWF / 506 / A, B, C, D, Wings & Dayroom",,
-CCWF-507:A,CCWF-507,wing,A,A wing,stated,CCWF_MSR_0624_Redacted.pdf,53,"CCWF / 507 / A, B, C, D, Wings & Dayroom",,
-CCWF-507:B,CCWF-507,wing,B,B wing,stated,CCWF_MSR_0624_Redacted.pdf,53,"CCWF / 507 / A, B, C, D, Wings & Dayroom",,
-CCWF-507:C,CCWF-507,wing,C,C wing,stated,CCWF_MSR_0624_Redacted.pdf,53,"CCWF / 507 / A, B, C, D, Wings & Dayroom",,
-CCWF-507:D,CCWF-507,wing,D,D wing,stated,CCWF_MSR_0624_Redacted.pdf,53,"CCWF / 507 / A, B, C, D, Wings & Dayroom",,
-CCWF-508:A,CCWF-508,wing,A,A wing,stated,CCWF_MSR_0624_Redacted.pdf,55,"CCWF / 508 / A, B, C, D, Wings & Dayroom",,
-CCWF-508:B,CCWF-508,wing,B,B wing,stated,CCWF_MSR_0624_Redacted.pdf,55,"CCWF / 508 / A, B, C, D, Wings & Dayroom",,
-CCWF-508:C,CCWF-508,wing,C,C wing,stated,CCWF_MSR_0624_Redacted.pdf,55,"CCWF / 508 / A, B, C, D, Wings & Dayroom",,
-CCWF-508:D,CCWF-508,wing,D,D wing,stated,CCWF_MSR_0624_Redacted.pdf,55,"CCWF / 508 / A, B, C, D, Wings & Dayroom",,
-CCWF-510:A,CCWF-510,wing,A,A wing,stated,CCWF_MSR_0624_Redacted.pdf,69,"CCWF 510 Dayroom,A,B,C,D WINGS",,
-CCWF-510:B,CCWF-510,wing,B,B wing,stated,CCWF_MSR_0624_Redacted.pdf,69,"CCWF 510 Dayroom,A,B,C,D WINGS",,
-CCWF-510:C,CCWF-510,wing,C,C wing,stated,CCWF_MSR_0624_Redacted.pdf,69,"CCWF 510 Dayroom,A,B,C,D WINGS",,
-CCWF-510:D,CCWF-510,wing,D,D wing,stated,CCWF_MSR_0624_Redacted.pdf,69,"CCWF 510 Dayroom,A,B,C,D WINGS",,
-CCWF-511:A,CCWF-511,wing,A,A wing,stated,CCWF_MSR_0824_Redacted.pdf,74,"CCWF / 511 / Dayroom,A,B,C,D WINGS",,
-CCWF-511:B,CCWF-511,wing,B,B wing,stated,CCWF_MSR_0824_Redacted.pdf,74,"CCWF / 511 / Dayroom,A,B,C,D WINGS",,
-CCWF-511:C,CCWF-511,wing,C,C wing,stated,CCWF_MSR_0824_Redacted.pdf,74,"CCWF / 511 / Dayroom,A,B,C,D WINGS",,
-CCWF-511:D,CCWF-511,wing,D,D wing,stated,CCWF_MSR_0824_Redacted.pdf,74,"CCWF / 511 / Dayroom,A,B,C,D WINGS",,
-CCWF-512:A,CCWF-512,wing,A,A wing,stated,CCWF_MSR_0824_Redacted.pdf,76,"CCWF / 512 / Dayroom A,B,C,D WING",,
-CCWF-512:B,CCWF-512,wing,B,B wing,stated,CCWF_MSR_0824_Redacted.pdf,76,"CCWF / 512 / Dayroom A,B,C,D WING",,
-CCWF-512:C,CCWF-512,wing,C,C wing,stated,CCWF_MSR_0824_Redacted.pdf,76,"CCWF / 512 / Dayroom A,B,C,D WING",,
-CCWF-512:D,CCWF-512,wing,D,D wing,stated,CCWF_MSR_0824_Redacted.pdf,76,"CCWF / 512 / Dayroom A,B,C,D WING",,
-CCWF-513:A,CCWF-513,wing,A,A wing,stated,CCWF_MSR_0724_Redacted.pdf,85,"CCWF / 513 / Dayroom A,B,C,D WING",,
-CCWF-513:B,CCWF-513,wing,B,B wing,stated,CCWF_MSR_0724_Redacted.pdf,85,"CCWF / 513 / Dayroom A,B,C,D WING",,
-CCWF-513:C,CCWF-513,wing,C,C wing,stated,CCWF_MSR_0724_Redacted.pdf,85,"CCWF / 513 / Dayroom A,B,C,D WING",,
-CCWF-513:D,CCWF-513,wing,D,D wing,stated,CCWF_MSR_0724_Redacted.pdf,85,"CCWF / 513 / Dayroom A,B,C,D WING",,
-CCWF-514:A,CCWF-514,wing,A,A wing,stated,CCWF_MSR_0924_Redacted.pdf,80,"CCWF / 514 / Dayroom A,B,C,D WING",,
-CCWF-514:B,CCWF-514,wing,B,B wing,stated,CCWF_MSR_0924_Redacted.pdf,80,"CCWF / 514 / Dayroom A,B,C,D WING",,
-CCWF-514:C,CCWF-514,wing,C,C wing,stated,CCWF_MSR_0924_Redacted.pdf,80,"CCWF / 514 / Dayroom A,B,C,D WING",,
-CCWF-514:D,CCWF-514,wing,D,D wing,stated,CCWF_MSR_0924_Redacted.pdf,80,"CCWF / 514 / Dayroom A,B,C,D WING",,
-CCWF-515:A,CCWF-515,wing,A,A wing,stated,CCWF_MSR_0724_Redacted.pdf,96,"CCWF / 515 / Dayroom A,B,C,D WING",,
-CCWF-515:B,CCWF-515,wing,B,B wing,stated,CCWF_MSR_0724_Redacted.pdf,96,"CCWF / 515 / Dayroom A,B,C,D WING",,
-CCWF-515:C,CCWF-515,wing,C,C wing,stated,CCWF_MSR_0724_Redacted.pdf,96,"CCWF / 515 / Dayroom A,B,C,D WING",,
-CCWF-515:D,CCWF-515,wing,D,D wing,stated,CCWF_MSR_0724_Redacted.pdf,96,"CCWF / 515 / Dayroom A,B,C,D WING",,
-CCWF-516:A,CCWF-516,wing,A,A wing,stated,CCWF_MSR_0724_Redacted.pdf,102,"CCWF / 516 / Dayroom A,B,C,D WING",,
-CCWF-516:B,CCWF-516,wing,B,B wing,stated,CCWF_MSR_0724_Redacted.pdf,102,"CCWF / 516 / Dayroom A,B,C,D WING",,
-CCWF-516:C,CCWF-516,wing,C,C wing,stated,CCWF_MSR_0724_Redacted.pdf,102,"CCWF / 516 / Dayroom A,B,C,D WING",,
-CCWF-516:D,CCWF-516,wing,D,D wing,stated,CCWF_MSR_0724_Redacted.pdf,102,"CCWF / 516 / Dayroom A,B,C,D WING",,
-NKSP-301:A,NKSP-301,side,A,A side,stated,NKSP_MSR_0924_Redacted.pdf,366,NKSP A1 A side,,
-NKSP-301:B,NKSP-301,side,B,B side,stated,NKSP_MSR_1024_Redacted.pdf,281,NKSP / A-1 / B-side,,
-NKSP-304:A,NKSP-304,side,A,A side,stated,NKSP_MSR_0624_Redacted.pdf,274,A4 a side,,
-NKSP-304:B,NKSP-304,side,B,B side,stated,NKSP_MSR_0624_Redacted.pdf,275,A4 b side,,
-NKSP-305:A,NKSP-305,side,A,A side,stated,NKSP_MSR_0924_Redacted.pdf,219,FAC A-5 2ND TIER A-SECTION,,
-NKSP-305:B,NKSP-305,side,B,B side,stated,NKSP_MSR_0924_Redacted.pdf,220,FAC A-5 2ND TIER B-SECTION,,
-NKSP-412:A,NKSP-412,side,A,A side,stated,NKSP_MSR_0724_Redacted.pdf,8,B-1 A,,
-NKSP-412:B,NKSP-412,side,B,B side,stated,NKSP_MSR_0624_Redacted.pdf,206,B1-B,,
-NKSP-411:A,NKSP-411,side,A,A side,stated,NKSP_MSR_0624_Redacted.pdf,131,B2 A,,
-NKSP-411:B,NKSP-411,side,B,B side,stated,NKSP_MSR_0724_Redacted.pdf,11,NKSP / B2 B / Tier 2,,
-NKSP-410:A,NKSP-410,side,A,A side,stated,NKSP_MSR_0524_Redacted.pdf,146,B3 A,,
-NKSP-410:B,NKSP-410,side,B,B side,stated,NKSP_MSR_0524_Redacted.pdf,71,B3 B,,
-NKSP-409:A,NKSP-409,side,A,A side,stated,NKSP_MSR_1024_Redacted.pdf,21,B4 A Side,,
-NKSP-409:B,NKSP-409,side,B,B side,stated,NKSP_MSR_1024_Redacted.pdf,22,B4 B Side,,
-NKSP-408:A,NKSP-408,side,A,A side,stated,NKSP_MSR_0724_Redacted.pdf,259,B-5 A,,
-NKSP-408:B,NKSP-408,side,B,B side,stated,NKSP_MSR_1024_Redacted.pdf,298,B-5-B,,
-NKSP-407:A,NKSP-407,side,A,A side,stated,NKSP_MSR_1024_Redacted.pdf,102,B6 A Pod,,
-NKSP-407:B,NKSP-407,side,B,B side,stated,NKSP_MSR_0924_Redacted.pdf,313,B6 B 2nd,,
-NKSP-413:A,NKSP-413,side,A,A side,stated,NKSP_MSR_0524_Redacted.pdf,152,C1-A,,
-NKSP-413:B,NKSP-413,side,B,B side,stated,NKSP_MSR_0524_Redacted.pdf,77,C1 B,,
-NKSP-414:A,NKSP-414,side,A,A side,stated,NKSP_MSR_0524_Redacted.pdf,154,C-2-A,,
-NKSP-414:B,NKSP-414,side,B,B side,stated,NKSP_MSR_0524_Redacted.pdf,21,C2-B,,
-NKSP-415:A,NKSP-415,side,A,A side,stated,NKSP_MSR_0524_Redacted.pdf,22,C3-A,,
-NKSP-415:B,NKSP-415,side,B,B side,stated,NKSP_MSR_0624_Redacted.pdf,77,C3 B,,
-NKSP-416:A,NKSP-416,side,A,A side,stated,NKSP_MSR_0524_Redacted.pdf,24,C4-A,,
-NKSP-416:B,NKSP-416,side,B,B side,stated,NKSP_MSR_0524_Redacted.pdf,218,C4-B,,
-NKSP-401:A,NKSP-401,side,A,A side,stated,NKSP_MSR_0524_Redacted.pdf,220,D1 (A) SIDE,,
-NKSP-401:B,NKSP-401,side,B,B side,stated,NKSP_MSR_0524_Redacted.pdf,221,D1 (B) SIDE,,
-NKSP-402:A,NKSP-402,side,A,A side,stated,NKSP_MSR_0524_Redacted.pdf,163,D2 (A) SIDE,,
-NKSP-402:B,NKSP-402,side,B,B side,stated,NKSP_MSR_0524_Redacted.pdf,223,D2 (B) SIDE,,
-NKSP-403:A,NKSP-403,side,A,A side,stated,NKSP_MSR_0524_Redacted.pdf,89,D3 (A) SIDE,,
-NKSP-403:B,NKSP-403,side,B,B side,stated,NKSP_MSR_0524_Redacted.pdf,90,D3 (B) SIDE,,
-NKSP-404:A,NKSP-404,side,A,A side,stated,NKSP_MSR_0524_Redacted.pdf,293,Fac. D-4 (A) Side,,
-NKSP-404:B,NKSP-404,side,B,B side,stated,NKSP_MSR_0524_Redacted.pdf,294,Fac. D-4 (B) Side,,
-NKSP-405:A,NKSP-405,side,A,A side,stated,NKSP_MSR_0524_Redacted.pdf,295,Fac. D-5 (A) Side,,
-NKSP-405:B,NKSP-405,side,B,B side,stated,NKSP_MSR_0524_Redacted.pdf,296,Fac. D-5 (B) Side,,
-NKSP-406:A,NKSP-406,side,A,A side,stated,NKSP_MSR_0524_Redacted.pdf,171,D6 (A) SIDE,,
-NKSP-406:B,NKSP-406,side,B,B side,stated,NKSP_MSR_0524_Redacted.pdf,172,D6 (B) SIDE,,
-NKSP-418:B,NKSP-418,side,B,B side,stated,NKSP_MSR_0824_Redaction.pdf,300,C-West B,,
-CMF-spi15300:A,CMF-spi15300,wing,A,A wing,candidate,MPAR2022:P-1516-00487,99,install a 150 ton air cooled chiller alongside the West side of A Wing,CMF-a-wing,"no source places the wings in SPI ""Main Building"""
-CMF-spi15300:B,CMF-spi15300,wing,B,B wing,candidate,Sep_2020_Quarterly-ADA_Final,30,SP 5 (B-Wing renovation),CMF-b-wing,"no source places the wings in SPI ""Main Building"""
-CMF-spi15300:G,CMF-spi15300,wing,G,G wing,candidate,CMF_MSR_0724_Redacted.pdf,29,G-1,,"no source places the wings in SPI ""Main Building""; G-1..G-3 appear only on the local form"
-CMF-spi15300:H,CMF-spi15300,wing,H,H wing,candidate,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1",,"no source places the wings in SPI ""Main Building"""
-CMF-spi15300:I,CMF-spi15300,wing,I,I wing,candidate,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1",,"no source places the wings in SPI ""Main Building"""
-CMF-spi15300:J,CMF-spi15300,wing,J,J wing,candidate,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1",,"no source places the wings in SPI ""Main Building"""
-CMF-spi15300:M,CMF-spi15300,wing,M,M wing,candidate,CMF_MSR_0524_Redacted.pdf,8,CMF M-1 137,,"no source places the wings in SPI ""Main Building"""
-CMF-spi15300:N,CMF-spi15300,wing,N,N wing,candidate,CMF_MSR_0524_Redacted.pdf,9,CMF N-1 C/O OFFICE,,"no source places the wings in SPI ""Main Building"""
-CMF-spi15300:P,CMF-spi15300,wing,P,P wing;H51,candidate,bcp_2025-26_air_cooling_pilot_8144,3,"CMF - Facility A, Wing H51/P-Wing (Mainline Housing Units)",CMF-H51,"no source places the wings in SPI ""Main Building""; BCP and Coleman ECF 8558-1 p77 write ""Wing H51/P-Wing"", so H51 is this wing's CMMS ID"
-CMF-spi15300:Q,CMF-spi15300,wing,Q,Q wing,candidate,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,26,CMF A Q 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,,"no source places the wings in SPI ""Main Building""; wing read from Coleman's ""A Q 1"" format (facility, wing, floor)"
-CMF-spi15300:S,CMF-spi15300,wing,S,S wing,candidate,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,29,CMF A S 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,,"no source places the wings in SPI ""Main Building""; wing read from Coleman's ""A Q 1"" format (facility, wing, floor)"
-CMF-spi15300:T,CMF-spi15300,wing,T,T wing,candidate,CMF_MSR_0524_Redacted.pdf,23,CMF T-WING 3rd TIER (328),,"no source places the wings in SPI ""Main Building"""
-CMF-spi15300:U,CMF-spi15300,wing,U,U wing,candidate,Sep_2020_Quarterly-ADA_Final,30,commenced installation of conduit and telephone enclosure boxes at U-Wing,CMF-u-wing,"no source places the wings in SPI ""Main Building"""
-CMF-spi15300:V,CMF-spi15300,wing,V,V wing,candidate,September2021QuarterlyReport-ADA,26,IWL completed construction activities at V-Wing for SP 7,CMF-v-wing,"no source places the wings in SPI ""Main Building"""
-COR-3A03:A,COR-3A03,section,A,AB,candidate,COR_MSR_0824_Redacted.pdf,96,3A03 ... Thursday (AB) (C),,"the page splits each reading into (AB) and (C); ""section"" is not written; same split on 3A03 pages Aug-Oct"
-COR-3A03:B,COR-3A03,section,B,AB,candidate,COR_MSR_0824_Redacted.pdf,96,3A03 ... Thursday (AB) (C),,"the page splits each reading into (AB) and (C); ""section"" is not written; same split on 3A03 pages Aug-Oct"
-COR-3A03:C,COR-3A03,section,C,C,candidate,COR_MSR_0824_Redacted.pdf,96,3A03 ... Thursday (AB) (C),,"the page splits each reading into (AB) and (C); ""section"" is not written; same split on 3A03 pages Aug-Oct"
-COR-4A01:L,COR-4A01,wing,L,L,candidate,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4A1L; no source pairs L/R with the two wings
-COR-4A01:R,COR-4A01,wing,R,R,candidate,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4A1R; no source pairs L/R with the two wings
-COR-4A03:L,COR-4A03,wing,L,L,candidate,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4A3L; no source pairs L/R with the two wings
-COR-4A04:L,COR-4A04,wing,L,L,candidate,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4A4L; no source pairs L/R with the two wings
-COR-4A04:R,COR-4A04,wing,R,R,candidate,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4A4R; no source pairs L/R with the two wings
-COR-4B01:L,COR-4B01,wing,L,L,candidate,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B1L; no source pairs L/R with the two wings
-COR-4B01:R,COR-4B01,wing,R,R,candidate,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B1R; no source pairs L/R with the two wings
-COR-4B02:L,COR-4B02,wing,L,L,candidate,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B2L; no source pairs L/R with the two wings
-COR-4B02:R,COR-4B02,wing,R,R,candidate,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B2R; no source pairs L/R with the two wings
-COR-4B03:L,COR-4B03,wing,L,L,candidate,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B3L; no source pairs L/R with the two wings
-COR-4B03:R,COR-4B03,wing,R,R,candidate,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B3R; no source pairs L/R with the two wings
-COR-4B04:L,COR-4B04,wing,L,L,candidate,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B4L; no source pairs L/R with the two wings
-COR-4B04:R,COR-4B04,wing,R,R,candidate,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B4R; no source pairs L/R with the two wings
-COR-spi55774:A,COR-spi55774,section,A,Section A,candidate,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
-COR-spi55774:B,COR-spi55774,section,B,Section B,candidate,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
-COR-spi55774:C,COR-spi55774,section,C,Section C,candidate,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
-COR-spi55774:D,COR-spi55774,section,D,Section D,candidate,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
-COR-spi55774:E,COR-spi55774,section,E,Section E,candidate,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
-COR-spi55774:F,COR-spi55774,section,F,Section F,candidate,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
-COR-spi55774:G,COR-spi55774,section,G,Section G,candidate,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
-COR-spi55774:H,COR-spi55774,section,H,Section H,candidate,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
-WSP-304:A,WSP-304,side,A,A side,stated,WSP_MSR_0624_Redacted.pdf,215,WSP / FAB4 A-SIDE / TIER 2,,
-WSP-304:B,WSP-304,side,B,B side,stated,WSP_MSR_0624_Redacted.pdf,218,WSP / FAB4 B-SIDE / TIER 2,,
-WSP-407:A,WSP-407,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,70,"WSP / B-1 / 2nd tier, A-side",,
-WSP-407:B,WSP-407,side,B,B side,stated,WSP_MSR_0924_Redacted.pdf,74,"WSP / B-1 / 2nd tier, B-side",,
-WSP-408:A,WSP-408,side,A,A side,stated,WSP_MSR_0624_Redacted.pdf,149,WSP-RC / B2 / A-Side 2nd Tier,,
-WSP-408:B,WSP-408,side,B,B side,stated,WSP_MSR_0524_Redacted.pdf,69,WSP-RC / B2 / B-SIDE 2ND TIER,,
-WSP-409:A,WSP-409,side,A,A side,stated,WSP_MSR_1024_Redacted.pdf,78,B3 Aside,,
-WSP-409:B,WSP-409,side,B,B side,stated,WSP_MSR_0524_Redacted.pdf,80,WSP / B3- Bsid / 2nd tier,,
-WSP-410:A,WSP-410,side,A,A side,stated,WSP_MSR_0624_Redacted.pdf,170,WSP / B4 A-side 2nd tier,,
-WSP-410:B,WSP-410,side,B,B side,stated,WSP_MSR_0624_Redacted.pdf,174,WSP B-4 B-side 2nd tier,,
-WSP-411:A,WSP-411,side,A,A side,stated,WSP_MSR_0524_Redacted.pdf,97,WSP / B5-A side / 2nd Tier,,
-WSP-411:B,WSP-411,side,B,B side,stated,WSP_MSR_0624_Redacted.pdf,183,B5-B side,,
-WSP-412:A,WSP-412,side,A,A side,stated,WSP_MSR_1024_Redacted.pdf,110,WSP / B6 A side,,
-WSP-412:B,WSP-412,side,B,B side,stated,WSP_MSR_0524_Redacted.pdf,108,B6-B side,,
-WSP-413:A,WSP-413,side,A,A side,stated,WSP_MSR_0724_Redacted.pdf,19,WSP / C1 A-SIDE / 1ST TIER,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
-WSP-413:B,WSP-413,side,B,B side,stated,WSP_MSR_0524_Redacted.pdf,119,WSP-RC / C1 B Side 1st Tier,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
-WSP-414:A,WSP-414,side,A,A side,candidate,WSP_MSR_0924_Redacted.pdf,152,WSP / C2-A / TIER 2,,"""side"" not written; same A/B split as the C1, C3, C4 sides; PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings"
-WSP-414:B,WSP-414,side,B,B side,candidate,WSP_MSR_0924_Redacted.pdf,158,WSP / C2-B / TIER 2,,"""side"" not written; same A/B split as the C1, C3, C4 sides; PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings"
-WSP-415:A,WSP-415,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,164,FAC C3 A/SIDE,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
-WSP-415:B,WSP-415,side,B,B side;B pod,stated,WSP_MSR_1024_Redacted.pdf,145,WSP / FAC C3 B/SIDE / TIER 2,,"PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings; also written ""B pod"" (WSP / C3 / B pod dayroom)"
-WSP-416:A,WSP-416,side,A,A side,stated,WSP_MSR_0524_Redacted.pdf,143,WSP-RC / C4 A-Side / 2nd Tier,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
-WSP-416:B,WSP-416,side,B,B side,stated,WSP_MSR_0624_Redacted.pdf,134,C4 B SIDE,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
-WSP-401:A,WSP-401,side,A,A side,stated,WSP_MSR_0524_Redacted.pdf,156,WSP / D1 / TIER 2 / A SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
-WSP-401:B,WSP-401,side,B,B side,stated,WSP_MSR_0524_Redacted.pdf,158,WSP / D1 / TIER 2 / B SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
-WSP-402:A,WSP-402,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,198,WSP D2 A SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
-WSP-402:B,WSP-402,side,B,B side,stated,WSP_MSR_0924_Redacted.pdf,199,WSP D2 B SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
-WSP-403:A,WSP-403,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,215,WSP-RC / FDB3 / tier 2 A side,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
-WSP-403:B,WSP-403,side,B,B side,stated,WSP_MSR_1024_Redacted.pdf,187,WSP/RC / D3 / 2nd tier Bside,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
-WSP-404:A,WSP-404,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,223,WSP-RC / FDB4-A SIDE / TIER 2,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
-WSP-404:B,WSP-404,side,B,B side,stated,WSP_MSR_0924_Redacted.pdf,229,WSP-RC / FDB4-B SIDE / TIER 2,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
-WSP-405:A,WSP-405,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,235,WSP / D5 / A-SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
-WSP-405:B,WSP-405,side,B,B side,stated,WSP_MSR_0924_Redacted.pdf,243,WSP D5 B-SIDE 2nd,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
-WSP-406:A,WSP-406,side,A,A side,stated,WSP_MSR_0924_Redacted.pdf,249,WSP D6 2nd TIER A SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
-WSP-406:B,WSP-406,side,B,B side,stated,WSP_MSR_0924_Redacted.pdf,253,WSP / D6 / B SIDE TOP TIER 2,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
-SQ-28:ALPINE,SQ-28,section,Alpine,Alpine,candidate,SQRC_MSR_0524_Redacted.pdf,23,San Quentin / Alpine / 3rd tier,,no source places it in South Block; candidate because PREA p42 places Carson Unit within South Block and no 2024 log page names South Block
-SQ-28:BADGER,SQ-28,section,Badger,Badger,candidate,SQRC_MSR_0524_Redacted.pdf,28,San Quentin / BADGER / TIER 1,,no source places it in South Block; candidate because PREA p42 places Carson Unit within South Block and no 2024 log page names South Block
-SQ-28:DONNER,SQ-28,section,Donner,Donner,candidate,SQRC_MSR_0524_Redacted.pdf,38,San Quentin / Donner,,no source places it in South Block; candidate because PREA p42 places Carson Unit within South Block and no 2024 log page names South Block
-SQ-28:CARSON,SQ-28,section,Carson,Carson Unit,stated,SQRC-Final-PREA-Audit-Report-2.21.25,42,"Although SQRC is actively reducing population as they systematically close and reconfigure housing units (East Block and Carson Unit within South Block), the footprint of the facility is massive (432 acres).",,"South Block = SQ-28 by name (SPI ""South Block"")"
-SATF-332:A,SATF-332,section,A,A-section,stated,SATF_MSR_1024_Redacted.pdf,150,SATF / B-2 / A-section,,
-SATF-333:B,SATF-333,section,B,B-section,stated,SATF_MSR_0724_Redacted.pdf,49,CSATF/SP B-3 Swamp Cooler B-section,,
-SATF-333:C,SATF-333,section,C,C-section,stated,SATF_MSR_0724_Redacted.pdf,48,CSATF/SP B-3 C-section,,
-SATF-383:B,SATF-383,section,B,383 B,candidate,September_2025_Quarterly_Report-ADA,43,"Buildings 373, 383 B, and 383 C",SATF-383 B,"part of 383 is read from the name; whether B/C are pods, sections or wings is not stated (Complex IV ""is configured in a pod design"", PREA p43)"
-SATF-383:C,SATF-383,section,C,383 C,candidate,September_2025_Quarterly_Report-ADA,43,"Buildings 373, 383 B, and 383 C",SATF-383 C,"part of 383 is read from the name; whether B/C are pods, sections or wings is not stated (Complex IV ""is configured in a pod design"", PREA p43)"
-CAL-345:B,CAL-345,section,B,B Sec.;B sec;Bsec,stated,CAL_MSR_0924_Redacted.pdf,42,CAL / C1 - 2nd tier B Sec.,,
-CAL-341:B,CAL-341,section,B,B section,stated,CAL_MSR_0724_Redacted.pdf,54,CAL C-5 2nd Tier B section,,
-PVSP-spi50364:A,PVSP-spi50364,section,A,STRH A;RHU A;A,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH A,,section column on the STRH local form; candidate because the RHU place is a candidate
-PVSP-spi50364:B,PVSP-spi50364,section,B,STRH B;RHU B;B,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH B,,section column on the STRH local form; candidate because the RHU place is a candidate
-PVSP-spi50364:C,PVSP-spi50364,section,C,STRH C;RHU C;C,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH C,,section column on the STRH local form; candidate because the RHU place is a candidate
-PVSP-spi50364:D,PVSP-spi50364,section,D,STRH D;RHU D;D,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH D,,section column on the STRH local form; candidate because the RHU place is a candidate
-PVSP-spi50364:E,PVSP-spi50364,section,E,STRH E;RHU E;E,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH E,,section column on the STRH local form; candidate because the RHU place is a candidate
-PVSP-spi50364:F,PVSP-spi50364,section,F,STRH F;RHU F;F,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH F,,section column on the STRH local form; candidate because the RHU place is a candidate
-PVSP-spi50364:G,PVSP-spi50364,section,G,STRH G;RHU G;G,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH G,,section column on the STRH local form; candidate because the RHU place is a candidate
-PVSP-spi50364:H,PVSP-spi50364,section,H,STRH H;RHU H;H,candidate,PVSP_MSR_0524_Redacted.pdf,103,STRH H,,section column on the STRH local form; candidate because the RHU place is a candidate
-PVSP-342:B,PVSP-342,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,stated,PVSP_MSR_0724_Redacted.pdf,48,PVSP / B2 / B Section,,
-PVSP-343:B,PVSP-343,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,stated,PVSP_MSR_0724_Redacted.pdf,54,PVSP / B3 / 2ND Tier B-Sect.,,
-PVSP-344:B,PVSP-344,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,stated,PVSP_MSR_0724_Redacted.pdf,58,PVSP / B4 / 2ND T B-SIDE,,
-PVSP-345:B,PVSP-345,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,stated,PVSP_MSR_0924_Redacted.pdf,89,B-5 2nd B-Section,,
-CTF-spi15632:B,CTF-spi15632,wing,B,B wing,candidate,CTF_MSR_0524_Redacted.pdf,2,B-Wing,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
-CTF-spi15632:C,CTF-spi15632,wing,C,C wing,candidate,CTF_MSR_0524_Redacted.pdf,7,C-WING,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
-CTF-spi15632:D,CTF-spi15632,wing,D,D wing,candidate,CTF_MSR_0524_Redacted.pdf,12,D-WING,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
-CTF-spi15632:E,CTF-spi15632,wing,E,E wing,candidate,CTF_MSR_0524_Redacted.pdf,17,EW,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
-CTF-spi15632:F,CTF-spi15632,wing,F,F wing,candidate,CTF_MSR_0524_Redacted.pdf,27,F-Wing,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
-CTF-spi15632:G,CTF-spi15632,wing,G,G wing,candidate,CTF_MSR_0524_Redacted.pdf,23,G-W,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
-CTF-spi15632:X,CTF-spi15632,wing,X,X wing,stated,SPI,36783,"X-1 | X-1 Central Fac Roof, Tower X-Wing",,SPI names the guard tower on the Central Facility roof at this wing
-CTF-spi15632:Y,CTF-spi15632,wing,Y,Y wing,candidate,CTF_MSR_0524_Redacted.pdf,42,Y-W,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
-CTF-spi15632:Z,CTF-spi15632,wing,Z,Z wing,candidate,CTF_MSR_0524_Redacted.pdf,47,Z-Wing,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
-CTF-spi15632:O,CTF-spi15632,wing,O,O wing,stated,SPI,36784,"O-3 | O-3 Central Fac Roof, Tower O-Wing West",CTF-o-wing,SPI names the guard tower on the Central Facility roof at this wing
-CRC-spi29014:5,CRC-spi29014,post,Tower 5,Tower 5;T-5;TOWER 5,candidate,CRC_MSR_0924_Redacted.pdf,2,FACILITY D *TOWER 5,,"zone form (also ""T-5"", 0524 p186, 0724 p3; Zone 1 readings only); SPI 29014 ""Towers 1-8"" (lookout/guard station, 900 sq ft, group row) is the only tower record, so Tower 5 is one of its towers by number; the header places it in Facility D (parts have no facility column); readings link here through the step-4 lookup, not as a housing unit"
-CIW-spi14567:A,CIW-spi14567,side,A,A side,stated,CIW_MSR_0524_Redacted.pdf,8,MILLER A,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
-CIW-spi14567:B,CIW-spi14567,side,B,B side,stated,CIW_MSR_0524_Redacted.pdf,12,Miller B,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
-CIW-spi14568:A,CIW-spi14568,side,A,A side,stated,CIW_MSR_0724_Redacted.pdf,48,BARNEBERG A,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
-CIW-spi14568:B,CIW-spi14568,side,B,B side,stated,CIW_MSR_0524_Redacted.pdf,53,Barneberg B,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
-CIW-spi14569:B,CIW-spi14569,side,B,B side,stated,CIW_MSR_0524_Redacted.pdf,29,CIW / Emmons B (1st Tier),,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
-CIW-spi14570:A,CIW-spi14570,side,A,A side,stated,CIW_MSR_0524_Redacted.pdf,17,CIW / Latham A / 1st tier,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
-CIW-spi14570:B,CIW-spi14570,side,B,B side,stated,CIW_MSR_0524_Redacted.pdf,22,Latham B,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
-CIW-spi14571:A,CIW-spi14571,side,A,A side,stated,CIW_MSR_0724_Redacted.pdf,38,Wilson A,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
-CIW-spi14571:B,CIW-spi14571,side,B,B side,stated,CIW_MSR_0524_Redacted.pdf,37,Wilson B,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
-CIW-spi14572:A,CIW-spi14572,side,A,A side,stated,CIW_MSR_0724_Redacted.pdf,29,Harrison A,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
-CIW-spi14572:B,CIW-spi14572,side,B,B side,stated,CIW_MSR_0724_Redacted.pdf,36,HARRISON B,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
-CHCF-E301:301B,CHCF-E301,section,301B,301B;Housing Unit 301B,candidate,MPAR2022:P-1920-00107,76,Facility E housing unit 301B dayroom,CHCF-301B,"number match only: read as a section of E301; ADA quarterlies 2021-2026 write ""Housing Unit 301B"", Senate Sub 5 2021 p14 ""housing units 301B through 301F""; EOP; no 301A is named"
-CHCF-E301:301C,CHCF-E301,section,301C,301C;Housing Unit 301C,candidate,MPAR2022:P-1920-00108,76,Facility E housing unit 301C dayroom,CHCF-301C,"number match only: read as a section of E301; ADA quarterlies 2021-2026 write ""Housing Unit 301C"", Senate Sub 5 2021 p14 ""housing units 301B through 301F""; EOP; no 301A is named"
-CHCF-E301:301D,CHCF-E301,section,301D,301D;Housing Unit 301D,candidate,MPAR2022:P-1920-00109,77,Facility E housing unit 301D dayroom,CHCF-301D,"number match only: read as a section of E301; ADA quarterlies 2021-2026 write ""Housing Unit 301D"", Senate Sub 5 2021 p14 ""housing units 301B through 301F""; EOP; no 301A is named"
-CHCF-E301:301E,CHCF-E301,section,301E,301E;Housing Unit 301E,candidate,MPAR2022:P-1920-00110,77,Facility E housing unit 301E dayroom,CHCF-301E,"number match only: read as a section of E301; ADA quarterlies 2021-2026 write ""Housing Unit 301E"", Senate Sub 5 2021 p14 ""housing units 301B through 301F""; EOP; no 301A is named"
-CHCF-E301:301F,CHCF-E301,section,301F,301F;Housing Unit 301F,candidate,MPAR2022:P-1920-00111,77,Facility E housing unit 301F dayroom,CHCF-301F,"number match only: read as a section of E301; ADA quarterlies 2021-2026 write ""Housing Unit 301F"", Senate Sub 5 2021 p14 ""housing units 301B through 301F""; EOP; no 301A is named"
+part_key,place_key,part_type,part,names,basis,source,page,quote,from_building_key,note
+CCWF-501:A,CCWF-501,wing,A,A wing,source writes it,CCWF_MSR_0624_Redacted.pdf,19,"CCWF / 501 / A, B, C, D Wings & Dayroom",,
+CCWF-501:B,CCWF-501,wing,B,B wing,source writes it,CCWF_MSR_0624_Redacted.pdf,19,"CCWF / 501 / A, B, C, D Wings & Dayroom",,
+CCWF-501:C,CCWF-501,wing,C,C wing,source writes it,CCWF_MSR_0624_Redacted.pdf,19,"CCWF / 501 / A, B, C, D Wings & Dayroom",,
+CCWF-501:D,CCWF-501,wing,D,D wing,source writes it,CCWF_MSR_0624_Redacted.pdf,19,"CCWF / 501 / A, B, C, D Wings & Dayroom",,
+CCWF-502:A,CCWF-502,wing,A,A wing,source writes it,CCWF_MSR_0624_Redacted.pdf,28,"CCWF / 502 / A, B, C, D Wings & Dayroom",,
+CCWF-502:B,CCWF-502,wing,B,B wing,source writes it,CCWF_MSR_0624_Redacted.pdf,28,"CCWF / 502 / A, B, C, D Wings & Dayroom",,
+CCWF-502:C,CCWF-502,wing,C,C wing,source writes it,CCWF_MSR_0624_Redacted.pdf,28,"CCWF / 502 / A, B, C, D Wings & Dayroom",,
+CCWF-502:D,CCWF-502,wing,D,D wing,source writes it,CCWF_MSR_0624_Redacted.pdf,28,"CCWF / 502 / A, B, C, D Wings & Dayroom",,
+CCWF-505:A,CCWF-505,wing,A,A wing,source writes it,CCWF_MSR_1024_Redacted.pdf,24,"CCWF / 505 (A, B, C, D, Wings & Dayroom)",,
+CCWF-505:B,CCWF-505,wing,B,B wing,source writes it,CCWF_MSR_1024_Redacted.pdf,24,"CCWF / 505 (A, B, C, D, Wings & Dayroom)",,
+CCWF-505:C,CCWF-505,wing,C,C wing,source writes it,CCWF_MSR_1024_Redacted.pdf,24,"CCWF / 505 (A, B, C, D, Wings & Dayroom)",,
+CCWF-505:D,CCWF-505,wing,D,D wing,source writes it,CCWF_MSR_1024_Redacted.pdf,24,"CCWF / 505 (A, B, C, D, Wings & Dayroom)",,
+CCWF-506:A,CCWF-506,wing,A,A wing,source writes it,CCWF_MSR_0824_Redacted.pdf,49,"CCWF / 506 / A, B, C, D, Wings & Dayroom",,
+CCWF-506:B,CCWF-506,wing,B,B wing,source writes it,CCWF_MSR_0824_Redacted.pdf,49,"CCWF / 506 / A, B, C, D, Wings & Dayroom",,
+CCWF-506:C,CCWF-506,wing,C,C wing,source writes it,CCWF_MSR_0824_Redacted.pdf,49,"CCWF / 506 / A, B, C, D, Wings & Dayroom",,
+CCWF-506:D,CCWF-506,wing,D,D wing,source writes it,CCWF_MSR_0824_Redacted.pdf,49,"CCWF / 506 / A, B, C, D, Wings & Dayroom",,
+CCWF-507:A,CCWF-507,wing,A,A wing,source writes it,CCWF_MSR_0624_Redacted.pdf,53,"CCWF / 507 / A, B, C, D, Wings & Dayroom",,
+CCWF-507:B,CCWF-507,wing,B,B wing,source writes it,CCWF_MSR_0624_Redacted.pdf,53,"CCWF / 507 / A, B, C, D, Wings & Dayroom",,
+CCWF-507:C,CCWF-507,wing,C,C wing,source writes it,CCWF_MSR_0624_Redacted.pdf,53,"CCWF / 507 / A, B, C, D, Wings & Dayroom",,
+CCWF-507:D,CCWF-507,wing,D,D wing,source writes it,CCWF_MSR_0624_Redacted.pdf,53,"CCWF / 507 / A, B, C, D, Wings & Dayroom",,
+CCWF-508:A,CCWF-508,wing,A,A wing,source writes it,CCWF_MSR_0624_Redacted.pdf,55,"CCWF / 508 / A, B, C, D, Wings & Dayroom",,
+CCWF-508:B,CCWF-508,wing,B,B wing,source writes it,CCWF_MSR_0624_Redacted.pdf,55,"CCWF / 508 / A, B, C, D, Wings & Dayroom",,
+CCWF-508:C,CCWF-508,wing,C,C wing,source writes it,CCWF_MSR_0624_Redacted.pdf,55,"CCWF / 508 / A, B, C, D, Wings & Dayroom",,
+CCWF-508:D,CCWF-508,wing,D,D wing,source writes it,CCWF_MSR_0624_Redacted.pdf,55,"CCWF / 508 / A, B, C, D, Wings & Dayroom",,
+CCWF-510:A,CCWF-510,wing,A,A wing,source writes it,CCWF_MSR_0624_Redacted.pdf,69,"CCWF 510 Dayroom,A,B,C,D WINGS",,
+CCWF-510:B,CCWF-510,wing,B,B wing,source writes it,CCWF_MSR_0624_Redacted.pdf,69,"CCWF 510 Dayroom,A,B,C,D WINGS",,
+CCWF-510:C,CCWF-510,wing,C,C wing,source writes it,CCWF_MSR_0624_Redacted.pdf,69,"CCWF 510 Dayroom,A,B,C,D WINGS",,
+CCWF-510:D,CCWF-510,wing,D,D wing,source writes it,CCWF_MSR_0624_Redacted.pdf,69,"CCWF 510 Dayroom,A,B,C,D WINGS",,
+CCWF-511:A,CCWF-511,wing,A,A wing,source writes it,CCWF_MSR_0824_Redacted.pdf,74,"CCWF / 511 / Dayroom,A,B,C,D WINGS",,
+CCWF-511:B,CCWF-511,wing,B,B wing,source writes it,CCWF_MSR_0824_Redacted.pdf,74,"CCWF / 511 / Dayroom,A,B,C,D WINGS",,
+CCWF-511:C,CCWF-511,wing,C,C wing,source writes it,CCWF_MSR_0824_Redacted.pdf,74,"CCWF / 511 / Dayroom,A,B,C,D WINGS",,
+CCWF-511:D,CCWF-511,wing,D,D wing,source writes it,CCWF_MSR_0824_Redacted.pdf,74,"CCWF / 511 / Dayroom,A,B,C,D WINGS",,
+CCWF-512:A,CCWF-512,wing,A,A wing,source writes it,CCWF_MSR_0824_Redacted.pdf,76,"CCWF / 512 / Dayroom A,B,C,D WING",,
+CCWF-512:B,CCWF-512,wing,B,B wing,source writes it,CCWF_MSR_0824_Redacted.pdf,76,"CCWF / 512 / Dayroom A,B,C,D WING",,
+CCWF-512:C,CCWF-512,wing,C,C wing,source writes it,CCWF_MSR_0824_Redacted.pdf,76,"CCWF / 512 / Dayroom A,B,C,D WING",,
+CCWF-512:D,CCWF-512,wing,D,D wing,source writes it,CCWF_MSR_0824_Redacted.pdf,76,"CCWF / 512 / Dayroom A,B,C,D WING",,
+CCWF-513:A,CCWF-513,wing,A,A wing,source writes it,CCWF_MSR_0724_Redacted.pdf,85,"CCWF / 513 / Dayroom A,B,C,D WING",,
+CCWF-513:B,CCWF-513,wing,B,B wing,source writes it,CCWF_MSR_0724_Redacted.pdf,85,"CCWF / 513 / Dayroom A,B,C,D WING",,
+CCWF-513:C,CCWF-513,wing,C,C wing,source writes it,CCWF_MSR_0724_Redacted.pdf,85,"CCWF / 513 / Dayroom A,B,C,D WING",,
+CCWF-513:D,CCWF-513,wing,D,D wing,source writes it,CCWF_MSR_0724_Redacted.pdf,85,"CCWF / 513 / Dayroom A,B,C,D WING",,
+CCWF-514:A,CCWF-514,wing,A,A wing,source writes it,CCWF_MSR_0924_Redacted.pdf,80,"CCWF / 514 / Dayroom A,B,C,D WING",,
+CCWF-514:B,CCWF-514,wing,B,B wing,source writes it,CCWF_MSR_0924_Redacted.pdf,80,"CCWF / 514 / Dayroom A,B,C,D WING",,
+CCWF-514:C,CCWF-514,wing,C,C wing,source writes it,CCWF_MSR_0924_Redacted.pdf,80,"CCWF / 514 / Dayroom A,B,C,D WING",,
+CCWF-514:D,CCWF-514,wing,D,D wing,source writes it,CCWF_MSR_0924_Redacted.pdf,80,"CCWF / 514 / Dayroom A,B,C,D WING",,
+CCWF-515:A,CCWF-515,wing,A,A wing,source writes it,CCWF_MSR_0724_Redacted.pdf,96,"CCWF / 515 / Dayroom A,B,C,D WING",,
+CCWF-515:B,CCWF-515,wing,B,B wing,source writes it,CCWF_MSR_0724_Redacted.pdf,96,"CCWF / 515 / Dayroom A,B,C,D WING",,
+CCWF-515:C,CCWF-515,wing,C,C wing,source writes it,CCWF_MSR_0724_Redacted.pdf,96,"CCWF / 515 / Dayroom A,B,C,D WING",,
+CCWF-515:D,CCWF-515,wing,D,D wing,source writes it,CCWF_MSR_0724_Redacted.pdf,96,"CCWF / 515 / Dayroom A,B,C,D WING",,
+CCWF-516:A,CCWF-516,wing,A,A wing,source writes it,CCWF_MSR_0724_Redacted.pdf,102,"CCWF / 516 / Dayroom A,B,C,D WING",,
+CCWF-516:B,CCWF-516,wing,B,B wing,source writes it,CCWF_MSR_0724_Redacted.pdf,102,"CCWF / 516 / Dayroom A,B,C,D WING",,
+CCWF-516:C,CCWF-516,wing,C,C wing,source writes it,CCWF_MSR_0724_Redacted.pdf,102,"CCWF / 516 / Dayroom A,B,C,D WING",,
+CCWF-516:D,CCWF-516,wing,D,D wing,source writes it,CCWF_MSR_0724_Redacted.pdf,102,"CCWF / 516 / Dayroom A,B,C,D WING",,
+NKSP-301:A,NKSP-301,side,A,A side,source writes it,NKSP_MSR_0924_Redacted.pdf,366,NKSP A1 A side,,
+NKSP-301:B,NKSP-301,side,B,B side,source writes it,NKSP_MSR_1024_Redacted.pdf,281,NKSP / A-1 / B-side,,
+NKSP-304:A,NKSP-304,side,A,A side,source writes it,NKSP_MSR_0624_Redacted.pdf,274,A4 a side,,
+NKSP-304:B,NKSP-304,side,B,B side,source writes it,NKSP_MSR_0624_Redacted.pdf,275,A4 b side,,
+NKSP-305:A,NKSP-305,side,A,A side,source writes it,NKSP_MSR_0924_Redacted.pdf,219,FAC A-5 2ND TIER A-SECTION,,
+NKSP-305:B,NKSP-305,side,B,B side,source writes it,NKSP_MSR_0924_Redacted.pdf,220,FAC A-5 2ND TIER B-SECTION,,
+NKSP-412:A,NKSP-412,side,A,A side,source writes it,NKSP_MSR_0724_Redacted.pdf,8,B-1 A,,
+NKSP-412:B,NKSP-412,side,B,B side,source writes it,NKSP_MSR_0624_Redacted.pdf,206,B1-B,,
+NKSP-411:A,NKSP-411,side,A,A side,source writes it,NKSP_MSR_0624_Redacted.pdf,131,B2 A,,
+NKSP-411:B,NKSP-411,side,B,B side,source writes it,NKSP_MSR_0724_Redacted.pdf,11,NKSP / B2 B / Tier 2,,
+NKSP-410:A,NKSP-410,side,A,A side,source writes it,NKSP_MSR_0524_Redacted.pdf,146,B3 A,,
+NKSP-410:B,NKSP-410,side,B,B side,source writes it,NKSP_MSR_0524_Redacted.pdf,71,B3 B,,
+NKSP-409:A,NKSP-409,side,A,A side,source writes it,NKSP_MSR_1024_Redacted.pdf,21,B4 A Side,,
+NKSP-409:B,NKSP-409,side,B,B side,source writes it,NKSP_MSR_1024_Redacted.pdf,22,B4 B Side,,
+NKSP-408:A,NKSP-408,side,A,A side,source writes it,NKSP_MSR_0724_Redacted.pdf,259,B-5 A,,
+NKSP-408:B,NKSP-408,side,B,B side,source writes it,NKSP_MSR_1024_Redacted.pdf,298,B-5-B,,
+NKSP-407:A,NKSP-407,side,A,A side,source writes it,NKSP_MSR_1024_Redacted.pdf,102,B6 A Pod,,
+NKSP-407:B,NKSP-407,side,B,B side,source writes it,NKSP_MSR_0924_Redacted.pdf,313,B6 B 2nd,,
+NKSP-413:A,NKSP-413,side,A,A side,source writes it,NKSP_MSR_0524_Redacted.pdf,152,C1-A,,
+NKSP-413:B,NKSP-413,side,B,B side,source writes it,NKSP_MSR_0524_Redacted.pdf,77,C1 B,,
+NKSP-414:A,NKSP-414,side,A,A side,source writes it,NKSP_MSR_0524_Redacted.pdf,154,C-2-A,,
+NKSP-414:B,NKSP-414,side,B,B side,source writes it,NKSP_MSR_0524_Redacted.pdf,21,C2-B,,
+NKSP-415:A,NKSP-415,side,A,A side,source writes it,NKSP_MSR_0524_Redacted.pdf,22,C3-A,,
+NKSP-415:B,NKSP-415,side,B,B side,source writes it,NKSP_MSR_0624_Redacted.pdf,77,C3 B,,
+NKSP-416:A,NKSP-416,side,A,A side,source writes it,NKSP_MSR_0524_Redacted.pdf,24,C4-A,,
+NKSP-416:B,NKSP-416,side,B,B side,source writes it,NKSP_MSR_0524_Redacted.pdf,218,C4-B,,
+NKSP-401:A,NKSP-401,side,A,A side,source writes it,NKSP_MSR_0524_Redacted.pdf,220,D1 (A) SIDE,,
+NKSP-401:B,NKSP-401,side,B,B side,source writes it,NKSP_MSR_0524_Redacted.pdf,221,D1 (B) SIDE,,
+NKSP-402:A,NKSP-402,side,A,A side,source writes it,NKSP_MSR_0524_Redacted.pdf,163,D2 (A) SIDE,,
+NKSP-402:B,NKSP-402,side,B,B side,source writes it,NKSP_MSR_0524_Redacted.pdf,223,D2 (B) SIDE,,
+NKSP-403:A,NKSP-403,side,A,A side,source writes it,NKSP_MSR_0524_Redacted.pdf,89,D3 (A) SIDE,,
+NKSP-403:B,NKSP-403,side,B,B side,source writes it,NKSP_MSR_0524_Redacted.pdf,90,D3 (B) SIDE,,
+NKSP-404:A,NKSP-404,side,A,A side,source writes it,NKSP_MSR_0524_Redacted.pdf,293,Fac. D-4 (A) Side,,
+NKSP-404:B,NKSP-404,side,B,B side,source writes it,NKSP_MSR_0524_Redacted.pdf,294,Fac. D-4 (B) Side,,
+NKSP-405:A,NKSP-405,side,A,A side,source writes it,NKSP_MSR_0524_Redacted.pdf,295,Fac. D-5 (A) Side,,
+NKSP-405:B,NKSP-405,side,B,B side,source writes it,NKSP_MSR_0524_Redacted.pdf,296,Fac. D-5 (B) Side,,
+NKSP-406:A,NKSP-406,side,A,A side,source writes it,NKSP_MSR_0524_Redacted.pdf,171,D6 (A) SIDE,,
+NKSP-406:B,NKSP-406,side,B,B side,source writes it,NKSP_MSR_0524_Redacted.pdf,172,D6 (B) SIDE,,
+NKSP-418:B,NKSP-418,side,B,B side,source writes it,NKSP_MSR_0824_Redaction.pdf,300,C-West B,,
+CMF-spi15300:A,CMF-spi15300,wing,A,A wing,inside a large SPI record,MPAR2022:P-1516-00487,99,install a 150 ton air cooled chiller alongside the West side of A Wing,CMF-a-wing,"no source places the wings in SPI ""Main Building"""
+CMF-spi15300:B,CMF-spi15300,wing,B,B wing,inside a large SPI record,Sep_2020_Quarterly-ADA_Final,30,SP 5 (B-Wing renovation),CMF-b-wing,"no source places the wings in SPI ""Main Building"""
+CMF-spi15300:G,CMF-spi15300,wing,G,G wing,inside a large SPI record,CMF_MSR_0724_Redacted.pdf,29,G-1,,"no source places the wings in SPI ""Main Building""; G-1..G-3 appear only on the local form"
+CMF-spi15300:H,CMF-spi15300,wing,H,H wing,inside a large SPI record,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1",,"no source places the wings in SPI ""Main Building"""
+CMF-spi15300:I,CMF-spi15300,wing,I,I wing,inside a large SPI record,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1",,"no source places the wings in SPI ""Main Building"""
+CMF-spi15300:J,CMF-spi15300,wing,J,J wing,inside a large SPI record,MPAR2022:P-1516-00271,98,"Modify cells, dorms, restrooms, showers, and associated path-of-travel elements in I-1, H-1, H-2, H-3, and J-1",,"no source places the wings in SPI ""Main Building"""
+CMF-spi15300:M,CMF-spi15300,wing,M,M wing,inside a large SPI record,CMF_MSR_0524_Redacted.pdf,8,CMF M-1 137,,"no source places the wings in SPI ""Main Building"""
+CMF-spi15300:N,CMF-spi15300,wing,N,N wing,inside a large SPI record,CMF_MSR_0524_Redacted.pdf,9,CMF N-1 C/O OFFICE,,"no source places the wings in SPI ""Main Building"""
+CMF-spi15300:P,CMF-spi15300,wing,P,P wing;H51,inside a large SPI record,bcp_2025-26_air_cooling_pilot_8144,3,"CMF - Facility A, Wing H51/P-Wing (Mainline Housing Units)",CMF-H51,"no source places the wings in SPI ""Main Building""; BCP and Coleman ECF 8558-1 p77 write ""Wing H51/P-Wing"", so H51 is this wing's CMMS ID"
+CMF-spi15300:Q,CMF-spi15300,wing,Q,Q wing,unit name,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,26,CMF A Q 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,,"no source places the wings in SPI ""Main Building""; wing read from Coleman's ""A Q 1"" format (facility, wing, floor)"
+CMF-spi15300:S,CMF-spi15300,wing,S,S wing,unit name,coleman_ecf7833-1_iflex_pip_beds_2023-05-11,29,CMF A S 1 101001L MH Acute Care Facility Psychiatric Inpatient Program PIP,,"no source places the wings in SPI ""Main Building""; wing read from Coleman's ""A Q 1"" format (facility, wing, floor)"
+CMF-spi15300:T,CMF-spi15300,wing,T,T wing,inside a large SPI record,CMF_MSR_0524_Redacted.pdf,23,CMF T-WING 3rd TIER (328),,"no source places the wings in SPI ""Main Building"""
+CMF-spi15300:U,CMF-spi15300,wing,U,U wing,inside a large SPI record,Sep_2020_Quarterly-ADA_Final,30,commenced installation of conduit and telephone enclosure boxes at U-Wing,CMF-u-wing,"no source places the wings in SPI ""Main Building"""
+CMF-spi15300:V,CMF-spi15300,wing,V,V wing,inside a large SPI record,September2021QuarterlyReport-ADA,26,IWL completed construction activities at V-Wing for SP 7,CMF-v-wing,"no source places the wings in SPI ""Main Building"""
+COR-3A03:A,COR-3A03,section,A,AB,page layout,COR_MSR_0824_Redacted.pdf,96,3A03 ... Thursday (AB) (C),,"the page splits each reading into (AB) and (C); ""section"" is not written; same split on 3A03 pages Aug-Oct"
+COR-3A03:B,COR-3A03,section,B,AB,page layout,COR_MSR_0824_Redacted.pdf,96,3A03 ... Thursday (AB) (C),,"the page splits each reading into (AB) and (C); ""section"" is not written; same split on 3A03 pages Aug-Oct"
+COR-3A03:C,COR-3A03,section,C,C,page layout,COR_MSR_0824_Redacted.pdf,96,3A03 ... Thursday (AB) (C),,"the page splits each reading into (AB) and (C); ""section"" is not written; same split on 3A03 pages Aug-Oct"
+COR-4A01:L,COR-4A01,wing,L,L,unit name,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4A1L; no source pairs L/R with the two wings
+COR-4A01:R,COR-4A01,wing,R,R,unit name,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4A1R; no source pairs L/R with the two wings
+COR-4A03:L,COR-4A03,wing,L,L,unit name,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4A3L; no source pairs L/R with the two wings
+COR-4A04:L,COR-4A04,wing,L,L,unit name,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4A4L; no source pairs L/R with the two wings
+COR-4A04:R,COR-4A04,wing,R,R,unit name,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4A4R; no source pairs L/R with the two wings
+COR-4B01:L,COR-4B01,wing,L,L,unit name,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B1L; no source pairs L/R with the two wings
+COR-4B01:R,COR-4B01,wing,R,R,unit name,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B1R; no source pairs L/R with the two wings
+COR-4B02:L,COR-4B02,wing,L,L,unit name,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B2L; no source pairs L/R with the two wings
+COR-4B02:R,COR-4B02,wing,R,R,unit name,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B2R; no source pairs L/R with the two wings
+COR-4B03:L,COR-4B03,wing,L,L,unit name,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B3L; no source pairs L/R with the two wings
+COR-4B03:R,COR-4B03,wing,R,R,unit name,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B3R; no source pairs L/R with the two wings
+COR-4B04:L,COR-4B04,wing,L,L,unit name,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B4L; no source pairs L/R with the two wings
+COR-4B04:R,COR-4B04,wing,R,R,unit name,COR-Final-PREA-Audit-Report-4.28.24,42,"Housing units in yards 4A and 4B mirror each other. Each yard contains 4 buildings, with two wings of each building, and four halls in each wing.",,L/R as a wing is read from unit names such as 4B4R; no source pairs L/R with the two wings
+COR-spi55774:A,COR-spi55774,section,A,Section A,follows the place link,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
+COR-spi55774:B,COR-spi55774,section,B,Section B,follows the place link,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
+COR-spi55774:C,COR-spi55774,section,C,Section C,follows the place link,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
+COR-spi55774:D,COR-spi55774,section,D,Section D,follows the place link,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
+COR-spi55774:E,COR-spi55774,section,E,Section E,follows the place link,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
+COR-spi55774:F,COR-spi55774,section,F,Section F,follows the place link,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
+COR-spi55774:G,COR-spi55774,section,G,Section G,follows the place link,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
+COR-spi55774:H,COR-spi55774,section,H,Section H,follows the place link,COR_MSR_0824_Redacted.pdf,146,CSP-COR / ASU-1 / Sections A-H,,PREA 2018 p10 and the locator give eight sections; the ASU-to-SPI 55774 link is a candidate
+WSP-304:A,WSP-304,side,A,A side,source writes it,WSP_MSR_0624_Redacted.pdf,215,WSP / FAB4 A-SIDE / TIER 2,,
+WSP-304:B,WSP-304,side,B,B side,source writes it,WSP_MSR_0624_Redacted.pdf,218,WSP / FAB4 B-SIDE / TIER 2,,
+WSP-407:A,WSP-407,side,A,A side,source writes it,WSP_MSR_0924_Redacted.pdf,70,"WSP / B-1 / 2nd tier, A-side",,
+WSP-407:B,WSP-407,side,B,B side,source writes it,WSP_MSR_0924_Redacted.pdf,74,"WSP / B-1 / 2nd tier, B-side",,
+WSP-408:A,WSP-408,side,A,A side,source writes it,WSP_MSR_0624_Redacted.pdf,149,WSP-RC / B2 / A-Side 2nd Tier,,
+WSP-408:B,WSP-408,side,B,B side,source writes it,WSP_MSR_0524_Redacted.pdf,69,WSP-RC / B2 / B-SIDE 2ND TIER,,
+WSP-409:A,WSP-409,side,A,A side,source writes it,WSP_MSR_1024_Redacted.pdf,78,B3 Aside,,
+WSP-409:B,WSP-409,side,B,B side,source writes it,WSP_MSR_0524_Redacted.pdf,80,WSP / B3- Bsid / 2nd tier,,
+WSP-410:A,WSP-410,side,A,A side,source writes it,WSP_MSR_0624_Redacted.pdf,170,WSP / B4 A-side 2nd tier,,
+WSP-410:B,WSP-410,side,B,B side,source writes it,WSP_MSR_0624_Redacted.pdf,174,WSP B-4 B-side 2nd tier,,
+WSP-411:A,WSP-411,side,A,A side,source writes it,WSP_MSR_0524_Redacted.pdf,97,WSP / B5-A side / 2nd Tier,,
+WSP-411:B,WSP-411,side,B,B side,source writes it,WSP_MSR_0624_Redacted.pdf,183,B5-B side,,
+WSP-412:A,WSP-412,side,A,A side,source writes it,WSP_MSR_1024_Redacted.pdf,110,WSP / B6 A side,,
+WSP-412:B,WSP-412,side,B,B side,source writes it,WSP_MSR_0524_Redacted.pdf,108,B6-B side,,
+WSP-413:A,WSP-413,side,A,A side,source writes it,WSP_MSR_0724_Redacted.pdf,19,WSP / C1 A-SIDE / 1ST TIER,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
+WSP-413:B,WSP-413,side,B,B side,source writes it,WSP_MSR_0524_Redacted.pdf,119,WSP-RC / C1 B Side 1st Tier,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
+WSP-414:A,WSP-414,side,A,A side,page layout,WSP_MSR_0924_Redacted.pdf,152,WSP / C2-A / TIER 2,,"""side"" not written; same A/B split as the C1, C3, C4 sides; PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings"
+WSP-414:B,WSP-414,side,B,B side,page layout,WSP_MSR_0924_Redacted.pdf,158,WSP / C2-B / TIER 2,,"""side"" not written; same A/B split as the C1, C3, C4 sides; PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings"
+WSP-415:A,WSP-415,side,A,A side,source writes it,WSP_MSR_0924_Redacted.pdf,164,FAC C3 A/SIDE,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
+WSP-415:B,WSP-415,side,B,B side;B pod,source writes it,WSP_MSR_1024_Redacted.pdf,145,WSP / FAC C3 B/SIDE / TIER 2,,"PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings; also written ""B pod"" (WSP / C3 / B pod dayroom)"
+WSP-416:A,WSP-416,side,A,A side,source writes it,WSP_MSR_0524_Redacted.pdf,143,WSP-RC / C4 A-Side / 2nd Tier,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
+WSP-416:B,WSP-416,side,B,B side,source writes it,WSP_MSR_0624_Redacted.pdf,134,C4 B SIDE,,PREA 2025 says each Facility C unit has two wings (p41); not stated that the sides are the wings
+WSP-401:A,WSP-401,side,A,A side,source writes it,WSP_MSR_0524_Redacted.pdf,156,WSP / D1 / TIER 2 / A SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-401:B,WSP-401,side,B,B side,source writes it,WSP_MSR_0524_Redacted.pdf,158,WSP / D1 / TIER 2 / B SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-402:A,WSP-402,side,A,A side,source writes it,WSP_MSR_0924_Redacted.pdf,198,WSP D2 A SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-402:B,WSP-402,side,B,B side,source writes it,WSP_MSR_0924_Redacted.pdf,199,WSP D2 B SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-403:A,WSP-403,side,A,A side,source writes it,WSP_MSR_0924_Redacted.pdf,215,WSP-RC / FDB3 / tier 2 A side,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-403:B,WSP-403,side,B,B side,source writes it,WSP_MSR_1024_Redacted.pdf,187,WSP/RC / D3 / 2nd tier Bside,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-404:A,WSP-404,side,A,A side,source writes it,WSP_MSR_0924_Redacted.pdf,223,WSP-RC / FDB4-A SIDE / TIER 2,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-404:B,WSP-404,side,B,B side,source writes it,WSP_MSR_0924_Redacted.pdf,229,WSP-RC / FDB4-B SIDE / TIER 2,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-405:A,WSP-405,side,A,A side,source writes it,WSP_MSR_0924_Redacted.pdf,235,WSP / D5 / A-SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-405:B,WSP-405,side,B,B side,source writes it,WSP_MSR_0924_Redacted.pdf,243,WSP D5 B-SIDE 2nd,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-406:A,WSP-406,side,A,A side,source writes it,WSP_MSR_0924_Redacted.pdf,249,WSP D6 2nd TIER A SIDE,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+WSP-406:B,WSP-406,side,B,B side,source writes it,WSP_MSR_0924_Redacted.pdf,253,WSP / D6 / B SIDE TOP TIER 2,,PREA 2025 says each Facility D unit has two wings (p42); not stated that the sides are the wings
+SQ-28:ALPINE,SQ-28,section,Alpine,Alpine,inside a large SPI record,SQRC_MSR_0524_Redacted.pdf,23,San Quentin / Alpine / 3rd tier,,no source places it in South Block; candidate because PREA p42 places Carson Unit within South Block and no 2024 log page names South Block
+SQ-28:BADGER,SQ-28,section,Badger,Badger,inside a large SPI record,SQRC_MSR_0524_Redacted.pdf,28,San Quentin / BADGER / TIER 1,,no source places it in South Block; candidate because PREA p42 places Carson Unit within South Block and no 2024 log page names South Block
+SQ-28:DONNER,SQ-28,section,Donner,Donner,inside a large SPI record,SQRC_MSR_0524_Redacted.pdf,38,San Quentin / Donner,,no source places it in South Block; candidate because PREA p42 places Carson Unit within South Block and no 2024 log page names South Block
+SQ-28:CARSON,SQ-28,section,Carson,Carson Unit,source writes it,SQRC-Final-PREA-Audit-Report-2.21.25,42,"Although SQRC is actively reducing population as they systematically close and reconfigure housing units (East Block and Carson Unit within South Block), the footprint of the facility is massive (432 acres).",,"South Block = SQ-28 by name (SPI ""South Block"")"
+SATF-332:A,SATF-332,section,A,A-section,source writes it,SATF_MSR_1024_Redacted.pdf,150,SATF / B-2 / A-section,,
+SATF-333:B,SATF-333,section,B,B-section,source writes it,SATF_MSR_0724_Redacted.pdf,49,CSATF/SP B-3 Swamp Cooler B-section,,
+SATF-333:C,SATF-333,section,C,C-section,source writes it,SATF_MSR_0724_Redacted.pdf,48,CSATF/SP B-3 C-section,,
+SATF-383:B,SATF-383,section,B,383 B,unit name,September_2025_Quarterly_Report-ADA,43,"Buildings 373, 383 B, and 383 C",SATF-383 B,"part of 383 is read from the name; whether B/C are pods, sections or wings is not stated (Complex IV ""is configured in a pod design"", PREA p43)"
+SATF-383:C,SATF-383,section,C,383 C,unit name,September_2025_Quarterly_Report-ADA,43,"Buildings 373, 383 B, and 383 C",SATF-383 C,"part of 383 is read from the name; whether B/C are pods, sections or wings is not stated (Complex IV ""is configured in a pod design"", PREA p43)"
+CAL-345:B,CAL-345,section,B,B Sec.;B sec;Bsec,source writes it,CAL_MSR_0924_Redacted.pdf,42,CAL / C1 - 2nd tier B Sec.,,
+CAL-341:B,CAL-341,section,B,B section,source writes it,CAL_MSR_0724_Redacted.pdf,54,CAL C-5 2nd Tier B section,,
+PVSP-spi50364:A,PVSP-spi50364,section,A,STRH A;RHU A;A,follows the place link,PVSP_MSR_0524_Redacted.pdf,103,STRH A,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:B,PVSP-spi50364,section,B,STRH B;RHU B;B,follows the place link,PVSP_MSR_0524_Redacted.pdf,103,STRH B,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:C,PVSP-spi50364,section,C,STRH C;RHU C;C,follows the place link,PVSP_MSR_0524_Redacted.pdf,103,STRH C,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:D,PVSP-spi50364,section,D,STRH D;RHU D;D,follows the place link,PVSP_MSR_0524_Redacted.pdf,103,STRH D,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:E,PVSP-spi50364,section,E,STRH E;RHU E;E,follows the place link,PVSP_MSR_0524_Redacted.pdf,103,STRH E,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:F,PVSP-spi50364,section,F,STRH F;RHU F;F,follows the place link,PVSP_MSR_0524_Redacted.pdf,103,STRH F,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:G,PVSP-spi50364,section,G,STRH G;RHU G;G,follows the place link,PVSP_MSR_0524_Redacted.pdf,103,STRH G,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-spi50364:H,PVSP-spi50364,section,H,STRH H;RHU H;H,follows the place link,PVSP_MSR_0524_Redacted.pdf,103,STRH H,,section column on the STRH local form; candidate because the RHU place is a candidate
+PVSP-342:B,PVSP-342,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,source writes it,PVSP_MSR_0724_Redacted.pdf,48,PVSP / B2 / B Section,,
+PVSP-343:B,PVSP-343,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,source writes it,PVSP_MSR_0724_Redacted.pdf,54,PVSP / B3 / 2ND Tier B-Sect.,,
+PVSP-344:B,PVSP-344,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,source writes it,PVSP_MSR_0724_Redacted.pdf,58,PVSP / B4 / 2ND T B-SIDE,,
+PVSP-345:B,PVSP-345,section,B,B Section;B-Sect.;B-SIDE;B Sect.;B-Section;B-Sec,source writes it,PVSP_MSR_0924_Redacted.pdf,89,B-5 2nd B-Section,,
+CTF-spi15632:B,CTF-spi15632,wing,B,B wing,inside a large SPI record,CTF_MSR_0524_Redacted.pdf,2,B-Wing,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:C,CTF-spi15632,wing,C,C wing,inside a large SPI record,CTF_MSR_0524_Redacted.pdf,7,C-WING,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:D,CTF-spi15632,wing,D,D wing,inside a large SPI record,CTF_MSR_0524_Redacted.pdf,12,D-WING,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:E,CTF-spi15632,wing,E,E wing,inside a large SPI record,CTF_MSR_0524_Redacted.pdf,17,EW,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:F,CTF-spi15632,wing,F,F wing,inside a large SPI record,CTF_MSR_0524_Redacted.pdf,27,F-Wing,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:G,CTF-spi15632,wing,G,G wing,inside a large SPI record,CTF_MSR_0524_Redacted.pdf,23,G-W,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:X,CTF-spi15632,wing,X,X wing,source writes it,SPI,36783,"X-1 | X-1 Central Fac Roof, Tower X-Wing",,SPI names the guard tower on the Central Facility roof at this wing
+CTF-spi15632:Y,CTF-spi15632,wing,Y,Y wing,inside a large SPI record,CTF_MSR_0524_Redacted.pdf,42,Y-W,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:Z,CTF-spi15632,wing,Z,Z wing,inside a large SPI record,CTF_MSR_0524_Redacted.pdf,47,Z-Wing,,"no source places this wing in SPI ""Central Facility"" (432,325 sq ft); X and O are placed there by SPI tower names"
+CTF-spi15632:O,CTF-spi15632,wing,O,O wing,source writes it,SPI,36784,"O-3 | O-3 Central Fac Roof, Tower O-Wing West",CTF-o-wing,SPI names the guard tower on the Central Facility roof at this wing
+CRC-spi29014:5,CRC-spi29014,post,Tower 5,Tower 5;T-5;TOWER 5,see source and note,CRC_MSR_0924_Redacted.pdf,2,FACILITY D *TOWER 5,,"zone form (also ""T-5"", 0524 p186, 0724 p3; Zone 1 readings only); SPI 29014 ""Towers 1-8"" (lookout/guard station, 900 sq ft, group row) is the only tower record, so Tower 5 is one of its towers by number; the header places it in Facility D (parts have no facility column); readings link here through the step-4 lookup, not as a housing unit"
+CIW-spi14567:A,CIW-spi14567,side,A,A side,source writes it,CIW_MSR_0524_Redacted.pdf,8,MILLER A,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
+CIW-spi14567:B,CIW-spi14567,side,B,B side,source writes it,CIW_MSR_0524_Redacted.pdf,12,Miller B,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
+CIW-spi14568:A,CIW-spi14568,side,A,A side,source writes it,CIW_MSR_0724_Redacted.pdf,48,BARNEBERG A,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
+CIW-spi14568:B,CIW-spi14568,side,B,B side,source writes it,CIW_MSR_0524_Redacted.pdf,53,Barneberg B,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
+CIW-spi14569:B,CIW-spi14569,side,B,B side,source writes it,CIW_MSR_0524_Redacted.pdf,29,CIW / Emmons B (1st Tier),,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
+CIW-spi14570:A,CIW-spi14570,side,A,A side,source writes it,CIW_MSR_0524_Redacted.pdf,17,CIW / Latham A / 1st tier,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
+CIW-spi14570:B,CIW-spi14570,side,B,B side,source writes it,CIW_MSR_0524_Redacted.pdf,22,Latham B,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
+CIW-spi14571:A,CIW-spi14571,side,A,A side,source writes it,CIW_MSR_0724_Redacted.pdf,38,Wilson A,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
+CIW-spi14571:B,CIW-spi14571,side,B,B side,source writes it,CIW_MSR_0524_Redacted.pdf,37,Wilson B,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
+CIW-spi14572:A,CIW-spi14572,side,A,A side,source writes it,CIW_MSR_0724_Redacted.pdf,29,Harrison A,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
+CIW-spi14572:B,CIW-spi14572,side,B,B side,source writes it,CIW_MSR_0724_Redacted.pdf,36,HARRISON B,,hall name + letter; headers also write long hall / short hall or hall 1 / hall 2 within a side
+CHCF-E301:301B,CHCF-E301,section,301B,301B;Housing Unit 301B,number match,MPAR2022:P-1920-00107,76,Facility E housing unit 301B dayroom,CHCF-301B,"number match only: read as a section of E301; ADA quarterlies 2021-2026 write ""Housing Unit 301B"", Senate Sub 5 2021 p14 ""housing units 301B through 301F""; EOP; no 301A is named"
+CHCF-E301:301C,CHCF-E301,section,301C,301C;Housing Unit 301C,number match,MPAR2022:P-1920-00108,76,Facility E housing unit 301C dayroom,CHCF-301C,"number match only: read as a section of E301; ADA quarterlies 2021-2026 write ""Housing Unit 301C"", Senate Sub 5 2021 p14 ""housing units 301B through 301F""; EOP; no 301A is named"
+CHCF-E301:301D,CHCF-E301,section,301D,301D;Housing Unit 301D,number match,MPAR2022:P-1920-00109,77,Facility E housing unit 301D dayroom,CHCF-301D,"number match only: read as a section of E301; ADA quarterlies 2021-2026 write ""Housing Unit 301D"", Senate Sub 5 2021 p14 ""housing units 301B through 301F""; EOP; no 301A is named"
+CHCF-E301:301E,CHCF-E301,section,301E,301E;Housing Unit 301E,number match,MPAR2022:P-1920-00110,77,Facility E housing unit 301E dayroom,CHCF-301E,"number match only: read as a section of E301; ADA quarterlies 2021-2026 write ""Housing Unit 301E"", Senate Sub 5 2021 p14 ""housing units 301B through 301F""; EOP; no 301A is named"
+CHCF-E301:301F,CHCF-E301,section,301F,301F;Housing Unit 301F,number match,MPAR2022:P-1920-00111,77,Facility E housing unit 301F dayroom,CHCF-301F,"number match only: read as a section of E301; ADA quarterlies 2021-2026 write ""Housing Unit 301F"", Senate Sub 5 2021 p14 ""housing units 301B through 301F""; EOP; no 301A is named"

@@ -3,7 +3,8 @@
 Build the physical-place table from the building inventory.
 
 Reads:
-  crosswalk/buildings.csv       built by scrapers/build_buildings.py
+  the building inventory        scrapers/build_buildings.build(): SPI structures
+                                joined with data/buildings/building_mentions.csv
   crosswalk/housing_units.csv   hand-entered; `from_building_key` names inventory
                                 rows that are housing units, not places
   crosswalk/facilities.csv      hand-entered; facility names -> keys
@@ -22,15 +23,16 @@ Output: crosswalk/places.csv
   inventory's, renamed (building_key -> place_key, building -> place,
   building_name -> place_name), plus:
     kind             building / other structure (outdoor area: none yet)
-    facility_key     {cdcr_code}-{facility} (or the key facilities.csv gives
-                     that name, e.g. NKSP "M Yard" -> NKSP-M) where a source places the building
-                     in a facility: a mention's `facility`, or the SPI name
-                     ("Cedar Hall, Fac-D", "Facility C Hsg Unit 1")
-    facility_source  mention / SPI name
-    group_row        yes when the record covers several buildings or units
-                     (name lists or ranges them, or a hand list); a
-                     pattern match, not yet split into child rows.
-    split_from       blank until group rows are split
+    facility_as_written  the facility as a source writes it: a mention's
+                     `facility` ("Vocational D Yard", "E"), or the facility words
+                     in the SPI name ("Fac-D", "Facility C")
+    facility_source  where facility_as_written comes from: each mention's source
+                     and page, or "SPI name"
+    facility_key     the facilities.csv key that facility_as_written names (by
+                     letter or by a name in `names`); blank when it names none
+    record_covers    "several buildings" when the record covers several
+                     buildings or units (name lists or ranges them, or a hand
+                     list)
     stories          blank; no source yet
 
 Inventory rows named in `from_building_key` are left out: they move to
@@ -40,6 +42,8 @@ housing_units.csv or place_parts.csv.
 import re
 import pandas as pd
 from pathlib import Path
+
+from build_buildings import build
 
 ROOT = Path(__file__).resolve().parent.parent
 CW = ROOT / 'crosswalk'
@@ -88,30 +92,35 @@ RANGE = re.compile(r'(?<![A-Za-z\-\d])\d+\s*(?:-|to|&)\s*\d+(?![\d.])', re.I)
 LETTER_LIST = re.compile(r'\b[A-Z]\s*&\s*[A-Z]\b')
 
 
-def facility(row, names):
+def facility(row, names, keys):
+    """(facility_as_written, facility_source, facility_key)."""
+    def key(f):
+        k = names.get((row['cdcr_code'], f), f"{row['cdcr_code']}-{f}")
+        return k if k in keys else ''
     if row['facility']:
-        keys = [names.get((row['cdcr_code'], f.strip()), f"{row['cdcr_code']}-{f.strip()}")
-                for f in row['facility'].split(';')]
-        return ';'.join(keys), 'mention'
+        vals = [f.strip() for f in row['facility'].split(';')]
+        return (row['facility'], row['facility_cites'],
+                ';'.join(dict.fromkeys(k for k in map(key, vals) if k)))
     if row['spi_structure_number']:
         m = FAC_IN_NAME.search(row['building_name'])
         if m:
-            return f"{row['cdcr_code']}-{m.group(1).upper()}", 'SPI name'
-    return '', ''
+            return m.group(0), 'SPI name', key(m.group(1).upper())
+    return '', '', ''
 
 
-def group_row(row):
+def record_covers(row):
+    several = 'several buildings'
     if row['building_key'] in GROUP_ROWS or '/' in row['building']:
-        return 'yes'
+        return several
     name = row['building_name']
     m = RANGE.search(name)
     # "Bldg 321 - 270 Housing" is a number and a design size, not a range
     if m and not name.lower().startswith(('bldg ' + row['building']).lower()):
-        return 'yes'
+        return several
     # letter pairs ("R&R", "A & B Visiting") are mostly one building; only
     # dormitory records are counted ("Facility C F&G")
     if LETTER_LIST.search(name) and row['spi_structure_type'] == 'DORMITORY':
-        return 'yes'
+        return several
     return ''
 
 
@@ -140,31 +149,29 @@ def add_osm(b):
 
 
 def main():
-    b = pd.read_csv(CW / 'buildings.csv', dtype=str).fillna('')
+    b = build().astype(str).replace('nan', '')
     moved = set()
     for f in ('housing_units.csv', 'place_parts.csv'):
         t = pd.read_csv(CW / f, dtype=str).fillna('')
         moved |= set(t['from_building_key']) - {''}
     missing = moved - set(b['building_key'])
     if missing:
-        raise SystemExit(f'from_building_key not in buildings.csv: {sorted(missing)}')
+        raise SystemExit(f'from_building_key not in the building inventory: {sorted(missing)}')
     b = b[~b['building_key'].isin(moved)].copy()
     b = add_osm(b)
 
     b['kind'] = b['spi_structure_type'].map(
         lambda t: 'other structure' if t in OTHER_STRUCTURE else 'building')
     fac = pd.read_csv(CW / 'facilities.csv', dtype=str).fillna('')
-    fac = fac[fac['facility_key'] != '']
-    names = {(r.cdcr_code, r.name_as_written): r.facility_key for r in fac.itertuples()}
-    fk = b.apply(facility, axis=1, result_type='expand', args=(names,))
-    b['facility_key'], b['facility_source'] = fk[0], fk[1]
-    b['group_row'] = b.apply(group_row, axis=1)
-    b['split_from'] = ''
+    names = {(r.cdcr_code, n): r.facility_key for r in fac.itertuples() for n in r.names.split(';')}
+    fk = b.apply(facility, axis=1, result_type='expand', args=(names, set(fac['facility_key'])))
+    b['facility_as_written'], b['facility_source'], b['facility_key'] = fk[0], fk[1], fk[2]
+    b['record_covers'] = b.apply(record_covers, axis=1)
     b['stories'] = ''
     b = b.rename(columns={'building_key': 'place_key', 'building': 'place',
                           'building_name': 'place_name'})
     cols = ['place_key', 'cdcr_code', 'place', 'place_name', 'kind', 'aliases', 'placeholder',
-            'facility_key', 'facility_source', 'group_row', 'split_from', 'use', 'program',
+            'facility_as_written', 'facility_source', 'facility_key', 'record_covers', 'use', 'program',
             'beds', 'year_built', 'stories', 'sqft', 'spi_structure_type',
             'spi_structure_number', 'spi_agency_structure_no', 'spi_real_property_number',
             'conflicts', 'n_sources', 'sources']
@@ -175,7 +182,7 @@ def main():
     b[cols].to_csv(CW / 'places.csv', index=False)
     print(f'places.csv: {len(b)} rows ({len(moved)} inventory rows moved to units/parts); '
           f"{(b['kind'] == 'other structure').sum()} other structures, "
-          f"{(b['group_row'] == 'yes').sum()} group rows, "
+          f"{(b['record_covers'] != '').sum()} covering several buildings, "
           f"{(b['facility_key'] != '').sum()} with a facility; {arch.sum()} non-prison rows archived")
 
 
