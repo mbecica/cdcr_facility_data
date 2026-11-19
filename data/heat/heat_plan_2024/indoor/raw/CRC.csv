@@ -15285,62 +15285,62 @@ CRC_MSR_0624,133,CRC,FACILITY B / DORM 202,cdcr_2031,Sun,6/9/24,2024-06-09,writt
 CRC_MSR_0624,133,CRC,FACILITY B / DORM 202,cdcr_2031,Sun,6/9/24,2024-06-09,written,1800,,76,76,clear,,two_reads_agree
 CRC_MSR_0624,133,CRC,FACILITY B / DORM 202,cdcr_2031,Sun,6/9/24,2024-06-09,written,2100,,71,71,clear,,two_reads_agree
 CRC_MSR_0624,133,CRC,FACILITY B / DORM 202,cdcr_2031,Sun,6/9/24,2024-06-09,written,2400,,70,70,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Mon,6/10/24,2024-06-10,written,0300,,72,72,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Mon,6/10/24,2024-06-10,written,0600,,70,70,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Mon,6/10/24,2024-06-10,written,0900,,70,70,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Mon,6/10/24,2024-06-10,written,1200,,70,70,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Mon,6/10/24,2024-06-10,written,1500,,75,75,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Mon,6/10/24,2024-06-10,written,1800,,79,79,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Mon,6/10/24,2024-06-10,written,2100,,76,76,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Mon,6/10/24,2024-06-10,written,2400,,73,73,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Tue,6/11/24,2024-06-11,written,0300,,70,70,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Tue,6/11/24,2024-06-11,written,0600,,70,70,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Tue,6/11/24,2024-06-11,written,0900,,72,72,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Tue,6/11/24,2024-06-11,written,1200,,75,75,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Tue,6/11/24,2024-06-11,written,1500,,75,75,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Tue,6/11/24,2024-06-11,written,1800,,75,75,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Tue,6/11/24,2024-06-11,written,2100,,73,73,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Tue,6/11/24,2024-06-11,written,2400,,72,72,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Wed,6/12/24,2024-06-12,written,0300,,70,70,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Wed,6/12/24,2024-06-12,written,0600,,70,70,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Wed,6/12/24,2024-06-12,written,0900,,70,70,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Wed,6/12/24,2024-06-12,written,1200,,78,78,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Wed,6/12/24,2024-06-12,written,1500,,79,79,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Wed,6/12/24,2024-06-12,written,1800,,80,80,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Wed,6/12/24,2024-06-12,written,2100,,80,80,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Wed,6/12/24,2024-06-12,written,2400,,79,79,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Thu,6/13/24,2024-06-13,written,0300,,70,70,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Thu,6/13/24,2024-06-13,written,0600,,70,70,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Thu,6/13/24,2024-06-13,written,0900,,70,70,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Thu,6/13/24,2024-06-13,written,1200,,72,72,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Thu,6/13/24,2024-06-13,written,1500,,78,78,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Thu,6/13/24,2024-06-13,written,1800,,79,79,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Thu,6/13/24,2024-06-13,written,2100,,x,,illegible,,
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Thu,6/13/24,2024-06-13,written,2400,,75,75,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Fri,6/14/24,2024-06-14,written,0300,,70,70,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Fri,6/14/24,2024-06-14,written,0600,,69,69,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Fri,6/14/24,2024-06-14,written,0900,,69,69,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Fri,6/14/24,2024-06-14,written,1200,,70|78,70,ambiguous,78,adjudicated
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Fri,6/14/24,2024-06-14,written,1500,,80,80,clear,,two_reads_agree_after_doubt
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Fri,6/14/24,2024-06-14,written,1800,,80,80,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Fri,6/14/24,2024-06-14,written,2100,,80,80,clear,,two_reads_agree_after_doubt
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Fri,6/14/24,2024-06-14,written,2400,,75,75,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sat,6/15/24,2024-06-15,written,0300,,73,73,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sat,6/15/24,2024-06-15,written,0600,,x,,illegible,,
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sat,6/15/24,2024-06-15,written,0900,,73,73,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sat,6/15/24,2024-06-15,written,1200,,75,75,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sat,6/15/24,2024-06-15,written,1500,,80,80,clear,,two_reads_agree_after_doubt
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sat,6/15/24,2024-06-15,written,1800,,88,88,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sat,6/15/24,2024-06-15,written,2100,,82,82,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sat,6/15/24,2024-06-15,written,2400,,80,80,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sun,6/16/24,2024-06-16,written,0300,,75,75,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sun,6/16/24,2024-06-16,written,0600,,75,75,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sun,6/16/24,2024-06-16,written,0900,,78,78,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sun,6/16/24,2024-06-16,written,1200,,78,78,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sun,6/16/24,2024-06-16,written,1500,,80,80,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sun,6/16/24,2024-06-16,written,1800,,80,80,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sun,6/16/24,2024-06-16,written,2100,,76,76,clear,,two_reads_agree
-CRC_MSR_0624,134,CRC,FACILITY-B,cdcr_2031,Sun,6/16/24,2024-06-16,written,2400,,74,74,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Mon,6/10/24,2024-06-10,written,0300,,72,72,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Mon,6/10/24,2024-06-10,written,0600,,70,70,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Mon,6/10/24,2024-06-10,written,0900,,70,70,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Mon,6/10/24,2024-06-10,written,1200,,70,70,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Mon,6/10/24,2024-06-10,written,1500,,75,75,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Mon,6/10/24,2024-06-10,written,1800,,79,79,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Mon,6/10/24,2024-06-10,written,2100,,76,76,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Mon,6/10/24,2024-06-10,written,2400,,73,73,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Tue,6/11/24,2024-06-11,written,0300,,70,70,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Tue,6/11/24,2024-06-11,written,0600,,70,70,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Tue,6/11/24,2024-06-11,written,0900,,72,72,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Tue,6/11/24,2024-06-11,written,1200,,75,75,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Tue,6/11/24,2024-06-11,written,1500,,75,75,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Tue,6/11/24,2024-06-11,written,1800,,75,75,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Tue,6/11/24,2024-06-11,written,2100,,73,73,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Tue,6/11/24,2024-06-11,written,2400,,72,72,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Wed,6/12/24,2024-06-12,written,0300,,70,70,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Wed,6/12/24,2024-06-12,written,0600,,70,70,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Wed,6/12/24,2024-06-12,written,0900,,70,70,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Wed,6/12/24,2024-06-12,written,1200,,78,78,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Wed,6/12/24,2024-06-12,written,1500,,79,79,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Wed,6/12/24,2024-06-12,written,1800,,80,80,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Wed,6/12/24,2024-06-12,written,2100,,80,80,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Wed,6/12/24,2024-06-12,written,2400,,79,79,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Thu,6/13/24,2024-06-13,written,0300,,70,70,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Thu,6/13/24,2024-06-13,written,0600,,70,70,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Thu,6/13/24,2024-06-13,written,0900,,70,70,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Thu,6/13/24,2024-06-13,written,1200,,72,72,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Thu,6/13/24,2024-06-13,written,1500,,78,78,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Thu,6/13/24,2024-06-13,written,1800,,79,79,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Thu,6/13/24,2024-06-13,written,2100,,x,,illegible,,
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Thu,6/13/24,2024-06-13,written,2400,,75,75,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Fri,6/14/24,2024-06-14,written,0300,,70,70,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Fri,6/14/24,2024-06-14,written,0600,,69,69,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Fri,6/14/24,2024-06-14,written,0900,,69,69,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Fri,6/14/24,2024-06-14,written,1200,,70|78,70,ambiguous,78,adjudicated
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Fri,6/14/24,2024-06-14,written,1500,,80,80,clear,,two_reads_agree_after_doubt
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Fri,6/14/24,2024-06-14,written,1800,,80,80,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Fri,6/14/24,2024-06-14,written,2100,,80,80,clear,,two_reads_agree_after_doubt
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Fri,6/14/24,2024-06-14,written,2400,,75,75,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sat,6/15/24,2024-06-15,written,0300,,73,73,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sat,6/15/24,2024-06-15,written,0600,,x,,illegible,,
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sat,6/15/24,2024-06-15,written,0900,,73,73,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sat,6/15/24,2024-06-15,written,1200,,75,75,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sat,6/15/24,2024-06-15,written,1500,,80,80,clear,,two_reads_agree_after_doubt
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sat,6/15/24,2024-06-15,written,1800,,88,88,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sat,6/15/24,2024-06-15,written,2100,,82,82,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sat,6/15/24,2024-06-15,written,2400,,80,80,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sun,6/16/24,2024-06-16,written,0300,,75,75,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sun,6/16/24,2024-06-16,written,0600,,75,75,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sun,6/16/24,2024-06-16,written,0900,,78,78,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sun,6/16/24,2024-06-16,written,1200,,78,78,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sun,6/16/24,2024-06-16,written,1500,,80,80,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sun,6/16/24,2024-06-16,written,1800,,80,80,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sun,6/16/24,2024-06-16,written,2100,,76,76,clear,,two_reads_agree
+CRC_MSR_0624,134,CRC,FACILITY-B / DORM - 202,cdcr_2031,Sun,6/16/24,2024-06-16,written,2400,,74,74,clear,,two_reads_agree
 CRC_MSR_0624,135,CRC,CRC Facility B Dorm 202,cdcr_2031,Mon,6/17/24,2024-06-17,written,0300,,72,72,clear,,two_reads_agree
 CRC_MSR_0624,135,CRC,CRC Facility B Dorm 202,cdcr_2031,Mon,6/17/24,2024-06-17,written,0600,,70,70,clear,,two_reads_agree
 CRC_MSR_0624,135,CRC,CRC Facility B Dorm 202,cdcr_2031,Mon,6/17/24,2024-06-17,written,0900,,68,68,clear,,two_reads_agree
@@ -43095,62 +43095,62 @@ CRC_MSR_0924,149,CRC,Facility C Dorm 311,cdcr_2031,Sun,9/29/24,2024-09-29,writte
 CRC_MSR_0924,149,CRC,Facility C Dorm 311,cdcr_2031,Sun,9/29/24,2024-09-29,written,1800,,76,76,clear,,dispute_decided
 CRC_MSR_0924,149,CRC,Facility C Dorm 311,cdcr_2031,Sun,9/29/24,2024-09-29,written,2100,,74,74,clear,,two_reads_agree
 CRC_MSR_0924,149,CRC,Facility C Dorm 311,cdcr_2031,Sun,9/29/24,2024-09-29,written,2400,,75,75,clear,,two_reads_agree
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Mon,9/30,2024-09-30,written,0300,,73,73,clear,,two_reads_agree
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Mon,9/30,2024-09-30,written,0600,,73,73,clear,,two_reads_agree
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Mon,9/30,2024-09-30,written,0900,,72,72,clear,,two_reads_agree
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Mon,9/30,2024-09-30,written,1200,,74,74,clear,,two_reads_agree
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Mon,9/30,2024-09-30,written,1500,,78,78,clear,,two_reads_agree
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Mon,9/30,2024-09-30,written,1800,,79,79,clear,,two_reads_agree
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Mon,9/30,2024-09-30,written,2100,,78,78,clear,,two_reads_agree
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Mon,9/30,2024-09-30,written,2400,,76,76,clear,,two_reads_agree
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Tue,?,,,0300,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Wed,?,,,0300,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Thu,?,,,0300,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Fri,?,,,0300,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sat,?,,,0300,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sun,?,,,0300,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Tue,?,,,0600,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Wed,?,,,0600,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Thu,?,,,0600,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Fri,?,,,0600,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sat,?,,,0600,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sun,?,,,0600,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Tue,?,,,0900,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Wed,?,,,0900,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Thu,?,,,0900,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Fri,?,,,0900,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sat,?,,,0900,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sun,?,,,0900,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Tue,?,,,1200,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Wed,?,,,1200,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Thu,?,,,1200,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Fri,?,,,1200,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sat,?,,,1200,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sun,?,,,1200,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Tue,?,,,1500,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Wed,?,,,1500,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Thu,?,,,1500,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Fri,?,,,1500,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sat,?,,,1500,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sun,?,,,1500,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Tue,?,,,1800,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Wed,?,,,1800,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Thu,?,,,1800,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Fri,?,,,1800,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sat,?,,,1800,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sun,?,,,1800,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Tue,?,,,2100,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Wed,?,,,2100,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Thu,?,,,2100,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Fri,?,,,2100,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sat,?,,,2100,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sun,?,,,2100,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Tue,?,,,2400,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Wed,?,,,2400,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Thu,?,,,2400,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Fri,?,,,2400,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sat,?,,,2400,,-,,blank,,
-CRC_MSR_0924,150,CRC,Facility C,cdcr_2031,Sun,?,,,2400,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Mon,9/30,2024-09-30,written,0300,,73,73,clear,,two_reads_agree
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Mon,9/30,2024-09-30,written,0600,,73,73,clear,,two_reads_agree
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Mon,9/30,2024-09-30,written,0900,,72,72,clear,,two_reads_agree
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Mon,9/30,2024-09-30,written,1200,,74,74,clear,,two_reads_agree
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Mon,9/30,2024-09-30,written,1500,,78,78,clear,,two_reads_agree
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Mon,9/30,2024-09-30,written,1800,,79,79,clear,,two_reads_agree
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Mon,9/30,2024-09-30,written,2100,,78,78,clear,,two_reads_agree
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Mon,9/30,2024-09-30,written,2400,,76,76,clear,,two_reads_agree
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Tue,?,,,0300,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Wed,?,,,0300,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Thu,?,,,0300,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Fri,?,,,0300,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sat,?,,,0300,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sun,?,,,0300,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Tue,?,,,0600,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Wed,?,,,0600,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Thu,?,,,0600,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Fri,?,,,0600,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sat,?,,,0600,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sun,?,,,0600,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Tue,?,,,0900,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Wed,?,,,0900,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Thu,?,,,0900,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Fri,?,,,0900,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sat,?,,,0900,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sun,?,,,0900,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Tue,?,,,1200,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Wed,?,,,1200,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Thu,?,,,1200,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Fri,?,,,1200,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sat,?,,,1200,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sun,?,,,1200,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Tue,?,,,1500,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Wed,?,,,1500,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Thu,?,,,1500,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Fri,?,,,1500,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sat,?,,,1500,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sun,?,,,1500,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Tue,?,,,1800,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Wed,?,,,1800,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Thu,?,,,1800,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Fri,?,,,1800,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sat,?,,,1800,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sun,?,,,1800,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Tue,?,,,2100,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Wed,?,,,2100,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Thu,?,,,2100,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Fri,?,,,2100,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sat,?,,,2100,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sun,?,,,2100,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Tue,?,,,2400,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Wed,?,,,2400,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Thu,?,,,2400,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Fri,?,,,2400,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sat,?,,,2400,,-,,blank,,
+CRC_MSR_0924,150,CRC,Facility C / Dorm 311,cdcr_2031,Sun,?,,,2400,,-,,blank,,
 CRC_MSR_0924,151,CRC,Facility C Dorm 312,cdcr_2031,Sun,9/1/24,2024-09-01,written,0300,,80,80,clear,,two_reads_agree
 CRC_MSR_0924,151,CRC,Facility C Dorm 312,cdcr_2031,Sun,9/1/24,2024-09-01,written,0600,,73,73,clear,,two_reads_agree
 CRC_MSR_0924,151,CRC,Facility C Dorm 312,cdcr_2031,Sun,9/1/24,2024-09-01,written,0900,,75,75,clear,,two_reads_agree
