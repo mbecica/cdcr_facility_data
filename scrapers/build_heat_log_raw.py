@@ -12,6 +12,7 @@ another scanned month's package, byte-identical rescans).
     python3 scrapers/build_heat_log_raw.py [OUT_DIR]
 """
 import csv
+import datetime as dt
 import re
 import sys
 from collections import Counter, defaultdict
@@ -24,6 +25,9 @@ SCAN = REPO / "notes" / "heat_log_scan"
 # room lines written during a central A/C failure (layouts.md).
 AC_PAGES = {("CMF_MSR_0724", p) for p in (27, 28, 29, 30, 119, 120, 121, 122, 123, 158, 159, 160)}
 AC_ROWS = {("CIW_MSR_0824", 106)}  # only the room lines (unit names a room)
+
+# Outside readings written on inside-log sheets (Specific Location "Outside"), checked on the
+# page images (outdoor_cells.csv): published as log type "outdoor", never as indoor readings.
 
 FORM = {"2031": "cdcr_2031"}  # other form codes are published as they are
 
@@ -81,6 +85,15 @@ def temp_out(row):
         return t
     f = float(t)
     return str(int(f)) if f == int(f) else t
+
+
+def outdoor_cells():
+    """(package, page, date, time) -> row of outdoor_cells.csv."""
+    p = SCAN / "outdoor_cells.csv"
+    if not p.exists():
+        return {}
+    with open(p, newline="") as f:
+        return {(r["package"], int(r["page"]), r["date"], r["time"]): r for r in csv.DictReader(f)}
 
 
 def unit_fixes():
@@ -226,6 +239,9 @@ def main(out_dir):
         for fx in csv.DictReader(f):
             if fx.get("day_fixed"):
                 printed[(fx["pkg"], fx["page"], fx["date"], fx["day_fixed"])].add(fx["day"])
+    outdoor = outdoor_cells()
+    outdoor_used = set()
+    page_day = {}  # (package, page, date) -> the weekday as the page's rows give it
     rows_by = defaultdict(list)          # (log_type, cdcr) -> rows
     pages = defaultdict(lambda: {"units": Counter(), "forms": Counter(), "dates": set(), "n": 0, "cells": 0})
     dropped = Counter()
@@ -243,7 +259,12 @@ def main(out_dir):
         if m:
             unit = unit[:m.start()]
             label = "value_1" if m.group(1).lower() == "first" else "value_2"
+        page_day.setdefault((pkg, page, r["date"]), r["day"])
         lt = "indoor"
+        ok = outdoor.get((pkg, page, r["date"], r["time"]))
+        if ok and r["temp_f"] != "" and float(r["temp_f"]) == float(ok["temp_as_written"]):
+            lt = "outdoor"
+            outdoor_used.add((pkg, page, r["date"], r["time"]))
         if (pkg, page) in AC_PAGES or ((pkg, page) in AC_ROWS and "room" in r["housing_unit_as_written"].lower()):
             lt = "ac_outage"
         t = r["time"]
@@ -295,6 +316,28 @@ def main(out_dir):
         if r["date"]:
             p["dates"].add(r["date"])
 
+    # outside readings that were never transcribed as cells: added from outdoor_cells.csv,
+    # with the page's unit string and form (the readers noted each value; checked on the image)
+    for (pkg, page, date, t), x in outdoor.items():
+        if (pkg, page, date, t) in outdoor_used:
+            continue
+        src = pages.get(("indoor", pkg, page))
+        if not src:
+            raise SystemExit(f"outdoor cell on a page with no indoor rows: {pkg} p{page}")
+        unit = src["units"].most_common(1)[0][0]
+        o = {"package": pkg, "page": page, "cdcr_code": pkg.split("_")[0], "housing_unit_as_written": unit,
+             "form": src["forms"].most_common(1)[0][0], "day": page_day.get((pkg, page, date)) or dt.date.fromisoformat(date).strftime("%a"),
+             "date_as_written": x["date_as_written"], "date": date, "date_source": "written", "time": t,
+             "value_label": "", "temp_as_written": x["temp_as_written"], "temp_f": num(x["temp_as_written"]),
+             "status": "clear", "alt_f": "", "read_basis": "two_reads_agree"}
+        rows_by[("outdoor", o["cdcr_code"])].append(o)
+        q = pages[("outdoor", pkg, page)]
+        q["units"][unit] += 1
+        q["forms"][o["form"]] += 1
+        q["cells"] += 1
+        q["n"] += 1
+        q["dates"].add(date)
+
     for (lt, cdcr), rows in sorted(rows_by.items()):
         d = out / lt / "raw"
         d.mkdir(parents=True, exist_ok=True)
@@ -325,21 +368,22 @@ def main(out_dir):
                     kind, dup = skip_kind(skips[(pkg, pg)])
                     w.writerow([pkg, pg, pkg.split("_")[0], "", "", "", "", 0, 0, kind, dup])
 
-    cov = defaultdict(lambda: [set(), set(), 0])
+    # unit-days are counted in the linked layer (location lookup), not from raw strings:
+    # one unit can be written several ways, so raw strings would count it more than once
+    cov = defaultdict(lambda: [set(), 0])
     for (lt, cdcr), rows in rows_by.items():
         for o in rows:
             if o["temp_f"] == "":
                 continue
             c = cov[(lt, cdcr, o["date"][:7] or "undated")]
             c[0].add((o["package"], o["page"]))
-            c[1].add((o["housing_unit_as_written"], o["date"]))
-            c[2] += 1
+            c[1] += 1
     for lt in sorted({k[0] for k in cov}):
         with open(out / lt / "coverage.csv", "w", newline="") as f:
             w = csv.writer(f)
-            w.writerow(["cdcr_code", "month", "pages", "unit_days", "readings"])
+            w.writerow(["cdcr_code", "month", "pages", "readings"])
             for k in sorted(k for k in cov if k[0] == lt):
-                w.writerow([*k[1:], len(cov[k][0]), len(cov[k][1]), cov[k][2]])
+                w.writerow([*k[1:], len(cov[k][0]), cov[k][1]])
 
     total = sum(len(v) for v in rows_by.values())
     print(f"{total} rows written ({dropped['struck']} struck cells left out)")

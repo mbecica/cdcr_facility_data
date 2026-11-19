@@ -1,0 +1,8 @@
+package,page,cdcr_code,form,housing_units_as_written,first_date,last_date,cells,readings,set_aside,duplicate_of_page
+CCI_MSR_0724,870,CCI,local,C / Dayroom,2024-07-10,2024-07-10,2,2,,
+CCI_MSR_0724,873,CCI,local,C 2 / Dayroom / Day room,2024-07-13,2024-07-13,1,1,,
+CCI_MSR_0724,874,CCI,local,C HU 2 / Dayroom,2024-07-15,2024-07-15,2,2,,
+CCI_MSR_0924,284,CCI,cci_hourly_written_times,C / DAY ROOM / DAYROOM,2024-09-05,2024-09-05,2,2,,
+CCI_MSR_0924,293,CCI,cci_hourly,C-H.U.2 / Dayroom,2024-09-03,2024-09-03,1,1,,
+CCI_MSR_0924,407,CCI,cci_hourly,B B C Section / DAYRoom,2024-09-02,2024-09-02,1,1,,
+CCI_MSR_1024,373,CCI,cci_hourly,C-H.U. 2 / Dayroom,2024-10-02,2024-10-02,1,1,,
