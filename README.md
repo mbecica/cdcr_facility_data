@@ -17,11 +17,11 @@ The California Department of Corrections and Rehabilitation (CDCR) releases most
 
 Coverage varies by table within each folder; each folder's README provides specifics of the fields and sources. [`data/README.md`](data/README.md) describes the conventions the tables share.
 
-`sources/` holds raw inputs; most pdfs are too large to maintain on github so they are not in this repo, but they are described and available as public data sources. `scrapers/` is the code that scrapes pdfs or online dashboards and produces the tables in `data/`, and `crosswalk/` links institutions and buildings across sources.
+`sources/` holds raw inputs; most pdfs are too large to maintain on github so they are not in this repo, but they are described and available as public data sources. `scrapers/` is the code that scrapes pdfs or online dashboards and produces the tables in `data/`.
 
 ## Identifiers
 
-`cdcr_code` identifies an institution in every table and is blank for locations that aren't CDCR institutions. Names as the source published them stay in `_as_stated` columns. [`crosswalk/institutions.csv`](crosswalk/institutions.csv) lists each code with its FEMA facility ID and the other codes sources use for it.
+`cdcr_code` identifies an institution in every table and is blank for locations that aren't CDCR institutions. Names as the source published them stay in `_as_stated` columns. [`data/institutions.csv`](data/institutions.csv) lists each code with its FEMA facility ID and the other codes sources use for it.
 
 ## License and citation
 

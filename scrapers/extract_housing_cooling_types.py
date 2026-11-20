@@ -140,7 +140,7 @@ def resolve_building(site, strip, cell):
 
 def institution_codes():
     codes = {}
-    with open(ROOT / 'crosswalk' / 'institutions.csv') as f:
+    with open(ROOT / 'data' / 'institutions.csv') as f:
         for r in csv.DictReader(f):
             codes[r['cdcr_code']] = r['cdcr_code']
             for alias in filter(None, r['alias_codes'].split(';')):

@@ -347,7 +347,7 @@ def run_classify(qa_png: bool = False, codes: list[str] | None = None) -> None:
     HOUSING_QA_DIR.mkdir(parents=True, exist_ok=True)
     with open(ALL34_DIR / "all_34_summary.csv") as f:
         summary_rows = {r["cdcr_code"]: r for r in csv.DictReader(f)}
-    with open(ROOT / "crosswalk" / "institutions.csv") as f:
+    with open(ROOT / "data" / "institutions.csv") as f:
         inst_names = {r["cdcr_code"]: r["institution_name"] for r in csv.DictReader(f)}
     with open(HOUSING_QA_DIR / "building_features.csv") as f:
         feat_rows = {r["footprint_id"]: r for r in csv.DictReader(f)}

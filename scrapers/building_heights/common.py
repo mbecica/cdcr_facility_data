@@ -130,7 +130,7 @@ def load_institutions_and_rapt() -> tuple[list[dict[str, str]], dict[str, Any]]:
         for f in rapt_raw
         if f["properties"].get("FACILITYID")
     }
-    insts = list(csv.DictReader(open(ROOT / "crosswalk" / "institutions.csv")))
+    insts = list(csv.DictReader(open(ROOT / "data" / "institutions.csv")))
     rapt_by_code = {r["cdcr_code"]: rapt_by_fid[r["fema_facilityid"].strip()] for r in insts}
     return insts, rapt_by_code
 

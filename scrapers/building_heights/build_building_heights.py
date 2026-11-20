@@ -93,7 +93,7 @@ def typed_geojson_props(row: dict[str, str]) -> dict[str, Any]:
 
 def export_deliverables() -> None:
     """Export final standing buildings and shade canopies into data/buildings/."""
-    with open(ROOT / "crosswalk" / "institutions.csv") as f:
+    with open(ROOT / "data" / "institutions.csv") as f:
         codes = sorted(r["cdcr_code"] for r in csv.DictReader(f))
     with open(ALL34_DIR / "all_34_summary.csv") as f:
         lidar_year_by_code = {r["cdcr_code"]: r["lidar_year"] for r in csv.DictReader(f)}

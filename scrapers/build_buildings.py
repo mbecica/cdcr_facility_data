@@ -10,7 +10,7 @@ Reads:
                                    specific building or housing unit
 
 Used by scrapers/build_places.py, which calls build() and writes
-crosswalk/places.csv; this script no longer writes a table of its own (run it
+data/buildings/locations/places.csv; this script no longer writes a table of its own (run it
 for a summary).
   Columns of build(): building_key, cdcr_code, building, building_name, aliases,
            placeholder, facility, use, program, beds, year_built, sqft,

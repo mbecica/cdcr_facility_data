@@ -5,17 +5,17 @@ Build the physical-place table from the building inventory.
 Reads:
   the building inventory        scrapers/build_buildings.build(): SPI structures
                                 joined with data/buildings/building_mentions.csv
-  crosswalk/housing_units.csv   hand-entered; `from_building_key` names inventory
+  data/buildings/locations/housing_units.csv   hand-entered; `from_building_key` names inventory
                                 rows that are housing units, not places
-  crosswalk/facilities.csv      hand-entered; facility names -> keys
-  crosswalk/place_parts.csv     hand-entered; `from_building_key` names inventory
+  data/buildings/locations/facilities.csv      hand-entered; facility names -> keys
+  data/buildings/locations/place_parts.csv     hand-entered; `from_building_key` names inventory
                                 rows that are parts of a place (wings)
   sources/openstreetmap/osm_cdcr_buildings.csv
                                 only the OSM_PLACES rows below: buildings a unit
                                 needs that no CDCR record names (unattributed
                                 mapper names, so links to them are candidates)
 
-Output: crosswalk/places.csv
+Output: data/buildings/locations/places.csv
         notes/crosswalk_archive/places_non_prison.csv (gitignored)
           rows for NON_PRISON codes (sites that aren't prisons, kept but not
           published), same columns
@@ -46,7 +46,7 @@ from pathlib import Path
 from build_buildings import build
 
 ROOT = Path(__file__).resolve().parent.parent
-CW = ROOT / 'crosswalk'
+CW = ROOT / 'data' / 'buildings' / 'locations'
 
 OTHER_STRUCTURE = {
     'CARPORT', 'ELECTRIC VEHICLE CHARGING STATION', 'WATER MONITORING STATION',

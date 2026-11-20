@@ -5,7 +5,7 @@ facility metadata, programs, health care population, staffing, restricted housin
 violent incidents. Column names carry no years. Condition ratings come from a single
 assessment, whose year is in condition_source_year.
 
-The institution list and FEMA facility IDs come from crosswalk/institutions.csv.
+The institution list and FEMA facility IDs come from data/institutions.csv.
 Source files that use a different code for an institution (FSP for FOL, SQRC for
 SQ, CCFW for CCWF) are mapped through the crosswalk's alias_codes column.
 
@@ -20,7 +20,7 @@ import pandas as pd
 
 REPO = Path(__file__).resolve().parent
 DATA = REPO / 'data'
-CROSSWALK = REPO / 'crosswalk' / 'institutions.csv'
+CROSSWALK = REPO / 'data' / 'institutions.csv'
 OUT = DATA / 'facilities_summary' / 'facilities_summary.csv'
 
 # Latest calendar year with all twelve months published. Bump at refresh time.

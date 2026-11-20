@@ -43,7 +43,7 @@ from powerbi_query import Report, column, equals, total
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'data' / 'operations' / 'sb601_grievances.csv'
 OPEN_DATA = ROOT / "sources" / "sb601_open_data" / "sb601_data_2024_06.xlsx"
-CROSSWALK = ROOT / "crosswalk" / "institutions.csv"
+CROSSWALK = ROOT / "data" / "institutions.csv"
 
 # Resource key from the dashboard URL (same report as fetch_sb601_tables.py)
 REPORT_R = "eyJrIjoiYzlkM2RiNWEtZDRjMi00ODllLTg2YzEtZjYyM2MwMjA5NmQ0IiwidCI6IjA2NjI0NzdkLWZhMGMtNDU1Ni1hOGY1LWMzYmM2MmFhMGQ5YyJ9"

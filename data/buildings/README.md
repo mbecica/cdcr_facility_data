@@ -1,6 +1,6 @@
 # Buildings
 
-Capital projects, condition ratings, institution profiles, the state property inventory, building heights and footprints, and every place a source names a building. `crosswalk/buildings.csv` combines the inventory and the mentions.
+Capital projects, condition ratings, institution profiles, the state property inventory, building heights and footprints, and every place a source names a building.
 
 ## Files
 
@@ -15,7 +15,6 @@ Capital projects, condition ratings, institution profiles, the state property in
 | `condition_assessment_rank_2026.csv` | An institution: overall rank, 1 (worst) to 31 (best) | May 2026 | Same, p. 1 |
 | `spi_cdcr_structures.csv` | A CDCR structure in the state property inventory, with its identifiers as entered | Oct 6, 2026 | DGS Statewide Property Inventory (SPI) |
 | `building_mentions.csv` | A place a source names a building or housing unit | Various | MPARs, Capital Outlay Quarterly Reports, PREA audits, CDCR web pages, court filings |
-| `../../crosswalk/buildings.csv` | A building or housing unit, combining SPI and the mentions | Various | `build_buildings.py` |
 
 ## Caveats
 
@@ -36,7 +35,7 @@ In `building_heights.csv` (and `building_footprints.geojson` feature properties)
 
 | Column | Meaning |
 | :--- | :--- |
-| `cdcr_code` | Institution code joining `crosswalk/institutions.csv`. |
+| `cdcr_code` | Institution code joining `data/institutions.csv`. |
 | `footprint_id` | Unique per-building identifier (`{cdcr_code}-fp-{n}` from USA Structures, `-ovt-{n}` from Overture patch, `-lid-{n}` from LiDAR/NAIP patch). |
 | `usa_structures_build_id`, `overture_id` | Upstream source feature IDs where matched; blank otherwise. |
 | `lat`, `lon` | Polygon centroid in WGS84. |
@@ -51,24 +50,6 @@ In `building_heights.csv` (and `building_footprints.geojson` feature properties)
 | `ground_slope_ft` | Elevation spread (`p90 - p10`, ft) across the surrounding ground calibration ring. |
 | `height_source`, `lidar_project`, `lidar_year` | LiDAR classification tier used (`ept_laz_cls6`, `ept_laz_cls1_fallback`, `none`), USGS 3DEP EPT collection, and LiDAR collection year (`2014–2023`). |
 
-In `crosswalk/buildings.csv`:
-
-| Column | Meaning |
-| :--- | :--- |
-| `building_key` | `{cdcr_code}-{building}` for a numbered building, `{cdcr_code}-spi{n}` for an SPI structure with no usable building number (`n` is DGS's structure number), or `{cdcr_code}-{name}` for a building sources name but don't number. Where a source counts buildings without naming them, each gets a placeholder key, `{cdcr_code}-ph-{facility}-{type}{n}`. |
-| `placeholder` | `yes` if this project created the key rather than taking it from a source. |
-| `building` | Building or housing unit number. SPI prefixes such as `BLDG.` are removed and DGS's five-digit serial numbers aren't used as building numbers; the original values stay in `spi_agency_structure_no`. A structure SPI describes as several buildings is written with all of them (`A1/A2`). Where SPI gives several structures one number, the housing structure among them takes it and the others are keyed by DGS structure number. |
-| `aliases` | Other IDs sources use for the building, including a housing unit SPI names on the same row. |
-| `building_name` | Names the sources give the building. |
-| `facility`, `use`, `program` | Every value the sources state, separated by semicolons; blank where no source states it. Facility is never inferred from the building number. Programs are followed by the date the source gives them. |
-| `beds` | Bed capacity as stated by each source, with its date. |
-| `year_built` | From SPI, or from a source that states it for that building or every building in a group it counts. Ranges aren't used. |
-| `sqft` | Square footage, from SPI. |
-| `spi_structure_type` | SPI's category. `use` comes from the other sources only. |
-| `spi_structure_number`, `spi_agency_structure_no`, `spi_real_property_number` | SPI identifiers as entered. |
-| `conflicts` | Columns where sources disagree. |
-| `n_sources`, `sources` | Sources that name the building. MPAR sources are written `MPAR{year}:{project_id}`; others are the PDF filename. |
-
 ## Provenance
 
 | Table | Source | Script and inputs | Covered through |
@@ -79,7 +60,6 @@ In `crosswalk/buildings.csv`:
 | `infrastructure_plan_profiles_2026`, `condition_assessment_2026`, `condition_assessment_rank_2026` | [Infrastructure Master Plan](https://www.cdcr.ca.gov/fpcm/cdcr-infrastructure-master-plan/) | Transcribed by hand | May 2026 |
 | `spi_cdcr_structures` | [SPI](https://services8.arcgis.com/a4GMqC2tQHvYiVtK/arcgis/rest/services/SPIPublicMapViewer/FeatureServer/1) | `fetch_spi_structures.py` | Oct 6, 2026 |
 | `building_mentions` | The sources under Files; PDFs and saved pages in `sources/prea/`, `sources/cdcr_web/`, `sources/heat_cooling/` | Transcribed by hand, plus equipment rows from `extract_housing_cooling_types.py` | Oct 2026 |
-| `crosswalk/buildings` | SPI and `building_mentions` | `build_buildings.py` | Oct 2026 |
 
 ## References
 

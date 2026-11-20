@@ -11,7 +11,7 @@ const fs = require('fs');
 const path = require('path');
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-// Closed institutions that older reports still list; not in crosswalk/institutions.csv.
+// Closed institutions that older reports still list; not in data/institutions.csv.
 const CLOSED_CODES = ['CCC', 'DVI'];
 
 function monthNumber(abbrev) {
@@ -20,9 +20,9 @@ function monthNumber(abbrev) {
   return String(i + 1).padStart(2, '0');
 }
 
-// Returns a function from a published code to cdcr_code, using crosswalk/institutions.csv.
+// Returns a function from a published code to cdcr_code, using data/institutions.csv.
 function loadCodeLookup() {
-  const file = path.join(__dirname, '..', 'crosswalk', 'institutions.csv');
+  const file = path.join(__dirname, '..', 'data', 'institutions.csv');
   const lines = fs.readFileSync(file, 'utf8').trim().split('\n').slice(1);
   const codes = new Map(CLOSED_CODES.map(c => [c, c]));
   for (const line of lines) {

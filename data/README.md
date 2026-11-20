@@ -5,7 +5,7 @@ Each folder holds one topic and has its own README with file coverage, field def
 ## Conventions
 
 - **Time series** are long: one row per period and measure or group. `month` is `YYYY-MM`.
-- **Institutions** are identified by `cdcr_code`, with the name as published beside it wherever possible. `crosswalk/institutions.csv` lists the codes, FEMA facility IDs, and the alias codes sources use.
+- **Institutions** are identified by `cdcr_code`, with the name as published beside it wherever possible. [`institutions.csv`](institutions.csv) lists the codes, FEMA facility IDs, and the alias codes sources use.
 - **Source wording** stays in `_as_stated` columns. Source identifiers are kept as entered, and normalized keys go in separate columns.
 - **Numbers** are stored without commas or `%` and `$` signs. Blanks stay blank and aren't converted to 0.
 - **Suppressed values** stay as published (`*`, `**`) unless a table's README says otherwise.
@@ -14,7 +14,6 @@ Each folder holds one topic and has its own README with file coverage, field def
 
 - [`facilities_summary/`](facilities_summary/) summarizes the other folders, one row per institution, and is built by `build_cdcr_facilities.py`.
 - Tables with a `cdcr_code` or `institution` column join on institution code.
-- [`crosswalk/buildings.csv`](../crosswalk/buildings.csv), described in [`buildings/`](buildings/), links building-level tables in `buildings/` and `heat/cooling/`.
 
 ## Revisions
 

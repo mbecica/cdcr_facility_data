@@ -668,7 +668,7 @@ def commit_lidar_candidates(accepted_spec: str) -> None:
 
 def load_facility_roof_qa() -> dict[str, dict[str, Any]]:
     """Aggregate facility-level roof condition and MPAR project context per CDCR institution."""
-    with open(ALL34_DIR.parents[1].parent / "crosswalk" / "institutions.csv") as f:
+    with open(ALL34_DIR.parents[1].parent / "data" / "institutions.csv") as f:
         insts = list(csv.DictReader(f))
     aliases_by_code = {
         r["cdcr_code"]: [r["cdcr_code"]] + [a.strip() for a in (r.get("alias_codes") or "").split(";") if a.strip()]

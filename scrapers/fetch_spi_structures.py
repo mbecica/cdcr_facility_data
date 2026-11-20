@@ -3,7 +3,7 @@
 Download every CDCR building from the DGS Statewide Property Inventory (SPI).
 
 Queries the public SPI map service (Structure layer), which needs no login, and
-keeps the structures at the adult institutions in crosswalk/institutions.csv
+keeps the structures at the adult institutions in data/institutions.csv
 (plus the McGee training center, CTC). Youth facilities, closed or leased
 facilities not in the crosswalk (CCC, DVI, NCRF), and statewide offices are
 dropped.
