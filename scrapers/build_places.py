@@ -88,6 +88,10 @@ NON_PRISON = {
 OSM_NUM = re.compile(r'\((\w+)\)\s*$')
 
 FAC_IN_NAME = re.compile(r'\b(?:Facility|Fac\.?)[\s\-]+([A-Z])\b', re.I)
+# "A Yard", "B-Yard", "A/B Yard" in an SPI name: kept as written; it gets a key only
+# when facilities.csv lists that same yard name (no letter is taken from the name)
+YARD_IN_NAME = re.compile(r'\b[A-Z](?:/[A-Z])?[\s\-]*Yard\b', re.I)
+squash = lambda s: re.sub(r'[\s\-]+', ' ', s).strip().upper()
 RANGE = re.compile(r'(?<![A-Za-z\-\d])\d+\s*(?:-|to|&)\s*\d+(?![\d.])', re.I)
 LETTER_LIST = re.compile(r'\b[A-Z]\s*&\s*[A-Z]\b')
 
@@ -105,6 +109,10 @@ def facility(row, names, keys):
         m = FAC_IN_NAME.search(row['building_name'])
         if m:
             return m.group(0), 'SPI name', key(m.group(1).upper())
+        m = YARD_IN_NAME.search(row['building_name'])
+        if m:
+            k = names.get((row['cdcr_code'], 'SQUASH:' + squash(m.group(0))), '')
+            return m.group(0), 'SPI name', k if k in keys else ''
     return '', '', ''
 
 
@@ -164,6 +172,8 @@ def main():
         lambda t: 'other structure' if t in OTHER_STRUCTURE else 'building')
     fac = pd.read_csv(CW / 'facilities.csv', dtype=str).fillna('')
     names = {(r.cdcr_code, n): r.facility_key for r in fac.itertuples() for n in r.names.split(';')}
+    names.update({(r.cdcr_code, 'SQUASH:' + squash(n)): r.facility_key
+                  for r in fac.itertuples() for n in r.names.split(';') if n})
     fk = b.apply(facility, axis=1, result_type='expand', args=(names, set(fac['facility_key'])))
     b['facility_as_written'], b['facility_source'], b['facility_key'] = fk[0], fk[1], fk[2]
     b['record_covers'] = b.apply(record_covers, axis=1)

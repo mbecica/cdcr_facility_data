@@ -64,7 +64,7 @@ ASP-130,ASP,130,130 Dormitory Housing,building,,,,,,,housing,,,1997,,13244,DORMI
 ASP-1300,ASP,1300,1300 Firing Range,building,,,,,,,,,,1986,,1110,TRAINING FACILITY,13751,1300,34,,1,SPI
 ASP-140,ASP,140,140 Housing Unit,building,,,,,,,housing,,,1986,,21210,DORMITORY,13694,140,34,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 ASP-145,ASP,145,145 Transportation / Isudt,building,,,,,,,,,,2010,,2880,DORMITORY,51503,145,34,,1,SPI
-ASP-150,ASP,150,"Education Building 150-Sap, On A-Yard",building,,,,,,,,,,2002,,4970,RELOCATABLE OFFICE,5089,150,34,,1,SPI
+ASP-150,ASP,150,"Education Building 150-Sap, On A-Yard",building,,,A-Yard,SPI name,ASP-A,,,,,2002,,4970,RELOCATABLE OFFICE,5089,150,34,,1,SPI
 ASP-160,ASP,160,160 Academic Ed And Work Change,building,,,,,,,,,,1986,,3574,DORMITORY,13695,160,34,,1,SPI
 ASP-165,ASP,165,165 Facility Support,building,,,,,,,,,,1986,,29002,OFFICE (INSTITUTIONAL),13696,165,34,,1,SPI
 ASP-185,ASP,185,185 Vocational Ed,building,,,,,,,,,,1986,,12826,CLASSROOM,13697,185,34,,1,SPI
@@ -93,7 +93,7 @@ ASP-410,ASP,410,410 Housing Unit,building,,,,,,,housing,,,1986,,21210,DORMITORY,
 ASP-420,ASP,420,420 Dormitory Housing,building,,,,,,,housing,,,1997,,13244,DORMITORY,39367,420,34,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 ASP-430,ASP,430,430 Housing Unit,building,,,,,,,housing,,,1986,,21210,DORMITORY,13711,430,34,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 ASP-440,ASP,440,440 Education Classroom,building,,,,,,,,,,1995,,2592,CLASSROOM,39375,440,34,,1,SPI
-ASP-445,ASP,445,445 D Yard Dars,building,,,,,,,,,,2009,,6720,CLASSROOM,51117,445,34,,1,SPI
+ASP-445,ASP,445,445 D Yard Dars,building,,,D Yard,SPI name,ASP-D,,,,,2009,,6720,CLASSROOM,51117,445,34,,1,SPI
 ASP-450,ASP,450,450 Housing Unit,building,,,,,,,housing,,,1986,,21210,DORMITORY,13712,450,34,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 ASP-460,ASP,460,460 Academic Ed And Work Change,building,,,,,,,,,,1986,,3574,CLASSROOM,13713,460,34,,1,SPI
 ASP-465,ASP,465,465 Facility Support,building,,,,,,,,,,1986,,29002,OFFICE (INSTITUTIONAL),13714,465,34,,1,SPI
@@ -110,7 +110,7 @@ ASP-585,ASP,585,585 Vocational Ed,building,,,,,,,,,,1986,,8055,CLASSROOM,13720,5
 ASP-590,ASP,590,590 Pia Metal Fab,building,,,,,,,,,,1986,,59000,SHOP,13744,590,34,,1,SPI
 ASP-610,ASP,610,610 Housing Unit,building,,,,,,,housing,,,1986,,21210,DORMITORY,13721,610,34,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 ASP-620,ASP,620,620 Education Classroom,building,,,,,,,,,,1986,,2592,CLASSROOM,39376,620,34,,1,SPI
-ASP-625,ASP,625,625 F Yard Dars,building,,,,,,,,,,2009,,6720,CLASSROOM,51118,625,34,,1,SPI
+ASP-625,ASP,625,625 F Yard Dars,building,,,F Yard,SPI name,ASP-F,,,,,2009,,6720,CLASSROOM,51118,625,34,,1,SPI
 ASP-630,ASP,630,630 Housing Unit,building,,,,,,,housing,,,1986,,21210,DORMITORY,13722,630,34,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 ASP-640,ASP,640,640 Dormitory Housing,building,,,,,,,housing,,,1997,,13244,DORMITORY,39369,640,34,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 ASP-650,ASP,650,650 Housing Unit,building,,,,,,,housing,,,1986,,21210,DORMITORY,13723,650,34,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
@@ -122,13 +122,13 @@ ASP-695,ASP,695,695 Pia Laundry;Laundry,building,,,,,,,laundry,,,1986,,16800,LAU
 ASP-700,ASP,700,700 Medical Administration,building,,,,,,,,,,2010,,9360,OFFICE (INSTITUTIONAL),51502,700,34,,1,SPI
 ASP-705,ASP,705,705 Plant Operations Maintenance Shop,building,,,,,,,,,,1999,,3000,SHOP,39954,705,34,,1,SPI
 ASP-710,ASP,710,710 Family Visiting Handicap,building,,,,,,,,,,1986,,1408,VISITATION FACILITY,13727,710,34,,1,SPI
-ASP-712,ASP,712,712 A/B Yard Medical Clinic,building,,,,,,,,,,2010,,5816,HOSPITAL/CLINIC/TREATMENT CENTER,51504,712,34,,1,SPI
+ASP-712,ASP,712,712 A/B Yard Medical Clinic,building,,,A/B Yard,SPI name,,,,,,2010,,5816,HOSPITAL/CLINIC/TREATMENT CENTER,51504,712,34,,1,SPI
 ASP-720,ASP,720,720 Complex Administration,building,,,,,,,,,,1986,,14468,OFFICE (INSTITUTIONAL),13733,720,34,,1,SPI
 ASP-730,ASP,730,730 Family Visiting,building,,,,,,,,,,1986,,1320,VISITATION FACILITY,13728,730,34,,1,SPI
-ASP-734,ASP,734,734 C/D Yard Medical Clinic,building,,,,,,,,,,2010,,6528,HOSPITAL/CLINIC/TREATMENT CENTER,51501,734,34,,1,SPI
+ASP-734,ASP,734,734 C/D Yard Medical Clinic,building,,,C/D Yard,SPI name,,,,,,2010,,6528,HOSPITAL/CLINIC/TREATMENT CENTER,51501,734,34,,1,SPI
 ASP-740,ASP,740,740 Family Visiting,building,,,,,,,,,,1986,,1320,VISITATION FACILITY,13729,740,34,,1,SPI
 ASP-750,ASP,750,750 Complex Administration Security,building,,,,,,,,,,1986,,16995,OFFICE (INSTITUTIONAL),13734,750,34,,1,SPI
-ASP-756,ASP,756,756 E/F Yard Medical Clinic,building,,,,,,,,,,2010,,5816,HOSPITAL/CLINIC/TREATMENT CENTER,51500,756,34,,1,SPI
+ASP-756,ASP,756,756 E/F Yard Medical Clinic,building,,,E/F Yard,SPI name,,,,,,2010,,5816,HOSPITAL/CLINIC/TREATMENT CENTER,51500,756,34,,1,SPI
 ASP-760,ASP,760,760 Family Visiting,building,,,,,,,,,,1986,,1320,VISITATION FACILITY,13730,760,34,,1,SPI
 ASP-770,ASP,770,770 Family Visiting,building,,,,,,,,,,1986,,1320,VISITATION FACILITY,13731,770,34,,1,SPI
 ASP-780,ASP,780,780 Complex Administration,building,,,,,,,,,,1986,,14468,OFFICE (INSTITUTIONAL),13735,780,34,,1,SPI
@@ -196,15 +196,15 @@ CAL-360,CAL,360,Bldg 360 Admin Segregation Housing Unit,building,,,,,,,housing,,
 CAL-360EX,CAL,360EX,Bldg 360 Ex - 20 Sm. Mgmt Exercise Yard,other structure,,,,,,,,,,2009,,3000,SMALL MANAGEMENT EXERCISE YARDS,51555,BLDG 360EX,9735,,1,SPI
 CAL-420,CAL,420,Bldg. 420-Central Operations,building,,,,,,,,,,1991,,6165,OFFICE (INSTITUTIONAL),43831,BLDG. 420,9735,,1,SPI
 CAL-421,CAL,421,Bldg. 421-Facility A Program Services,building,,,Facility A,SPI name,CAL-A,,,,,1991,,24743,OFFICE (INSTITUTIONAL),43832,BLDG. 421,9735,,1,SPI
-CAL-423,CAL,423,Bldg. 423-Facility Food Service A-Yard,building,,,,,,,,,,1991,,12800,DINING/CAFETERIA,43833,BLDG. 423,9735,,1,SPI
+CAL-423,CAL,423,Bldg. 423-Facility Food Service A-Yard,building,,,A-Yard,SPI name,,,,,,1991,,12800,DINING/CAFETERIA,43833,BLDG. 423,9735,,1,SPI
 CAL-430,CAL,430,Bldg. 430-Central Control A-B Visiting,building,,,,,,,,,,1991,,19877,VISITATION FACILITY,43834,BLDG. 430,9735,,1,SPI
 CAL-431,CAL,431,Bldg. 431-Facility B Program Services,building,,,Facility B,SPI name,CAL-B,,,,,1991,,24743,OFFICE (INSTITUTIONAL),43835,BLDG. 431,9735,,1,SPI
-CAL-433,CAL,433,Bldg. 433-Facility Food Service B-Yard,building,,,,,,,,,,1991,,12800,DINING/CAFETERIA,43836,BLDG. 433,9735,,1,SPI
+CAL-433,CAL,433,Bldg. 433-Facility Food Service B-Yard,building,,,B-Yard,SPI name,,,,,,1991,,12800,DINING/CAFETERIA,43836,BLDG. 433,9735,,1,SPI
 CAL-440,CAL,440,Bldg. 440-Complex Control C/D Visiting,building,,,,,,,,,,1991,,19877,VISITATION FACILITY,43837,BLDG. 440,9735,,1,SPI
 CAL-441,CAL,441,Bldg. 441 - Facility C Program Services,building,,,Facility C,SPI name,CAL-C,,,,,1991,,24743,OFFICE (INSTITUTIONAL),43699,BLDG. 441,9735,,1,SPI
-CAL-443,CAL,443,Bldg. 443 - Facility Food Service C-Yard,building,,,,,,,,,,1991,,12800,DINING/CAFETERIA,43700,BLDG. 443,9735,,1,SPI
+CAL-443,CAL,443,Bldg. 443 - Facility Food Service C-Yard,building,,,C-Yard,SPI name,,,,,,1991,,12800,DINING/CAFETERIA,43700,BLDG. 443,9735,,1,SPI
 CAL-451,CAL,451,Bldg. 451 - Facility D Program Services,building,,,Facility D,SPI name,CAL-D,,,,,1991,,24743,OFFICE (INSTITUTIONAL),43701,BLDG. 451,9735,,1,SPI
-CAL-453,CAL,453,Bldg. 453 - Facility Food Service D-Yard,building,,,,,,,,,,1991,,12800,DINING/CAFETERIA,43702,BLDG. 453,9735,,1,SPI
+CAL-453,CAL,453,Bldg. 453 - Facility Food Service D-Yard,building,,,D-Yard,SPI name,,,,,,1991,,12800,DINING/CAFETERIA,43702,BLDG. 453,9735,,1,SPI
 CAL-460,CAL,460,Bldg. 460 - Receiving And Release,building,,,,,,,,,,1991,,4965,OFFICE (INSTITUTIONAL),43703,BLDG. 460,9735,,1,SPI
 CAL-461,CAL,461,Bldg. 461 - Central Health Infirmary,building,,,,,,,,,,1991,,15620,HOSPITAL/CLINIC/TREATMENT CENTER,43704,BLDG. 461,9735,,1,SPI
 CAL-462,CAL,462,Bldg. 462 - Central Kitchen,building,,,,,,,,,,1991,,21050,DINING/CAFETERIA,43705,BLDG. 462,9735,,1,SPI
@@ -217,11 +217,11 @@ CAL-506,CAL,506,Bldg. 506 - Office Trailer,building,,,,,,,,,,2009,,2135,RELOCATA
 CAL-510,CAL,510,Bldg. 510 - Recycle & Salvage Project,building,,,,,,,,,,1991,,1936,EQUIPMENT/MAINTENANCE BUILDING,43709,BLDG. 510,9735,,1,SPI
 CAL-512,CAL,512,Bldg. 512 - Accounting Office,building,,,,,,,,,,2000,,1400,OFFICE (INSTITUTIONAL),44250,BLDG. 512,9735,,1,SPI
 CAL-514,CAL,514,Bldg 514 - Fire Chief Office,building,,,,,,,,,,2012,,241,OFFICE (INSTITUTIONAL),55162,BLDG 514,9735,,1,SPI
-CAL-521,CAL,521,Bldg. 521-Vocational Edu A-Yard/Calctra,building,,,,,,,,,,1991,,2290,CLASSROOM,43710,BLDG. 521,9735,,1,SPI
-CAL-522,CAL,522,Bldg. 522 - Vocational Education B-Yard,building,,,,,,,,,,1991,,2290,CLASSROOM,43711,BLDG. 522,9735,,1,SPI
-CAL-523,CAL,523,Bldg. 523 - Vocational Education C-Yard,building,,,,,,,,,,1991,,2290,CLASSROOM,43712,BLDG. 523,9735,,1,SPI
-CAL-524,CAL,524,Bldg. 524 - Vocational Education C-Yard,building,,,,,,,,,,1991,,2290,CLASSROOM,43713,BLDG. 524,9735,,1,SPI
-CAL-525,CAL,525,Bldg. 525 - Vocational Education D-Yard,building,,,,,,,,,,1991,,2290,CLASSROOM,43714,BLDG. 525,9735,,1,SPI
+CAL-521,CAL,521,Bldg. 521-Vocational Edu A-Yard/Calctra,building,,,A-Yard,SPI name,,,,,,1991,,2290,CLASSROOM,43710,BLDG. 521,9735,,1,SPI
+CAL-522,CAL,522,Bldg. 522 - Vocational Education B-Yard,building,,,B-Yard,SPI name,,,,,,1991,,2290,CLASSROOM,43711,BLDG. 522,9735,,1,SPI
+CAL-523,CAL,523,Bldg. 523 - Vocational Education C-Yard,building,,,C-Yard,SPI name,,,,,,1991,,2290,CLASSROOM,43712,BLDG. 523,9735,,1,SPI
+CAL-524,CAL,524,Bldg. 524 - Vocational Education C-Yard,building,,,C-Yard,SPI name,,,,,,1991,,2290,CLASSROOM,43713,BLDG. 524,9735,,1,SPI
+CAL-525,CAL,525,Bldg. 525 - Vocational Education D-Yard,building,,,D-Yard,SPI name,,,,,,1991,,2290,CLASSROOM,43714,BLDG. 525,9735,,1,SPI
 CAL-531,CAL,531,Bldg. 531-Facility A Food Srvc Satelite,building,,,Facility A,SPI name,CAL-A,,,,,1991,,3970,DINING/CAFETERIA,43715,BLDG. 531,9735,,1,SPI
 CAL-532,CAL,532,Bldg. 532-Facility B Food Srvc Satelite,building,,,Facility B,SPI name,CAL-B,,,,,1991,,3970,DINING/CAFETERIA,43716,BLDG. 532,9735,,1,SPI
 CAL-533,CAL,533,Bldg. 533-Facility C Food Srvc Satelite,building,,,Facility C,SPI name,CAL-C,,,,,1991,,3970,DINING/CAFETERIA,43717,BLDG. 533,9735,,1,SPI
@@ -464,7 +464,7 @@ CCWF-518,CCWF,518,Family Visiting Facility,building,,,,,,,,,,1988,,6452,VISITATI
 CCWF-519,CCWF,519,Family Visiting Facility,building,,,,,,,,,,1988,,6452,VISITATION FACILITY,43418,519,9475,,1,SPI
 CCWF-520,CCWF,520,Lookout Station For Ad-Seg Yard,building,,,,,,,,,,1991,,80,LOOKOUT (GUARD STATION),40592,520,9475,,1,SPI
 CCWF-521,CCWF,521,Lookout Station/Top Of 504 Soft Yard,building,,,,,,,,,,2008,,100,LOOKOUT (GUARD STATION),51108,BUILDING #521,9475,,1,SPI
-CCWF-700,CCWF,700,A Yard Medical Building,building,,,,,,,,,,1995,,1288,RELOCATABLE MEDICAL FACILITY,40593,700,9475,,1,SPI
+CCWF-700,CCWF,700,A Yard Medical Building,building,,,A Yard,SPI name,,,,,,1995,,1288,RELOCATABLE MEDICAL FACILITY,40593,700,9475,,1,SPI
 CCWF-701,CCWF,701,Support Services/Food Services Facility,building,,,,,,,,,,1988,,41000,DINING/CAFETERIA,43421,701,9475,,1,SPI
 CCWF-702,CCWF,702,Support Services/Food Services Facility,building,,,,,,,,,,1988,,41000,DINING/CAFETERIA,43422,702,9475,,1,SPI
 CCWF-703,CCWF,703,Reception Center Services/Administation,building,,,,,,,,,,1988,,10850,OFFICE (INSTITUTIONAL),43423,703,9475,,1,SPI
@@ -478,8 +478,8 @@ CCWF-806,CCWF,806,Friends Outside Trailer,building,,,,,,,,,,1995,,960,OFFICE (IN
 CCWF-807,CCWF,807,Arts In Corrections,building,,,,,,,,,,1995,,960,RELOCATABLE CLASSROOM,40595,807,9475,,1,SPI
 CCWF-808,CCWF,808,Medical Building 808,building,,,,,,,,,,1995,,2160,RELOCATABLE MEDICAL FACILITY,40596,808,9475,,1,SPI
 CCWF-809,CCWF,809,Substance Abuse Program,building,,,,,,,,,,1999,,4320,RELOCATABLE CLASSROOM,4664,809,9475,,1,SPI
-CCWF-810,CCWF,810,"Substance Abuse B Yard Modular 2,810",building,,,,,,,,,,1998,,1440,RELOCATABLE MEDICAL FACILITY,4834,810,9475,,1,SPI
-CCWF-811,CCWF,811,"Substance Abuse C Yard Modular, Bldg 811",building,,,,,,,,,,1998,,5040,RELOCATABLE MEDICAL FACILITY,4833,811,9475,,1,SPI
+CCWF-810,CCWF,810,"Substance Abuse B Yard Modular 2,810",building,,,B Yard,SPI name,,,,,,1998,,1440,RELOCATABLE MEDICAL FACILITY,4834,810,9475,,1,SPI
+CCWF-811,CCWF,811,"Substance Abuse C Yard Modular, Bldg 811",building,,,C Yard,SPI name,,,,,,1998,,5040,RELOCATABLE MEDICAL FACILITY,4833,811,9475,,1,SPI
 CCWF-812,CCWF,812,Reception Center Enhanced Out Patient,building,,,,,,,,,,2002,,4278,HOSPITAL/CLINIC/TREATMENT CENTER,44259,812,9475,,1,SPI
 CCWF-813,CCWF,813,Correctional Clinical Case Mgmt System,building,,,,,,,,,,2002,,2070,OFFICE (INSTITUTIONAL),44260,813,9475,,1,SPI
 CCWF-814,CCWF,814,Drug Abuse Recovery System (Dars),building,,,,,,,,,,2009,,6720,RELOCATABLE MEDICAL FACILITY,51109,BUILDING #814,9475,,1,SPI
@@ -1808,42 +1808,42 @@ HDSP-310,HDSP,310,Guard Tower 10,building,,,,,,,,,,1995,,150,LOOKOUT (GUARD STAT
 HDSP-311,HDSP,311,Guard Tower 11,building,,,,,,,,,,1995,,150,LOOKOUT (GUARD STATION),38070,KITCHELL- 311 BLDG.,9982,,1,SPI
 HDSP-312,HDSP,312,Guard Tower 12,building,,,,,,,,,,1995,,150,LOOKOUT (GUARD STATION),38071,KITCHELL- 312 BLDG.,9982,,1,SPI
 HDSP-313,HDSP,313,Guard Tower 13,building,,,,,,,,,,1995,,150,LOOKOUT (GUARD STATION),38072,KITCHELL- 313 BLDG.,9982,,1,SPI
-HDSP-321,HDSP,321,"Housing Unit Level Iii, A Yard",building,,,,,,,housing,,,1995,,25000,DORMITORY,38073,KITCHELL-321 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-322,HDSP,322,"Housing Unit Level Iii, A Yard",building,,,,,,,housing,,,1995,,25000,DORMITORY,38074,KITCHELL- 322 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-323,HDSP,323,"Housing Unit Level Iii, A Yard",building,,,,,,,housing,,,1995,,25000,DORMITORY,38075,KITCHELL-323 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-324,HDSP,324,"Housing Unit Level Iii, A Yard",building,,,,,,,housing,,,1995,,25000,DORMITORY,38076,KITCHELL- 324 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-325,HDSP,325,"Housing Unit Level Iii, A Yard (Ad Seg)",building,,,,,,,housing,,,1995,,25000,DORMITORY,38077,KITCHELL- 325 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-326,HDSP,326,"Housing Unit Level Iii, B Yard",building,,,,,,,housing,,,1995,,25000,DORMITORY,38078,KITCHELL- 326 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-327,HDSP,327,"Housing Unit Level Iii, B Yard (Recepti)",building,,,,,,,housing,,,1995,,25000,DORMITORY,38079,KITCHELL- 327 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-328,HDSP,328,"Housing Unit Level Iii, B Yard",building,,,,,,,housing,,,1995,,25000,DORMITORY,38080,KITCHELL- 328 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-329,HDSP,329,"Housing Unit Level Iii, B Yard",building,,,,,,,housing,,,1995,,25000,DORMITORY,38081,KITCHELL- 329 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-330,HDSP,330,"Housing Unit Level Iii, B Yard",building,,,,,,,housing,,,1995,,25000,DORMITORY,38082,KITCHELL- 330 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-341,HDSP,341,"Housing Unit Level Iv, C Yard",building,,,,,,several buildings,housing,,,1995,,42000,DORMITORY,38083,KITCHELL- 341 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-342,HDSP,342,"Housing Unit Level Iv, C Yard",building,,,,,,several buildings,housing,,,1995,,42000,DORMITORY,38084,KITCHELL- 342 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-343,HDSP,343,"Housing Unit Level Iv, C Yard",building,,,,,,several buildings,housing,,,1995,,42000,DORMITORY,38085,KITCHELL- 343 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-344,HDSP,344,"Housing Unit Level Iv, C Yard",building,,,,,,several buildings,housing,,,1995,,42000,DORMITORY,38086,KITCHELL- 344 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-351,HDSP,351,"Housing Unit Level Iv, D Yard",building,,,,,,several buildings,housing,,,1995,,42000,DORMITORY,38087,KITCHELL- 351 BLDG.,9982,,4,SPI;MPAR2024:P-2324-00144;MPAR2025:P-2021-00058;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-352,HDSP,352,"Housing Unit Level Iv, D Yard",building,,,,,,several buildings,housing,,,1995,,42000,DORMITORY,38088,KITCHELL- 352 BLDG.,9982,,3,SPI;MPAR2024:P-2324-00144;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-353,HDSP,353,"Housing Unit Level Iv, D Yard",building,,,,,,several buildings,housing,,,1995,,42000,DORMITORY,38089,KITCHELL- 353 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-HDSP-354,HDSP,354,"Housing Unit Level Iv, D Yard",building,,,,,,several buildings,housing,,,1995,,42000,DORMITORY,38090,KITCHELL- 354 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-321,HDSP,321,"Housing Unit Level Iii, A Yard",building,,,A Yard,SPI name,HDSP-A,,housing,,,1995,,25000,DORMITORY,38073,KITCHELL-321 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-322,HDSP,322,"Housing Unit Level Iii, A Yard",building,,,A Yard,SPI name,HDSP-A,,housing,,,1995,,25000,DORMITORY,38074,KITCHELL- 322 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-323,HDSP,323,"Housing Unit Level Iii, A Yard",building,,,A Yard,SPI name,HDSP-A,,housing,,,1995,,25000,DORMITORY,38075,KITCHELL-323 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-324,HDSP,324,"Housing Unit Level Iii, A Yard",building,,,A Yard,SPI name,HDSP-A,,housing,,,1995,,25000,DORMITORY,38076,KITCHELL- 324 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-325,HDSP,325,"Housing Unit Level Iii, A Yard (Ad Seg)",building,,,A Yard,SPI name,HDSP-A,,housing,,,1995,,25000,DORMITORY,38077,KITCHELL- 325 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-326,HDSP,326,"Housing Unit Level Iii, B Yard",building,,,B Yard,SPI name,HDSP-B,,housing,,,1995,,25000,DORMITORY,38078,KITCHELL- 326 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-327,HDSP,327,"Housing Unit Level Iii, B Yard (Recepti)",building,,,B Yard,SPI name,HDSP-B,,housing,,,1995,,25000,DORMITORY,38079,KITCHELL- 327 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-328,HDSP,328,"Housing Unit Level Iii, B Yard",building,,,B Yard,SPI name,HDSP-B,,housing,,,1995,,25000,DORMITORY,38080,KITCHELL- 328 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-329,HDSP,329,"Housing Unit Level Iii, B Yard",building,,,B Yard,SPI name,HDSP-B,,housing,,,1995,,25000,DORMITORY,38081,KITCHELL- 329 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-330,HDSP,330,"Housing Unit Level Iii, B Yard",building,,,B Yard,SPI name,HDSP-B,,housing,,,1995,,25000,DORMITORY,38082,KITCHELL- 330 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-341,HDSP,341,"Housing Unit Level Iv, C Yard",building,,,C Yard,SPI name,HDSP-C,several buildings,housing,,,1995,,42000,DORMITORY,38083,KITCHELL- 341 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-342,HDSP,342,"Housing Unit Level Iv, C Yard",building,,,C Yard,SPI name,HDSP-C,several buildings,housing,,,1995,,42000,DORMITORY,38084,KITCHELL- 342 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-343,HDSP,343,"Housing Unit Level Iv, C Yard",building,,,C Yard,SPI name,HDSP-C,several buildings,housing,,,1995,,42000,DORMITORY,38085,KITCHELL- 343 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-344,HDSP,344,"Housing Unit Level Iv, C Yard",building,,,C Yard,SPI name,HDSP-C,several buildings,housing,,,1995,,42000,DORMITORY,38086,KITCHELL- 344 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-351,HDSP,351,"Housing Unit Level Iv, D Yard",building,,,D Yard,SPI name,HDSP-D,several buildings,housing,,,1995,,42000,DORMITORY,38087,KITCHELL- 351 BLDG.,9982,,4,SPI;MPAR2024:P-2324-00144;MPAR2025:P-2021-00058;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-352,HDSP,352,"Housing Unit Level Iv, D Yard",building,,,D Yard,SPI name,HDSP-D,several buildings,housing,,,1995,,42000,DORMITORY,38088,KITCHELL- 352 BLDG.,9982,,3,SPI;MPAR2024:P-2324-00144;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-353,HDSP,353,"Housing Unit Level Iv, D Yard",building,,,D Yard,SPI name,HDSP-D,several buildings,housing,,,1995,,42000,DORMITORY,38089,KITCHELL- 353 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+HDSP-354,HDSP,354,"Housing Unit Level Iv, D Yard",building,,,D Yard,SPI name,HDSP-D,several buildings,housing,,,1995,,42000,DORMITORY,38090,KITCHELL- 354 BLDG.,9982,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
 HDSP-355,HDSP,355,,building,,,,,,,housing,,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 HDSP-420,HDSP,420,Central Operations,building,,,,,,,,,,1995,,6145,OFFICE (INSTITUTIONAL),38091,KITCHELL- 420 BLDG.,9982,,1,SPI
 HDSP-421,HDSP,421,A Facilities Program/Support Services,building,,,,,,,,,,1995,,17664,OFFICE (INSTITUTIONAL),38092,KITCHELL- 421 BLDG.,9982,,1,SPI
-HDSP-422,HDSP,422,"Gymnasium, A Yard",building,,,,,,,,,,1995,,7395,GYMNASIUM,38093,KITCHELL- 422 BLDG.,9982,,1,SPI
-HDSP-423,HDSP,423,"Food Service, A Yard",building,,,,,,,,,,1995,,12496,DINING/CAFETERIA,38094,KITCHELL- 423 BLDG.,9982,,1,SPI
+HDSP-422,HDSP,422,"Gymnasium, A Yard",building,,,A Yard,SPI name,HDSP-A,,,,,1995,,7395,GYMNASIUM,38093,KITCHELL- 422 BLDG.,9982,,1,SPI
+HDSP-423,HDSP,423,"Food Service, A Yard",building,,,A Yard,SPI name,HDSP-A,,,,,1995,,12496,DINING/CAFETERIA,38094,KITCHELL- 423 BLDG.,9982,,1,SPI
 HDSP-430,HDSP,430,B.O.P.T./Central Control/Visiting,building,,,,,,,,,,1995,,19290,OFFICE (INSTITUTIONAL),38095,KITCHELL- 430 BLDG.,9982,,1,SPI
 HDSP-431,HDSP,431,B Facilities Program/Support Services,building,,,,,,,,,,1995,,17664,OFFICE (INSTITUTIONAL),38096,KITCHELL- 431 BLDG.,9982,,1,SPI
-HDSP-432,HDSP,432,"Gymnasium, B Yard",building,,,,,,,,,,1995,,7395,GYMNASIUM,38097,KITCHELL- 432 BLDG.,9982,,1,SPI
-HDSP-433,HDSP,433,"Food Service, B Yard",building,,,,,,,,,,1995,,12496,DINING/CAFETERIA,38098,KITCHELL- 433 BLDG.,9982,,1,SPI
+HDSP-432,HDSP,432,"Gymnasium, B Yard",building,,,B Yard,SPI name,HDSP-B,,,,,1995,,7395,GYMNASIUM,38097,KITCHELL- 432 BLDG.,9982,,1,SPI
+HDSP-433,HDSP,433,"Food Service, B Yard",building,,,B Yard,SPI name,HDSP-B,,,,,1995,,12496,DINING/CAFETERIA,38098,KITCHELL- 433 BLDG.,9982,,1,SPI
 HDSP-440,HDSP,440,Bopt/Complex Control/Visiting Level Iv,building,,,,,,,,,,1995,,19290,OFFICE (INSTITUTIONAL),38099,KITCHELL- 440 BLDG.,9982,,1,SPI
 HDSP-441,HDSP,441,C Facilities Program/Support Services,building,,,,,,,,,,1995,,17664,OFFICE (INSTITUTIONAL),38100,KITCHELL- 441 BLDG.,9982,,1,SPI
-HDSP-442,HDSP,442,"Gymnasium, C Yard",building,,,,,,,,,,1995,,7395,GYMNASIUM,38101,KITCHELL- 442 BLDG.,9982,,1,SPI
-HDSP-443,HDSP,443,"Gun Post, C Yard",building,,,,,,,,,,1995,,396,LOOKOUT (GUARD STATION),38102,KITCHELL- 443 BLDG.,9982,,1,SPI
-HDSP-444,HDSP,444,"Gun Post, C Yard",building,,,,,,,,,,1995,,396,LOOKOUT (GUARD STATION),38103,KITCHELL- 444 BLDG.,9982,,1,SPI
+HDSP-442,HDSP,442,"Gymnasium, C Yard",building,,,C Yard,SPI name,HDSP-C,,,,,1995,,7395,GYMNASIUM,38101,KITCHELL- 442 BLDG.,9982,,1,SPI
+HDSP-443,HDSP,443,"Gun Post, C Yard",building,,,C Yard,SPI name,HDSP-C,,,,,1995,,396,LOOKOUT (GUARD STATION),38102,KITCHELL- 443 BLDG.,9982,,1,SPI
+HDSP-444,HDSP,444,"Gun Post, C Yard",building,,,C Yard,SPI name,HDSP-C,,,,,1995,,396,LOOKOUT (GUARD STATION),38103,KITCHELL- 444 BLDG.,9982,,1,SPI
 HDSP-451,HDSP,451,D Facilities Program/Support Services,building,,,,,,,,,,1995,,17664,OFFICE (INSTITUTIONAL),38104,KITCHELL- 451 BLDG.,9982,,1,SPI
 HDSP-452,HDSP,452,"Gymnasium, D Fac.",building,,,,,,,,,,1995,,7395,GYMNASIUM,38105,KITCHELL- 452 BLDG.,9982,,1,SPI
-HDSP-453,HDSP,453,"Gun Post, D Yard",building,,,,,,,,,,1995,,396,LOOKOUT (GUARD STATION),38106,KITCHELL- 453 BLDG.,9982,,1,SPI
-HDSP-454,HDSP,454,"Gun Post, D Yard",building,,,,,,,,,,1995,,396,LOOKOUT (GUARD STATION),38107,KITCHELL- 454 BLDG.,9982,,1,SPI
+HDSP-453,HDSP,453,"Gun Post, D Yard",building,,,D Yard,SPI name,HDSP-D,,,,,1995,,396,LOOKOUT (GUARD STATION),38106,KITCHELL- 453 BLDG.,9982,,1,SPI
+HDSP-454,HDSP,454,"Gun Post, D Yard",building,,,D Yard,SPI name,HDSP-D,,,,,1995,,396,LOOKOUT (GUARD STATION),38107,KITCHELL- 454 BLDG.,9982,,1,SPI
 HDSP-460,HDSP,460,Receiving And Release,building,,,,,,,,,,1995,,5585,OFFICE (INSTITUTIONAL),38108,KITCHELL- 460 BLDG.,9982,,1,SPI
 HDSP-461,HDSP,461,Central Health Services,building,,,,,,,health_care,,,1995,,34000,HOSPITAL/CLINIC/TREATMENT CENTER,38109,KITCHELL- 461 BLDG.,9982,,3,SPI;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
 HDSP-462,HDSP,462,Central Kitchen,building,,,,,,,,,,1995,,20740,KITCHEN,38110,KITCHELL- 462 BLDG.,9982,,1,SPI
@@ -1852,24 +1852,24 @@ HDSP-483,HDSP,483,Mental Health,building,,,,,,,,,,1997,,4332,HOSPITAL/CLINIC/TRE
 HDSP-486,HDSP,486,Laundry,building,,,,,,,,,,1995,,15352,LAUNDRY,38113,KITCHELL- 486 BLDG.,9982,,1,SPI
 HDSP-521,HDSP,521,"Vocational Education, B Fac.",building,,,,,,,,,,1995,,13650,CLASSROOM,38114,KITCHELL- 521 BLDG.,9982,,1,SPI
 HDSP-522,HDSP,522,"Vocational Education, B Fac.",building,,,,,,,,,,1995,,15120,CLASSROOM,38115,KITCHELL- 522 BLDG.,9982,,1,SPI
-HDSP-523,HDSP,523,"Vocational Education, C Yard",building,,,,,,,,,,1995,,20160,CLASSROOM,38116,KITCHELL- 523 BLDG.,9982,,1,SPI
-HDSP-524,HDSP,524,"Vocational Education, C Yard",building,,,,,,,,,,1995,,18830,CLASSROOM,38117,KITCHELL- 524 BLDG.,9982,,1,SPI
-HDSP-525,HDSP,525,"Vocational Education, D Yard",building,,,,,,,,,,1995,,19180,CLASSROOM,38118,KITCHELL- 525 BLDG.,9982,,1,SPI
-HDSP-526,HDSP,526,"Vocational Education, D Yard",building,,,,,,,,,,1995,,12390,CLASSROOM,38119,KITCHELL- 526 BLDG.,9982,,1,SPI
+HDSP-523,HDSP,523,"Vocational Education, C Yard",building,,,C Yard,SPI name,HDSP-C,,,,,1995,,20160,CLASSROOM,38116,KITCHELL- 523 BLDG.,9982,,1,SPI
+HDSP-524,HDSP,524,"Vocational Education, C Yard",building,,,C Yard,SPI name,HDSP-C,,,,,1995,,18830,CLASSROOM,38117,KITCHELL- 524 BLDG.,9982,,1,SPI
+HDSP-525,HDSP,525,"Vocational Education, D Yard",building,,,D Yard,SPI name,HDSP-D,,,,,1995,,19180,CLASSROOM,38118,KITCHELL- 525 BLDG.,9982,,1,SPI
+HDSP-526,HDSP,526,"Vocational Education, D Yard",building,,,D Yard,SPI name,HDSP-D,,,,,1995,,12390,CLASSROOM,38119,KITCHELL- 526 BLDG.,9982,,1,SPI
 HDSP-528,HDSP,528,Greenhouse,building,,,,,,,,,,1995,,336,NURSERY/GREENHOUSE,38121,KITCHELL- 528 BLDG.,9982,,1,SPI
 HDSP-531,HDSP,531,"Food Satellite, A Fac",building,,,,,,,,,,1995,,3969,DINING/CAFETERIA,38122,KITCHELL- 531 BLDG.,9982,,1,SPI
 HDSP-532,HDSP,532,"Food Satellite, B Fac",building,,,,,,,,,,1995,,3969,DINING/CAFETERIA,38123,KITCHELL- 532 BLDG.,9982,,1,SPI
 HDSP-533,HDSP,533,"Food Satellite, C Fac.",building,,,,,,,,,,1995,,3969,DINING/CAFETERIA,38124,KITCHELL- 533 BLDG.,9982,,1,SPI
 HDSP-534,HDSP,534,"Food Satellite, D Fac",building,,,,,,,,,,1995,,3969,DINING/CAFETERIA,38125,KITCHELL- 534 BLDG.,9982,,1,SPI
 HDSP-541,HDSP,541,Library,building,,,,,,,,,,1995,,5040,LIBRARY,38126,KITCHELL- 541 BLDG.,9982,,1,SPI
-HDSP-551,HDSP,551,"Maintenance Satellite, A Yard",building,,,,,,,,,,1995,,2550,SHOP,38127,KITCHELL- 551 BLDG.,9982,,1,SPI
-HDSP-552,HDSP,552,"Maintenance Satellite, B Yard",building,,,,,,,,,,1995,,2550,SHOP,38128,KITCHELL- 552 BLDG.,9982,,1,SPI
+HDSP-551,HDSP,551,"Maintenance Satellite, A Yard",building,,,A Yard,SPI name,HDSP-A,,,,,1995,,2550,SHOP,38127,KITCHELL- 551 BLDG.,9982,,1,SPI
+HDSP-552,HDSP,552,"Maintenance Satellite, B Yard",building,,,B Yard,SPI name,HDSP-B,,,,,1995,,2550,SHOP,38128,KITCHELL- 552 BLDG.,9982,,1,SPI
 HDSP-553,HDSP,553,Central Maintanance,building,,,,,,,,,,1995,,8100,SHOP,38129,KITCHELL- 553 BLDG.,9982,,1,SPI
-HDSP-554,HDSP,554,"Maintanance Satellite, D Yard",building,,,,,,,,,,1995,,2550,SHOP,38130,KITCHELL- 554 BLDG.,9982,,1,SPI
-HDSP-561,HDSP,561,"Work Change, A Yard",building,,,,,,,,,,1995,,625,LOOKOUT (GUARD STATION),38131,KITCHELL- 561 BLDG.,9982,,1,SPI
-HDSP-562,HDSP,562,"Work Change, B Yard",building,,,,,,,,,,1995,,625,LOOKOUT (GUARD STATION),38132,KITCHELL- 562 BLDG.,9982,,1,SPI
-HDSP-563,HDSP,563,"Work Change, C Yard",building,,,,,,,,,,1995,,625,LOOKOUT (GUARD STATION),38133,KITCHELL- 563 BLDG.,9982,,1,SPI
-HDSP-564,HDSP,564,"Work Change, D Yard",building,,,,,,,,,,1995,,625,LOOKOUT (GUARD STATION),38134,KITCHELL- 564 BLDG.,9982,,1,SPI
+HDSP-554,HDSP,554,"Maintanance Satellite, D Yard",building,,,D Yard,SPI name,HDSP-D,,,,,1995,,2550,SHOP,38130,KITCHELL- 554 BLDG.,9982,,1,SPI
+HDSP-561,HDSP,561,"Work Change, A Yard",building,,,A Yard,SPI name,HDSP-A,,,,,1995,,625,LOOKOUT (GUARD STATION),38131,KITCHELL- 561 BLDG.,9982,,1,SPI
+HDSP-562,HDSP,562,"Work Change, B Yard",building,,,B Yard,SPI name,HDSP-B,,,,,1995,,625,LOOKOUT (GUARD STATION),38132,KITCHELL- 562 BLDG.,9982,,1,SPI
+HDSP-563,HDSP,563,"Work Change, C Yard",building,,,C Yard,SPI name,HDSP-C,,,,,1995,,625,LOOKOUT (GUARD STATION),38133,KITCHELL- 563 BLDG.,9982,,1,SPI
+HDSP-564,HDSP,564,"Work Change, D Yard",building,,,D Yard,SPI name,HDSP-D,,,,,1995,,625,LOOKOUT (GUARD STATION),38134,KITCHELL- 564 BLDG.,9982,,1,SPI
 HDSP-571,HDSP,571,"Volatile Storage, A Fac.",building,,,,,,,,,,1995,,100,STORAGE,38135,KITCHELL- 571 BLDG.,9982,,1,SPI
 HDSP-572,HDSP,572,"Volatile Storage, B Fac.",building,,,,,,,,,,1995,,100,STORAGE,38136,KITCHELL- 572 BLDG.,9982,,1,SPI
 HDSP-573,HDSP,573,"Volatile Storage, C Fac.",building,,,,,,,,,,,,100,STORAGE,38137,KITCHELL- 573 BLDG.,9982,,1,SPI
@@ -1902,7 +1902,7 @@ HDSP-central-health-services-building,HDSP,,Central Health Services building,bui
 HDSP-correctional-treatment-center,HDSP,,Correctional Treatment Center,building,,,,,,,health_care,,,,,,,,,,,1,MPAR2022:P-1617-00025
 HDSP-spi38062,HDSP,,Guard Tower 3,building,,,,,,,,,,1995,,150,LOOKOUT (GUARD STATION),38062,KITCHELL -303 BLDG.,9982,,1,SPI
 HDSP-spi38065,HDSP,,Guard Tower 6,building,,,,,,,,,,1995,,150,LOOKOUT (GUARD STATION),38065,KITCHELL - 306 BLDG.,9982,,1,SPI
-HDSP-spi38120,HDSP,,"Vocational Education, A Yard",building,,,,,,,,,,1995,,17080,CLASSROOM,38120,KITHCHELL- 527 BLDG.,9982,,1,SPI
+HDSP-spi38120,HDSP,,"Vocational Education, A Yard",building,,,A Yard,SPI name,HDSP-A,,,,,1995,,17080,CLASSROOM,38120,KITHCHELL- 527 BLDG.,9982,,1,SPI
 HDSP-spi38264,HDSP,,Weapons Training And Firing Ranges,building,,,,,,,,,,1995,,3732,TRAINING FACILITY,38264,"KITCHELL- 216, 217A&B BLD",9982,,1,SPI
 HDSP-spi39540,HDSP,,Well A,building,,,,,,,,,,1995,,480,PUMP/WELL HOUSE,39540,,9982,,1,SPI
 HDSP-spi39541,HDSP,,Well B,building,,,,,,,,,,1995,,480,PUMP/WELL HOUSE,39541,,9982,,1,SPI
@@ -2077,31 +2077,31 @@ KVSP-521,KVSP,521,Work Change (1),building,,,,,,,,,,2004,,629,WORK CHANGE,50351,
 KVSP-522,KVSP,522,Central Bldg. Maint,building,,,,,,,,,,2004,,8676,EQUIPMENT/MAINTENANCE BUILDING,50347,522,10424,,1,SPI
 KVSP-523,KVSP,523,Volatile Storage Sat (1),building,,,,,,,,,,2004,,100,STORAGE BUILDING,50343,523,10424,,1,SPI
 KVSP-524,KVSP,524,Work Zone Food Serv Sat (1),building,,,,,,,,,,2004,,2800,DINING/CAFETERIA,50356,524,10424,,1,SPI
-KVSP-525,KVSP,525,Vocational Education - A Yard,building,,,,,,,,,,2004,,10080,CLASSROOM,50369,525,10424,,1,SPI
-KVSP-526,KVSP,526,Vocational Education - A Yard,building,,,,,,,,,,2004,,12586,CLASSROOM,50370,526,10424,,1,SPI
-KVSP-527,KVSP,527,Vocational Education - A Yard,building,,,,,,,,,,2004,,14140,CLASSROOM,50371,527,10424,,1,SPI
+KVSP-525,KVSP,525,Vocational Education - A Yard,building,,,A Yard,SPI name,,,,,,2004,,10080,CLASSROOM,50369,525,10424,,1,SPI
+KVSP-526,KVSP,526,Vocational Education - A Yard,building,,,A Yard,SPI name,,,,,,2004,,12586,CLASSROOM,50370,526,10424,,1,SPI
+KVSP-527,KVSP,527,Vocational Education - A Yard,building,,,A Yard,SPI name,,,,,,2004,,14140,CLASSROOM,50371,527,10424,,1,SPI
 KVSP-531,KVSP,531,Work Change (2),building,,,,,,,,,,2004,,629,WORK CHANGE,50352,531,10424,,1,SPI
 KVSP-532,KVSP,532,Bldg. Maintenance Sat. (1),building,,,,,,,,,,2004,,2550,EQUIPMENT/MAINTENANCE BUILDING,50348,532,10424,,1,SPI
 KVSP-533,KVSP,533,Volatile Storage Sat (2),building,,,,,,,,,,2004,,100,STORAGE BUILDING,50344,533,10424,,1,SPI
 KVSP-534,KVSP,534,Work Zone Food Serv Sat (2),building,,,,,,,,,,2004,,2800,DINING/CAFETERIA,50357,534,10424,,1,SPI
-KVSP-535,KVSP,535,Vocational Education - B Yard,building,,,,,,,,,,2004,,12693,CLASSROOM,50372,535,10424,,1,SPI
-KVSP-536,KVSP,536,Vocational Education - B Yard,building,,,,,,,,,,2004,,17696,CLASSROOM,50373,536,10424,,1,SPI
+KVSP-535,KVSP,535,Vocational Education - B Yard,building,,,B Yard,SPI name,,,,,,2004,,12693,CLASSROOM,50372,535,10424,,1,SPI
+KVSP-536,KVSP,536,Vocational Education - B Yard,building,,,B Yard,SPI name,,,,,,2004,,17696,CLASSROOM,50373,536,10424,,1,SPI
 KVSP-541,KVSP,541,Work Change (3),building,,,,,,,,,,2004,,629,WORK CHANGE,50353,541,10424,,1,SPI
 KVSP-542,KVSP,542,Bldg. Maintenance Sat. (2),building,,,,,,,,,,2004,,2550,EQUIPMENT/MAINTENANCE BUILDING,50349,542,10424,,1,SPI
 KVSP-543,KVSP,543,Volatile Storage Sat (3),building,,,,,,,,,,2004,,100,STORAGE BUILDING,50345,543,10424,,1,SPI
 KVSP-544,KVSP,544,Work Zone Food Serv Sat (3),building,,,,,,,,,,2004,,2800,DINING/CAFETERIA,50358,544,10424,,1,SPI
-KVSP-545,KVSP,545,Vocational Education - C Yard,building,,,,,,,,,,2004,,9590,CLASSROOM,50374,545,10424,,1,SPI
-KVSP-546,KVSP,546,Vocational Education - C Yard,building,,,,,,,,,,2004,,13160,CLASSROOM,50375,546,10424,,1,SPI
-KVSP-547,KVSP,547,Vocational Education - C Yard,building,,,,,,,,,,2004,,15190,CLASSROOM,50376,547,10424,,1,SPI
+KVSP-545,KVSP,545,Vocational Education - C Yard,building,,,C Yard,SPI name,,,,,,2004,,9590,CLASSROOM,50374,545,10424,,1,SPI
+KVSP-546,KVSP,546,Vocational Education - C Yard,building,,,C Yard,SPI name,,,,,,2004,,13160,CLASSROOM,50375,546,10424,,1,SPI
+KVSP-547,KVSP,547,Vocational Education - C Yard,building,,,C Yard,SPI name,,,,,,2004,,15190,CLASSROOM,50376,547,10424,,1,SPI
 KVSP-551,KVSP,551,Work Change (4),building,,,,,,,,,,2004,,629,WORK CHANGE,50354,551,10424,,1,SPI
 KVSP-552,KVSP,552,Bldg. Maintenance Sat. (3),building,,,,,,,,,,2004,,2550,EQUIPMENT/MAINTENANCE BUILDING,50350,552,10424,,1,SPI
 KVSP-553,KVSP,553,Volatile Storage Sat (4),building,,,,,,,,,,2004,,100,STORAGE BUILDING,50346,553,10424,,1,SPI
 KVSP-554,KVSP,554,Work Zone Food Serv Sat (4),building,,,,,,,,,,2004,,2800,DINING/CAFETERIA,50341,554,10424,,1,SPI
-KVSP-555,KVSP,555,Vocational Education - D Yard,building,,,,,,,,,,2004,,13580,CLASSROOM,50377,555,10424,,1,SPI
-KVSP-556,KVSP,556,Vocational Education - D Yard,building,,,,,,,,,,2004,,10150,CLASSROOM,50378,556,10424,,1,SPI
+KVSP-555,KVSP,555,Vocational Education - D Yard,building,,,D Yard,SPI name,,,,,,2004,,13580,CLASSROOM,50377,555,10424,,1,SPI
+KVSP-556,KVSP,556,Vocational Education - D Yard,building,,,D Yard,SPI name,,,,,,2004,,10150,CLASSROOM,50378,556,10424,,1,SPI
 KVSP-557,KVSP,557,Library/Media/Aic,building,,,,,,,,,,2004,,5111,LIBRARY,50359,557,10424,,1,SPI
 KVSP-558,KVSP,558,Work Change (5),building,,,,,,,,,,2004,,629,WORK CHANGE,50355,558,10424,,1,SPI
-KVSP-559,KVSP,559,Academic Education - D Yard,building,,,,,,,,,,2004,,11760,CLASSROOM,50379,559,10424,,1,SPI
+KVSP-559,KVSP,559,Academic Education - D Yard,building,,,D Yard,SPI name,,,,,,2004,,11760,CLASSROOM,50379,559,10424,,1,SPI
 KVSP-563,KVSP,563,Volatile Storage Warehouse,building,,,,,,,,,,2004,,880,STORAGE BUILDING,50342,563,10424,,1,SPI
 KVSP-6,KVSP,6,,building,,,,,,,housing,,,,,,,,,,,2,coleman_ecf8558-1_heat_report_exhibits_2025-02-28;coleman_ecf8558_31st_round_heat_report_2025-02-28
 KVSP-605,KVSP,605,Water Booster Pump Station,building,,,,,,,,,,2004,,700,PUMP/WELL HOUSE,51180,605,10424,,1,SPI
@@ -2176,45 +2176,45 @@ LAC-431,LAC,431,A Satilite Kitchen,building,,,,,,,,,,1992,,12885,KITCHEN,43596,4
 LAC-432,LAC,432,A Program & Services,building,,,,,,,,,,1992,,24640,OFFICE (INSTITUTIONAL),43597,432,9474,,1,SPI
 LAC-433,LAC,433,Central Operations,building,,,,,,,,,,1992,,6163,OFFICE (INSTITUTIONAL),43598,433,9474,,1,SPI
 LAC-434,LAC,434,A & B Visition / Central Operations,building,,,,,,,,,,1992,,19904,VISITATION FACILITY,43599,434,9474,,1,SPI
-LAC-435,LAC,435,B Yard Gym,building,,,,,,,,,,1992,,7397,GYMNASIUM,43600,435,9474,,1,SPI
+LAC-435,LAC,435,B Yard Gym,building,,,B Yard,SPI name,LAC-B,,,,,1992,,7397,GYMNASIUM,43600,435,9474,,1,SPI
 LAC-436,LAC,436,B Program & Services,building,,,,,,,,,,1992,,24640,OFFICE (INSTITUTIONAL),43601,436,9474,,1,SPI
 LAC-437,LAC,437,B Satilite Kitchen,building,,,,,,,,,,1992,,12885,KITCHEN,43602,437,9474,,1,SPI
 LAC-441,LAC,441,C Satilite Kitchen,building,,,,,,,,,,1992,,12885,KITCHEN,43603,441,9474,,1,SPI
 LAC-442,LAC,442,C Program & Services,building,,,,,,,,,,1992,,17453,OFFICE (INSTITUTIONAL),43604,442,9474,,1,SPI
-LAC-443,LAC,443,C Yard Gym,building,,,,,,,,,,1992,,7397,GYMNASIUM,43605,443,9474,,1,SPI
+LAC-443,LAC,443,C Yard Gym,building,,,C Yard,SPI name,,,,,,1992,,7397,GYMNASIUM,43605,443,9474,,1,SPI
 LAC-444,LAC,444,C & D Visiting / Bd Of Prison Terms,building,,,,,,,,,,1992,,17584,OFFICE (INSTITUTIONAL),43606,444,9474,,1,SPI
 LAC-444A,LAC,444A,Mental Health Building,building,,,,,,,,,,2002,,6760,HOSPITAL/CLINIC/TREATMENT CENTER,55775,444A,9474,,1,SPI
-LAC-445,LAC,445,D Yard Gym,building,,,,,,,,,,1992,,7397,GYMNASIUM,43607,445,9474,,1,SPI
+LAC-445,LAC,445,D Yard Gym,building,,,D Yard,SPI name,,,,,,1992,,7397,GYMNASIUM,43607,445,9474,,1,SPI
 LAC-446,LAC,446,D Program & Services,building,,,,,,,,,,1992,,17453,OFFICE (INSTITUTIONAL),43608,446,9474,,1,SPI
 LAC-447,LAC,447,D Satilite Kitchen,building,,,,,,,,,,1992,,12885,KITCHEN,43609,447,9474,,1,SPI
 LAC-450,LAC,450,Receiving & Release,building,,,,,,,,,,1992,,4965,OFFICE (INSTITUTIONAL),43610,450,9474,,1,SPI
 LAC-451,LAC,451,Correctional Treatment Center,building,,,,,,,,,,1990,,20070,HOSPITAL/CLINIC/TREATMENT CENTER,39991,451,9474,,1,SPI
 LAC-451A,LAC,451A,Corr. Treatment Center (Medical),building,,,,,,,,,,1992,,2160,HOSPITAL/CLINIC/TREATMENT CENTER,43661,451 A,9474,,1,SPI
 LAC-495,LAC,495,Armory & Locksmith,building,,,,,,,,,,1992,,1720,ARMORY,43612,495,9474,,1,SPI
-LAC-501,LAC,501,A-Yard P.I.A. Laundry,building,,,,,,,,,,1992,,20150,LAUNDRY,43613,501,9474,,1,SPI
-LAC-502,LAC,502,B Yard Voc. / Education,building,,,,,,,,,,1992,,33460,CLASSROOM,43614,502,9474,,1,SPI
-LAC-503,LAC,503,C Yard P.I.A. Asmin.,building,,,,,,,,,,1992,,20000,OFFICE (INSTITUTIONAL),43615,503,9474,,1,SPI
-LAC-504,LAC,504,C Yard P.I.A. Detergent,building,,,,,,,,,,1992,,20000,OFFICE (INSTITUTIONAL),43616,504,9474,,1,SPI
-LAC-505,LAC,505,D Yard P.I.A. Printing,building,,,,,,,,,,1992,,20400,OFFICE (INSTITUTIONAL),43617,505,9474,,1,SPI
-LAC-521,LAC,521,A Yard Voc. / Education,building,,,,,,,,,,1992,,28420,CLASSROOM,43618,521,9474,,1,SPI
-LAC-522,LAC,522,B Yard Voc. / Education,building,,,,,,,,,,1992,,22680,CLASSROOM,43619,522,9474,,1,SPI
-LAC-523,LAC,523,C Yard Voc. / Education,building,,,,,,,,,,1992,,26460,CLASSROOM,43620,523,9474,,1,SPI
+LAC-501,LAC,501,A-Yard P.I.A. Laundry,building,,,A-Yard,SPI name,,,,,,1992,,20150,LAUNDRY,43613,501,9474,,1,SPI
+LAC-502,LAC,502,B Yard Voc. / Education,building,,,B Yard,SPI name,LAC-B,,,,,1992,,33460,CLASSROOM,43614,502,9474,,1,SPI
+LAC-503,LAC,503,C Yard P.I.A. Asmin.,building,,,C Yard,SPI name,,,,,,1992,,20000,OFFICE (INSTITUTIONAL),43615,503,9474,,1,SPI
+LAC-504,LAC,504,C Yard P.I.A. Detergent,building,,,C Yard,SPI name,,,,,,1992,,20000,OFFICE (INSTITUTIONAL),43616,504,9474,,1,SPI
+LAC-505,LAC,505,D Yard P.I.A. Printing,building,,,D Yard,SPI name,,,,,,1992,,20400,OFFICE (INSTITUTIONAL),43617,505,9474,,1,SPI
+LAC-521,LAC,521,A Yard Voc. / Education,building,,,A Yard,SPI name,,,,,,1992,,28420,CLASSROOM,43618,521,9474,,1,SPI
+LAC-522,LAC,522,B Yard Voc. / Education,building,,,B Yard,SPI name,LAC-B,,,,,1992,,22680,CLASSROOM,43619,522,9474,,1,SPI
+LAC-523,LAC,523,C Yard Voc. / Education,building,,,C Yard,SPI name,,,,,,1992,,26460,CLASSROOM,43620,523,9474,,1,SPI
 LAC-523A,LAC,523A,Ada/Fire Personnel,building,,,,,,,,,,,,1440,RELOCATABLE MEDICAL FACILITY,1054,523A,9474,,1,SPI
-LAC-524,LAC,524,D Yard Voc. / Education,building,,,,,,,,,,1992,,27335,CLASSROOM,43621,524,9474,,1,SPI
-LAC-531,LAC,531,A - Yard Voc. Dining Hall,building,,,,,,,,,,1992,,3969,DINING/CAFETERIA,43622,531,9474,,1,SPI
-LAC-532,LAC,532,B - Yard Voc. Dining Hall,building,,,,,,,,,,1992,,3969,DINING/CAFETERIA,43623,532,9474,,1,SPI
-LAC-533,LAC,533,C - Yard Voc. Dining Hall,building,,,,,,,,,,1992,,3969,DINING/CAFETERIA,43624,533,9474,,1,SPI
+LAC-524,LAC,524,D Yard Voc. / Education,building,,,D Yard,SPI name,,,,,,1992,,27335,CLASSROOM,43621,524,9474,,1,SPI
+LAC-531,LAC,531,A - Yard Voc. Dining Hall,building,,,A - Yard,SPI name,,,,,,1992,,3969,DINING/CAFETERIA,43622,531,9474,,1,SPI
+LAC-532,LAC,532,B - Yard Voc. Dining Hall,building,,,B - Yard,SPI name,LAC-B,,,,,1992,,3969,DINING/CAFETERIA,43623,532,9474,,1,SPI
+LAC-533,LAC,533,C - Yard Voc. Dining Hall,building,,,C - Yard,SPI name,,,,,,1992,,3969,DINING/CAFETERIA,43624,533,9474,,1,SPI
 LAC-534,LAC,534,Eop Treatment Facility,building,,,,,,,,,,2014,,14257,HOSPITAL/CLINIC/TREATMENT CENTER,57091,534,9474,,1,SPI
 LAC-551,LAC,551,Central Plant Operations,building,,,,,,,,,,1992,,8100,OFFICE (INSTITUTIONAL),43626,551,9474,,1,SPI
-LAC-552,LAC,552,B Yard Satilite Maintenance,building,,,,,,,,,,1992,,2550,STORAGE BUILDING,43627,552,9474,,1,SPI
+LAC-552,LAC,552,B Yard Satilite Maintenance,building,,,B Yard,SPI name,LAC-B,,,,,1992,,2550,STORAGE BUILDING,43627,552,9474,,1,SPI
 LAC-553,LAC,553,Weilding & Cehicle Maintenance,building,,,,,,,,,,1992,,5772,SERVICE STATION,43628,553,9474,,1,SPI
-LAC-554,LAC,554,C Yard Satilite Maintenance,building,,,,,,,,,,1992,,2550,STORAGE BUILDING,43629,554,9474,,1,SPI
-LAC-555,LAC,555,D Yard Satilite Maintenance,building,,,,,,,,,,1992,,2550,STORAGE BUILDING,43630,555,9474,,1,SPI
+LAC-554,LAC,554,C Yard Satilite Maintenance,building,,,C Yard,SPI name,,,,,,1992,,2550,STORAGE BUILDING,43629,554,9474,,1,SPI
+LAC-555,LAC,555,D Yard Satilite Maintenance,building,,,D Yard,SPI name,,,,,,1992,,2550,STORAGE BUILDING,43630,555,9474,,1,SPI
 LAC-555A,LAC,555A,Substance Abuse Program (Medical),building,,,,,,,,,,1999,,4320,RELOCATABLE MEDICAL FACILITY,4662,555 A,9474,,1,SPI
-LAC-561,LAC,561,A Yard Work Change,building,,,,,,,,,,1992,,625,WORK CHANGE,43631,561,9474,,1,SPI
-LAC-562,LAC,562,B Yard Work Change,building,,,,,,,,,,1992,,625,WORK CHANGE,43632,562,9474,,1,SPI
-LAC-563,LAC,563,C Yard Work Change,building,,,,,,,,,,1992,,625,WORK CHANGE,43633,563,9474,,1,SPI
-LAC-564,LAC,564,D Yard Work Change,building,,,,,,,,,,1992,,625,WORK CHANGE,43634,564,9474,,1,SPI
+LAC-561,LAC,561,A Yard Work Change,building,,,A Yard,SPI name,,,,,,1992,,625,WORK CHANGE,43631,561,9474,,1,SPI
+LAC-562,LAC,562,B Yard Work Change,building,,,B Yard,SPI name,LAC-B,,,,,1992,,625,WORK CHANGE,43632,562,9474,,1,SPI
+LAC-563,LAC,563,C Yard Work Change,building,,,C Yard,SPI name,,,,,,1992,,625,WORK CHANGE,43633,563,9474,,1,SPI
+LAC-564,LAC,564,D Yard Work Change,building,,,D Yard,SPI name,,,,,,1992,,625,WORK CHANGE,43634,564,9474,,1,SPI
 LAC-565,LAC,565,A - Volatile Storage,building,,,,,,,,,,1992,,100,STORAGE,43635,565,9474,,1,SPI
 LAC-567,LAC,567,B - Volatile Storage,building,,,,,,,,,,1992,,100,STORAGE,43636,567,9474,,1,SPI
 LAC-568,LAC,568,C - Volatile Storage - P.I.A.,building,,,,,,,,,,1992,,100,STORAGE,43637,568,9474,,1,SPI
@@ -2398,10 +2398,10 @@ NKSP-611,NKSP,611,Entry Gate,building,,,,,,,,,,1991,,128,LOOKOUT (GUARD STATION)
 NKSP-612,NKSP,612,Switchgear / Emergency Generator,building,,,,,,,,,,1991,,2340,UTILITY,43514,612,9648,,1,SPI
 NKSP-613,NKSP,613,Service Yard Gate,building,,,,,,,,,,1991,,128,LOOKOUT (GUARD STATION),43515,613,9648,,1,SPI
 NKSP-614,NKSP,614,Hub Transportation Armory,building,,,,,,,,,,1991,,110,ARMORY,43497,614,9648,,1,SPI
-NKSP-651,NKSP,651,Facitlty B Yard Toilet,building,,,,,,,,,,1991,,130,COMFORT STATION/RESTROOMS/LAVATORIES,43490,651,9648,,1,SPI
-NKSP-652,NKSP,652,Facitlty C Yard Toilet,building,,,,,,,,,,1991,,130,COMFORT STATION/RESTROOMS/LAVATORIES,43491,652,9648,,1,SPI
-NKSP-653,NKSP,653,Facitlty D Yard Toilet,building,,,,,,,,,,1991,,130,COMFORT STATION/RESTROOMS/LAVATORIES,43492,653,9648,,1,SPI
-NKSP-654,NKSP,654,Facitlty A Yard Toilet,building,,,,,,,,,,1991,,130,COMFORT STATION/RESTROOMS/LAVATORIES,43493,654,9648,,1,SPI
+NKSP-651,NKSP,651,Facitlty B Yard Toilet,building,,,B Yard,SPI name,,,,,,1991,,130,COMFORT STATION/RESTROOMS/LAVATORIES,43490,651,9648,,1,SPI
+NKSP-652,NKSP,652,Facitlty C Yard Toilet,building,,,C Yard,SPI name,,,,,,1991,,130,COMFORT STATION/RESTROOMS/LAVATORIES,43491,652,9648,,1,SPI
+NKSP-653,NKSP,653,Facitlty D Yard Toilet,building,,,D Yard,SPI name,,,,,,1991,,130,COMFORT STATION/RESTROOMS/LAVATORIES,43492,653,9648,,1,SPI
+NKSP-654,NKSP,654,Facitlty A Yard Toilet,building,,,A Yard,SPI name,,,,,,1991,,130,COMFORT STATION/RESTROOMS/LAVATORIES,43493,654,9648,,1,SPI
 NKSP-655,NKSP,655,20 Small Management Exercise Yards,other structure,,,,,,,,,,2009,,3000,SMALL MANAGEMENT EXERCISE YARDS,51568,655,9648,,1,SPI
 NKSP-700,NKSP,700,Mental Health Modular,building,,,,,,,,,,1997,,2160,RELOCATABLE OFFICE,498,700,9648,,1,SPI
 NKSP-701,NKSP,701,Reception Center Services,building,,,,,,,,,,1991,,34619,OFFICE (INSTITUTIONAL),43510,701,9648,,1,SPI
@@ -3506,9 +3506,9 @@ VSP-812,VSP,812,Bldg 812 - Armory/Locksmith,building,,,,,,,,,,1995,,1721,ARMORY,
 VSP-central-kitchen,VSP,,Central Kitchen,building,,,,,,,kitchen,,,,,,,,,,,2,MPAR2024:P-2223-00031;MPAR2025:P-2526-00142
 VSP-spi50450,VSP,,Inmate Restroom Yard Toilets (Sec. 6.00),building,,,,,,,,,,2006,,500,COMFORT STATION/RESTROOMS/LAVATORIES,50450,,10103,,1,SPI
 VSP-spi51577,VSP,,9 Small Management Exercise Yards,other structure,,,,,,,,,,2009,,1350,SMALL MANAGEMENT EXERCISE YARDS,51577,,10103,,1,SPI
-VSP-spi55783,VSP,,B-Yard Inmate Restroom,building,,,,,,,,,,2014,,791,COMBINATION RESTROOM,55783,,10103,,1,SPI
-VSP-spi55784,VSP,,C-Yard Inmate Restroom,building,,,,,,,,,,2014,,791,COMBINATION RESTROOM,55784,,10103,,1,SPI
-VSP-spi55785,VSP,,D-Yard Inmate Restroom,building,,,,,,,,,,2014,,791,COMBINATION RESTROOM,55785,,10103,,1,SPI
+VSP-spi55783,VSP,,B-Yard Inmate Restroom,building,,,B-Yard,SPI name,VSP-B,,,,,2014,,791,COMBINATION RESTROOM,55783,,10103,,1,SPI
+VSP-spi55784,VSP,,C-Yard Inmate Restroom,building,,,C-Yard,SPI name,VSP-C,,,,,2014,,791,COMBINATION RESTROOM,55784,,10103,,1,SPI
+VSP-spi55785,VSP,,D-Yard Inmate Restroom,building,,,D-Yard,SPI name,VSP-D,,,,,2014,,791,COMBINATION RESTROOM,55785,,10103,,1,SPI
 VSP-water-treatment-building,VSP,,water treatment building,building,,,,,,,plant,,,,,,,,,,,4,December2025QuarterlyReport-ADAFinal;June2026QuarterlyReport-ADA;March2026QuarterlyReport-ADA;September_2025_Quarterly_Report-ADA
 WSP-101,WSP,101,Casa De Rosas/Center Force,building,,,,,,,,,,1991,,940,CONFERENCE ROOM,37710,BUILDING 101,9647,,1,SPI
 WSP-115,WSP,115,Health And Safety / Community Resources,building,,,,,,,,,,1998,,1178,OFFICE (INSTITUTIONAL),39502,BUILDING #115,9647,,1,SPI
