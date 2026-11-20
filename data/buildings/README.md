@@ -1,6 +1,6 @@
 # Buildings
 
-Capital projects, condition ratings, institution profiles, the state property inventory, building heights and footprints, and every place a source names a building.
+Capital project logs, condition ratings, institution profiles, the state property inventory, building heights and footprints.
 
 ## Files
 
@@ -15,15 +15,6 @@ Capital projects, condition ratings, institution profiles, the state property in
 | `condition_assessment_rank_2026.csv` | An institution: overall rank, 1 (worst) to 31 (best) | May 2026 | Same, p. 1 |
 | `spi_cdcr_structures.csv` | A CDCR structure in the state property inventory, with its identifiers as entered | Oct 6, 2026 | DGS Statewide Property Inventory (SPI) |
 | `building_mentions.csv` | A place a source names a building or housing unit | Various | MPARs, Capital Outlay Quarterly Reports, PREA audits, CDCR web pages, court filings |
-
-## Caveats
-
-- Condition ratings were assigned by each institution's plant operations staff, not through a formal facility condition assessment. Each rating covers the whole institution, and the rank is weighted by each system's operational impact.
-- SPI has no beds or capacity, and at some institutions has no building numbers or lists several buildings as one record.
-- A mention joins an SPI structure when the building numbers match (ignoring hyphens, spaces, and leading zeros), when it matches a housing unit SPI names on the same row, or when its name matches an SPI structure name unique at the institution. Otherwise mentions merge only when they use the same number or name, so one building can still appear under two keys. Wings and sides of a building are kept separate from the building.
-- Coverage of the inventory's fields varies widely between institutions.
-- For `building_heights.csv` and `building_footprints.geojson`, roof heights (feet above surrounding ground) come from USGS 3DEP EPT LiDAR calibrated against 3–15 m surrounding ground rings and 1 m eroded roof interiors, reconciled with Overture Maps and LiDAR/NAIP residual scans inside HIFLD/RAPT prison boundaries (`2,033` structures across 34 institutions, including closed facilities `CAC`, `CVSP`, and `FWF`). Source polygons with zero LiDAR roof returns and no standing structure visible in 2024 NAIP imagery (`80` polygons), plus one non-occupied utility apron (`ASP-fp-024`), are excluded.
-- Two post-LiDAR yard/sallyport canopies (`CAC-fp-007` and `KVSP-fp-049`) are retained as `building_category = canopy` with blank `stories` (`story_confidence = indeterminate`). One library/chapel/gym building (`VSP-fp-023`) fell in a LiDAR tile void so its height percentiles remain blank, while its `1`-story assignment (`story_confidence = medium`) is derived from matching SPI structure `43778` (`BLDG 407 - Library/Chapel/Gym`) and visual inspection of 2024 NAIP imagery.
 
 ## Fields
 
