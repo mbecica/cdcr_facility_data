@@ -1659,11 +1659,10 @@ CVSP-spi51559,CVSP,,20 Small Management Exercise Yards,other structure,,,,,,,,,,
 CVSP-spi57614,CVSP,,Ev Charging Stations (10-Level 2 Ports),other structure,,,,,,,,,,2020,,0,ELECTRIC VEHICLE CHARGING STATION,57614,,9288,,1,SPI
 FOL-1,FOL,1,,building,,,,,,,,,,,,,,,,,,2,Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
 FOL-2,FOL,2,,building,,,,,,,,,,,,,,,,,,1,September2021QuarterlyReport-ADA
-FOL-4,FOL,4,,building,,,,,,,,ASU,,,,,,,,,,1,MPAR2022:P-1718-00123
 FOL-C02,FOL,C02,Main Kitchen And Minimum Kitchen,building,,,,,,,,,,1894,,34533,DINING/CAFETERIA,14662,C02,39,,1,SPI
 FOL-H01,FOL,H01,Cell Block#1;Cell Block 1,building,,,,,,,housing,,,1908,,83850,DORMITORY,14721,H01,39,,3,SPI;MPAR2022:P-2122-00138;plata_ecf3952-1_cms_exhibits_2025-03-10
 FOL-H02/H03,FOL,H02/H03,Cell Blocks#2&#3 And Hospital Admin Bldg,building,H02;H03,,,,,several buildings,housing,,,1931,,194900,DORMITORY,14664,"H02, H03",39,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
-FOL-H04,FOL,H04,Cell Block #4,building,,,,,,,housing,,,1951,,33309,DORMITORY,50532,H04,39,,2,SPI;plata_ecf3952-1_cms_exhibits_2025-03-10
+FOL-H04,FOL,H04,Cell Block #4,building,4,,,,,,housing,ASU,,1951,,33309,DORMITORY,50532,H04,39,,3,SPI;MPAR2022:P-1718-00123;plata_ecf3952-1_cms_exhibits_2025-03-10
 FOL-H05,FOL,H05,,building,,,,,,,housing,,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 FOL-H100,FOL,H100,,building,,,,,,,housing,,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
 FOL-H200,FOL,H200,,building,,,,,,,housing,,,,,,,,,,,1,plata_ecf3952-1_cms_exhibits_2025-03-10
@@ -1845,7 +1844,6 @@ HDSP-451,HDSP,451,D Facilities Program/Support Services,building,,,,,,,,,,1995,,
 HDSP-452,HDSP,452,"Gymnasium, D Fac.",building,,,,,,,,,,1995,,7395,GYMNASIUM,38105,KITCHELL- 452 BLDG.,9982,,1,SPI
 HDSP-453,HDSP,453,"Gun Post, D Yard",building,,,,,,,,,,1995,,396,LOOKOUT (GUARD STATION),38106,KITCHELL- 453 BLDG.,9982,,1,SPI
 HDSP-454,HDSP,454,"Gun Post, D Yard",building,,,,,,,,,,1995,,396,LOOKOUT (GUARD STATION),38107,KITCHELL- 454 BLDG.,9982,,1,SPI
-HDSP-455,HDSP,455,,building,,,,,,,housing,,,,,,,,,,,2,MPAR2024:P-2324-00144;MPAR2025:P-2021-00058
 HDSP-460,HDSP,460,Receiving And Release,building,,,,,,,,,,1995,,5585,OFFICE (INSTITUTIONAL),38108,KITCHELL- 460 BLDG.,9982,,1,SPI
 HDSP-461,HDSP,461,Central Health Services,building,,,,,,,health_care,,,1995,,34000,HOSPITAL/CLINIC/TREATMENT CENTER,38109,KITCHELL- 461 BLDG.,9982,,3,SPI;Sep_2020_Quarterly-ADA_Final;September2021QuarterlyReport-ADA
 HDSP-462,HDSP,462,Central Kitchen,building,,,,,,,,,,1995,,20740,KITCHEN,38110,KITCHELL- 462 BLDG.,9982,,1,SPI
@@ -1910,7 +1908,7 @@ HDSP-spi39540,HDSP,,Well A,building,,,,,,,,,,1995,,480,PUMP/WELL HOUSE,39540,,99
 HDSP-spi39541,HDSP,,Well B,building,,,,,,,,,,1995,,480,PUMP/WELL HOUSE,39541,,9982,,1,SPI
 HDSP-spi39542,HDSP,,Well C,building,,,,,,,,,,1995,,480,PUMP/WELL HOUSE,39542,,9982,,1,SPI
 HDSP-spi39543,HDSP,,Friends Outside Office,building,,,,,,,,,,1997,,1440,RELOCATABLE OFFICE,39543,,9982,,1,SPI
-HDSP-spi50401,HDSP,,Administrative Segregation Housing Unit,building,,,,,,,,,,2003,,25204,DORMITORY,50401,,9982,,1,SPI
+HDSP-spi50401,HDSP,,Administrative Segregation Housing Unit,building,455,,,,,,housing,,,2003,,25204,DORMITORY,50401,,9982,,3,SPI;MPAR2024:P-2324-00144;MPAR2025:P-2021-00058
 HDSP-spi51564,HDSP,,6 Ad Seg Small Management Yards,other structure,,,,,,,,,,2008,,900,SMALL MANAGEMENT EXERCISE YARDS,51564,,9982,,1,SPI
 HDSP-spi51565,HDSP,,Arsenic Removal Facility,other structure,,,,,,,,,,2008,,4240,WATER MONITORING STATION,51565,,9982,,1,SPI
 HDSP-spi55015,HDSP,,Well House For Well #217,building,,,,,,,,,,2011,,288,PUMP/WELL HOUSE,55015,,9982,,1,SPI

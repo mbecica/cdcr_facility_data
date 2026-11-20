@@ -192,11 +192,20 @@ def lookups(s: pd.DataFrame) -> dict:
 # Coleman's "housing unit B7" and "Facility B6" are units 7 and 6 on Facility B.
 NO_SPI_JOIN = {("MCSP", "B6"), ("MCSP", "B7")}
 
+# Mention IDs that name an SPI structure SPI doesn't number that way (user, link
+# review Nov 19 2026). HDSP: MPAR "Buildings 351 and 455; Housing and
+# Administrative Segregation Unit" = SPI 50401 "Administrative Segregation Housing
+# Unit" (no agency number). FOL: MPAR "Building 4" (ASU medication room) = SPI H04
+# "Cell Block #4" (Unit 4 is the ASU).
+SAME_BUILDING = {("HDSP", "455"): "HDSP-spi50401", ("FOL", "4"): "FOL-H04"}
+
 
 def mention_key(row, look: dict) -> str:
     c = row["cdcr_code"]
     if row["placeholder_id"]:
         return f"{c}-ph-{row['placeholder_id']}"
+    if (c, row["building"]) in SAME_BUILDING:
+        return SAME_BUILDING[(c, row["building"])]
     if (c, row["building"]) in NO_SPI_JOIN:
         return f"{c}-unit-{row['building']}"
     if row["building"]:
