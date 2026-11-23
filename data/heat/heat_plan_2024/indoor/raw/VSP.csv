@@ -16755,6 +16755,14 @@ VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Mon,8/5/24,2024-08-05,
 VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Mon,8/5/24,2024-08-05,written,1800,,80,80,clear,,two_reads_agree
 VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Mon,8/5/24,2024-08-05,written,2100,,79,79,clear,,two_reads_agree
 VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Mon,8/5/24,2024-08-05,written,2400,,76,76,clear,,two_reads_agree
+VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-06,user,0300,,74,74,clear,,two_reads_agree
+VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-06,user,0600,,72,72,clear,,two_reads_agree_after_doubt
+VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-06,user,0900,,74|79,74,ambiguous,79,two_reads_agree
+VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-06,user,1200,,76,76,clear,,two_reads_agree
+VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-06,user,1500,,79,79,clear,,two_reads_agree
+VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-06,user,1800,,79,79,clear,,two_reads_agree
+VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-06,user,2100,,78,78,clear,,two_reads_agree
+VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-06,user,2400,,76,76,clear,,two_reads_agree
 VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Wed,8/7/24,2024-08-07,written,0300,,76,76,clear,,two_reads_agree
 VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Wed,8/7/24,2024-08-07,written,0600,,75,75,clear,,two_reads_agree
 VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Wed,8/7/24,2024-08-07,written,0900,,76,76,clear,,two_reads_agree
@@ -16795,14 +16803,6 @@ VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Sun,8/11/24,2024-08-11
 VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Sun,8/11/24,2024-08-11,written,1800,,79,79,clear,,two_reads_agree
 VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Sun,8/11/24,2024-08-11,written,2100,,77,77,clear,,two_reads_agree
 VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Sun,8/11/24,2024-08-11,written,2400,,75,75,clear,,two_reads_agree
-VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-20,written,0300,,74,74,clear,,two_reads_agree
-VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-20,written,0600,,72,72,clear,,two_reads_agree_after_doubt
-VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-20,written,0900,,74|79,74,ambiguous,79,two_reads_agree
-VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-20,written,1200,,76,76,clear,,two_reads_agree
-VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-20,written,1500,,79,79,clear,,two_reads_agree
-VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-20,written,1800,,79,79,clear,,two_reads_agree
-VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-20,written,2100,,78,78,clear,,two_reads_agree
-VSP_MSR_0824,82,VSP,"D1 / A, B, C, D, Day Room",cdcr_2031,Tue,8/20/24,2024-08-20,written,2400,,76,76,clear,,two_reads_agree
 VSP_MSR_0824,83,VSP,D-2 / A B C D D.R.,cdcr_2031,Mon,8/5/24,2024-08-05,written,0300,,75,75,clear,,two_reads_agree
 VSP_MSR_0824,83,VSP,D-2 / A B C D D.R.,cdcr_2031,Mon,8/5/24,2024-08-05,written,0600,,74,74,clear,,two_reads_agree
 VSP_MSR_0824,83,VSP,D-2 / A B C D D.R.,cdcr_2031,Mon,8/5/24,2024-08-05,written,0900,,71,71,clear,,two_reads_agree

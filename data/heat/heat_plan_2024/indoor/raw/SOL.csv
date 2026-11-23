@@ -2327,62 +2327,6 @@ SOL_MSR_0524,74,SOL,CSP-SOL 18 / Behind Officers Podium,cdcr_2031,Sun,5/19/24,20
 SOL_MSR_0524,74,SOL,CSP-SOL 18 / Behind Officers Podium,cdcr_2031,Sun,5/19/24,2024-05-19,written,1500,,70,70,clear,,two_reads_agree
 SOL_MSR_0524,74,SOL,CSP-SOL 18 / Behind Officers Podium,cdcr_2031,Sun,5/19/24,2024-05-19,written,1800,,70,70,clear,,two_reads_agree
 SOL_MSR_0524,74,SOL,CSP-SOL 18 / Behind Officers Podium,cdcr_2031,Sun,5/19/24,2024-05-19,written,2100,,70,70,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Mon,5/27/24,2024-05-27,written,0000,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Mon,5/27/24,2024-05-27,written,0300,,77.3,77.3,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Mon,5/27/24,2024-05-27,written,0600,,75,75,clear,,dispute_decided
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Mon,5/27/24,2024-05-27,written,0900,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Mon,5/27/24,2024-05-27,written,1200,,77,77,clear,,dispute_decided
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Mon,5/27/24,2024-05-27,written,1500,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Mon,5/27/24,2024-05-27,written,1800,,75,75,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Mon,5/27/24,2024-05-27,written,2100,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Tue,5/28/24,2024-05-28,written,0000,,75,75,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Tue,5/28/24,2024-05-28,written,0300,,75,75,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Tue,5/28/24,2024-05-28,written,0600,,75,75,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Tue,5/28/24,2024-05-28,written,0900,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Tue,5/28/24,2024-05-28,written,1200,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Tue,5/28/24,2024-05-28,written,1500,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Tue,5/28/24,2024-05-28,written,1800,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Tue,5/28/24,2024-05-28,written,2100,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Wed,5/29/24,2024-05-29,written,0000,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Wed,5/29/24,2024-05-29,written,0300,,75,75,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Wed,5/29/24,2024-05-29,written,0600,,75,75,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Wed,5/29/24,2024-05-29,written,0900,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Wed,5/29/24,2024-05-29,written,1200,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Wed,5/29/24,2024-05-29,written,1500,,77,77,clear,,dispute_decided
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Wed,5/29/24,2024-05-29,written,1800,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Wed,5/29/24,2024-05-29,written,2100,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Thu,5/30/24,2024-05-30,written,0000,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Thu,5/30/24,2024-05-30,written,0300,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Thu,5/30/24,2024-05-30,written,0600,,76,76,clear,,dispute_decided
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Thu,5/30/24,2024-05-30,written,0900,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Thu,5/30/24,2024-05-30,written,1200,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Thu,5/30/24,2024-05-30,written,1500,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Thu,5/30/24,2024-05-30,written,1800,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Thu,5/30/24,2024-05-30,written,2100,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Fri,5/31/24,2024-05-31,written,0000,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Fri,5/31/24,2024-05-31,written,0300,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Fri,5/31/24,2024-05-31,written,0600,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Fri,5/31/24,2024-05-31,written,0900,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Fri,5/31/24,2024-05-31,written,1200,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Fri,5/31/24,2024-05-31,written,1500,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Fri,5/31/24,2024-05-31,written,1800,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Fri,5/31/24,2024-05-31,written,2100,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,0000,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,0300,,75,75,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,0600,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,0900,,76,76,clear,,dispute_decided
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,1200,,78,78,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,1500,,78,78,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,1800,,76,76,clear,,dispute_decided
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sat,6/1/24,2024-06-01,written,2100,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sun,?,2024-06-02,calendar,0000,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sun,?,2024-06-02,calendar,0300,,77,77,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sun,?,2024-06-02,calendar,0600,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sun,?,2024-06-02,calendar,0900,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sun,?,2024-06-02,calendar,1200,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sun,?,2024-06-02,calendar,1500,,76,76,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sun,?,2024-06-02,calendar,1800,,75,75,clear,,two_reads_agree
-SOL_MSR_0524,85,SOL,RHU 10 / 2nd Tier,cdcr_2031,Sun,?,2024-06-02,calendar,2100,,75,75,clear,,two_reads_agree
 SOL_MSR_0524,86,SOL,13 / 2 Tier,cdcr_2031,Mon,05/27/24,2024-05-27,written,0300,,71,71,clear,,two_reads_agree
 SOL_MSR_0524,86,SOL,13 / 2 Tier,cdcr_2031,Mon,05/27/24,2024-05-27,written,0600,,65,65,clear,,dispute_decided
 SOL_MSR_0524,86,SOL,13 / 2 Tier,cdcr_2031,Mon,05/27/24,2024-05-27,written,0900,,72,72,clear,,dispute_decided
@@ -8254,62 +8198,6 @@ SOL_MSR_0624,46,SOL,CSP-SOL / 17 / behind Officer Podium,cdcr_2031,Sun,6/30/2024
 SOL_MSR_0624,46,SOL,CSP-SOL / 17 / behind Officer Podium,cdcr_2031,Sun,6/30/2024,2024-06-30,written,1500,,79,79,clear,,two_reads_agree
 SOL_MSR_0624,46,SOL,CSP-SOL / 17 / behind Officer Podium,cdcr_2031,Sun,6/30/2024,2024-06-30,written,1800,,82,82,clear,,two_reads_agree
 SOL_MSR_0624,46,SOL,CSP-SOL / 17 / behind Officer Podium,cdcr_2031,Sun,6/30/2024,2024-06-30,written,2100,,80,80,clear,,researcher_review
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Mon,6/24,2024-06-24,written,0000,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Mon,6/24,2024-06-24,written,0300,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Mon,6/24,2024-06-24,written,0600,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Mon,6/24,2024-06-24,written,0900,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Mon,6/24,2024-06-24,written,1200,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Mon,6/24,2024-06-24,written,1500,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Mon,6/24,2024-06-24,written,1800,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Mon,6/24,2024-06-24,written,2100,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Tue,6/25,2024-06-25,written,0000,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Tue,6/25,2024-06-25,written,0300,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Tue,6/25,2024-06-25,written,0600,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Tue,6/25,2024-06-25,written,0900,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Tue,6/25,2024-06-25,written,1200,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Tue,6/25,2024-06-25,written,1500,,76,76,clear,,two_reads_agree_after_doubt
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Tue,6/25,2024-06-25,written,1800,,76,76,clear,,two_reads_agree_after_doubt
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Tue,6/25,2024-06-25,written,2100,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Wed,6/26,2024-06-26,written,0000,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Wed,6/26,2024-06-26,written,0300,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Wed,6/26,2024-06-26,written,0600,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Wed,6/26,2024-06-26,written,0900,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Wed,6/26,2024-06-26,written,1200,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Wed,6/26,2024-06-26,written,1500,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Wed,6/26,2024-06-26,written,1800,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Wed,6/26,2024-06-26,written,2100,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Thu,6/27,2024-06-27,written,0000,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Thu,6/27,2024-06-27,written,0300,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Thu,6/27,2024-06-27,written,0600,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Thu,6/27,2024-06-27,written,0900,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Thu,6/27,2024-06-27,written,1200,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Thu,6/27,2024-06-27,written,1500,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Thu,6/27,2024-06-27,written,1800,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Thu,6/27,2024-06-27,written,2100,,75,75,clear,,dispute_decided
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Fri,6/28,2024-06-28,written,0000,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Fri,6/28,2024-06-28,written,0300,,74,74,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Fri,6/28,2024-06-28,written,0600,,74,74,clear,,two_reads_agree_after_doubt
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Fri,6/28,2024-06-28,written,0900,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Fri,6/28,2024-06-28,written,1200,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Fri,6/28,2024-06-28,written,1500,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Fri,6/28,2024-06-28,written,1800,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Fri,6/28,2024-06-28,written,2100,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sat,6/29,2024-06-29,written,0000,,74,74,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sat,6/29,2024-06-29,written,0300,,74,74,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sat,6/29,2024-06-29,written,0600,,74,74,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sat,6/29,2024-06-29,written,0900,,74,74,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sat,6/29,2024-06-29,written,1200,,75,75,clear,,two_reads_agree_after_doubt
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sat,6/29,2024-06-29,written,1500,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sat,6/29,2024-06-29,written,1800,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sat,6/29,2024-06-29,written,2100,,76,76,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sun,6/30,2024-06-30,written,0000,,73,73,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sun,6/30,2024-06-30,written,0300,,72,72,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sun,6/30,2024-06-30,written,0600,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sun,6/30,2024-06-30,written,0900,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sun,6/30,2024-06-30,written,1200,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sun,6/30,2024-06-30,written,1500,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sun,6/30,2024-06-30,written,1800,,75,75,clear,,two_reads_agree
-SOL_MSR_0624,48,SOL,Bld#2 / 2nd Tier,cdcr_2031,Sun,6/30,2024-06-30,written,2100,,75,75,clear,,two_reads_agree
 SOL_MSR_0624,84,SOL,12 / 2nd tier,cdcr_2031,Mon,6/24,2024-06-24,written,0300,,83,83,clear,,two_reads_agree
 SOL_MSR_0624,84,SOL,12 / 2nd tier,cdcr_2031,Mon,6/24,2024-06-24,written,0600,,84,84,clear,,two_reads_agree
 SOL_MSR_0624,84,SOL,12 / 2nd tier,cdcr_2031,Mon,6/24,2024-06-24,written,0900,,84.3,84.3,clear,,two_reads_agree
@@ -16942,62 +16830,6 @@ SOL_MSR_1024,12,SOL,Bld # 2 / 2nd Tier,cdcr_2031,Thu,10-31,2024-10-31,written,12
 SOL_MSR_1024,12,SOL,Bld # 2 / 2nd Tier,cdcr_2031,Thu,10-31,2024-10-31,written,1500,,71,71,clear,,two_reads_agree
 SOL_MSR_1024,12,SOL,Bld # 2 / 2nd Tier,cdcr_2031,Thu,10-31,2024-10-31,written,1800,,71,71,clear,,two_reads_agree
 SOL_MSR_1024,12,SOL,Bld # 2 / 2nd Tier,cdcr_2031,Thu,10-31,2024-10-31,written,2100,,71,71,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Mon,10/14/24,2024-10-14,written,0000,,75,75,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Mon,10/14/24,2024-10-14,written,0300,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Mon,10/14/24,2024-10-14,written,0600,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Mon,10/14/24,2024-10-14,written,0900,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Mon,10/14/24,2024-10-14,written,1200,,75,75,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Mon,10/14/24,2024-10-14,written,1500,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Mon,10/14/24,2024-10-14,written,1800,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Mon,10/14/24,2024-10-14,written,2100,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Tue,10/15/24,2024-10-15,written,0000,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Tue,10/15/24,2024-10-15,written,0300,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Tue,10/15/24,2024-10-15,written,0600,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Tue,10/15/24,2024-10-15,written,0900,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Tue,10/15/24,2024-10-15,written,1200,,74,74,clear,,two_reads_agree_after_doubt
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Tue,10/15/24,2024-10-15,written,1500,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Tue,10/15/24,2024-10-15,written,1800,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Tue,10/15/24,2024-10-15,written,2100,,73,73,clear,,two_reads_agree_after_doubt
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Wed,10/16/24,2024-10-16,written,0000,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Wed,10/16/24,2024-10-16,written,0300,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Wed,10/16/24,2024-10-16,written,0600,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Wed,10/16/24,2024-10-16,written,0900,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Wed,10/16/24,2024-10-16,written,1200,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Wed,10/16/24,2024-10-16,written,1500,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Wed,10/16/24,2024-10-16,written,1800,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Wed,10/16/24,2024-10-16,written,2100,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Thu,10/17/24,2024-10-17,written,0000,,-,,blank,,
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Thu,10/17/24,2024-10-17,written,0300,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Thu,10/17/24,2024-10-17,written,0600,,73,73,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Thu,10/17/24,2024-10-17,written,0900,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Thu,10/17/24,2024-10-17,written,1200,,-,,blank,,
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Thu,10/17/24,2024-10-17,written,1500,,-,,blank,,
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Thu,10/17/24,2024-10-17,written,1800,,-,,blank,,
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Thu,10/17/24,2024-10-17,written,2100,,-,,blank,,
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Fri,10/18/24,2024-10-18,written,0000,,73,73,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Fri,10/18/24,2024-10-18,written,0300,,73,73,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Fri,10/18/24,2024-10-18,written,0600,,72.2,72.2,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Fri,10/18/24,2024-10-18,written,0900,,72.9,72.9,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Fri,10/18/24,2024-10-18,written,1200,,73,73,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Fri,10/18/24,2024-10-18,written,1500,,73,73,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Fri,10/18/24,2024-10-18,written,1800,,74,74,clear,,two_reads_agree_after_doubt
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Fri,10/18/24,2024-10-18,written,2100,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sat,10/19/24,2024-10-19,written,0000,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sat,10/19/24,2024-10-19,written,0300,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sat,10/19/24,2024-10-19,written,0600,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sat,10/19/24,2024-10-19,written,0900,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sat,10/19/24,2024-10-19,written,1200,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sat,10/19/24,2024-10-19,written,1500,,74,74,clear,,two_reads_agree_after_doubt
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sat,10/19/24,2024-10-19,written,1800,,74,74,clear,,two_reads_agree_after_doubt
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sat,10/19/24,2024-10-19,written,2100,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sun,10/20/24,2024-10-20,written,0000,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sun,10/20/24,2024-10-20,written,0300,,74,74,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sun,10/20/24,2024-10-20,written,0600,,73,73,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sun,10/20/24,2024-10-20,written,0900,,73,73,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sun,10/20/24,2024-10-20,written,1200,,73,73,clear,,two_reads_agree
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sun,10/20/24,2024-10-20,written,1500,,74,74,clear,,two_reads_agree_after_doubt
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sun,10/20/24,2024-10-20,written,1800,,74,74,clear,,two_reads_agree_after_doubt
-SOL_MSR_1024,14,SOL,SOLANO / FAC A: BLD2 / 2nd tier,cdcr_2031,Sun,10/20/24,2024-10-20,written,2100,,74,74,clear,,two_reads_agree_after_doubt
 SOL_MSR_1024,15,SOL,BUILDING 3 / 2ND Tier,cdcr_2031,Mon,9/30,2024-09-30,written,0000,,79,79,clear,,two_reads_agree_after_doubt
 SOL_MSR_1024,15,SOL,BUILDING 3 / 2ND Tier,cdcr_2031,Mon,9/30,2024-09-30,written,0300,,79,79,clear,,two_reads_agree_after_doubt
 SOL_MSR_1024,15,SOL,BUILDING 3 / 2ND Tier,cdcr_2031,Mon,9/30,2024-09-30,written,0600,,79,79,clear,,two_reads_agree
