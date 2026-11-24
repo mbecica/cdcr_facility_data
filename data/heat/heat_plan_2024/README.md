@@ -29,7 +29,7 @@ Tables from CDCR's 2024 Heat Plan monthly packages, May–October, released unde
 
 | Column | Meaning |
 | :--- | :--- |
-| `cdcr_code` | Institution code as entered with the readings (`SQRC` for San Quentin's May and June packages). |
+| `cdcr_code` | Institution code (`data/institutions.csv`). |
 | `form` | The page's form: `2031` (CDCR 2031), `local` (an institution's own form), or a named local form. |
 | `readings` | Reading cells the string has in the indoor tables. |
 | `facility_key` | The unit's facility, else the facility the string names (`data/buildings/locations/facilities.csv`). |

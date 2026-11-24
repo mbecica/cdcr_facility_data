@@ -21,6 +21,15 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 SCAN = REPO / "notes" / "heat_log_scan"
 
+# Package names keep the prison code as CDCR wrote it (e.g. SQRC_MSR_0524); cdcr_code is the
+# repo's code from data/institutions.csv, with alias_codes mapped to it (SQRC -> SQ).
+ALIAS = {a.strip(): r["cdcr_code"] for r in csv.DictReader(open(REPO / "data" / "institutions.csv", newline=""))
+         for a in r["alias_codes"].split(";") if a.strip()}
+
+
+def code(c):
+    return ALIAS.get(c, c)
+
 # A/C outage logs: CMF "A/C Down Log" (Attachment C-2) pages and the CIW CTC
 # room lines written during a central A/C failure (layouts.md).
 AC_PAGES = {("CMF_MSR_0724", p) for p in (27, 28, 29, 30, 119, 120, 121, 122, 123, 158, 159, 160)}
@@ -277,7 +286,7 @@ def main(out_dir):
                 if (pkg, r["page"], d, r["time"], u) in user:
                     basis = "researcher_review"
         o = {
-            "package": pkg, "page": page, "cdcr_code": r["cdcr_code"],
+            "package": pkg, "page": page, "cdcr_code": code(r["cdcr_code"]),
             "housing_unit_as_written": unit,
             "form": FORM.get(r["form"], r["form"]), "day": r["day"],
             "date_as_written": r["date_as_written"], "date": r["date"],
@@ -302,11 +311,11 @@ def main(out_dir):
         if vals:
             for i, v in enumerate(vals, 1):
                 temp, status = value_cell(v)
-                rows_by[(lt, r["cdcr_code"])].append(dict(o, value_label=f"value_{i}", temp_as_written=v.strip(),
+                rows_by[(lt, o["cdcr_code"])].append(dict(o, value_label=f"value_{i}", temp_as_written=v.strip(),
                                                           temp_f=temp, status=status, alt_f="",
                                                           read_basis="single_read" if temp else ""))
         else:
-            rows_by[(lt, r["cdcr_code"])].append(o)
+            rows_by[(lt, o["cdcr_code"])].append(o)
         p = pages[(lt, pkg, page)]
         p["units"][unit] += 1
         p["forms"][o["form"]] += 1
@@ -325,7 +334,7 @@ def main(out_dir):
         if not src:
             raise SystemExit(f"outdoor cell on a page with no indoor rows: {pkg} p{page}")
         unit = src["units"].most_common(1)[0][0]
-        o = {"package": pkg, "page": page, "cdcr_code": pkg.split("_")[0], "housing_unit_as_written": unit,
+        o = {"package": pkg, "page": page, "cdcr_code": code(pkg.split("_")[0]), "housing_unit_as_written": unit,
              "form": src["forms"].most_common(1)[0][0], "day": page_day.get((pkg, page, date)) or dt.date.fromisoformat(date).strftime("%a"),
              "date_as_written": x["date_as_written"], "date": date, "date_source": "written", "time": t,
              "value_label": "", "temp_as_written": x["temp_as_written"], "temp_f": num(x["temp_as_written"]),
@@ -362,11 +371,11 @@ def main(out_dir):
                 if k in pages:
                     p = pages[k]
                     ds = sorted(p["dates"])
-                    w.writerow([pkg, pg, pkg.split("_")[0], ";".join(p["forms"]), "; ".join(p["units"]),
+                    w.writerow([pkg, pg, code(pkg.split("_")[0]), ";".join(p["forms"]), "; ".join(p["units"]),
                                 ds[0] if ds else "", ds[-1] if ds else "", p["cells"], p["n"], "", ""])
                 else:
                     kind, dup = skip_kind(skips[(pkg, pg)])
-                    w.writerow([pkg, pg, pkg.split("_")[0], "", "", "", "", 0, 0, kind, dup])
+                    w.writerow([pkg, pg, code(pkg.split("_")[0]), "", "", "", "", 0, 0, kind, dup])
 
     # unit-days are counted in the linked layer (location lookup), not from raw strings:
     # one unit can be written several ways, so raw strings would count it more than once
