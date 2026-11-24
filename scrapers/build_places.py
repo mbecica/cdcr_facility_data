@@ -33,7 +33,6 @@ Output: data/buildings/locations/places.csv
     record_covers    "several buildings" when the record covers several
                      buildings or units (name lists or ranges them, or a hand
                      list)
-    stories          blank; no source yet
 
 Inventory rows named in `from_building_key` are left out: they move to
 housing_units.csv or place_parts.csv.
@@ -177,12 +176,11 @@ def main():
     fk = b.apply(facility, axis=1, result_type='expand', args=(names, set(fac['facility_key'])))
     b['facility_as_written'], b['facility_source'], b['facility_key'] = fk[0], fk[1], fk[2]
     b['record_covers'] = b.apply(record_covers, axis=1)
-    b['stories'] = ''
     b = b.rename(columns={'building_key': 'place_key', 'building': 'place',
                           'building_name': 'place_name'})
     cols = ['place_key', 'cdcr_code', 'place', 'place_name', 'kind', 'aliases', 'placeholder',
             'facility_as_written', 'facility_source', 'facility_key', 'record_covers', 'use', 'program',
-            'beds', 'year_built', 'stories', 'sqft', 'spi_structure_type',
+            'beds', 'year_built', 'sqft', 'spi_structure_type',
             'spi_structure_number', 'spi_agency_structure_no', 'spi_real_property_number',
             'conflicts', 'n_sources', 'sources']
     arch = b['cdcr_code'].isin(NON_PRISON)

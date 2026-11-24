@@ -9,6 +9,7 @@ Builds `data/buildings/building_heights.csv` and `data/buildings/building_footpr
 - [`reconcile_footprints.py`](reconcile_footprints.py) — Reconciles missing standing footprints from Overture Maps (`*_ovt-*`) and LiDAR+NAIP NDVI residuals (`*_lid-*`), and triages zero-roof polygons against 2024 NAIP signatures and [`triage_overrides.json`](triage_overrides.json).
 - [`classify_stories.py`](classify_stories.py) — Classifies building categories, housing prototypes, sub-tier height modes, and story counts using [`housing_overrides.json`](housing_overrides.json) and read-only SPI structure cross-checks.
 - [`build_building_heights.py`](build_building_heights.py) — Main entry point and exporter. Filters inside RAPT boundaries to standing structures and shade canopies, strips internal QA columns, and writes `data/buildings/building_heights.csv` and `data/buildings/building_footprints.geojson`.
+- [`build_footprint_places.py`](build_footprint_places.py) — Links footprints to places (OpenStreetMap building names) and place sets (equal counts of matching housing prototypes) in `data/buildings/locations/footprint_places.csv`.
 
 ## Dependencies & Running
 

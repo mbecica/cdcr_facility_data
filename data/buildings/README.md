@@ -34,7 +34,7 @@ In `building_heights.csv` (and `building_footprints.geojson` feature properties)
 | `footprint_source` | Geometry provenance (`usa_structures`, `overture_patch`, `lidar_naip_patch`). |
 | `building_category` | Broad functional group: `housing`, `program_admin_medical`, `support_warehouse_pia`, `guard_tower_utility`, or `canopy`. |
 | `is_housing`, `housing_prototype` | Whether the structure houses incarcerated people (`yes`/`no`) and architectural prototype tag (e.g., `270_housing_unit`, `180_housing_unit`, `level1_dorm_standard`, `cross_pod_dorm_1story`, or `non_housing`). |
-| `stories`, `stories_range` | Point story count and plausible min–max tier range (`1`, `1-2`, `2`, `2-3`, `3`, `5`); blank when indeterminate (`canopy`). |
+| `stories`, `stories_range` | Point story count and plausible min–max tier range (`1`, `1-2`, `2`, `2-3`, `3`, `1-3`, `3-6`, `5`, `6`); blank when indeterminate (`canopy`). Counts occupied levels: interior cell tiers count as stories where a source or the heat logs document them, because tiers of 9–10 ft can fit three under a 26–30 ft roof. LiDAR measures only the exterior roof. |
 | `story_confidence`, `story_method` | Story confidence (`high`, `medium`, `indeterminate`) and derivation method. |
 | `roof_p10_ft`–`roof_p98_ft`, `roof_spread_ft` | LiDAR roof height percentiles above ground (`ft`) and `p90 - p10` spread; blank where LiDAR height is unavailable. |
 | `multi_tier_flag`, `sub_tier_heights_ft` | Whether distinct multi-tier roof modes appear (`yes`/`no`) and peak height modes with point shares. |

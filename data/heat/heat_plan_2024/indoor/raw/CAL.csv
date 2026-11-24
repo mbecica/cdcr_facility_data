@@ -13553,38 +13553,38 @@ CAL_MSR_1024,22,CAL,A5 / Two,cdcr_2031,Sun,10-27-24,2024-10-27,written,1500,,74.
 CAL_MSR_1024,22,CAL,A5 / Two,cdcr_2031,Sun,10-27-24,2024-10-27,written,1800,,70.8,70.8,clear,,two_reads_agree_after_doubt
 CAL_MSR_1024,22,CAL,A5 / Two,cdcr_2031,Sun,10-27-24,2024-10-27,written,2100,,70,70,clear,,two_reads_agree_after_doubt
 CAL_MSR_1024,22,CAL,A5 / Two,cdcr_2031,Sun,10-27-24,2024-10-27,written,2400,,70,70,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Mon,10/28,2024-10-28,written,0300,,68.4?,68.4,unsure,,single_read
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Mon,10/28,2024-10-28,written,0600,,68,68,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Mon,10/28,2024-10-28,written,0900,,71,71,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Mon,10/28,2024-10-28,written,1200,,70,70,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Mon,10/28,2024-10-28,written,1500,,73.5,73.5,clear,,two_reads_agree_after_doubt
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Mon,10/28,2024-10-28,written,1800,,72.8?,72.8,unsure,,single_read
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Mon,10/28,2024-10-28,written,2100,,70.1,70.1,clear,,two_reads_agree_after_doubt
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Mon,10/28,2024-10-28,written,2400,,68.4|68.0,68.4,ambiguous,68,adjudicated
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Tue,?,2024-10-29,calendar,0300,,66,66,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Tue,?,2024-10-29,calendar,0600,,66,66,clear,,two_reads_agree_after_doubt
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Tue,?,2024-10-29,calendar,0900,,67,67,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Tue,?,2024-10-29,calendar,1200,,69,69,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Tue,?,2024-10-29,calendar,1500,,73.5,73.5,clear,,two_reads_agree_after_doubt
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Tue,?,2024-10-29,calendar,1800,,72.6?,72.6,unsure,,adjudicated
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Tue,?,2024-10-29,calendar,2100,,69.8,69.8,clear,,adjudicated
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Tue,?,2024-10-29,calendar,2400,,67.0,67.0,clear,,two_reads_agree_after_doubt
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Wed,10/30,2024-10-30,written,0300,,69.6,69.6,clear,,adjudicated
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Wed,10/30,2024-10-30,written,0600,,64,64,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Wed,10/30,2024-10-30,written,0900,,63,63,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Wed,10/30,2024-10-30,written,1200,,69,69,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Wed,10/30,2024-10-30,written,1500,,72.5,72.5,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Wed,10/30,2024-10-30,written,1800,,73.8,73.8,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Wed,10/30,2024-10-30,written,2100,,70.2,70.2,clear,,two_reads_agree_after_doubt
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Wed,10/30,2024-10-30,written,2400,,68,68,clear,,two_reads_agree_after_doubt
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Thu,10-31-24,2024-10-31,written,0300,,63,63,clear,,two_reads_agree_after_doubt
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Thu,10-31-24,2024-10-31,written,0600,,63,63,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Thu,10-31-24,2024-10-31,written,0900,,63,63,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Thu,10-31-24,2024-10-31,written,1200,,67,67,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Thu,10-31-24,2024-10-31,written,1500,,72.2,72.2,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Thu,10-31-24,2024-10-31,written,1800,,62.2,62.2,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Thu,10-31-24,2024-10-31,written,2100,,66.1,66.1,clear,,two_reads_agree
-CAL_MSR_1024,23,CAL,A5 / Upper Tier 3rd,cdcr_2031,Thu,10-31-24,2024-10-31,written,2400,,66.6?,66.6,unsure,,single_read
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Mon,10/28,2024-10-28,written,0300,,68.4?,68.4,unsure,,single_read
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Mon,10/28,2024-10-28,written,0600,,68,68,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Mon,10/28,2024-10-28,written,0900,,71,71,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Mon,10/28,2024-10-28,written,1200,,70,70,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Mon,10/28,2024-10-28,written,1500,,73.5,73.5,clear,,two_reads_agree_after_doubt
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Mon,10/28,2024-10-28,written,1800,,72.8?,72.8,unsure,,single_read
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Mon,10/28,2024-10-28,written,2100,,70.1,70.1,clear,,two_reads_agree_after_doubt
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Mon,10/28,2024-10-28,written,2400,,68.4|68.0,68.4,ambiguous,68,adjudicated
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Tue,?,2024-10-29,calendar,0300,,66,66,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Tue,?,2024-10-29,calendar,0600,,66,66,clear,,two_reads_agree_after_doubt
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Tue,?,2024-10-29,calendar,0900,,67,67,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Tue,?,2024-10-29,calendar,1200,,69,69,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Tue,?,2024-10-29,calendar,1500,,73.5,73.5,clear,,two_reads_agree_after_doubt
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Tue,?,2024-10-29,calendar,1800,,72.6?,72.6,unsure,,adjudicated
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Tue,?,2024-10-29,calendar,2100,,69.8,69.8,clear,,adjudicated
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Tue,?,2024-10-29,calendar,2400,,67.0,67.0,clear,,two_reads_agree_after_doubt
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Wed,10/30,2024-10-30,written,0300,,69.6,69.6,clear,,adjudicated
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Wed,10/30,2024-10-30,written,0600,,64,64,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Wed,10/30,2024-10-30,written,0900,,63,63,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Wed,10/30,2024-10-30,written,1200,,69,69,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Wed,10/30,2024-10-30,written,1500,,72.5,72.5,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Wed,10/30,2024-10-30,written,1800,,73.8,73.8,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Wed,10/30,2024-10-30,written,2100,,70.2,70.2,clear,,two_reads_agree_after_doubt
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Wed,10/30,2024-10-30,written,2400,,68,68,clear,,two_reads_agree_after_doubt
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Thu,10-31-24,2024-10-31,written,0300,,63,63,clear,,two_reads_agree_after_doubt
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Thu,10-31-24,2024-10-31,written,0600,,63,63,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Thu,10-31-24,2024-10-31,written,0900,,63,63,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Thu,10-31-24,2024-10-31,written,1200,,67,67,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Thu,10-31-24,2024-10-31,written,1500,,72.2,72.2,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Thu,10-31-24,2024-10-31,written,1800,,62.2,62.2,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Thu,10-31-24,2024-10-31,written,2100,,66.1,66.1,clear,,two_reads_agree
+CAL_MSR_1024,23,CAL,A5 / Upper Tier 2nd,cdcr_2031,Thu,10-31-24,2024-10-31,written,2400,,66.6?,66.6,unsure,,single_read
 CAL_MSR_1024,24,CAL,CAL / B-1 / 2nd Tier,cdcr_2031,Tue,10/1/24,2024-10-01,written,0300,,72,72,clear,,two_reads_agree_after_doubt
 CAL_MSR_1024,24,CAL,CAL / B-1 / 2nd Tier,cdcr_2031,Tue,10/1/24,2024-10-01,written,0600,,72.3,72.3,clear,,two_reads_agree
 CAL_MSR_1024,24,CAL,CAL / B-1 / 2nd Tier,cdcr_2031,Tue,10/1/24,2024-10-01,written,0900,,73.6,73.6,clear,,two_reads_agree
