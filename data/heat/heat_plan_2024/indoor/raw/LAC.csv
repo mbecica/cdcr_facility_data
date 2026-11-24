@@ -12520,21 +12520,13 @@ LAC_MSR_0624,135,LAC,CSP-LAC / A2 CONT. / 2nd Tier,cdcr_2031,Sun,6/30/24,2024-06
 LAC_MSR_0624,135,LAC,CSP-LAC / A2 CONT. / 2nd Tier,cdcr_2031,Sun,6/30/24,2024-06-30,written,2100,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,135,LAC,CSP-LAC / A2 CONT. / 2nd Tier,cdcr_2031,Sun,6/30/24,2024-06-30,written,2400,,68,68,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6/25,2024-06-24,rule,0300,,70,70,clear,,two_reads_agree
-LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6.24.24,2024-06-24,written,0300,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6/25,2024-06-24,rule,0600,,70,70,clear,,two_reads_agree
-LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6.24.24,2024-06-24,written,0600,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6/25,2024-06-24,rule,0900,,70,70,clear,,two_reads_agree
-LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6.24.24,2024-06-24,written,0900,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6/25,2024-06-24,rule,1200,,70,70,clear,,two_reads_agree
-LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6.24.24,2024-06-24,written,1200,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6/25,2024-06-24,rule,1500,,70,70,clear,,two_reads_agree
-LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6.24.24,2024-06-24,written,1500,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6/25,2024-06-24,rule,1800,,70,70,clear,,two_reads_agree
-LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6.24.24,2024-06-24,written,1800,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6/25,2024-06-24,rule,2100,,70,70,clear,,two_reads_agree
-LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6.24.24,2024-06-24,written,2100,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6/25,2024-06-24,rule,2400,,70,70,clear,,two_reads_agree
-LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Mon,6.24.24,2024-06-24,written,2400,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Tue,6/25/24,2024-06-25,written,0300,,69,69,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Tue,6/25/24,2024-06-25,written,0600,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Tue,6/25/24,2024-06-25,written,0900,,70,70,clear,,two_reads_agree
@@ -12543,6 +12535,14 @@ LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Tue,6/25/24,2024-06-25,w
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Tue,6/25/24,2024-06-25,written,1800,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Tue,6/25/24,2024-06-25,written,2100,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Tue,6/25/24,2024-06-25,written,2400,,69,69,clear,,two_reads_agree
+LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Wed,6.24.24,2024-06-26,rule,0300,,70,70,clear,,two_reads_agree
+LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Wed,6.24.24,2024-06-26,rule,0600,,70,70,clear,,two_reads_agree
+LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Wed,6.24.24,2024-06-26,rule,0900,,70,70,clear,,two_reads_agree
+LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Wed,6.24.24,2024-06-26,rule,1200,,70,70,clear,,two_reads_agree
+LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Wed,6.24.24,2024-06-26,rule,1500,,70,70,clear,,two_reads_agree
+LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Wed,6.24.24,2024-06-26,rule,1800,,70,70,clear,,two_reads_agree
+LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Wed,6.24.24,2024-06-26,rule,2100,,70,70,clear,,two_reads_agree
+LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Wed,6.24.24,2024-06-26,rule,2400,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Thu,6/27/24,2024-06-27,written,0300,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Thu,6/27/24,2024-06-27,written,0600,,70,70,clear,,two_reads_agree
 LAC_MSR_0624,136,LAC,CSP-LAC / A-3 / 2nd Tier,cdcr_2031,Thu,6/27/24,2024-06-27,written,0900,,70,70,clear,,two_reads_agree

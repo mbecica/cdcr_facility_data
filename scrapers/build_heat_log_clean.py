@@ -15,6 +15,9 @@ Output: OUT/indoor/clean/{cdcr_code}.csv (OUT defaults to data/heat/heat_plan_20
 Rules:
 - Only cells with a reading; blank, illegible and redacted cells are left out.
 - Every value in a multi-value cell stays as its own row with value_label, as in raw.
+- A cell repeated on the same page (same string, date, time, value_label and temp_f) is kept once.
+- Two records for the same place and hour are both kept (e.g. CCI's weekly CDCR 2031 sheet and its
+  hourly sheets, or two real logs for one section); `form` and `location_note` tell them apart.
 - Doubtful readings keep their published value; `doubtful` = yes where raw status is unsure or
   ambiguous. raw keeps status, alt_f and read_basis.
 
@@ -32,7 +35,7 @@ IND = REPO / 'data/heat/heat_plan_2024/indoor'
 RULES = Path(__file__).resolve().parent / 'heat_log_clean'
 
 LOC_COLS = ['facility_key', 'unit_key', 'place_key', 'place_type', 'section', 'level',
-            'place_part', 'location_type', 'room_kind']
+            'place_part', 'location_type', 'room_kind', 'location_note']
 COLS = (['package', 'page', 'cdcr_code', 'form', 'housing_unit_as_written'] + LOC_COLS
         + ['day', 'date', 'time', 'value_label', 'temp_f', 'doubtful'])
 
@@ -48,7 +51,7 @@ def main():
     out_dir = OUT / 'indoor/clean'
     out_dir.mkdir(parents=True, exist_ok=True)
     for f in sorted((IND / 'raw').glob('*.csv')):
-        rows = []
+        rows, seen = [], set()
         for r in csv.DictReader(open(f)):
             if r['temp_f'] == '':
                 n['no reading'] += 1
@@ -69,7 +72,13 @@ def main():
                 sys.exit(f'no locations.csv row for {r["package"]} p{r["page"]} {r["housing_unit_as_written"]!r}')
             r.update({c: l[c] for c in LOC_COLS})
             r['doubtful'] = 'yes' if r['status'] in ('unsure', 'ambiguous') else 'no'
-            rows.append({c: r[c] for c in COLS})
+            o = {c: r[c] for c in COLS}
+            ck = (o['package'], o['page'], o['housing_unit_as_written'], o['date'], o['time'], o['value_label'], o['temp_f'])
+            if ck in seen:
+                n['dropped: repeated_cell'] += 1
+                continue
+            seen.add(ck)
+            rows.append(o)
         n['kept'] += len(rows)
         with open(out_dir / f.name, 'w', newline='') as fh:
             w = csv.DictWriter(fh, fieldnames=COLS)
