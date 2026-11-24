@@ -1,0 +1,11 @@
+package,page,cdcr_code,form,housing_unit_as_written,facility_key,unit_key,place_key,place_type,section,level,place_part,location_type,room_kind,day,date,time,value_label,temp_f,doubtful
+CEN_MSR_0724,3,CEN,cdcr_2031,CEN / C3 Dayroom,CEN-C,CEN-C3,CEN-343,housing,,,,dayroom/common area,,Sat,2024-07-20,1800,,88,no
+CEN_MSR_0724,3,CEN,cdcr_2031,CEN / C3 Dayroom,CEN-C,CEN-C3,CEN-343,housing,,,,dayroom/common area,,Sat,2024-07-20,2100,,88,no
+CEN_MSR_0724,4,CEN,cdcr_2031,CEN / C3 2,CEN-C,CEN-C3,CEN-343,housing,,2,,tier,,Sat,2024-07-20,1500,,90,no
+CEN_MSR_0724,4,CEN,cdcr_2031,CEN / C3 2,CEN-C,CEN-C3,CEN-343,housing,,2,,tier,,Sat,2024-07-20,1800,,88.7,no
+CEN_MSR_0724,4,CEN,cdcr_2031,CEN / C3 2,CEN-C,CEN-C3,CEN-343,housing,,2,,tier,,Sat,2024-07-20,2100,,88.8,no
+CEN_MSR_0724,5,CEN,cdcr_2031,CEN / C3 DAYROOM,CEN-C,CEN-C3,CEN-343,housing,,,,dayroom/common area,,Sun,2024-07-21,1500,,87,no
+CEN_MSR_0724,6,CEN,cdcr_2031,CEN / C3 / 2,CEN-C,CEN-C3,CEN-343,housing,,2,,tier,,Sun,2024-07-21,1500,,91.4,no
+CEN_MSR_0724,6,CEN,cdcr_2031,CEN / C3 / 2,CEN-C,CEN-C3,CEN-343,housing,,2,,tier,,Sun,2024-07-21,1800,,87.1,no
+CEN_MSR_0724,6,CEN,cdcr_2031,CEN / C3 / 2,CEN-C,CEN-C3,CEN-343,housing,,2,,tier,,Sun,2024-07-21,2100,,87.1,no
+CEN_MSR_0724,6,CEN,cdcr_2031,CEN / C3 / 2,CEN-C,CEN-C3,CEN-343,housing,,2,,tier,,Sun,2024-07-21,2400,,88.0,no

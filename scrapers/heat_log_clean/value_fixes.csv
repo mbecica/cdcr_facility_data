@@ -1,0 +1,2 @@
+package,page,housing_unit_as_written,date,time,value_label,temp_f_raw,temp_f,reason
+PVSP_MSR_0524,67,C1 / 1st tier,2024-05-28,0600,,27,72,digits written in reverse order
