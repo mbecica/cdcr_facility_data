@@ -197,7 +197,17 @@ NO_SPI_JOIN = {("MCSP", "B6"), ("MCSP", "B7")}
 # Administrative Segregation Unit" = SPI 50401 "Administrative Segregation Housing
 # Unit" (no agency number). FOL: MPAR "Building 4" (ASU medication room) = SPI H04
 # "Cell Block #4" (Unit 4 is the ASU).
-SAME_BUILDING = {("HDSP", "455"): "HDSP-spi50401", ("FOL", "4"): "FOL-H04"}
+# Cooling-table (CMMS) IDs (cooling-ID review, user Nov 23 2026). COR: CDCR service requests in the 2024 heat
+# packages give the Building as the CMMS ID and name the unit: 401B = 4B1L (COR_MSR_0524 p21), 402B = 4B2L/4B2R
+# (0524 p52, p80-81; 0924 p101-102), 413A = 4A3L (0624 p120), 414A = 4A4R (0524 p19, p75); 403B, 404B, 411A,
+# 412A by the numbering those pairs show (40xB = 4B0x, 41xA = 4A0x; user chose it, no source names them).
+# CMC: M = Building 5, N = Building 6 by the SPI name (user; SPI agency numbers say the opposite).
+SAME_BUILDING = {("HDSP", "455"): "HDSP-spi50401", ("FOL", "4"): "FOL-H04",
+                 ("COR", "401B"): "COR-4B01", ("COR", "402B"): "COR-4B02",
+                 ("COR", "413A"): "COR-4A03", ("COR", "414A"): "COR-4A04",
+                 ("COR", "403B"): "COR-4B03", ("COR", "404B"): "COR-4B04",
+                 ("COR", "411A"): "COR-4A01", ("COR", "412A"): "COR-4A02",
+                 ("CMC", "M"): "CMC-5", ("CMC", "N"): "CMC-6"}
 
 
 def mention_key(row, look: dict) -> str:
