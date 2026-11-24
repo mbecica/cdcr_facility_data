@@ -1,6 +1,6 @@
 # Building Heights & Footprints Pipeline
 
-Builds `data/buildings/building_heights.csv` and `data/buildings/building_footprints.geojson` across all 34 adult CDCR institutions (`2,033` standing structures and shade canopies; LiDAR collections 2014–2023, visually verified against 2024 NAIP imagery).
+Builds `data/buildings/building_heights.csv` and `data/buildings/building_footprints.geojson` across all 34 adult CDCR institutions (`2,017` standing structures and shade canopies; LiDAR collections 2014–2023, visually verified against 2024 NAIP imagery).
 
 ## Modules
 
@@ -9,7 +9,9 @@ Builds `data/buildings/building_heights.csv` and `data/buildings/building_footpr
 - [`reconcile_footprints.py`](reconcile_footprints.py) — Reconciles missing standing footprints from Overture Maps (`*_ovt-*`) and LiDAR+NAIP NDVI residuals (`*_lid-*`), and triages zero-roof polygons against 2024 NAIP signatures and [`triage_overrides.json`](triage_overrides.json).
 - [`classify_stories.py`](classify_stories.py) — Classifies building categories, housing prototypes, sub-tier height modes, and story counts using [`housing_overrides.json`](housing_overrides.json) and read-only SPI structure cross-checks.
 - [`build_building_heights.py`](build_building_heights.py) — Main entry point and exporter. Filters inside RAPT boundaries to standing structures and shade canopies, strips internal QA columns, and writes `data/buildings/building_heights.csv` and `data/buildings/building_footprints.geojson`.
-- [`build_footprint_places.py`](build_footprint_places.py) — Links footprints to places (OpenStreetMap building names) and place sets (equal counts of matching housing prototypes) in `data/buildings/locations/footprint_places.csv`.
+- [`footprint_merges.json`](footprint_merges.json) — LiDAR patches folded into a main footprint: `merge` unions the outlines and recomputes the roof heights; `sliver` drops a strip of the same roof. `build_building_heights.py` applies it on every run.
+- [`footprint_redraws.geojson`](footprint_redraws.geojson) — Outlines traced from LiDAR roof edges that replace source outlines not matching the standing buildings (`drop` lists the replaced IDs). `build_building_heights.py` applies it on every run.
+- [`build_footprint_places.py`](build_footprint_places.py) — Links footprints to places by OpenStreetMap building name (`data/buildings/locations/footprint_places.csv`, one row per place) and place sets to their candidate footprints by equal counts (`footprint_sets.csv`, one row per set).
 
 ## Dependencies & Running
 

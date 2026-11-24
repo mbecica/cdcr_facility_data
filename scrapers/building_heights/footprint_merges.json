@@ -1,0 +1,47 @@
+{
+  "HDSP-lid-003": {
+    "into": "HDSP-fp-062",
+    "mode": "merge",
+    "evidence": "2024 NAIP and LiDAR checked Nov 24 2026: one 270 unit; source outline covers about 60% of the roof, patch covers the rest"
+  },
+  "ASP-lid-001": {
+    "into": "ASP-fp-010",
+    "mode": "merge",
+    "evidence": "2024 NAIP and LiDAR checked Nov 24 2026: one 270 unit; source outline covers part of the roof, patch covers the rest"
+  },
+  "PBSP-lid-001": {
+    "into": "PBSP-fp-003",
+    "mode": "sliver",
+    "evidence": "2024 NAIP and LiDAR checked Nov 24 2026: strip of the same roof left outside a shifted outline; dropped, main outline unchanged"
+  },
+  "PBSP-lid-003": {
+    "into": "PBSP-fp-006",
+    "mode": "sliver",
+    "evidence": "2024 NAIP and LiDAR checked Nov 24 2026: strip of the same roof left outside a shifted outline; dropped, main outline unchanged"
+  },
+  "PBSP-lid-005": {
+    "into": "PBSP-fp-018",
+    "mode": "sliver",
+    "evidence": "2024 NAIP and LiDAR checked Nov 24 2026: strip of the same roof left outside a shifted outline; dropped, main outline unchanged"
+  },
+  "PBSP-lid-008": {
+    "into": "PBSP-fp-014",
+    "mode": "sliver",
+    "evidence": "2024 NAIP and LiDAR checked Nov 24 2026: strip of the same roof left outside a shifted outline; dropped, main outline unchanged"
+  },
+  "PBSP-lid-012": {
+    "into": "PBSP-fp-026",
+    "mode": "sliver",
+    "evidence": "2024 NAIP and LiDAR checked Nov 24 2026: strip of the same roof left outside a shifted outline; dropped, main outline unchanged"
+  },
+  "PBSP-lid-014": {
+    "into": "PBSP-fp-028",
+    "mode": "sliver",
+    "evidence": "2024 NAIP and LiDAR checked Nov 24 2026: strip of the same roof left outside a shifted outline; dropped, main outline unchanged"
+  },
+  "CTF-lid-008": {
+    "into": "CTF-fp-060",
+    "mode": "sliver",
+    "evidence": "2024 NAIP and LiDAR checked Nov 24 2026: strip of the same roof left outside a shifted outline; dropped, main outline unchanged"
+  }
+}

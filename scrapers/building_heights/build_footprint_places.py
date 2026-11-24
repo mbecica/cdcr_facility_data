@@ -1,6 +1,10 @@
-"""Build data/buildings/locations/footprint_places.csv: links building footprints to places or place sets.
+"""Build two tables in data/buildings/locations/:
+  footprint_places.csv  one row per place linked to a footprint by its OpenStreetMap name (a footprint can hold several places)
+  footprint_sets.csv    one row per place set, with its candidate footprints listed in one cell
 Run from the repo root. Needs shapely. Run after build_building_heights.py and build_places.py.
-osm_name rows: OSM point inside the footprint AND the OSM name/code matches one place. set rows: equal counts only."""
+A set's count of matching footprints equals its count of places, but no source says which footprint is which place, so
+the set row gives the values every candidate shares and ranges for the rest. Sets that share candidates name each other
+in shared_with_sets; do not add footprints across them."""
 import csv,json,re,sys,collections
 from shapely.geometry import shape,Point
 rd=lambda p:list(csv.DictReader(open(p)))
@@ -17,7 +21,7 @@ def cmc():
         m=re.match(r'\d+-([A-Z]{1,2}\d?)$',r['spi_agency_structure_no'] or '')
         if m: d[m.group(1)].add(k)
     return d
-CM=cmc(); out=[]; miss=[]
+CM=cmc(); out=[]; miss=[]; sets_out=[]
 for o in rd('sources/openstreetmap/osm_cdcr_buildings.csv'):
     c,n=o['cdcr_code'],o['name']
     if not n or c not in('CMC','COR','SQ'): continue
@@ -35,7 +39,7 @@ for o in rd('sources/openstreetmap/osm_cdcr_buildings.csv'):
         near=sorted(((g.distance(p)*95000,d) for d,g in FP if d['cdcr_code']==c),key=lambda x:x[0])
         if near[0][0]<=15 and near[1][0]>30 and near[0][1]['is_housing']=='yes': hit=[near[0][1]]; note=f'OSM point is about {near[0][0]:.0f} m outside this V-shaped footprint; next nearest is about {near[1][0]:.0f} m away'
     if len(key)==1 and len(hit)==1:
-        k=min(key); out.append(dict(cdcr_code=c,footprint_id=hit[0]['footprint_id'],place_key=k,set_key='',relation='same as building',basis=basis,source=f"OSM {o['osm_type']}/{o['osm_id']}",source_name=n,place_name=PL[k]['place_name'],note=note))
+        k=min(key); out.append(dict(cdcr_code=c,footprint_id=hit[0]['footprint_id'],place_key=k,relation='same as building',basis=basis,source=f"OSM {o['osm_type']}/{o['osm_id']}",source_name=n,place_name=PL[k]['place_name'],note=note))
     else: miss.append(dict(cdcr_code=c,osm_id=o['osm_id'],osm_name=n,places=';'.join(sorted(key)),footprints=';'.join(d['footprint_id'] for d in hit),why='no place match' if not key else 'several places (conflict)' if len(key)>1 else 'point not inside one footprint'))
 cnt=collections.Counter(r['footprint_id'] for r in out)
 for r in out:
@@ -45,12 +49,21 @@ for r in rd('data/buildings/locations/place_sets.csv'): sets[r['set_key']].appen
 for c,keys,proto in(('HDSP',['HDSP-set-A','HDSP-set-B'],'270_housing_unit'),('HDSP',['HDSP-set-C','HDSP-set-D'],'180_housing_unit'),('KVSP',['KVSP-set-180'],'180_housing_unit'),('SVSP',['SVSP-set-270'],'270_housing_unit'),('SVSP',['SVSP-set-180'],'180_housing_unit')):
     f=[d['footprint_id'] for d,_ in FP if d['cdcr_code']==c and d['housing_prototype']==proto]; ps=[p for k in keys for p in sets[k]]
     print(keys,proto,len(f),'footprints',len(ps),'places')
-    if len(f)!=len(ps): continue
+    if len(f)!=len(ps): raise SystemExit(f'{keys}: counts differ')
+    ds=[d for d,_ in FP if d['footprint_id'] in f]
+    def only(col):
+        v={d[col] for d in ds}
+        assert len(v)==1,(keys,col,v)
+        return v.pop()
+    rng=lambda col:(min(d[col] for d in ds),max(d[col] for d in ds))
     for k in keys:
-        for x in f: out.append(dict(cdcr_code=c,footprint_id=x,place_key='',set_key=k,relation='one of the set' if len(keys)==1 else 'one of the union of '+' + '.join(keys),basis=f'count match: {len(f)} {proto} footprints = {len(ps)} places',source='building_heights.csv + place_sets.csv',source_name='',place_name='',note='no source says which footprint is which place'+('' if len(keys)==1 else ', or which yard')))
+        others=';'.join(x for x in keys if x!=k)
+        (r0,r1),(q0,q1)=rng('roof_p50_ft'),rng('footprint_sqft')
+        rngs={d['stories_range'] for d in ds}
+        sets_out.append(dict(cdcr_code=c,set_key=k,n_places=len(sets[k]),n_candidate_footprints=len(f),shared_with_sets=others,housing_prototype=only('housing_prototype'),stories=only('stories'),stories_range=rngs.pop() if len(rngs)==1 else '',roof_p50_ft_min=r0,roof_p50_ft_max=r1,footprint_sqft_min=q0,footprint_sqft_max=q1,footprint_ids=';'.join(sorted(f)),basis=f'count match: {len(f)} {proto} footprints = {len(ps)} places'+(' ('+' + '.join(keys)+')' if others else ''),source='building_heights.csv + place_sets.csv'))
 def w(p,rows):
     with open(p,'w',newline='') as f: x=csv.DictWriter(f,fieldnames=rows[0].keys(),lineterminator='\n'); x.writeheader(); x.writerows(rows)
-D='notes/building_heights_pilot/bridge/'; w('data/buildings/locations/footprint_places.csv',out); w(D+'osm_unmatched.csv',miss)
+D='notes/building_heights_pilot/bridge/'; w('data/buildings/locations/footprint_places.csv',out); w('data/buildings/locations/footprint_sets.csv',sets_out); w(D+'osm_unmatched.csv',miss)
 H={d['footprint_id']:d for d,_ in FP}
 for c in('CMC','COR','SQ'):
     m=[r for r in out if r['cdcr_code']==c]; print(c,len(m),'rows',sum(H[r['footprint_id']]['is_housing']=='yes' for r in m),'on housing footprints;',sum(r['cdcr_code']==c for r in miss),'unmatched')

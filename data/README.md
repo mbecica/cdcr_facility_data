@@ -14,6 +14,9 @@ Each folder holds one topic and has its own README with file coverage, field def
 
 - [`facilities_summary/`](facilities_summary/) summarizes the other folders, one row per institution, and is built by `build_cdcr_facilities.py`.
 - Tables with a `cdcr_code` or `institution` column join on institution code.
+- [`buildings/locations/`](buildings/locations/) links facilities (`facility_key`), housing units (`unit_key`), buildings (`place_key`), parts of buildings (`part_key`) and sets of identical buildings (`set_key`). `unit_links.csv` joins units to buildings; `footprint_places.csv` and `footprint_sets.csv` join buildings to `footprint_id` in `buildings/building_heights.csv`.
+- Indoor heat-log readings join [`heat/heat_plan_2024/indoor/locations.csv`](heat/heat_plan_2024/indoor/locations.csv) on `package`, `page` and `housing_unit_as_written`, which gives each reading its unit and building.
+- `heat/cooling/housing_cooling_equipment_2024.csv` joins buildings on `place_key`; condition ratings join on `cdcr_code` and `system`.
 
 ## Revisions
 

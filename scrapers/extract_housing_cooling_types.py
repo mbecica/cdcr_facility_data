@@ -50,12 +50,12 @@ COLS = ['site', 'building', 'primary_use', 'asset_description', 'equipment_sub_t
 # Rows CDCR has since corrected: (institution, asset description as printed) → (cooling_type, note)
 CORRECTIONS = {
     ('CTF', 'Ventilation Without Cooling'): (
-        'none', 'CDCR told Reuters (email, June 27, 2025) this was a misclassification in its maintenance system: '
+        'ventilation only', 'CDCR told Reuters (email, June 27, 2025) this was a misclassification in its maintenance system: '
                 'the units are not refrigerated; type of cooling should read Ventilation Without Cooling and '
                 'asset description AHU - Supply Blower.'),
 }
 COOLING = {'Refrigeration Cooling': 'mechanical', 'Evaporation Cooling': 'evaporative',
-           'Ventilation Without Cooling': 'none'}
+           'Ventilation Without Cooling': 'ventilation only'}  # was 'none' until Nov 23 2026 (read as N/A)
 
 
 def group(v, gap=4):

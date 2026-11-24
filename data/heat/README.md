@@ -17,7 +17,7 @@ Cooling infrastructure, court monitoring of CDCR's Heat Plan, and CDCR's 2024 he
 ## Caveats
 
 - **Air Cooling report:** the tables are transcribed as printed. `../verification_flags.csv` lists values that conflict with the report's totals or other sources.
-- **Equipment:** one row per piece of equipment, so a building can have several rows and more than one type. `type_of_cooling` is as printed; `cooling_type` maps it to `mechanical`, `evaporative`, or `none`, and `note` explains rows where CDCR has since corrected the type. The table doesn't list every housing unit. Many building IDs are CDCR's own and don't match the state property inventory. The court copy is a scan: `ocr_check` says whether two OCR passes agreed or the value was checked against the page image.
+- **Equipment:** one row per piece of equipment, so a building can have several rows and more than one type. `type_of_cooling` is as printed; `cooling_type` maps it to `mechanical`, `evaporative`, or `ventilation only` (air handlers that move air without cooling it; a known type, not a missing value), and `note` explains rows where CDCR has since corrected the type. The table doesn't list every housing unit. Many building IDs are CDCR's own and don't match the state property inventory. The court copy is a scan: `ocr_check` says whether two OCR passes agreed or the value was checked against the page image.
 - **Cooling observations:** most rows name a program or facility rather than a building. `cooling_as_stated` keeps the source's words and `cooling_type` maps them. `basis` says whether monitors observed the cooling, staff or patients reported it, or the report states it without attribution. `space` is `health_care` for units that may also be counted as housing units in the Air Cooling report.
 - **Coleman tables:** both keep a verbatim `quote` for every value, checked against the PDF, and `page` is the PDF page. Findings from the focused heat report cover seven areas for every institution; round reports record only the findings their text states. Most count periods cover only the months reviewed before a tour, often May–July, not the full season. When monitors found a different count in the logs than in a Summary Report, both are rows for the same month.
 
@@ -28,6 +28,14 @@ Cooling infrastructure, court monitoring of CDCR's Heat Plan, and CDCR's 2024 he
 - **Ventilation without cooling:** an air handling system that supplies air with no cooling.
 - **Refrigeration cooling:** air passed over refrigerant-chilled coils.
 - **Evaporation cooling:** air passed over a water-soaked medium.
+
+`housing_cooling_equipment_2024.csv`:
+
+| Column | Meaning |
+| :--- | :--- |
+| `building` | CDCR's building ID as printed. |
+| `place_key` | The building in `data/buildings/locations/places.csv`. |
+| `cooling_type` | `mechanical`, `evaporative`, or `ventilation only`. |
 
 `coleman_heat_plan_findings.csv`:
 
@@ -51,7 +59,7 @@ Cooling infrastructure, court monitoring of CDCR's Heat Plan, and CDCR's 2024 he
 | Table | Source | Script and inputs | Covered through |
 | :--- | :--- | :--- | :--- |
 | `air_cooling_*`, `CDCR_indoor_78f_days_2025` | [Air Cooling report](https://www.cdcr.ca.gov/fpcm/wp-content/uploads/sites/184/2026/02/Air_Cooling_Document_for_Legislature.pdf) | Transcribed by hand | Dec 2025 |
-| `housing_cooling_equipment_2024` | [Plata ECF 3952-1](https://storage.courtlistener.com/recap/gov.uscourts.cand.76/gov.uscourts.cand.76.3952.1.pdf) | `extract_housing_cooling_types.py`, needs `tesseract`; PDF in `sources/heat_cooling/` | Aug 2024 |
+| `housing_cooling_equipment_2024` | [Plata ECF 3952-1](https://storage.courtlistener.com/recap/gov.uscourts.cand.76/gov.uscourts.cand.76.3952.1.pdf) | `extract_housing_cooling_types.py`, needs `tesseract`; PDF in `sources/heat_cooling/`; `link_cooling_places.py` adds `place_key` | Aug 2024 |
 | `cooling_observations` | The filings under Files | Transcribed by hand | May 2026 filing |
 | `coleman_heat_plan_*` | [Coleman docket](https://www.courtlistener.com/docket/4161512/pc-coleman-v-newsom/), [CCHCS reports](https://cchcs.ca.gov/reports/) | `extract_coleman_heat.py`; PDFs in `sources/heat_cooling/` | May 2026 |
 

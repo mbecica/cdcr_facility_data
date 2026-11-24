@@ -1,144 +1,74 @@
-cdcr_code,footprint_id,place_key,set_key,relation,basis,source,source_name,place_name,note
-CMC,CMC-fp-081,CMC-spi14922,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682939320,Administration (A),Administration Bldg. - Bldg A,
-CMC,CMC-fp-081,CMC-149,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681232254,Auditorium & Gymnasium (G),Gymnasium - Bldg G,
-CMC,CMC-fp-062,CMC-spi14976,,same as building,OSM name carries the SPI building letter or number,OSM way/681198197,BC,Armory - Bldg Bc,
-CMC,CMC-fp-081,CMC-spi14933,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681232252,Catholic Chapel (J),Catholic Chapel - Bldg J,
-CMC,CMC-fp-081,CMC-spi14936,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681232255,"Cloth, Dist, & Din ""C"" Quad (L)","Classrooms,Dining Rooms,Offices - Bldg L",
-CMC,CMC-fp-089,CMC-303,,same as building,OSM name carries the SPI building letter or number,OSM way/204437395,Dormitory 31 (303),Dormitory 31 (303),
-CMC,CMC-fp-087,CMC-304,,same as building,OSM name carries the SPI building letter or number,OSM way/204437393,Dormitory 32 (304),Dormitory 32 (304),
-CMC,CMC-fp-084,CMC-305,,same as building,OSM name carries the SPI building letter or number,OSM way/204437394,Dormitory 33 (305),Dormitory 33 (305),
-CMC,CMC-fp-078,CMC-308,,same as building,OSM name carries the SPI building letter or number,OSM way/204435962,Dormitory 34 (308),Dormitory 34 (308),
-CMC,CMC-fp-081,CMC-spi14924,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682939319,"Ed. Clssrm.& Din. Rm./""A"" Quad (B)","Dining Rooms,Classrooms, Offices-Bldg B",
-CMC,CMC-fp-051,CMC-spi14950,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952981,Gun Tower 2 (T2),Gun Tower - Bldg T-2,
-CMC,CMC-fp-081,CMC-spi14954,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681447756,Gun Tower 6 (T6),Gun Tower - Bldg T-6,
-CMC,CMC-fp-081,CMC-spi14932,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681437205,Handicraft and Voc. Shoe Repair (H),"Education, Bldg H",
-CMC,CMC-fp-081,CMC-spi14925,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682939317,Hospital & Segregation (C),"Hospital, Administrative Segregation - C",
-CMC,CMC-fp-051,CMC-3,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800667,"Housing Unit/ ""B"" Quad (E)","Housing Unit, Bldg.3 (E)",
-CMC,CMC-fp-051,CMC-4,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800685,"Housing Unit/ ""B"" Quad (F)","Housing Unit, Bldg.4 (F)",
-CMC,CMC-fp-081,CMC-5,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800661,"Housing Unit/ ""C"" Quad (M)","Housing Unit, Bldg 5 (M)",SPI agency number and name disagree on M/N; linked by the SPI name
-CMC,CMC-fp-093,CMC-6,,same as building,OSM name carries the SPI building letter or number,OSM way/264800636,"Housing Unit/ ""C"" Quad (N)",Housing Unit Bldg. 6 (N),SPI agency number and name disagree on M/N; linked by the SPI name
-CMC,CMC-fp-081,CMC-7,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800662,"Housing Unit/ ""D"" Quad (S)",Housing Unit Bldg. 7 (S),
-CMC,CMC-fp-081,CMC-8,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800635,"Housing Unit/ ""D"" Quad (T)",Housing Unit Bldg. 8 (T),
-CMC,CMC-fp-060,CMC-1,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800641,"Housing Unit/""A"" Quad (AA)",Housing Unit Bldg. 1 (Aa),
-CMC,CMC-fp-060,CMC-2,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800658,"Housing Unit/""A"" Quad (AB)",Housing Unit Bldg. 2 (Ab),
-CMC,CMC-fp-081,CMC-P1,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952976,Industries; Guard Station (P1),Guard Station - Bldg P1,
-CMC,CMC-fp-081,CMC-spi14941,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952978,Industries; Shoe Fact./Knit. Mill (P),"Shoe Factory, Knitting Mill - Bldg P",
-CMC,CMC-fp-081,CMC-spi14946,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952979,Industries; Tag Printing Plant (R),Pia Print Plant - Bldg R,
-CMC,CMC-fp-081,CMC-K1,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681437203,Interfaith Chapel (K-1),Interfaith Chape - Bldg K1,
-CMC,CMC-fp-076,CMC-X1,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682957072,"Kitchen, Storage (X-1)",Kitchen Storage - Bldg X1,
-CMC,CMC-fp-076,CMC-spi14960,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952985,Kitchen/ Bakery & Inmate Canteen (X),"Kitchen, Bakery, Canteen - Bldg X",
-CMC,CMC-fp-081,CMC-spi14957,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800652,Laundry (U),"Laundry, Jacket Factory - U",
-CMC,CMC-fp-081,CMC-spi14927,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682939316,Library & Dining Room (D),"Classrooms, Offices, Dinning Rooms - D",
-CMC,CMC-fp-076,CMC-spi14965,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800642,"Maintenance, Flam. Storage/ Shops (ZB)","Flamable Storage, Refer. Mechanic- Zb",
-CMC,CMC-ovt-005,CMC-spi14958,,same as building,OSM name carries the SPI building letter or number,OSM way/681468063,"Maintenance, Paint Shop (V)",Maint. Paint - Bldg V,
-CMC,CMC-fp-081,CMC-spi14943,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952977,"O. Therapy & Din. Rm. /""D"" Quad (Q)","Dining Rooms,Offices,Classrooms,Pia - Q",
-CMC,CMC-fp-081,CMC-spi14934,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681232253,Protestant Chapel (K),Protestant Chapel - Bldg K,
-CMC,CMC-ovt-002,CMC-D1,,same as building,OSM name carries the SPI building letter or number,OSM way/682939314,"Psychiatric Unit Offices ""B"" Quad (D1)",B-Quad Psychiatric Unit - Bldg D1,
-CMC,CMC-fp-081,CMC-L1,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682942633,"Psychiatric Unit Offices / ""C"" Quad (L1)",C-Quad Psychiatric Unit - Bldg L1,
-CMC,CMC-fp-081,CMC-Q2,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952975,"Psychiatric Unit Offices/ ""D"" Quad (Q2)",D-Quad Dispensary Unit - Bldg Q2,
-CMC,CMC-fp-081,CMC-Q1,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952974,"Psychiatric Unit Offices/""D"" Quad (Q1)",D-Quad Psychiatric Unit - Bldg Q1,
-CMC,CMC-fp-053,CMC-spi14969,,same as building,OSM name carries the SPI building letter or number,OSM way/682955103,Rec. Shack/ B-Q Mini-Canteen/Barber (AD),Recreation Storage Shack - Bldg Ad,
-CMC,CMC-fp-057,CMC-spi14968,,same as building,OSM name carries the SPI building letter or number,OSM way/264800657,Rec. Shack/A-Q Mini-Canteen (AC),Recreation Storage Shack - Bldg Ac,
-CMC,CMC-fp-081,CMC-spi14973,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800670,Vehicle Paint Booth (BN),Paint Booth - Bldg Bn,
-CMC,CMC-fp-076,CMC-spi14963,,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800619,Voc. Classrooms & Maint. Shops (Z),Maintenance & Vocational Shops-Bldg Z,
-COR,COR-fp-001,COR-3A01,,same as building,OSM name is the SPI building code,OSM way/299894831,3A01,3A-01 Inmate Housing,
-COR,COR-fp-002,COR-3A02,,same as building,OSM name is the SPI building code,OSM way/299894051,3A02,3A-02 Inmate Housing,
-COR,COR-fp-005,COR-3A03,,same as building,OSM name is the SPI building code,OSM way/299894285,3A03,3A-03 Inmate Housing,
-COR,COR-fp-011,COR-3A04,,same as building,OSM name is the SPI building code,OSM way/299894673,3A04,3A-04 Inmate Housing,
-COR,COR-fp-017,COR-3A05,,same as building,OSM name is the SPI building code,OSM way/299894734,3A05,3A-05 Inmate Housing,
-COR,COR-fp-036,COR-3B01,,same as building,OSM name is the SPI building code,OSM way/299903045,3B01,Building 3B01 Inmate Housing,
-COR,COR-fp-041,COR-3B02,,same as building,OSM name is the SPI building code,OSM way/299902931,3B02,Building 3B02 Inmate Housing,
-COR,COR-fp-045,COR-3B03,,same as building,OSM name is the SPI building code,OSM way/299902683,3B03,Building 3B03 Inmate Housing,
-COR,COR-fp-040,COR-3B04,,same as building,OSM name is the SPI building code,OSM way/299902569,3B04,Building 3B04 Inmate Housing,
-COR,COR-fp-037,COR-3B05,,same as building,OSM name is the SPI building code,OSM way/299902228,3B05,Building 3B05 Inmate Housing,
-COR,COR-fp-051,COR-3C01,,same as building,OSM name is the SPI building code,OSM way/299906708,3C01,Building 3C01 Inmate Housing,
-COR,COR-fp-056,COR-3C02,,same as building,OSM name is the SPI building code,OSM way/299906754,3C02,Building 3C02 Inmate Housing,
-COR,COR-fp-061,COR-3C03,,same as building,OSM name is the SPI building code,OSM way/299906792,3C03,Building 3C03 Inmate Housing,
-COR,COR-fp-063,COR-3C04,,same as building,OSM name is the SPI building code,OSM way/299906897,3C04,Building 3C04 Inmate Housing,
-COR,COR-fp-064,COR-3C05,,same as building,OSM name is the SPI building code,OSM way/299906921,3C05,Building 3C05 Inmate Housing,
-COR,COR-fp-022,COR-4A01,,same as building,OSM name is the SPI building code,OSM way/299911137,4A1,4A01 Inmate Housing,
-COR,COR-fp-012,COR-4A02,,same as building,OSM name is the SPI building code,OSM way/299911037,4A2,4A02 Inmate Housing Level Iv,OSM point is about 3 m outside this V-shaped footprint; next nearest is about 33 m away
-COR,COR-fp-007,COR-4A03,,same as building,OSM name is the SPI building code,OSM way/299909166,4A3,4A03 Inmate Houseing Level Iv,
-COR,COR-fp-009,COR-4A04,,same as building,OSM name is the SPI building code,OSM way/299908468,4A4,4A04 Inmate Housing Level Iv,OSM point is about 4 m outside this V-shaped footprint; next nearest is about 37 m away
-COR,COR-fp-057,COR-4B01,,same as building,OSM name is the SPI building code,OSM way/299911671,4B1,Building 4B01 Inmate Housing Level Iv,OSM point is about 9 m outside this V-shaped footprint; next nearest is about 33 m away
-COR,COR-fp-059,COR-4B02,,same as building,OSM name is the SPI building code,OSM way/299911598,4B2,Building 4B02 Inmate Housing Level Iv,OSM point is about 2 m outside this V-shaped footprint; next nearest is about 36 m away
-COR,COR-fp-055,COR-4B03,,same as building,OSM name is the SPI building code,OSM way/299911556,4B3,Building 4B03 Inmate Housing Level Iv,OSM point is about 2 m outside this V-shaped footprint; next nearest is about 52 m away
-COR,COR-fp-048,COR-4B04,,same as building,OSM name is the SPI building code,OSM way/299911450,4B4,Building 4B04 Inmate Housing Level Iv,
-SQ,SQ-fp-016,SQ-20,,same as building,OSM name and SPI name match,OSM way/304319150,Adjustment Center / Death Row Unit 2,Adjustment Center,
-SQ,SQ-fp-002,SQ-26,,footprint holds several places,OSM name and SPI name match,OSM way/304319934,Dining Halls,Food Service;Dining Halls and Kitchen,
-SQ,SQ-fp-002,SQ-24,,footprint holds several places,OSM name and SPI name match,OSM way/1118176647,East Cell Block,East Block,
-SQ,SQ-fp-009,SQ-33,,same as building,OSM name and SPI name match,OSM way/152680449,Gymnasium,Gymnasium,
-SQ,SQ-fp-026,SQ-39,,same as building,OSM name and SPI name match,OSM way/786174695,Mattress Manufacturing,Mattress - Factory,
-SQ,SQ-fp-002,SQ-23,,footprint holds several places,OSM name and SPI name match,OSM way/304319151,North Cell Block / Death Row Unit 1,North Block,
-SQ,SQ-fp-002,SQ-28,,footprint holds several places,OSM name and SPI name match,OSM way/1118176648,South Cell Block,South Block,
-SQ,SQ-fp-002,SQ-30,,footprint holds several places,OSM name and SPI name match,OSM way/1118176649,West Cell Block,West Block,
-HDSP,HDSP-fp-025,,HDSP-set-A,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-027,,HDSP-set-A,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-039,,HDSP-set-A,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-040,,HDSP-set-A,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-047,,HDSP-set-A,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-049,,HDSP-set-A,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-055,,HDSP-set-A,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-056,,HDSP-set-A,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-061,,HDSP-set-A,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-062,,HDSP-set-A,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-025,,HDSP-set-B,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-027,,HDSP-set-B,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-039,,HDSP-set-B,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-040,,HDSP-set-B,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-047,,HDSP-set-B,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-049,,HDSP-set-B,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-055,,HDSP-set-B,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-056,,HDSP-set-B,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-061,,HDSP-set-B,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-062,,HDSP-set-B,one of the union of HDSP-set-A + HDSP-set-B,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-013,,HDSP-set-C,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-014,,HDSP-set-C,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-022,,HDSP-set-C,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-023,,HDSP-set-C,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-048,,HDSP-set-C,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-051,,HDSP-set-C,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-059,,HDSP-set-C,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-060,,HDSP-set-C,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-013,,HDSP-set-D,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-014,,HDSP-set-D,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-022,,HDSP-set-D,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-023,,HDSP-set-D,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-048,,HDSP-set-D,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-051,,HDSP-set-D,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-059,,HDSP-set-D,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-HDSP,HDSP-fp-060,,HDSP-set-D,one of the union of HDSP-set-C + HDSP-set-D,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,"no source says which footprint is which place, or which yard"
-KVSP,KVSP-fp-006,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-007,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-009,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-010,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-023,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-024,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-028,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-030,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-035,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-036,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-040,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-041,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-058,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-059,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-062,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-KVSP,KVSP-fp-063,,KVSP-set-180,one of the set,count match: 16 180_housing_unit footprints = 16 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-050,,SVSP-set-270,one of the set,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-051,,SVSP-set-270,one of the set,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-053,,SVSP-set-270,one of the set,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-063,,SVSP-set-270,one of the set,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-068,,SVSP-set-270,one of the set,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-072,,SVSP-set-270,one of the set,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-075,,SVSP-set-270,one of the set,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-076,,SVSP-set-270,one of the set,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-077,,SVSP-set-270,one of the set,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-078,,SVSP-set-270,one of the set,count match: 10 270_housing_unit footprints = 10 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-010,,SVSP-set-180,one of the set,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-013,,SVSP-set-180,one of the set,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-019,,SVSP-set-180,one of the set,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-025,,SVSP-set-180,one of the set,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-027,,SVSP-set-180,one of the set,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-033,,SVSP-set-180,one of the set,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-043,,SVSP-set-180,one of the set,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
-SVSP,SVSP-fp-044,,SVSP-set-180,one of the set,count match: 8 180_housing_unit footprints = 8 places,building_heights.csv + place_sets.csv,,,no source says which footprint is which place
+cdcr_code,footprint_id,place_key,relation,basis,source,source_name,place_name,note
+CMC,CMC-fp-081,CMC-spi14922,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682939320,Administration (A),Administration Bldg. - Bldg A,
+CMC,CMC-fp-081,CMC-149,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681232254,Auditorium & Gymnasium (G),Gymnasium - Bldg G,
+CMC,CMC-fp-062,CMC-spi14976,same as building,OSM name carries the SPI building letter or number,OSM way/681198197,BC,Armory - Bldg Bc,
+CMC,CMC-fp-081,CMC-spi14933,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681232252,Catholic Chapel (J),Catholic Chapel - Bldg J,
+CMC,CMC-fp-081,CMC-spi14936,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681232255,"Cloth, Dist, & Din ""C"" Quad (L)","Classrooms,Dining Rooms,Offices - Bldg L",
+CMC,CMC-fp-089,CMC-303,same as building,OSM name carries the SPI building letter or number,OSM way/204437395,Dormitory 31 (303),Dormitory 31 (303),
+CMC,CMC-fp-087,CMC-304,same as building,OSM name carries the SPI building letter or number,OSM way/204437393,Dormitory 32 (304),Dormitory 32 (304),
+CMC,CMC-fp-084,CMC-305,same as building,OSM name carries the SPI building letter or number,OSM way/204437394,Dormitory 33 (305),Dormitory 33 (305),
+CMC,CMC-fp-078,CMC-308,same as building,OSM name carries the SPI building letter or number,OSM way/204435962,Dormitory 34 (308),Dormitory 34 (308),
+CMC,CMC-fp-081,CMC-spi14924,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682939319,"Ed. Clssrm.& Din. Rm./""A"" Quad (B)","Dining Rooms,Classrooms, Offices-Bldg B",
+CMC,CMC-fp-051,CMC-spi14950,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952981,Gun Tower 2 (T2),Gun Tower - Bldg T-2,
+CMC,CMC-fp-081,CMC-spi14954,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681447756,Gun Tower 6 (T6),Gun Tower - Bldg T-6,
+CMC,CMC-fp-081,CMC-spi14932,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681437205,Handicraft and Voc. Shoe Repair (H),"Education, Bldg H",
+CMC,CMC-fp-081,CMC-spi14925,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682939317,Hospital & Segregation (C),"Hospital, Administrative Segregation - C",
+CMC,CMC-fp-051,CMC-3,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800667,"Housing Unit/ ""B"" Quad (E)","Housing Unit, Bldg.3 (E)",
+CMC,CMC-fp-051,CMC-4,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800685,"Housing Unit/ ""B"" Quad (F)","Housing Unit, Bldg.4 (F)",
+CMC,CMC-fp-081,CMC-5,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800661,"Housing Unit/ ""C"" Quad (M)","Housing Unit, Bldg 5 (M)",SPI agency number and name disagree on M/N; linked by the SPI name
+CMC,CMC-fp-093,CMC-6,same as building,OSM name carries the SPI building letter or number,OSM way/264800636,"Housing Unit/ ""C"" Quad (N)",Housing Unit Bldg. 6 (N),SPI agency number and name disagree on M/N; linked by the SPI name
+CMC,CMC-fp-081,CMC-7,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800662,"Housing Unit/ ""D"" Quad (S)",Housing Unit Bldg. 7 (S),
+CMC,CMC-fp-081,CMC-8,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800635,"Housing Unit/ ""D"" Quad (T)",Housing Unit Bldg. 8 (T),
+CMC,CMC-fp-060,CMC-1,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800641,"Housing Unit/""A"" Quad (AA)",Housing Unit Bldg. 1 (Aa),
+CMC,CMC-fp-060,CMC-2,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800658,"Housing Unit/""A"" Quad (AB)",Housing Unit Bldg. 2 (Ab),
+CMC,CMC-fp-081,CMC-P1,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952976,Industries; Guard Station (P1),Guard Station - Bldg P1,
+CMC,CMC-fp-081,CMC-spi14941,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952978,Industries; Shoe Fact./Knit. Mill (P),"Shoe Factory, Knitting Mill - Bldg P",
+CMC,CMC-fp-081,CMC-spi14946,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952979,Industries; Tag Printing Plant (R),Pia Print Plant - Bldg R,
+CMC,CMC-fp-081,CMC-K1,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681437203,Interfaith Chapel (K-1),Interfaith Chape - Bldg K1,
+CMC,CMC-fp-076,CMC-X1,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682957072,"Kitchen, Storage (X-1)",Kitchen Storage - Bldg X1,
+CMC,CMC-fp-076,CMC-spi14960,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952985,Kitchen/ Bakery & Inmate Canteen (X),"Kitchen, Bakery, Canteen - Bldg X",
+CMC,CMC-fp-081,CMC-spi14957,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800652,Laundry (U),"Laundry, Jacket Factory - U",
+CMC,CMC-fp-081,CMC-spi14927,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682939316,Library & Dining Room (D),"Classrooms, Offices, Dinning Rooms - D",
+CMC,CMC-fp-076,CMC-spi14965,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800642,"Maintenance, Flam. Storage/ Shops (ZB)","Flamable Storage, Refer. Mechanic- Zb",
+CMC,CMC-ovt-005,CMC-spi14958,same as building,OSM name carries the SPI building letter or number,OSM way/681468063,"Maintenance, Paint Shop (V)",Maint. Paint - Bldg V,
+CMC,CMC-fp-081,CMC-spi14943,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952977,"O. Therapy & Din. Rm. /""D"" Quad (Q)","Dining Rooms,Offices,Classrooms,Pia - Q",
+CMC,CMC-fp-081,CMC-spi14934,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/681232253,Protestant Chapel (K),Protestant Chapel - Bldg K,
+CMC,CMC-ovt-002,CMC-D1,same as building,OSM name carries the SPI building letter or number,OSM way/682939314,"Psychiatric Unit Offices ""B"" Quad (D1)",B-Quad Psychiatric Unit - Bldg D1,
+CMC,CMC-fp-081,CMC-L1,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682942633,"Psychiatric Unit Offices / ""C"" Quad (L1)",C-Quad Psychiatric Unit - Bldg L1,
+CMC,CMC-fp-081,CMC-Q2,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952975,"Psychiatric Unit Offices/ ""D"" Quad (Q2)",D-Quad Dispensary Unit - Bldg Q2,
+CMC,CMC-fp-081,CMC-Q1,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/682952974,"Psychiatric Unit Offices/""D"" Quad (Q1)",D-Quad Psychiatric Unit - Bldg Q1,
+CMC,CMC-fp-053,CMC-spi14969,same as building,OSM name carries the SPI building letter or number,OSM way/682955103,Rec. Shack/ B-Q Mini-Canteen/Barber (AD),Recreation Storage Shack - Bldg Ad,
+CMC,CMC-fp-057,CMC-spi14968,same as building,OSM name carries the SPI building letter or number,OSM way/264800657,Rec. Shack/A-Q Mini-Canteen (AC),Recreation Storage Shack - Bldg Ac,
+CMC,CMC-fp-081,CMC-spi14973,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800670,Vehicle Paint Booth (BN),Paint Booth - Bldg Bn,
+CMC,CMC-fp-076,CMC-spi14963,footprint holds several places,OSM name carries the SPI building letter or number,OSM way/264800619,Voc. Classrooms & Maint. Shops (Z),Maintenance & Vocational Shops-Bldg Z,
+COR,COR-fp-001,COR-3A01,same as building,OSM name is the SPI building code,OSM way/299894831,3A01,3A-01 Inmate Housing,
+COR,COR-fp-002,COR-3A02,same as building,OSM name is the SPI building code,OSM way/299894051,3A02,3A-02 Inmate Housing,
+COR,COR-fp-005,COR-3A03,same as building,OSM name is the SPI building code,OSM way/299894285,3A03,3A-03 Inmate Housing,
+COR,COR-fp-011,COR-3A04,same as building,OSM name is the SPI building code,OSM way/299894673,3A04,3A-04 Inmate Housing,
+COR,COR-fp-017,COR-3A05,same as building,OSM name is the SPI building code,OSM way/299894734,3A05,3A-05 Inmate Housing,
+COR,COR-fp-036,COR-3B01,same as building,OSM name is the SPI building code,OSM way/299903045,3B01,Building 3B01 Inmate Housing,
+COR,COR-fp-041,COR-3B02,same as building,OSM name is the SPI building code,OSM way/299902931,3B02,Building 3B02 Inmate Housing,
+COR,COR-fp-045,COR-3B03,same as building,OSM name is the SPI building code,OSM way/299902683,3B03,Building 3B03 Inmate Housing,
+COR,COR-fp-040,COR-3B04,same as building,OSM name is the SPI building code,OSM way/299902569,3B04,Building 3B04 Inmate Housing,
+COR,COR-fp-037,COR-3B05,same as building,OSM name is the SPI building code,OSM way/299902228,3B05,Building 3B05 Inmate Housing,
+COR,COR-fp-051,COR-3C01,same as building,OSM name is the SPI building code,OSM way/299906708,3C01,Building 3C01 Inmate Housing,
+COR,COR-fp-056,COR-3C02,same as building,OSM name is the SPI building code,OSM way/299906754,3C02,Building 3C02 Inmate Housing,
+COR,COR-fp-061,COR-3C03,same as building,OSM name is the SPI building code,OSM way/299906792,3C03,Building 3C03 Inmate Housing,
+COR,COR-fp-063,COR-3C04,same as building,OSM name is the SPI building code,OSM way/299906897,3C04,Building 3C04 Inmate Housing,
+COR,COR-fp-064,COR-3C05,same as building,OSM name is the SPI building code,OSM way/299906921,3C05,Building 3C05 Inmate Housing,
+COR,COR-fp-022,COR-4A01,same as building,OSM name is the SPI building code,OSM way/299911137,4A1,4A01 Inmate Housing,
+COR,COR-fp-012,COR-4A02,same as building,OSM name is the SPI building code,OSM way/299911037,4A2,4A02 Inmate Housing Level Iv,OSM point is about 3 m outside this V-shaped footprint; next nearest is about 33 m away
+COR,COR-fp-007,COR-4A03,same as building,OSM name is the SPI building code,OSM way/299909166,4A3,4A03 Inmate Houseing Level Iv,
+COR,COR-fp-009,COR-4A04,same as building,OSM name is the SPI building code,OSM way/299908468,4A4,4A04 Inmate Housing Level Iv,OSM point is about 4 m outside this V-shaped footprint; next nearest is about 37 m away
+COR,COR-fp-057,COR-4B01,same as building,OSM name is the SPI building code,OSM way/299911671,4B1,Building 4B01 Inmate Housing Level Iv,OSM point is about 9 m outside this V-shaped footprint; next nearest is about 33 m away
+COR,COR-fp-059,COR-4B02,same as building,OSM name is the SPI building code,OSM way/299911598,4B2,Building 4B02 Inmate Housing Level Iv,OSM point is about 2 m outside this V-shaped footprint; next nearest is about 36 m away
+COR,COR-fp-055,COR-4B03,same as building,OSM name is the SPI building code,OSM way/299911556,4B3,Building 4B03 Inmate Housing Level Iv,OSM point is about 2 m outside this V-shaped footprint; next nearest is about 52 m away
+COR,COR-fp-048,COR-4B04,same as building,OSM name is the SPI building code,OSM way/299911450,4B4,Building 4B04 Inmate Housing Level Iv,
+SQ,SQ-fp-016,SQ-20,same as building,OSM name and SPI name match,OSM way/304319150,Adjustment Center / Death Row Unit 2,Adjustment Center,
+SQ,SQ-fp-002,SQ-26,footprint holds several places,OSM name and SPI name match,OSM way/304319934,Dining Halls,Food Service;Dining Halls and Kitchen,
+SQ,SQ-fp-002,SQ-24,footprint holds several places,OSM name and SPI name match,OSM way/1118176647,East Cell Block,East Block,
+SQ,SQ-fp-009,SQ-33,same as building,OSM name and SPI name match,OSM way/152680449,Gymnasium,Gymnasium,
+SQ,SQ-fp-026,SQ-39,same as building,OSM name and SPI name match,OSM way/786174695,Mattress Manufacturing,Mattress - Factory,
+SQ,SQ-fp-002,SQ-23,footprint holds several places,OSM name and SPI name match,OSM way/304319151,North Cell Block / Death Row Unit 1,North Block,
+SQ,SQ-fp-002,SQ-28,footprint holds several places,OSM name and SPI name match,OSM way/1118176648,South Cell Block,South Block,
+SQ,SQ-fp-002,SQ-30,footprint holds several places,OSM name and SPI name match,OSM way/1118176649,West Cell Block,West Block,
