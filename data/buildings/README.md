@@ -6,8 +6,8 @@ Capital project logs, condition ratings, institution profiles, the state propert
 
 | File | One row is | Coverage | Source |
 | :--- | :--- | :--- | :--- |
-| `building_heights.csv` | A standing building or shade canopy inside a CDCR institution boundary: footprint geometry metrics, LiDAR roof heights, building category, and story count | 34 institutions (2,017 footprints; LiDAR 2014–2023, NAIP 2024) | USGS 3DEP LiDAR, FEMA USA Structures, Overture Maps, USDA NAIP |
-| `building_footprints.geojson` | GeoJSON polygon feature matching `building_heights.csv` 1:1 on `footprint_id` | 34 institutions (2,017 polygons) | FEMA USA Structures, Overture Maps, LiDAR/NAIP patches |
+| `building_heights.csv` | A standing building or shade canopy inside a CDCR institution boundary: footprint geometry metrics, LiDAR roof heights, building category, and story count | 34 institutions (2,011 footprints; LiDAR 2014–2023, NAIP 2024) | USGS 3DEP LiDAR, FEMA USA Structures, Overture Maps, USDA NAIP |
+| `building_footprints.geojson` | GeoJSON polygon feature matching `building_heights.csv` 1:1 on `footprint_id` | 34 institutions (2,011 polygons) | FEMA USA Structures, Overture Maps, LiDAR/NAIP patches |
 | `mpar_projects.csv` | A capital project in one year's report: status, phase, funding or cost, scope, justification | Reports 2022–2025 | Master Plan Annual Reports (MPAR) |
 | `mpar_envelope_last_completed.csv` | An institution: most recent roofing or envelope project | Reports 2020–2025 | MPAR |
 | `infrastructure_plan_profiles_2026.csv` | An institution: square footage, acres, design capacity by bed type, security levels, treatment plants, deactivations | April 2026 | Infrastructure Master Plan, Appendix 1 |
@@ -42,7 +42,7 @@ In `building_heights.csv` (and `building_footprints.geojson` feature properties)
 | `footprint_source` | Geometry provenance (`usa_structures`, `overture_patch`, `lidar_naip_patch`). |
 | `building_category` | Broad functional group: `housing`, `program_admin_medical`, `support_warehouse_pia`, `guard_tower_utility`, or `canopy`. |
 | `is_housing`, `housing_prototype` | Whether the structure houses incarcerated people (`yes`/`no`) and architectural prototype tag (e.g., `270_housing_unit`, `180_housing_unit`, `level1_dorm_standard`, `cross_pod_dorm_1story`, or `non_housing`). |
-| `stories`, `stories_range` | Point story count and plausible min–max tier range (`1`, `1-2`, `2`, `2-3`, `3`, `1-3`, `3-6`, `5`, `6`); blank when indeterminate (`canopy`). Counts occupied levels: interior cell tiers count as stories where a source or the heat logs document them, because tiers of 9–10 ft can fit three under a 26–30 ft roof. LiDAR measures only the exterior roof. |
+| `stories`, `stories_range` | Point story count and plausible min–max tier range (`1`, `1-2`, `2`, `2-3`, `3`, `1-3`, `3-6`, `5`, `6`); blank when indeterminate (`canopy`, or built after the LiDAR). Counts occupied levels: interior cell tiers count as stories where a source or the heat logs document them, because tiers of 9–10 ft can fit three under a 26–30 ft roof. LiDAR measures only the exterior roof. |
 | `story_confidence`, `story_method` | Story confidence (`high`, `medium`, `indeterminate`) and derivation method. |
 | `roof_p10_ft`–`roof_p98_ft`, `roof_spread_ft` | LiDAR roof height percentiles above ground (`ft`) and `p90 - p10` spread; blank where LiDAR height is unavailable. |
 | `multi_tier_flag`, `sub_tier_heights_ft` | Whether distinct multi-tier roof modes appear (`yes`/`no`) and peak height modes with point shares. |

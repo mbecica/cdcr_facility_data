@@ -405,6 +405,11 @@ def run_classify(qa_png: bool = False, codes: list[str] | None = None) -> None:
                 merged["triage_status"] = "excluded_non_occupied"
             elif ov:
                 res = apply_override(res, ov)
+                if ov.get("post_lidar_building"):
+                    merged["triage_status"] = "new_post_lidar_bldg"
+                    merged.update({c: "" for c in merged if c.startswith("roof_") and c.endswith("_ft")})
+                    merged.update(multi_tier_flag="no", height_source="none")
+                    res["sub_tier_heights_ft"] = ""
             merged.update(res)
             out_rows.append(merged)
 

@@ -1,6 +1,6 @@
 # Building Heights & Footprints Pipeline
 
-Builds `data/buildings/building_heights.csv` and `data/buildings/building_footprints.geojson` across all 34 adult CDCR institutions (`2,017` standing structures and shade canopies; LiDAR collections 2014–2023, visually verified against 2024 NAIP imagery).
+Builds `data/buildings/building_heights.csv` and `data/buildings/building_footprints.geojson` across all 34 adult CDCR institutions (`2,011` standing structures and shade canopies; LiDAR collections 2014–2023, visually verified against 2024 NAIP imagery).
 
 ## Modules
 
