@@ -16,6 +16,8 @@ Rules:
 - Only cells with a reading; blank, illegible and redacted cells are left out.
 - Every value in a multi-value cell stays as its own row with value_label, as in raw.
 - A cell repeated on the same page (same string, date, time, value_label and temp_f) is kept once.
+- Location columns come from indoor/locations.csv, with their basis columns (unit_source,
+  place_relation, level_source) so inferred values can be told from written ones.
 - Two records for the same place and hour are both kept (e.g. CCI's weekly CDCR 2031 sheet and its
   hourly sheets, or two real logs for one section); `form` and `location_note` tell them apart.
 - Doubtful readings keep their published value; `doubtful` = yes where raw status is unsure or
@@ -34,8 +36,8 @@ OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else REPO / 'data/heat/heat_plan_20
 IND = REPO / 'data/heat/heat_plan_2024/indoor'
 RULES = Path(__file__).resolve().parent / 'heat_log_clean'
 
-LOC_COLS = ['facility_key', 'unit_key', 'place_key', 'place_type', 'section', 'level',
-            'place_part', 'location_type', 'room_kind', 'location_note']
+LOC_COLS = ['facility_key', 'unit_key', 'unit_source', 'place_key', 'place_relation', 'place_type', 'section',
+            'level', 'level_source', 'part_key', 'location_type', 'room_kind', 'location_note']
 COLS = (['package', 'page', 'cdcr_code', 'form', 'housing_unit_as_written'] + LOC_COLS
         + ['day', 'date', 'time', 'value_label', 'temp_f', 'doubtful'])
 

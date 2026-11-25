@@ -36,7 +36,7 @@ Tables from CDCR's 2024 Heat Plan monthly packages, May–October, released unde
 | `unit_key` | The housing unit (`housing_units.csv`). |
 | `unit_source` | `string` (the page's own string), `page (hand)`, `page (review)` or `page (rule)` (the unit is set for the page). |
 | `place_key` | The building (`places.csv`) or set of identical buildings (`place_sets.csv`); `;` separates several. |
-| `place_part` | The part of the building the unit is (`place_parts.csv`). |
+| `part_key` | The part of the building the unit is (`place_parts.csv`); `;` separates several, in the order of `place_key`. |
 | `place_relation` | The unit's link to the place, as `relation` in `unit_links.csv`; `several places` when its links differ, `unit not linked to a place`, or `non-housing place`. |
 | `section` | Section, side, wing or zone (`A`–`H`, `EAST`, `WEST`, `ZONE 1`, `ZONE 2`). |
 | `place_type` | `housing`, or a non-housing type: `work/industry`, `education`, `dining`, `program office/admin`, `kitchen`, `chapel`, `canteen`, `health care`, `gym/recreation`, `visiting`, `other non-housing`. |
